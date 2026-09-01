@@ -304,7 +304,6 @@ PARELLES += [
 for _p in sorted(_POSTS, key=lambda x: x["data"], reverse=True)[:3]:
     for _pa in [
         (f'href="/blog/{_p["slug"]}/"', f'href="/es/blog/{_p["slug_es"]}/"'),
-        (f'alt="{_e(_p["img_alt"])}"', f'alt="{_e(_p["img_alt_es"])}"'),
         (f'<span class="cat-post">{_e(_p["categoria"])}</span>',
          f'<span class="cat-post">{_e(_p["categoria_es"])}</span>'),
         (f'<h3>{_e(_p["h1"])}</h3>', f'<h3>{_e(_p["h1_es"])}</h3>'),

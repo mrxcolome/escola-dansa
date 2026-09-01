@@ -417,7 +417,6 @@ def modul_home():
     posts3 = sorted(POSTS, key=lambda p: p["data"], reverse=True)[:3]
     cards = "\n".join(
         f'  <a class="bloc-post reveal" href="/blog/{p["slug"]}/">'
-        f'<img src="/assets/{p["img"]}" alt="{gp.esc(p["img_alt"])}" loading="lazy" width="1600" height="900">'
         f'<div><span class="cat-post">{gp.esc(p["categoria"])}</span><h3>{gp.esc(p["h1"])}</h3>'
         f'<p>{gp.esc(p["excerpt"])}</p><span class="peu-card">{gp.esc(p["data_ca"])}</span></div></a>'
         for p in posts3)
