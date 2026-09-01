@@ -135,6 +135,12 @@ nav.solida{background:rgba(10,10,10,.85);backdrop-filter:blur(14px);padding:10px
 .idioma-menu a.actiu{color:var(--granat-viu);font-weight:800}
 /* selector d'idioma (mòbil): cat / es fix a dalt a la dreta */
 .idioma-mobil{display:none}
+/* avís de galetes (GA4 només amb consentiment) */
+.avis-galetes{position:fixed;left:16px;right:16px;bottom:16px;z-index:180;background:var(--gris-fosc);border:1px solid var(--vora);border-radius:16px;padding:18px 22px;display:none;gap:14px;align-items:center;justify-content:space-between;flex-wrap:wrap;box-shadow:0 18px 50px rgba(0,0,0,.55)}
+.avis-galetes.visible{display:flex}
+.avis-galetes p{font-size:var(--text);color:var(--gris);font-weight:400;max-width:620px}
+.avis-galetes .boto{padding:11px 22px;margin:0 8px 0 0}
+@media (min-width:701px){.avis-galetes{left:auto;max-width:560px}}
 .hamburguesa{display:none;background:none;border:0;cursor:pointer;z-index:110;padding:8px}
 .hamburguesa span{display:block;width:26px;height:2px;background:var(--blanc);margin:6px 0;transition:transform .3s,opacity .3s}
 .menu-obert .hamburguesa span:nth-child(1){transform:translateY(8px) rotate(45deg)}
@@ -721,6 +727,11 @@ details.faq{border-bottom:1px solid var(--vora)}
   <a href="/" class="actiu">cat</a><span>/</span><a href="/es/">es</a>
 </div>
 
+<div class="avis-galetes" id="avisGaletes">
+  <p>🍪 Fem servir galetes d'anàlisi (Google Analytics) per entendre com s'utilitza la web i millorar-la.</p>
+  <div><button class="boto boto-ple" id="galetesSi">d'acord</button><button class="boto boto-buit" id="galetesNo">no, gràcies</button></div>
+</div>
+
 <main id="principal">
 
 <!-- ===== HERO ===== -->
@@ -1042,6 +1053,8 @@ details.faq{border-bottom:1px solid var(--vora)}
       <p>El teu consentiment, que dónes en marcar la casella i apuntar-te al butlletí. El pots retirar quan vulguis.</p>
       <h3>destinataris</h3>
       <p>Les dades es desen a Mailchimp (The Rocket Science Group LLC), la plataforma que fem servir per enviar els correus, acollida a marcs de protecció de dades UE–EUA. No cedim les teves dades a ningú més.</p>
+      <h3>galetes</h3>
+      <p>Només amb el teu consentiment (banner de galetes), fem servir Google Analytics per obtenir estadístiques anònimes d'ús de la web. Si les rebutges, no es carrega cap galeta d'anàlisi. Pots canviar d'opinió esborrant les galetes del teu navegador.</p>
       <h3>drets</h3>
       <p>Pots accedir, rectificar o suprimir les teves dades, o oposar-te al tractament, escrivint-nos o trucant-nos a l'escola. També pots donar-te de baixa directament des de l'enllaç que trobaràs al peu de cada correu.</p>
     </div>
@@ -1683,6 +1696,30 @@ function bucle(){
 }
 requestAnimationFrame(bucle);
 window.__reprenBucle = () => { window.__pausaBucle = false; requestAnimationFrame(bucle); };
+
+// ===== GALETES + GA4 (només amb consentiment, RGPD) =====
+(function(){
+  var GA = 'G-02LC4FLNZ5';
+  function engega(){
+    var s = document.createElement('script'); s.async = true;
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=' + GA;
+    document.head.appendChild(s);
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){ dataLayer.push(arguments); }
+    window.gtag = gtag;
+    gtag('js', new Date());
+    gtag('config', GA, {anonymize_ip: true});
+  }
+  var tria = null; try{ tria = localStorage.getItem('galetes'); }catch(e){}
+  var b = document.getElementById('avisGaletes');
+  if (tria === 'si'){ engega(); if (b) b.remove(); }
+  else if (tria === 'no'){ if (b) b.remove(); }
+  else if (b){
+    b.classList.add('visible');
+    document.getElementById('galetesSi').addEventListener('click', function(){ try{ localStorage.setItem('galetes','si'); }catch(e){} engega(); b.remove(); });
+    document.getElementById('galetesNo').addEventListener('click', function(){ try{ localStorage.setItem('galetes','no'); }catch(e){} b.remove(); });
+  }
+})();
 </script>
 </body>
 </html>

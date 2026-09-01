@@ -275,6 +275,16 @@ _WA_CA = "Hola!%20M%27agradaria%20informaci%C3%B3%20sobre%20les%20classes"
 _WA_ES = "%C2%A1Hola!%20Me%20gustar%C3%ADa%20informaci%C3%B3n%20sobre%20las%20clases"
 PARELLES.append((_WA_CA, _WA_ES))
 
+PARELLES += [
+    ("🍪 Fem servir galetes d'anàlisi (Google Analytics) per entendre com s'utilitza la web i millorar-la.",
+     '🍪 Usamos cookies de análisis (Google Analytics) para entender cómo se utiliza la web y mejorarla.'),
+    (">d'acord</button>", '>de acuerdo</button>'),
+    ('>no, gràcies</button>', '>no, gracias</button>'),
+    ('<h3>galetes</h3>', '<h3>cookies</h3>'),
+    ("Només amb el teu consentiment (banner de galetes), fem servir Google Analytics per obtenir estadístiques anònimes d'ús de la web. Si les rebutges, no es carrega cap galeta d'anàlisi. Pots canviar d'opinió esborrant les galetes del teu navegador.",
+     'Solo con tu consentimiento (banner de cookies), usamos Google Analytics para obtener estadísticas anónimas de uso de la web. Si las rechazas, no se carga ninguna cookie de análisis. Puedes cambiar de opinión borrando las cookies de tu navegador.'),
+]
+
 # rutes relatives d'assets: des de /es/ s'han de fer absolutes
 PARELLES += [
     ('"assets/', '"/assets/'),

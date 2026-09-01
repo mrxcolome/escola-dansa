@@ -495,6 +495,12 @@ nav.solida{background:rgba(10,10,10,.85);backdrop-filter:blur(14px);padding:10px
 .idioma-menu a.actiu{color:var(--granat-viu);font-weight:800}
 /* selector d'idioma (mòbil): cat / es fix a dalt a la dreta */
 .idioma-mobil{display:none}
+/* avís de galetes (GA4 només amb consentiment) */
+.avis-galetes{position:fixed;left:16px;right:16px;bottom:16px;z-index:180;background:var(--gris-fosc);border:1px solid var(--vora);border-radius:16px;padding:18px 22px;display:none;gap:14px;align-items:center;justify-content:space-between;flex-wrap:wrap;box-shadow:0 18px 50px rgba(0,0,0,.55)}
+.avis-galetes.visible{display:flex}
+.avis-galetes p{font-size:var(--text);color:var(--gris);font-weight:400;max-width:620px}
+.avis-galetes .boto{padding:11px 22px;margin:0 8px 0 0}
+@media (min-width:701px){.avis-galetes{left:auto;max-width:560px}}
 header.capsal{padding:150px 5vw 60px;max-width:1100px;margin:0 auto}
 .molla{font-size:var(--text-vermells);letter-spacing:.08em;color:var(--gris);margin-bottom:26px;text-transform:lowercase}
 .molla a{color:var(--gris);transition:color .3s}
@@ -600,6 +606,24 @@ const nav=document.getElementById('nav');
 addEventListener('scroll',()=>nav.classList.toggle('solida',scrollY>40),{passive:true});
 const obs=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('vist');obs.unobserve(e.target)}}),{threshold:.12,rootMargin:'0px 0px -6% 0px'});
 document.querySelectorAll('.reveal').forEach(el=>obs.observe(el));
+// GA4 nomes amb consentiment (RGPD): res no es carrega fins que l'usuari accepta
+(function(){
+  var GA='G-02LC4FLNZ5';
+  function engega(){
+    var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id='+GA;document.head.appendChild(s);
+    window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}window.gtag=gtag;
+    gtag('js',new Date());gtag('config',GA,{anonymize_ip:true});
+  }
+  var tria=null;try{tria=localStorage.getItem('galetes');}catch(e){}
+  var b=document.getElementById('avisGaletes');
+  if(tria==='si'){engega();if(b)b.remove();}
+  else if(tria==='no'){if(b)b.remove();}
+  else if(b){
+    b.classList.add('visible');
+    document.getElementById('galetesSi').addEventListener('click',function(){try{localStorage.setItem('galetes','si');}catch(e){}engega();b.remove();});
+    document.getElementById('galetesNo').addEventListener('click',function(){try{localStorage.setItem('galetes','no');}catch(e){}b.remove();});
+  }
+})();
 """
 
 
@@ -1023,6 +1047,11 @@ def genera(p):
   <a href="{url_ca}"{' class="actiu"' if lang == 'ca' else ''}>cat</a><span>/</span><a href="{url_es}"{' class="actiu"' if lang == 'es' else ''}>es</a>
 </div>
 
+<div class="avis-galetes" id="avisGaletes">
+  <p>🍪 Fem servir galetes d'anàlisi (Google Analytics) per entendre com s'utilitza la web i millorar-la.</p>
+  <div><button class="boto boto-ple" id="galetesSi">d'acord</button><button class="boto boto-buit" id="galetesNo">no, gràcies</button></div>
+</div>
+
 <main>
   <header class="capsal">
     <p class="molla"><a href="/">inici</a> · {p.get("molla_mig", '<a href="/#activitats">activitats</a> · ')}<span>{esc(p["nom"])}</span></p>
@@ -1185,6 +1214,10 @@ def fixos_es():
         ('<strong>com arribar?</strong>', '<strong>¿cómo llegar?</strong>'),
         ('<small>resposta al moment</small>', '<small>respuesta al momento</small>'),
         (_WA_CA, _WA_ES),
+        ("🍪 Fem servir galetes d'anàlisi (Google Analytics) per entendre com s'utilitza la web i millorar-la.",
+         '🍪 Usamos cookies de análisis (Google Analytics) para entender cómo se utiliza la web y mejorarla.'),
+        (">d'acord</button>", '>de acuerdo</button>'),
+        ('>no, gràcies</button>', '>no, gracias</button>'),
         # JSON-LD: breadcrumb i idioma
         ('"name": "inici", "item": "https://escoladansa.com/"', '"name": "inicio", "item": "https://escoladansa.com/es/"'),
         ('"name": "activitats", "item": "https://escoladansa.com/#activitats"', '"name": "actividades", "item": "https://escoladansa.com/es/#activitats"'),
