@@ -483,7 +483,7 @@ nav.solida{background:rgba(10,10,10,.85);backdrop-filter:blur(14px);padding:10px
 .nav-links a{opacity:.85;transition:opacity .3s}
 .nav-links a:hover{opacity:1}
 /* selector d'idioma (desktop): desplegable en mouseover */
-.idioma{position:relative;margin-left:22px;cursor:pointer}
+.idioma{position:relative;margin-left:5vw;margin-right:-2.5vw;cursor:pointer}
 .idioma-etiq{opacity:.85;transition:opacity .3s}
 .idioma:hover .idioma-etiq,.idioma:focus-within .idioma-etiq{opacity:1}
 .idioma-menu{position:absolute;top:100%;right:0;padding-top:16px;display:none;min-width:150px}
@@ -568,9 +568,9 @@ footer.peu{border-top:1px solid var(--vora);padding:34px 5vw;display:flex;flex-w
 @media (max-width:700px){
   :root{--text:1.15rem;--text-vermells:1rem}
   .nav-links{display:none}
-  .idioma-mobil{display:flex;gap:8px;align-items:center;position:fixed;top:18px;right:5vw;z-index:120;font-size:var(--text);font-weight:600}
+  .idioma-mobil{display:flex;gap:8px;align-items:center;position:fixed;top:18px;right:5vw;z-index:120;font-size:var(--text);font-weight:400}
   .idioma-mobil a{color:var(--gris)}
-  .idioma-mobil a.actiu{color:var(--blanc);font-weight:800}
+  .idioma-mobil a.actiu{color:var(--blanc)}
   .idioma-mobil span{color:var(--gris)}
   header.capsal{padding-top:110px}
   h2{font-size:2.35rem}
