@@ -12,25 +12,25 @@ RewriteRule ^ https://escoladansa.com%{REQUEST_URI} [L,R=301]
 
 # ── Redireccions de la web antiga (WordPress) cap a l'estructura nova ──
 # seccions principals
-RewriteRule ^inici/?$ / [L,R=301]
-RewriteRule ^escola/?$ /#escola [L,R=301,NE]
-RewriteRule ^(activitats|category/activitats)/?$ /#activitats [L,R=301,NE]
-RewriteRule ^contacte/?$ /#contacte [L,R=301,NE]
+RewriteRule ^inici/?$ https://escoladansa.com/ [L,R=301]
+RewriteRule ^escola/?$ https://escoladansa.com/#escola [L,R=301,NE]
+RewriteRule ^(activitats|category/activitats)/?$ https://escoladansa.com/#activitats [L,R=301,NE]
+RewriteRule ^contacte/?$ https://escoladansa.com/#contacte [L,R=301,NE]
 # subpàgines antigues d'horaris (graelles de cursos passats) -> pàgina d'horaris nova
-RewriteRule ^horaris/(?!index\.html$).+$ /horaris/ [L,R=301]
+RewriteRule ^horaris/(?!index\.html$).+$ https://escoladansa.com/horaris/ [L,R=301]
 # articles del blog amb destí millor que la home
-RewriteRule ^blog/classes-de-dansa-per-als-mes-petits/?$ /dansa-infantil/ [L,R=301]
-RewriteRule ^blog/modalitats-de-dansa-a-lescola-de-dansa-cristina-colome/?$ /#activitats [L,R=301,NE]
-RewriteRule ^blog/guia-dels-millors-maillots-de-dansa-i-on-comprar-los/?$ /ballet-classic/ [L,R=301]
-RewriteRule ^blog/escola-de-dansa-cristina-colome/?$ /#escola [L,R=301,NE]
-RewriteRule ^blog/beneficis-de-la-dansa-per-a-la-salut-fisica-i-mental/?$ /dansa-adults/ [L,R=301]
+RewriteRule ^blog/classes-de-dansa-per-als-mes-petits/?$ https://escoladansa.com/dansa-infantil/ [L,R=301]
+RewriteRule ^blog/modalitats-de-dansa-a-lescola-de-dansa-cristina-colome/?$ https://escoladansa.com/#activitats [L,R=301,NE]
+RewriteRule ^blog/guia-dels-millors-maillots-de-dansa-i-on-comprar-los/?$ https://escoladansa.com/ballet-classic/ [L,R=301]
+RewriteRule ^blog/escola-de-dansa-cristina-colome/?$ https://escoladansa.com/#escola [L,R=301,NE]
+RewriteRule ^blog/beneficis-de-la-dansa-per-a-la-salut-fisica-i-mental/?$ https://escoladansa.com/dansa-adults/ [L,R=301]
 # la resta del blog, etiquetes i arxius del WP -> home
-RewriteRule ^blog(/.*)?$ / [L,R=301]
-RewriteRule ^(tag|author|category)/.+$ / [L,R=301]
-RewriteRule ^inici_xmas(/.*)?$ / [L,R=301]
+RewriteRule ^blog(/.*)?$ https://escoladansa.com/ [L,R=301]
+RewriteRule ^(tag|author|category)/.+$ https://escoladansa.com/ [L,R=301]
+RewriteRule ^inici_xmas(/.*)?$ https://escoladansa.com/ [L,R=301]
 # casal i stage -> dansa infantil / home
-RewriteRule ^casal-infantil-diver-dansa(/.*)?$ /dansa-infantil/ [L,R=301]
-RewriteRule ^stage-juvenil-global-dance(/.*)?$ / [L,R=301]
+RewriteRule ^casal-infantil-diver-dansa(/.*)?$ https://escoladansa.com/dansa-infantil/ [L,R=301]
+RewriteRule ^stage-juvenil-global-dance(/.*)?$ https://escoladansa.com/ [L,R=301]
 
 # ── Pàgina 404 personalitzada ──
 ErrorDocument 404 /404.html
