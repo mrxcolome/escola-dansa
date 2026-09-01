@@ -19,6 +19,12 @@ jobs:
       - name: baixar el codi
         uses: actions/checkout@v4
 
+      - name: normalitzar la carpeta de destí (ha d'acabar amb /)
+        id: carpeta
+        env:
+          FTP_CARPETA: ${{ secrets.FTP_CARPETA }}
+        run: echo "dir=${FTP_CARPETA%/}/" >> "$GITHUB_OUTPUT"
+
       - name: sincronitzar per FTPS (només fitxers canviats)
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
@@ -26,7 +32,7 @@ jobs:
           username: ${{ secrets.FTP_USUARI }}
           password: ${{ secrets.FTP_CONTRASENYA }}
           protocol: ftps
-          server-dir: ${{ secrets.FTP_CARPETA }}
+          server-dir: ${{ steps.carpeta.outputs.dir }}
           exclude: |
             **/.git*
             **/.git*/**
