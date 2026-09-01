@@ -17,6 +17,26 @@ WHATSAPP_ACTIU = True  # WhatsApp Business del 934 17 98 86 operatiu des de l'1 
 TEL = "934 17 98 86"
 TEL_LINK = "+34934179886"
 
+# slug català -> slug castellà (URL amb paraula clau en cada llengua)
+SLUG_ES = {
+    "ballet-classic": "ballet-clasico",
+    "dansa-contemporania": "danza-contemporanea",
+    "jazz": "jazz",
+    "hip-hop": "hip-hop",
+    "claque": "claque",
+    "ball-espanyol": "baile-espanol",
+    "dansa-oriental": "danza-oriental",
+    "k-pop-heels": "k-pop-heels",
+    "musical-interpretacio": "musical-interpretacion",
+    "formacio-escenica": "formacion-escenica",
+    "cos-benestar": "cuerpo-bienestar",
+    "fit-dance": "fit-dance",
+    "dansa-infantil": "danza-infantil",
+    "dansa-adults": "danza-adultos",
+    "horaris": "horarios",
+    "preus": "precios",
+}
+
 # ─────────────────────────────────────────────────────────────────────────────
 # CONTINGUT DE LES PÀGINES
 # horaris: (dia, hora, grup, sala) — extret de la graella de l'index.html
@@ -915,14 +935,24 @@ for _p in PAGINES:
 
 def genera(p):
     url = f"{DOMINI}/{p['slug']}/"
+    lang = p.get("lang", "ca")
+    if lang == "ca":
+        url_ca = url
+        url_es = f"{DOMINI}/es/{SLUG_ES[p['slug']]}/"
+    else:
+        url_ca = f"{DOMINI}/{p['slug_ca']}/"
+        url_es = url
     return f"""<!DOCTYPE html>
-<html lang="ca">
+<html lang="{lang}">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{esc(p["title"])}</title>
 <meta name="description" content="{esc(p["desc"])}">
 <link rel="canonical" href="{url}">
+<link rel="alternate" hreflang="ca" href="{url_ca}">
+<link rel="alternate" hreflang="es" href="{url_es}">
+<link rel="alternate" hreflang="x-default" href="{url_ca}">
 <meta name="theme-color" content="#0a0a0a">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Escola de Dansa Cristina Colomé">
@@ -930,7 +960,7 @@ def genera(p):
 <meta property="og:description" content="{esc(p["desc"])}">
 <meta property="og:url" content="{url}">
 <meta property="og:image" content="{p.get("og", DOMINI + "/assets/og-escola.jpg")}">
-<meta property="og:locale" content="ca_ES">
+<meta property="og:locale" content="{'es_ES' if lang == 'es' else 'ca_ES'}">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="{p.get("og", DOMINI + "/assets/og-escola.jpg")}">
 <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png">
@@ -955,6 +985,7 @@ def genera(p):
     <a href="/preus/">preus</a>
     <a href="/#newsletter">newsletter</a>
     <a href="/#contacte">contacte</a>
+    <a href="{url_es if lang == 'ca' else url_ca}" hreflang="{'es' if lang == 'ca' else 'ca'}">{'ES' if lang == 'ca' else 'CA'}</a>
   </div>
 </nav>
 
@@ -975,13 +1006,179 @@ def genera(p):
 
 <footer class="peu">
   <span>escola de dansa cristina colomé</span>
-  <span>craywinckel, 25 · 08022 barcelona · <a href="tel:{TEL_LINK}">{TEL}</a></span>
+  <span>craywinckel, 25 · 08022 barcelona · <a href="tel:{TEL_LINK}">{TEL}</a> · <a href="{url_es if lang == 'ca' else url_ca}">{'versión en español' if lang == 'ca' else 'versió en català'}</a></span>
 </footer>
 
 <script>{JS}</script>
 </body>
 </html>
 """
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+# VERSIÓ EN CASTELLÀ (/es/) — contingut a traduccions_es.py, cadenes fixes aquí
+# ─────────────────────────────────────────────────────────────────────────────
+from traduccions_es import TRADUCCIONS_ES  # noqa: E402
+
+
+def _trad_grup(s):
+    for a, b in [("adults bàsic", "adultos básico"), ("adults avançat", "adultos avanzado"),
+                 ("adults intermedi", "adultos intermedio"), ("adults iniciació", "adultos iniciación"),
+                 ("juvenil avançat", "juvenil avanzado"), ("juvenil intermedi", "juvenil intermedio"),
+                 ("grup ", "grupo "), ("jazz, hip-hop, claqué, cant i interpretació",
+                                       "jazz, hip-hop, claqué, canto e interpretación")]:
+        s = s.replace(a, b)
+    return s
+
+
+TRAD_ACT = {"clàssic": "clásico", "clàssic puntes": "clásico puntas", "iniciació dansa": "iniciación danza",
+            "contemporani": "contemporáneo", "espanyol": "español", "dansa del ventre": "danza del vientre",
+            "ioga": "yoga", "interpretació": "interpretación", "formació escènica": "formación escénica"}
+TRAD_DIES = {"dilluns": "lunes", "dimarts": "martes", "dimecres": "miércoles",
+             "dijous": "jueves", "divendres": "viernes"}
+
+
+def cos_horaris_es():
+    dies = []
+    for dia, files in GRAELLA.items():
+        fs = "\n".join(
+            f'      <div class="fila-h"><span class="hora">{esc(h)}</span>'
+            f'<span class="nom">{esc(TRAD_ACT.get(nom, nom))}{f"<small>{esc(_trad_grup(grup))}</small>" if grup else ""}</span>'
+            f'<span class="sala">{esc(sala.replace("sales", "salas"))}</span></div>'
+            for h, nom, grup, sala in files
+        )
+        dies.append(f'''
+  <section class="reveal">
+    <h2 class="dia-titol">{TRAD_DIES[dia]}</h2>
+{fs}
+  </section>''')
+    return "".join(dies) + f'''
+  <section class="reveal">
+    <p class="text-gran">Cada actividad tiene su propia página con horarios, beneficios y preguntas: míralas todas en <a href="/es/#activitats" style="color:var(--granat-viu);font-weight:600">actividades</a>. Y si tienes dudas de nivel o de grupo, llámanos al <a href="tel:{TEL_LINK}" style="color:var(--granat-viu);font-weight:600">{TEL}</a> y te orientamos.</p>
+  </section>'''
+
+
+def cos_preus_es():
+    capc = ["", "1 día", "2 días", "3 días", "4 días"]
+    men = [("infantil",) + f[1:] if f[0] == "infantil" else
+           ("adultos · hasta 1 h",) + f[1:] if "fins" in f[0] else
+           ("adultos · más de 1 h",) + f[1:] for f in TARIFA_MENSUAL]
+    tri = [("infantil",) + f[1:] if f[0] == "infantil" else
+           ("adultos · hasta 1 h",) + f[1:] if "fins" in f[0] else
+           ("adultos · más de 1 h",) + f[1:] for f in TARIFA_TRIMESTRAL]
+    alt = [("matrícula antiguos alumnos", TARIFA_ALTRES[0][1]),
+           ("matrícula nuevos alumnos", TARIFA_ALTRES[1][1]),
+           ("formación escénica kids & teens", TARIFA_ALTRES[2][1].replace("mes", "mes").replace("trim", "trim")),
+           ("bailes de salón (10 sesiones)", TARIFA_ALTRES[3][1].replace("persona", "persona"))]
+    return f'''
+  <section class="reveal">
+{taula("cuota mensual", capc, men)}
+{taula("cuota trimestral", capc, tri)}
+{taula("matrícula y otros", None, alt)}
+    <p class="text-gran" style="margin-top:30px">También ofrecemos <strong>clases particulares</strong>, clases especiales para celebraciones (bodas, despedidas, cumpleaños) y talleres de fin de semana o de vacaciones (Navidad, Semana Santa y verano). Y novedad: ¡ven a celebrar tu cumpleaños con nosotros!</p>
+  </section>'''
+
+
+LD_BREADCRUMB_ES = lambda nom, slug_es: json.dumps({
+    "@context": "https://schema.org",
+    "@graph": [{
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {"@type": "ListItem", "position": 1, "name": "inicio", "item": DOMINI + "/es/"},
+            {"@type": "ListItem", "position": 2, "name": nom, "item": f"{DOMINI}/es/{slug_es}/"},
+        ],
+    }],
+}, ensure_ascii=False, indent=1)
+
+# contingut generat de les pàgines custom ES
+TRADUCCIONS_ES["horaris"]["cos"] = cos_horaris_es()
+TRADUCCIONS_ES["horaris"]["ld"] = LD_BREADCRUMB_ES("horarios", "horarios")
+TRADUCCIONS_ES["preus"]["cos"] = cos_preus_es()
+TRADUCCIONS_ES["preus"]["ld"] = LD_BREADCRUMB_ES("precios", "precios")
+
+_WA_CA = urllib.parse.quote("Hola! M'agradaria informació sobre les classes de ")
+_WA_ES = urllib.parse.quote("¡Hola! Me gustaría información sobre las clases de ")
+
+_FIXOS_ES = None
+
+
+def fixos_es():
+    """Parelles (ca, es) per a les cadenes fixes de la plantilla. Ordre: enllaços primer."""
+    global _FIXOS_ES
+    if _FIXOS_ES is not None:
+        return _FIXOS_ES
+    parelles = [(f'href="/{ca}/"', f'href="/es/{es}/"') for ca, es in SLUG_ES.items()]
+    parelles += [
+        ('href="/#activitats"', 'href="/es/#activitats"'),
+        ('href="/#escola"', 'href="/es/#escola"'),
+        ('href="/#contacte"', 'href="/es/#contacte"'),
+        ('href="/#escriu-nos"', 'href="/es/#escriu-nos"'),
+        ('href="/#newsletter"', 'href="/es/#newsletter"'),
+        ('class="nav-marca" href="/"', 'class="nav-marca" href="/es/"'),
+        ('<p class="molla"><a href="/">inici</a>', '<p class="molla"><a href="/es/">inicio</a>'),
+        (">l'escola</a>", '>la escuela</a>'),
+        ('>activitats</a>', '>actividades</a>'),
+        ('>horaris</a>', '>horarios</a>'),
+        ('>preus</a>', '>precios</a>'),
+        ('>contacte</a>', '>contacto</a>'),
+        ('classes a barcelona · sant gervasi', 'clases de danza en barcelona · sant gervasi'),
+        ('<div class="etiqueta">per a qui</div>', '<div class="etiqueta">para quién</div>'),
+        ('<h2>a qui va dirigida</h2>', '<h2>a quién va dirigida</h2>'),
+        ('<div class="etiqueta">per què t\'agradarà</div>', '<div class="etiqueta">por qué te gustará</div>'),
+        ('<h2>beneficis</h2>', '<h2>beneficios</h2>'),
+        (f'<div class="etiqueta">curs {CURS}</div>', f'<div class="etiqueta">curso {CURS}</div>'),
+        ('<h2>horaris de ', '<h2>horarios de '),
+        ("graella completa de l'escola</a> amb tots els estils i sales, truca'ns al",
+         'parrilla completa de la escuela</a> con todos los estilos y salas, llámanos al'),
+        ('Consulta la <a', 'Consulta la <a'),
+        (' per confirmar plaça o <a', ' para confirmar plaza o <a'),
+        ('>escriu-nos pel formulari de contacte</a>.', '>escríbenos por el formulario de contacto</a>.'),
+        ('<div class="etiqueta">estils</div>', '<div class="etiqueta">estilos</div>'),
+        ('<h2>disciplines per triar</h2>', '<h2>disciplinas para elegir</h2>'),
+        ('<div class="etiqueta reveal">preguntes freqüents</div>', '<div class="etiqueta reveal">preguntas frecuentes</div>'),
+        ('<h2 class="reveal">dubtes habituals</h2>', '<h2 class="reveal">dudas habituales</h2>'),
+        ('<div class="etiqueta">segueix explorant</div>', '<div class="etiqueta">sigue explorando</div>'),
+        ('<h2>també et pot agradar</h2>', '<h2>también te puede gustar</h2>'),
+        ('<div class="etiqueta">tarifes</div>', '<div class="etiqueta">tarifas</div>'),
+        ('<h2>preus</h2>', '<h2>precios</h2>'),
+        ('Les classes funcionen per quota mensual o trimestral segons els dies per setmana: des de 56 €/mes (infantil) i 60 €/mes (adults). Consulta <a href="/es/precios/" style="color:var(--granat-viu);font-weight:600">totes les tarifes del curs</a> — i recorda que la primera classe de prova és gratuïta.',
+         'Las clases funcionan por cuota mensual o trimestral según los días por semana: desde 56 €/mes (infantil) y 60 €/mes (adultos). Consulta <a href="/es/precios/" style="color:var(--granat-viu);font-weight:600">todas las tarifas del curso</a> — y recuerda que la primera clase de prueba es gratuita.'),
+        ('<h2>vine a provar-ho: la primera classe és gratis</h2>', '<h2>ven a probarlo: la primera clase es gratis</h2>'),
+        ("<p>Tria com t'estimes més: truca'ns, escriu-nos o vine a veure'ns. Sense compromís, t'ajudem a trobar el grup perfecte.</p>",
+         '<p>Elige como prefieras: llámanos, escríbenos o ven a vernos. Sin compromiso, te ayudamos a encontrar el grupo perfecto.</p>'),
+        ("<strong>truca'ns</strong>", '<strong>llámanos</strong>'),
+        ("<strong>formulari</strong><small>explica'ns què busques</small>", '<strong>formulario</strong><small>cuéntanos qué buscas</small>'),
+        ('<strong>com arribar?</strong>', '<strong>¿cómo llegar?</strong>'),
+        ('<small>resposta al moment</small>', '<small>respuesta al momento</small>'),
+        (_WA_CA, _WA_ES),
+        # JSON-LD: breadcrumb i idioma
+        ('"name": "inici", "item": "https://escoladansa.com/"', '"name": "inicio", "item": "https://escoladansa.com/es/"'),
+        ('"name": "activitats", "item": "https://escoladansa.com/#activitats"', '"name": "actividades", "item": "https://escoladansa.com/es/#activitats"'),
+        ('"inLanguage": "ca"', '"inLanguage": "es"'),
+    ]
+    # etiquetes dels xips de "relacionats": nom CA -> nom ES
+    for slug, t in TRADUCCIONS_ES.items():
+        nom_ca = next((x["nom"] for x in PAGINES if x["slug"] == slug), None)
+        if nom_ca and t.get("nom") and nom_ca != t["nom"]:
+            parelles.append((f'/">{nom_ca}</a>', f'/">{t["nom"]}</a>'))
+    _FIXOS_ES = parelles
+    return parelles
+
+
+def genera_es(p):
+    t = TRADUCCIONS_ES[p["slug"]]
+    p2 = {**p, **t, "lang": "es", "slug_ca": p["slug"], "slug": f"es/{SLUG_ES[p['slug']]}"}
+    if p2.get("horaris"):
+        def _tc(g):
+            for k in sorted(TRAD_ACT, key=len, reverse=True):
+                g = g.replace(k, TRAD_ACT[k])
+            return _trad_grup(g)
+        p2["horaris"] = [(TRAD_DIES[d], h, _tc(g), s.replace("sales", "salas"))
+                         for d, h, g, s in p2["horaris"]]
+    pagina = genera(p2)
+    for a, b in fixos_es():
+        pagina = pagina.replace(a, b)
+    return pagina
 
 
 def main():
@@ -991,8 +1188,14 @@ def main():
         desti = os.path.join(carpeta, "index.html")
         with open(desti, "w", encoding="utf-8") as f:
             f.write(genera(p))
-        print(f"ok  /{p['slug']}/  ({os.path.getsize(desti)//1024} KB)")
-    print(f"\n{len(PAGINES)} pàgines generades a {ARREL}")
+        # versió en castellà
+        if p["slug"] in TRADUCCIONS_ES:
+            carpeta_es = os.path.join(ARREL, "es", SLUG_ES[p["slug"]])
+            os.makedirs(carpeta_es, exist_ok=True)
+            with open(os.path.join(carpeta_es, "index.html"), "w", encoding="utf-8") as f:
+                f.write(genera_es(p))
+    n_es = len([p for p in PAGINES if p["slug"] in TRADUCCIONS_ES])
+    print(f"{len(PAGINES)} pàgines CA + {n_es} pàgines ES generades a {ARREL}")
 
 
 if __name__ == "__main__":

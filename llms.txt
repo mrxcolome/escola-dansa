@@ -10,7 +10,7 @@ Dades clau:
 - Horaris de classes: de dilluns a divendres; tardes per a infantils i juvenils, vespres per a adults i matins de barre (dilluns i dimecres a les 11 h)
 - Preus (curs 2026–27): quotes mensuals de 56 € a 104 € segons edat, durada de la classe i dies per setmana; opció trimestral; matrícula 65–70 €; primera classe de prova gratuïta
 - Instal·lacions: 3 sales condicionades i insonoritzades (també es lloguen); celebracions d'aniversaris, balls de núvis i comiats
-- Idioma de la web: català
+- Idiomes de la web: català (per defecte) i castellà (https://escoladansa.com/es/ i pàgines /es/*)
 
 ## Disciplines (pàgines principals)
 
@@ -40,3 +40,9 @@ Dades clau:
 ## Pàgina principal
 
 - [Inici](https://escoladansa.com/): presentació, activitats, horaris complets per dia i sala, tarifes, preguntes freqüents, newsletter i contacte
+
+## Versión en español
+
+- [Inicio](https://escoladansa.com/es/) · [Horarios](https://escoladansa.com/es/horarios/) · [Precios](https://escoladansa.com/es/precios/)
+- [Danza para niños](https://escoladansa.com/es/danza-infantil/) · [Danza para adultos](https://escoladansa.com/es/danza-adultos/)
+- Todas las disciplinas también en español: /es/ballet-clasico/, /es/danza-contemporanea/, /es/jazz/, /es/hip-hop/, /es/claque/, /es/baile-espanol/, /es/danza-oriental/, /es/k-pop-heels/, /es/musical-interpretacion/, /es/formacion-escenica/, /es/cuerpo-bienestar/, /es/fit-dance/
