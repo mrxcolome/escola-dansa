@@ -620,7 +620,7 @@ def bloc_horaris(p):
     <div class="etiqueta">curs {CURS}</div>
     <h2>horaris de {esc(p["nom"])}</h2>
 {files}
-    <p class="nota-curs">Consulta la <a href="/horaris/">graella completa de l'escola</a> amb tots els estils i sales, truca'ns al <a href="tel:{TEL_LINK}">{TEL}</a> per confirmar plaça o <a href="/#contacte">escriu-nos pel formulari de contacte</a>.</p>
+    <p class="nota-curs">Consulta la <a href="/horaris/">graella completa de l'escola</a> amb tots els estils i sales. Per confirmar plaça: truca'ns al <a href="tel:{TEL_LINK}">{TEL}</a>, escriu-nos per <a href="https://wa.me/34934179886?text={urllib.parse.quote(f"Hola! M'agradaria informació sobre les classes de {p.get('nom_wa', p['nom'])} ")[:-3]}" target="_blank" rel="noopener">WhatsApp</a> o pel <a href="/#contacte">formulari de contacte</a>.</p>
   </section>"""
 
 
@@ -1162,11 +1162,11 @@ def fixos_es():
         ('<h2>beneficis</h2>', '<h2>beneficios</h2>'),
         (f'<div class="etiqueta">curs {CURS}</div>', f'<div class="etiqueta">curso {CURS}</div>'),
         ('<h2>horaris de ', '<h2>horarios de '),
-        ("graella completa de l'escola</a> amb tots els estils i sales, truca'ns al",
-         'parrilla completa de la escuela</a> con todos los estilos y salas, llámanos al'),
-        ('Consulta la <a', 'Consulta la <a'),
-        (' per confirmar plaça o <a', ' para confirmar plaza o <a'),
-        ('>escriu-nos pel formulari de contacte</a>.', '>escríbenos por el formulario de contacto</a>.'),
+        ("graella completa de l'escola</a> amb tots els estils i sales. Per confirmar plaça: truca'ns al",
+         'parrilla completa de la escuela</a> con todos los estilos y salas. Para confirmar plaza: llámanos al'),
+        (', escriu-nos per <a', ', escríbenos por <a'),
+        ('>WhatsApp</a> o pel <a', '>WhatsApp</a> o por el <a'),
+        ('>formulari de contacte</a>.', '>formulario de contacto</a>.'),
         ('<div class="etiqueta">estils</div>', '<div class="etiqueta">estilos</div>'),
         ('<h2>disciplines per triar</h2>', '<h2>disciplinas para elegir</h2>'),
         ('<div class="etiqueta reveal">preguntes freqüents</div>', '<div class="etiqueta reveal">preguntas frecuentes</div>'),
