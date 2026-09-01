@@ -121,6 +121,20 @@ nav.solida{background:rgba(10,10,10,.85);backdrop-filter:blur(14px);padding:10px
 .nav-links a:hover{opacity:1}
 .nav-links a::after{content:"";position:absolute;left:0;bottom:-6px;width:0;height:2px;background:var(--granat-viu);transition:width .3s var(--ease)}
 .nav-links a:hover::after{width:100%}
+/* selector d'idioma (desktop): desplegable en mouseover */
+.idioma{position:relative;margin-left:22px;cursor:pointer}
+.idioma-etiq{opacity:.85;transition:opacity .3s}
+.idioma:hover .idioma-etiq,.idioma:focus-within .idioma-etiq{opacity:1}
+.idioma-menu{position:absolute;top:100%;right:0;padding-top:16px;display:none;min-width:150px}
+.idioma:hover .idioma-menu,.idioma:focus-within .idioma-menu{display:block}
+.idioma-menu a{display:block;background:var(--gris-fosc);border:1px solid var(--vora);padding:13px 18px;opacity:1;text-transform:none}
+.idioma-menu a::after{display:none}
+.idioma-menu a:first-child{border-radius:12px 12px 0 0;border-bottom:0}
+.idioma-menu a:last-child{border-radius:0 0 12px 12px}
+.idioma-menu a:hover{background:var(--granat-fosc)}
+.idioma-menu a.actiu{color:var(--granat-viu);font-weight:800}
+/* selector d'idioma (mòbil): cat / es fix a dalt a la dreta */
+.idioma-mobil{display:none}
 .hamburguesa{display:none;background:none;border:0;cursor:pointer;z-index:110;padding:8px}
 .hamburguesa span{display:block;width:26px;height:2px;background:var(--blanc);margin:6px 0;transition:transform .3s,opacity .3s}
 .menu-obert .hamburguesa span:nth-child(1){transform:translateY(8px) rotate(45deg)}
@@ -533,6 +547,10 @@ details.faq{border-bottom:1px solid var(--vora)}
   .accio{padding:20px 16px}
   .nav-links{font-size:1.5rem}
   .news-camps .boto{width:100%;justify-content:center}
+  .idioma-mobil{display:flex;gap:8px;align-items:center;position:fixed;top:18px;right:5vw;z-index:120;font-size:var(--text);font-weight:600}
+  .idioma-mobil a{color:var(--gris)}
+  .idioma-mobil a.actiu{color:var(--blanc);font-weight:800}
+  .idioma-mobil span{color:var(--gris)}
   /* mini header sense nom ni hamburguesa al mòbil */
   .nav-marca{display:none}
   nav{display:none}
@@ -682,9 +700,19 @@ details.faq{border-bottom:1px solid var(--vora)}
     <a href="/preus/">preus</a>
     <a href="#newsletter">newsletter</a>
     <a href="#contacte">contacte</a>
-    <a href="/es/" hreflang="es">ES</a>
+    <div class="idioma" tabindex="0">
+      <span class="idioma-etiq">idioma</span>
+      <div class="idioma-menu">
+        <a href="/" hreflang="ca" class="actiu">Català</a>
+        <a href="/es/" hreflang="es">Castellano</a>
+      </div>
+    </div>
   </div>
 </nav>
+
+<div class="idioma-mobil" aria-label="Idioma">
+  <a href="/" class="actiu">cat</a><span>/</span><a href="/es/">es</a>
+</div>
 
 <main id="principal">
 
@@ -955,7 +983,7 @@ details.faq{border-bottom:1px solid var(--vora)}
   <div class="marca-peu">
     <span>escola de dansa cristina colomé</span>
   </div>
-  <span>craywinckel, 25 · barcelona · <a href="/es/">versión en español</a></span>
+  <span>craywinckel, 25 · barcelona · <a href="/es/">versión en castellano</a></span>
 </footer>
 
 <!-- targeta lliscant del butlletí -->

@@ -60,8 +60,11 @@ PARELLES = [
      '"text": "Sí: disponemos de 3 salas acondicionadas e insonorizadas para alquilar, y organizamos cumpleaños, bailes de novios y despedidas, sobre todo los viernes por la noche."'),
 
     # ── nav ──
-    ('<a href="/es/" hreflang="es">ES</a>', '<a href="/" hreflang="ca">CA</a>'),
-    ('<a href="/es/">versión en español</a>', '<a href="/">versió en català</a>'),
+    ('hreflang="ca" class="actiu">Català</a>', 'hreflang="ca">Català</a>'),
+    ('hreflang="es">Castellano</a>', 'hreflang="es" class="actiu">Castellano</a>'),
+    ('<a href="/" class="actiu">cat</a>', '<a href="/">cat</a>'),
+    ('<span>/</span><a href="/es/">es</a>', '<span>/</span><a href="/es/" class="actiu">es</a>'),
+    ('<a href="/es/">versión en castellano</a>', '<a href="/">versió en català</a>'),
     (">l'escola</a>", '>la escuela</a>'),
     ('>activitats</a>', '>actividades</a>'),
     ('<a href="/horaris/">horaris</a>', '<a href="/es/horarios/">horarios</a>'),

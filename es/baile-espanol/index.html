@@ -42,6 +42,19 @@ nav.solida{background:rgba(10,10,10,.85);backdrop-filter:blur(14px);padding:10px
 .nav-links{display:flex;gap:30px;font-size:var(--text);font-weight:600;text-transform:lowercase;letter-spacing:.06em}
 .nav-links a{opacity:.85;transition:opacity .3s}
 .nav-links a:hover{opacity:1}
+/* selector d'idioma (desktop): desplegable en mouseover */
+.idioma{position:relative;margin-left:22px;cursor:pointer}
+.idioma-etiq{opacity:.85;transition:opacity .3s}
+.idioma:hover .idioma-etiq,.idioma:focus-within .idioma-etiq{opacity:1}
+.idioma-menu{position:absolute;top:100%;right:0;padding-top:16px;display:none;min-width:150px}
+.idioma:hover .idioma-menu,.idioma:focus-within .idioma-menu{display:block}
+.idioma-menu a{display:block;background:var(--gris-fosc);border:1px solid var(--vora);padding:13px 18px;opacity:1;text-transform:none}
+.idioma-menu a:first-child{border-radius:12px 12px 0 0;border-bottom:0}
+.idioma-menu a:last-child{border-radius:0 0 12px 12px}
+.idioma-menu a:hover{background:var(--granat-fosc)}
+.idioma-menu a.actiu{color:var(--granat-viu);font-weight:800}
+/* selector d'idioma (mòbil): cat / es fix a dalt a la dreta */
+.idioma-mobil{display:none}
 header.capsal{padding:150px 5vw 60px;max-width:1100px;margin:0 auto}
 .molla{font-size:var(--text-vermells);letter-spacing:.08em;color:var(--gris);margin-bottom:26px;text-transform:lowercase}
 .molla a{color:var(--gris);transition:color .3s}
@@ -115,6 +128,10 @@ footer.peu{border-top:1px solid var(--vora);padding:34px 5vw;display:flex;flex-w
 @media (max-width:700px){
   :root{--text:1.15rem;--text-vermells:1rem}
   .nav-links{display:none}
+  .idioma-mobil{display:flex;gap:8px;align-items:center;position:fixed;top:18px;right:5vw;z-index:120;font-size:var(--text);font-weight:600}
+  .idioma-mobil a{color:var(--gris)}
+  .idioma-mobil a.actiu{color:var(--blanc);font-weight:800}
+  .idioma-mobil span{color:var(--gris)}
   header.capsal{padding-top:110px}
   h2{font-size:2.35rem}
   .classe-fila{display:flex;flex-wrap:wrap;align-items:center;gap:2px 12px}
@@ -222,9 +239,19 @@ footer.peu{border-top:1px solid var(--vora);padding:34px 5vw;display:flex;flex-w
     <a href="/es/precios/">precios</a>
     <a href="/es/#newsletter">newsletter</a>
     <a href="/es/#contacte">contacto</a>
-    <a href="https://escoladansa.com/ball-espanyol/" hreflang="ca">CA</a>
+    <div class="idioma" tabindex="0">
+      <span class="idioma-etiq">idioma</span>
+      <div class="idioma-menu">
+        <a href="https://escoladansa.com/ball-espanyol/" hreflang="ca">Català</a>
+        <a href="https://escoladansa.com/es/baile-espanol/" hreflang="es" class="actiu">Castellano</a>
+      </div>
+    </div>
   </div>
 </nav>
+
+<div class="idioma-mobil" aria-label="Idioma">
+  <a href="https://escoladansa.com/ball-espanyol/">cat</a><span>/</span><a href="https://escoladansa.com/es/baile-espanol/" class="actiu">es</a>
+</div>
 
 <main>
   <header class="capsal">
