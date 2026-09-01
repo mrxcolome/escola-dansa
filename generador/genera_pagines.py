@@ -563,6 +563,7 @@ details.faq{border-bottom:1px solid var(--vora)}
 .relacionats a{border:1px solid var(--vora);border-radius:100px;padding:10px 22px;font-size:var(--text);font-weight:600;text-transform:lowercase;color:var(--gris);transition:all .3s}
 .relacionats a:hover{border-color:var(--granat-viu);color:var(--blanc)}
 footer.peu{border-top:1px solid var(--vora);padding:34px 5vw;display:flex;flex-wrap:wrap;gap:16px;align-items:center;justify-content:space-between;font-size:var(--text);color:var(--gris);margin-top:80px}
+footer.peu a.actiu{color:var(--blanc)}
 .reveal{opacity:0;transform:translateY(36px);transition:opacity .9s var(--ease),transform .9s var(--ease)}
 .reveal.vist{opacity:1;transform:none}
 @media (max-width:700px){
@@ -1033,7 +1034,7 @@ def genera(p):
 
 <footer class="peu">
   <span>escola de dansa cristina colomé</span>
-  <span>craywinckel, 25 · 08022 barcelona · <a href="tel:{TEL_LINK}">{TEL}</a> · <a href="{url_es if lang == 'ca' else url_ca}">{'versión en castellano' if lang == 'ca' else 'versió en català'}</a></span>
+  <span>craywinckel, 25 · 08022 barcelona · <a href="tel:{TEL_LINK}">{TEL}</a> · <a href="{url_ca}"{' class="actiu"' if lang == 'ca' else ''}>Català</a> / <a href="{url_es}"{' class="actiu"' if lang == 'es' else ''}>Castellano</a></span>
 </footer>
 
 <script>{JS}</script>
