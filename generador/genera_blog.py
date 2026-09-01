@@ -18,7 +18,17 @@ from blog_posts import POSTS  # noqa: E402
 ARREL, DOMINI = gp.ARREL, gp.DOMINI
 
 # CSS propi del blog, afegit al de la plantilla (tokens de la guia d'estils, cap mida nova)
+# El blog va EN CLAR per diferenciar-lo de la web: inversió dels tokens de color
+# (mateixos noms de variable, valors girats — la resta de la plantilla no es toca).
 BLOG_CSS = """
+:root{--negre:#f7f4f0;--gris-fosc:#fffdfb;--blanc:#171310;--gris:#6f6862;--vora:rgba(23,19,16,.14)}
+body::before{background:radial-gradient(55vmax 55vmax at 85% -10%,rgba(149,0,0,.06),transparent 65%),radial-gradient(45vmax 45vmax at -10% 80%,rgba(77,5,5,.05),transparent 70%)}
+nav.solida{background:rgba(247,244,240,.88)}
+::selection{color:#f5f2ef}
+.boto-ple{color:#f5f2ef}
+.cta-final{background:rgba(255,253,251,.85)}
+.accio:hover,.idioma-menu a:hover,.post-card:hover{background:rgba(149,0,0,.06)}
+.post-img{width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;display:block;border-radius:20px;margin:0 0 26px}
 .article{max-width:760px}
 .article .meta-post{font-size:var(--text-vermells);letter-spacing:.08em;color:var(--gris);text-transform:lowercase;margin-bottom:38px}
 .article p{font-size:var(--text);color:var(--gris);font-weight:400;margin:0 0 22px;max-width:720px}
@@ -28,8 +38,9 @@ BLOG_CSS = """
 .article p strong,.article li strong{color:var(--blanc);font-weight:600}
 .article a{color:var(--granat-viu);font-weight:600}
 .posts-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(290px,1fr));gap:2px;background:var(--vora);border-radius:16px;overflow:hidden;margin-top:10px}
-.post-card{background:var(--gris-fosc);padding:30px 26px;display:flex;flex-direction:column;gap:12px;transition:background .3s}
-.post-card:hover{background:var(--granat-fosc)}
+.post-card{background:var(--gris-fosc);padding:0;display:flex;flex-direction:column;transition:background .3s}
+.post-card img{width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;display:block}
+.pc-cos{padding:24px 26px 28px;display:flex;flex-direction:column;gap:12px;flex:1}
 .cat-post{font-size:var(--text-vermells);letter-spacing:.3em;text-transform:uppercase;color:var(--granat-viu);font-weight:600}
 .post-card h3{font-size:1.05rem}
 .post-card p{font-size:var(--text);color:var(--gris);font-weight:400;flex:1}
@@ -136,9 +147,11 @@ def cos_post(p, lang):
                   "Sin ruido, y puedes darte de baja cuando quieras.")
         boto_nl, href_nl = "apúntame", "/es/#newsletter"
         lectura = f"{data} · {p['minuts']} min de lectura"
+    alt = p["img_alt"] if lang == "ca" else p["img_alt_es"]
     faqs_html = gp.bloc_faqs({"faqs": faqs})
     return f"""
   <section class="reveal article">
+    <img class="post-img" src="/assets/{p['img']}" alt="{gp.esc(alt)}" width="1600" height="900">
     <p class="meta-post">{gp.esc(lectura)}</p>{cos}
   </section>
 {faqs_html}
@@ -201,13 +214,15 @@ def pagina_post_es(p):
 def targeta(p, lang):
     if lang == "ca":
         href, cat, titol = f"/blog/{p['slug']}/", p["categoria"], p["h1"]
-        exc, peu = p["excerpt"], f"{p['data_ca']} · {p['minuts']} min de lectura"
+        exc, peu, alt = p["excerpt"], f"{p['data_ca']} · {p['minuts']} min de lectura", p["img_alt"]
     else:
         href, cat, titol = f"/es/blog/{p['slug_es']}/", p["categoria_es"], p["h1_es"]
-        exc, peu = p["excerpt_es"], f"{p['data_es']} · {p['minuts']} min de lectura"
-    return (f'      <a class="post-card" href="{href}"><span class="cat-post">{gp.esc(cat)}</span>'
+        exc, peu, alt = p["excerpt_es"], f"{p['data_es']} · {p['minuts']} min de lectura", p["img_alt_es"]
+    return (f'      <a class="post-card" href="{href}">'
+            f'<img src="/assets/{p["img"]}" alt="{gp.esc(alt)}" loading="lazy" width="1600" height="900">'
+            f'<div class="pc-cos"><span class="cat-post">{gp.esc(cat)}</span>'
             f'<h3>{gp.esc(titol)}</h3><p>{gp.esc(exc)}</p>'
-            f'<span class="peu-card">{gp.esc(peu)}</span></a>')
+            f'<span class="peu-card">{gp.esc(peu)}</span></div></a>')
 
 
 def ld_index(lang):
@@ -325,6 +340,67 @@ def sitemap():
             f"{linies}\n</urlset>\n")
 
 
+# ─────────────────────────────────────────────────────────────────────────────
+# FEED RSS — /feed.xml (CA) i /es/feed.xml (ES)
+# ─────────────────────────────────────────────────────────────────────────────
+def _rfc822(data):
+    """'2026-09-01' -> data RFC 822 (08:00 hora de Madrid)."""
+    from datetime import datetime, timezone, timedelta
+    from email.utils import format_datetime
+    d = datetime.strptime(data, "%Y-%m-%d").replace(hour=8, tzinfo=timezone(timedelta(hours=2)))
+    return format_datetime(d)
+
+
+def feed_rss(lang):
+    if lang == "ca":
+        url_blog, url_feed = DOMINI + "/blog/", DOMINI + "/feed.xml"
+        titol = "el blog de l'escola de dansa cristina colomé"
+        desc = "Consells de dansa per a famílies i adults, i vida d'escola, des de Sant Gervasi (Barcelona)."
+    else:
+        url_blog, url_feed = DOMINI + "/es/blog/", DOMINI + "/es/feed.xml"
+        titol = "el blog de la escola de dansa cristina colomé"
+        desc = "Consejos de danza para familias y adultos, y vida de escuela, desde Sant Gervasi (Barcelona)."
+    items = []
+    for p in sorted(POSTS, key=lambda x: x["data"], reverse=True):
+        if lang == "ca":
+            u, t, e = f"{DOMINI}/blog/{p['slug']}/", p["h1"], p["desc"]
+        else:
+            u, t, e = f"{DOMINI}/es/blog/{p['slug_es']}/", p["h1_es"], p["desc_es"]
+        items.append(f"""    <item>
+      <title>{gp.esc(t)}</title>
+      <link>{u}</link>
+      <guid isPermaLink="true">{u}</guid>
+      <pubDate>{_rfc822(p['data'])}</pubDate>
+      <description>{gp.esc(e)}</description>
+      <enclosure url="{DOMINI}/assets/{p['img']}" type="image/jpeg" length="150000"/>
+    </item>""")
+    data_max = _rfc822(max(p["data"] for p in POSTS))
+    return f"""<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>{gp.esc(titol)}</title>
+    <link>{url_blog}</link>
+    <atom:link href="{url_feed}" rel="self" type="application/rss+xml"/>
+    <description>{gp.esc(desc)}</description>
+    <language>{lang}</language>
+    <lastBuildDate>{data_max}</lastBuildDate>
+{chr(10).join(items)}
+  </channel>
+</rss>
+"""
+
+
+def retocs_head(pagina, lang):
+    """Autodiscovery del feed + theme-color clar (el blog va en fons blanc)."""
+    feed = "/feed.xml" if lang == "ca" else "/es/feed.xml"
+    titol = "blog escola de dansa cristina colomé" + (" (es)" if lang == "es" else "")
+    pagina = pagina.replace(
+        '<link rel="icon"',
+        f'<link rel="alternate" type="application/rss+xml" title="{titol}" href="{feed}">\n<link rel="icon"', 1)
+    return pagina.replace('<meta name="theme-color" content="#0a0a0a">',
+                          '<meta name="theme-color" content="#f7f4f0">', 1)
+
+
 def escriu(cami, contingut):
     os.makedirs(os.path.dirname(cami), exist_ok=True)
     with open(cami, "w", encoding="utf-8") as f:
@@ -332,14 +408,18 @@ def escriu(cami, contingut):
 
 
 def main():
-    escriu(os.path.join(ARREL, "blog", "index.html"), pagina_index("ca"))
-    escriu(os.path.join(ARREL, "es", "blog", "index.html"), pagina_index("es"))
+    escriu(os.path.join(ARREL, "blog", "index.html"), retocs_head(pagina_index("ca"), "ca"))
+    escriu(os.path.join(ARREL, "es", "blog", "index.html"), retocs_head(pagina_index("es"), "es"))
     for p in POSTS:
-        escriu(os.path.join(ARREL, "blog", p["slug"], "index.html"), pagina_post_ca(p))
-        escriu(os.path.join(ARREL, "es", "blog", p["slug_es"], "index.html"), pagina_post_es(p))
+        escriu(os.path.join(ARREL, "blog", p["slug"], "index.html"),
+               retocs_head(pagina_post_ca(p), "ca"))
+        escriu(os.path.join(ARREL, "es", "blog", p["slug_es"], "index.html"),
+               retocs_head(pagina_post_es(p), "es"))
+    escriu(os.path.join(ARREL, "feed.xml"), feed_rss("ca"))
+    escriu(os.path.join(ARREL, "es", "feed.xml"), feed_rss("es"))
     with open(os.path.join(ARREL, "sitemap.xml"), "w", encoding="utf-8") as f:
         f.write(sitemap())
-    print(f"blog: {len(POSTS)} posts CA + {len(POSTS)} ES + 2 index generats; sitemap.xml reescrit ({sitemap().count('<url>')} URLs)")
+    print(f"blog: {len(POSTS)} posts CA + {len(POSTS)} ES + 2 index + 2 feeds; sitemap.xml reescrit ({sitemap().count('<url>')} URLs)")
 
 
 if __name__ == "__main__":

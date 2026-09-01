@@ -9,7 +9,7 @@
 <link rel="alternate" hreflang="ca" href="https://escoladansa.com/blog/">
 <link rel="alternate" hreflang="es" href="https://escoladansa.com/es/blog/">
 <link rel="alternate" hreflang="x-default" href="https://escoladansa.com/blog/">
-<meta name="theme-color" content="#0a0a0a">
+<meta name="theme-color" content="#f7f4f0">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Escola de Dansa Cristina Colomé">
 <meta property="og:title" content="el blog · consells de dansa per a famílies i adults · escola de dansa cristina colomé">
@@ -19,6 +19,7 @@
 <meta property="og:locale" content="ca_ES">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="https://escoladansa.com/assets/og-escola.jpg">
+<link rel="alternate" type="application/rss+xml" title="blog escola de dansa cristina colomé" href="/feed.xml">
 <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png">
 <link rel="icon" type="image/png" sizes="512x512" href="/assets/favicon-512.png">
 <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
@@ -163,6 +164,14 @@ footer.peu a.actiu{color:var(--blanc)}
 }
 @media (prefers-reduced-motion:reduce){*{transition-duration:.01ms!important}.reveal{opacity:1;transform:none}}
 
+:root{--negre:#f7f4f0;--gris-fosc:#fffdfb;--blanc:#171310;--gris:#6f6862;--vora:rgba(23,19,16,.14)}
+body::before{background:radial-gradient(55vmax 55vmax at 85% -10%,rgba(149,0,0,.06),transparent 65%),radial-gradient(45vmax 45vmax at -10% 80%,rgba(77,5,5,.05),transparent 70%)}
+nav.solida{background:rgba(247,244,240,.88)}
+::selection{color:#f5f2ef}
+.boto-ple{color:#f5f2ef}
+.cta-final{background:rgba(255,253,251,.85)}
+.accio:hover,.idioma-menu a:hover,.post-card:hover{background:rgba(149,0,0,.06)}
+.post-img{width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;display:block;border-radius:20px;margin:0 0 26px}
 .article{max-width:760px}
 .article .meta-post{font-size:var(--text-vermells);letter-spacing:.08em;color:var(--gris);text-transform:lowercase;margin-bottom:38px}
 .article p{font-size:var(--text);color:var(--gris);font-weight:400;margin:0 0 22px;max-width:720px}
@@ -172,8 +181,9 @@ footer.peu a.actiu{color:var(--blanc)}
 .article p strong,.article li strong{color:var(--blanc);font-weight:600}
 .article a{color:var(--granat-viu);font-weight:600}
 .posts-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(290px,1fr));gap:2px;background:var(--vora);border-radius:16px;overflow:hidden;margin-top:10px}
-.post-card{background:var(--gris-fosc);padding:30px 26px;display:flex;flex-direction:column;gap:12px;transition:background .3s}
-.post-card:hover{background:var(--granat-fosc)}
+.post-card{background:var(--gris-fosc);padding:0;display:flex;flex-direction:column;transition:background .3s}
+.post-card img{width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;display:block}
+.pc-cos{padding:24px 26px 28px;display:flex;flex-direction:column;gap:12px;flex:1}
 .cat-post{font-size:var(--text-vermells);letter-spacing:.3em;text-transform:uppercase;color:var(--granat-viu);font-weight:600}
 .post-card h3{font-size:1.05rem}
 .post-card p{font-size:var(--text);color:var(--gris);font-weight:400;flex:1}
@@ -273,8 +283,8 @@ footer.peu a.actiu{color:var(--blanc)}
 
   <section class="reveal">
     <div class="posts-grid">
-      <a class="post-card" href="/blog/a-quina-edat-comencar-dansa/"><span class="cat-post">famílies</span><h3>a quina edat pot començar el meu fill a fer dansa?</h3><p>Dels 3 anys a l&#x27;adolescència: la guia per franges d&#x27;edat que responem cada setembre a recepció, amb els senyals que indiquen que el teu fill està a punt.</p><span class="peu-card">1 de setembre de 2026 · 5 min de lectura</span></a>
-      <a class="post-card" href="/blog/comencar-dansa-adults/"><span class="cat-post">adults</span><h3>mai no és tard: començar a ballar d&#x27;adult</h3><p>«M&#x27;encantaria, però a la meva edat...» és la frase més equivocada que sentim. Què frena de veritat, què hi guanyaràs i per quin estil començar de zero.</p><span class="peu-card">1 de setembre de 2026 · 5 min de lectura</span></a>
+      <a class="post-card" href="/blog/a-quina-edat-comencar-dansa/"><img src="/assets/blog-edat-infants.jpg" alt="Unes sabatilles de ballet petites a terra d&#x27;una sala de dansa, amb puntes penjades a la barra al fons" loading="lazy" width="1600" height="900"><div class="pc-cos"><span class="cat-post">famílies</span><h3>a quina edat pot començar el meu fill a fer dansa?</h3><p>Dels 3 anys a l&#x27;adolescència: la guia per franges d&#x27;edat que responem cada setembre a recepció, amb els senyals que indiquen que el teu fill està a punt.</p><span class="peu-card">1 de setembre de 2026 · 5 min de lectura</span></div></a>
+      <a class="post-card" href="/blog/comencar-dansa-adults/"><img src="/assets/blog-dansa-adults.jpg" alt="Mans d&#x27;adults sobre la barra de fusta d&#x27;una sala de dansa amb llum càlida de tarda" loading="lazy" width="1600" height="900"><div class="pc-cos"><span class="cat-post">adults</span><h3>mai no és tard: començar a ballar d&#x27;adult</h3><p>«M&#x27;encantaria, però a la meva edat...» és la frase més equivocada que sentim. Què frena de veritat, què hi guanyaràs i per quin estil començar de zero.</p><span class="peu-card">1 de setembre de 2026 · 5 min de lectura</span></div></a>
     </div>
   </section>
   <div class="cta-final reveal">

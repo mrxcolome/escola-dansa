@@ -17,7 +17,10 @@ POSTS = [
         "minuts": 5,
         "nom_wa": "dansa",
         "nom_wa_es": "danza",
-        "og": "og-escola.jpg",
+        "og": "blog-edat-infants.jpg",
+        "img": "blog-edat-infants.jpg",
+        "img_alt": "Unes sabatilles de ballet petites a terra d'una sala de dansa, amb puntes penjades a la barra al fons",
+        "img_alt_es": "Unas zapatillas de ballet pequeñas en el suelo de una sala de danza, con puntas colgadas en la barra al fondo",
         "related_pagines": ["dansa-infantil", "ballet-classic", "hip-hop", "horaris"],
         "related_posts": ["comencar-dansa-adults"],
 
@@ -112,7 +115,10 @@ POSTS = [
         "minuts": 5,
         "nom_wa": "dansa per a adults",
         "nom_wa_es": "danza para adultos",
-        "og": "og-escola.jpg",
+        "og": "blog-dansa-adults.jpg",
+        "img": "blog-dansa-adults.jpg",
+        "img_alt": "Mans d'adults sobre la barra de fusta d'una sala de dansa amb llum càlida de tarda",
+        "img_alt_es": "Manos de adultos sobre la barra de madera de una sala de danza con luz cálida de tarde",
         "related_pagines": ["dansa-adults", "cos-benestar", "dansa-oriental", "preus"],
         "related_posts": ["a-quina-edat-comencar-dansa"],
 

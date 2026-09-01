@@ -9,7 +9,7 @@
 <link rel="alternate" hreflang="ca" href="https://escoladansa.com/blog/">
 <link rel="alternate" hreflang="es" href="https://escoladansa.com/es/blog/">
 <link rel="alternate" hreflang="x-default" href="https://escoladansa.com/blog/">
-<meta name="theme-color" content="#0a0a0a">
+<meta name="theme-color" content="#f7f4f0">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Escola de Dansa Cristina Colomé">
 <meta property="og:title" content="el blog · consejos de danza para familias y adultos · escola de dansa cristina colomé">
@@ -19,6 +19,7 @@
 <meta property="og:locale" content="es_ES">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="https://escoladansa.com/assets/og-escola.jpg">
+<link rel="alternate" type="application/rss+xml" title="blog escola de dansa cristina colomé (es)" href="/es/feed.xml">
 <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png">
 <link rel="icon" type="image/png" sizes="512x512" href="/assets/favicon-512.png">
 <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
@@ -163,6 +164,14 @@ footer.peu a.actiu{color:var(--blanc)}
 }
 @media (prefers-reduced-motion:reduce){*{transition-duration:.01ms!important}.reveal{opacity:1;transform:none}}
 
+:root{--negre:#f7f4f0;--gris-fosc:#fffdfb;--blanc:#171310;--gris:#6f6862;--vora:rgba(23,19,16,.14)}
+body::before{background:radial-gradient(55vmax 55vmax at 85% -10%,rgba(149,0,0,.06),transparent 65%),radial-gradient(45vmax 45vmax at -10% 80%,rgba(77,5,5,.05),transparent 70%)}
+nav.solida{background:rgba(247,244,240,.88)}
+::selection{color:#f5f2ef}
+.boto-ple{color:#f5f2ef}
+.cta-final{background:rgba(255,253,251,.85)}
+.accio:hover,.idioma-menu a:hover,.post-card:hover{background:rgba(149,0,0,.06)}
+.post-img{width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;display:block;border-radius:20px;margin:0 0 26px}
 .article{max-width:760px}
 .article .meta-post{font-size:var(--text-vermells);letter-spacing:.08em;color:var(--gris);text-transform:lowercase;margin-bottom:38px}
 .article p{font-size:var(--text);color:var(--gris);font-weight:400;margin:0 0 22px;max-width:720px}
@@ -172,8 +181,9 @@ footer.peu a.actiu{color:var(--blanc)}
 .article p strong,.article li strong{color:var(--blanc);font-weight:600}
 .article a{color:var(--granat-viu);font-weight:600}
 .posts-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(290px,1fr));gap:2px;background:var(--vora);border-radius:16px;overflow:hidden;margin-top:10px}
-.post-card{background:var(--gris-fosc);padding:30px 26px;display:flex;flex-direction:column;gap:12px;transition:background .3s}
-.post-card:hover{background:var(--granat-fosc)}
+.post-card{background:var(--gris-fosc);padding:0;display:flex;flex-direction:column;transition:background .3s}
+.post-card img{width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;display:block}
+.pc-cos{padding:24px 26px 28px;display:flex;flex-direction:column;gap:12px;flex:1}
 .cat-post{font-size:var(--text-vermells);letter-spacing:.3em;text-transform:uppercase;color:var(--granat-viu);font-weight:600}
 .post-card h3{font-size:1.05rem}
 .post-card p{font-size:var(--text);color:var(--gris);font-weight:400;flex:1}
@@ -273,8 +283,8 @@ footer.peu a.actiu{color:var(--blanc)}
 
   <section class="reveal">
     <div class="posts-grid">
-      <a class="post-card" href="/es/blog/a-que-edad-empezar-danza/"><span class="cat-post">familias</span><h3>¿a qué edad puede empezar mi hijo a hacer danza?</h3><p>De los 3 años a la adolescencia: la guía por franjas de edad que respondemos cada septiembre en recepción, con las señales de que tu hijo está a punto.</p><span class="peu-card">1 de septiembre de 2026 · 5 min de lectura</span></a>
-      <a class="post-card" href="/es/blog/empezar-danza-adultos/"><span class="cat-post">adultos</span><h3>nunca es tarde: empezar a bailar de adulto</h3><p>«Me encantaría, pero a mi edad...» es la frase más equivocada que oímos. Qué frena de verdad, qué ganarás y por qué estilo empezar desde cero.</p><span class="peu-card">1 de septiembre de 2026 · 5 min de lectura</span></a>
+      <a class="post-card" href="/es/blog/a-que-edad-empezar-danza/"><img src="/assets/blog-edat-infants.jpg" alt="Unas zapatillas de ballet pequeñas en el suelo de una sala de danza, con puntas colgadas en la barra al fondo" loading="lazy" width="1600" height="900"><div class="pc-cos"><span class="cat-post">familias</span><h3>¿a qué edad puede empezar mi hijo a hacer danza?</h3><p>De los 3 años a la adolescencia: la guía por franjas de edad que respondemos cada septiembre en recepción, con las señales de que tu hijo está a punto.</p><span class="peu-card">1 de septiembre de 2026 · 5 min de lectura</span></div></a>
+      <a class="post-card" href="/es/blog/empezar-danza-adultos/"><img src="/assets/blog-dansa-adults.jpg" alt="Manos de adultos sobre la barra de madera de una sala de danza con luz cálida de tarde" loading="lazy" width="1600" height="900"><div class="pc-cos"><span class="cat-post">adultos</span><h3>nunca es tarde: empezar a bailar de adulto</h3><p>«Me encantaría, pero a mi edad...» es la frase más equivocada que oímos. Qué frena de verdad, qué ganarás y por qué estilo empezar desde cero.</p><span class="peu-card">1 de septiembre de 2026 · 5 min de lectura</span></div></a>
     </div>
   </section>
   <div class="cta-final reveal">

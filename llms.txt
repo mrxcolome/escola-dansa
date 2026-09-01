@@ -43,6 +43,7 @@ Dades clau:
 - [A quina edat pot començar el meu fill a fer dansa?](https://escoladansa.com/blog/a-quina-edat-comencar-dansa/): guia per franges d'edat, dels 3 anys a l'adolescència
 - [Mai no és tard: començar a ballar d'adult](https://escoladansa.com/blog/comencar-dansa-adults/): com començar dansa de zero sent adult, estils recomanats i primera classe
 - En español: [el blog](https://escoladansa.com/es/blog/), /es/blog/a-que-edad-empezar-danza/, /es/blog/empezar-danza-adultos/
+- Feed RSS: https://escoladansa.com/feed.xml (català) · https://escoladansa.com/es/feed.xml (español)
 
 ## Pàgina principal
 

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>el blog de la escola de dansa cristina colomé</title>
+    <link>https://escoladansa.com/es/blog/</link>
+    <atom:link href="https://escoladansa.com/es/feed.xml" rel="self" type="application/rss+xml"/>
+    <description>Consejos de danza para familias y adultos, y vida de escuela, desde Sant Gervasi (Barcelona).</description>
+    <language>es</language>
+    <lastBuildDate>Tue, 01 Sep 2026 08:00:00 +0200</lastBuildDate>
+    <item>
+      <title>¿a qué edad puede empezar mi hijo a hacer danza?</title>
+      <link>https://escoladansa.com/es/blog/a-que-edad-empezar-danza/</link>
+      <guid isPermaLink="true">https://escoladansa.com/es/blog/a-que-edad-empezar-danza/</guid>
+      <pubDate>Tue, 01 Sep 2026 08:00:00 +0200</pubDate>
+      <description>La pregunta que más nos hacen las familias: ¿a qué edad se puede empezar danza? Guía por franjas de edad (de los 3 años a la adolescencia), señales de que tu hijo está a punto y cómo es la primera clase.</description>
+      <enclosure url="https://escoladansa.com/assets/blog-edat-infants.jpg" type="image/jpeg" length="150000"/>
+    </item>
+    <item>
+      <title>nunca es tarde: empezar a bailar de adulto</title>
+      <link>https://escoladansa.com/es/blog/empezar-danza-adultos/</link>
+      <guid isPermaLink="true">https://escoladansa.com/es/blog/empezar-danza-adultos/</guid>
+      <pubDate>Tue, 01 Sep 2026 08:00:00 +0200</pubDate>
+      <description>¿Quieres bailar pero crees que ya no tienes edad? Mentira. Guía para empezar danza de adulto y desde cero: qué frena de verdad, qué ganarás, qué estilos son ideales para empezar y cómo es la primera clase.</description>
+      <enclosure url="https://escoladansa.com/assets/blog-dansa-adults.jpg" type="image/jpeg" length="150000"/>
+    </item>
+  </channel>
+</rss>
