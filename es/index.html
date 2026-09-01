@@ -387,6 +387,10 @@ footer.peu{
 }
 footer.peu .marca-peu{display:flex;align-items:center;gap:10px}
 footer.peu a.actiu{color:var(--blanc)}
+/* selector d'idioma al peu: dropdown cap amunt (desktop) i cat/es (mobil) */
+.idioma-peu{margin:0;display:inline-flex;position:relative;cursor:pointer;vertical-align:middle}
+.idioma-peu .idioma-menu{top:auto;bottom:100%;padding-top:0;padding-bottom:14px}
+.peu-idioma-mobil{display:none}
 
 /* ===== LAYERS (modals) — obertura en cercle ===== */
 .layer{
@@ -555,6 +559,8 @@ details.faq{border-bottom:1px solid var(--vora)}
   .idioma-mobil a{color:var(--gris)}
   .idioma-mobil a.actiu{color:var(--blanc)}
   .idioma-mobil span{color:var(--gris)}
+  .idioma-peu{display:none}
+  .peu-idioma-mobil{display:inline-flex;gap:6px;align-items:center}
   /* mini header sense nom ni hamburguesa al mòbil */
   .nav-marca{display:none}
   nav{display:none}
@@ -987,7 +993,7 @@ details.faq{border-bottom:1px solid var(--vora)}
   <div class="marca-peu">
     <span>escola de dansa cristina colomé</span>
   </div>
-  <span>craywinckel, 25 · barcelona · <a href="/">Català</a> / <a href="/es/" class="actiu">Castellano</a></span>
+  <span>craywinckel, 25 · barcelona · <span class="idioma idioma-peu" tabindex="0"><span class="idioma-etiq">idioma</span><span class="idioma-menu"><a href="/" hreflang="ca">Català</a><a href="/es/" hreflang="es" class="actiu">Castellano</a></span></span><span class="peu-idioma-mobil"><a href="/">cat</a><span>/</span><a href="/es/" class="actiu">es</a></span></span>
 </footer>
 
 <!-- targeta lliscant del butlletí -->

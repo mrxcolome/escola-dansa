@@ -564,6 +564,10 @@ details.faq{border-bottom:1px solid var(--vora)}
 .relacionats a:hover{border-color:var(--granat-viu);color:var(--blanc)}
 footer.peu{border-top:1px solid var(--vora);padding:34px 5vw;display:flex;flex-wrap:wrap;gap:16px;align-items:center;justify-content:space-between;font-size:var(--text);color:var(--gris);margin-top:80px}
 footer.peu a.actiu{color:var(--blanc)}
+/* selector d'idioma al peu: dropdown cap amunt (desktop) i cat/es (mobil) */
+.idioma-peu{margin:0;display:inline-flex;position:relative;cursor:pointer;vertical-align:middle}
+.idioma-peu .idioma-menu{top:auto;bottom:100%;padding-top:0;padding-bottom:14px}
+.peu-idioma-mobil{display:none}
 .reveal{opacity:0;transform:translateY(36px);transition:opacity .9s var(--ease),transform .9s var(--ease)}
 .reveal.vist{opacity:1;transform:none}
 @media (max-width:700px){
@@ -573,6 +577,8 @@ footer.peu a.actiu{color:var(--blanc)}
   .idioma-mobil a{color:var(--gris)}
   .idioma-mobil a.actiu{color:var(--blanc)}
   .idioma-mobil span{color:var(--gris)}
+  .idioma-peu{display:none}
+  .peu-idioma-mobil{display:inline-flex;gap:6px;align-items:center}
   header.capsal{padding-top:110px}
   h2{font-size:2.35rem}
   .classe-fila{display:flex;flex-wrap:wrap;align-items:center;gap:2px 12px}
@@ -1034,7 +1040,7 @@ def genera(p):
 
 <footer class="peu">
   <span>escola de dansa cristina colomé</span>
-  <span>craywinckel, 25 · 08022 barcelona · <a href="tel:{TEL_LINK}">{TEL}</a> · <a href="{url_ca}"{' class="actiu"' if lang == 'ca' else ''}>Català</a> / <a href="{url_es}"{' class="actiu"' if lang == 'es' else ''}>Castellano</a></span>
+  <span>craywinckel, 25 · 08022 barcelona · <a href="tel:{TEL_LINK}">{TEL}</a> · <span class="idioma idioma-peu" tabindex="0"><span class="idioma-etiq">idioma</span><span class="idioma-menu"><a href="{url_ca}" hreflang="ca"{' class="actiu"' if lang == 'ca' else ''}>Català</a><a href="{url_es}" hreflang="es"{' class="actiu"' if lang == 'es' else ''}>Castellano</a></span></span><span class="peu-idioma-mobil"><a href="{url_ca}"{' class="actiu"' if lang == 'ca' else ''}>cat</a><span>/</span><a href="{url_es}"{' class="actiu"' if lang == 'es' else ''}>es</a></span></span>
 </footer>
 
 <script>{JS}</script>

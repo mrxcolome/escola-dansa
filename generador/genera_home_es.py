@@ -64,8 +64,6 @@ PARELLES = [
     ('hreflang="es">Castellano</a>', 'hreflang="es" class="actiu">Castellano</a>'),
     ('<a href="/" class="actiu">cat</a>', '<a href="/">cat</a>'),
     ('<span>/</span><a href="/es/">es</a>', '<span>/</span><a href="/es/" class="actiu">es</a>'),
-    ('barcelona · <a href="/" class="actiu">Català</a>', 'barcelona · <a href="/">Català</a>'),
-    ('>Català</a> / <a href="/es/">Castellano</a>', '>Català</a> / <a href="/es/" class="actiu">Castellano</a>'),
     (">l'escola</a>", '>la escuela</a>'),
     ('>activitats</a>', '>actividades</a>'),
     ('<a href="/horaris/">horaris</a>', '<a href="/es/horarios/">horarios</a>'),
