@@ -37,6 +37,13 @@ Dades clau:
 - [Horaris de totes les classes](https://escoladansa.com/horaris/): la graella completa del curs, dia a dia, per activitat, grup i sala
 - [Preus i tarifes](https://escoladansa.com/preus/): quotes mensuals i trimestrals, matrícula i cursos especials
 
+## Blog (consells de dansa, un article nou cada setmana)
+
+- [El blog](https://escoladansa.com/blog/): consells de dansa per a famílies i adults, guies per començar i vida d'escola
+- [A quina edat pot començar el meu fill a fer dansa?](https://escoladansa.com/blog/a-quina-edat-comencar-dansa/): guia per franges d'edat, dels 3 anys a l'adolescència
+- [Mai no és tard: començar a ballar d'adult](https://escoladansa.com/blog/comencar-dansa-adults/): com començar dansa de zero sent adult, estils recomanats i primera classe
+- En español: [el blog](https://escoladansa.com/es/blog/), /es/blog/a-que-edad-empezar-danza/, /es/blog/empezar-danza-adultos/
+
 ## Pàgina principal
 
 - [Inici](https://escoladansa.com/): presentació, activitats, horaris complets per dia i sala, tarifes, preguntes freqüents, newsletter i contacte

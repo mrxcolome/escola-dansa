@@ -68,6 +68,7 @@ PARELLES = [
     ('>activitats</a>', '>actividades</a>'),
     ('<a href="/horaris/">horaris</a>', '<a href="/es/horarios/">horarios</a>'),
     ('<a href="/preus/">preus</a>', '<a href="/es/precios/">precios</a>'),
+    ('<a href="/blog/">blog</a>', '<a href="/es/blog/">blog</a>'),
     ('>contacte</a>', '>contacto</a>'),
 
     # ── hero ──

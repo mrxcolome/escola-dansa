@@ -24,8 +24,7 @@ RewriteRule ^blog/modalitats-de-dansa-a-lescola-de-dansa-cristina-colome/?$ http
 RewriteRule ^blog/guia-dels-millors-maillots-de-dansa-i-on-comprar-los/?$ https://escoladansa.com/ballet-classic/ [L,R=301]
 RewriteRule ^blog/escola-de-dansa-cristina-colome/?$ https://escoladansa.com/#escola [L,R=301,NE]
 RewriteRule ^blog/beneficis-de-la-dansa-per-a-la-salut-fisica-i-mental/?$ https://escoladansa.com/dansa-adults/ [L,R=301]
-# la resta del blog, etiquetes i arxius del WP -> home
-RewriteRule ^blog(/.*)?$ https://escoladansa.com/ [L,R=301]
+# (des del set 2026, /blog/ és el blog NOU de la web: la resta d'URLs velles del WP fan 404)
 RewriteRule ^(tag|author|category)/.+$ https://escoladansa.com/ [L,R=301]
 RewriteRule ^inici_xmas(/.*)?$ https://escoladansa.com/ [L,R=301]
 # casal i stage -> dansa infantil / home

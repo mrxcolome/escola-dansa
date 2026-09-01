@@ -35,6 +35,7 @@ SLUG_ES = {
     "dansa-adults": "danza-adultos",
     "horaris": "horarios",
     "preus": "precios",
+    "blog": "blog",
 }
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -581,6 +582,7 @@ footer.peu a.actiu{color:var(--blanc)}
 @media (max-width:700px){
   :root{--text:1.15rem;--text-vermells:1rem}
   .nav-links{display:none}
+  .nav-marca{white-space:normal;max-width:62vw;line-height:1.25}
   .idioma-mobil{display:flex;gap:8px;align-items:center;position:absolute;top:18px;right:5vw;z-index:120;font-size:var(--text);font-weight:400}
   .idioma-mobil a{color:var(--gris)}
   .idioma-mobil a.actiu{color:var(--blanc)}
@@ -1033,6 +1035,7 @@ def genera(p):
     <a href="/#activitats">activitats</a>
     <a href="/horaris/">horaris</a>
     <a href="/preus/">preus</a>
+    <a href="/blog/">blog</a>
     <a href="/#newsletter">newsletter</a>
     <a href="/#contacte">contacte</a>
     <div class="idioma" tabindex="0">
