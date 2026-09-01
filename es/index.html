@@ -143,6 +143,8 @@ nav.solida{background:rgba(10,10,10,.85);backdrop-filter:blur(14px);padding:10px
 .avis-galetes.visible{display:flex}
 .avis-galetes p{font-size:var(--text);color:var(--gris);font-weight:400;max-width:620px}
 .avis-galetes .boto{padding:11px 22px;margin:0 8px 0 0}
+.avis-galetes > div{display:flex;align-items:center}
+@media (max-width:700px){.avis-galetes > div{flex-direction:row-reverse}.avis-galetes .boto{margin:0 0 0 8px}}
 @media (min-width:701px){.avis-galetes{left:auto;max-width:560px}}
 .hamburguesa{display:none;background:none;border:0;cursor:pointer;z-index:110;padding:8px}
 .hamburguesa span{display:block;width:26px;height:2px;background:var(--blanc);margin:6px 0;transition:transform .3s,opacity .3s}
