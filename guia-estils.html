@@ -62,24 +62,6 @@ li strong{font-weight:600}
 .dada small{display:block;font-size:var(--text-vermells);letter-spacing:.25em;text-transform:uppercase;color:var(--granat-viu);font-weight:600;margin-bottom:6px}
 .dada span{font-size:var(--text);font-weight:600}
 input.demo{background:transparent;border:0;border-bottom:1px solid var(--vora);color:var(--blanc);font-family:inherit;font-size:var(--text);font-weight:400;padding:13px 2px;width:100%;max-width:340px}
-/* ===== selector de vista escriptori/mòbil ===== */
-.vista{display:flex;gap:10px;margin:26px 0 6px}
-.vista-boto{
-  padding:12px 26px;border-radius:100px;border:1px solid var(--vora);
-  background:transparent;color:var(--gris);font-family:inherit;font-size:var(--text);
-  font-weight:600;text-transform:lowercase;cursor:pointer;transition:all .3s;
-}
-.vista-boto:hover{border-color:var(--blanc);color:var(--blanc)}
-.vista-boto.actiu{background:var(--granat-viu);border-color:var(--granat-viu);color:var(--blanc)}
-/* per defecte (escriptori): amaga els valors de mòbil */
-.v-mobil{display:none}
-body.mode-mobil .v-mobil{display:inline}
-body.mode-mobil .v-desktop{display:none}
-/* en mode mòbil: tokens de mòbil a les mostres en viu + amplada simulada */
-body.mode-mobil{--text:1.15rem;--text-vermells:1rem}
-body.mode-mobil .mostra{max-width:420px}
-body.mode-mobil .accions{grid-template-columns:repeat(2,1fr)}
-
 /* taules apilades (mòbil real i mode mòbil del selector): cada fila és una fitxa */
 @media (max-width:700px){
   :root{--text:1.15rem;--text-vermells:1rem}
@@ -89,21 +71,12 @@ body.mode-mobil .accions{grid-template-columns:repeat(2,1fr)}
   table tr:first-child{display:none} /* capçalera fora: el contingut ja s'explica sol */
   table td,table th{display:block;border-bottom:0;padding:3px 0}
 }
-body.mode-mobil table,body.mode-mobil tbody{display:block}
-body.mode-mobil table tr{display:block;padding:16px 0;border-bottom:1px solid var(--vora)}
-body.mode-mobil table tr:first-child{display:none}
-body.mode-mobil table td,body.mode-mobil table th{display:block;border-bottom:0;padding:3px 0}
 </style>
 </head>
 <body>
 
 <h1>guia d'estils <em>escoladansa.com</em></h1>
 <p class="sub">Document intern de referència (v2, sistema simplificat). Qualsevol element nou de la web ha de sortir d'aquí. Si una necessitat no encaixa amb cap token: primer es discuteix, després es toca la guia, i només llavors el codi.</p>
-
-<div class="vista" role="tablist" aria-label="Vista">
-  <button class="vista-boto actiu" data-vista="desktop">🖥️ escriptori</button>
-  <button class="vista-boto" data-vista="mobil">📱 mòbil</button>
-</div>
 
 <h2>1 · paleta de colors</h2>
 <p class="sub">Tema fosc únic (no hi ha mode clar). <strong>Sis colors en total, i prou.</strong> El granat és accent: mai fons de seccions senceres.</p>
@@ -135,10 +108,10 @@ body.mode-mobil table td,body.mode-mobil table th{display:block;border-bottom:0;
 
 <span class="etq">mides de text (les 2 úniques)</span>
 <table>
-  <tr><th>token</th><th>valor <span class="v-desktop">escriptori</span><span class="v-mobil">mòbil</span></th><th>ús</th></tr>
+  <tr><th>token</th><th>valor</th><th>ús</th></tr>
   <tr>
     <td><code>--text</code></td>
-    <td><span class="v-desktop"><code>clamp(1rem,1.4vw,1.15rem)</code></span><span class="v-mobil"><code>1.15rem</code></span></td>
+    <td>escriptori <code>clamp(1rem,1.4vw,1.15rem)</code> · mòbil <code>1.15rem</code></td>
     <td><strong>tot el text que no és etiqueta ni títol</strong>: paràgrafs, respostes FAQ, beneficis, subtextos de targeta, botons, inputs, files de taula i horaris, notes, legal, nav, peu de pàgina. <em style="font-style:normal;color:var(--gris)">Aquest mateix text que estàs llegint n'és la mostra.</em></td>
   </tr>
   <tr>
@@ -151,9 +124,9 @@ body.mode-mobil table td,body.mode-mobil table th{display:block;border-bottom:0;
 <span class="etq">títols (3 nivells)</span>
 <table>
   <tr><th>nivell</th><th>valor</th><th>ús</th></tr>
-  <tr><td><code>H1</code></td><td><span class="v-desktop">home: <code>clamp(2.7rem,7.4vw,6.8rem)</code><br>pàgines d'estil: <code>clamp(2.4rem,6vw,4.4rem)</code></span><span class="v-mobil">home: <code>clamp(2.35rem,10.2vw,3.4rem)</code><br>pàgines d'estil: el mateix clamp (≈2.4rem)</span></td><td>un per pàgina: el titular del hero / de la pàgina</td></tr>
-  <tr><td><code>H2</code></td><td><span class="v-desktop"><code>clamp(2rem,4.6vw,3.8rem)</code></span><span class="v-mobil"><code>2.35rem</code></span></td><td>titular de bloc — LA MATEIXA A TOTS els blocs, layers i pàgines</td></tr>
-  <tr><td><code>H3</code></td><td><code>1.05rem</code> · pes 800<span class="v-mobil"> (igual al mòbil)</span></td><td>títol dins de targeta o llista: accions (truca'ns...), beneficis, preguntes de FAQ, captions de taula</td></tr>
+  <tr><td><code>H1</code></td><td>home: <code>clamp(2.7rem,7.4vw,6.8rem)</code> (mòbil <code>clamp(2.35rem,10.2vw,3.4rem)</code>)<br>pàgines d'estil: <code>clamp(2.4rem,6vw,4.4rem)</code></td><td>un per pàgina: el titular del hero / de la pàgina</td></tr>
+  <tr><td><code>H2</code></td><td>escriptori <code>clamp(2rem,4.6vw,3.8rem)</code> · mòbil <code>2.35rem</code></td><td>titular de bloc — LA MATEIXA A TOTS els blocs, layers i pàgines</td></tr>
+  <tr><td><code>H3</code></td><td><code>1.05rem</code> · pes 800 (igual a escriptori i mòbil)</td><td>títol dins de targeta o llista: accions (truca'ns...), beneficis, preguntes de FAQ, captions de taula</td></tr>
 </table>
 
 <span class="etq">display (excepcions artístiques, no en crear de noves)</span>
@@ -231,14 +204,5 @@ body.mode-mobil table td,body.mode-mobil table th{display:block;border-bottom:0;
 
 <p style="font-size:var(--text);color:var(--gris);font-weight:400;margin-top:60px;border-top:1px solid var(--vora);padding-top:20px">guia d'estils v2 · setembre 2026 · sistema simplificat: 6 colors, 3 pesos, 2 mides de text · font de veritat: aquest fitxer + generador/genera_pagines.py</p>
 
-<script>
-document.querySelectorAll('.vista-boto').forEach(b =>
-  b.addEventListener('click', () => {
-    document.querySelectorAll('.vista-boto').forEach(x => x.classList.remove('actiu'));
-    b.classList.add('actiu');
-    document.body.classList.toggle('mode-mobil', b.dataset.vista === 'mobil');
-  })
-);
-</script>
 </body>
 </html>
