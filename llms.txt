@@ -41,8 +41,16 @@ Dades clau:
 
 - [El blog](https://escoladansa.com/blog/): consells de dansa per a famílies i adults, guies per començar i vida d'escola
 - [A quina edat pot començar el meu fill a fer dansa?](https://escoladansa.com/blog/a-quina-edat-comencar-dansa/): guia per franges d'edat, dels 3 anys a l'adolescència
-- [Mai no és tard: començar a ballar d'adult](https://escoladansa.com/blog/comencar-dansa-adults/): com començar dansa de zero sent adult, estils recomanats i primera classe
-- En español: [el blog](https://escoladansa.com/es/blog/), /es/blog/a-que-edad-empezar-danza/, /es/blog/empezar-danza-adultos/
+- [Mai no és tard: començar a ballar d'adult](https://escoladansa.com/blog/comencar-dansa-adults/): com començar dansa de zero sent adult
+- [Ballet, jazz o hip-hop? Com triar l'estil del teu fill](https://escoladansa.com/blog/triar-estil-dansa-fill/): guia per triar disciplina segons el caràcter del nen
+- [Què cal portar el primer dia de classe](https://escoladansa.com/blog/primer-dia-classe-dansa/): la llista de la bossa i què no cal comprar encara
+- [Els beneficis de la dansa per a nens, segons la ciència](https://escoladansa.com/blog/beneficis-dansa-nens/): motricitat, memòria, emocions i confiança
+- [Què són els exàmens RAD i com els preparem](https://escoladansa.com/blog/examens-rad-ballet/): la Royal Academy of Dance explicada per a famílies
+- [Dansa i timidesa](https://escoladansa.com/blog/dansa-i-timidesa/): per què la dansa ajuda els nens vergonyosos i què passa a l'escenari
+- [Barre: l'entrenament que ve del ballet](https://escoladansa.com/blog/barre-entrenament-ballet/): què és, per a qui és i els matins de dilluns i dimecres
+- [Com és la classe de prova (i per què és gratuïta)](https://escoladansa.com/blog/classe-de-prova-gratuita/): com reservar-la i què hi passa
+- [Més de 25 anys movent Sant Gervasi](https://escoladansa.com/blog/historia-escola-25-anys/): la història de l'escola
+- En español: [el blog](https://escoladansa.com/es/blog/) amb tots els articles traduïts (slugs propis /es/blog/*)
 - Feed RSS: https://escoladansa.com/feed.xml (català) · https://escoladansa.com/es/feed.xml (español)
 
 ## Pàgina principal

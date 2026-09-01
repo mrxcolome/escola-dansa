@@ -287,6 +287,34 @@ PARELLES += [
 ]
 
 # rutes relatives d'assets: des de /es/ s'han de fer absolutes
+# ── mòdul del blog a la home: cadenes fixes + parelles DINÀMIQUES dels 3 posts
+# més nous (les targetes les injecta genera_blog.py; executa'l abans que aquest)
+import html as _html  # noqa: E402
+from blog_posts import POSTS as _POSTS  # noqa: E402
+
+_e = lambda t: _html.escape(t, quote=True)  # les targetes porten el text escapat
+PARELLES += [
+    ('<h2 class="reveal" data-lletres>consells de dansa i vida d\'escola</h2>',
+     '<h2 class="reveal" data-lletres>consejos de danza y vida de escuela</h2>'),
+    ('<span class="mot-fons" aria-hidden="true">consells</span>',
+     '<span class="mot-fons" aria-hidden="true">consejos</span>'),
+    ('Un article nou cada setmana: <a href="/blog/">visita el blog</a>.',
+     'Un artículo nuevo cada semana: <a href="/es/blog/">visita el blog</a>.'),
+]
+for _p in sorted(_POSTS, key=lambda x: x["data"], reverse=True)[:3]:
+    for _pa in [
+        (f'href="/blog/{_p["slug"]}/"', f'href="/es/blog/{_p["slug_es"]}/"'),
+        (f'alt="{_e(_p["img_alt"])}"', f'alt="{_e(_p["img_alt_es"])}"'),
+        (f'<span class="cat-post">{_e(_p["categoria"])}</span>',
+         f'<span class="cat-post">{_e(_p["categoria_es"])}</span>'),
+        (f'<h3>{_e(_p["h1"])}</h3>', f'<h3>{_e(_p["h1_es"])}</h3>'),
+        (f'<p>{_e(_p["excerpt"])}</p>', f'<p>{_e(_p["excerpt_es"])}</p>'),
+        (f'<span class="peu-card">{_e(_p["data_ca"])}</span>',
+         f'<span class="peu-card">{_e(_p["data_es"])}</span>'),
+    ]:
+        if _pa not in PARELLES:  # dues targetes poden compartir categoria/data
+            PARELLES.append(_pa)
+
 PARELLES += [
     ('"assets/', '"/assets/'),
     ("'assets/", "'/assets/"),

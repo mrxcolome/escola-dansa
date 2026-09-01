@@ -520,7 +520,7 @@ h2{font-size:clamp(2rem,4.6vw,3.8rem);margin-bottom:22px}
 .beneficis{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:2px;background:var(--vora);margin-top:36px}
 .benefici{background:var(--gris-fosc);padding:30px 26px;transition:background .4s}
 .benefici:hover{background:var(--granat-fosc)}
-.benefici h3{font-size:1.05rem;margin-bottom:10px}
+.benefici h3{font-size:var(--text);margin-bottom:10px}
 .benefici p{font-size:var(--text);color:var(--gris);font-weight:400}
 .classe-fila{font-size:var(--text);display:grid;grid-template-columns:110px 90px 1fr auto;gap:18px;align-items:center;padding:16px 0;border-bottom:1px solid var(--vora);transition:padding-left .25s var(--ease),background .25s}
 .classe-fila:hover{padding-left:12px;background:rgba(149,0,0,.08)}
@@ -536,7 +536,7 @@ h2{font-size:clamp(2rem,4.6vw,3.8rem);margin-bottom:22px}
 .fila-h .nom{font-weight:600;text-transform:lowercase}
 .fila-h .nom small{display:block;font-weight:400;color:var(--gris);font-size:var(--text);text-transform:none}
 .taula-preus{width:100%;border-collapse:collapse;margin:10px 0 40px}
-.taula-preus caption{text-align:left;font-weight:800;font-size:1.05rem;padding-bottom:14px;text-transform:lowercase;color:var(--blanc)}
+.taula-preus caption{text-align:left;font-weight:800;font-size:var(--text);padding-bottom:14px;text-transform:lowercase;color:var(--blanc)}
 .taula-preus th,.taula-preus td{padding:14px 12px;text-align:left;border-bottom:1px solid var(--vora);font-size:var(--text)}
 .taula-preus th{font-size:var(--text-vermells);letter-spacing:.2em;text-transform:uppercase;color:var(--gris);font-weight:600}
 .taula-preus td:first-child{font-weight:600}
@@ -545,11 +545,11 @@ h2{font-size:clamp(2rem,4.6vw,3.8rem);margin-bottom:22px}
 .disciplines-llista{margin-top:30px}
 .disc-item{display:block;padding:20px 0;border-bottom:1px solid var(--vora);transition:padding-left .25s var(--ease)}
 a.disc-item:hover{padding-left:12px}
-.disc-item strong{text-transform:lowercase;font-size:1.05rem}
+.disc-item strong{text-transform:lowercase;font-size:var(--text)}
 a.disc-item strong{color:var(--granat-viu)}
 .disc-item span{display:block;color:var(--gris);font-weight:400;font-size:var(--text);margin-top:4px}
 details.faq{border-bottom:1px solid var(--vora)}
-.faq summary{cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center;gap:18px;padding:20px 0;font-weight:600;font-size:1.05rem}
+.faq summary{cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center;gap:18px;padding:20px 0;font-weight:600;font-size:var(--text)}
 .faq summary::-webkit-details-marker{display:none}
 .faq summary::after{content:"+";color:var(--granat-viu);font-size:1.4rem;font-weight:400;flex-shrink:0;transition:transform .3s var(--ease)}
 .faq[open] summary::after{transform:rotate(45deg)}
@@ -566,7 +566,7 @@ details.faq{border-bottom:1px solid var(--vora)}
 .accio{background:var(--gris-fosc);padding:24px 22px;display:flex;flex-direction:column;align-items:flex-start;gap:8px;transition:background .3s}
 .accio:hover{background:var(--granat-fosc)}
 .accio svg{width:26px;height:26px;fill:var(--granat-viu)}
-.accio strong{text-transform:lowercase;font-size:1.05rem;font-weight:800}
+.accio strong{text-transform:lowercase;font-size:var(--text);font-weight:800}
 .accio small{color:var(--gris);font-size:var(--text);font-weight:400;line-height:1.4}
 .relacionats{display:flex;gap:10px;flex-wrap:wrap;margin-top:26px}
 .relacionats a{border:1px solid var(--vora);border-radius:100px;padding:10px 22px;font-size:var(--text);font-weight:600;text-transform:lowercase;color:var(--gris);transition:all .3s}
@@ -582,7 +582,7 @@ footer.peu a.actiu{color:var(--blanc)}
 @media (max-width:700px){
   :root{--text:1.15rem;--text-vermells:1rem}
   .nav-links{display:none}
-  .nav-marca{white-space:normal;max-width:62vw;line-height:1.25}
+  .nav-marca{margin-top:34px}
   .idioma-mobil{display:flex;gap:8px;align-items:center;position:absolute;top:18px;right:5vw;z-index:120;font-size:var(--text);font-weight:400}
   .idioma-mobil a{color:var(--gris)}
   .idioma-mobil a.actiu{color:var(--blanc)}

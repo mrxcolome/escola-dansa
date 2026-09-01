@@ -80,7 +80,7 @@ h2{font-size:clamp(2rem,4.6vw,3.8rem);margin-bottom:22px}
 .beneficis{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:2px;background:var(--vora);margin-top:36px}
 .benefici{background:var(--gris-fosc);padding:30px 26px;transition:background .4s}
 .benefici:hover{background:var(--granat-fosc)}
-.benefici h3{font-size:1.05rem;margin-bottom:10px}
+.benefici h3{font-size:var(--text);margin-bottom:10px}
 .benefici p{font-size:var(--text);color:var(--gris);font-weight:400}
 .classe-fila{font-size:var(--text);display:grid;grid-template-columns:110px 90px 1fr auto;gap:18px;align-items:center;padding:16px 0;border-bottom:1px solid var(--vora);transition:padding-left .25s var(--ease),background .25s}
 .classe-fila:hover{padding-left:12px;background:rgba(149,0,0,.08)}
@@ -96,7 +96,7 @@ h2{font-size:clamp(2rem,4.6vw,3.8rem);margin-bottom:22px}
 .fila-h .nom{font-weight:600;text-transform:lowercase}
 .fila-h .nom small{display:block;font-weight:400;color:var(--gris);font-size:var(--text);text-transform:none}
 .taula-preus{width:100%;border-collapse:collapse;margin:10px 0 40px}
-.taula-preus caption{text-align:left;font-weight:800;font-size:1.05rem;padding-bottom:14px;text-transform:lowercase;color:var(--blanc)}
+.taula-preus caption{text-align:left;font-weight:800;font-size:var(--text);padding-bottom:14px;text-transform:lowercase;color:var(--blanc)}
 .taula-preus th,.taula-preus td{padding:14px 12px;text-align:left;border-bottom:1px solid var(--vora);font-size:var(--text)}
 .taula-preus th{font-size:var(--text-vermells);letter-spacing:.2em;text-transform:uppercase;color:var(--gris);font-weight:600}
 .taula-preus td:first-child{font-weight:600}
@@ -105,11 +105,11 @@ h2{font-size:clamp(2rem,4.6vw,3.8rem);margin-bottom:22px}
 .disciplines-llista{margin-top:30px}
 .disc-item{display:block;padding:20px 0;border-bottom:1px solid var(--vora);transition:padding-left .25s var(--ease)}
 a.disc-item:hover{padding-left:12px}
-.disc-item strong{text-transform:lowercase;font-size:1.05rem}
+.disc-item strong{text-transform:lowercase;font-size:var(--text)}
 a.disc-item strong{color:var(--granat-viu)}
 .disc-item span{display:block;color:var(--gris);font-weight:400;font-size:var(--text);margin-top:4px}
 details.faq{border-bottom:1px solid var(--vora)}
-.faq summary{cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center;gap:18px;padding:20px 0;font-weight:600;font-size:1.05rem}
+.faq summary{cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center;gap:18px;padding:20px 0;font-weight:600;font-size:var(--text)}
 .faq summary::-webkit-details-marker{display:none}
 .faq summary::after{content:"+";color:var(--granat-viu);font-size:1.4rem;font-weight:400;flex-shrink:0;transition:transform .3s var(--ease)}
 .faq[open] summary::after{transform:rotate(45deg)}
@@ -126,7 +126,7 @@ details.faq{border-bottom:1px solid var(--vora)}
 .accio{background:var(--gris-fosc);padding:24px 22px;display:flex;flex-direction:column;align-items:flex-start;gap:8px;transition:background .3s}
 .accio:hover{background:var(--granat-fosc)}
 .accio svg{width:26px;height:26px;fill:var(--granat-viu)}
-.accio strong{text-transform:lowercase;font-size:1.05rem;font-weight:800}
+.accio strong{text-transform:lowercase;font-size:var(--text);font-weight:800}
 .accio small{color:var(--gris);font-size:var(--text);font-weight:400;line-height:1.4}
 .relacionats{display:flex;gap:10px;flex-wrap:wrap;margin-top:26px}
 .relacionats a{border:1px solid var(--vora);border-radius:100px;padding:10px 22px;font-size:var(--text);font-weight:600;text-transform:lowercase;color:var(--gris);transition:all .3s}
@@ -142,7 +142,7 @@ footer.peu a.actiu{color:var(--blanc)}
 @media (max-width:700px){
   :root{--text:1.15rem;--text-vermells:1rem}
   .nav-links{display:none}
-  .nav-marca{white-space:normal;max-width:62vw;line-height:1.25}
+  .nav-marca{margin-top:34px}
   .idioma-mobil{display:flex;gap:8px;align-items:center;position:absolute;top:18px;right:5vw;z-index:120;font-size:var(--text);font-weight:400}
   .idioma-mobil a{color:var(--gris)}
   .idioma-mobil a.actiu{color:var(--blanc)}
@@ -185,7 +185,7 @@ nav.solida{background:rgba(247,244,240,.88)}
 .post-card img{width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;display:block}
 .pc-cos{padding:24px 26px 28px;display:flex;flex-direction:column;gap:12px;flex:1}
 .cat-post{font-size:var(--text-vermells);letter-spacing:.3em;text-transform:uppercase;color:var(--granat-viu);font-weight:600}
-.post-card h3{font-size:1.05rem}
+.post-card h3{font-size:var(--text)}
 .post-card p{font-size:var(--text);color:var(--gris);font-weight:400;flex:1}
 .post-card .peu-card{font-size:var(--text-vermells);color:var(--gris)}
 </style>
@@ -211,13 +211,61 @@ nav.solida{background:rgba(247,244,240,.88)}
      "@type": "BlogPosting",
      "headline": "a quina edat pot començar el meu fill a fer dansa?",
      "url": "https://escoladansa.com/blog/a-quina-edat-comencar-dansa/",
-     "datePublished": "2026-09-01"
+     "datePublished": "2026-07-01"
     },
     {
      "@type": "BlogPosting",
      "headline": "mai no és tard: començar a ballar d'adult",
      "url": "https://escoladansa.com/blog/comencar-dansa-adults/",
-     "datePublished": "2026-09-01"
+     "datePublished": "2026-07-08"
+    },
+    {
+     "@type": "BlogPosting",
+     "headline": "ballet, jazz o hip-hop? com triar l'estil del teu fill",
+     "url": "https://escoladansa.com/blog/triar-estil-dansa-fill/",
+     "datePublished": "2026-07-15"
+    },
+    {
+     "@type": "BlogPosting",
+     "headline": "què cal portar el primer dia de classe de dansa",
+     "url": "https://escoladansa.com/blog/primer-dia-classe-dansa/",
+     "datePublished": "2026-07-22"
+    },
+    {
+     "@type": "BlogPosting",
+     "headline": "els beneficis de la dansa per a nens, segons la ciència",
+     "url": "https://escoladansa.com/blog/beneficis-dansa-nens/",
+     "datePublished": "2026-07-29"
+    },
+    {
+     "@type": "BlogPosting",
+     "headline": "què són els exàmens RAD i com els preparem",
+     "url": "https://escoladansa.com/blog/examens-rad-ballet/",
+     "datePublished": "2026-08-05"
+    },
+    {
+     "@type": "BlogPosting",
+     "headline": "dansa i timidesa: quan un nen vergonyós puja a l'escenari",
+     "url": "https://escoladansa.com/blog/dansa-i-timidesa/",
+     "datePublished": "2026-08-12"
+    },
+    {
+     "@type": "BlogPosting",
+     "headline": "barre: l'entrenament que ve del ballet (i per què enganxa)",
+     "url": "https://escoladansa.com/blog/barre-entrenament-ballet/",
+     "datePublished": "2026-08-19"
+    },
+    {
+     "@type": "BlogPosting",
+     "headline": "com és la classe de prova (i per què és gratuïta)",
+     "url": "https://escoladansa.com/blog/classe-de-prova-gratuita/",
+     "datePublished": "2026-08-26"
+    },
+    {
+     "@type": "BlogPosting",
+     "headline": "més de 25 anys movent Sant Gervasi",
+     "url": "https://escoladansa.com/blog/historia-escola-25-anys/",
+     "datePublished": "2026-09-02"
     }
    ]
   },
@@ -283,8 +331,16 @@ nav.solida{background:rgba(247,244,240,.88)}
 
   <section class="reveal">
     <div class="posts-grid">
-      <a class="post-card" href="/blog/a-quina-edat-comencar-dansa/"><img src="/assets/blog-edat-infants.jpg" alt="Unes sabatilles de ballet petites a terra d&#x27;una sala de dansa, amb puntes penjades a la barra al fons" loading="lazy" width="1600" height="900"><div class="pc-cos"><span class="cat-post">famílies</span><h3>a quina edat pot començar el meu fill a fer dansa?</h3><p>Dels 3 anys a l&#x27;adolescència: la guia per franges d&#x27;edat que responem cada setembre a recepció, amb els senyals que indiquen que el teu fill està a punt.</p><span class="peu-card">1 de setembre de 2026 · 5 min de lectura</span></div></a>
-      <a class="post-card" href="/blog/comencar-dansa-adults/"><img src="/assets/blog-dansa-adults.jpg" alt="Mans d&#x27;adults sobre la barra de fusta d&#x27;una sala de dansa amb llum càlida de tarda" loading="lazy" width="1600" height="900"><div class="pc-cos"><span class="cat-post">adults</span><h3>mai no és tard: començar a ballar d&#x27;adult</h3><p>«M&#x27;encantaria, però a la meva edat...» és la frase més equivocada que sentim. Què frena de veritat, què hi guanyaràs i per quin estil començar de zero.</p><span class="peu-card">1 de setembre de 2026 · 5 min de lectura</span></div></a>
+      <a class="post-card" href="/blog/historia-escola-25-anys/"><img src="/assets/blog-historia-escola.jpg" alt="Unes sabatilles de ballet velles i gastades al costat d&#x27;unes de noves, a terra d&#x27;una sala de dansa" loading="lazy" width="1600" height="900"><div class="pc-cos"><span class="cat-post">l&#x27;escola</span><h3>més de 25 anys movent Sant Gervasi</h3><p>Hi ha alumnes que van venir de petites i ara hi porten les seves filles. La història i la manera de fer d&#x27;una escola de barri que fa més d&#x27;un quart de segle que balla.</p><span class="peu-card">2 de setembre de 2026 · 4 min de lectura</span></div></a>
+      <a class="post-card" href="/blog/classe-de-prova-gratuita/"><img src="/assets/blog-classe-prova.jpg" alt="La porta entreoberta d&#x27;una sala de dansa amb llum càlida, amb la barra i el mirall al fons" loading="lazy" width="1600" height="900"><div class="pc-cos"><span class="cat-post">l&#x27;escola</span><h3>com és la classe de prova (i per què és gratuïta)</h3><p>Cap decisió a cegues: la primera classe de qualsevol disciplina és gratis. Com va, què mirar-hi i el motiu de fons pel qual fa dècades que la regalem.</p><span class="peu-card">26 d&#x27;agost de 2026 · 4 min de lectura</span></div></a>
+      <a class="post-card" href="/blog/barre-entrenament-ballet/"><img src="/assets/blog-barre.jpg" alt="Peus d&#x27;una adulta amb mitjons antilliscants posant-se de puntetes al costat d&#x27;una barra de ballet amb llum de matí" loading="lazy" width="1600" height="900"><div class="pc-cos"><span class="cat-post">adults</span><h3>barre: l&#x27;entrenament que ve del ballet (i per què enganxa)</h3><p>Tonifica com el gimnàs, allarga com el ioga i s&#x27;entrena vora una barra de ballet. Què és el barre, com és una classe i per què enganxa tant.</p><span class="peu-card">19 d&#x27;agost de 2026 · 4 min de lectura</span></div></a>
+      <a class="post-card" href="/blog/dansa-i-timidesa/"><img src="/assets/blog-timidesa-escenari.jpg" alt="Un teló de vellut granat entreobert amb un feix de llum càlida que il·lumina l&#x27;escenari de fusta" loading="lazy" width="1600" height="900"><div class="pc-cos"><span class="cat-post">famílies</span><h3>dansa i timidesa: quan un nen vergonyós puja a l&#x27;escenari</h3><p>«És que és molt tímida...» — ens ho diuen com un dubte i és el millor motiu per venir. El que passa quan un nen vergonyós troba el seu lloc a la sala.</p><span class="peu-card">12 d&#x27;agost de 2026 · 4 min de lectura</span></div></a>
+      <a class="post-card" href="/blog/examens-rad-ballet/"><img src="/assets/blog-examens-rad.jpg" alt="Puntes de ballet de setí rosa al costat d&#x27;un certificat amb llaç granat a terra d&#x27;una sala de dansa" loading="lazy" width="1600" height="900"><div class="pc-cos"><span class="cat-post">l&#x27;escola</span><h3>què són els exàmens RAD i com els preparem</h3><p>Els exàmens de la Royal Academy of Dance explicats per a famílies: què aporten, com és el gran dia i com els preparem — sense mites ni solemnitat.</p><span class="peu-card">5 d&#x27;agost de 2026 · 5 min de lectura</span></div></a>
+      <a class="post-card" href="/blog/beneficis-dansa-nens/"><img src="/assets/blog-beneficis-nens.jpg" alt="Cames d&#x27;una nena amb mitges i sabatilles de ballet posant-se de puntetes a terra d&#x27;una sala de dansa" loading="lazy" width="1600" height="900"><div class="pc-cos"><span class="cat-post">famílies</span><h3>els beneficis de la dansa per a nens, segons la ciència</h3><p>Motricitat, memòria, gestió emocional, confiança: el que la recerca diu de la dansa en la infància — i com ho veiem cada dia a la sala.</p><span class="peu-card">29 de juliol de 2026 · 5 min de lectura</span></div></a>
+      <a class="post-card" href="/blog/primer-dia-classe-dansa/"><img src="/assets/blog-primer-dia.jpg" alt="Una bossa de dansa oberta sobre un banc de fusta amb sabatilles, roba i una ampolla d&#x27;aigua" loading="lazy" width="1600" height="900"><div class="pc-cos"><span class="cat-post">famílies</span><h3>què cal portar el primer dia de classe de dansa</h3><p>Molt menys del que et penses: la llista completa de la bossa del primer dia — i, sobretot, el que NO has de comprar encara.</p><span class="peu-card">22 de juliol de 2026 · 4 min de lectura</span></div></a>
+      <a class="post-card" href="/blog/triar-estil-dansa-fill/"><img src="/assets/blog-triar-estil.jpg" alt="Tres parells de sabatilles de dansa en fila a terra d&#x27;una sala: ballet, jazz i vambes urbanes" loading="lazy" width="1600" height="900"><div class="pc-cos"><span class="cat-post">famílies</span><h3>ballet, jazz o hip-hop? com triar l&#x27;estil del teu fill</h3><p>No hi ha estils bons i dolents: hi ha estils que encaixen amb cada criatura. Guia ràpida pel caràcter del teu fill i el mètode infal·lible per encertar-la.</p><span class="peu-card">15 de juliol de 2026 · 5 min de lectura</span></div></a>
+      <a class="post-card" href="/blog/comencar-dansa-adults/"><img src="/assets/blog-dansa-adults.jpg" alt="Mans d&#x27;adults sobre la barra de fusta d&#x27;una sala de dansa amb llum càlida de tarda" loading="lazy" width="1600" height="900"><div class="pc-cos"><span class="cat-post">adults</span><h3>mai no és tard: començar a ballar d&#x27;adult</h3><p>«M&#x27;encantaria, però a la meva edat...» és la frase més equivocada que sentim. Què frena de veritat, què hi guanyaràs i per quin estil començar de zero.</p><span class="peu-card">8 de juliol de 2026 · 5 min de lectura</span></div></a>
+      <a class="post-card" href="/blog/a-quina-edat-comencar-dansa/"><img src="/assets/blog-edat-infants.jpg" alt="Unes sabatilles de ballet petites a terra d&#x27;una sala de dansa, amb puntes penjades a la barra al fons" loading="lazy" width="1600" height="900"><div class="pc-cos"><span class="cat-post">famílies</span><h3>a quina edat pot començar el meu fill a fer dansa?</h3><p>Dels 3 anys a l&#x27;adolescència: la guia per franges d&#x27;edat que responem cada setembre a recepció, amb els senyals que indiquen que el teu fill està a punt.</p><span class="peu-card">1 de juliol de 2026 · 5 min de lectura</span></div></a>
     </div>
   </section>
   <div class="cta-final reveal">

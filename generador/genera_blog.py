@@ -42,7 +42,7 @@ nav.solida{background:rgba(247,244,240,.88)}
 .post-card img{width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;display:block}
 .pc-cos{padding:24px 26px 28px;display:flex;flex-direction:column;gap:12px;flex:1}
 .cat-post{font-size:var(--text-vermells);letter-spacing:.3em;text-transform:uppercase;color:var(--granat-viu);font-weight:600}
-.post-card h3{font-size:1.05rem}
+.post-card h3{font-size:var(--text)}
 .post-card p{font-size:var(--text);color:var(--gris);font-weight:400;flex:1}
 .post-card .peu-card{font-size:var(--text-vermells);color:var(--gris)}
 """
@@ -401,6 +401,33 @@ def retocs_head(pagina, lang):
                           '<meta name="theme-color" content="#f7f4f0">', 1)
 
 
+# ─────────────────────────────────────────────────────────────────────────────
+# MÒDUL DEL BLOG A LA HOME — injecta els 3 posts més nous entre els marcadors
+# <!-- BLOG-AUTO --> ... <!-- /BLOG-AUTO --> de index.html (CA; l'ES el fa
+# genera_home_es.py amb parelles dinàmiques). Executa'l ABANS de genera_home_es.
+# ─────────────────────────────────────────────────────────────────────────────
+def modul_home():
+    cami = os.path.join(ARREL, "index.html")
+    with open(cami, encoding="utf-8") as f:
+        h = f.read()
+    inici, fi = "<!-- BLOG-AUTO -->", "<!-- /BLOG-AUTO -->"
+    if inici not in h or fi not in h:
+        print("AVIS: index.html sense marcadors BLOG-AUTO — modul de la home NO actualitzat")
+        return
+    posts3 = sorted(POSTS, key=lambda p: p["data"], reverse=True)[:3]
+    cards = "\n".join(
+        f'  <a class="bloc-post reveal" href="/blog/{p["slug"]}/">'
+        f'<img src="/assets/{p["img"]}" alt="{gp.esc(p["img_alt"])}" loading="lazy" width="1600" height="900">'
+        f'<div><span class="cat-post">{gp.esc(p["categoria"])}</span><h3>{gp.esc(p["h1"])}</h3>'
+        f'<p>{gp.esc(p["excerpt"])}</p><span class="peu-card">{gp.esc(p["data_ca"])}</span></div></a>'
+        for p in posts3)
+    pre, resta = h.split(inici, 1)
+    _mig, post = resta.split(fi, 1)
+    with open(cami, "w", encoding="utf-8", newline="\n") as f:
+        f.write(pre + inici + "\n" + cards + "\n  " + fi + post)
+    print(f"modul del blog injectat a index.html ({len(posts3)} targetes)")
+
+
 def escriu(cami, contingut):
     os.makedirs(os.path.dirname(cami), exist_ok=True)
     with open(cami, "w", encoding="utf-8") as f:
@@ -417,6 +444,7 @@ def main():
                retocs_head(pagina_post_es(p), "es"))
     escriu(os.path.join(ARREL, "feed.xml"), feed_rss("ca"))
     escriu(os.path.join(ARREL, "es", "feed.xml"), feed_rss("es"))
+    modul_home()
     with open(os.path.join(ARREL, "sitemap.xml"), "w", encoding="utf-8") as f:
         f.write(sitemap())
     print(f"blog: {len(POSTS)} posts CA + {len(POSTS)} ES + 2 index + 2 feeds; sitemap.xml reescrit ({sitemap().count('<url>')} URLs)")

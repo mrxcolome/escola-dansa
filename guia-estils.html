@@ -25,7 +25,7 @@ h1{font-size:clamp(2.4rem,6vw,4.4rem);margin-bottom:10px}
 h1 em{font-style:normal;color:var(--granat-viu)}
 .sub{color:var(--gris);font-weight:400;font-size:var(--text);max-width:700px;margin-bottom:20px}
 h2{font-size:clamp(2rem,4.6vw,3.8rem);margin:90px 0 10px;padding-top:30px;border-top:1px solid var(--vora)}
-h3{font-size:1.05rem;margin:40px 0 14px;color:var(--granat-viu)}
+h3{font-size:var(--text);margin:40px 0 14px;color:var(--granat-viu)}
 .etq{display:inline-flex;align-items:center;gap:12px;font-size:var(--text-vermells);letter-spacing:.3em;text-transform:uppercase;color:var(--granat-viu);font-weight:600;margin:60px 0 0}
 .etq::before{content:"";width:34px;height:1px;background:var(--granat-viu)}
 table{width:100%;border-collapse:collapse;margin:16px 0 30px}
@@ -54,7 +54,7 @@ li strong{font-weight:600}
 .accions{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:2px;background:var(--vora);border-radius:16px;overflow:hidden;margin:16px 0}
 .accio{background:var(--gris-fosc);padding:24px 22px;display:flex;flex-direction:column;gap:8px}
 .accio i{width:26px;height:26px;border-radius:50%;background:var(--granat-viu);display:block}
-.accio strong{text-transform:lowercase;font-size:1.05rem}
+.accio strong{text-transform:lowercase;font-size:var(--text)}
 .accio small{color:var(--gris);font-size:var(--text);font-weight:400}
 .pill{display:inline-block;background:var(--granat-viu);color:var(--blanc);border-radius:100px;padding:6px 16px;font-size:var(--text-vermells);font-weight:800;letter-spacing:.06em;text-transform:lowercase;margin-right:10px}
 .sala{display:inline-block;font-size:var(--text-vermells);font-weight:800;letter-spacing:.12em;text-transform:uppercase;border:1px solid var(--vora);padding:5px 12px;border-radius:100px;color:var(--gris)}
@@ -126,7 +126,7 @@ input.demo{background:transparent;border:0;border-bottom:1px solid var(--vora);c
   <tr><th>nivell</th><th>valor</th><th>ús</th></tr>
   <tr><td><code>H1</code></td><td>home: <code>clamp(2.7rem,7.4vw,6.8rem)</code> (mòbil <code>clamp(2.35rem,10.2vw,3.4rem)</code>)<br>pàgines d'estil: <code>clamp(2.4rem,6vw,4.4rem)</code></td><td>un per pàgina: el titular del hero / de la pàgina</td></tr>
   <tr><td><code>H2</code></td><td>escriptori <code>clamp(2rem,4.6vw,3.8rem)</code> · mòbil <code>2.35rem</code></td><td>titular de bloc — LA MATEIXA A TOTS els blocs, layers i pàgines</td></tr>
-  <tr><td><code>H3</code></td><td><code>1.05rem</code> · pes 800 (igual a escriptori i mòbil)</td><td>títol dins de targeta o llista: accions (truca'ns...), beneficis, preguntes de FAQ, captions de taula</td></tr>
+  <tr><td><code>H3</code></td><td>mida <code>--text</code> · pes 800 (escriptori clamp 1rem–1.15rem · mòbil 1.15rem)</td><td>títol dins de targeta o llista: accions (truca'ns...), beneficis, preguntes de FAQ, captions de taula</td></tr>
 </table>
 
 <span class="etq">display (excepcions artístiques, no en crear de noves)</span>

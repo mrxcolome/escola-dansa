@@ -6,22 +6,86 @@
     <atom:link href="https://escoladansa.com/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Consells de dansa per a famílies i adults, i vida d&#x27;escola, des de Sant Gervasi (Barcelona).</description>
     <language>ca</language>
-    <lastBuildDate>Tue, 01 Sep 2026 08:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 02 Sep 2026 08:00:00 +0200</lastBuildDate>
     <item>
-      <title>a quina edat pot començar el meu fill a fer dansa?</title>
-      <link>https://escoladansa.com/blog/a-quina-edat-comencar-dansa/</link>
-      <guid isPermaLink="true">https://escoladansa.com/blog/a-quina-edat-comencar-dansa/</guid>
-      <pubDate>Tue, 01 Sep 2026 08:00:00 +0200</pubDate>
-      <description>La pregunta que més ens fan les famílies: a quina edat es pot començar a fer dansa? Guia per franges d&#x27;edat (dels 3 anys a l&#x27;adolescència), senyals que el teu fill està a punt i com és la primera classe.</description>
-      <enclosure url="https://escoladansa.com/assets/blog-edat-infants.jpg" type="image/jpeg" length="150000"/>
+      <title>més de 25 anys movent Sant Gervasi</title>
+      <link>https://escoladansa.com/blog/historia-escola-25-anys/</link>
+      <guid isPermaLink="true">https://escoladansa.com/blog/historia-escola-25-anys/</guid>
+      <pubDate>Wed, 02 Sep 2026 08:00:00 +0200</pubDate>
+      <description>La història de l&#x27;Escola de Dansa Cristina Colomé, al carrer Craywinckel de Sant Gervasi (Barcelona): més de 25 anys, generacions d&#x27;alumnes, 3 sales i una manera pròpia d&#x27;ensenyar a ballar.</description>
+      <enclosure url="https://escoladansa.com/assets/blog-historia-escola.jpg" type="image/jpeg" length="150000"/>
+    </item>
+    <item>
+      <title>com és la classe de prova (i per què és gratuïta)</title>
+      <link>https://escoladansa.com/blog/classe-de-prova-gratuita/</link>
+      <guid isPermaLink="true">https://escoladansa.com/blog/classe-de-prova-gratuita/</guid>
+      <pubDate>Wed, 26 Aug 2026 08:00:00 +0200</pubDate>
+      <description>La primera classe a la nostra escola de dansa de Barcelona és gratuïta i sense compromís: com reservar-la, què passa quan arribes, què valorar en sortir i per què fa 25 anys que la regalem.</description>
+      <enclosure url="https://escoladansa.com/assets/blog-classe-prova.jpg" type="image/jpeg" length="150000"/>
+    </item>
+    <item>
+      <title>barre: l&#x27;entrenament que ve del ballet (i per què enganxa)</title>
+      <link>https://escoladansa.com/blog/barre-entrenament-ballet/</link>
+      <guid isPermaLink="true">https://escoladansa.com/blog/barre-entrenament-ballet/</guid>
+      <pubDate>Wed, 19 Aug 2026 08:00:00 +0200</pubDate>
+      <description>Què és el barre, l&#x27;entrenament inspirat en el ballet que tonifica, allarga i millora la postura sense impacte. Com és una classe, per a qui és i els horaris de matí a la nostra escola de Barcelona.</description>
+      <enclosure url="https://escoladansa.com/assets/blog-barre.jpg" type="image/jpeg" length="150000"/>
+    </item>
+    <item>
+      <title>dansa i timidesa: quan un nen vergonyós puja a l&#x27;escenari</title>
+      <link>https://escoladansa.com/blog/dansa-i-timidesa/</link>
+      <guid isPermaLink="true">https://escoladansa.com/blog/dansa-i-timidesa/</guid>
+      <pubDate>Wed, 12 Aug 2026 08:00:00 +0200</pubDate>
+      <description>Per què la dansa és una de les millors eines per a nens tímids: grup estable, llenguatge sense paraules, reptes petits i l&#x27;experiència transformadora de l&#x27;escenari. Explicat des de la sala.</description>
+      <enclosure url="https://escoladansa.com/assets/blog-timidesa-escenari.jpg" type="image/jpeg" length="150000"/>
+    </item>
+    <item>
+      <title>què són els exàmens RAD i com els preparem</title>
+      <link>https://escoladansa.com/blog/examens-rad-ballet/</link>
+      <guid isPermaLink="true">https://escoladansa.com/blog/examens-rad-ballet/</guid>
+      <pubDate>Wed, 05 Aug 2026 08:00:00 +0200</pubDate>
+      <description>Els exàmens de la Royal Academy of Dance (RAD) explicats per a famílies: què són, què aporten a l&#x27;alumna, com és el dia de l&#x27;examen i com preparem els grups a l&#x27;escola. Sense mites.</description>
+      <enclosure url="https://escoladansa.com/assets/blog-examens-rad.jpg" type="image/jpeg" length="150000"/>
+    </item>
+    <item>
+      <title>els beneficis de la dansa per a nens, segons la ciència</title>
+      <link>https://escoladansa.com/blog/beneficis-dansa-nens/</link>
+      <guid isPermaLink="true">https://escoladansa.com/blog/beneficis-dansa-nens/</guid>
+      <pubDate>Wed, 29 Jul 2026 08:00:00 +0200</pubDate>
+      <description>Què diu la recerca sobre la dansa en la infància: desenvolupament motor, memòria i funcions executives, gestió emocional, confiança i vincle social. I com ho veiem cada dia a la sala.</description>
+      <enclosure url="https://escoladansa.com/assets/blog-beneficis-nens.jpg" type="image/jpeg" length="150000"/>
+    </item>
+    <item>
+      <title>què cal portar el primer dia de classe de dansa</title>
+      <link>https://escoladansa.com/blog/primer-dia-classe-dansa/</link>
+      <guid isPermaLink="true">https://escoladansa.com/blog/primer-dia-classe-dansa/</guid>
+      <pubDate>Wed, 22 Jul 2026 08:00:00 +0200</pubDate>
+      <description>La llista del primer dia de classe de dansa: què posar a la bossa, què no cal comprar encara, com anar pentinades i els consells que donem a totes les famílies noves de l&#x27;escola.</description>
+      <enclosure url="https://escoladansa.com/assets/blog-primer-dia.jpg" type="image/jpeg" length="150000"/>
+    </item>
+    <item>
+      <title>ballet, jazz o hip-hop? com triar l&#x27;estil del teu fill</title>
+      <link>https://escoladansa.com/blog/triar-estil-dansa-fill/</link>
+      <guid isPermaLink="true">https://escoladansa.com/blog/triar-estil-dansa-fill/</guid>
+      <pubDate>Wed, 15 Jul 2026 08:00:00 +0200</pubDate>
+      <description>Guia pràctica per triar l&#x27;estil de dansa d&#x27;un nen o nena segons el seu caràcter: ballet clàssic, jazz, hip-hop, contemporani o musical. I el mètode que mai falla: la classe de prova.</description>
+      <enclosure url="https://escoladansa.com/assets/blog-triar-estil.jpg" type="image/jpeg" length="150000"/>
     </item>
     <item>
       <title>mai no és tard: començar a ballar d&#x27;adult</title>
       <link>https://escoladansa.com/blog/comencar-dansa-adults/</link>
       <guid isPermaLink="true">https://escoladansa.com/blog/comencar-dansa-adults/</guid>
-      <pubDate>Tue, 01 Sep 2026 08:00:00 +0200</pubDate>
+      <pubDate>Wed, 08 Jul 2026 08:00:00 +0200</pubDate>
       <description>Vols ballar però creus que ja no tens edat? Mentida. Guia per començar dansa d&#x27;adult i de zero: què frena de veritat, què hi guanyaràs, quins estils són ideals per començar i com és la primera classe.</description>
       <enclosure url="https://escoladansa.com/assets/blog-dansa-adults.jpg" type="image/jpeg" length="150000"/>
+    </item>
+    <item>
+      <title>a quina edat pot començar el meu fill a fer dansa?</title>
+      <link>https://escoladansa.com/blog/a-quina-edat-comencar-dansa/</link>
+      <guid isPermaLink="true">https://escoladansa.com/blog/a-quina-edat-comencar-dansa/</guid>
+      <pubDate>Wed, 01 Jul 2026 08:00:00 +0200</pubDate>
+      <description>La pregunta que més ens fan les famílies: a quina edat es pot començar a fer dansa? Guia per franges d&#x27;edat (dels 3 anys a l&#x27;adolescència), senyals que el teu fill està a punt i com és la primera classe.</description>
+      <enclosure url="https://escoladansa.com/assets/blog-edat-infants.jpg" type="image/jpeg" length="150000"/>
     </item>
   </channel>
 </rss>

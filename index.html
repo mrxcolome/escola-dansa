@@ -441,7 +441,7 @@ footer.peu a.actiu{color:var(--blanc)}
 .news-estat.ok{color:var(--blanc);font-weight:600}
 .news-estat.err{color:var(--granat-viu);font-weight:600}
 .privacitat-text{color:var(--gris);font-weight:400;max-width:760px;font-size:var(--text)}
-.privacitat-text h3{color:var(--blanc);margin:30px 0 10px;font-size:1.05rem;text-transform:lowercase}
+.privacitat-text h3{color:var(--blanc);margin:30px 0 10px;font-size:var(--text);text-transform:lowercase}
 .privacitat-text a{color:var(--granat-viu);font-weight:600}
 .privacitat-text a:hover{text-decoration:underline}
 
@@ -467,7 +467,7 @@ footer.peu a.actiu{color:var(--blanc)}
 .accio{background:var(--gris-fosc);padding:24px 22px;display:flex;flex-direction:column;align-items:flex-start;gap:8px;transition:background .3s}
 .accio:hover{background:var(--granat-fosc)}
 .accio svg{width:26px;height:26px;fill:var(--granat-viu)}
-.accio strong{text-transform:lowercase;font-size:1.05rem;font-weight:800}
+.accio strong{text-transform:lowercase;font-size:var(--text);font-weight:800}
 .accio small{color:var(--gris);font-size:var(--text);font-weight:400;line-height:1.4}
 .contacte .accions{grid-template-columns:repeat(2,1fr)} /* al bloc contacte sempre 2x2, mai 3+1 */
 
@@ -480,7 +480,7 @@ footer.peu a.actiu{color:var(--blanc)}
   transition:transform .7s var(--ease),opacity .7s,visibility 0s linear .7s;
 }
 .nl-card.visible{transform:none;opacity:1;visibility:visible;transition:transform .7s var(--ease),opacity .7s,visibility 0s}
-.nl-card strong{font-size:1.05rem;text-transform:lowercase}
+.nl-card strong{font-size:var(--text);text-transform:lowercase}
 .nl-card p{font-size:var(--text);color:var(--gris);font-weight:400;margin:8px 0 16px}
 .nl-card .boto{padding:12px 26px}
 .nl-card-tanca{position:absolute;top:10px;right:12px;background:none;border:0;color:var(--gris);font-size:1rem;cursor:pointer;padding:4px;transition:color .3s}
@@ -509,12 +509,24 @@ footer.peu a.actiu{color:var(--blanc)}
 .opinions-peu a{color:var(--granat-viu);font-weight:600}
 .opinions-peu a:hover{text-decoration:underline}
 
+/* ===== EL BLOG (targetes injectades per generador/genera_blog.py) ===== */
+.blog-inici{display:grid;grid-template-columns:repeat(3,1fr);gap:2px;background:var(--vora);border-radius:16px;overflow:hidden;margin-top:44px}
+.bloc-post{background:var(--gris-fosc);display:flex;flex-direction:column;transition:background .3s}
+.bloc-post:hover{background:var(--granat-fosc)}
+.bloc-post img{width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;display:block}
+.bloc-post > div{padding:22px 24px 26px;display:flex;flex-direction:column;gap:10px;flex:1}
+.cat-post{font-size:var(--text-vermells);letter-spacing:.3em;text-transform:uppercase;color:var(--granat-viu);font-weight:600}
+.bloc-post h3{font-size:var(--text)}
+.bloc-post p{font-size:var(--text);color:var(--gris);font-weight:400;flex:1}
+.bloc-post .peu-card{font-size:var(--text-vermells);color:var(--gris)}
+@media (max-width:900px){.blog-inici{grid-template-columns:1fr}}
+
 /* ===== PREGUNTES FREQÜENTS ===== */
 .faq-llista{max-width:850px;margin-top:40px}
 details.faq{border-bottom:1px solid var(--vora)}
 .faq summary{
   cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center;gap:18px;
-  padding:22px 0;font-weight:600;font-size:1.05rem;
+  padding:22px 0;font-weight:600;font-size:var(--text);
 }
 .faq summary::-webkit-details-marker{display:none}
 .faq summary::after{content:"+";color:var(--granat-viu);font-size:1.5rem;font-weight:400;flex-shrink:0;transition:transform .3s var(--ease)}
@@ -927,6 +939,20 @@ details.faq{border-bottom:1px solid var(--vora)}
 </section>
 
 <!-- ===== NEWSLETTER ===== -->
+<section class="blog-escola te-fons" id="blog-escola">
+  <span class="mot-fons" aria-hidden="true">consells</span>
+  <div class="etiqueta reveal">el blog</div>
+  <h2 class="reveal" data-lletres>consells de dansa i vida d'escola</h2>
+  <div class="blog-inici">
+  <!-- BLOG-AUTO -->
+  <a class="bloc-post reveal" href="/blog/historia-escola-25-anys/"><img src="/assets/blog-historia-escola.jpg" alt="Unes sabatilles de ballet velles i gastades al costat d&#x27;unes de noves, a terra d&#x27;una sala de dansa" loading="lazy" width="1600" height="900"><div><span class="cat-post">l&#x27;escola</span><h3>més de 25 anys movent Sant Gervasi</h3><p>Hi ha alumnes que van venir de petites i ara hi porten les seves filles. La història i la manera de fer d&#x27;una escola de barri que fa més d&#x27;un quart de segle que balla.</p><span class="peu-card">2 de setembre de 2026</span></div></a>
+  <a class="bloc-post reveal" href="/blog/classe-de-prova-gratuita/"><img src="/assets/blog-classe-prova.jpg" alt="La porta entreoberta d&#x27;una sala de dansa amb llum càlida, amb la barra i el mirall al fons" loading="lazy" width="1600" height="900"><div><span class="cat-post">l&#x27;escola</span><h3>com és la classe de prova (i per què és gratuïta)</h3><p>Cap decisió a cegues: la primera classe de qualsevol disciplina és gratis. Com va, què mirar-hi i el motiu de fons pel qual fa dècades que la regalem.</p><span class="peu-card">26 d&#x27;agost de 2026</span></div></a>
+  <a class="bloc-post reveal" href="/blog/barre-entrenament-ballet/"><img src="/assets/blog-barre.jpg" alt="Peus d&#x27;una adulta amb mitjons antilliscants posant-se de puntetes al costat d&#x27;una barra de ballet amb llum de matí" loading="lazy" width="1600" height="900"><div><span class="cat-post">adults</span><h3>barre: l&#x27;entrenament que ve del ballet (i per què enganxa)</h3><p>Tonifica com el gimnàs, allarga com el ioga i s&#x27;entrena vora una barra de ballet. Què és el barre, com és una classe i per què enganxa tant.</p><span class="peu-card">19 d&#x27;agost de 2026</span></div></a>
+  <!-- /BLOG-AUTO -->
+  </div>
+  <p class="activitats-peu reveal">Un article nou cada setmana: <a href="/blog/">visita el blog</a>.</p>
+</section>
+
 <section class="newsletter te-fons" id="newsletter">
   <span class="mot-fons" data-dir="dreta" aria-hidden="true">novetats</span>
   <div class="etiqueta reveal">newsletter</div>
