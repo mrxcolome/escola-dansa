@@ -1,0 +1,1599 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>escola de dansa cristina colomé · Sant Gervasi, Barcelona</title>
+<meta name="description" content="Escola de dansa a Sant Gervasi (Barcelona) amb més de 25 anys d'història: clàssic, contemporani, jazz, hip-hop, claqué i més. 1a classe de prova gratuïta.">
+<link rel="canonical" href="https://escoladansa.com/">
+<meta name="theme-color" content="#0a0a0a">
+
+<!-- Open Graph (WhatsApp, Instagram, Facebook) + Twitter -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Escola de Dansa Cristina Colomé">
+<meta property="og:title" content="escola de dansa cristina colomé · Sant Gervasi, Barcelona">
+<meta property="og:description" content="Més de 25 anys movent Barcelona. Clàssic, contemporani, jazz, hip-hop, claqué i més, per a totes les edats i nivells. La primera classe de prova és gratuïta.">
+<meta property="og:url" content="https://escoladansa.com/">
+<meta property="og:image" content="https://escoladansa.com/assets/og-escola.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:locale" content="ca_ES">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="escola de dansa cristina colomé · Sant Gervasi, Barcelona">
+<meta name="twitter:description" content="Més de 25 anys movent Barcelona. La primera classe de prova és gratuïta.">
+<meta name="twitter:image" content="https://escoladansa.com/assets/og-escola.jpg">
+
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+<link rel="icon" type="image/png" sizes="512x512" href="assets/favicon-512.png">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,800;1,400&display=swap" rel="stylesheet">
+<style>
+:root{
+  --negre:#0a0a0a;
+  --gris-fosc:#121212;
+  --blanc:#f5f2ef;
+  --gris:#9b948d;
+  --granat-viu:#950000;
+  --granat-fosc:#4d0505;
+  --ease:cubic-bezier(.22,1,.36,1);
+  --text:clamp(1rem,1.4vw,1.15rem);
+  --text-vermells:1rem;
+  --vora:rgba(245,242,239,.14);
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth;overflow-x:hidden;max-width:100%;background:var(--negre)}
+body{
+  background:transparent;
+  color:var(--blanc);
+  font-family:'Montserrat',sans-serif;
+  font-weight:400;
+  line-height:1.6;
+  overflow-x:hidden;max-width:100%;
+}
+@supports (overflow:clip){
+  html,body{overflow-x:clip}
+}
+/* ===== AURORA VIVA DE FONS ===== */
+.aurora{position:fixed;inset:0;z-index:0;pointer-events:none;overflow:hidden}
+.aurora i{
+  position:absolute;border-radius:50%;filter:blur(60px);opacity:.5;
+  background:radial-gradient(circle,rgba(149,0,0,.55),transparent 68%);
+  will-change:transform;
+}
+.aurora i:nth-child(1){width:70vmax;height:70vmax;top:-20vmax;left:-15vmax;animation:aur1 26s ease-in-out infinite}
+.aurora i:nth-child(2){width:55vmax;height:55vmax;top:35%;right:-20vmax;background:radial-gradient(circle,rgba(149,0,0,.5),transparent 68%);animation:aur2 32s ease-in-out infinite}
+.aurora i:nth-child(3){width:45vmax;height:45vmax;bottom:-18vmax;left:25%;background:radial-gradient(circle,rgba(77,5,5,.55),transparent 70%);animation:aur3 38s ease-in-out infinite}
+@keyframes aur1{0%,100%{transform:translate(0,0) scale(1)}50%{transform:translate(12vmax,8vmax) scale(1.25)}}
+@keyframes aur2{0%,100%{transform:translate(0,0) scale(1.1)}50%{transform:translate(-14vmax,-6vmax) scale(.85)}}
+@keyframes aur3{0%,100%{transform:translate(0,0) scale(1)}50%{transform:translate(8vmax,-10vmax) scale(1.2)}}
+main,nav,footer.peu{position:relative;z-index:1}
+::selection{background:var(--granat-viu);color:var(--blanc)}
+img{max-width:100%;display:block}
+a{color:inherit;text-decoration:none}
+h1,h2,h3{font-weight:800;text-transform:lowercase;letter-spacing:-.02em;line-height:1.05}
+main{position:relative}
+
+/* ===== CURSOR PROPI ===== */
+@media (hover:hover) and (pointer:fine){
+  body.cursor-actiu, body.cursor-actiu a, body.cursor-actiu button{cursor:none}
+}
+.cursor-punt,.cursor-anell{position:fixed;top:0;left:0;border-radius:50%;pointer-events:none;z-index:600;translate:-50% -50%;display:none}
+body.cursor-actiu .cursor-punt, body.cursor-actiu .cursor-anell{display:block}
+.cursor-punt{width:8px;height:8px;background:var(--granat-viu);transition:scale .2s}
+.cursor-anell{width:36px;height:36px;border:1.5px solid rgba(245,242,239,.45);transition:width .3s var(--ease),height .3s var(--ease),border-color .3s,background .3s}
+.cursor-anell.gran{width:70px;height:70px;border-color:var(--granat-viu);background:rgba(149,0,0,.12)}
+.cursor-punt.gran{scale:.4}
+
+/* ===== PUNT DE PROGRÉS (scroll) ===== */
+.progres{position:fixed;right:30px;top:50%;translate:0 -50%;height:60vh;width:2px;background:var(--vora);z-index:90;pointer-events:none}
+.progres .punt{position:absolute;left:50%;top:0;width:10px;height:10px;border-radius:50%;translate:-50% -50%;background:var(--granat-viu);box-shadow:0 0 12px rgba(149,0,0,.7);transition:scale .2s}
+/* desktop: el punt es pot arrossegar com una barra d'scroll */
+@media (hover:hover) and (pointer:fine){
+  .progres{pointer-events:auto}
+  .progres::before{content:"";position:absolute;top:0;bottom:0;left:-14px;right:-14px} /* zona de clic generosa */
+  .progres .punt::after{content:"";position:absolute;inset:-12px;border-radius:50%}
+  .progres .punt{transition:scale .2s}
+  .progres:hover .punt{scale:1.6}
+}
+@media (max-width:1100px){
+  .progres{right:7px;height:52vh;width:1px}
+  .progres .punt{width:7px;height:7px}
+}
+
+/* ===== NAV ===== */
+nav{
+  position:fixed;top:0;left:0;right:0;z-index:100;
+  display:flex;align-items:center;justify-content:space-between;
+  padding:18px 5vw;
+  transition:background .4s,padding .4s,box-shadow .4s;
+}
+nav.solida{background:rgba(10,10,10,.85);backdrop-filter:blur(14px);padding:10px 5vw;box-shadow:0 1px 0 var(--vora)}
+.nav-marca{display:flex;align-items:center;gap:12px;font-weight:800;text-transform:lowercase;font-size:var(--text);letter-spacing:.01em;white-space:nowrap}
+.nav-marca:hover{color:var(--granat-viu);transition:color .3s}
+@keyframes pirueta{from{transform:rotateY(0)}to{transform:rotateY(360deg)}}
+.nav-links{display:flex;align-items:center;gap:34px;font-size:var(--text);font-weight:600;text-transform:lowercase;letter-spacing:.06em}
+.nav-links a{position:relative;opacity:.85;transition:opacity .3s}
+.nav-links a:hover{opacity:1}
+.nav-links a::after{content:"";position:absolute;left:0;bottom:-6px;width:0;height:2px;background:var(--granat-viu);transition:width .3s var(--ease)}
+.nav-links a:hover::after{width:100%}
+.hamburguesa{display:none;background:none;border:0;cursor:pointer;z-index:110;padding:8px}
+.hamburguesa span{display:block;width:26px;height:2px;background:var(--blanc);margin:6px 0;transition:transform .3s,opacity .3s}
+.menu-obert .hamburguesa span:nth-child(1){transform:translateY(8px) rotate(45deg)}
+.menu-obert .hamburguesa span:nth-child(2){opacity:0}
+.menu-obert .hamburguesa span:nth-child(3){transform:translateY(-8px) rotate(-45deg)}
+
+/* ===== HERO ===== */
+.hero{
+  position:relative;min-height:calc(100svh - 74px); /* deixa la marquesina visible a peu de pantalla */
+  display:flex;flex-direction:column;justify-content:center;
+  padding:0 5vw 30px;overflow:hidden;
+  background:url(assets/hero-poster.jpg) center/cover no-repeat var(--negre); /* LCP instantani mentre el vídeo carrega */
+}
+.hero-video{
+  position:absolute;inset:0;width:100%;height:100%;object-fit:cover;
+  opacity:0;transition:opacity 1.8s ease;pointer-events:none;
+}
+.hero-video.llest{opacity:1}
+/* tractament vermell (com la web actual): capa #950000 en mode darken */
+.hero-vel{
+  position:absolute;inset:0;pointer-events:none;
+  background:var(--granat-viu);mix-blend-mode:darken;
+}
+/* foscor suau perquè el text respiri */
+.hero-fosc{
+  position:absolute;inset:0;pointer-events:none;
+  background:
+    linear-gradient(90deg,rgba(10,10,10,.78) 0%,rgba(10,10,10,.3) 50%,transparent 100%),
+    linear-gradient(180deg,rgba(10,10,10,.45) 0%,transparent 30%,transparent 72%,rgba(10,10,10,.92) 100%);
+}
+.hero-glow{
+  position:absolute;top:50%;right:-10vw;
+  width:70vmin;height:70vmin;border-radius:50%;
+  background:radial-gradient(circle,rgba(149,0,0,.45),transparent 65%);
+  filter:blur(40px);pointer-events:none;margin-top:-35vmin;
+  animation:respira 7s ease-in-out infinite;
+}
+@keyframes respira{0%,100%{opacity:.7;scale:1}50%{opacity:1;scale:1.12}}
+.hero h1{
+  font-size:clamp(2.7rem,7.4vw,6.8rem);
+  position:relative;z-index:2;
+}
+.hero h1 .linia{display:block}
+.hero h1 .linia.accent{color:var(--granat-viu)}
+/* paraula rotativa del titular */
+.mot-rotatiu{display:inline-block;white-space:nowrap;perspective:700px}
+.mot-rotatiu .llr{display:inline-block;backface-visibility:hidden}
+.mot-surt{animation:motSurt .32s ease-in forwards}
+@keyframes motSurt{to{opacity:0;transform:translateY(-.35em) rotateX(85deg)}}
+.llr.mot-entra{opacity:0;animation:motEntra .55s var(--ease) forwards}
+@keyframes motEntra{
+  0%{opacity:0;transform:translateY(.4em) rotateX(-85deg);color:var(--granat-viu)}
+  70%{color:var(--granat-viu)}
+  100%{opacity:1;transform:none;color:inherit}
+}
+/* lletres que ballen */
+.paraula{display:inline-block;white-space:nowrap}
+.ll{display:inline-block;opacity:0;transform:translateY(105%) rotate(9deg);transition:opacity .7s var(--ease),transform .7s var(--ease);transition-delay:calc(.1s + var(--i)*.034s)}
+.lletres-vist .ll{opacity:1;transform:none}
+.ll.salta{animation:salta .55s var(--ease)}
+@keyframes salta{
+  30%{transform:translateY(-.18em) rotate(-7deg);color:var(--granat-viu)}
+  60%{transform:translateY(.05em) rotate(4deg)}
+  100%{transform:none}
+}
+h2 .ll{transition-delay:calc(var(--i)*.028s)}
+.hero-sub{
+  margin-top:32px;font-size:var(--text);
+  color:var(--gris);max-width:480px;font-weight:400;
+  opacity:0;animation:apareix 1s ease 1.1s forwards;position:relative;z-index:2;
+}
+@keyframes apareix{to{opacity:1}}
+.hero-accions{display:flex;gap:16px;margin-top:70px;flex-wrap:wrap;opacity:0;animation:apareix 1s ease 1.35s forwards;position:relative;z-index:2}
+.boto{
+  display:inline-flex;align-items:center;gap:10px;
+  padding:16px 34px;border-radius:100px;
+  font-size:var(--text);font-weight:600;text-transform:lowercase;letter-spacing:.03em;
+  transition:background .3s,box-shadow .3s,translate .25s var(--ease);cursor:pointer;border:0;
+  font-family:inherit;will-change:translate;
+}
+.boto-ple{background:var(--granat-viu);color:var(--blanc);box-shadow:0 8px 30px rgba(149,0,0,.35)}
+.boto-ple:hover{background:var(--granat-viu);box-shadow:0 12px 36px rgba(149,0,0,.45)}
+.boto-buit{border:1px solid var(--vora);color:var(--blanc);background:transparent}
+.boto-buit:hover{border-color:var(--blanc)}
+/* partícules */
+.particula{position:absolute;bottom:-12px;border-radius:50%;pointer-events:none;animation:particula linear infinite}
+@keyframes particula{
+  0%{transform:translateY(0) translateX(0);opacity:0}
+  12%{opacity:var(--op,.55)}
+  85%{opacity:var(--op,.55)}
+  100%{transform:translateY(-95vh) translateX(var(--der,20px));opacity:0}
+}
+
+/* ===== MARQUESINA ===== */
+.marquesina{
+  border-top:1px solid var(--vora);border-bottom:1px solid var(--vora);
+  padding:22px 0;overflow:hidden;white-space:nowrap;background:rgba(18,18,18,.78);backdrop-filter:blur(2px);
+}
+.marquesina-pista{display:inline-block;animation:marxa 38s linear infinite}
+.marquesina span{
+  font-size:clamp(1.1rem,2.2vw,1.7rem);font-weight:800;text-transform:lowercase;
+  margin:0 28px;color:var(--blanc);
+}
+.marquesina span:nth-child(odd){color:var(--granat-viu)}
+@keyframes marxa{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+
+/* ===== SECCIONS ===== */
+section{padding:14vh 5vw;position:relative}
+.etiqueta{
+  display:inline-flex;align-items:center;gap:12px;
+  font-size:var(--text-vermells);letter-spacing:.3em;text-transform:uppercase;color:var(--granat-viu);font-weight:600;
+  margin-bottom:26px;
+}
+.etiqueta::before{content:"";width:34px;height:1px;background:var(--granat-viu)}
+h2{font-size:clamp(2rem,4.6vw,3.8rem);margin-bottom:24px;max-width:850px}
+.text-gran{font-size:var(--text);color:var(--gris);font-weight:400;max-width:620px}
+
+/* tipografia cinètica de fons */
+.te-fons{overflow:hidden}
+.te-fons>*:not(.mot-fons){position:relative;z-index:1}
+.mot-fons{
+  position:absolute;top:50%;left:0;z-index:0;pointer-events:none;user-select:none;-webkit-user-select:none;
+  font-size:clamp(6rem,24vw,19rem);font-weight:800;text-transform:lowercase;line-height:1;
+  color:transparent;-webkit-text-stroke:1.5px var(--vora);white-space:nowrap;
+  will-change:transform;transform:translateY(-50%);
+}
+
+/* reveals */
+.reveal{opacity:0;transform:translateY(46px);transition:opacity 1s var(--ease),transform 1s var(--ease)}
+.reveal.vist{opacity:1;transform:translateY(0)}
+h2.reveal{opacity:1;transform:none} /* els títols animen per lletres, no en bloc */
+
+/* revelat de text per línia (wipe editorial) */
+.linia-rev{display:block;overflow:hidden}
+.linia-rev-i{display:block;transform:translateY(110%);transition:transform .9s var(--ease);transition-delay:calc(var(--l)*.085s)}
+.linies.vist .linia-rev-i{transform:translateY(0)}
+
+/* ===== CINTA DE BALLARINA (es dibuixa amb l'scroll) ===== */
+.cinta{position:fixed;inset:0;z-index:0;width:100%;height:100%;pointer-events:none}
+.cinta path{
+  fill:none;stroke-linecap:round;vector-effect:non-scaling-stroke;
+  stroke-dasharray:1000;stroke-dashoffset:1000;
+}
+#cintaOmbra{stroke:rgba(10,10,10,.55);stroke-width:7;filter:blur(3px)}
+#cintaPath{stroke:url(#cintaGrad);stroke-width:2.2;filter:drop-shadow(0 0 2px rgba(140,40,40,.18))}
+.cinta-spark{
+  position:fixed;z-index:0;width:9px;height:9px;border-radius:50%;
+  pointer-events:none;opacity:0;transform:translate(-50%,-50%);
+  background:radial-gradient(circle,#f5c4c4 10%,#c23838 45%,rgba(149,0,0,.4) 70%,transparent 78%);
+  box-shadow:0 0 9px 2px rgba(232,90,90,.32);
+  transition:opacity .4s ease;
+}
+
+/* ===== CITA ===== */
+.cita{display:flex;align-items:center;justify-content:center;min-height:80vh;text-align:center}
+.cita blockquote{
+  font-size:clamp(1.5rem,3.6vw,3rem);font-weight:400;line-height:1.4;max-width:1000px;
+  font-style:italic;
+}
+.cita .mot{opacity:.13;transition:opacity .35s ease;display:inline}
+.cita .mot.llum{opacity:1}
+.cita .destacat{color:var(--granat-viu);font-weight:600;font-style:normal}
+.cita footer{margin-top:30px;font-size:var(--text-vermells);letter-spacing:.25em;text-transform:uppercase;color:var(--gris);font-style:normal}
+
+/* ===== ESCOLA / XIFRES ===== */
+.escola{background:rgba(18,18,18,.55)}
+.escola-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:8vw;align-items:center;max-width:1300px;margin:0 auto}
+.xifres{display:grid;grid-template-columns:repeat(2,1fr);gap:2px;background:var(--vora)}
+.xifra{background:var(--gris-fosc);padding:38px 30px;transition:background .4s}
+.xifra:hover{background:var(--granat-fosc)}
+.xifra strong{display:block;font-size:clamp(2.4rem,4vw,3.6rem);font-weight:800;color:var(--blanc);line-height:1}
+.xifra strong em{color:var(--granat-viu);font-style:normal}
+.xifra small{display:block;margin-top:10px;font-size:var(--text-vermells);letter-spacing:.12em;text-transform:uppercase;color:var(--gris)}
+
+/* ===== ACTIVITATS (targetes verticals amb flip) ===== */
+.activitats-grid{
+  display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:14px;
+  margin-top:50px;
+}
+.activitat{position:relative;aspect-ratio:3/4;perspective:1100px;cursor:pointer;-webkit-tap-highlight-color:transparent}
+.activitat-inner{
+  position:absolute;inset:0;transform-style:preserve-3d;
+  transition:transform .7s var(--ease);will-change:transform;
+}
+.activitat.girada .activitat-inner{transform:rotateY(180deg)}
+@media (hover:hover){
+  .activitat:hover .activitat-inner{transform:rotateY(180deg)}
+}
+.cara{
+  position:absolute;inset:0;backface-visibility:hidden;-webkit-backface-visibility:hidden;
+  border-radius:16px;display:flex;flex-direction:column;align-items:center;justify-content:center;
+  padding:24px 18px;text-align:center;overflow:hidden;
+}
+.cara-front{background:var(--gris-fosc);border:1px solid var(--vora)}
+.cara-front .num{position:absolute;top:14px;right:18px;font-size:var(--text-vermells);color:var(--gris);font-weight:600}
+.cara-front h3{font-size:1.4rem;line-height:1.15}
+.cara-front::after{content:"";position:absolute;bottom:16px;width:26px;height:2px;background:var(--granat-viu);border-radius:2px}
+.cara-back{
+  transform:rotateY(180deg);
+  background:linear-gradient(155deg,var(--granat-fosc),var(--granat-viu));
+}
+.cara-back p{font-size:var(--text);color:rgba(245,242,239,.95);font-weight:400;line-height:1.5}
+.cara-back .mes-info{margin-top:14px;font-weight:800;font-size:var(--text);text-transform:lowercase;border-bottom:2px solid rgba(245,242,239,.55);padding-bottom:2px;transition:border-color .3s}
+.cara-back .mes-info:hover{border-color:var(--blanc)}
+.activitats-peu{margin-top:36px;color:var(--gris);font-size:var(--text);font-weight:400}
+.activitats-peu a{color:var(--granat-viu);font-weight:600;border-bottom:1px solid transparent;transition:border-color .3s}
+.activitats-peu a:hover{border-color:var(--granat-viu)}
+
+/* ===== HORARIS + PREUS (banda doble) ===== */
+.banda-doble{display:grid;grid-template-columns:1fr 1fr;gap:2px;background:var(--vora);padding:0}
+.banda{
+  padding:13vh 5vw;position:relative;overflow:hidden;background:rgba(18,18,18,.5);
+  display:flex;flex-direction:column;align-items:flex-start;justify-content:center;min-height:55vh;
+}
+.banda p{font-size:var(--text);color:var(--gris);font-weight:400;max-width:420px;margin-bottom:34px}
+
+/* ===== CONTACTE ===== */
+.contacte-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:6vw;max-width:1300px;margin:0 auto;align-items:center}
+.contacte-logo{
+  display:flex;align-items:center;justify-content:center;
+  perspective:1100px;cursor:grab;user-select:none;-webkit-user-select:none;touch-action:pan-y;
+}
+.contacte-logo svg{
+  height:min(64vh,560px);width:auto;color:var(--blanc);
+  transition:color .5s;will-change:transform;
+}
+.contacte-logo:hover svg{color:var(--granat-viu)}
+.dades{margin-top:14px}
+.dada{padding:26px 0;border-bottom:1px solid var(--vora);display:block;transition:padding-left .3s var(--ease)}
+.dada:hover{padding-left:10px}
+.dada small{display:block;font-size:var(--text-vermells);letter-spacing:.25em;text-transform:uppercase;color:var(--granat-viu);font-weight:600;margin-bottom:6px}
+.dada span{font-size:var(--text);font-weight:600}
+.ctes-contacte{display:flex;gap:14px;flex-wrap:wrap;margin-top:34px}
+.cta-insta{
+  color:var(--blanc);background:transparent;
+  border:1px solid var(--vora);
+  transition:border-color .3s,background .3s,translate .25s var(--ease);
+}
+.cta-insta:hover{border-color:var(--blanc);background:rgba(245,242,239,.06)}
+.cta-insta svg{width:22px;height:22px;fill:currentColor;flex-shrink:0}
+
+/* ===== FOOTER ===== */
+footer.peu{
+  border-top:1px solid var(--vora);padding:30px 5vw;
+  display:flex;flex-wrap:wrap;gap:16px;align-items:center;justify-content:space-between;
+  font-size:var(--text);color:var(--gris);
+}
+footer.peu .marca-peu{display:flex;align-items:center;gap:10px}
+
+/* ===== LAYERS (modals) — obertura en cercle ===== */
+.layer{
+  position:fixed;inset:0;z-index:200;background:rgba(10,10,10,.97);backdrop-filter:blur(8px);
+  visibility:hidden;
+  clip-path:circle(0px at var(--cx,85%) var(--cy,60%));
+  transition:clip-path .75s var(--ease),visibility 0s linear .75s;
+  overflow-y:auto;overscroll-behavior:contain;
+}
+.layer.obert{
+  visibility:visible;
+  clip-path:circle(142vmax at var(--cx,85%) var(--cy,60%));
+  transition:clip-path .75s var(--ease),visibility 0s;
+}
+.layer-cos{max-width:1100px;margin:0 auto;padding:110px 5vw 80px;transform:translateY(30px);opacity:0;transition:transform .6s var(--ease) .25s,opacity .6s ease .25s}
+.layer.obert .layer-cos{transform:translateY(0);opacity:1}
+.layer-tanca{
+  position:fixed;top:24px;right:5vw;z-index:210;
+  width:52px;height:52px;border-radius:50%;border:1px solid var(--vora);
+  background:rgba(10,10,10,.6);color:var(--blanc);font-size:1.3rem;cursor:pointer;
+  display:flex;align-items:center;justify-content:center;transition:background .3s,transform .3s;
+}
+.layer-tanca:hover{background:var(--granat-viu);transform:rotate(90deg)}
+.layer .sota{font-size:var(--text);color:var(--gris);font-weight:400;margin-bottom:44px}
+
+/* ===== NEWSLETTER ===== */
+.newsletter{background:rgba(18,18,18,.55)}
+.news-form{margin-top:44px;max-width:760px}
+.news-camps{display:flex;gap:16px;flex-wrap:wrap;align-items:flex-end}
+.news-camps input{
+  flex:1;min-width:210px;background:transparent;border:0;border-bottom:1px solid var(--vora);
+  color:var(--blanc);font-family:inherit;font-size:var(--text);font-weight:400;padding:14px 2px;border-radius:0;
+  transition:border-color .3s;
+}
+.news-camps input::placeholder{color:var(--gris)}
+.news-camps input:focus{outline:none;border-color:var(--granat-viu)}
+.news-rgpd{display:flex;gap:12px;align-items:center;margin-top:26px;font-size:var(--text);color:var(--gris);font-weight:400;cursor:pointer;white-space:nowrap}
+@media (max-width:900px){.news-rgpd{white-space:normal;align-items:flex-start}}
+.news-rgpd input{margin-top:3px;accent-color:var(--granat-viu);width:16px;height:16px;flex-shrink:0;cursor:pointer}
+.news-privacitat{background:none;border:0;padding:0;color:var(--granat-viu);font:inherit;font-weight:600;cursor:pointer}
+.news-privacitat:hover{text-decoration:underline}
+.news-estat{margin-top:20px;font-size:var(--text);font-weight:400;min-height:1.5em}
+.news-estat.ok{color:var(--blanc);font-weight:600}
+.news-estat.err{color:var(--granat-viu);font-weight:600}
+.privacitat-text{color:var(--gris);font-weight:400;max-width:760px;font-size:var(--text)}
+.privacitat-text h3{color:var(--blanc);margin:30px 0 10px;font-size:1.05rem;text-transform:lowercase}
+.privacitat-text a{color:var(--granat-viu);font-weight:600}
+.privacitat-text a:hover{text-decoration:underline}
+
+/* formulari de contacte */
+.ctc-form{margin-top:38px;max-width:560px}
+#layerContacte .ctc-form{margin-top:0;max-width:640px}
+.ctc-titol{display:block;font-size:var(--text-vermells);letter-spacing:.25em;text-transform:uppercase;color:var(--granat-viu);font-weight:600;margin-bottom:4px}
+.ctc-dos input,.ctc-form textarea{
+  width:100%;background:transparent;border:0;border-bottom:1px solid var(--vora);
+  color:var(--blanc);font-family:inherit;font-size:var(--text);font-weight:400;padding:13px 2px;border-radius:0;
+  transition:border-color .3s;
+}
+.ctc-form textarea{resize:vertical;min-height:88px;line-height:1.5}
+.ctc-dos input::placeholder,.ctc-form textarea::placeholder{color:var(--gris)}
+.ctc-dos input:focus,.ctc-form textarea:focus{outline:none;border-color:var(--granat-viu)}
+.ctc-dos{display:flex;gap:16px;flex-wrap:wrap}
+.ctc-dos input{flex:1;min-width:180px}
+.ctc-form .boto{margin-top:24px}
+.ctc-legal{margin-top:12px;font-size:var(--text);color:var(--gris);font-weight:400;max-width:520px}
+
+/* targetes d'accio de contacte */
+.accions{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:2px;background:var(--vora);margin-top:34px;border-radius:16px;overflow:hidden}
+.accio{background:var(--gris-fosc);padding:24px 22px;display:flex;flex-direction:column;align-items:flex-start;gap:8px;transition:background .3s}
+.accio:hover{background:var(--granat-fosc)}
+.accio svg{width:26px;height:26px;fill:var(--granat-viu)}
+.accio strong{text-transform:lowercase;font-size:1.05rem;font-weight:800}
+.accio small{color:var(--gris);font-size:var(--text);font-weight:400;line-height:1.4}
+.contacte .accions{grid-template-columns:repeat(2,1fr)} /* al bloc contacte sempre 2x2, mai 3+1 */
+
+/* targeta lliscant del butlletí (apareix amb l'scroll, descartable) */
+.nl-card{
+  position:fixed;left:26px;bottom:26px;z-index:150;max-width:330px;
+  background:var(--gris-fosc);border:1px solid var(--vora);border-radius:16px;
+  padding:22px 26px;box-shadow:0 18px 50px rgba(0,0,0,.55);
+  transform:translateY(150%);opacity:0;visibility:hidden;
+  transition:transform .7s var(--ease),opacity .7s,visibility 0s linear .7s;
+}
+.nl-card.visible{transform:none;opacity:1;visibility:visible;transition:transform .7s var(--ease),opacity .7s,visibility 0s}
+.nl-card strong{font-size:1.05rem;text-transform:lowercase}
+.nl-card p{font-size:var(--text);color:var(--gris);font-weight:400;margin:8px 0 16px}
+.nl-card .boto{padding:12px 26px}
+.nl-card-tanca{position:absolute;top:10px;right:12px;background:none;border:0;color:var(--gris);font-size:1rem;cursor:pointer;padding:4px;transition:color .3s}
+.nl-card-tanca:hover{color:var(--blanc)}
+@media (max-width:700px){.nl-card{left:14px;right:14px;bottom:14px;max-width:none;padding:20px 22px}}
+
+/* ===== PREGUNTES FREQÜENTS ===== */
+.faq-llista{max-width:850px;margin-top:40px}
+details.faq{border-bottom:1px solid var(--vora)}
+.faq summary{
+  cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center;gap:18px;
+  padding:22px 0;font-weight:600;font-size:1.05rem;
+}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"+";color:var(--granat-viu);font-size:1.5rem;font-weight:400;flex-shrink:0;transition:transform .3s var(--ease)}
+.faq[open] summary::after{transform:rotate(45deg)}
+.faq .resposta{font-size:var(--text);color:var(--gris);font-weight:400;padding:0 0 24px;max-width:680px}
+.faq .resposta a{color:var(--granat-viu);font-weight:600}
+.faq .resposta a:hover{text-decoration:underline}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width:900px){
+  .nav-links{
+    position:fixed;inset:0;background:rgba(10,10,10,.97);backdrop-filter:blur(10px);
+    flex-direction:column;justify-content:center;font-size:1.3rem;gap:30px;
+    opacity:0;visibility:hidden;transition:opacity .4s,visibility .4s;
+  }
+  .menu-obert .nav-links{opacity:1;visibility:visible}
+  .hamburguesa{display:block}
+  .hero-glow{right:-30vw}
+  .escola-grid,.contacte-grid{grid-template-columns:1fr;gap:60px}
+  .contacte-logo{order:2;margin-top:20px}
+  .contacte-logo svg{height:46vh}
+  .banda-doble{grid-template-columns:1fr}
+}
+/* mòbil: activitats en 2 columnes, totes visibles */
+@media (max-width:700px){
+  .activitats-grid{grid-template-columns:repeat(2,1fr);gap:10px}
+  .cara{padding:18px 12px}
+  .cara-front h3{font-size:1.25rem}
+}
+/* mòbil: tipografies més grans en general (les mares tenen presbícia!) */
+@media (max-width:700px){
+  :root{--text:1.15rem;--text-vermells:1rem}
+  body{line-height:1.65}
+  .hero h1{font-size:clamp(2.35rem,10.2vw,3.4rem)}
+  h2{font-size:2.35rem}
+  .cita blockquote{font-size:1.9rem}
+  .marquesina span{font-size:1.45rem}
+  .xifra strong{font-size:2.9rem}
+  .activitat h3{font-size:1.55rem}
+  .boto{padding:17px 36px}
+  .accions{grid-template-columns:repeat(2,1fr)}
+  .accio:last-child:nth-child(odd){grid-column:1/-1} /* nombre senar: l'última targeta a tota l'amplada */
+  .accio{padding:20px 16px}
+  .nav-links{font-size:1.5rem}
+  .news-camps .boto{width:100%;justify-content:center}
+  /* mini header sense nom ni hamburguesa al mòbil */
+  .nav-marca{display:none}
+  nav{display:none}
+  /* footer centrat, 20px, mateix aire a banda i banda */
+  footer.peu{
+    flex-direction:column;align-items:center;justify-content:center;
+    text-align:center;gap:12px;line-height:1.45;
+    padding:36px 5vw;
+  }
+  footer.peu .marca-peu{justify-content:center;text-align:center}
+}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation-duration:.01ms!important;transition-duration:.01ms!important}
+  html{scroll-behavior:auto}
+  .ll{opacity:1!important;transform:none!important}
+  .cita .mot{opacity:1!important}
+}
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": ["LocalBusiness", "School"],
+      "@id": "https://escoladansa.com/#negoci",
+      "name": "Escola de Dansa Cristina Colomé",
+      "description": "Escola de dansa al barri de Sant Gervasi de Barcelona amb més de 25 anys d'història. Classes de clàssic, contemporani, jazz, hip-hop, claqué, ball espanyol i dansa oriental per a totes les edats i nivells. Primera classe de prova gratuïta.",
+      "url": "https://escoladansa.com/",
+      "telephone": "+34934179886",
+      "image": "https://escoladansa.com/assets/og-escola.jpg",
+      "logo": "https://escoladansa.com/assets/favicon-512.png",
+      "priceRange": "56 € – 104 € al mes",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Carrer de Craywinckel, 25",
+        "addressLocality": "Barcelona",
+        "postalCode": "08022",
+        "addressRegion": "Barcelona",
+        "addressCountry": "ES"
+      },
+      "geo": { "@type": "GeoCoordinates", "latitude": 41.4107, "longitude": 2.1390 },
+      "openingHoursSpecification": [
+        { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday", "Wednesday"], "opens": "11:00", "closes": "12:00" },
+        { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"], "opens": "17:00", "closes": "21:30" }
+      ],
+      "sameAs": [
+        "https://www.instagram.com/dansa_cristinacolome/",
+        "https://www.facebook.com/escoladansa/",
+        "https://www.youtube.com/channel/UCfM6jrrrZ7g6vjsTIupDrJQ"
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://escoladansa.com/#preguntes",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "A quina edat es pot començar a ballar?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Des de ben petits i sense límit d'edat: tenim grups d'iniciació a la dansa, infantils, juvenils i d'adults, sempre organitzats per edats i nivells. De 0 a 99!" }
+        },
+        {
+          "@type": "Question",
+          "name": "Cal tenir experiència prèvia?",
+          "acceptedAnswer": { "@type": "Answer", "text": "No. Hi ha grups des d'iniciació fins a avançat en gairebé totes les disciplines, i t'ajudarem a trobar el nivell on et sentis còmode." }
+        },
+        {
+          "@type": "Question",
+          "name": "Com puc provar una classe?",
+          "acceptedAnswer": { "@type": "Answer", "text": "La primera classe de prova és gratuïta. Truca'ns al 934 17 98 86 o passa't per l'escola i et reservem plaça al grup que t'encaixi." }
+        },
+        {
+          "@type": "Question",
+          "name": "Quant costen les classes?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Les quotes mensuals van dels 56 € (infantil, 1 dia per setmana) als 104 € (adults, 4 dies), amb opció de pagament trimestral. La primera classe de prova és gratuïta." }
+        },
+        {
+          "@type": "Question",
+          "name": "On és l'escola i com s'hi arriba?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Som al carrer de Craywinckel, 25, al barri de Sant Gervasi – la Bonanova de Barcelona, a dos minuts de l'estació d'FGC Av. Tibidabo." }
+        },
+        {
+          "@type": "Question",
+          "name": "Llogueu sales o feu celebracions?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Sí: disposem de 3 sales condicionades i insonoritzades per llogar, i organitzem aniversaris, balls de núvis i comiats, sobretot els divendres al vespre." }
+        }
+      ]
+    }
+  ]
+}
+</script>
+</head>
+<body>
+
+<!-- símbol ballarina reutilitzable -->
+<svg style="display:none" xmlns="http://www.w3.org/2000/svg">
+  <symbol id="ballarina" viewBox="330 -10 340 790">
+    <g transform="translate(189.773 -38)" fill="currentColor" fill-rule="evenodd">
+      <path transform="translate(6.851 33.973)" d="M271.45,752.027a30.555,30.555,0,0,0-4.137-.192c-4.757-11.915-3.664-56.6-4.16-67.727-3.449-18.4.7-18.1,10.675-28.047-.789-33.762,2.277-72.63-7.508-104.329-1.984-30.414,19.671-60.241,25-90.543,5.332-5.231,21.057-9.649,22.128-15.861,9.289-1.77,17.98-19.378,22.636-25.984,23.413-15.545,32.308-37.493,58.8-45.373,14.125-14.068,51.189-28.047,47.717-53.14l-5.727.485c0,4.915-9.086,22.647-14.316,23.921-2.672,8.071-39.838,26.964-47.943,28.543v1.567c-3.145,1-51.776,44.392-53.162,50.31-20.742,18.983-46.928,41.236-57.6,67.9-3.055,2.48-4.351,3.652-5.14,7.293-2.57.586-2.074.789-2.965,3.145-7.012,2.266-15.015,11.611-22.917,12.795,2.074-8.162,4.825-15.049,5.231-23.233,5.535-1.77,13.347-44.369,12.851-54.12,8.105-26.468,22.128-12.986,41.9-15.06-.3-2.66-.5-5.219-.7-7.778-48.033-6.5-60.58-15.838-28.261-57.085,2.367-1.871,4.746-3.641,7.3-5.309,10.484-18.318,46.951-2.469,62.056-15.568,16.21-4.317,31.733-13.381,48.912-18.093,19.073,0,47.143-22.839,62.654-4.441,7.417,31.891-38.147,56.6-62.158,65.754-13.234,13.482-31.417,31.3-46.331,42.228-.2,12.5-4.453,26.175-6.527,39.759-3.562,2.559,5.332,64.074-8.59,80.916-5.445,24.7-10.98,49.1-13.257,74.693-9.086,5.411-14.519,70.669-18.183,88.48-3.945,5.524-3.145,6.989,1.589,13.787-2.976,8.556-5.535,18.408-8.7,28.047Zm25-330.607a47.053,47.053,0,0,1,5.445-.2c6.516-7.079,30.335-39.466,32.612-39.951,2.277-13.685,15.117-24.112,22.624-34.754,3.461-2.852,14.035-8.071,14.824-11.408,2.66-.5,13.539-5.219,15.917-4.137a19.962,19.962,0,0,0,5.028-5.321c-4.137-10.236-31.812,7.587-38.034,8.962v1.567c-22.14,5.422-22.737,44.888-41.224,54.143-7.3,8.849-20.043,17.123-20.043,30.109Zm-56.815,83.362c14.824,0,25.1-21.351,31.519-31.395,13.245-14.08,19.276-17.326,18.972-35.532-10.867-6.3-23.109-4.926-33.491-2.176C259.7,445.431,248.341,476.735,239.639,504.782Zm39.815,153.05c1.195-.5,2.48-.789,3.765-1.184,10.574-36.6-2.074-79.135-4.16-115.061,1.781-4.329,1.589-14.17-.079-15.838a14.8,14.8,0,0,1,3.145-.395c2.277-10.529,9.593-28.148,17.788-34.551.406-9.154-.293-17.213-.789-24.9l-5.231-.485c-1.578,8.567,1.77,18.8-6.042,27.449-17.777,36.614-23.211,70.77-9.187,112.806,0,13.877-3.348,37.4-1.274,51.37A7.889,7.889,0,0,1,279.454,657.832Zm-8.5,90.847c10.089,3.348,13.257-44.291,13.257-49.307-2.57-.293-4.949-.688-7.316-.778a10.1,10.1,0,0,1-.293-2.379c11.555-44.279-15.523-43.2-11.171-10.517C273.231,693.465,265.927,733.336,270.954,748.679Z"/>
+      <path transform="translate(4.528)" d="M252.637,130.592c-7.215-12.31-11.363-14.767-12.749-27.753h2.074c0,9.334,12.265,16.041,14.023,25.4a19.064,19.064,0,0,0-1.759,2.356Zm65.213,67.231c-24.6-18.42-18.081-31.011-15.117-58.956,2.581-6.02,4.644-6.707,7.812-10.935,10.968,1.285,19.265,6.2,19.265,19.975l-.485.5c-3.765-4.622-8.6-12.411-12.366-13a6.537,6.537,0,0,0-1.184,1.184c11.07,16.244,28.261,29.332,16.6,52.666C331.4,189.256,323.576,196.729,317.85,197.823ZM438.411,51.649c.6-4.036,5.129-4.622,8.894-4.915-.395,1.082-4.16,3.438-4.554,4.622ZM399.284,155.979c-1.285-.981-2.469-1.86-3.562-2.852,1.488-28.249,8.4-50.784,21.057-75.787a3.731,3.731,0,0,1,1.567-.2,13.633,13.633,0,0,0,1.093,1.781C418.842,81.973,404.12,159.327,399.284,155.979ZM345.626,281.771c-2.773-7.677-8.6-19.592-9.593-24.9a14.29,14.29,0,0,0-1.871-.485c-1.589-8.77-3.258-11.611-6.425-17.428,3.168-6.5,4.351-4.622,12.558-4.329-.113,1.871-.293,3.833-.293,5.9-.891.891-1.093.789-1.093,3.145,12.84,7.587-.2,12.423,22.128,13.2C362.422,265.82,355.512,281.083,345.626,281.771Zm-68.685,90.836a18.94,18.94,0,0,0-3.664-.778c2.379-5.411,32.533-37.008,36.67-37.9,2.379-6.087,2.379-6.087,2.074-7.181-.395-.2-.688-.3-.981-.5-.6-14.068-1.387-24.9-8.308-35.926-2.672-13.381-5.028-66.43-16.695-67.907,4.937,48.236,5.524,49.318,6.516,63.093,1.781,5.4,9.1,9.649,8.5,17.416-5.727.485-6.223-7.079-9.785-7.868-2.074-6.5-11.746-71.356-7.3-75.8,2.367-.192,4.746-.293,7.3-.293a8.894,8.894,0,0,1,.293-1.77c-6.02-1.477-4.532-15.545-7.6-19.378h-2.187c-.981,1.77-.981,1.77-1.961,10.912-.6.406-1.285.7-1.68.992-.891-9.548,5.332-18.217-.7-24.214-5.524-18.7-11.667-32.387-19.367-48.236C247,128.529,234.747,111.395,234.747,98.6c-3.461-9.356-11.566-13.978-15.7-20.167-.7,0-1.285-.8-1.781-1.3-1.093-2.649-3.168-2.649-2.581-4.52,2.581,1.274,3.472,1.567,5.445,5.016H222.2a4.712,4.712,0,0,1,1.082-1.285c-.6-.485-2.356-5.794-2.164-7.372,9.875,14.271,20.652,32.488,34.393,46.072,2.164,4.813,12.242,23.03,18.262,24.9,3.664,10.134,7.53,19.085,14.339,29.32a6.287,6.287,0,0,0,4.34-1.082c0-11.126-6.121-18.205-1.184-26.773.992-.192,2.074-.293,3.168-.485,0,6.482-1.093,10.337,2.277,18.1,6.324-6.392-7.519-25.882,12.445-32.375.789-3.652,8.894-3.359,13.054-3.066,16.492,8.274,25.488,78.548-3.664,78.548-14.226-11.115-19.569-12.885-24.507-29.32-1.589.09-3.269.282-4.847.5-2.66,3.934-.282,6.775,1.781,11.5.992.3,1.883.7,3.066,1.093,0,16.233,14.125,17.315,25.893,23.335l3.844,20.652c5.242.1,10.472.5,15.917.789,10.067-15.06,3.156-30.9,5.433-42.318a7.15,7.15,0,0,1,2.57-.789c3.945,6,2.863,26.581,2.863,34.844,11.464,1.477,23.323-29.918,30.335-36.907,5.433-24.011,12.749-48.439,17.1-71.063,4.239-11.216,21.632-59.148,32.116-62.214,8.793-6,20.561-9.334,31.812-10.236a28.683,28.683,0,0,1-.485,2.863c-10.472,2.66-21.644,9.435-31.823,13.482-14.429,36.118-14.328,75.584-32.8,110.135-1.093,10.044-6.527,21.948-7.113,31.7-6.425,0-26.491,70.77-28.464,77.455-25.792,25.679,15.511,65.945-29.94,88.592C312.326,366.226,294.831,370.149,276.941,372.607Z"/>
+      <path transform="translate(14.214 30.482)" d="M291.762,294.689c.5-1.082.5-1.082-1.082-13.189h3.168c-.3,4.148.395,7.293.395,12.693C293.352,294.881,293.352,294.881,291.762,294.689Z"/>
+      <path transform="translate(12.996 9.024)" d="M282.3,126.484c-2.66-5.411-.789-12.795,4.847-13.584-.688,4.239-1.184,8.669-1.578,13.088C284.39,126.777,284.39,126.777,282.3,126.484Z"/>
+      <path transform="translate(0 0.589)" d="M218.815,64.339c-7.012-2.942-6.91-3.731-13.73-4.419V58.342c-7.2,1.578-19.073,1.477-26.085,2.074v-2.66c8.4-1.477,30.335-1.668,37.741-4.532.113-2.164.316-4.43.395-6.595,3.855,3.743-2.852,13.189,7.023,16.334A9.847,9.847,0,0,1,218.815,64.339Z"/>
+    </g>
+  </symbol>
+</svg>
+
+<!-- aurora viva de fons -->
+<div class="aurora" aria-hidden="true"><i></i><i></i><i></i></div>
+
+<!-- cinta de ballarina que es dibuixa amb l'scroll -->
+<svg class="cinta" id="cinta" viewBox="0 0 100 1000" preserveAspectRatio="none" aria-hidden="true">
+  <defs>
+    <linearGradient id="cintaGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a0606"/>
+      <stop offset=".22" stop-color="#5e0d0d"/>
+      <stop offset=".5" stop-color="#7d2222"/>
+      <stop offset=".78" stop-color="#5e0d0d"/>
+      <stop offset="1" stop-color="#3a0606"/>
+    </linearGradient>
+  </defs>
+  <path id="cintaOmbra" pathLength="1000" d="M50,-5 C26,80 74,150 53,235 C33,330 82,405 49,500 C22,590 78,665 51,760 C30,840 66,905 50,1005"/>
+  <path id="cintaPath" pathLength="1000" d="M50,-5 C26,80 74,150 53,235 C33,330 82,405 49,500 C22,590 78,665 51,760 C30,840 66,905 50,1005"/>
+</svg>
+<div class="cinta-spark" id="cintaSpark" aria-hidden="true"></div>
+
+<!-- cursor propi -->
+<div class="cursor-punt" id="cursorPunt"></div>
+<div class="cursor-anell" id="cursorAnell"></div>
+
+<!-- punt de progrés -->
+<div class="progres" id="progres" aria-hidden="true">
+  <div class="punt" id="progresPunt"></div>
+</div>
+
+<!-- ===== NAV ===== -->
+<nav id="nav">
+  <a class="nav-marca" href="#inici" aria-label="Inici">
+    <span>escola de dansa cristina colomé</span>
+  </a>
+  <button class="hamburguesa" id="hamburguesa" aria-label="Menú">
+    <span></span><span></span><span></span>
+  </button>
+  <div class="nav-links" id="navLinks">
+    <a href="#escola">l'escola</a>
+    <a href="#activitats">activitats</a>
+    <a href="/horaris/">horaris</a>
+    <a href="/preus/">preus</a>
+    <a href="#newsletter">newsletter</a>
+    <a href="#contacte">contacte</a>
+  </div>
+</nav>
+
+<main id="principal">
+
+<!-- ===== HERO ===== -->
+<header class="hero" id="inici">
+  <video class="hero-video" id="heroVideo" muted loop playsinline preload="none" poster="assets/hero-poster.jpg" aria-hidden="true"></video>
+  <div class="hero-vel" aria-hidden="true"></div>
+  <div class="hero-fosc" aria-hidden="true"></div>
+  <div class="hero-glow" id="heroGlow"></div>
+  <h1 id="titol" aria-label="escola de dansa cristina colomé">
+    <span class="linia" data-lletres>escola</span>
+    <span class="linia"><span data-lletres>de&nbsp;</span><span class="mot-rotatiu" id="motRotatiu" data-lletres aria-hidden="true">dansa</span></span>
+    <span class="linia accent nom" data-lletres>cristina colomé</span>
+  </h1>
+  <p class="hero-sub">més de 25 anys movent Barcelona. clàssic, contemporani, jazz, hip-hop, claqué, espanyol, dansa oriental… per a totes les edats i nivells.</p>
+  <div class="hero-accions">
+    <a class="boto boto-ple" href="#contacte">classe de prova gratuïta</a>
+    <a class="boto boto-buit" href="/horaris/">veure horaris</a>
+  </div>
+</header>
+
+<!-- ===== MARQUESINA ===== -->
+<div class="marquesina" aria-hidden="true">
+  <div class="marquesina-pista" id="marquesina">
+    <span>ballet clàssic</span><span>contemporani</span><span>jazz</span><span>hip-hop</span><span>claqué</span><span>espanyol</span><span>dansa oriental</span><span>k-pop</span><span>musical</span><span>zumba</span><span>ioga</span><span>barre</span><span>heels</span><span>puntes</span>
+  </div>
+</div>
+
+<!-- ===== CITA ===== -->
+<section class="cita te-fons" id="cita" data-fons="#1d0707">
+  <span class="mot-fons" data-dir="dreta" aria-hidden="true">passió</span>
+  <blockquote id="citaText">
+    «la dansa ens ajuda a <span class="destacat">sentir-nos a gust</span> en el nostre propi cos, a tenir-ne consciència, a saber utilitzar-lo per <span class="destacat">expressar allò que sentim</span> i imaginem»
+    <footer>cristina colomé</footer>
+  </blockquote>
+</section>
+
+<!-- ===== ESCOLA ===== -->
+<section class="escola te-fons" id="escola">
+  <span class="mot-fons" aria-hidden="true">ballar</span>
+  <div class="escola-grid">
+    <div>
+      <div class="etiqueta reveal">l'escola</div>
+      <h2 class="reveal" data-lletres>ballar és un plaer, i més encara si es fa entre amics</h2>
+      <p class="text-gran linies">Som un centre de referència al barri de Sant Gervasi, a Barcelona. Un espai pensat per aprendre, formar-se, interactuar i gaudir, amb propostes per a totes les edats i tots els nivells: des de la iniciació a la dansa fins a la preparació d'exàmens oficials.</p>
+    </div>
+    <div class="xifres reveal">
+      <div class="xifra"><strong><em>+</em><span data-compta="25">0</span></strong><small>anys d'història</small></div>
+      <div class="xifra"><strong><span data-compta="3">0</span></strong><small>sales insonoritzades</small></div>
+      <div class="xifra"><strong><em>+</em><span data-compta="20">0</span></strong><small>disciplines</small></div>
+      <div class="xifra"><strong>0<em>–</em>99</strong><small>totes les edats</small></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== ACTIVITATS ===== -->
+<section id="activitats" class="te-fons">
+  <span class="mot-fons" data-dir="dreta" aria-hidden="true">moure's</span>
+  <div class="etiqueta reveal">activitats</div>
+  <h2 class="reveal" data-lletres>troba la teva manera de moure't</h2>
+  <p class="text-gran linies">Cada estil és una porta d'entrada diferent a la dansa. Totes les classes s'organitzen per edats i nivells.</p>
+  <div class="activitats-grid">
+    <div class="activitat reveal"><div class="activitat-inner">
+      <div class="cara cara-front"><span class="num">01</span><h3>ballet clàssic</h3></div>
+      <div class="cara cara-back"><p>iniciació, infantil, juvenil i adults · puntes · preparació RAD</p><a class="mes-info" href="/ballet-classic/">+ info</a></div>
+    </div></div>
+    <div class="activitat reveal"><div class="activitat-inner">
+      <div class="cara cara-front"><span class="num">02</span><h3>contempo</h3></div>
+      <div class="cara cara-back"><p>moviment lliure i orgànic, tècnica i creació</p><a class="mes-info" href="/dansa-contemporania/">+ info</a></div>
+    </div></div>
+    <div class="activitat reveal"><div class="activitat-inner">
+      <div class="cara cara-front"><span class="num">03</span><h3>jazz</h3></div>
+      <div class="cara cara-back"><p>energia, ritme i coreografia per a totes les edats</p><a class="mes-info" href="/jazz/">+ info</a></div>
+    </div></div>
+    <div class="activitat reveal"><div class="activitat-inner">
+      <div class="cara cara-front"><span class="num">04</span><h3>hip-hop</h3></div>
+      <div class="cara cara-back"><p>estils urbans des d'infantil fins a adults avançat</p><a class="mes-info" href="/hip-hop/">+ info</a></div>
+    </div></div>
+    <div class="activitat reveal"><div class="activitat-inner">
+      <div class="cara cara-front"><span class="num">05</span><h3>claqué</h3></div>
+      <div class="cara cara-back"><p>el ritme als peus, de juvenil a adults</p><a class="mes-info" href="/claque/">+ info</a></div>
+    </div></div>
+    <div class="activitat reveal"><div class="activitat-inner">
+      <div class="cara cara-front"><span class="num">06</span><h3>ball espanyol</h3></div>
+      <div class="cara cara-back"><p>tradició, caràcter i tècnica espanyola</p><a class="mes-info" href="/ball-espanyol/">+ info</a></div>
+    </div></div>
+    <div class="activitat reveal"><div class="activitat-inner">
+      <div class="cara cara-front"><span class="num">07</span><h3>dansa oriental</h3></div>
+      <div class="cara cara-back"><p>dansa del ventre, expressió i feminitat</p><a class="mes-info" href="/dansa-oriental/">+ info</a></div>
+    </div></div>
+    <div class="activitat reveal"><div class="activitat-inner">
+      <div class="cara cara-front"><span class="num">08</span><h3>k-pop &amp; heels</h3></div>
+      <div class="cara cara-back"><p>les coreos del moment i actitud sobre talons</p><a class="mes-info" href="/k-pop-heels/">+ info</a></div>
+    </div></div>
+    <div class="activitat reveal"><div class="activitat-inner">
+      <div class="cara cara-front"><span class="num">09</span><h3>musical &amp; interpretació</h3></div>
+      <div class="cara cara-back"><p>dansa-teatre: ballar, cantar i actuar</p><a class="mes-info" href="/musical-interpretacio/">+ info</a></div>
+    </div></div>
+    <div class="activitat reveal"><div class="activitat-inner">
+      <div class="cara cara-front"><span class="num">10</span><h3>formació escènica</h3></div>
+      <div class="cara cara-back"><p>divendres a la tarda: jazz, hip-hop, claqué, cant i interpretació</p><a class="mes-info" href="/formacio-escenica/">+ info</a></div>
+    </div></div>
+    <div class="activitat reveal"><div class="activitat-inner">
+      <div class="cara cara-front"><span class="num">11</span><h3>cos &amp; benestar</h3></div>
+      <div class="cara cara-back"><p>ioga, barre i zumba per cuidar-se ballant</p><a class="mes-info" href="/cos-benestar/">+ info</a></div>
+    </div></div>
+    <div class="activitat reveal"><div class="activitat-inner">
+      <div class="cara cara-front"><span class="num">12</span><h3>fit dance &amp; femme empower</h3></div>
+      <div class="cara cara-back"><p>suor, força i empoderament en grup</p><a class="mes-info" href="/fit-dance/">+ info</a></div>
+    </div></div>
+  </div>
+  <p class="activitats-peu reveal">Busques classe per al teu fill o filla? Mira la guia de <a href="/dansa-infantil/">dansa per a nens i nenes</a>. I si és per a tu, la de <a href="/dansa-adults/">dansa per a adults</a>.</p>
+  <p class="activitats-peu reveal">També fem <strong>classes particulars</strong>, balls de saló, coreografies per a <strong>casaments i celebracions</strong>, tallers de cap de setmana i cursos intensius de vacances. <a href="#contacte">explica'ns què busques →</a></p>
+</section>
+
+<!-- ===== HORARIS + PREUS ===== -->
+<div class="banda-doble">
+  <section class="banda" id="horaris">
+    <div class="etiqueta reveal">curs 2026–27</div>
+    <h2 class="reveal" data-lletres>horaris</h2>
+    <p class="reveal">De dilluns a divendres, tardes per a infantils i juvenils, vespres per a adults, i matins de barre. Consulta la graella completa per sala i nivell.</p>
+    <a class="boto boto-ple reveal" href="/horaris/">veure els horaris</a>
+  </section>
+  <section class="banda" id="preus">
+    <div class="etiqueta reveal">tarifes</div>
+    <h2 class="reveal" data-lletres>preus</h2>
+    <p class="reveal">Quotes mensuals des de 56 €. Paga per mes o per trimestre, amb 1, 2, 3 o 4 dies de classe a la setmana. La primera classe de prova és gratuïta.</p>
+    <a class="boto boto-buit reveal" href="/preus/">veure les tarifes</a>
+  </section>
+</div>
+
+<!-- ===== PREGUNTES FREQÜENTS ===== -->
+<section id="preguntes" class="te-fons">
+  <span class="mot-fons" data-dir="dreta" aria-hidden="true">dubtes</span>
+  <div class="etiqueta reveal">preguntes freqüents</div>
+  <h2 class="reveal" data-lletres>abans de venir, el que tothom ens pregunta</h2>
+  <div class="faq-llista">
+    <details class="faq reveal">
+      <summary>A quina edat es pot començar a ballar?</summary>
+      <p class="resposta">Des de ben petits i sense límit d'edat: tenim grups d'iniciació a la dansa, infantils, juvenils i d'adults, sempre organitzats per edats i nivells. De 0 a 99!</p>
+    </details>
+    <details class="faq reveal">
+      <summary>Cal tenir experiència prèvia?</summary>
+      <p class="resposta">No. Hi ha grups des d'iniciació fins a avançat en gairebé totes les disciplines, i t'ajudarem a trobar el nivell on et sentis còmode.</p>
+    </details>
+    <details class="faq reveal">
+      <summary>Com puc provar una classe?</summary>
+      <p class="resposta">La primera classe de prova és gratuïta. Truca'ns al <a href="tel:+34934179886">934 17 98 86</a> o passa't per l'escola i et reservem plaça al grup que t'encaixi.</p>
+    </details>
+    <details class="faq reveal">
+      <summary>Quant costen les classes?</summary>
+      <p class="resposta">Les quotes mensuals van dels 56 € (infantil, 1 dia per setmana) als 104 € (adults, 4 dies), amb opció de pagament trimestral. Consulta <a href="/preus/">totes les tarifes</a>.</p>
+    </details>
+    <details class="faq reveal">
+      <summary>On és l'escola i com s'hi arriba?</summary>
+      <p class="resposta">Som al carrer de Craywinckel, 25, al barri de Sant Gervasi – la Bonanova, a dos minuts de l'estació d'FGC Av. Tibidabo.</p>
+    </details>
+    <details class="faq reveal">
+      <summary>Llogueu sales o feu celebracions?</summary>
+      <p class="resposta">Sí: disposem de 3 sales condicionades i insonoritzades per llogar, i organitzem aniversaris, balls de núvis i comiats, sobretot els divendres al vespre.</p>
+    </details>
+  </div>
+</section>
+
+<!-- ===== NEWSLETTER ===== -->
+<section class="newsletter te-fons" id="newsletter">
+  <span class="mot-fons" data-dir="dreta" aria-hidden="true">novetats</span>
+  <div class="etiqueta reveal">newsletter</div>
+  <h2 class="reveal" data-lletres>no et perdis res del que passa a l'escola</h2>
+  <p class="text-gran linies">Tallers, cursos intensius, el festival de fi de curs i les novetats de cada temporada, directament a la teva safata. Res d'spam: només el que importa.</p>
+  <form id="formNews" class="news-form reveal" novalidate>
+    <div class="news-camps">
+      <input type="text" name="LEAD_NAME" id="newsNom" placeholder="el teu nom" autocomplete="name" required>
+      <input type="email" name="EMAIL" id="newsEmail" placeholder="el teu email" autocomplete="email" required>
+      <button class="boto boto-ple" type="submit" id="newsBoto">apunta-m'hi</button>
+    </div>
+    <!-- consentiment RGPD "Email" de Mailchimp: s'envia només si l'usuari marca la casella i envia -->
+    <input type="hidden" name="gdpr[7917]" value="Y">
+    <!-- honeypot anti-bots de Mailchimp: els humans no el veuen i ha de viatjar buit -->
+    <div aria-hidden="true" style="position:absolute;left:-5000px" tabindex="-1">
+      <input type="text" name="b_da5aca6dc87239091e99ef3e4_30f01114ec" tabindex="-1" value="" autocomplete="off">
+    </div>
+    <label class="news-rgpd">
+      <input type="checkbox" id="newsRgpd" required>
+      <span>accepto rebre comunicacions de l'escola segons la <button type="button" class="news-privacitat" data-obre="layerPrivacitat">política de privacitat</button></span>
+    </label>
+    <p class="news-estat" id="newsEstat" role="status" aria-live="polite"></p>
+  </form>
+</section>
+
+<!-- ===== CONTACTE ===== -->
+<section class="contacte te-fons" id="contacte">
+  <span class="mot-fons" aria-hidden="true">vine!</span>
+  <div class="contacte-grid">
+    <div class="contacte-logo reveal" id="logoJoc" aria-hidden="true">
+      <svg id="logoSvg" viewBox="0 0 340 790"><use href="#ballarina"/></svg>
+    </div>
+    <div class="contacte-cos">
+      <div class="etiqueta reveal">contacte</div>
+      <h2 class="reveal" data-lletres>vine a provar-ho. la primera classe és gratis.</h2>
+      <p class="text-gran linies" style="margin-top:18px">Som a Sant Gervasi, a dos minuts de l'FGC Av. Tibidabo. Truca'ns o passa't per l'escola i t'ajudarem a trobar la classe perfecta per a tu. També pots llogar les nostres sales.</p>
+      <div class="accions reveal">
+        <a class="accio" href="tel:+34934179886"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg><strong>truca'ns</strong><small>934 17 98 86</small></a>
+        <a class="accio" href="https://wa.me/34934179886?text=Hola!%20M%27agradaria%20informaci%C3%B3%20sobre%20les%20classes" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.885-9.885 9.885m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z"/></svg><strong>whatsapp</strong><small>resposta al moment</small></a>
+        <a class="accio" href="#contacte" data-obre="layerContacte"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04c.39-.39.39-1.02 0-1.41l-2.34-2.34a.996.996 0 0 0-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z"/></svg><strong>formulari</strong><small>explica'ns què busques</small></a>
+        <a class="accio" href="https://www.google.com/maps/dir/?api=1&amp;destination=Escola%20de%20Dansa%20Cristina%20Colom%C3%A9%2C%20Carrer%20de%20Craywinckel%2025%2C%2008022%20Barcelona" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5z"/></svg><strong>com arribar?</strong><small>craywinckel, 25</small></a>
+      </div>
+      <div class="dades">
+      <a class="dada reveal" href="https://maps.google.com/?q=Carrer+de+Craywinckel+25,+08022+Barcelona" target="_blank" rel="noopener">
+        <small>adreça</small>
+        <span>Craywinckel, 25 · 08022 Barcelona</span>
+      </a>
+      <div class="dada reveal">
+        <small>lloguer de sales</small>
+        <span>3 sales condicionades i insonoritzades</span>
+      </div>
+      <div class="dada reveal">
+        <small>celebracions</small>
+        <span>aniversaris · balls de núvis · comiats</span>
+      </div>
+      </div>
+      <div class="ctes-contacte reveal">
+      <a class="boto cta-insta" href="https://www.instagram.com/dansa_cristinacolome/" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.2c3.2 0 3.6 0 4.8.1 1.2.1 1.8.2 2.2.4.6.2 1 .5 1.4.9.4.4.7.8.9 1.4.2.4.4 1 .4 2.2.1 1.2.1 1.6.1 4.8s0 3.6-.1 4.8c-.1 1.2-.2 1.8-.4 2.2-.2.6-.5 1-.9 1.4-.4.4-.8.7-1.4.9-.4.2-1 .4-2.2.4-1.2.1-1.6.1-4.8.1s-3.6 0-4.8-.1c-1.2-.1-1.8-.2-2.2-.4-.6-.2-1-.5-1.4-.9-.4-.4-.7-.8-.9-1.4-.2-.4-.4-1-.4-2.2-.1-1.2-.1-1.6-.1-4.8s0-3.6.1-4.8c.1-1.2.2-1.8.4-2.2.2-.6.5-1 .9-1.4.4-.4.8-.7 1.4-.9.4-.2 1-.4 2.2-.4 1.2-.1 1.6-.1 4.8-.1zm0 2c-3.1 0-3.5 0-4.7.1-1.1.1-1.4.2-1.7.3-.4.2-.7.4-1 .7-.3.3-.5.6-.7 1-.1.3-.3.6-.3 1.7-.1 1.2-.1 1.6-.1 4.7s0 3.5.1 4.7c.1 1.1.2 1.4.3 1.7.2.4.4.7.7 1 .3.3.6.5 1 .7.3.1.6.3 1.7.3 1.2.1 1.6.1 4.7.1s3.5 0 4.7-.1c1.1-.1 1.4-.2 1.7-.3.4-.2.7-.4 1-.7.3-.3.5-.6.7-1 .1-.3.3-.6.3-1.7.1-1.2.1-1.6.1-4.7s0-3.5-.1-4.7c-.1-1.1-.2-1.4-.3-1.7-.2-.4-.4-.7-.7-1-.3-.3-.6-.5-1-.7-.3-.1-.6-.3-1.7-.3-1.2-.1-1.6-.1-4.7-.1zm0 3.3a4.5 4.5 0 1 1 0 9 4.5 4.5 0 0 1 0-9zm0 7.4a2.9 2.9 0 1 0 0-5.8 2.9 2.9 0 0 0 0 5.8zm5.7-7.6a1.05 1.05 0 1 1-2.1 0 1.05 1.05 0 0 1 2.1 0z"/></svg>
+        instagram
+      </a>
+      <a class="boto cta-insta" href="https://wa.me/?text=Mira%20l%27escola%20de%20dansa%20Cristina%20Colom%C3%A9%2C%20a%20Sant%20Gervasi%20La%20primera%20classe%20de%20prova%20%C3%A9s%20gratu%C3%AFta!%0Ahttps%3A%2F%2Fescoladansa.com" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.885-9.885 9.885m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z"/></svg>
+        comparteix-nos
+      </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ===== FOOTER ===== -->
+<footer class="peu">
+  <div class="marca-peu">
+    <span>escola de dansa cristina colomé</span>
+  </div>
+  <span>craywinckel, 25 · barcelona</span>
+</footer>
+
+<!-- targeta lliscant del butlletí -->
+<aside class="nl-card" id="nlCard" aria-hidden="true">
+  <button class="nl-card-tanca" id="nlCardTanca" aria-label="Tancar">✕</button>
+  <strong>no et perdis res 💃</strong>
+  <p>tallers, intensius i el festival de fi de curs, directament a la teva safata.</p>
+  <a class="boto boto-ple" href="#newsletter" id="nlCardBoto">apunta-t'hi</a>
+</aside>
+
+<!-- ===== LAYER CONTACTE (formulari) ===== -->
+<div class="layer" id="layerContacte" role="dialog" aria-modal="true" aria-label="Escriu-nos">
+  <button class="layer-tanca" data-tanca aria-label="Tancar">✕</button>
+  <div class="layer-cos">
+    <div class="etiqueta">contacte</div>
+    <h2>escriu-nos</h2>
+    <p class="sota">explica'ns què busques i et respondrem molt aviat</p>
+      <form id="formCtc" class="ctc-form" novalidate>
+        <div class="ctc-dos">
+          <input type="text" name="nom" id="ctcNom" placeholder="el teu nom" autocomplete="name">
+          <input type="text" name="contacte" id="ctcContacte" placeholder="email o telèfon" autocomplete="email">
+        </div>
+        <textarea name="missatge" id="ctcMissatge" placeholder="explica'ns què busques: estil, edat, horaris..." rows="3"></textarea>
+        <!-- honeypot anti-bots: ha de viatjar buit -->
+        <div aria-hidden="true" style="position:absolute;left:-5000px" tabindex="-1">
+          <input type="text" name="web" tabindex="-1" value="" autocomplete="off">
+        </div>
+        <input type="hidden" name="torn" id="ctcTorn" value="">
+        <button class="boto boto-ple" type="submit" id="ctcBoto">envia el missatge</button>
+        <p class="ctc-legal">en enviar el missatge acceptes la <button type="button" class="news-privacitat" data-obre="layerPrivacitat">política de privacitat</button> — només farem servir les dades per respondre't</p>
+        <p class="news-estat" id="ctcEstat" role="status" aria-live="polite"></p>
+      </form>
+  </div>
+</div>
+
+<!-- ===== LAYER PRIVACITAT ===== -->
+<div class="layer" id="layerPrivacitat" role="dialog" aria-modal="true" aria-label="Política de privacitat">
+  <button class="layer-tanca" data-tanca aria-label="Tancar">✕</button>
+  <div class="layer-cos">
+    <div class="etiqueta">protecció de dades</div>
+    <h2>política de privacitat</h2>
+    <p class="sota">informació bàsica sobre el tractament de les teves dades (RGPD)</p>
+    <div class="privacitat-text">
+      <h3>responsable</h3>
+      <p>Escola de Dansa Cristina Colomé · Carrer de Craywinckel, 25, 08022 Barcelona · tel. <a href="tel:+34934179886">934 17 98 86</a>.</p>
+      <h3>finalitat</h3>
+      <p>Enviar-te per correu electrònic informació sobre les activitats de l'escola (novetats del curs, tallers, cursos intensius i el festival de fi de curs) i, si ens escrius pel formulari de contacte, respondre la teva consulta.</p>
+      <h3>legitimació</h3>
+      <p>El teu consentiment, que dónes en marcar la casella i apuntar-te al butlletí. El pots retirar quan vulguis.</p>
+      <h3>destinataris</h3>
+      <p>Les dades es desen a Mailchimp (The Rocket Science Group LLC), la plataforma que fem servir per enviar els correus, acollida a marcs de protecció de dades UE–EUA. No cedim les teves dades a ningú més.</p>
+      <h3>drets</h3>
+      <p>Pots accedir, rectificar o suprimir les teves dades, o oposar-te al tractament, escrivint-nos o trucant-nos a l'escola. També pots donar-te de baixa directament des de l'enllaç que trobaràs al peu de cada correu.</p>
+    </div>
+  </div>
+</div>
+
+<script>
+const REDUIT = matchMedia('(prefers-reduced-motion:reduce)').matches;
+const PUNTER_FI = matchMedia('(hover:hover) and (pointer:fine)').matches;
+
+// ===== NAV =====
+const nav = document.getElementById('nav');
+const hamburguesa = document.getElementById('hamburguesa');
+hamburguesa.addEventListener('click', () => document.body.classList.toggle('menu-obert'));
+document.querySelectorAll('#navLinks a').forEach(a =>
+  a.addEventListener('click', () => document.body.classList.remove('menu-obert'))
+);
+
+// ===== LLETRES QUE BALLEN (split text) =====
+let comptadorLletres = 0;
+function divideixLletres(el){
+  // nom accessible sencer (lectors de pantalla i cercadors) abans de partir en lletres
+  if (!el.hasAttribute('aria-label')) el.setAttribute('aria-label', el.textContent.trim());
+  const nodes = [...el.childNodes];
+  el.textContent = '';
+  let i = 0;
+  nodes.forEach(node => {
+    (node.textContent || '').split(' ').forEach((paraula, pi, arr) => {
+      if (paraula){
+        const w = document.createElement('span');
+        w.className = 'paraula';
+        [...paraula].forEach(ch => {
+          const s = document.createElement('span');
+          s.className = 'll';
+          s.style.setProperty('--i', i++);
+          s.textContent = ch;
+          w.appendChild(s);
+        });
+        el.appendChild(w);
+      }
+      if (pi < arr.length - 1) el.appendChild(document.createTextNode(' '));
+    });
+  });
+}
+document.querySelectorAll('[data-lletres]').forEach(divideixLletres);
+
+// entrada del títol del hero
+requestAnimationFrame(() => requestAnimationFrame(() =>
+  document.querySelectorAll('.hero h1 .linia').forEach(l => l.classList.add('lletres-vist'))
+));
+
+// ===== PARAULA ROTATIVA: escola de dansa/jazz/hip-hop/... =====
+const MOTS_ROTATIUS = ['dansa','ballet','jazz','hip-hop','claqué','k-pop','música','zumba','ioga','dansa'];
+const motRotatiu = document.getElementById('motRotatiu');
+if (!REDUIT){
+  let motIdx = 0;
+  setInterval(() => {
+    motIdx = (motIdx + 1) % MOTS_ROTATIUS.length;
+    const nou = MOTS_ROTATIUS[motIdx];
+    // les lletres actuals surten girant
+    motRotatiu.querySelectorAll('.ll, .llr').forEach((l, i) => {
+      l.style.animationDelay = (i * 28) + 'ms';
+      l.classList.add('mot-surt');
+    });
+    // i les noves entren
+    setTimeout(() => {
+      motRotatiu.innerHTML = '';
+      [...nou].forEach((ch, i) => {
+        const s = document.createElement('span');
+        s.className = 'llr mot-entra';
+        s.style.animationDelay = (i * 45) + 'ms';
+        s.textContent = ch;
+        motRotatiu.appendChild(s);
+      });
+    }, 380);
+  }, 2900);
+}
+
+// les lletres salten quan hi passes per sobre (desktop) o les toques (mòbil)
+if (!REDUIT){
+  const fesSaltar = l => {
+    if (!l.classList.contains('salta')){
+      l.classList.add('salta');
+      l.addEventListener('animationend', () => l.classList.remove('salta'), {once:true});
+    }
+  };
+  document.querySelectorAll('.ll').forEach(l => {
+    if (PUNTER_FI) l.addEventListener('mouseenter', () => fesSaltar(l));
+  });
+  // al tocar el títol, les lletres ballen en onada des d'on toques
+  document.querySelectorAll('[data-lletres]').forEach(bloc => {
+    bloc.addEventListener('touchstart', e => {
+      const lls = [...bloc.querySelectorAll('.ll')];
+      const x = e.touches[0].clientX;
+      lls.forEach(l => {
+        const r = l.getBoundingClientRect();
+        const dist = Math.abs(r.left + r.width / 2 - x);
+        setTimeout(() => fesSaltar(l), dist * 1.2);
+      });
+    }, {passive:true});
+  });
+}
+
+// ===== CITA: paraules que s'il·luminen amb l'scroll =====
+const citaText = document.getElementById('citaText');
+(function(){
+  const nodes = [...citaText.childNodes];
+  citaText.textContent = '';
+  nodes.forEach(node => {
+    if (node.nodeType === 3){
+      node.textContent.split(/(\s+)/).forEach(tros => {
+        if (/^\s+$/.test(tros) || tros === '') { citaText.appendChild(document.createTextNode(tros)); return; }
+        const s = document.createElement('span');
+        s.className = 'mot';
+        s.textContent = tros;
+        citaText.appendChild(s);
+      });
+    } else if (node.nodeType === 1 && node.tagName !== 'FOOTER'){
+      const cls = node.className;
+      node.textContent.split(/(\s+)/).forEach(tros => {
+        if (/^\s+$/.test(tros) || tros === '') { citaText.appendChild(document.createTextNode(tros)); return; }
+        const s = document.createElement('span');
+        s.className = 'mot ' + cls;
+        s.textContent = tros;
+        citaText.appendChild(s);
+      });
+    } else {
+      citaText.appendChild(node);
+    }
+  });
+})();
+const mots = [...document.querySelectorAll('.cita .mot')];
+const seccCita = document.getElementById('cita');
+
+// ===== PARTÍCULES AL HERO =====
+const hero = document.querySelector('.hero');
+(function(){
+  const n = innerWidth < 900 ? 12 : 26;
+  for (let i = 0; i < n; i++){
+    const p = document.createElement('span');
+    p.className = 'particula';
+    const mida = 2 + Math.random() * 3.5;
+    p.style.width = p.style.height = mida + 'px';
+    p.style.left = Math.random() * 100 + '%';
+    p.style.background = Math.random() < .3 ? 'rgba(149,0,0,.7)' : 'rgba(245,242,239,.45)';
+    p.style.setProperty('--op', (.3 + Math.random() * .4).toFixed(2));
+    p.style.setProperty('--der', (Math.random() * 80 - 40).toFixed(0) + 'px');
+    p.style.animationDuration = (9 + Math.random() * 14).toFixed(1) + 's';
+    p.style.animationDelay = (-Math.random() * 20).toFixed(1) + 's';
+    hero.appendChild(p);
+  }
+})();
+
+// ===== VÍDEO DE FONS DEL HERO =====
+const heroVideo = document.getElementById('heroVideo');
+(function(){
+  if (REDUIT) return;
+  const con = navigator.connection;
+  if (con && /(^|\b)2g/.test(con.effectiveType || '')) return; // només saltem el vídeo en connexions 2G
+  heroVideo.src = innerWidth < 700 ? 'assets/hero-720.mp4' : 'assets/hero-1080.mp4';
+  heroVideo.load();
+  const intentaPlay = () => heroVideo.play().then(() => {
+    heroVideo.classList.add('llest');
+    return true;
+  }).catch(() => false);
+  heroVideo.addEventListener('canplay', () => {
+    intentaPlay().then(ok => {
+      if (!ok){
+        // autoplay bloquejat (p.ex. mode estalvi de bateria): reintenta al primer toc/scroll
+        const reintent = () => intentaPlay().then(okAra => {
+          if (okAra){
+            removeEventListener('touchstart', reintent);
+            removeEventListener('scroll', reintent);
+            removeEventListener('click', reintent);
+          }
+        });
+        addEventListener('touchstart', reintent, {passive:true});
+        addEventListener('scroll', reintent, {passive:true});
+        addEventListener('click', reintent);
+      }
+    });
+  }, {once:true});
+  // pausa quan el hero surt de pantalla (bateria)
+  new IntersectionObserver(es => es.forEach(e => {
+    if (!heroVideo.classList.contains('llest')) return;
+    if (e.isIntersecting) heroVideo.play().catch(() => {}); else heroVideo.pause();
+  }), {threshold:.05}).observe(document.querySelector('.hero'));
+})();
+
+// ===== GLOW DEL HERO: parallax de ratolí =====
+const glow = document.getElementById('heroGlow');
+if (PUNTER_FI && !REDUIT){
+  hero.addEventListener('mousemove', e => {
+    const dx = e.clientX / innerWidth - .5;
+    const dy = e.clientY / innerHeight - .5;
+    glow.style.translate = `${dx * 60}px ${dy * 40}px`;
+  });
+  hero.addEventListener('mouseleave', () => { glow.style.translate = '0 0'; });
+}
+
+// ===== LOGO-JOC: piruetes segons la velocitat del gest =====
+const logoSvg = document.getElementById('logoSvg');
+const logoJoc = document.getElementById('logoJoc');
+let girVel = 0, gir = 0, girUltimX = null, girUltimT = 0;
+function impulsGir(x){
+  const ara = performance.now();
+  if (girUltimX !== null && ara > girUltimT){
+    const v = (x - girUltimX) / (ara - girUltimT); // px/ms (+ dreta, - esquerra)
+    girVel += Math.max(-7, Math.min(7, v * 3.5));
+  }
+  girUltimX = x; girUltimT = ara;
+}
+if (!REDUIT){
+  logoJoc.addEventListener('mousemove', e => impulsGir(e.clientX));
+  logoJoc.addEventListener('mouseleave', () => { girUltimX = null; });
+  logoJoc.addEventListener('touchmove', e => impulsGir(e.touches[0].clientX), {passive:true});
+  logoJoc.addEventListener('touchend', () => { girUltimX = null; });
+}
+
+// ===== BOTONS MAGNÈTICS =====
+if (PUNTER_FI && !REDUIT){
+  document.querySelectorAll('.boto').forEach(b => {
+    b.addEventListener('mousemove', e => {
+      const r = b.getBoundingClientRect();
+      const x = e.clientX - r.left - r.width / 2;
+      const y = e.clientY - r.top - r.height / 2;
+      b.style.translate = `${x * .22}px ${y * .32}px`;
+    });
+    b.addEventListener('mouseleave', () => b.style.translate = '0 0');
+  });
+}
+
+// ===== TARGETES FLIP: tota la targeta és clicable =====
+// desktop: el hover ja gira, un clic a qualsevol punt navega a la pàgina de l'estil
+// mòbil: 1r toc gira la targeta (mostra la info), 2n toc navega
+document.querySelectorAll('.activitat').forEach(c => {
+  const enllac = c.querySelector('.mes-info');
+  c.addEventListener('click', e => {
+    if (e.target.closest('a')) return; // clic directe al "+ info": ja navega sol
+    if (PUNTER_FI){
+      if (enllac) location.href = enllac.getAttribute('href');
+      return;
+    }
+    if (c.classList.contains('girada') && enllac){
+      location.href = enllac.getAttribute('href');
+      return;
+    }
+    c.classList.toggle('girada'); vibra(8);
+  });
+});
+
+// ===== REVELAT DE TEXT PER LÍNIA (wipe editorial) =====
+function revelaLinies(el){
+  if (REDUIT){ el.classList.add('vist'); return; }
+  // guardem el text original per poder re-partir les línies (canvi d'amplada, fonts)
+  if (!el.dataset.txtOriginal) el.dataset.txtOriginal = el.textContent;
+  const text = el.dataset.txtOriginal;
+  el.textContent = '';
+  // primer, parteix en paraules per poder mesurar on trenca cada línia
+  const paraules = text.split(' ').map(p => {
+    const s = document.createElement('span');
+    s.style.display = 'inline-block';
+    s.textContent = p;
+    el.appendChild(s);
+    el.appendChild(document.createTextNode(' '));
+    return s;
+  });
+  // agrupa per línia segons offsetTop i embolcalla cada línia amb màscara
+  const linies = [];
+  let actual = null, topPrev = null;
+  paraules.forEach(s => {
+    const top = s.offsetTop;
+    if (top !== topPrev){ actual = []; linies.push(actual); topPrev = top; }
+    actual.push(s.textContent);
+  });
+  el.textContent = '';
+  linies.forEach((mots, i) => {
+    const fora = document.createElement('span'); fora.className = 'linia-rev';
+    const dins = document.createElement('span'); dins.className = 'linia-rev-i';
+    dins.style.setProperty('--l', i);
+    dins.textContent = mots.join(' ');
+    fora.appendChild(dins);
+    el.appendChild(fora);
+  });
+}
+const obsLinies = new IntersectionObserver((es, o) => es.forEach(e => {
+  if (e.isIntersecting){ e.target.classList.add('vist'); o.unobserve(e.target); }
+}), {threshold:.2, rootMargin:'0px 0px -8% 0px'});
+// esperem que Montserrat estigui carregada: si mesurem amb la font de substitució,
+// els trencaments de línia queden congelats a mig lloc (es veia malament al mòbil)
+const preparaLinies = () => document.querySelectorAll('.linies').forEach(el => { revelaLinies(el); obsLinies.observe(el); });
+if (document.fonts && document.fonts.ready) document.fonts.ready.then(preparaLinies); else preparaLinies();
+// re-partim si canvia l'amplada (gir de mòbil, canvi de mida de finestra)
+let ampladaLinies = innerWidth;
+addEventListener('resize', () => {
+  if (innerWidth === ampladaLinies) return;
+  ampladaLinies = innerWidth;
+  document.querySelectorAll('.linies').forEach(revelaLinies);
+});
+
+// ===== TIPOGRAFIA CINÈTICA DE FONS =====
+const motsFons = [...document.querySelectorAll('.mot-fons')];
+function mouMotsFons(){
+  motsFons.forEach(m => {
+    const r = m.parentElement.getBoundingClientRect();
+    if (r.bottom < -100 || r.top > innerHeight + 100) return;
+    const p = (innerHeight - r.top) / (innerHeight + r.height); // 0..1 mentre travessa
+    const dir = m.dataset.dir === 'dreta' ? 1 : -1;
+    m.style.transform = `translateY(-50%) translateX(${(dir * (p * 36 - 18)).toFixed(2)}vw)`;
+  });
+}
+mouMotsFons();
+
+// ===== VIBRACIÓ HÀPTICA (Android) =====
+const vibra = ms => { if (navigator.vibrate) navigator.vibrate(ms); };
+
+// ===== REVEALS =====
+const obs = new IntersectionObserver(entrades => {
+  entrades.forEach((e, i) => {
+    if (e.isIntersecting){
+      e.target.style.transitionDelay = `${(i % 6) * 70}ms`;
+      e.target.classList.add('vist');
+      if (e.target.matches('h2[data-lletres]')) e.target.classList.add('lletres-vist');
+      obs.unobserve(e.target);
+    }
+  });
+}, {threshold:.15, rootMargin:'0px 0px -8% 0px'});
+document.querySelectorAll('.reveal').forEach(el => obs.observe(el));
+
+// ===== COMPTADORS =====
+const obsCompta = new IntersectionObserver(entrades => {
+  entrades.forEach(e => {
+    if (!e.isIntersecting) return;
+    const el = e.target, fi = +el.dataset.compta, inici = performance.now();
+    const tic = t => {
+      const p = Math.min((t - inici) / 1400, 1);
+      el.textContent = Math.round(fi * (1 - Math.pow(1 - p, 3)));
+      if (p < 1) requestAnimationFrame(tic);
+    };
+    requestAnimationFrame(tic);
+    obsCompta.unobserve(el);
+  });
+}, {threshold:.6});
+document.querySelectorAll('[data-compta]').forEach(el => obsCompta.observe(el));
+
+// ===== LAYERS (obertura en cercle des del clic) =====
+let layerActiu = null;
+function obreLayer(id, ev){
+  layerActiu = document.getElementById(id);
+  if (ev){
+    layerActiu.style.setProperty('--cx', ev.clientX + 'px');
+    layerActiu.style.setProperty('--cy', ev.clientY + 'px');
+  }
+  layerActiu.classList.add('obert');
+  document.body.style.overflow = 'hidden';
+  vibra(12);
+}
+function tancaLayer(){
+  if (!layerActiu) return;
+  layerActiu.classList.remove('obert');
+  // si queda un altre layer obert a sota (p.ex. privacitat sobre contacte), no alliberis l'scroll
+  layerActiu = document.querySelector('.layer.obert') || null;
+  if (!layerActiu) document.body.style.overflow = '';
+}
+document.querySelectorAll('[data-obre]').forEach(b =>
+  b.addEventListener('click', e => {
+    if (b.tagName === 'A') e.preventDefault(); // enllaços de la nav: obre el layer, no facis scroll
+    obreLayer(b.dataset.obre, e);
+  })
+);
+document.querySelectorAll('[data-tanca]').forEach(b => b.addEventListener('click', tancaLayer));
+// enllaços que canvien de layer (p.ex. d'horaris al formulari de contacte)
+document.querySelectorAll('[data-canvia]').forEach(a =>
+  a.addEventListener('click', e => {
+    e.preventDefault();
+    const desti = a.dataset.canvia;
+    tancaLayer();
+    setTimeout(() => obreLayer(desti, e), 260);
+  })
+);
+// arribar amb /#escriu-nos (targeta "formulari" de les pàgines d'estil): obre el layer directament
+if (location.hash === '#escriu-nos') setTimeout(() => obreLayer('layerContacte'), 400);
+document.querySelectorAll('.layer').forEach(l =>
+  l.addEventListener('click', e => { if (e.target === l) tancaLayer(); })
+);
+addEventListener('keydown', e => { if (e.key === 'Escape') tancaLayer(); });
+
+// ===== NEWSLETTER (Mailchimp) =====
+// URL "subscribe/post" del compte Mailchimp de l'escola (Forms → Other forms → Embedded → atribut action del <form>)
+// ⚠️ sense f_id: amb f_id Mailchimp lliga l'enviament al formulari embed (que té el camp Nom desactivat) i DESCARTA el nom
+const MC_ACTION = 'https://escoladansa.us11.list-manage.com/subscribe/post?u=da5aca6dc87239091e99ef3e4&id=30f01114ec';
+const formNews = document.getElementById('formNews');
+const newsEstat = document.getElementById('newsEstat');
+const newsBoto = document.getElementById('newsBoto');
+let mcTemps = null;
+window.mcResposta = resp => {
+  clearTimeout(mcTemps);
+  newsBoto.disabled = false;
+  if (resp.result === 'success'){
+    // amb double opt-in Mailchimp demana confirmació per email (type: "confirmation")
+    newsEstat.textContent = resp.type === 'confirmation'
+      ? 'gairebé fet! revisa el teu correu (i l\'spam) i clica l\'enllaç de confirmació 💌'
+      : 'fet! ja ets dins. ens veiem aviat a l\'escola 💃';
+    newsEstat.className = 'news-estat ok';
+    formNews.reset();
+    nlLSposa('nlSubscrit'); amagaNlCard(); // subscrit: la targeta ja no cal mai més
+  } else {
+    const jaHi = /already|subscrib|apuntat/i.test(resp.msg || '');
+    newsEstat.textContent = jaHi
+      ? 'aquest email ja està apuntat al butlletí!'
+      : 'no s\'ha pogut enviar. torna-ho a provar d\'aquí a un moment o truca\'ns al 934 17 98 86.';
+    newsEstat.className = 'news-estat err';
+  }
+};
+formNews.addEventListener('submit', e => {
+  e.preventDefault();
+  // validació pròpia en català (la nativa del navegador surt en l'idioma de cada visitant)
+  newsEstat.textContent = ''; newsEstat.className = 'news-estat';
+  const nom = formNews.LEAD_NAME.value.trim();
+  const email = formNews.EMAIL.value.trim();
+  let errValid = '', campFocus = null;
+  if (!nom){ errValid = 'escriu el teu nom, si us plau'; campFocus = formNews.LEAD_NAME; }
+  else if (!/^[^@\s]+@[^@\s]+\.[^@\s]{2,}$/.test(email)){ errValid = 'revisa l\'email — sembla que no és complet'; campFocus = formNews.EMAIL; }
+  else if (!document.getElementById('newsRgpd').checked){ errValid = 'marca la casella de la política de privacitat per continuar'; }
+  if (errValid){
+    newsEstat.textContent = errValid;
+    newsEstat.className = 'news-estat err';
+    if (campFocus) campFocus.focus();
+    return;
+  }
+  if (MC_ACTION === 'PENDENT'){
+    newsEstat.textContent = 'el butlletí encara no està connectat — truca\'ns al 934 17 98 86 i t\'hi apuntem!';
+    newsEstat.className = 'news-estat err';
+    return;
+  }
+  const params = new URLSearchParams(new FormData(formNews));
+  params.append('MERGE5', nom); // el camp "Nom" de l'audiència també respon a la numeració interna (merge_id 5)
+  newsEstat.textContent = 'enviant…';
+  newsEstat.className = 'news-estat';
+  newsBoto.disabled = true;
+  const s = document.createElement('script');
+  s.src = MC_ACTION.replace('/post?', '/post-json?') + '&' + params.toString() + '&c=mcResposta';
+  s.onerror = () => mcResposta({result:'error', msg:''});
+  mcTemps = setTimeout(() => mcResposta({result:'error', msg:''}), 10000);
+  document.body.appendChild(s);
+  vibra(10);
+});
+
+// ===== FORMULARI DE CONTACTE (contacte.php al servidor) =====
+const formCtc = document.getElementById('formCtc');
+const ctcEstat = document.getElementById('ctcEstat');
+const ctcBoto = document.getElementById('ctcBoto');
+const ctcInici = performance.now();
+formCtc.addEventListener('submit', async e => {
+  e.preventDefault();
+  ctcEstat.textContent = ''; ctcEstat.className = 'news-estat';
+  const nom = formCtc.nom.value.trim();
+  const ctt = formCtc.contacte.value.trim();
+  const msg = formCtc.missatge.value.trim();
+  let errCtc = '';
+  if (!nom) errCtc = 'escriu el teu nom, si us plau';
+  else if (!ctt) errCtc = 'deixa\'ns un email o un telèfon per poder respondre\'t';
+  else if (!msg) errCtc = 'explica\'ns en dues línies què busques';
+  if (errCtc){ ctcEstat.textContent = errCtc; ctcEstat.className = 'news-estat err'; return; }
+  document.getElementById('ctcTorn').value = Math.round((performance.now() - ctcInici) / 1000);
+  ctcBoto.disabled = true;
+  ctcEstat.textContent = 'enviant…';
+  try{
+    const resp = await fetch('/contacte.php', {method: 'POST', body: new FormData(formCtc)});
+    const dades = await resp.json();
+    if (!dades.ok) throw new Error('rebutjat');
+    ctcEstat.textContent = 'rebut! et respondrem molt aviat 💌';
+    ctcEstat.className = 'news-estat ok';
+    formCtc.reset();
+  }catch(_){
+    ctcEstat.textContent = 'no s\'ha pogut enviar — truca\'ns al 934 17 98 86 i ho solucionem';
+    ctcEstat.className = 'news-estat err';
+  }
+  ctcBoto.disabled = false;
+});
+
+// ===== TARGETA LLISCANT DEL BUTLLETÍ (60% de scroll, 1 cop per visitant) =====
+const nlCard = document.getElementById('nlCard');
+const nlLS = clau => { try{ return localStorage.getItem(clau); }catch(_){ return null; } };
+const nlLSposa = clau => { try{ localStorage.setItem(clau, '1'); }catch(_){} };
+let nlCardFeta = false;
+function amagaNlCard(){ nlCard.classList.remove('visible'); nlCard.setAttribute('aria-hidden', 'true'); }
+if (!nlLS('nlCardTancada') && !nlLS('nlSubscrit')){
+  const miraScroll = () => {
+    if (nlCardFeta) return;
+    const total = document.documentElement.scrollHeight - innerHeight;
+    if (total > 0 && scrollY / total > .6){
+      nlCardFeta = true;
+      nlCard.classList.add('visible');
+      nlCard.setAttribute('aria-hidden', 'false');
+      removeEventListener('scroll', miraScroll);
+    }
+  };
+  addEventListener('scroll', miraScroll, {passive:true});
+  // si l'usuari ja és a la secció del formulari, la targeta sobra
+  new IntersectionObserver(es => es.forEach(e => {
+    if (e.isIntersecting){ nlCardFeta = true; amagaNlCard(); }
+  }), {threshold:.2}).observe(document.getElementById('newsletter'));
+}
+document.getElementById('nlCardTanca').addEventListener('click', () => { nlLSposa('nlCardTancada'); amagaNlCard(); });
+document.getElementById('nlCardBoto').addEventListener('click', () => {
+  amagaNlCard();
+  setTimeout(() => document.getElementById('newsNom').focus({preventScroll:true}), 900);
+});
+
+// ===== MARQUESINA =====
+const mq = document.getElementById('marquesina');
+mq.innerHTML += mq.innerHTML;
+const animMarquesina = mq.getAnimations ? null : null;
+
+// ===== CURSOR PROPI =====
+const punt = document.getElementById('cursorPunt');
+const anell = document.getElementById('cursorAnell');
+let mx = innerWidth / 2, my = innerHeight / 2, ax = mx, ay = my;
+if (PUNTER_FI && !REDUIT){
+  document.body.classList.add('cursor-actiu');
+  addEventListener('mousemove', e => { mx = e.clientX; my = e.clientY; }, {passive:true});
+  document.addEventListener('mouseover', e => {
+    const interactiu = e.target.closest('a, button, .activitat, .xifra, .progres');
+    anell.classList.toggle('gran', !!interactiu);
+    punt.classList.toggle('gran', !!interactiu);
+  });
+}
+
+// ===== PUNT DE PROGRÉS ARROSSEGABLE (desktop): estira'l i navega la pàgina =====
+const progresBarra = document.getElementById('progres');
+if (PUNTER_FI && progresBarra){
+  let arrossegant = false;
+  const scrollDesDe = ev => {
+    const r = progresBarra.getBoundingClientRect();
+    const fraccio = Math.min(1, Math.max(0, (ev.clientY - r.top) / r.height));
+    const total = document.documentElement.scrollHeight - innerHeight;
+    window.scrollTo({top: fraccio * total, behavior: 'instant'});
+  };
+  progresBarra.addEventListener('pointerdown', ev => {
+    arrossegant = true;
+    try{ progresBarra.setPointerCapture(ev.pointerId); }catch(_){}
+    scrollDesDe(ev);
+    ev.preventDefault();
+  });
+  progresBarra.addEventListener('pointermove', ev => { if (arrossegant) scrollDesDe(ev); });
+  const deixaAnar = () => { arrossegant = false; };
+  progresBarra.addEventListener('pointerup', deixaAnar);
+  progresBarra.addEventListener('pointercancel', deixaAnar);
+}
+
+// ===== BUCLE PRINCIPAL (cursor + skew + marquesina + cita + progrés) =====
+const principal = document.getElementById('principal');
+const progresPunt = document.getElementById('progresPunt');
+const cintaPath = document.getElementById('cintaPath');
+const cintaOmbra = document.getElementById('cintaOmbra');
+const cintaSpark = document.getElementById('cintaSpark');
+const cintaLong = cintaPath ? cintaPath.getTotalLength() : 0;
+let ultimY = scrollY, vel = 0, skew = 0;
+let mqAnim = null, encesosPrevi = -1, cursorQuiet = false;
+
+function bucle(){
+  // cursor amb retard elegant (només escrivim si es mou)
+  if (PUNTER_FI && !REDUIT){
+    const dist = Math.abs(mx - ax) + Math.abs(my - ay);
+    if (dist > .15 || !cursorQuiet){
+      punt.style.left = mx + 'px'; punt.style.top = my + 'px';
+      ax += (mx - ax) * .13; ay += (my - ay) * .13;
+      anell.style.left = ax + 'px'; anell.style.top = ay + 'px';
+      cursorQuiet = dist <= .15;
+    }
+  }
+
+  if (!REDUIT){
+    // logo-joc: gira amb inèrcia i fricció
+    if (Math.abs(girVel) > .02){
+      gir += girVel;
+      girVel *= .93;
+      logoSvg.style.transform = `rotateY(${gir.toFixed(1)}deg)`;
+    }
+
+    // velocitat d'scroll suavitzada
+    const delta = scrollY - ultimY;
+    ultimY = scrollY;
+    vel = vel * .85 + delta * .15;
+    const enMoviment = Math.abs(vel) > .05;
+
+    if (enMoviment){
+      // la marquesina accelera amb l'scroll
+      if (!mqAnim) mqAnim = mq.getAnimations()[0] || null;
+      if (mqAnim) mqAnim.playbackRate = 1 + Math.min(Math.abs(vel) / 6, 6);
+
+      // punt de progrés: baixa i s'infla amb la velocitat
+      const total = document.documentElement.scrollHeight - innerHeight;
+      const prog = total > 0 ? scrollY / total : 0;
+      progresPunt.style.top = (prog * 100) + '%';
+      progresPunt.style.scale = (1 + Math.min(Math.abs(vel) / 18, 1.6)).toFixed(2);
+
+      // cinta de ballarina: es dibuixa segons l'avanç de l'scroll
+      if (cintaPath){
+        const off = (1000 * (1 - prog)).toFixed(1);
+        cintaPath.style.strokeDashoffset = off;
+        if (cintaOmbra) cintaOmbra.style.strokeDashoffset = off;
+        // espurna de llum al capdamunt de la cinta (segueix el punt que es dibuixa)
+        if (cintaSpark){
+          if (prog > .004 && prog < .996){
+            const pt = cintaPath.getPointAtLength(cintaLong * prog);
+            const m = cintaPath.getScreenCTM();
+            cintaSpark.style.left = (m.a * pt.x + m.c * pt.y + m.e).toFixed(1) + 'px';
+            cintaSpark.style.top  = (m.b * pt.x + m.d * pt.y + m.f).toFixed(1) + 'px';
+            cintaSpark.style.opacity = '1';
+          } else {
+            cintaSpark.style.opacity = '0';
+          }
+        }
+      }
+
+      // paraules cinètiques de fons
+      mouMotsFons();
+
+      // cita: paraules que s'encenen
+      if (mots.length){
+        const r = seccCita.getBoundingClientRect();
+        const p = Math.max(0, Math.min(1, (innerHeight * .8 - r.top) / (r.height * .8)));
+        const encesos = Math.floor(p * mots.length);
+        if (encesos !== encesosPrevi){
+          mots.forEach((m, i) => m.classList.toggle('llum', i < encesos));
+          encesosPrevi = encesos;
+        }
+      }
+
+    } else if (mqAnim && mqAnim.playbackRate !== 1){
+      mqAnim.playbackRate = 1;
+    }
+  }
+
+  nav.classList.toggle('solida', scrollY > 40);
+  if (!window.__pausaBucle) requestAnimationFrame(bucle);
+}
+requestAnimationFrame(bucle);
+window.__reprenBucle = () => { window.__pausaBucle = false; requestAnimationFrame(bucle); };
+</script>
+</body>
+</html>
