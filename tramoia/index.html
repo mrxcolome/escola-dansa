@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tramoia · document de treball intern</title>
+<meta name="robots" content="noindex, nofollow">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png">
+</head>
+<body>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,800;1,400&display=swap" rel="stylesheet">
+<style>
+:root{
+  --fons:#f7f4f0; --paper:#fffdfb; --tinta:#1c1613; --gris:#6f6862;
+  --granat:#950000; --granat-fosc:#4d0505; --vora:rgba(28,22,19,.14);
+  --ok:#1e6b3a; --tou:rgba(149,0,0,.06);
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --fons:#0f0c0b; --paper:#171312; --tinta:#f5f2ef; --gris:#9b948d;
+    --granat:#c23b3b; --granat-fosc:#e0b1b1; --vora:rgba(245,242,239,.16);
+    --ok:#6fbf8b; --tou:rgba(194,59,59,.1);
+  }
+}
+:root[data-theme="dark"]{
+  --fons:#0f0c0b; --paper:#171312; --tinta:#f5f2ef; --gris:#9b948d;
+  --granat:#c23b3b; --granat-fosc:#e0b1b1; --vora:rgba(245,242,239,.16);
+  --ok:#6fbf8b; --tou:rgba(194,59,59,.1);
+}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:var(--fons);color:var(--tinta);font-family:'Montserrat',system-ui,sans-serif;font-weight:400;line-height:1.65;padding:56px 5vw 90px}
+.full{max-width:880px;margin:0 auto}
+h1,h2,h3{text-transform:lowercase;letter-spacing:-.02em;line-height:1.12;text-wrap:balance}
+.eti{display:inline-flex;align-items:center;gap:12px;font-size:.8rem;letter-spacing:.3em;text-transform:uppercase;color:var(--granat);font-weight:600}
+.eti::before{content:"";width:34px;height:1px;background:var(--granat)}
+h1{font-size:clamp(2.6rem,7vw,4.6rem);font-weight:800;margin:14px 0 18px}
+h1 em{font-style:normal;color:var(--granat)}
+.sub{color:var(--gris);max-width:64ch;font-size:1.05rem}
+section{margin-top:72px}
+h2{font-size:clamp(1.7rem,3.4vw,2.4rem);font-weight:800;margin:12px 0 18px}
+h3{font-size:1.05rem;font-weight:800;margin:0 0 8px}
+p{max-width:70ch}
+.gris{color:var(--gris)}
+a{color:var(--granat);font-weight:600;text-decoration:none}
+
+/* dues cares */
+.cares{display:grid;grid-template-columns:1fr 1fr;gap:2px;background:var(--vora);border-radius:16px;overflow:hidden;margin-top:26px}
+.cara{background:var(--paper);padding:26px 26px 28px}
+.cara .qui{font-size:.78rem;letter-spacing:.25em;text-transform:uppercase;color:var(--granat);font-weight:600;margin-bottom:8px}
+.cara ul{margin:12px 0 0 18px}
+.cara li{margin:7px 0;color:var(--gris)}
+.cara li strong{color:var(--tinta);font-weight:600}
+.pont{background:var(--paper);border:1px solid var(--vora);border-radius:0 0 16px 16px;border-top:0;padding:14px 26px;font-size:.92rem;color:var(--gris);text-align:center}
+
+/* model de dades */
+.cadena{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:22px 0 8px}
+.ent{background:var(--paper);border:1px solid var(--vora);border-radius:100px;padding:8px 18px;font-weight:600;white-space:nowrap}
+.ent.nucli{border-color:var(--granat);color:var(--granat)}
+.fletxa{color:var(--gris)}
+dl.model{margin-top:18px;display:grid;gap:0}
+dl.model div{display:grid;grid-template-columns:190px 1fr;gap:18px;padding:13px 0;border-bottom:1px solid var(--vora)}
+dl.model dt{font-weight:600}
+dl.model dd{color:var(--gris)}
+@media(max-width:640px){dl.model div{grid-template-columns:1fr;gap:2px}}
+
+/* casuístiques */
+.tema{margin-top:40px}
+.tema h3{font-size:1.15rem;display:flex;align-items:baseline;gap:12px}
+.tema h3 .num{color:var(--granat);font-size:.8rem;letter-spacing:.2em;font-weight:600}
+table{width:100%;border-collapse:collapse;margin-top:12px}
+th{font-size:.72rem;letter-spacing:.2em;text-transform:uppercase;color:var(--gris);font-weight:600;text-align:left;padding:8px 10px;border-bottom:1px solid var(--vora)}
+td{padding:13px 10px;border-bottom:1px solid var(--vora);vertical-align:top;font-size:.95rem}
+td.cas{font-weight:600;width:30%}
+td.prop{color:var(--gris)}
+td.prop b{color:var(--tinta);font-weight:600}
+.decidir{display:block;margin-top:6px;color:var(--granat);font-weight:600;font-size:.9rem}
+.decidir::before{content:"a decidir — ";letter-spacing:.08em;text-transform:uppercase;font-size:.7rem}
+.tanca{overflow-x:auto}
+
+/* fases */
+.fases{margin-top:24px;display:grid;gap:2px;background:var(--vora);border-radius:16px;overflow:hidden}
+.fase{background:var(--paper);padding:22px 26px;display:grid;grid-template-columns:64px 1fr;gap:20px}
+.fase .n{font-weight:800;font-size:1.6rem;color:var(--granat)}
+.fase .n small{display:block;font-size:.68rem;letter-spacing:.2em;text-transform:uppercase;color:var(--gris);font-weight:600}
+.fase p{color:var(--gris);margin-top:4px}
+.fase .fita{margin-top:8px;font-size:.88rem;color:var(--ok);font-weight:600}
+@media(max-width:640px){.fase{grid-template-columns:1fr;gap:6px}}
+
+/* stack + decisions */
+.stack td:first-child{font-weight:600;width:34%}
+.check{margin:18px 0 0 0;list-style:none}
+.check li{padding:12px 0 12px 34px;border-bottom:1px solid var(--vora);position:relative;max-width:70ch}
+.check li::before{content:"";position:absolute;left:2px;top:18px;width:14px;height:14px;border:2px solid var(--granat);border-radius:4px}
+.peu-doc{margin-top:80px;padding-top:22px;border-top:1px solid var(--vora);font-size:.85rem;color:var(--gris);display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
+</style>
+
+<div class="full">
+<header>
+  <span class="eti">projecte 2026–27 · document de treball v1</span>
+  <h1>tramoia<em>.</em></h1>
+  <p class="sub">La maquinària que no es veu però mou el teatre: la <strong>membresia online per a les famílies</strong> i el <strong>backoffice de gestió d'alumnes, classes i sales per a la Cristina</strong>. Aquest document dibuixa l'escenari sencer perquè el consensuem punt per punt abans d'escriure una sola línia de codi.</p>
+</header>
+
+<section>
+  <span class="eti">visió</span>
+  <h2>dues cares, un sol cervell</h2>
+  <p class="gris">Un únic sistema amb les dades al mig (alumnes, grups, quotes) i dues portes d'entrada segons qui ets. Res es duplica: quan la Cristina canvia un alumne de grup, la família ho veu; quan una família paga, la Cristina ho veu.</p>
+  <div class="cares">
+    <div class="cara">
+      <div class="qui">porta 1 · famílies i alumnes adults</div>
+      <h3>el portal de la membresia</h3>
+      <ul>
+        <li><strong>Matrícula online</strong>: alta de l'alumne, tria del grup <em>preferit</em>, pagament i consentiments des del mòbil — <strong>el grup el confirma l'escola</strong></li>
+        <li><strong>Pagament de quotes</strong>: domiciliació SEPA o targeta, amb rebuts descarregables</li>
+        <li><strong>El seu racó</strong>: dades de l'alumne, grups i horaris, històric de pagaments</li>
+        <li><strong>Avisos</strong>: rebut emès, recordatoris, comunicacions de l'escola</li>
+      </ul>
+    </div>
+    <div class="cara">
+      <div class="qui">porta 2 · cristina (i equip)</div>
+      <h3>el backoffice</h3>
+      <ul>
+        <li><strong>Alumnes i famílies</strong>: fitxa completa, cercador, historial</li>
+        <li><strong>Confirmació de grups</strong>: les matrícules noves arriben «pendents» i la Cristina confirma o <strong>reubica dins la mateixa disciplina</strong> segons places i nivell</li>
+        <li><strong>Professores</strong>: fitxa pròpia i assignació a grups i classes</li>
+        <li><strong>Grups, sales i horaris</strong>: la graella viva, amb capacitats i llistes d'espera</li>
+        <li><strong>Quotes i cobraments</strong>: qui ha pagat i qui no, <em>sigui online o en efectiu a recepció</em></li>
+        <li><strong>Visual i intuïtiu</strong>: pensat per usar-se entre classe i classe, sense manual</li>
+      </ul>
+    </div>
+  </div>
+  <div class="pont">↳ i una tercera porta petita: <strong>les professores</strong> hi veuen les llistes dels seus grups (rol de només lectura)</div>
+</section>
+
+<section>
+  <span class="eti">model de dades</span>
+  <h2>les peces del joc</h2>
+  <div class="cadena">
+    <span class="ent">Família</span><span class="fletxa">→</span>
+    <span class="ent nucli">Alumne</span><span class="fletxa">→</span>
+    <span class="ent nucli">Inscripció</span><span class="fletxa">→</span>
+    <span class="ent nucli">Grup</span><span class="fletxa">→</span>
+    <span class="ent">Activitat</span><span class="fletxa">+</span>
+    <span class="ent">Sala</span><span class="fletxa">+</span>
+    <span class="ent">Horari</span><span class="fletxa">+</span>
+    <span class="ent">Professora</span>
+  </div>
+  <div class="cadena">
+    <span class="fletxa">i en paral·lel:</span>
+    <span class="ent nucli">Inscripció</span><span class="fletxa">→</span>
+    <span class="ent">Quota mensual/trimestral</span><span class="fletxa">→</span>
+    <span class="ent">Pagament</span>
+  </div>
+  <dl class="model">
+    <div><dt>Família</dt><dd>El pagador i els contactes. Una família pot tenir diversos alumnes (germans); un adult pot ser família i alumne alhora.</dd></div>
+    <div><dt>Alumne</dt><dd>Fitxa personal: dades, data de naixement (mana el grup d'edat), consentiments RGPD i d'imatge, observacions.</dd></div>
+    <div><dt>Professora</dt><dd>Fitxa pròpia al backoffice: dades de contacte, disciplines que imparteix i grups assignats. És qui surt a la graella i qui veu les seves llistes.</dd></div>
+    <div><dt>Grup</dt><dd>Una classe concreta del curs: activitat + nivell + dia/hora + sala + <strong>professora assignada</strong> + capacitat màxima. És la graella d'horaris feta viva.</dd></div>
+    <div><dt>Inscripció</dt><dd>El fil que ho lliga tot: aquest alumne, en aquest grup, aquest curs, amb aquesta tarifa. Estats: prova, <strong>pendent de confirmació</strong>, activa, en espera, pausada, baixa.</dd></div>
+    <div><dt>Quota</dt><dd>El rebut de cada període segons la tarifa (dies/setmana × mensual o trimestral). Estats: pendent, pagada, retornada, condonada.</dd></div>
+    <div><dt>Pagament</dt><dd>Com s'ha cobrat la quota: SEPA, targeta, <strong>efectiu a recepció</strong>, transferència. Tot queda al mateix llibre.</dd></div>
+  </dl>
+</section>
+
+<section>
+  <span class="eti">el cor del document</span>
+  <h2>catàleg de casuístiques a consensuar</h2>
+  <p class="gris">Les situacions reals que l'eina ha de saber gestionar. Per a cadascuna proposo un comportament per defecte; el que està marcat en granat és el que necessito que decidiu tu i la Cristina. Res és car de canviar ara — tot és car de canviar després.</p>
+
+  <div class="tema">
+    <h3><span class="num">tema 1</span>pagaments i quotes</h3>
+    <div class="tanca"><table>
+      <tr><th>situació</th><th>proposta per defecte</th></tr>
+      <tr><td class="cas">Pagament en efectiu a recepció</td><td class="prop">Suportat de primera: la Cristina marca la quota com a <b>«cobrada en mà»</b> amb un clic i queda registrat qui i quan. La família el veu igualment al seu històric.<span class="decidir">es fa rebut en paper? cal poder cobrar parcialment?</span></td></tr>
+      <tr><td class="cas">Domiciliació SEPA vs targeta</td><td class="prop">Oferim <b>totes dues</b>: SEPA per a quotes recurrents (comissió baixa), targeta per a pagaments puntuals i famílies que ho prefereixin.</td></tr>
+      <tr><td class="cas">Rebut SEPA retornat</td><td class="prop">Reintent automàtic al cap d'uns dies + avís amable per email. Si torna a fallar, passa a «pendent» i surt al tauler de la Cristina.<span class="decidir">es repercuteix la comissió de devolució (~3 €)? a partir de quants impagats es parla amb la família?</span></td></tr>
+      <tr><td class="cas">Mensual ↔ trimestral</td><td class="prop">Cada inscripció tria modalitat; es pot canviar <b>en el següent període</b>, mai a mig període.</td></tr>
+      <tr><td class="cas">Alta a mig mes</td><td class="prop">Primera quota <b>prorratejada per setmanes senceres restants</b>.<span class="decidir">o mes sencer sempre? (més simple, menys amable)</span></td></tr>
+      <tr><td class="cas">Matrícula (65 € antics / 70 € nous)</td><td class="prop">Es cobra amb la primera quota. Si la baixa arriba abans de començar el curs, es retorna.<span class="decidir">confirmeu la política de devolució de matrícula</span></td></tr>
+      <tr><td class="cas">Descomptes</td><td class="prop">El sistema en suporta de manuals (la Cristina posa un % o import a una inscripció, amb motiu).<span class="decidir">hi ha d'haver descompte automàtic per germans? per 3+ dies?</span></td></tr>
+    </table></div>
+  </div>
+
+  <div class="tema">
+    <h3><span class="num">tema 2</span>famílies i alumnes</h3>
+    <div class="tanca"><table>
+      <tr><th>situació</th><th>proposta per defecte</th></tr>
+      <tr><td class="cas">Germans</td><td class="prop">Una sola família, un sol pagador, un sol accés al portal amb tots els fills dins.</td></tr>
+      <tr><td class="cas">Pares separats</td><td class="prop">Dos contactes per alumne amb el pagador marcat; tots dos poden rebre comunicacions.<span class="decidir">passa sovint? cal poder repartir el pagament?</span></td></tr>
+      <tr><td class="cas">Alumne adult</td><td class="prop">És la seva pròpia «família»: paga i gestiona el seu racó.</td></tr>
+      <tr><td class="cas">RGPD i drets d'imatge</td><td class="prop">Consentiments <b>digitals a la matrícula</b>: dades, fotos/vídeos per a xarxes (or per a l'Ànnia!), sortides. Consultables i revocables des del portal.</td></tr>
+    </table></div>
+  </div>
+
+  <div class="tema">
+    <h3><span class="num">tema 3</span>grups, classes i sales</h3>
+    <div class="tanca"><table>
+      <tr><th>situació</th><th>proposta per defecte</th></tr>
+      <tr><td class="cas">Quota per dies, no per classes</td><td class="prop">La tarifa es calcula pel <b>nombre de dies/setmana totals de l'alumne</b> (com ara: 1-4 dies), no sumant classes soltes. El sistema ho recalcula sol quan s'afegeix o treu un grup.</td></tr>
+      <tr><td class="cas">Canvi de grup a mig curs</td><td class="prop">Un clic al backoffice; si canvia el nombre de dies, la quota s'ajusta el període següent.</td></tr>
+      <tr><td class="cas">Tria de grup a la matrícula</td><td class="prop">La família <b>s'apunta, paga i tria el grup preferit</b>, però la inscripció neix «pendent de confirmació»: des del backoffice es <b>confirma o es reubica en un altre grup de la mateixa disciplina</b> segons places i nivell, amb avís automàtic a la família.<span class="decidir">si després de la reubicació cap horari no li va bé, es retorna el pagament íntegre?</span></td></tr>
+      <tr><td class="cas">Grup ple → llista d'espera</td><td class="prop">Cada grup té capacitat (per sala); quan és ple, alta en espera amb <b>avís automàtic</b> quan s'allibera plaça.</td></tr>
+      <tr><td class="cas">Classe de prova</td><td class="prop">Reservable des de la web (enllaçat amb el blog i les pàgines!): crea una inscripció en estat «prova» que la Cristina confirma o descarta després de la classe.</td></tr>
+      <tr><td class="cas">Recuperacions</td><td class="prop">Si un alumne falta, pot recuperar amb un grup equivalent — el backoffice suggereix grups del mateix nivell amb plaça aquell dia.<span class="decidir">quantes recuperacions per trimestre? caduquen?</span></td></tr>
+    </table></div>
+  </div>
+
+  <div class="tema">
+    <h3><span class="num">tema 4</span>baixes, pauses i absències</h3>
+    <div class="tanca"><table>
+      <tr><th>situació</th><th>proposta per defecte</th></tr>
+      <tr><td class="cas">Baixa a mig curs</td><td class="prop">Efectiva a final de mes en curs; la plaça s'allibera i salta la llista d'espera.<span class="decidir">cal preavís (p. ex. abans del dia 25)? la trimestral pagada es retorna prorratejada?</span></td></tr>
+      <tr><td class="cas">Pausa temporal (lesió, viatge)</td><td class="prop">Estat «pausada»: no paga i no ocupa plaça… o paga reduït i la manté.<span class="decidir">política de reserva de plaça — aquesta és de les importants</span></td></tr>
+      <tr><td class="cas">Control d'assistència</td><td class="prop">Fase posterior: llista passable des del mòbil per la professora (interessant per seguretat amb infantils).<span class="decidir">el voleu de debò o és paper mullat?</span></td></tr>
+    </table></div>
+  </div>
+
+  <div class="tema">
+    <h3><span class="num">tema 5</span>fora de la quota</h3>
+    <div class="tanca"><table>
+      <tr><th>situació</th><th>proposta per defecte</th></tr>
+      <tr><td class="cas">Casals, tallers, intensius</td><td class="prop">Producte de <b>pagament únic</b> amb places, comprables des del portal (Nadal, Setmana Santa, estiu).</td></tr>
+      <tr><td class="cas">Classes particulars, balls de núvis, aniversaris, lloguer de sales</td><td class="prop">Es gestionen com a reserves amb pagament únic o pressupost manual — fora del motor de quotes.</td></tr>
+      <tr><td class="cas">Festival (vestuari, entrades)</td><td class="prop">Cobraments extra puntuals assignables a una inscripció, perquè tot quedi al mateix compte de la família.</td></tr>
+    </table></div>
+  </div>
+
+  <div class="tema">
+    <h3><span class="num">tema 6</span>operativa i arrencada</h3>
+    <div class="tanca"><table>
+      <tr><th>situació</th><th>proposta per defecte</th></tr>
+      <tr><td class="cas">Rols i permisos</td><td class="prop">Cristina = admin total · professores = les seves llistes · tu = superadmin tècnic.<span class="decidir">hi ha algú més a recepció que hagi de cobrar?</span></td></tr>
+      <tr><td class="cas">BBDD i gestió de professores</td><td class="prop">Fitxa de cada professora (contacte, disciplines) i <b>assignació als grups i classes</b> — el que surt a la graella surt de la seva fitxa. Amb accés propi per veure les seves llistes.<span class="decidir">hi voleu també disponibilitat/horari laboral i gestió de suplències, o de moment només la fitxa i l'assignació?</span></td></tr>
+      <tr><td class="cas">Canvi de curs (juny–setembre)</td><td class="prop">Rollover assistit: es dupliquen els grups al curs nou i les famílies <b>confirmen la renovació</b> des del portal en un clic — la re-matrícula deixa de ser un festival de paperets.</td></tr>
+      <tr><td class="cas">Migració de les dades actuals</td><td class="prop">Import inicial des del que hi hagi (Excel, llibretes, Mailchimp).<span class="decidir">on viuen ara les dades dels alumnes? — d'això depèn el pla d'arrencada</span></td></tr>
+      <tr><td class="cas">Emails automàtics</td><td class="prop">Benvinguda, confirmació de matrícula, rebut emès, rebut retornat, plaça alliberada — via Resend, amb la identitat de l'escola.</td></tr>
+    </table></div>
+  </div>
+</section>
+
+<section>
+  <span class="eti">full de ruta</span>
+  <h2>per fases, cobrant valor a cada pas</h2>
+  <p class="gris">L'ordre està pensat perquè la Cristina guanyi eines des del primer mes, i el pagament online — la part més delicada — arribi quan la base ja roda.</p>
+  <div class="fases">
+    <div class="fase"><div class="n">0<small>ara</small></div><div><h3>consens i inventari</h3><p>Tancar aquest catàleg amb la Cristina i localitzar les dades actuals dels alumnes.</p><div class="fita">→ fita: aquest document validat</div></div></div>
+    <div class="fase"><div class="n">1</div><div><h3>el backoffice nucli</h3><p>Alumnes, famílies, <strong>professores</strong>, grups, sales i inscripcions + importació de les dades. Encara sense pagaments: la graella viva i el cercador ja canvien la vida de recepció.</p><div class="fita">→ fita: la Cristina troba qualsevol alumne en 3 segons</div></div></div>
+    <div class="fase"><div class="n">2</div><div><h3>quotes i cobrament manual</h3><p>El motor de tarifes genera les quotes de cada mes; efectiu i transferències es marquen a mà. Control econòmic complet abans de tocar Stripe.</p><div class="fita">→ fita: «qui em deu què» en una pantalla</div></div></div>
+    <div class="fase"><div class="n">3</div><div><h3>pagament online + portal famílies</h3><p>Stripe (SEPA + targeta), rebuts automàtics i el racó de cada família.</p><div class="fita">→ fita: la primera quota cobrada sola una nit de dimarts</div></div></div>
+    <div class="fase"><div class="n">4</div><div><h3>matrícula online i extres</h3><p>Alta i renovació 100% digitals, classes de prova des de la web, casals i tallers comprables, assistència.</p><div class="fita">→ fita: setembre sense cues a recepció</div></div></div>
+  </div>
+</section>
+
+<section>
+  <span class="eti">tecnologia</span>
+  <h2>l'stack (el que ja havíem triat)</h2>
+  <div class="tanca"><table class="stack">
+    <tr><th>peça</th><th>eina i per què</th></tr>
+    <tr><td>Aplicació</td><td class="prop"><b>Next.js + Payload CMS</b> — el mateix tàndem que Brachfield Academy: backoffice visual «de sèrie» que modelarem amb les entitats d'aquí dalt.</td></tr>
+    <tr><td>Hosting</td><td class="prop"><b>Vercel</b> (el teu compte) + base de dades Postgres gestionada. Webempresa es queda domini, correus i la web pública tal com està: conviuen.</td></tr>
+    <tr><td>Adreça</td><td class="prop">Subdomini propi — proposo <b>alumnes.escoladansa.com</b> — apuntant a Vercel, sense tocar res més del DNS.</td></tr>
+    <tr><td>Pagaments</td><td class="prop"><b>Stripe</b>: SEPA per a recurrents (comissió ~0,35%+llindar, molt més barata que targeta) i targeta per a puntuals. Alta a nom de l'escola.</td></tr>
+    <tr><td>Emails</td><td class="prop"><b>Resend</b> (el teu compte) per als transaccionals; Mailchimp segueix per a la newsletter.</td></tr>
+    <tr><td>Cost mensual estimat</td><td class="prop">Infra ~0–25 €/mes segons volum; Stripe cobra per transacció. Ordres de magnitud, no pressupost tancat.</td></tr>
+  </table></div>
+</section>
+
+<section>
+  <span class="eti">i ara què</span>
+  <h2>3 deures per desencallar-ho tot</h2>
+  <ul class="check">
+    <li><strong>Sessió amb la Cristina</strong> sobre el catàleg — sobretot els granats dels temes 1 i 4 (efectiu, impagats, baixes i pauses: és on es juga la pau de recepció).</li>
+    <li><strong>Inventari de dades</strong>: on són avui els alumnes, els IBAN i els consentiments? (Excel? llibreta? capsa de sabates? tot val, però cal saber-ho.)</li>
+    <li><strong>Alta d'Stripe</strong> a nom de l'escola (la faràs tu — jo no toco credencials — i és el tràmit més lent: millor engegar-lo aviat).</li>
+  </ul>
+  <p class="gris" style="margin-top:22px">Amb això tancat, escric l'esquema de Payload (les col·leccions calcades del model de dades) i la fase 1 comença a caminar.</p>
+</section>
+
+<div class="peu-doc">
+  <span>tramoia · escola de dansa cristina colomé</span>
+  <span>document de treball v1 · 3 de setembre de 2026</span>
+</div>
+</div>
+
+</body>
+</html>
