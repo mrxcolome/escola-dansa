@@ -32,4 +32,7 @@ RewriteRule ^casal-infantil-diver-dansa(/.*)?$ https://escoladansa.com/dansa-inf
 RewriteRule ^stage-juvenil-global-dance(/.*)?$ https://escoladansa.com/ [L,R=301]
 
 # ── Pàgina 404 personalitzada ──
+# document intern reanomenat (Tramoia -> Backstage)
+RewriteRule ^tramoia(/.*)?$ https://escoladansa.com/backstage/ [L,R=301]
+
 ErrorDocument 404 /404.html
