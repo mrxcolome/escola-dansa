@@ -770,13 +770,13 @@ GRAELLA = {
 # TARIFES DEL CURS (font única per a /preus/) — files: (concepte, 1 dia, 2, 3, 4)
 TARIFA_MENSUAL = [
     ("infantil", "56 €", "68 €", "80 €", "92 €"),
-    ("adults · fins 1 h", "60 €", "73 €", "85 €", "99 €"),
-    ("adults · més d'1 h", "65 €", "81 €", "92 €", "104 €"),
+    ("juvenil i adults · fins 1 h", "60 €", "73 €", "85 €", "99 €"),
+    ("juvenil i adults · més d'1 h", "65 €", "81 €", "92 €", "104 €"),
 ]
 TARIFA_TRIMESTRAL = [
     ("infantil", "162 €", "197 €", "232 €", "267 €"),
-    ("adults · fins 1 h", "174 €", "212 €", "247 €", "288 €"),
-    ("adults · més d'1 h", "189 €", "235 €", "267 €", "302 €"),
+    ("juvenil i adults · fins 1 h", "174 €", "212 €", "247 €", "288 €"),
+    ("juvenil i adults · més d'1 h", "189 €", "235 €", "267 €", "302 €"),
 ]
 TARIFA_ALTRES = [
     ("matrícula alumnes antics", "65 €"),
@@ -1129,11 +1129,11 @@ def cos_horaris_es():
 def cos_preus_es():
     capc = ["", "1 día", "2 días", "3 días", "4 días"]
     men = [("infantil",) + f[1:] if f[0] == "infantil" else
-           ("adultos · hasta 1 h",) + f[1:] if "fins" in f[0] else
-           ("adultos · más de 1 h",) + f[1:] for f in TARIFA_MENSUAL]
+           ("juvenil y adultos · hasta 1 h",) + f[1:] if "fins" in f[0] else
+           ("juvenil y adultos · más de 1 h",) + f[1:] for f in TARIFA_MENSUAL]
     tri = [("infantil",) + f[1:] if f[0] == "infantil" else
-           ("adultos · hasta 1 h",) + f[1:] if "fins" in f[0] else
-           ("adultos · más de 1 h",) + f[1:] for f in TARIFA_TRIMESTRAL]
+           ("juvenil y adultos · hasta 1 h",) + f[1:] if "fins" in f[0] else
+           ("juvenil y adultos · más de 1 h",) + f[1:] for f in TARIFA_TRIMESTRAL]
     alt = [("matrícula antiguos alumnos", TARIFA_ALTRES[0][1]),
            ("matrícula nuevos alumnos", TARIFA_ALTRES[1][1]),
            ("formación escénica kids & teens", TARIFA_ALTRES[2][1].replace("mes", "mes").replace("trim", "trim")),
