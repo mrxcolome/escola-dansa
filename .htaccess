@@ -13,6 +13,13 @@ RewriteCond %{HTTPS} !=on
 RewriteCond %{HTTP:X-Forwarded-Proto} !https
 RewriteRule ^ https://escoladansa.com%{REQUEST_URI} [L,R=301]
 
+# ── Markdown per a agents: Accept: text/markdown → index.md (negociació de contingut) ──
+AddType text/markdown .md
+AddCharset UTF-8 .md
+RewriteCond %{HTTP:Accept} text/markdown [NC]
+RewriteCond %{DOCUMENT_ROOT}/$1index.md -f
+RewriteRule ^(.*?)(?:index\.html)?$ /$1index.md [L]
+
 # ── Redireccions de la web antiga (WordPress) cap a l'estructura nova ──
 # seccions principals
 RewriteRule ^inici/?$ https://escoladansa.com/ [L,R=301]

@@ -1,0 +1,27 @@
+# blog · consejos de danza y vida de escuela
+
+- [más de 25 años moviendo Sant Gervasi](https://escoladansa.com/es/blog/historia-escuela-25-anos/) — Hay alumnas que vinieron de pequeñas y ahora traen a sus hijas. La historia y la manera de hacer de una escuela de barrio que lleva más de un cuarto de siglo bailando.
+- [cómo es la clase de prueba (y por qué es gratuita)](https://escoladansa.com/es/blog/clase-de-prueba-gratuita/) — Ninguna decisión a ciegas: la primera clase de cualquier disciplina es gratis. Cómo va, qué mirar y el motivo de fondo por el que llevamos décadas regalándola.
+- [barre: el entrenamiento que viene del ballet (y por qué engancha)](https://escoladansa.com/es/blog/barre-entrenamiento-ballet/) — Tonifica como el gimnasio, alarga como el yoga y se entrena junto a una barra de ballet. Qué es el barre, cómo es una clase y por qué engancha tanto.
+- [danza y timidez: cuando un niño vergonzoso sube al escenario](https://escoladansa.com/es/blog/danza-y-timidez/) — «Es que es muy tímida...» — nos lo dicen como una duda y es el mejor motivo para venir. Lo que pasa cuando un niño vergonzoso encuentra su lugar en la sala.
+- [qué son los exámenes RAD y cómo los preparamos](https://escoladansa.com/es/blog/examenes-rad-ballet/) — Los exámenes de la Royal Academy of Dance explicados para familias: qué aportan, cómo es el gran día y cómo los preparamos — sin mitos ni solemnidad.
+- [los beneficios de la danza para niños, según la ciencia](https://escoladansa.com/es/blog/beneficios-danza-ninos/) — Motricidad, memoria, gestión emocional, confianza: lo que la investigación dice de la danza en la infancia — y cómo lo vemos cada día en la sala.
+- [qué llevar el primer día de clase de danza](https://escoladansa.com/es/blog/primer-dia-clase-danza/) — Mucho menos de lo que crees: la lista completa de la bolsa del primer día — y, sobre todo, lo que NO tienes que comprar todavía.
+- [¿ballet, jazz o hip-hop? cómo elegir el estilo de tu hijo](https://escoladansa.com/es/blog/elegir-estilo-danza-hijo/) — No hay estilos buenos y malos: hay estilos que encajan con cada criatura. Guía rápida según el carácter de tu hijo y el método infalible para acertar.
+- [nunca es tarde: empezar a bailar de adulto](https://escoladansa.com/es/blog/empezar-danza-adultos/) — «Me encantaría, pero a mi edad...» es la frase más equivocada que oímos. Qué frena de verdad, qué ganarás y por qué estilo empezar desde cero.
+- [¿a qué edad puede empezar mi hijo a hacer danza?](https://escoladansa.com/es/blog/a-que-edad-empezar-danza/) — De los 3 años a la adolescencia: la guía por franjas de edad que respondemos cada septiembre en recepción, con las señales de que tu hijo está a punto.
+- [¿qué tiene que llevar en la bolsa de danza? la guía por disciplinas](https://escoladansa.com/es/blog/ropa-danza-que-llevar/) — Zapatillas, medias, ropa cómoda... qué hace falta para cada disciplina y qué no hay que comprar el primer día. La guía práctica para no gastar de más.
+- [hip-hop para niños y adolescentes: mucho más que pasos](https://escoladansa.com/es/blog/hip-hop-ninos-adolescentes/) — Por qué el hip-hop engancha tanto: energía, identidad, grupo y una técnica más seria de lo que parece. Cómo son las clases por edades.
+- [el claqué: el baile que también es música](https://escoladansa.com/es/blog/claque-el-baile-que-suena/) — En el claqué los pies son el instrumento: cada paso es un sonido y cada coreografía, una partitura. Por qué va bien a todas las edades.
+- [¿clásico o contemporáneo? las diferencias explicadas fácil](https://escoladansa.com/es/blog/clasico-o-contemporaneo/) — Ballet clásico y danza contemporánea comparten base pero hablan lenguas distintas: forma y código contra peso y libertad. Explicado fácil.
+- [bailar en familia: cuando madres e hijas comparten escuela](https://escoladansa.com/es/blog/bailar-en-familia/) — La hija hace clásico en una sala y la madre hace barre o yoga en la otra. Compartir escuela (que no clase) refuerza el vínculo y arregla la logística.
+- [la música de las clases: cómo la elegimos y por qué importa tanto](https://escoladansa.com/es/blog/musica-en-las-clases/) — Del piano del clásico a las listas que piden los adolescentes: cómo se elige la música de cada clase y por qué es la mitad del aprendizaje.
+- [danza oriental: la fuerza que se esconde tras la elegancia](https://escoladansa.com/es/blog/danza-oriental-fuerza-elegancia/) — La danza oriental es de las disciplinas más completas para adultos: técnica milenaria, trabajo profundo del centro y una nueva relación con el cuerpo.
+- [por qué el festival de fin de curso es el corazón de la escuela](https://escoladansa.com/es/blog/festival-fin-de-curso/) — El festival no es una exhibición: es el momento donde el aprendizaje del año cobra sentido. Nervios, telón y el crecimiento que solo da un escenario.
+- [bailar a los 50, a los 60 y más allá: el cuerpo lo agradece](https://escoladansa.com/es/blog/bailar-a-los-50-y-mas/) — La danza es de las mejores actividades a partir de los 50: memoria, equilibrio, fuerza y vida social en una sola hora. Nunca es tarde.
+- [k-pop y heels: las clases que hacen venir corriendo a los jóvenes](https://escoladansa.com/es/blog/kpop-heels-jovenes/) — K-pop y heels son las disciplinas que más crecen entre jóvenes: coreografías virales, point dance, empoderamiento y más técnica de la que parece.
+
+---
+
+escola de dansa cristina colomé · Carrer de Craywinckel, 25, 08022 Barcelona (Sant Gervasi) · tel. 934 17 98 86 · https://escoladansa.com/es/
+la primera clase de prueba es gratuita.
