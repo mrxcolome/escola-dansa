@@ -36,3 +36,8 @@ RewriteRule ^stage-juvenil-global-dance(/.*)?$ https://escoladansa.com/ [L,R=301
 RewriteRule ^tramoia(/.*)?$ https://escoladansa.com/backstage/ [L,R=301]
 
 ErrorDocument 404 /404.html
+
+# ── Capçaleres Link (RFC 8288): descobriment de recursos per a agents d'IA ──
+<IfModule mod_headers.c>
+Header always set Link "<https://escoladansa.com/llms.txt>; rel=\"llms-txt\", <https://escoladansa.com/sitemap.xml>; rel=\"sitemap\""
+</IfModule>

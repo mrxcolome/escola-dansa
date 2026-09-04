@@ -1,4 +1,8 @@
 User-agent: *
 Allow: /
 
+# Content Signals (contentsignals.org): que ens facin servir a tot arreu,
+# l'escola VOL apareixer a cercadors i a les respostes dels assistents d'IA
+Content-Signal: search=yes, ai-input=yes, ai-train=yes
+
 Sitemap: https://escoladansa.com/sitemap.xml
