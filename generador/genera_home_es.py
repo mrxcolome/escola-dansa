@@ -300,7 +300,6 @@ PARELLES += [
      '<h2 class="reveal" data-lletres>consejos de danza y vida de escuela</h2>'),
     ('<span class="mot-fons" aria-hidden="true">consells</span>',
      '<span class="mot-fons" aria-hidden="true">consejos</span>'),
-    ('un article nou cada setmana.', 'un artículo nuevo cada semana.'),
     ('<a class="boto boto-ple" href="/blog/">descobreix el blog</a>',
      '<a class="boto boto-ple" href="/es/blog/">descubre el blog</a>'),
 ]
