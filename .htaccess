@@ -41,3 +41,15 @@ ErrorDocument 404 /404.html
 <IfModule mod_headers.c>
 Header always set Link "<https://escoladansa.com/llms.txt>; rel=\"describedby llms-txt\", <https://escoladansa.com/sitemap.xml>; rel=\"sitemap\", <https://escoladansa.com/llms.txt>; rel=\"service-doc\""
 </IfModule>
+
+# robots.txt i llms.txt han de ser frescos (el hosting els posava cache d'1 any)
+<IfModule mod_headers.c>
+<Files "robots.txt">
+Header always set Cache-Control "max-age=3600"
+Header always unset Expires
+</Files>
+<Files "llms.txt">
+Header always set Cache-Control "max-age=3600"
+Header always unset Expires
+</Files>
+</IfModule>
