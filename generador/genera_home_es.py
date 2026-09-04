@@ -165,9 +165,9 @@ PARELLES = [
     ("«L'ambient familiar i de bon rotllo que es respira a l'escola és un punt a destacar. Els professors són molt professionals […] fan que et sentis estimat i part de l'escola. Molt recomanable!»",
      '«El ambiente familiar y de buen rollo que se respira en la escuela es un punto a destacar. Los profesores son muy profesionales […] hacen que te sientas querido y parte de la escuela. ¡Muy recomendable!»'),
     ('<small>· ressenya a Google</small>', '<small>· reseña en Google</small>'),
-    ('Ressenyes traduïdes del castellà original. Llegeix-les totes tal com es van escriure o <a',
-     'Léelas todas en Google o <a'),
-    ('rel="noopener">deixa-hi la teva →</a>', 'rel="noopener">deja la tuya →</a>'),
+    ('Ressenyes traduïdes del castellà original — llegeix-les totes tal com es van escriure.',
+     'Reseñas en su castellano original — léelas todas en Google.'),
+    ('★ deixa la teva ressenya a Google', '★ deja tu reseña en Google'),
 
     # ── FAQ visibles ──
     ('<div class="etiqueta reveal">preguntes freqüents</div>', '<div class="etiqueta reveal">preguntas frecuentes</div>'),
@@ -298,8 +298,9 @@ PARELLES += [
      '<h2 class="reveal" data-lletres>consejos de danza y vida de escuela</h2>'),
     ('<span class="mot-fons" aria-hidden="true">consells</span>',
      '<span class="mot-fons" aria-hidden="true">consejos</span>'),
-    ('Un article nou cada setmana: <a href="/blog/">visita el blog</a>.',
-     'Un artículo nuevo cada semana: <a href="/es/blog/">visita el blog</a>.'),
+    ('Un article nou cada setmana.', 'Un artículo nuevo cada semana.'),
+    ('<a class="boto boto-ple" href="/blog/">descobreix el blog</a>',
+     '<a class="boto boto-ple" href="/es/blog/">descubre el blog</a>'),
 ]
 for _p in sorted(_POSTS, key=lambda x: x["data"], reverse=True)[:3]:
     for _pa in [
