@@ -37,49 +37,46 @@ nav.solida{background:rgba(247,244,240,.88)}
 .article li{font-size:var(--text);color:var(--gris);font-weight:400;margin:10px 0}
 .article p strong,.article li strong{color:var(--blanc);font-weight:600}
 .article a{color:var(--granat-viu);font-weight:600}
-.cat-post{font-size:var(--text-vermells);letter-spacing:.3em;text-transform:uppercase;color:var(--granat-viu);font-weight:600}
-.blog-hero{position:relative;display:block;border-radius:24px;overflow:hidden;margin:6px 0 30px;box-shadow:0 18px 50px rgba(23,19,16,.14)}
-.blog-hero img{width:100%;height:auto;aspect-ratio:21/9;object-fit:cover;display:block;transition:transform .7s cubic-bezier(.22,1,.36,1)}
-.blog-hero:hover img{transform:scale(1.04)}
-.blog-hero .vel-hero{position:absolute;inset:0;background:linear-gradient(180deg,rgba(23,19,16,.18) 0%,rgba(23,19,16,.12) 30%,rgba(23,19,16,.92) 100%)}
-.blog-hero .hero-cos{position:absolute;left:0;right:0;bottom:0;padding:36px 40px}
-.blog-hero .cat-chip{display:inline-block;background:var(--granat-viu);color:#f5f2ef;padding:6px 16px;border-radius:100px;font-size:var(--text-vermells);letter-spacing:.25em;text-transform:uppercase;font-weight:600}
-.blog-hero h2{color:#f5f2ef;margin:16px 0 10px;max-width:820px;text-shadow:0 2px 18px rgba(23,19,16,.45)}
-.blog-hero p{font-size:var(--text);color:rgba(245,242,239,.85);font-weight:400;max-width:640px;margin:0 0 12px}
-.blog-hero .peu-card{font-size:var(--text);color:rgba(245,242,239,.65);font-weight:400;font-style:italic}
-.blog-destacats{display:grid;grid-template-columns:1fr 1fr;gap:28px;margin-bottom:34px}
-.blog-mig{position:relative;display:block;border-radius:20px;overflow:hidden;box-shadow:0 12px 34px rgba(23,19,16,.1)}
-.blog-mig img{width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;display:block;transition:transform .6s cubic-bezier(.22,1,.36,1)}
-.blog-mig:hover img{transform:scale(1.05)}
-.blog-mig .vel-hero{position:absolute;inset:0;background:linear-gradient(180deg,rgba(23,19,16,.12) 0%,rgba(23,19,16,.08) 38%,rgba(23,19,16,.9) 100%)}
-.blog-mig .hero-cos{position:absolute;left:0;right:0;bottom:0;padding:24px 26px}
-.blog-mig .cat-chip{display:inline-block;background:var(--granat-viu);color:#f5f2ef;padding:5px 13px;border-radius:100px;font-size:var(--text-vermells);letter-spacing:.25em;text-transform:uppercase;font-weight:600}
-.blog-mig h3{color:#f5f2ef;font-size:var(--text);font-weight:800;margin:12px 0 6px}
-.blog-mig .peu-card{font-size:var(--text);color:rgba(245,242,239,.65);font-weight:400;font-style:italic}
-.posts-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(290px,1fr));gap:28px;margin-top:6px}
-.post-card{background:var(--gris-fosc);padding:0;display:flex;flex-direction:column;border-radius:20px;overflow:hidden;box-shadow:0 8px 26px rgba(23,19,16,.07);transition:transform .35s cubic-bezier(.22,1,.36,1),box-shadow .35s}
-.post-card:hover{transform:translateY(-5px);box-shadow:0 18px 44px rgba(23,19,16,.13);background:var(--gris-fosc)}
-.pc-img{position:relative;overflow:hidden}
-.pc-img img{width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;display:block;transition:transform .6s cubic-bezier(.22,1,.36,1)}
-.post-card:hover .pc-img img{transform:scale(1.06)}
-.pc-img .cat-chip{position:absolute;top:14px;left:14px;background:rgba(149,0,0,.92);color:#f5f2ef;padding:5px 13px;border-radius:100px;font-size:var(--text-vermells);letter-spacing:.25em;text-transform:uppercase;font-weight:600}
-.pc-cos{padding:24px 26px 28px;display:flex;flex-direction:column;gap:12px;flex:1}
-.post-card h3{font-size:var(--text);font-weight:800}
-.post-card p{font-size:var(--text);color:var(--gris);font-weight:400;flex:1}
-.post-card .peu-card,.pc-cos .peu-card{font-size:var(--text);color:var(--gris);font-weight:400;font-style:italic}
+.cat-chip{display:inline-block;background:var(--granat-viu);color:#f5f2ef;padding:5px 13px;border-radius:100px;font-size:var(--text-vermells);letter-spacing:.25em;text-transform:uppercase;font-weight:600}
+.blog-flux{display:grid;grid-template-columns:repeat(6,1fr);gap:28px;margin-top:6px}
+.bf-card{position:relative;display:flex;flex-direction:column;background:var(--gris-fosc);border-radius:20px;overflow:hidden;box-shadow:0 8px 26px rgba(23,19,16,.07);transition:transform .35s cubic-bezier(.22,1,.36,1),box-shadow .35s}
+.bf-card:hover{transform:translateY(-5px);box-shadow:0 18px 44px rgba(23,19,16,.13)}
+.bf-img{position:relative;overflow:hidden;display:block}
+.bf-img img{width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;display:block;transition:transform .6s cubic-bezier(.22,1,.36,1)}
+.bf-card:hover .bf-img img{transform:scale(1.05)}
+.bf-img .cat-chip{position:absolute;top:14px;left:14px}
+.bf-cos{padding:24px 26px 28px;display:flex;flex-direction:column;gap:12px;flex:1}
+.bf-cos h3{font-size:var(--text);font-weight:800}
+.bf-cos p{font-size:var(--text);color:var(--gris);font-weight:400;flex:1;margin:0}
+.bf-cos .peu-card{font-size:var(--text);color:var(--gris);font-weight:400;font-style:italic}
+@media (min-width:701px){
+.bf-card:nth-child(1){grid-column:1/-1}
+.bf-card:nth-child(1) .bf-img{position:static}
+.bf-card:nth-child(1) .bf-img img{aspect-ratio:21/9}
+.bf-card:nth-child(1) .bf-cos{position:absolute;left:0;right:0;bottom:0;padding:140px 40px 34px;background:linear-gradient(180deg,rgba(23,19,16,0) 0%,rgba(23,19,16,.55) 45%,rgba(23,19,16,.92) 100%)}
+.bf-card:nth-child(1) h3{font-size:clamp(2rem,4.6vw,3.8rem);line-height:1.1;color:#f5f2ef;font-weight:800;max-width:860px;text-shadow:0 2px 18px rgba(23,19,16,.45)}
+.bf-card:nth-child(1) .bf-cos p{color:rgba(245,242,239,.85);max-width:640px;flex:0}
+.bf-card:nth-child(1) .bf-cos .peu-card{color:rgba(245,242,239,.65)}
+.bf-card:nth-child(2),.bf-card:nth-child(3){grid-column:span 3}
+.bf-card:nth-child(2) .bf-img,.bf-card:nth-child(3) .bf-img{position:static}
+.bf-card:nth-child(2) .bf-cos,.bf-card:nth-child(3) .bf-cos{position:absolute;left:0;right:0;bottom:0;padding:90px 26px 24px;background:linear-gradient(180deg,rgba(23,19,16,0) 0%,rgba(23,19,16,.5) 42%,rgba(23,19,16,.9) 100%)}
+.bf-card:nth-child(2) h3,.bf-card:nth-child(3) h3{color:#f5f2ef;text-shadow:0 2px 14px rgba(23,19,16,.4)}
+.bf-card:nth-child(2) .bf-cos p,.bf-card:nth-child(3) .bf-cos p{display:none}
+.bf-card:nth-child(2) .bf-cos .peu-card,.bf-card:nth-child(3) .bf-cos .peu-card{color:rgba(245,242,239,.65)}
+.bf-card:nth-child(n+4){grid-column:span 2}
+.pista-desliza{display:none}
+}
 @media (max-width:700px){
-.blog-hero{border-radius:20px}
-.blog-hero img{aspect-ratio:16/10}
-.blog-hero .vel-hero,.blog-mig .vel-hero{display:none}
-.blog-hero .hero-cos{position:static;display:block;background:var(--gris-fosc);padding:20px 18px 24px}
-.blog-hero h2{color:var(--blanc);text-shadow:none;margin:12px 0 8px}
-.blog-hero p{color:var(--gris);margin:0 0 10px}
-.blog-hero .peu-card{color:var(--gris)}
-.blog-mig .hero-cos{position:static;display:block;background:var(--gris-fosc);padding:18px 18px 22px}
-.blog-mig h3{color:var(--blanc)}
-.blog-mig .peu-card{color:var(--gris)}
-.blog-destacats{grid-template-columns:1fr;gap:22px}
-.posts-grid{gap:22px}
+.blog-flux{display:flex;gap:14px;overflow-x:auto;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;padding:4px 2px 20px;scrollbar-width:none}
+.blog-flux::-webkit-scrollbar{display:none}
+.bf-card{flex:0 0 82%;aspect-ratio:4/5;scroll-snap-align:center;border-radius:22px}
+.bf-img{position:absolute;inset:0}
+.bf-img img{width:100%;height:100%;aspect-ratio:auto;object-fit:cover}
+.bf-cos{position:absolute;left:0;right:0;bottom:0;padding:90px 20px 22px;gap:8px;background:linear-gradient(180deg,rgba(23,19,16,0) 0%,rgba(23,19,16,.45) 40%,rgba(23,19,16,.94) 100%)}
+.bf-cos h3{color:#f5f2ef;font-weight:800;text-shadow:0 2px 12px rgba(23,19,16,.5)}
+.bf-cos p{display:none}
+.bf-cos .peu-card{color:rgba(245,242,239,.7)}
+.pista-desliza{display:block;text-align:center;font-size:var(--text);color:var(--gris);font-style:italic;margin-top:2px}
 }
 """
 gp.CSS += BLOG_CSS
@@ -255,39 +252,15 @@ def _camps_targeta(p, lang):
             f"{p['data_es']} · {p['minuts']} min de lectura", p["img_alt_es"])
 
 
-def targeta_hero(p, lang):
+def targeta(p, lang, primera=False):
     href, cat, titol, exc, peu, alt = _camps_targeta(p, lang)
-    return (f'      <a class="blog-hero" href="{href}">'
-            f'<img src="/assets/{p["img"]}" alt="{gp.esc(alt)}" width="1600" height="900">'
-            f'<span class="vel-hero"></span>'
-            f'<span class="hero-cos"><span class="cat-chip">{gp.esc(cat)}</span>'
-            f'<h2>{gp.esc(titol)}</h2><p>{gp.esc(exc)}</p>'
-            f'<span class="peu-card">{gp.esc(peu)}</span></span></a>')
-
-
-def targeta_mig(p, lang):
-    href, cat, titol, exc, peu, alt = _camps_targeta(p, lang)
-    return (f'      <a class="blog-mig" href="{href}">'
-            f'<img src="/assets/{p["img"]}" alt="{gp.esc(alt)}" loading="lazy" width="1600" height="900">'
-            f'<span class="vel-hero"></span>'
-            f'<span class="hero-cos"><span class="cat-chip">{gp.esc(cat)}</span>'
-            f'<h3>{gp.esc(titol)}</h3>'
-            f'<span class="peu-card">{gp.esc(peu)}</span></span></a>')
-
-
-def targeta(p, lang):
-    if lang == "ca":
-        href, cat, titol = f"/blog/{p['slug']}/", p["categoria"], p["h1"]
-        exc, peu, alt = p["excerpt"], f"{p['data_ca']} · {p['minuts']} min de lectura", p["img_alt"]
-    else:
-        href, cat, titol = f"/es/blog/{p['slug_es']}/", p["categoria_es"], p["h1_es"]
-        exc, peu, alt = p["excerpt_es"], f"{p['data_es']} · {p['minuts']} min de lectura", p["img_alt_es"]
-    return (f'      <a class="post-card" href="{href}">'
-            f'<span class="pc-img"><img src="/assets/{p["img"]}" alt="{gp.esc(alt)}" loading="lazy" width="1600" height="900">'
+    carrega = "" if primera else ' loading="lazy"'
+    return (f'      <a class="bf-card" href="{href}">'
+            f'<span class="bf-img"><img src="/assets/{p["img"]}" alt="{gp.esc(alt)}"{carrega} width="1600" height="900">'
             f'<span class="cat-chip">{gp.esc(cat)}</span></span>'
-            f'<div class="pc-cos">'
+            f'<span class="bf-cos">'
             f'<h3>{gp.esc(titol)}</h3><p>{gp.esc(exc)}</p>'
-            f'<span class="peu-card">{gp.esc(peu)}</span></div></a>')
+            f'<span class="peu-card">{gp.esc(peu)}</span></span></a>')
 
 
 def ld_index(lang):
@@ -331,9 +304,8 @@ def ld_index(lang):
 
 def pagina_index(lang):
     posts_ordenats = sorted(POSTS, key=lambda p: p["data"], reverse=True)
-    hero = targeta_hero(posts_ordenats[0], lang)
-    mitjans = "\n".join(targeta_mig(p, lang) for p in posts_ordenats[1:3])
-    grid = "\n".join(targeta(p, lang) for p in posts_ordenats[3:])
+    pista = "llisca per veure’ls tots" if lang == "ca" else "desliza para verlos todos"
+    flux = "\n".join(targeta(p, lang, primera=(i == 0)) for i, p in enumerate(posts_ordenats))
     if lang == "ca":
         pd = {
             "slug": "blog",
@@ -347,13 +319,10 @@ def pagina_index(lang):
             "molla_mig": "",
             "cos": f"""
   <section>
-{hero}
-    <div class="blog-destacats reveal">
-{mitjans}
+    <div class="blog-flux">
+{flux}
     </div>
-    <div class="posts-grid reveal">
-{grid}
-    </div>
+    <span class="pista-desliza">{pista} →</span>
   </section>""",
             "ld": ld_index("ca"),
         }
@@ -372,13 +341,10 @@ def pagina_index(lang):
         "molla_mig": "",
         "cos": f"""
   <section>
-{hero}
-    <div class="blog-destacats reveal">
-{mitjans}
+    <div class="blog-flux">
+{flux}
     </div>
-    <div class="posts-grid reveal">
-{grid}
-    </div>
+    <span class="pista-desliza">{pista} →</span>
   </section>""",
         "ld": ld_index("es"),
     }
