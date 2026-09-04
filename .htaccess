@@ -39,5 +39,5 @@ ErrorDocument 404 /404.html
 
 # ── Capçaleres Link (RFC 8288): descobriment de recursos per a agents d'IA ──
 <IfModule mod_headers.c>
-Header always set Link "<https://escoladansa.com/llms.txt>; rel=\"llms-txt\", <https://escoladansa.com/sitemap.xml>; rel=\"sitemap\""
+Header always set Link "<https://escoladansa.com/llms.txt>; rel=\"describedby llms-txt\", <https://escoladansa.com/sitemap.xml>; rel=\"sitemap\", <https://escoladansa.com/llms.txt>; rel=\"service-doc\""
 </IfModule>
