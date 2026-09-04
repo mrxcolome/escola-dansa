@@ -211,8 +211,16 @@ nav.solida{background:rgba(247,244,240,.88)}
 .post-card p{font-size:var(--text);color:var(--gris);font-weight:400;flex:1}
 .post-card .peu-card,.pc-cos .peu-card{font-size:var(--text);color:var(--gris);font-weight:400;font-style:italic}
 @media (max-width:700px){
-.blog-hero img{aspect-ratio:4/3}
-.blog-hero .hero-cos{padding:22px 20px}
+.blog-hero{border-radius:20px}
+.blog-hero img{aspect-ratio:16/10}
+.blog-hero .vel-hero,.blog-mig .vel-hero{display:none}
+.blog-hero .hero-cos{position:static;display:block;background:var(--gris-fosc);padding:20px 18px 24px}
+.blog-hero h2{color:var(--blanc);text-shadow:none;margin:12px 0 8px}
+.blog-hero p{color:var(--gris);margin:0 0 10px}
+.blog-hero .peu-card{color:var(--gris)}
+.blog-mig .hero-cos{position:static;display:block;background:var(--gris-fosc);padding:18px 18px 22px}
+.blog-mig h3{color:var(--blanc)}
+.blog-mig .peu-card{color:var(--gris)}
 .blog-destacats{grid-template-columns:1fr;gap:22px}
 .posts-grid{gap:22px}
 }
