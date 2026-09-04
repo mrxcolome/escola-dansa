@@ -727,8 +727,8 @@ POSTS = [
         "nom_wa_es": "danza",
         "og": "blog-classe-prova.jpg",
         "img": "blog-classe-prova.jpg",
-        "img_alt": "La porta entreoberta d'una sala de dansa amb llum càlida, amb la barra i el mirall al fons",
-        "img_alt_es": "La puerta entreabierta de una sala de danza con luz cálida, con la barra y el espejo al fondo",
+        "img_alt": "Una jaqueta de punt granat penjada a la barra de ballet de fusta, amb llum càlida de finestra",
+        "img_alt_es": "Una chaqueta de punto granate colgada en la barra de ballet de madera, con luz cálida de ventana",
         "related_pagines": ["horaris", "dansa-infantil", "dansa-adults"],
         "related_posts": ["primer-dia-classe-dansa", "comencar-dansa-adults"],
 
