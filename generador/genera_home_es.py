@@ -164,6 +164,8 @@ PARELLES = [
      '«¡Escuela fantástica para todas las edades! Ambiente espectacularmente agradable y familiar. Te permite aprender todas las disciplinas y con diferentes niveles.»'),
     ("«L'ambient familiar i de bon rotllo que es respira a l'escola és un punt a destacar. Els professors són molt professionals […] fan que et sentis estimat i part de l'escola. Molt recomanable!»",
      '«El ambiente familiar y de buen rollo que se respira en la escuela es un punto a destacar. Los profesores son muy profesionales […] hacen que te sientas querido y parte de la escuela. ¡Muy recomendable!»'),
+    ("«Varietat d'estils, horaris i nivells, amb un ambient familiar i molt acollidor. Un tracte proper i personalitzat, i un equip professional i entregat. Una escola per aprendre i gaudir de la dansa en tots els sentits.»",
+     '«Variedad de estilos, horarios y niveles, con un ambiente familiar y muy acogedor. Un trato cercano y personalizado, y un equipo profesional y entregado. Una escuela para aprender y disfrutar de la danza en todos sus sentidos.»'),
     ('<small>· ressenya a Google</small>', '<small>· reseña en Google</small>'),
     ('Ressenyes traduïdes del castellà original — llegeix-les totes tal com es van escriure.',
      'Reseñas en su castellano original — léelas todas en Google.'),
