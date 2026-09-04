@@ -1,6 +1,9 @@
 # Redireccions canòniques: tot cap a https://escoladansa.com (sense www)
 RewriteEngine On
 
+# robots/llms frescos: truc LiteSpeed (E=Cache-Control) que el proxy respecta
+RewriteRule ^(robots|llms)\.txt$ - [E=Cache-Control:max-age=3600]
+
 # 1) www -> sense www (ja en https o no, sempre acaba a https sense www)
 RewriteCond %{HTTP_HOST} ^www\.escoladansa\.com$ [NC]
 RewriteRule ^ https://escoladansa.com%{REQUEST_URI} [L,R=301]
