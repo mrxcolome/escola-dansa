@@ -1655,3 +1655,21 @@ POSTS = [
         ],
     },
 ]
+
+
+# ── entradeta per a la HOME: tot en minúscula d'estil de la casa.
+# El blog per dins manté les majúscules normals (decisió Xavi, 4 set 2026);
+# aquesta funció només s'aplica quan l'entradeta viatja a la home.
+import re as _re
+
+_PROPIS_HOME = {'cristina', 'colomé', 'barcelona', 'sant', 'gervasi',
+                'craywinckel', 'royal', 'academy', 'dance'}
+
+
+def entradeta_min(t):
+    def _baixa(m):
+        w = m.group(2)
+        if w.isupper() or w.lower() in _PROPIS_HOME:
+            return m.group(0)
+        return m.group(1) + w[0].lower() + w[1:]
+    return _re.sub(r"(^|[.!?…]\s+)([A-ZÀÈÉÍÒÓÚÏÜÇÑÁ][\w'’-]*)", _baixa, t)

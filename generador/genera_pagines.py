@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 """
 Generador de les pàgines de disciplina i de públic d'escoladansa.com.
-Executa:  python genera_pagines.py
+executa:  python genera_pagines.py
 Escriu cada pàgina a WEB_2026/<slug>/index.html a partir de PAGINES + PLANTILLA.
-Quan canviïn els horaris (curs nou) o el disseny, edita aquí i regenera-ho tot.
+quan canviïn els horaris (curs nou) o el disseny, edita aquí i regenera-ho tot.
 """
 import html
 import json
@@ -48,15 +48,15 @@ PAGINES = [
         "slug": "ballet-classic",
         "nom": "ballet clàssic",
         "title": "classes de ballet clàssic a Barcelona · escola de dansa cristina colomé",
-        "desc": "Classes de ballet clàssic a Sant Gervasi (Barcelona) per a totes les edats: iniciació, infantil, juvenil i adults. Puntes i preparació RAD. 1a classe gratuïta.",
+        "desc": "classes de ballet clàssic a Sant Gervasi (Barcelona) per a totes les edats: iniciació, infantil, juvenil i adults. puntes i preparació RAD. 1a classe gratuïta.",
         "h1": "ballet clàssic",
-        "intro": "Tècnica, elegància i una base per a tota la vida. El ballet clàssic és la columna vertebral de l'escola: des de la iniciació fins a les puntes i la preparació d'exàmens.",
-        "per_a_qui": "Tenim grups de clàssic per a totes les edats i nivells: infantils, juvenils i adults (des d'iniciació fins a avançat). Els més petits comencen amb la iniciació a la dansa, i el recorregut arriba fins a les classes de puntes i la preparació d'exàmens oficials RAD. No cal cap experiència prèvia per començar: t'ajudem a trobar el grup on et sentiràs a gust.",
+        "intro": "tècnica, elegància i una base per a tota la vida. el ballet clàssic és la columna vertebral de l'escola: des de la iniciació fins a les puntes i la preparació d'exàmens.",
+        "per_a_qui": "tenim grups de clàssic per a totes les edats i nivells: infantils, juvenils i adults (des d'iniciació fins a avançat). els més petits comencen amb la iniciació a la dansa, i el recorregut arriba fins a les classes de puntes i la preparació d'exàmens oficials RAD. no cal cap experiència prèvia per començar: t'ajudem a trobar el grup on et sentiràs a gust.",
         "beneficis": [
-            ("postura i consciència corporal", "El clàssic treballa l'alineació, l'equilibri i el control del cos com cap altra disciplina."),
-            ("disciplina i concentració", "La tècnica demana atenció i constància — i això es nota dins i fora de la sala."),
-            ("la base de totes les danses", "Qui fa clàssic té més facilitat per al contemporani, el jazz i qualsevol altre estil."),
-            ("musicalitat", "Aprendre a escoltar la música i moure-s'hi és un regal per sempre."),
+            ("postura i consciència corporal", "el clàssic treballa l'alineació, l'equilibri i el control del cos com cap altra disciplina."),
+            ("disciplina i concentració", "la tècnica demana atenció i constància — i això es nota dins i fora de la sala."),
+            ("la base de totes les danses", "qui fa clàssic té més facilitat per al contemporani, el jazz i qualsevol altre estil."),
+            ("musicalitat", "aprendre a escoltar la música i moure-s'hi és un regal per sempre."),
         ],
         "horaris": [
             ("dilluns", "17.30", "clàssic infantil A", "sala C"),
@@ -76,13 +76,13 @@ PAGINES = [
         ],
         "faqs": [
             ("cal experiència per començar ballet clàssic?",
-             "No. Hi ha grups d'iniciació tant per a infants com per a adults, i la primera classe de prova és gratuïta perquè ho comprovis sense compromís."),
+             "no. hi ha grups d'iniciació tant per a infants com per a adults, i la primera classe de prova és gratuïta perquè ho comprovis sense compromís."),
             ("feu puntes i exàmens oficials?",
-             "Sí: hi ha classe de puntes per a juvenils i preparem alumnes per als exàmens oficials RAD (Royal Academy of Dance)."),
+             "sí: hi ha classe de puntes per a juvenils i preparem alumnes per als exàmens oficials RAD (Royal Academy of Dance)."),
             ("un adult pot començar ballet de zero?",
-             "I tant — el grup d'adults iniciació està pensat exactament per a això. Mai no és tard per començar."),
+             "i tant — el grup d'adults iniciació està pensat exactament per a això. mai no és tard per començar."),
             ("què cal portar a classe?",
-             "Per a la classe de prova, roba còmoda i ajustada n'hi ha prou. Un cop t'hi apuntis, t'orientarem sobre mitges, maillot i sabatilles."),
+             "per a la classe de prova, roba còmoda i ajustada n'hi ha prou. un cop t'hi apuntis, t'orientarem sobre mitges, maillot i sabatilles."),
         ],
         "related": ["dansa-contemporania", "jazz", "dansa-infantil", "dansa-adults"],
     },
@@ -90,14 +90,14 @@ PAGINES = [
         "slug": "dansa-contemporania",
         "nom": "contemporani",
         "title": "classes de dansa contemporània a Barcelona · escola de dansa cristina colomé",
-        "desc": "Classes de dansa contemporània a Sant Gervasi (Barcelona): moviment lliure i orgànic, tècnica i creació. Grups infantils, juvenils i adults. 1a classe gratuïta.",
+        "desc": "classes de dansa contemporània a Sant Gervasi (Barcelona): moviment lliure i orgànic, tècnica i creació. grups infantils, juvenils i adults. 1a classe gratuïta.",
         "h1": "dansa contemporània",
-        "intro": "Moviment lliure i orgànic: la tècnica al servei de l'expressió. Al contemporani hi ha espai per crear, improvisar i trobar la teva pròpia manera de moure't.",
-        "per_a_qui": "Oferim contemporani des d'infantil fins a adults, amb grups juvenils per nivells i grups d'adults intermedi i avançat. És una disciplina perfecta tant per a qui ve del clàssic i vol alliberar el moviment com per a qui comença i busca una dansa expressiva i actual.",
+        "intro": "moviment lliure i orgànic: la tècnica al servei de l'expressió. al contemporani hi ha espai per crear, improvisar i trobar la teva pròpia manera de moure't.",
+        "per_a_qui": "oferim contemporani des d'infantil fins a adults, amb grups juvenils per nivells i grups d'adults intermedi i avançat. és una disciplina perfecta tant per a qui ve del clàssic i vol alliberar el moviment com per a qui comença i busca una dansa expressiva i actual.",
         "beneficis": [
-            ("expressió i creativitat", "El contemporani et convida a crear i a dir coses amb el cos, no només a executar passos."),
-            ("un cos fort i flexible", "Treball de terra, caigudes, espirals: força i mobilitat reals per a tot el cos."),
-            ("connexió amb un mateix", "Respiració, pes, fluïdesa — una estona per escoltar-te i alliberar tensions."),
+            ("expressió i creativitat", "el contemporani et convida a crear i a dir coses amb el cos, no només a executar passos."),
+            ("un cos fort i flexible", "treball de terra, caigudes, espirals: força i mobilitat reals per a tot el cos."),
+            ("connexió amb un mateix", "respiració, pes, fluïdesa — una estona per escoltar-te i alliberar tensions."),
         ],
         "horaris": [
             ("dilluns", "20.30", "contemporani adults avançat", "sala H"),
@@ -110,11 +110,11 @@ PAGINES = [
         ],
         "faqs": [
             ("què es treballa en una classe de contemporani?",
-             "Tècnica (treball de terra, espirals, salts), improvisació i creació coreogràfica, sempre adaptat al nivell del grup."),
+             "tècnica (treball de terra, espirals, salts), improvisació i creació coreogràfica, sempre adaptat al nivell del grup."),
             ("cal haver fet ballet abans?",
-             "No és imprescindible. Una base de clàssic ajuda, però hi ha grups on pots començar de zero — la classe de prova gratuïta és la millor manera de comprovar-ho."),
+             "no és imprescindible. una base de clàssic ajuda, però hi ha grups on pots començar de zero — la classe de prova gratuïta és la millor manera de comprovar-ho."),
             ("contemporani o clàssic: quin trio?",
-             "Si busques estructura i tècnica pura, clàssic; si busques expressió i moviment lliure, contemporani. Moltes alumnes fan tots dos: es complementen molt bé."),
+             "si busques estructura i tècnica pura, clàssic; si busques expressió i moviment lliure, contemporani. moltes alumnes fan tots dos: es complementen molt bé."),
         ],
         "related": ["ballet-classic", "jazz", "dansa-adults", "dansa-infantil"],
     },
@@ -122,14 +122,14 @@ PAGINES = [
         "slug": "jazz",
         "nom": "jazz",
         "title": "classes de dansa jazz a Barcelona · escola de dansa cristina colomé",
-        "desc": "Classes de dansa jazz a Sant Gervasi (Barcelona): energia, ritme i coreografia per a infants, joves i adults. Primera classe de prova gratuïta.",
+        "desc": "classes de dansa jazz a Sant Gervasi (Barcelona): energia, ritme i coreografia per a infants, joves i adults. primera classe de prova gratuïta.",
         "h1": "dansa jazz",
-        "intro": "Energia, ritme i coreografies que enganxen. El jazz és la porta d'entrada perfecta a la dansa: dinàmic, musical i divertidíssim.",
-        "per_a_qui": "És una de les disciplines amb més grups de l'escola: infantils per edats, juvenils i adults (des de bàsic fins a intermedi). Si t'agrada ballar amb música actual i aprendre coreografies amb estil, el jazz és el teu lloc.",
+        "intro": "energia, ritme i coreografies que enganxen. el jazz és la porta d'entrada perfecta a la dansa: dinàmic, musical i divertidíssim.",
+        "per_a_qui": "és una de les disciplines amb més grups de l'escola: infantils per edats, juvenils i adults (des de bàsic fins a intermedi). si t'agrada ballar amb música actual i aprendre coreografies amb estil, el jazz és el teu lloc.",
         "beneficis": [
-            ("coordinació i ritme", "Coreografies que treballen memòria, musicalitat i coordinació de tot el cos."),
-            ("energia i forma física", "Una classe de jazz és cardio disfressat de diversió."),
-            ("confiança sobre la pista", "Aprens a ballar davant dels altres i a gaudir-ne — al festival de fi de curs es nota!"),
+            ("coordinació i ritme", "coreografies que treballen memòria, musicalitat i coordinació de tot el cos."),
+            ("energia i forma física", "una classe de jazz és cardio disfressat de diversió."),
+            ("confiança sobre la pista", "aprens a ballar davant dels altres i a gaudir-ne — al festival de fi de curs es nota!"),
         ],
         "horaris": [
             ("dilluns", "17.00", "jazz infantil A", "sala C"),
@@ -142,11 +142,11 @@ PAGINES = [
         ],
         "faqs": [
             ("a partir de quina edat es pot fer jazz?",
-             "Tenim grups infantils des de ben petits, organitzats per edats. A la classe de prova gratuïta veurem quin grup li encaixa millor."),
+             "tenim grups infantils des de ben petits, organitzats per edats. a la classe de prova gratuïta veurem quin grup li encaixa millor."),
             ("sóc adult i no he ballat mai: puc?",
-             "Sí! El grup d'adults bàsic està pensat per començar de zero, amb bon rotllo i sense pressió."),
+             "sí! el grup d'adults bàsic està pensat per començar de zero, amb bon rotllo i sense pressió."),
             ("quina diferència hi ha entre jazz i hip-hop?",
-             "El jazz beu de la dansa acadèmica (línia, tècnica, musicalitat) amb música actual; el hip-hop ve de la cultura urbana, amb un llenguatge més de carrer. Prova tots dos i tria!"),
+             "el jazz beu de la dansa acadèmica (línia, tècnica, musicalitat) amb música actual; el hip-hop ve de la cultura urbana, amb un llenguatge més de carrer. prova tots dos i tria!"),
         ],
         "related": ["hip-hop", "ballet-classic", "dansa-infantil", "dansa-adults"],
     },
@@ -154,14 +154,14 @@ PAGINES = [
         "slug": "hip-hop",
         "nom": "hip-hop",
         "title": "classes de hip-hop a Barcelona · escola de dansa cristina colomé",
-        "desc": "Classes de hip-hop i danses urbanes a Sant Gervasi (Barcelona) per a nens, joves i adults, de d'iniciació a avançat. Primera classe de prova gratuïta.",
+        "desc": "classes de hip-hop i danses urbanes a Sant Gervasi (Barcelona) per a nens, joves i adults, de d'iniciació a avançat. primera classe de prova gratuïta.",
         "h1": "hip-hop",
-        "intro": "Estils urbans, coreos actuals i molta actitud. El hip-hop és la disciplina preferida dels que volen ballar el que sona ara mateix.",
-        "per_a_qui": "Des d'infantil fins a adults avançat, amb grups juvenils per nivells. Si el teu fill o filla balla tot el dia davant del mirall, o si tu mateix vols aprendre les coreos que veus a les xarxes, aquí és on començar.",
+        "intro": "estils urbans, coreos actuals i molta actitud. el hip-hop és la disciplina preferida dels que volen ballar el que sona ara mateix.",
+        "per_a_qui": "des d'infantil fins a adults avançat, amb grups juvenils per nivells. si el teu fill o filla balla tot el dia davant del mirall, o si tu mateix vols aprendre les coreos que veus a les xarxes, aquí és on començar.",
         "beneficis": [
-            ("actitud i confiança", "El hip-hop treballa la presència: ballar amb seguretat es contagia a la resta de la vida."),
-            ("forma física de veritat", "Potència, resistència i control — una classe urbana crema energia de valent."),
-            ("cultura i comunitat", "Més que passos: musicalitat, estil propi i sentit de grup."),
+            ("actitud i confiança", "el hip-hop treballa la presència: ballar amb seguretat es contagia a la resta de la vida."),
+            ("forma física de veritat", "potència, resistència i control — una classe urbana crema energia de valent."),
+            ("cultura i comunitat", "més que passos: musicalitat, estil propi i sentit de grup."),
         ],
         "horaris": [
             ("dilluns", "17.30", "hip-hop infantil B", "sala H"),
@@ -174,11 +174,11 @@ PAGINES = [
         ],
         "faqs": [
             ("el meu fill no ha ballat mai: pot començar amb hip-hop?",
-             "És una de les millors portes d'entrada: música que coneixen, moviments naturals i grups per edats. La primera classe de prova és gratuïta."),
+             "és una de les millors portes d'entrada: música que coneixen, moviments naturals i grups per edats. la primera classe de prova és gratuïta."),
             ("feu hip-hop per a adults?",
-             "Sí, hi ha grup d'adults avançat els dimecres al vespre. Si el teu nivell és inicial, explica'ns-ho i et recomanem el millor encaix."),
+             "sí, hi ha grup d'adults avançat els dimecres al vespre. si el teu nivell és inicial, explica'ns-ho i et recomanem el millor encaix."),
             ("quins estils urbans treballeu?",
-             "La base és el hip-hop amb obertura a altres estils urbans segons el grup i la coreografia. I si t'estira el k-pop o els heels, també en fem classes!"),
+             "la base és el hip-hop amb obertura a altres estils urbans segons el grup i la coreografia. i si t'estira el k-pop o els heels, també en fem classes!"),
         ],
         "related": ["k-pop-heels", "jazz", "dansa-infantil", "dansa-adults"],
     },
@@ -186,14 +186,14 @@ PAGINES = [
         "slug": "claque",
         "nom": "claqué",
         "title": "classes de claqué a Barcelona · escola de dansa cristina colomé",
-        "desc": "Classes de claqué a Sant Gervasi (Barcelona): el ritme als peus, de juvenil a adults. Primera classe de prova gratuïta.",
+        "desc": "classes de claqué a Sant Gervasi (Barcelona): el ritme als peus, de juvenil a adults. primera classe de prova gratuïta.",
         "h1": "claqué",
-        "intro": "El ritme als peus. El claqué converteix el ballarí en músic: cada pas és percussió, i cada coreografia, una cançó.",
-        "per_a_qui": "Grups juvenils i d'adults (intermedi). És una disciplina única: treballa el ritme com cap altra i engancha des del primer dia. Si t'agrada la música tant com ballar, el claqué et farà feliç.",
+        "intro": "el ritme als peus. el claqué converteix el ballarí en músic: cada pas és percussió, i cada coreografia, una cançó.",
+        "per_a_qui": "grups juvenils i d'adults (intermedi). és una disciplina única: treballa el ritme com cap altra i engancha des del primer dia. si t'agrada la música tant com ballar, el claqué et farà feliç.",
         "beneficis": [
-            ("oïda i ritme musical", "Fer música amb els peus desenvolupa una musicalitat finíssima."),
-            ("coordinació i agilitat", "Peus ràpids, ment desperta: el claqué és gimnàstica per al cervell."),
-            ("una tradició amb molt de swing", "Del musical americà als escenaris d'avui — ballar claqué és pura elegància."),
+            ("oïda i ritme musical", "fer música amb els peus desenvolupa una musicalitat finíssima."),
+            ("coordinació i agilitat", "peus ràpids, ment desperta: el claqué és gimnàstica per al cervell."),
+            ("una tradició amb molt de swing", "del musical americà als escenaris d'avui — ballar claqué és pura elegància."),
         ],
         "horaris": [
             ("dimarts", "18.30", "claqué adults intermedi", "sala C"),
@@ -202,11 +202,11 @@ PAGINES = [
         ],
         "faqs": [
             ("necessito sabates de claqué per provar?",
-             "Per a la classe de prova gratuïta no cal: vine amb calçat de sola dura i ja veuràs si t'enganxa (t'enganxarà)."),
+             "per a la classe de prova gratuïta no cal: vine amb calçat de sola dura i ja veuràs si t'enganxa (t'enganxarà)."),
             ("mai no he fet claqué: quin grup em toca?",
-             "Parla amb nosaltres: segons la teva base de dansa i ritme et recomanarem el grup adequat, i el primer dia és de prova."),
+             "parla amb nosaltres: segons la teva base de dansa i ritme et recomanarem el grup adequat, i el primer dia és de prova."),
             ("els nens poden fer claqué?",
-             "El claqué el comencem a partir de l'etapa juvenil. Per als més petits recomanem començar per jazz, clàssic o hip-hop i fer el pas després."),
+             "el claqué el comencem a partir de l'etapa juvenil. per als més petits recomanem començar per jazz, clàssic o hip-hop i fer el pas després."),
         ],
         "related": ["jazz", "musical-interpretacio", "dansa-adults"],
     },
@@ -214,14 +214,14 @@ PAGINES = [
         "slug": "ball-espanyol",
         "nom": "ball espanyol",
         "title": "classes de ball espanyol a Barcelona · escola de dansa cristina colomé",
-        "desc": "Classes de dansa espanyola a Sant Gervasi (Barcelona): tradició, caràcter i tècnica. Grups juvenils i adults. Primera classe de prova gratuïta.",
+        "desc": "classes de dansa espanyola a Sant Gervasi (Barcelona): tradició, caràcter i tècnica. grups juvenils i adults. primera classe de prova gratuïta.",
         "h1": "ball espanyol",
-        "intro": "Tradició, caràcter i una tècnica amb segles d'història. La dansa espanyola és força, elegància i temperament sobre l'escenari.",
-        "per_a_qui": "Grups juvenils i d'adults de nivell intermedi. Si t'atrau la nostra tradició de dansa — el braceig, el caràcter, la música espanyola — aquesta és la teva classe.",
+        "intro": "tradició, caràcter i una tècnica amb segles d'història. la dansa espanyola és força, elegància i temperament sobre l'escenari.",
+        "per_a_qui": "grups juvenils i d'adults de nivell intermedi. si t'atrau la nostra tradició de dansa — el braceig, el caràcter, la música espanyola — aquesta és la teva classe.",
         "beneficis": [
-            ("caràcter i presència", "La dansa espanyola es balla amb tot el cos i amb tota l'ànima."),
-            ("tècnica exigent i completa", "Braços, esquena, colpeig — un treball tècnic que complementa qualsevol altra dansa."),
-            ("patrimoni viu", "Ballar espanyol és mantenir viva una tradició única al món."),
+            ("caràcter i presència", "la dansa espanyola es balla amb tot el cos i amb tota l'ànima."),
+            ("tècnica exigent i completa", "braços, esquena, colpeig — un treball tècnic que complementa qualsevol altra dansa."),
+            ("patrimoni viu", "ballar espanyol és mantenir viva una tradició única al món."),
         ],
         "horaris": [
             ("dimecres", "19.30", "espanyol juvenil intermedi", "sala C"),
@@ -229,9 +229,9 @@ PAGINES = [
         ],
         "faqs": [
             ("puc començar sense nivell?",
-             "Els grups actuals són de nivell intermedi, però parla amb nosaltres: valorem la teva base a la classe de prova gratuïta i et diem sincerament si t'hi pots incorporar."),
+             "els grups actuals són de nivell intermedi, però parla amb nosaltres: valorem la teva base a la classe de prova gratuïta i et diem sincerament si t'hi pots incorporar."),
             ("què cal portar?",
-             "Per provar, roba còmoda i sabata amb una mica de taló si en tens. Després t'orientarem sobre la sabata de dansa espanyola."),
+             "per provar, roba còmoda i sabata amb una mica de taló si en tens. després t'orientarem sobre la sabata de dansa espanyola."),
         ],
         "related": ["ballet-classic", "dansa-oriental", "dansa-adults"],
     },
@@ -239,14 +239,14 @@ PAGINES = [
         "slug": "dansa-oriental",
         "nom": "dansa oriental",
         "title": "classes de dansa oriental a Barcelona · escola de dansa cristina colomé",
-        "desc": "Classes de dansa oriental (dansa del ventre) a Sant Gervasi (Barcelona): expressió, tècnica i feminitat. Grups juvenils i adults. 1a classe gratuïta.",
+        "desc": "classes de dansa oriental (dansa del ventre) a Sant Gervasi (Barcelona): expressió, tècnica i feminitat. grups juvenils i adults. 1a classe gratuïta.",
         "h1": "dansa oriental",
-        "intro": "Expressió, sensualitat i una tècnica mil·lenària. La dansa del ventre treballa el cos des del centre i allibera com poques disciplines.",
-        "per_a_qui": "Grups juvenils i d'adults de nivell avançat, als vespres. Si busques una dansa expressiva, elegant i amb una gran comunitat al darrere, la dansa oriental t'atraparà.",
+        "intro": "expressió, sensualitat i una tècnica mil·lenària. la dansa del ventre treballa el cos des del centre i allibera com poques disciplines.",
+        "per_a_qui": "grups juvenils i d'adults de nivell avançat, als vespres. si busques una dansa expressiva, elegant i amb una gran comunitat al darrere, la dansa oriental t'atraparà.",
         "beneficis": [
-            ("control del centre del cos", "Aïllaments, ondulacions i vibracions: un treball de tècnica corporal finíssim."),
-            ("expressió i autoestima", "Una dansa que celebra el cos tal com és i et reconcilia amb el mirall."),
-            ("esquena i postura", "El treball d'ondulacions enforteix i flexibilitza tota la cadena posterior."),
+            ("control del centre del cos", "aïllaments, ondulacions i vibracions: un treball de tècnica corporal finíssim."),
+            ("expressió i autoestima", "una dansa que celebra el cos tal com és i et reconcilia amb el mirall."),
+            ("esquena i postura", "el treball d'ondulacions enforteix i flexibilitza tota la cadena posterior."),
         ],
         "horaris": [
             ("dimarts", "20.30", "dansa del ventre · juvenil avançat", "sala N"),
@@ -254,9 +254,9 @@ PAGINES = [
         ],
         "faqs": [
             ("mai no n'he fet: puc apuntar-m'hi?",
-             "Els grups actuals són avançats, però vine a la classe de prova gratuïta i valorem el teu encaix — o t'avisem quan obrim grup d'iniciació."),
+             "els grups actuals són avançats, però vine a la classe de prova gratuïta i valorem el teu encaix — o t'avisem quan obrim grup d'iniciació."),
             ("què em poso per a la classe?",
-             "Roba còmoda que et deixi veure el moviment del maluc (leggings i top o samarreta ajustada). El mocador de malucs te'l deixem el primer dia!"),
+             "roba còmoda que et deixi veure el moviment del maluc (leggings i top o samarreta ajustada). el mocador de malucs te'l deixem el primer dia!"),
         ],
         "related": ["ball-espanyol", "fit-dance", "dansa-adults"],
     },
@@ -264,14 +264,14 @@ PAGINES = [
         "slug": "k-pop-heels",
         "nom": "k-pop & heels",
         "title": "classes de k-pop i heels a Barcelona · escola de dansa cristina colomé",
-        "desc": "Classes de k-pop i heels a Sant Gervasi (Barcelona): les coreografies del moment i actitud sobre talons. Primera classe de prova gratuïta.",
+        "desc": "classes de k-pop i heels a Sant Gervasi (Barcelona): les coreografies del moment i actitud sobre talons. primera classe de prova gratuïta.",
         "h1": "k-pop & heels",
-        "intro": "Les coreos del moment i tota l'actitud. Del fenomen k-pop a l'empoderament del heels: dues classes per ballar com als videoclips.",
-        "per_a_qui": "El k-pop és per a juvenils que somien amb les coreografies dels seus grups preferits; el heels, per a adults avançats que volen treballar actitud, línia i seguretat sobre talons.",
+        "intro": "les coreos del moment i tota l'actitud. del fenomen k-pop a l'empoderament del heels: dues classes per ballar com als videoclips.",
+        "per_a_qui": "el k-pop és per a juvenils que somien amb les coreografies dels seus grups preferits; el heels, per a adults avançats que volen treballar actitud, línia i seguretat sobre talons.",
         "beneficis": [
-            ("ballar el que t'agrada", "Coreografies reals dels artistes del moment: la motivació ve de sèrie."),
-            ("actitud i seguretat", "El heels és una classe d'empoderament pur: postura, presència i confiança."),
-            ("memòria coreogràfica", "Aprendre coreos completes entrena la memòria i la neteja de moviment."),
+            ("ballar el que t'agrada", "coreografies reals dels artistes del moment: la motivació ve de sèrie."),
+            ("actitud i seguretat", "el heels és una classe d'empoderament pur: postura, presència i confiança."),
+            ("memòria coreogràfica", "aprendre coreos completes entrena la memòria i la neteja de moviment."),
         ],
         "horaris": [
             ("dimarts", "20.30", "heels adults avançat", "sala H"),
@@ -279,9 +279,9 @@ PAGINES = [
         ],
         "faqs": [
             ("cal saber ballar per fer k-pop?",
-             "No: les coreos s'aprenen pas a pas i el grup és juvenil. Si li agrada el k-pop, la motivació farà la resta. Primera classe gratuïta!"),
+             "no: les coreos s'aprenen pas a pas i el grup és juvenil. si li agrada el k-pop, la motivació farà la resta. primera classe gratuïta!"),
             ("quins talons necessito per al heels?",
-             "Per provar, uns talons còmodes i estables que ja tinguis. Després t'aconsellarem el calçat ideal per ballar amb seguretat."),
+             "per provar, uns talons còmodes i estables que ja tinguis. després t'aconsellarem el calçat ideal per ballar amb seguretat."),
         ],
         "related": ["hip-hop", "jazz", "dansa-adults"],
     },
@@ -289,14 +289,14 @@ PAGINES = [
         "slug": "musical-interpretacio",
         "nom": "musical & interpretació",
         "title": "classes de teatre musical per a nens a Barcelona · escola de dansa cristina colomé",
-        "desc": "Classes de musical i interpretació per a infants a Sant Gervasi (Barcelona): ballar, cantar i actuar. Primera classe de prova gratuïta.",
+        "desc": "classes de musical i interpretació per a infants a Sant Gervasi (Barcelona): ballar, cantar i actuar. primera classe de prova gratuïta.",
         "h1": "musical & interpretació",
-        "intro": "Ballar, cantar i actuar: el triple somni del teatre musical, a l'abast dels més petits. Dansa-teatre per créixer sobre l'escenari.",
-        "per_a_qui": "Grups infantils els divendres a la tarda. Perfecte per a nens i nenes amb vena artística que ho volen fer tot: moure's, cantar, interpretar personatges i perdre la vergonya dalt d'un escenari.",
+        "intro": "ballar, cantar i actuar: el triple somni del teatre musical, a l'abast dels més petits. dansa-teatre per créixer sobre l'escenari.",
+        "per_a_qui": "grups infantils els divendres a la tarda. perfecte per a nens i nenes amb vena artística que ho volen fer tot: moure's, cantar, interpretar personatges i perdre la vergonya dalt d'un escenari.",
         "beneficis": [
-            ("expressió completa", "Cos, veu i emoció treballant junts — l'expressivitat es multiplica."),
-            ("perdre la por escènica", "Actuar des de petits dóna una seguretat que dura tota la vida."),
-            ("treball en equip", "Un musical es construeix entre tots: escoltar, esperar el torn, brillar junts."),
+            ("expressió completa", "cos, veu i emoció treballant junts — l'expressivitat es multiplica."),
+            ("perdre la por escènica", "actuar des de petits dóna una seguretat que dura tota la vida."),
+            ("treball en equip", "un musical es construeix entre tots: escoltar, esperar el torn, brillar junts."),
         ],
         "horaris": [
             ("divendres", "18.30", "musical infantil", "sala N"),
@@ -304,9 +304,9 @@ PAGINES = [
         ],
         "faqs": [
             ("el meu fill és tímid: li anirà bé?",
-             "És justament on més floreixen els tímids: el joc teatral treu la vergonya sense pressió. Prova la primera classe gratuïta i ho veuràs."),
+             "és justament on més floreixen els tímids: el joc teatral treu la vergonya sense pressió. prova la primera classe gratuïta i ho veuràs."),
             ("cal saber cantar o ballar abans?",
-             "Gens ni mica. Es treballa tot des de la base, jugant i per edats."),
+             "gens ni mica. es treballa tot des de la base, jugant i per edats."),
         ],
         "related": ["formacio-escenica", "jazz", "dansa-infantil"],
     },
@@ -314,23 +314,23 @@ PAGINES = [
         "slug": "formacio-escenica",
         "nom": "formació escènica",
         "title": "formació escènica per a joves a Barcelona · escola de dansa cristina colomé",
-        "desc": "Formació escènica els divendres a la tarda a Sant Gervasi (Barcelona): jazz, hip-hop, claqué, cant i interpretació en un sol pack. 1a classe gratuïta.",
+        "desc": "formació escènica els divendres a la tarda a Sant Gervasi (Barcelona): jazz, hip-hop, claqué, cant i interpretació en un sol pack. 1a classe gratuïta.",
         "h1": "formació escènica",
-        "intro": "L'entrenament complet de l'artista: jazz, hip-hop, claqué, cant i interpretació, tot en una mateixa tarda. Per a qui vol l'escenari de veritat.",
-        "per_a_qui": "Els divendres a la tarda, en format pack, per a joves que volen una formació artística completa: ballar diversos estils, cantar i interpretar. La millor preparació per a musicals, càstings i escenaris — o simplement per gaudir-ho tot.",
+        "intro": "l'entrenament complet de l'artista: jazz, hip-hop, claqué, cant i interpretació, tot en una mateixa tarda. per a qui vol l'escenari de veritat.",
+        "per_a_qui": "els divendres a la tarda, en format pack, per a joves que volen una formació artística completa: ballar diversos estils, cantar i interpretar. la millor preparació per a musicals, càstings i escenaris — o simplement per gaudir-ho tot.",
         "beneficis": [
-            ("formació 360°", "Cinc disciplines en una tarda: la polivalència que demana l'escenari actual."),
-            ("un preu de pack", "Tot el divendres a la tarda per 85 €/mes — la manera més completa de formar-se."),
-            ("esperit de companyia", "El grup dels divendres funciona com una petita companyia: pinya, projecte i escenari."),
+            ("formació 360°", "cinc disciplines en una tarda: la polivalència que demana l'escenari actual."),
+            ("un preu de pack", "tot el divendres a la tarda per 85 €/mes — la manera més completa de formar-se."),
+            ("esperit de companyia", "el grup dels divendres funciona com una petita companyia: pinya, projecte i escenari."),
         ],
         "horaris": [
             ("divendres", "17.15", "formació escènica · jazz, hip-hop, claqué, cant i interpretació", "sales H+N"),
         ],
         "faqs": [
             ("quant costa la formació escènica?",
-             "El pack complet dels divendres val 85 € al mes (247 € si pagues el trimestre). La primera tarda de prova és gratuïta."),
+             "el pack complet dels divendres val 85 € al mes (247 € si pagues el trimestre). la primera tarda de prova és gratuïta."),
             ("cal experiència prèvia?",
-             "No: cal ganes. El format multidisciplinar permet que cadascú creixi des del seu punt de partida."),
+             "no: cal ganes. el format multidisciplinar permet que cadascú creixi des del seu punt de partida."),
         ],
         "related": ["musical-interpretacio", "jazz", "claque", "hip-hop"],
     },
@@ -338,14 +338,14 @@ PAGINES = [
         "slug": "cos-benestar",
         "nom": "cos & benestar",
         "title": "ioga, barre i zumba a Barcelona · escola de dansa cristina colomé",
-        "desc": "Classes de ioga, barre i zumba a Sant Gervasi (Barcelona): cuida't ballant, als matins i als vespres. Primera classe de prova gratuïta.",
+        "desc": "classes de ioga, barre i zumba a Sant Gervasi (Barcelona): cuida't ballant, als matins i als vespres. primera classe de prova gratuïta.",
         "h1": "cos & benestar",
-        "intro": "Cuidar-se també és ballar. Ioga per respirar, barre per tonificar amb ADN de dansa i zumba per suar somrient.",
-        "per_a_qui": "Per a adults de totes les edats i condicions físiques: el barre als matins (dilluns i dimecres a les 11 h), i el ioga i la zumba als vespres. Cap d'aquestes classes demana experiència — només ganes de trobar-te bé.",
+        "intro": "cuidar-se també és ballar. ioga per respirar, barre per tonificar amb ADN de dansa i zumba per suar somrient.",
+        "per_a_qui": "per a adults de totes les edats i condicions físiques: el barre als matins (dilluns i dimecres a les 11 h), i el ioga i la zumba als vespres. cap d'aquestes classes demana experiència — només ganes de trobar-te bé.",
         "beneficis": [
-            ("barre: tonificació amb elegància", "El millor del ballet (postura, cames, core) sense necessitat de saber ballar."),
-            ("ioga: respirar i desconnectar", "Flexibilitat, calma i una pausa de veritat en la setmana."),
-            ("zumba: cardio amb somriure", "La classe on suar és una festa — ritmes llatins i energia amunt."),
+            ("barre: tonificació amb elegància", "el millor del ballet (postura, cames, core) sense necessitat de saber ballar."),
+            ("ioga: respirar i desconnectar", "flexibilitat, calma i una pausa de veritat en la setmana."),
+            ("zumba: cardio amb somriure", "la classe on suar és una festa — ritmes llatins i energia amunt."),
         ],
         "horaris": [
             ("dilluns", "11.00", "barre", "sala C"),
@@ -356,9 +356,9 @@ PAGINES = [
         ],
         "faqs": [
             ("no he fet mai dansa: puc fer barre?",
-             "El barre és per a tothom: s'inspira en el ballet però és una classe de tonificació, no de coreografia. Ideal per començar."),
+             "el barre és per a tothom: s'inspira en el ballet però és una classe de tonificació, no de coreografia. ideal per començar."),
             ("les classes de matí són per a qui?",
-             "Per a qui té els matins lliures i vol començar el dia cuidant-se: el barre de dilluns i dimecres a les 11 h."),
+             "per a qui té els matins lliures i vol començar el dia cuidant-se: el barre de dilluns i dimecres a les 11 h."),
         ],
         "related": ["fit-dance", "ballet-classic", "dansa-adults"],
     },
@@ -366,14 +366,14 @@ PAGINES = [
         "slug": "fit-dance",
         "nom": "fit dance & femme empower",
         "title": "fit dance i femme empower a Barcelona · escola de dansa cristina colomé",
-        "desc": "Classes de fit dance i femme empower a Sant Gervasi (Barcelona): suor, força i empoderament en grup. Primera classe de prova gratuïta.",
+        "desc": "classes de fit dance i femme empower a Sant Gervasi (Barcelona): suor, força i empoderament en grup. primera classe de prova gratuïta.",
         "h1": "fit dance & femme empower",
-        "intro": "Suor, força i empoderament en grup. Dues classes per posar-se en forma ballant i sortir de la sala amb l'autoestima pels núvols.",
-        "per_a_qui": "Per a adults que volen entrenar ballant: el fit dance combina coreografia i condicionament físic; el femme empower (nivell intermedi) treballa actitud, força i seguretat en un ambient de sororitat total.",
+        "intro": "suor, força i empoderament en grup. dues classes per posar-se en forma ballant i sortir de la sala amb l'autoestima pels núvols.",
+        "per_a_qui": "per a adults que volen entrenar ballant: el fit dance combina coreografia i condicionament físic; el femme empower (nivell intermedi) treballa actitud, força i seguretat en un ambient de sororitat total.",
         "beneficis": [
-            ("posar-se en forma sense avorrir-se", "Quan l'entrenament és ballar, la constància ve sola."),
-            ("força i actitud", "Treball físic real amb música alta i energia de grup."),
-            ("comunitat", "Les classes d'empoderament creen pinya — vindràs per l'exercici i et quedaràs per la gent."),
+            ("posar-se en forma sense avorrir-se", "quan l'entrenament és ballar, la constància ve sola."),
+            ("força i actitud", "treball físic real amb música alta i energia de grup."),
+            ("comunitat", "les classes d'empoderament creen pinya — vindràs per l'exercici i et quedaràs per la gent."),
         ],
         "horaris": [
             ("dilluns", "19.30", "fit dance", "sala N"),
@@ -381,9 +381,9 @@ PAGINES = [
         ],
         "faqs": [
             ("quina forma física necessito?",
-             "Cap en concret per al fit dance: cadascú va al seu ritme i la intensitat s'adapta. El femme empower demana una mica de rodatge."),
+             "cap en concret per al fit dance: cadascú va al seu ritme i la intensitat s'adapta. el femme empower demana una mica de rodatge."),
             ("què porto a classe?",
-             "Roba esportiva, calçat còmode, aigua i tovallola. La resta la posa la música."),
+             "roba esportiva, calçat còmode, aigua i tovallola. la resta la posa la música."),
         ],
         "related": ["cos-benestar", "dansa-oriental", "dansa-adults"],
     },
@@ -392,15 +392,15 @@ PAGINES = [
         "slug": "dansa-infantil",
         "nom": "dansa per a nens i nenes",
         "title": "classes de dansa per a nens a Barcelona · escola de dansa cristina colomé",
-        "desc": "Extraescolar de dansa per a nens i nenes a Sant Gervasi (Barcelona): iniciació, clàssic, jazz, hip-hop i més, per edats i nivells. 1a classe gratuïta.",
+        "desc": "extraescolar de dansa per a nens i nenes a Sant Gervasi (Barcelona): iniciació, clàssic, jazz, hip-hop i més, per edats i nivells. 1a classe gratuïta.",
         "h1": "dansa per a nens i nenes",
-        "intro": "L'extraescolar que no sembla una extraescolar: més de 25 anys ajudant nens i nenes a créixer ballant, a dos minuts de l'FGC Av. Tibidabo.",
-        "per_a_qui": "De la iniciació a la dansa per als més petits fins als grups juvenils, tots els grups s'organitzen per edats i nivells i tenen continuïtat curs rere curs. Les classes són a la tarda, pensades per encaixar amb l'horari escolar de les famílies de Sant Gervasi, la Bonanova i el Putxet.",
+        "intro": "l'extraescolar que no sembla una extraescolar: més de 25 anys ajudant nens i nenes a créixer ballant, a dos minuts de l'FGC Av. Tibidabo.",
+        "per_a_qui": "de la iniciació a la dansa per als més petits fins als grups juvenils, tots els grups s'organitzen per edats i nivells i tenen continuïtat curs rere curs. les classes són a la tarda, pensades per encaixar amb l'horari escolar de les famílies de Sant Gervasi, la Bonanova i el Putxet.",
         "beneficis": [
-            ("psicomotricitat i postura", "La dansa desenvolupa coordinació, equilibri i consciència corporal en l'edat d'or per fer-ho."),
-            ("confiança i expressió", "Ballar davant dels altres, actuar al festival de fi de curs — la seguretat que es guanya a la sala surt amb ells a la vida."),
-            ("constància i esforç", "Aprendre una coreografia ensenya el valor de la pràctica millor que mil sermons."),
-            ("amistats que duren", "Els grups fan pinya: molts dels nostres alumnes creixen junts des de ben petits."),
+            ("psicomotricitat i postura", "la dansa desenvolupa coordinació, equilibri i consciència corporal en l'edat d'or per fer-ho."),
+            ("confiança i expressió", "ballar davant dels altres, actuar al festival de fi de curs — la seguretat que es guanya a la sala surt amb ells a la vida."),
+            ("constància i esforç", "aprendre una coreografia ensenya el valor de la pràctica millor que mil sermons."),
+            ("amistats que duren", "els grups fan pinya: molts dels nostres alumnes creixen junts des de ben petits."),
         ],
         "disciplines": [
             ("iniciació a la dansa", None, "el primer contacte amb el moviment i la música, per als més petits"),
@@ -414,13 +414,13 @@ PAGINES = [
         ],
         "faqs": [
             ("a quina edat pot començar el meu fill o filla?",
-             "Des de ben petits, amb els grups d'iniciació a la dansa. A la classe de prova gratuïta veiem quin grup li encaixa millor per edat i maduresa."),
+             "des de ben petits, amb els grups d'iniciació a la dansa. a la classe de prova gratuïta veiem quin grup li encaixa millor per edat i maduresa."),
             ("quant costa l'extraescolar de dansa?",
-             "Les quotes infantils van dels 56 €/mes (1 dia per setmana) als 92 €/mes (4 dies), amb opció trimestral. La primera classe de prova és gratuïta."),
+             "les quotes infantils van dels 56 €/mes (1 dia per setmana) als 92 €/mes (4 dies), amb opció trimestral. la primera classe de prova és gratuïta."),
             ("com sabré si li agrada abans d'apuntar-lo?",
-             "Per això la primera classe és gratuïta i sense compromís: el porteu, ho prova, i decidiu amb calma."),
+             "per això la primera classe és gratuïta i sense compromís: el porteu, ho prova, i decidiu amb calma."),
             ("fan actuacions?",
-             "Sí! Cada curs acaba amb el festival de fi de curs, el gran moment de l'any per a alumnes i famílies."),
+             "sí! cada curs acaba amb el festival de fi de curs, el gran moment de l'any per a alumnes i famílies."),
         ],
         "related": ["ballet-classic", "jazz", "hip-hop", "musical-interpretacio"],
     },
@@ -428,15 +428,15 @@ PAGINES = [
         "slug": "dansa-adults",
         "nom": "dansa per a adults",
         "title": "classes de dansa per a adults a Barcelona · escola de dansa cristina colomé",
-        "desc": "Classes de dansa per a adults a Sant Gervasi (Barcelona): clàssic, contemporani, jazz, hip-hop, claqué i més, d'iniciació a avançat. 1a classe gratuïta.",
+        "desc": "classes de dansa per a adults a Sant Gervasi (Barcelona): clàssic, contemporani, jazz, hip-hop, claqué i més, d'iniciació a avançat. 1a classe gratuïta.",
         "h1": "dansa per a adults",
-        "intro": "Mai no és tard per començar a ballar — ni per tornar-hi. Grups d'adults de tots els nivells, als vespres i als matins, sense pressió i amb molt bon ambient.",
-        "per_a_qui": "Tant si no has ballat mai com si ho vas deixar fa anys, tenim un grup per a tu: els vespres (de 18.30 a 21.30) hi ha clàssic, contemporani, jazz, hip-hop, claqué, espanyol, dansa oriental i heels per nivells — i els matins, barre per començar el dia amb energia. Sense exàmens ni pressió: ballar per gaudir-ne.",
+        "intro": "mai no és tard per començar a ballar — ni per tornar-hi. grups d'adults de tots els nivells, als vespres i als matins, sense pressió i amb molt bon ambient.",
+        "per_a_qui": "tant si no has ballat mai com si ho vas deixar fa anys, tenim un grup per a tu: els vespres (de 18.30 a 21.30) hi ha clàssic, contemporani, jazz, hip-hop, claqué, espanyol, dansa oriental i heels per nivells — i els matins, barre per començar el dia amb energia. sense exàmens ni pressió: ballar per gaudir-ne.",
         "beneficis": [
-            ("desconnectar de veritat", "Una hora de dansa és una hora sense mòbil, sense feina i sense pantalles."),
-            ("forma física sense gimnàs", "Cardio, força, flexibilitat i postura — tot ballant."),
-            ("aprendre sempre", "El cervell adult agraeix reptes nous: coreografia, música i memòria en acció."),
-            ("gent com tu", "Els grups d'adults són petites famílies: es ve a ballar i s'hi queda per la gent."),
+            ("desconnectar de veritat", "una hora de dansa és una hora sense mòbil, sense feina i sense pantalles."),
+            ("forma física sense gimnàs", "cardio, força, flexibilitat i postura — tot ballant."),
+            ("aprendre sempre", "el cervell adult agraeix reptes nous: coreografia, música i memòria en acció."),
+            ("gent com tu", "els grups d'adults són petites famílies: es ve a ballar i s'hi queda per la gent."),
         ],
         "disciplines": [
             ("ballet clàssic", "ballet-classic", "d'iniciació a avançat — també si comences de zero"),
@@ -452,11 +452,11 @@ PAGINES = [
         ],
         "faqs": [
             ("tinc més de 40/50/60 anys: puc començar?",
-             "És clar que sí — a l'escola diem que ballem de 0 a 99. Tria una disciplina d'iniciació o el barre i comença al teu ritme."),
+             "és clar que sí — a l'escola diem que ballem de 0 a 99. tria una disciplina d'iniciació o el barre i comença al teu ritme."),
             ("quins horaris fan les classes d'adults?",
-             "La majoria són als vespres, entre les 18.30 i les 21.30, perfectes per després de la feina. I el barre, els dilluns i dimecres a les 11 del matí."),
+             "la majoria són als vespres, entre les 18.30 i les 21.30, perfectes per després de la feina. i el barre, els dilluns i dimecres a les 11 del matí."),
             ("quant costen les classes per a adults?",
-             "Des de 60 €/mes (1 dia per setmana) fins a 104 €/mes (4 dies de classes de més d'una hora), amb opció trimestral. La primera classe de prova és gratuïta."),
+             "des de 60 €/mes (1 dia per setmana) fins a 104 €/mes (4 dies de classes de més d'una hora), amb opció trimestral. la primera classe de prova és gratuïta."),
         ],
         "related": ["ballet-classic", "dansa-contemporania", "cos-benestar", "claque"],
     },
@@ -648,7 +648,7 @@ def bloc_horaris(p):
     <div class="etiqueta">curs {CURS}</div>
     <h2>horaris de {esc(p["nom"])}</h2>
 {files}
-    <p class="nota-curs">Consulta la <a href="/horaris/">graella completa de l'escola</a> amb tots els estils i sales. Per confirmar plaça: truca'ns al <a href="tel:{TEL_LINK}">{TEL}</a>, escriu-nos per <a href="https://wa.me/34934179886?text={urllib.parse.quote(f"Hola! M'agradaria informació sobre les classes de {p.get('nom_wa', p['nom'])} ")[:-3]}" target="_blank" rel="noopener">WhatsApp</a> o pel <a href="/#contacte">formulari de contacte</a>.</p>
+    <p class="nota-curs">consulta la <a href="/horaris/">graella completa de l'escola</a> amb tots els estils i sales. per confirmar plaça: truca'ns al <a href="tel:{TEL_LINK}">{TEL}</a>, escriu-nos per <a href="https://wa.me/34934179886?text={urllib.parse.quote(f"Hola! m'agradaria informació sobre les classes de {p.get('nom_wa', p['nom'])} ")[:-3]}" target="_blank" rel="noopener">WhatsApp</a> o pel <a href="/#contacte">formulari de contacte</a>.</p>
   </section>"""
 
 
@@ -694,7 +694,7 @@ def cap(t):
 
 def bloc_faqs(p):
     dets = "\n".join(
-        f'    <details class="faq reveal"><summary>{esc(cap(q))}</summary><p class="resposta">{esc(a)}</p></details>'
+        f'    <details class="faq reveal"><summary>{esc(q)}</summary><p class="resposta">{esc(a)}</p></details>'
         for q, a in p["faqs"]
     )
     return f"""
@@ -802,7 +802,7 @@ def accio(href, icona, titol, detall, extern=False):
 def accions_cta(p):
     targetes = [accio(f"tel:{TEL_LINK}", ICONA_TEL, "truca'ns", TEL)]
     if WHATSAPP_ACTIU:
-        text = urllib.parse.quote(f"Hola! M'agradaria informació sobre les classes de {p.get('nom_wa', p['nom'])}")
+        text = urllib.parse.quote(f"Hola! m'agradaria informació sobre les classes de {p.get('nom_wa', p['nom'])}")
         targetes.append(accio(f"https://wa.me/34934179886?text={text}", ICONA_WA,
                               "whatsapp", "resposta al moment", extern=True))
     targetes.append(accio("/#escriu-nos", ICONA_FORM, "formulari", "explica'ns què busques"))
@@ -818,18 +818,18 @@ def json_ld(p):
         {
             "@type": "Course",
             "@id": url + "#curs",
-            "name": f"Classes de {p['nom']} a Barcelona",
+            "name": f"classes de {p['nom']} a Barcelona",
             "description": p["desc"],
             "url": url,
             "inLanguage": "ca",
             "provider": {
                 "@type": "School",
-                "name": "Escola de Dansa Cristina Colomé",
+                "name": "escola de Dansa Cristina Colomé",
                 "url": DOMINI + "/",
                 "telephone": "+34934179886",
                 "address": {
                     "@type": "PostalAddress",
-                    "streetAddress": "Carrer de Craywinckel, 25",
+                    "streetAddress": "carrer de Craywinckel, 25",
                     "addressLocality": "Barcelona",
                     "postalCode": "08022",
                     "addressCountry": "ES",
@@ -837,10 +837,10 @@ def json_ld(p):
             },
             "offers": {
                 "@type": "Offer",
-                "category": "Quota mensual",
+                "category": "quota mensual",
                 "priceCurrency": "EUR",
                 "price": "56",
-                "description": "Quotes mensuals des de 56 €. Primera classe de prova gratuïta.",
+                "description": "quotes mensuals des de 56 €. primera classe de prova gratuïta.",
             },
         },
         {
@@ -855,7 +855,7 @@ def json_ld(p):
             "@type": "FAQPage",
             "@id": url + "#faq",
             "mainEntity": [
-                {"@type": "Question", "name": cap(q),
+                {"@type": "Question", "name": q,
                  "acceptedAnswer": {"@type": "Answer", "text": a}}
                 for q, a in p["faqs"]
             ],
@@ -876,7 +876,7 @@ def cos_estandard(p):
   <section class="reveal">
     <div class="etiqueta">tarifes</div>
     <h2>preus</h2>
-    <p class="text-gran">Les classes funcionen per quota mensual o trimestral segons els dies per setmana: des de 56 €/mes (infantil) i 60 €/mes (adults). Consulta <a href="/preus/" style="color:var(--granat-viu);font-weight:600">totes les tarifes del curs</a> — i recorda que la primera classe de prova és gratuïta.</p>
+    <p class="text-gran">les classes funcionen per quota mensual o trimestral segons els dies per setmana: des de 56 €/mes (infantil) i 60 €/mes (adults). consulta <a href="/preus/" style="color:var(--granat-viu);font-weight:600">totes les tarifes del curs</a> — i recorda que la primera classe de prova és gratuïta.</p>
   </section>
 {bloc_faqs(p)}{bloc_relacionats(p)}"""
 
@@ -897,7 +897,7 @@ def cos_horaris():
   </section>''')
     return "".join(dies) + f'''
   <section class="reveal">
-    <p class="text-gran">Cada activitat té la seva pàgina amb horaris, beneficis i preguntes: mira-les totes a <a href="/#activitats" style="color:var(--granat-viu);font-weight:600">activitats</a>. I si tens dubtes de nivell o de grup, truca'ns al <a href="tel:{TEL_LINK}" style="color:var(--granat-viu);font-weight:600">{TEL}</a> i t'orientem.</p>
+    <p class="text-gran">cada activitat té la seva pàgina amb horaris, beneficis i preguntes: mira-les totes a <a href="/#activitats" style="color:var(--granat-viu);font-weight:600">activitats</a>. i si tens dubtes de nivell o de grup, truca'ns al <a href="tel:{TEL_LINK}" style="color:var(--granat-viu);font-weight:600">{TEL}</a> i t'orientem.</p>
   </section>'''
 
 
@@ -924,7 +924,7 @@ def cos_preus():
 {taula("quota mensual", capc, TARIFA_MENSUAL)}
 {taula("quota trimestral", capc, TARIFA_TRIMESTRAL)}
 {taula("matrícula i altres", None, TARIFA_ALTRES)}
-    <p class="text-gran" style="margin-top:30px">També oferim <strong>classes particulars</strong>, classes especials per a celebracions (casaments, comiats, aniversaris) i tallers de cap de setmana o de vacances (Nadal, Setmana Santa i estiu). I novetat: vine a celebrar el teu aniversari amb nosaltres!</p>
+    <p class="text-gran" style="margin-top:30px">també oferim <strong>classes particulars</strong>, classes especials per a celebracions (casaments, comiats, aniversaris) i tallers de cap de setmana o de vacances (Nadal, Setmana Santa i estiu). i novetat: vine a celebrar el teu aniversari amb nosaltres!</p>
   </section>'''
 
 
@@ -944,9 +944,9 @@ PAGINES += [
         "slug": "horaris",
         "nom": "horaris",
         "title": f"horaris de les classes · curs {CURS} · escola de dansa cristina colomé",
-        "desc": f"Tots els horaris de les classes de dansa del curs {CURS} a l'escola Cristina Colomé (Sant Gervasi, Barcelona): dia a dia, per activitat, grup i sala.",
+        "desc": f"tots els horaris de les classes de dansa del curs {CURS} a l'escola Cristina Colomé (Sant Gervasi, Barcelona): dia a dia, per activitat, grup i sala.",
         "h1": "horaris",
-        "intro": f"La graella completa del curs {CURS}, dia a dia: tardes per a infantils i juvenils, vespres per a adults i matins de barre. Sales H, N i C.",
+        "intro": f"la graella completa del curs {CURS}, dia a dia: tardes per a infantils i juvenils, vespres per a adults i matins de barre. sales H, N i C.",
         "etiqueta_capsal": f"curs {CURS} · graella completa",
         "molla_mig": "",
         "nom_wa": "dansa",
@@ -957,9 +957,9 @@ PAGINES += [
         "slug": "preus",
         "nom": "preus",
         "title": f"preus i tarifes · curs {CURS} · escola de dansa cristina colomé",
-        "desc": f"Tarifes del curs {CURS} de l'escola de dansa Cristina Colomé (Barcelona): quotes mensuals i trimestrals segons dies per setmana, matrícula i cursos especials. 1a classe gratuïta.",
+        "desc": f"tarifes del curs {CURS} de l'escola de dansa Cristina Colomé (Barcelona): quotes mensuals i trimestrals segons dies per setmana, matrícula i cursos especials. 1a classe gratuïta.",
         "h1": "preus",
-        "intro": f"Les tarifes del curs {CURS}: paga per mes o per trimestre, amb 1, 2, 3 o 4 dies de classe a la setmana. La primera classe de prova és gratuïta.",
+        "intro": f"les tarifes del curs {CURS}: paga per mes o per trimestre, amb 1, 2, 3 o 4 dies de classe a la setmana. la primera classe de prova és gratuïta.",
         "etiqueta_capsal": f"curs {CURS} · tarifes",
         "molla_mig": "",
         "nom_wa": "dansa",
@@ -1041,8 +1041,8 @@ def genera(p):
     <div class="idioma" tabindex="0">
       <span class="idioma-etiq">idioma</span>
       <div class="idioma-menu">
-        <a href="{url_ca}" hreflang="ca"{' class="actiu"' if lang == 'ca' else ''}>Català</a>
-        <a href="{url_es}" hreflang="es"{' class="actiu"' if lang == 'es' else ''}>Castellano</a>
+        <a href="{url_ca}" hreflang="ca"{' class="actiu"' if lang == 'ca' else ''}>català</a>
+        <a href="{url_es}" hreflang="es"{' class="actiu"' if lang == 'es' else ''}>castellano</a>
       </div>
     </div>
   </div>
@@ -1067,14 +1067,14 @@ def genera(p):
 {p.get("cos") or cos_estandard(p)}
   <div class="cta-final reveal">
     <h2>vine a provar-ho: la primera classe és gratis</h2>
-    <p>Tria com t'estimes més: truca'ns, escriu-nos o vine a veure'ns. Sense compromís, t'ajudem a trobar el grup perfecte.</p>
+    <p>tria com t'estimes més: truca'ns, escriu-nos o vine a veure'ns. sense compromís, t'ajudem a trobar el grup perfecte.</p>
 {accions_cta(p)}
   </div>
 </main>
 
 <footer class="peu">
   <span>escola de dansa cristina colomé</span>
-  <span>craywinckel, 25 · 08022 barcelona · <a href="tel:{TEL_LINK}">{TEL}</a><span class="idioma idioma-peu" tabindex="0"><span class="idioma-etiq">idioma</span><span class="idioma-menu"><a href="{url_ca}" hreflang="ca"{' class="actiu"' if lang == 'ca' else ''}>Català</a><a href="{url_es}" hreflang="es"{' class="actiu"' if lang == 'es' else ''}>Castellano</a></span></span><span class="peu-idioma-mobil"><a href="{url_ca}"{' class="actiu"' if lang == 'ca' else ''}>cat</a><span>/</span><a href="{url_es}"{' class="actiu"' if lang == 'es' else ''}>es</a></span></span>
+  <span>craywinckel, 25 · 08022 barcelona · <a href="tel:{TEL_LINK}">{TEL}</a><span class="idioma idioma-peu" tabindex="0"><span class="idioma-etiq">idioma</span><span class="idioma-menu"><a href="{url_ca}" hreflang="ca"{' class="actiu"' if lang == 'ca' else ''}>català</a><a href="{url_es}" hreflang="es"{' class="actiu"' if lang == 'es' else ''}>castellano</a></span></span><span class="peu-idioma-mobil"><a href="{url_ca}"{' class="actiu"' if lang == 'ca' else ''}>cat</a><span>/</span><a href="{url_es}"{' class="actiu"' if lang == 'es' else ''}>es</a></span></span>
 </footer>
 
 <script>{JS}</script>
@@ -1086,7 +1086,7 @@ def genera(p):
 # ─────────────────────────────────────────────────────────────────────────────
 # VERSIÓ EN CASTELLÀ (/es/) — contingut a traduccions_es.py, cadenes fixes aquí
 # ─────────────────────────────────────────────────────────────────────────────
-from traduccions_es import TRADUCCIONS_ES  # noqa: E402
+from traduccions_es import TRADUCCIONS_ES  # noqa: e402
 
 
 def _trad_grup(s):
@@ -1122,7 +1122,7 @@ def cos_horaris_es():
   </section>''')
     return "".join(dies) + f'''
   <section class="reveal">
-    <p class="text-gran">Cada actividad tiene su propia página con horarios, beneficios y preguntas: míralas todas en <a href="/es/#activitats" style="color:var(--granat-viu);font-weight:600">actividades</a>. Y si tienes dudas de nivel o de grupo, llámanos al <a href="tel:{TEL_LINK}" style="color:var(--granat-viu);font-weight:600">{TEL}</a> y te orientamos.</p>
+    <p class="text-gran">cada actividad tiene su propia página con horarios, beneficios y preguntas: míralas todas en <a href="/es/#activitats" style="color:var(--granat-viu);font-weight:600">actividades</a>. y si tienes dudas de nivel o de grupo, llámanos al <a href="tel:{TEL_LINK}" style="color:var(--granat-viu);font-weight:600">{TEL}</a> y te orientamos.</p>
   </section>'''
 
 
@@ -1143,7 +1143,7 @@ def cos_preus_es():
 {taula("cuota mensual", capc, men)}
 {taula("cuota trimestral", capc, tri)}
 {taula("matrícula y otros", None, alt)}
-    <p class="text-gran" style="margin-top:30px">También ofrecemos <strong>clases particulares</strong>, clases especiales para celebraciones (bodas, despedidas, cumpleaños) y talleres de fin de semana o de vacaciones (Navidad, Semana Santa y verano). Y novedad: ¡ven a celebrar tu cumpleaños con nosotros!</p>
+    <p class="text-gran" style="margin-top:30px">también ofrecemos <strong>clases particulares</strong>, clases especiales para celebraciones (bodas, despedidas, cumpleaños) y talleres de fin de semana o de vacaciones (Navidad, Semana Santa y verano). y novedad: ¡ven a celebrar tu cumpleaños con nosotros!</p>
   </section>'''
 
 
@@ -1164,8 +1164,8 @@ TRADUCCIONS_ES["horaris"]["ld"] = LD_BREADCRUMB_ES("horarios", "horarios")
 TRADUCCIONS_ES["preus"]["cos"] = cos_preus_es()
 TRADUCCIONS_ES["preus"]["ld"] = LD_BREADCRUMB_ES("precios", "precios")
 
-_WA_CA = urllib.parse.quote("Hola! M'agradaria informació sobre les classes de ")
-_WA_ES = urllib.parse.quote("¡Hola! Me gustaría información sobre las clases de ")
+_WA_CA = urllib.parse.quote("Hola! m'agradaria informació sobre les classes de ")
+_WA_ES = urllib.parse.quote("¡Hola! me gustaría información sobre las clases de ")
 
 _FIXOS_ES = None
 
@@ -1196,8 +1196,8 @@ def fixos_es():
         ('<h2>beneficis</h2>', '<h2>beneficios</h2>'),
         (f'<div class="etiqueta">curs {CURS}</div>', f'<div class="etiqueta">curso {CURS}</div>'),
         ('<h2>horaris de ', '<h2>horarios de '),
-        ("graella completa de l'escola</a> amb tots els estils i sales. Per confirmar plaça: truca'ns al",
-         'parrilla completa de la escuela</a> con todos los estilos y salas. Para confirmar plaza: llámanos al'),
+        ("graella completa de l'escola</a> amb tots els estils i sales. per confirmar plaça: truca'ns al",
+         'parrilla completa de la escuela</a> con todos los estilos y salas. para confirmar plaza: llámanos al'),
         (', escriu-nos per <a', ', escríbenos por <a'),
         ('>WhatsApp</a> o pel <a', '>WhatsApp</a> o por el <a'),
         ('>formulari de contacte</a>.', '>formulario de contacto</a>.'),
@@ -1209,11 +1209,11 @@ def fixos_es():
         ('<h2>també et pot agradar</h2>', '<h2>también te puede gustar</h2>'),
         ('<div class="etiqueta">tarifes</div>', '<div class="etiqueta">tarifas</div>'),
         ('<h2>preus</h2>', '<h2>precios</h2>'),
-        ('Les classes funcionen per quota mensual o trimestral segons els dies per setmana: des de 56 €/mes (infantil) i 60 €/mes (adults). Consulta <a href="/es/precios/" style="color:var(--granat-viu);font-weight:600">totes les tarifes del curs</a> — i recorda que la primera classe de prova és gratuïta.',
-         'Las clases funcionan por cuota mensual o trimestral según los días por semana: desde 56 €/mes (infantil) y 60 €/mes (adultos). Consulta <a href="/es/precios/" style="color:var(--granat-viu);font-weight:600">todas las tarifas del curso</a> — y recuerda que la primera clase de prueba es gratuita.'),
+        ('les classes funcionen per quota mensual o trimestral segons els dies per setmana: des de 56 €/mes (infantil) i 60 €/mes (adults). consulta <a href="/es/precios/" style="color:var(--granat-viu);font-weight:600">totes les tarifes del curs</a> — i recorda que la primera classe de prova és gratuïta.',
+         'las clases funcionan por cuota mensual o trimestral según los días por semana: desde 56 €/mes (infantil) y 60 €/mes (adultos). consulta <a href="/es/precios/" style="color:var(--granat-viu);font-weight:600">todas las tarifas del curso</a> — y recuerda que la primera clase de prueba es gratuita.'),
         ('<h2>vine a provar-ho: la primera classe és gratis</h2>', '<h2>ven a probarlo: la primera clase es gratis</h2>'),
-        ("<p>Tria com t'estimes més: truca'ns, escriu-nos o vine a veure'ns. Sense compromís, t'ajudem a trobar el grup perfecte.</p>",
-         '<p>Elige como prefieras: llámanos, escríbenos o ven a vernos. Sin compromiso, te ayudamos a encontrar el grupo perfecto.</p>'),
+        ("<p>tria com t'estimes més: truca'ns, escriu-nos o vine a veure'ns. sense compromís, t'ajudem a trobar el grup perfecte.</p>",
+         '<p>elige como prefieras: llámanos, escríbenos o ven a vernos. sin compromiso, te ayudamos a encontrar el grupo perfecto.</p>'),
         ("<strong>truca'ns</strong>", '<strong>llámanos</strong>'),
         ("<strong>formulari</strong><small>explica'ns què busques</small>", '<strong>formulario</strong><small>cuéntanos qué buscas</small>'),
         ('<strong>com arribar?</strong>', '<strong>¿cómo llegar?</strong>'),

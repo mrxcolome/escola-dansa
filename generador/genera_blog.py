@@ -13,7 +13,7 @@ import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import genera_pagines as gp  # noqa: E402
-from blog_posts import POSTS  # noqa: E402
+from blog_posts import POSTS, entradeta_min  # noqa: E402
 
 ARREL, DOMINI = gp.ARREL, gp.DOMINI
 
@@ -32,7 +32,7 @@ nav.solida{background:rgba(247,244,240,.88)}
 .article{max-width:760px}
 .article .meta-post{font-size:var(--text);color:var(--gris);font-weight:400;font-style:italic;margin-bottom:38px}
 .article p{font-size:var(--text);color:var(--gris);font-weight:400;margin:0 0 22px;max-width:720px}
-.article h2{margin:54px 0 20px}
+.article h2{margin:54px 0 20px;font-size:var(--text);font-weight:800}
 .article ul{margin:0 0 22px 20px;max-width:700px}
 .article li{font-size:var(--text);color:var(--gris);font-weight:400;margin:10px 0}
 .article p strong,.article li strong{color:var(--blanc);font-weight:600}
@@ -459,7 +459,7 @@ def modul_home():
     cards = "\n".join(
         f'  <a class="bloc-post reveal" href="/blog/{p["slug"]}/">'
         f'<div><span class="cat-post">{gp.esc(p["categoria"])}</span><h3>{gp.esc(p["h1"])}</h3>'
-        f'<p>{gp.esc(p["excerpt"])}</p><span class="peu-card">{gp.esc(p["data_ca"])}</span></div></a>'
+        f'<p>{gp.esc(entradeta_min(p["excerpt"]))}</p><span class="peu-card">{gp.esc(p["data_ca"])}</span></div></a>'
         for p in posts3)
     pre, resta = h.split(inici, 1)
     _mig, post = resta.split(fi, 1)
