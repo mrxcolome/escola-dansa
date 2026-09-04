@@ -876,4 +876,782 @@ POSTS = [
              "Sí: las 3 salas, acondicionadas e insonorizadas, se alquilan para ensayos y actividades — y también hacemos celebraciones especiales, de los cumpleaños a los bailes de novios."),
         ],
     },
+
+    {
+        "slug": "roba-dansa-que-portar",
+        "slug_es": "ropa-danza-que-llevar",
+        "categoria": "famílies",
+        "categoria_es": "familias",
+        "data": "2026-06-24",
+        "data_ca": "24 de juny de 2026",
+        "data_es": "24 de junio de 2026",
+        "minuts": 4,
+        "nom_wa": "dansa",
+        "nom_wa_es": "danza",
+        "og": "blog-roba-dansa.jpg",
+        "img": "blog-roba-dansa.jpg",
+        "img_alt": "Una bossa de dansa oberta sobre el parquet amb sabatilles, mitges i una gometa de cabell",
+        "img_alt_es": "Una bolsa de danza abierta sobre el parquet con zapatillas, medias y una goma de pelo",
+        "related_pagines": ["dansa-infantil", "ballet-classic", "hip-hop", "preus"],
+        "related_posts": ["primer-dia-classe-dansa"],
+
+        "title": "què ha de portar a la bossa de dansa? la guia per disciplines · escola de dansa cristina colomé",
+        "desc": "Sabatilles, mitges, roba còmoda... què cal per a cada disciplina de dansa i què no cal comprar el primer dia. La guia pràctica que donem a totes les famílies noves de l'escola.",
+        "h1": "què ha de portar a la bossa de dansa? la guia per disciplines",
+        "intro": "El primer dubte pràctic de tota família nova: què comprem? La resposta que donem sempre: de moment, gairebé res. Aquí tens la guia sencera, disciplina per disciplina.",
+        "excerpt": "Sabatilles, mitges, roba còmoda... què cal per a cada disciplina i què no cal comprar el primer dia. La guia pràctica per no gastar de més.",
+        "cos": """
+<p>Cada setembre veiem famílies que arriben el primer dia amb l'equip complet: maillot nou, mitges noves, sabatilles de mitja punta acabades d'estrenar. I ens sap greu dir-los que potser han corregut massa. El nostre consell de sempre és el contrari: <strong>vine amb roba còmoda, prova, i compra després</strong>. Aquí tens què cal de debò per a cada disciplina.</p>
+
+<h2>el primer dia: roba còmoda i prou</h2>
+<p>Per a la <a href="/classe-de-prova-gratuita/">classe de prova</a> i les primeres setmanes, amb uns leggings o pantalons elàstics, una samarreta que no balli massa i mitjons n'hi ha prou. Volem que el nen o la nena decideixi si li agrada la dansa, no que estreni vestuari. Quan la plaça ja és seva, la professora us dirà exactament què necessita el seu grup — i us estalviareu compres equivocades.</p>
+
+<h2>clàssic: el ritual més bonic</h2>
+<p>Al <a href="/ballet-classic/">ballet clàssic</a> el vestuari és part de l'aprenentatge: maillot, mitges i sabatilles de mitja punta (les puntes arriben molt més endavant, quan el peu i la tècnica estan a punt — mai abans). El cabell recollit en un monyo no és mania: és seguretat i és tradició. Tot plegat costa menys del que sembla i dura cursos sencers.</p>
+
+<h2>urbanes i modernes: llibertat amb criteri</h2>
+<p>Per a <a href="/hip-hop/">hip-hop</a>, jazz o k-pop, roba amb què es puguin moure de gust i <strong>sabatilles esportives netes d'ús exclusiu per a la sala</strong> — aquest detall importa: el parquet ho agraeix i els turmells també. Per al contemporani es balla descalç o amb mitjons: el més barat de tots els equips!</p>
+
+<h2>el que no cal comprar mai (d'entrada)</h2>
+<ul>
+<li><strong>Puntes.</strong> Les decideix la professora quan toca, ni un dia abans.</li>
+<li><strong>Roba de marca de dansa.</strong> Als 6 anys, el maillot bàsic fa exactament el mateix servei.</li>
+<li><strong>Dues talles de tot «perquè creixerà».</strong> La roba de dansa és elàstica: compra la seva talla.</li>
+</ul>
+
+<h2>el truc de la bossa</h2>
+<p>Una bossa petita que sigui només de dansa, preparada sempre amb el mateix: sabatilles, ampolla d'aigua, gometa de recanvi. Els nens que porten la seva bossa «de ballarina» des del primer dia se senten part de l'escola abans i que no falti mai res a dins es converteix en responsabilitat seva. Petita, però seva. Si teniu dubtes amb el vestuari del vostre grup, pregunteu-nos al taulell — us ho resolem en un minut.</p>
+""",
+        "faqs": [
+            ("cal comprar l'equip abans de la primera classe?",
+             "No. Per a la classe de prova i les primeres setmanes n'hi ha prou amb roba còmoda i mitjons. Quan la plaça sigui seva, la professora us dirà exactament què necessita el grup."),
+            ("quan es comencen a portar puntes al ballet?",
+             "Quan la professora ho indica, mai abans: cal que el peu, el turmell i la tècnica estiguin preparats. Avançar les puntes per il·lusió és la manera més ràpida de fer-se mal."),
+            ("les sabatilles esportives del carrer valen per al hip-hop?",
+             "Millor que no: demanem esportives netes d'ús exclusiu per a la sala. El parquet es conserva millor i l'adherència és la correcta per ballar."),
+        ],
+
+        "title_es": "¿qué tiene que llevar en la bolsa de danza? la guía por disciplinas · escola de dansa cristina colomé",
+        "desc_es": "Zapatillas, medias, ropa cómoda... qué hace falta para cada disciplina de danza y qué no hay que comprar el primer día. La guía práctica que damos a todas las familias nuevas de la escuela.",
+        "h1_es": "¿qué tiene que llevar en la bolsa de danza? la guía por disciplinas",
+        "intro_es": "La primera duda práctica de toda familia nueva: ¿qué compramos? La respuesta que damos siempre: de momento, casi nada. Aquí tienes la guía entera, disciplina por disciplina.",
+        "excerpt_es": "Zapatillas, medias, ropa cómoda... qué hace falta para cada disciplina y qué no hay que comprar el primer día. La guía práctica para no gastar de más.",
+        "cos_es": """
+<p>Cada septiembre vemos familias que llegan el primer día con el equipo completo: maillot nuevo, medias nuevas, zapatillas de media punta recién estrenadas. Y nos sabe mal decirles que quizá han corrido demasiado. Nuestro consejo de siempre es el contrario: <strong>ven con ropa cómoda, prueba, y compra después</strong>. Aquí tienes qué hace falta de verdad para cada disciplina.</p>
+
+<h2>el primer día: ropa cómoda y punto</h2>
+<p>Para la <a href="/es/blog/clase-de-prueba-gratuita/">clase de prueba</a> y las primeras semanas, con unos leggings o pantalones elásticos, una camiseta que no baile demasiado y calcetines es suficiente. Queremos que el niño o la niña decida si le gusta la danza, no que estrene vestuario. Cuando la plaza ya sea suya, la profesora os dirá exactamente qué necesita su grupo — y os ahorraréis compras equivocadas.</p>
+
+<h2>clásico: el ritual más bonito</h2>
+<p>En el <a href="/es/ballet-clasico/">ballet clásico</a> el vestuario es parte del aprendizaje: maillot, medias y zapatillas de media punta (las puntas llegan mucho más adelante, cuando el pie y la técnica están a punto — nunca antes). El pelo recogido en un moño no es manía: es seguridad y es tradición. Todo junto cuesta menos de lo que parece y dura cursos enteros.</p>
+
+<h2>urbanas y modernas: libertad con criterio</h2>
+<p>Para <a href="/es/hip-hop/">hip-hop</a>, jazz o k-pop, ropa con la que se puedan mover a gusto y <strong>zapatillas deportivas limpias de uso exclusivo para la sala</strong> — este detalle importa: el parquet lo agradece y los tobillos también. Para el contemporáneo se baila descalzo o con calcetines: ¡el más barato de todos los equipos!</p>
+
+<h2>lo que no hay que comprar nunca (de entrada)</h2>
+<ul>
+<li><strong>Puntas.</strong> Las decide la profesora cuando toca, ni un día antes.</li>
+<li><strong>Ropa de marca de danza.</strong> A los 6 años, el maillot básico hace exactamente el mismo servicio.</li>
+<li><strong>Dos tallas de todo «porque crecerá».</strong> La ropa de danza es elástica: compra su talla.</li>
+</ul>
+
+<h2>el truco de la bolsa</h2>
+<p>Una bolsa pequeña que sea solo de danza, preparada siempre con lo mismo: zapatillas, botella de agua, goma de recambio. Los niños que llevan su bolsa «de bailarina» desde el primer día se sienten parte de la escuela antes, y que no falte nunca nada dentro se convierte en responsabilidad suya. Pequeña, pero suya. Si tenéis dudas con el vestuario de vuestro grupo, preguntadnos en recepción — os lo resolvemos en un minuto.</p>
+""",
+        "faqs_es": [
+            ("¿hay que comprar el equipo antes de la primera clase?",
+             "No. Para la clase de prueba y las primeras semanas basta con ropa cómoda y calcetines. Cuando la plaza sea suya, la profesora os dirá exactamente qué necesita el grupo."),
+            ("¿cuándo se empiezan a llevar puntas en ballet?",
+             "Cuando la profesora lo indica, nunca antes: el pie, el tobillo y la técnica deben estar preparados. Adelantar las puntas por ilusión es la manera más rápida de hacerse daño."),
+            ("¿las deportivas de calle valen para el hip-hop?",
+             "Mejor que no: pedimos deportivas limpias de uso exclusivo para la sala. El parquet se conserva mejor y la adherencia es la correcta para bailar."),
+        ],
+    },
+    {
+        "slug": "hip-hop-nens-adolescents",
+        "slug_es": "hip-hop-ninos-adolescentes",
+        "categoria": "estils",
+        "categoria_es": "estilos",
+        "data": "2026-06-17",
+        "data_ca": "17 de juny de 2026",
+        "data_es": "17 de junio de 2026",
+        "minuts": 4,
+        "nom_wa": "hip-hop",
+        "nom_wa_es": "hip-hop",
+        "og": "blog-hiphop-joves.jpg",
+        "img": "blog-hiphop-joves.jpg",
+        "img_alt": "Unes sabatilles esportives blanques i una gorra sobre el parquet d'una sala de dansa amb llum càlida",
+        "img_alt_es": "Unas zapatillas deportivas blancas y una gorra sobre el parquet de una sala de danza con luz cálida",
+        "related_pagines": ["hip-hop", "dansa-infantil", "k-pop-heels", "horaris"],
+        "related_posts": ["triar-estil-dansa-fill"],
+
+        "title": "hip-hop per a nens i adolescents: molt més que passos · escola de dansa cristina colomé",
+        "desc": "Per què el hip-hop enganxa tant els nens i adolescents: energia, identitat, grup i una tècnica més seriosa del que sembla. Com són les classes de hip-hop per edats a l'escola.",
+        "h1": "hip-hop per a nens i adolescents: molt més que passos",
+        "intro": "És l'estil que més creix a l'escola des de fa anys. I no és casualitat: pocs llocs donen a un nen o a un adolescent tanta energia, tanta identitat i tant grup alhora.",
+        "excerpt": "Per què el hip-hop enganxa tant: energia, identitat, grup i una tècnica més seriosa del que sembla. Com són les classes per edats.",
+        "cos": """
+<p>Quan una família ve a informar-se i el nen diu «jo vull fer hip-hop», sovint la mare o el pare ens mira com demanant disculpes. No cal: <strong>el hip-hop és una gran porta d'entrada a la dansa</strong>, amb tècnica seriosa, disciplina real i una cultura riquíssima al darrere. I sí: enganxa moltíssim.</p>
+
+<h2>per què els enganxa tant</h2>
+<p>Perquè és la seva música. La que sona als seus mòbils, als seus videojocs, a les seves xarxes. Quan la classe balla amb la banda sonora de la seva vida, la motivació ve de sèrie. I perquè el hip-hop premia allò que l'adolescència demana a crits: <strong>tenir un estil propi</strong>. Dins d'una mateixa coreografia, cadascú hi posa el seu accent.</p>
+
+<h2>la tècnica que no es veu</h2>
+<p>Des de fora sembla espontani; des de dins és feina fina: aïllaments, musicalitat, control del pes, memòria coreogràfica i una condició física que ja voldrien molts esports. Els nostres grups de <a href="/hip-hop/">hip-hop</a> van per edats i nivells — dels infantils que hi aprenen coordinació jugant fins als juvenils que preparen coreografies de festival que posen la pell de gallina.</p>
+
+<h2>l'efecte grup</h2>
+<p>Si hi ha una cosa que veiem curs rere curs és la colla que es forma a les classes de hip-hop. Ballar en grup, suar en grup, equivocar-se en grup i clavar-la en grup crea un vincle que va molt més enllà de la sala. Per a molts adolescents, la classe de la setmana és <strong>el seu lloc</strong> — i això, a segons quines edats, val or.</p>
+
+<h2>com començar</h2>
+<p>Com sempre a l'escola: <a href="/classe-de-prova-gratuita/">amb una classe de prova gratuïta</a>. Roba còmoda, esportives netes i ganes de moure's. Mira els grups de hip-hop a la <a href="/horaris/">graella d'horaris</a> — n'hi ha des d'infantil fins a adults — i si el que t'estira és el k-pop o les heels, també <a href="/k-pop-heels/">tenim classe per a tu</a>.</p>
+""",
+        "faqs": [
+            ("a partir de quina edat es pot fer hip-hop?",
+             "A l'escola tenim grups de hip-hop des d'infantil: els més petits hi treballen coordinació i ritme jugant, i a mesura que creixen la tècnica i les coreografies pugen de nivell."),
+            ("el hip-hop té tècnica o és ballar lliure?",
+             "Té molta tècnica: aïllaments, musicalitat, control del pes i memòria coreogràfica. La sensació de llibertat és precisament el resultat de dominar aquesta base."),
+            ("què cal portar a una classe de hip-hop?",
+             "Roba còmoda i esportives netes d'ús exclusiu per a la sala. Per a la primera classe de prova, amb això n'hi ha prou."),
+        ],
+
+        "title_es": "hip-hop para niños y adolescentes: mucho más que pasos · escola de dansa cristina colomé",
+        "desc_es": "Por qué el hip-hop engancha tanto a niños y adolescentes: energía, identidad, grupo y una técnica más seria de lo que parece. Cómo son las clases de hip-hop por edades en la escuela.",
+        "h1_es": "hip-hop para niños y adolescentes: mucho más que pasos",
+        "intro_es": "Es el estilo que más crece en la escuela desde hace años. Y no es casualidad: pocos lugares dan a un niño o a un adolescente tanta energía, tanta identidad y tanto grupo a la vez.",
+        "excerpt_es": "Por qué el hip-hop engancha tanto: energía, identidad, grupo y una técnica más seria de lo que parece. Cómo son las clases por edades.",
+        "cos_es": """
+<p>Cuando una familia viene a informarse y el niño dice «yo quiero hacer hip-hop», a menudo la madre o el padre nos mira como pidiendo disculpas. No hace falta: <strong>el hip-hop es una gran puerta de entrada a la danza</strong>, con técnica seria, disciplina real y una cultura riquísima detrás. Y sí: engancha muchísimo.</p>
+
+<h2>por qué les engancha tanto</h2>
+<p>Porque es su música. La que suena en sus móviles, en sus videojuegos, en sus redes. Cuando la clase baila con la banda sonora de su vida, la motivación viene de serie. Y porque el hip-hop premia lo que la adolescencia pide a gritos: <strong>tener un estilo propio</strong>. Dentro de una misma coreografía, cada uno pone su acento.</p>
+
+<h2>la técnica que no se ve</h2>
+<p>Desde fuera parece espontáneo; desde dentro es trabajo fino: aislamientos, musicalidad, control del peso, memoria coreográfica y una condición física que ya quisieran muchos deportes. Nuestros grupos de <a href="/es/hip-hop/">hip-hop</a> van por edades y niveles — desde los infantiles que aprenden coordinación jugando hasta los juveniles que preparan coreografías de festival que ponen la piel de gallina.</p>
+
+<h2>el efecto grupo</h2>
+<p>Si hay algo que vemos curso tras curso es la pandilla que se forma en las clases de hip-hop. Bailar en grupo, sudar en grupo, equivocarse en grupo y clavarla en grupo crea un vínculo que va mucho más allá de la sala. Para muchos adolescentes, la clase de la semana es <strong>su lugar</strong> — y eso, a según qué edades, vale oro.</p>
+
+<h2>cómo empezar</h2>
+<p>Como siempre en la escuela: <a href="/es/blog/clase-de-prueba-gratuita/">con una clase de prueba gratuita</a>. Ropa cómoda, deportivas limpias y ganas de moverse. Mira los grupos de hip-hop en la <a href="/es/horarios/">parrilla de horarios</a> — los hay desde infantil hasta adultos — y si lo que te tira es el k-pop o las heels, también <a href="/es/k-pop-heels/">tenemos clase para ti</a>.</p>
+""",
+        "faqs_es": [
+            ("¿a partir de qué edad se puede hacer hip-hop?",
+             "En la escuela tenemos grupos de hip-hop desde infantil: los más pequeños trabajan coordinación y ritmo jugando, y a medida que crecen la técnica y las coreografías suben de nivel."),
+            ("¿el hip-hop tiene técnica o es bailar libre?",
+             "Tiene mucha técnica: aislamientos, musicalidad, control del peso y memoria coreográfica. La sensación de libertad es precisamente el resultado de dominar esa base."),
+            ("¿qué hay que llevar a una clase de hip-hop?",
+             "Ropa cómoda y deportivas limpias de uso exclusivo para la sala. Para la primera clase de prueba, con eso es suficiente."),
+        ],
+    },
+    {
+        "slug": "claque-el-ball-que-sona",
+        "slug_es": "claque-el-baile-que-suena",
+        "categoria": "estils",
+        "categoria_es": "estilos",
+        "data": "2026-06-10",
+        "data_ca": "10 de juny de 2026",
+        "data_es": "10 de junio de 2026",
+        "minuts": 4,
+        "nom_wa": "claqué",
+        "nom_wa_es": "claqué",
+        "og": "blog-claque.jpg",
+        "img": "blog-claque.jpg",
+        "img_alt": "Un parell de sabates de claqué negres amb les plaques metàl·liques brillants sobre el parquet",
+        "img_alt_es": "Un par de zapatos de claqué negros con las placas metálicas brillantes sobre el parquet",
+        "related_pagines": ["claque", "jazz", "musical-interpretacio", "horaris"],
+        "related_posts": ["triar-estil-dansa-fill"],
+
+        "title": "el claqué: el ball que també és música · escola de dansa cristina colomé",
+        "desc": "Al claqué els peus són l'instrument: cada pas és un so i cada coreografia, una partitura. Què fa tan especial el claqué, per què va bé a totes les edats i com són les classes.",
+        "h1": "el claqué: el ball que també és música",
+        "intro": "Hi ha una disciplina a l'escola on no només balles la música: la fas. Benvinguts al claqué, l'art de convertir els peus en un instrument de percussió.",
+        "excerpt": "Al claqué els peus són l'instrument: cada pas és un so i cada coreografia, una partitura. Per què va bé a totes les edats.",
+        "cos": """
+<p>El primer dia de claqué passa sempre el mateix: algú fa el primer «tap» amb la placa metàl·lica i se li escapa el somriure. És un so que engancha. Perquè el <a href="/claque/">claqué</a> té una cosa que cap altra disciplina de l'escola té: <strong>quan balles, sones</strong>.</p>
+
+<h2>ballarins que són músics</h2>
+<p>Al claqué cada pas és una nota: el taló i la punta fan sons diferents, els silencis compten tant com els cops i una coreografia és, literalment, una partitura. Per això treballa una musicalitat finíssima: qui fa claqué aprèn a escoltar el ritme per dins, i això després es nota en qualsevol altre ball — i en qualsevol instrument.</p>
+
+<h2>d'on ve aquest art</h2>
+<p>El claqué va néixer als Estats Units de la trobada entre les danses percudides irlandeses i els ritmes africans, i va viure la seva edat daurada amb el swing i els grans musicals de Hollywood. Fred Astaire, Ginger Rogers, Gene Kelly... Quan en fas, entres en una tradició de gairebé dos segles — i t'adones que aquella elegància de les pel·lícules en blanc i negre s'aprèn pas a pas.</p>
+
+<h2>per a qui és?</h2>
+<p>Aquesta és la millor part: <strong>per a gairebé tothom</strong>. Els nens hi aprenen ritme i coordinació d'una manera que sembla màgia; els adolescents hi troben una habilitat que ningú més té; i els adults el descobreixen com una gimnàstica mental i física fantàstica — memòria, ritme, cames i riures, tot alhora. A l'escola tenim grups juvenils i d'adults, i el nivell es construeix des de zero.</p>
+
+<h2>prova-ho: el so et convencerà</h2>
+<p>El claqué s'ha de sentir als peus. Vine a fer una <a href="/classe-de-prova-gratuita/">classe de prova gratuïta</a> — les primeres classes es poden fer amb sabata de sola dura mentre decideixes — i mira els horaris dels grups a la <a href="/horaris/">graella</a>. T'avisem d'una cosa: el «tap-tap» és addictiu.</p>
+""",
+        "faqs": [
+            ("cal haver fet dansa abans per començar claqué?",
+             "No. El claqué es construeix des de zero: primer els sons bàsics de taló i punta, després les combinacions. La musicalitat s'entrena a cada classe."),
+            ("necessito sabates de claqué per provar?",
+             "Per a la classe de prova no: unes sabates de sola dura serveixen per començar. Si t'hi quedes, t'orientem sobre quines comprar."),
+            ("el claqué és per a nens o per a adults?",
+             "Per a tots dos: tenim grups juvenils i d'adults. És de les disciplines que millor envelleixen — es pot començar i gaudir a qualsevol edat."),
+        ],
+
+        "title_es": "el claqué: el baile que también es música · escola de dansa cristina colomé",
+        "desc_es": "En el claqué los pies son el instrumento: cada paso es un sonido y cada coreografía, una partitura. Qué hace tan especial el claqué, por qué va bien a todas las edades y cómo son las clases.",
+        "h1_es": "el claqué: el baile que también es música",
+        "intro_es": "Hay una disciplina en la escuela donde no solo bailas la música: la haces. Bienvenidos al claqué, el arte de convertir los pies en un instrumento de percusión.",
+        "excerpt_es": "En el claqué los pies son el instrumento: cada paso es un sonido y cada coreografía, una partitura. Por qué va bien a todas las edades.",
+        "cos_es": """
+<p>El primer día de claqué pasa siempre lo mismo: alguien hace el primer «tap» con la placa metálica y se le escapa la sonrisa. Es un sonido que engancha. Porque el <a href="/es/claque/">claqué</a> tiene algo que ninguna otra disciplina de la escuela tiene: <strong>cuando bailas, suenas</strong>.</p>
+
+<h2>bailarines que son músicos</h2>
+<p>En el claqué cada paso es una nota: el tacón y la punta hacen sonidos distintos, los silencios cuentan tanto como los golpes y una coreografía es, literalmente, una partitura. Por eso trabaja una musicalidad finísima: quien hace claqué aprende a escuchar el ritmo por dentro, y eso luego se nota en cualquier otro baile — y en cualquier instrumento.</p>
+
+<h2>de dónde viene este arte</h2>
+<p>El claqué nació en Estados Unidos del encuentro entre las danzas percutidas irlandesas y los ritmos africanos, y vivió su edad dorada con el swing y los grandes musicales de Hollywood. Fred Astaire, Ginger Rogers, Gene Kelly... Cuando lo practicas, entras en una tradición de casi dos siglos — y descubres que aquella elegancia de las películas en blanco y negro se aprende paso a paso.</p>
+
+<h2>¿para quién es?</h2>
+<p>Esta es la mejor parte: <strong>para casi todo el mundo</strong>. Los niños aprenden ritmo y coordinación de una manera que parece magia; los adolescentes encuentran una habilidad que nadie más tiene; y los adultos lo descubren como una gimnasia mental y física fantástica — memoria, ritmo, piernas y risas, todo a la vez. En la escuela tenemos grupos juveniles y de adultos, y el nivel se construye desde cero.</p>
+
+<h2>pruébalo: el sonido te convencerá</h2>
+<p>El claqué hay que sentirlo en los pies. Ven a hacer una <a href="/es/blog/clase-de-prueba-gratuita/">clase de prueba gratuita</a> — las primeras clases se pueden hacer con zapato de suela dura mientras decides — y mira los horarios de los grupos en la <a href="/es/horarios/">parrilla</a>. Te avisamos de una cosa: el «tap-tap» es adictivo.</p>
+""",
+        "faqs_es": [
+            ("¿hay que haber hecho danza antes de empezar claqué?",
+             "No. El claqué se construye desde cero: primero los sonidos básicos de tacón y punta, después las combinaciones. La musicalidad se entrena en cada clase."),
+            ("¿necesito zapatos de claqué para probar?",
+             "Para la clase de prueba no: unos zapatos de suela dura sirven para empezar. Si te quedas, te orientamos sobre cuáles comprar."),
+            ("¿el claqué es para niños o para adultos?",
+             "Para ambos: tenemos grupos juveniles y de adultos. Es de las disciplinas que mejor envejecen — se puede empezar y disfrutar a cualquier edad."),
+        ],
+    },
+
+    {
+        "slug": "classic-o-contemporani",
+        "slug_es": "clasico-o-contemporaneo",
+        "categoria": "estils",
+        "categoria_es": "estilos",
+        "data": "2026-06-03",
+        "data_ca": "3 de juny de 2026",
+        "data_es": "3 de junio de 2026",
+        "minuts": 4,
+        "nom_wa": "dansa",
+        "nom_wa_es": "danza",
+        "og": "blog-classic-contemporani.jpg",
+        "img": "blog-classic-contemporani.jpg",
+        "img_alt": "Unes sabatilles de mitja punta rosades al costat d'uns mitjons de dansa, sobre el parquet amb llum de tarda",
+        "img_alt_es": "Unas zapatillas de media punta rosadas junto a unos calcetines de danza, sobre el parquet con luz de tarde",
+        "related_pagines": ["ballet-classic", "dansa-contemporania", "dansa-adults", "horaris"],
+        "related_posts": ["triar-estil-dansa-fill"],
+
+        "title": "clàssic o contemporani? les diferències explicades fàcil · escola de dansa cristina colomé",
+        "desc": "El ballet clàssic i la dansa contemporània comparteixen base però parlen llengües diferents: forma i codi contra pes i llibertat. Les diferències explicades fàcil per ajudar-te a triar — o a fer tots dos.",
+        "h1": "clàssic o contemporani? les diferències explicades fàcil",
+        "intro": "És una de les preguntes que més sentim quan algú vol començar: «i quina diferència hi ha?». Aquí la tens sense tecnicismes — i amb un secret final: no cal triar.",
+        "excerpt": "Ballet clàssic i dansa contemporània comparteixen base però parlen llengües diferents: forma i codi contra pes i llibertat. Explicat fàcil.",
+        "cos": """
+<p>Imagina dues maneres de dir la mateixa frase: una recitada amb una dicció perfecta, cada síl·laba al seu lloc; l'altra dita a cau d'orella, amb pauses i respiracions pròpies. Doncs això són, si fa no fa, el <a href="/ballet-classic/">clàssic</a> i el <a href="/dansa-contemporania/">contemporani</a>: la mateixa llengua — el cos — parlada amb dos accents molt diferents.</p>
+
+<h2>el clàssic: la bellesa del codi</h2>
+<p>El ballet clàssic és un llenguatge codificat des de fa més de tres segles: les cinc posicions, el vocabulari en francès, la verticalitat, la lleugeresa. La seva gràcia és precisament aquesta: <strong>tothom al món balla el mateix plié</strong>, i la bellesa surt de polir-lo tota la vida. Dona una base tècnica que serveix per a qualsevol altre estil, postura per al dia a dia i una disciplina que ordena el cap.</p>
+
+<h2>el contemporani: el pes i la veritat</h2>
+<p>El contemporani va néixer precisament per trencar el codi: ballar descalç, treballar amb el pes del cos en lloc de contra ell, baixar a terra i tornar-se a aixecar, respirar el moviment. Aquí no es busca la forma perfecta sinó <strong>el moviment veritat</strong>: què vol dir aquest gest, d'on surt, cap on va. És físic, és emocional i és profundament creatiu.</p>
+
+<h2>quin em convé?</h2>
+<p>Depèn més del caràcter que del cos. Si t'ordena la vida tenir un marc clar i gaudir del detall, el clàssic t'enamorarà. Si el que et crida és expressar, explorar i que cada classe sigui un viatge diferent, el contemporani és casa teva. Els nens solen començar pel clàssic (la base ho agraeix); els adolescents i adults sovint es reparteixen per pura afinitat de pell.</p>
+
+<h2>el secret: es multipliquen</h2>
+<p>La resposta que donem més sovint és «per què no tots dos?». El clàssic dona al contemporani la tècnica; el contemporani dona al clàssic la llibertat. Les nostres alumnes que en fan tots dos ho noten en setmanes. Mira els grups de cada disciplina a la <a href="/horaris/">graella d'horaris</a> i, si dubtes, comença amb una <a href="/classe-de-prova-gratuita/">classe de prova gratuïta</a> de cadascun: el cos et dirà quin li toca — o si li toquen tots dos.</p>
+""",
+        "faqs": [
+            ("puc fer contemporani sense haver fet mai clàssic?",
+             "Sí. La base clàssica ajuda, però els grups de contemporani treballen la seva pròpia tècnica des de zero: pes, terra, respiració i qualitat de moviment."),
+            ("quin és millor per a un nen que comença?",
+             "Per als més petits solem recomanar començar pel clàssic o la iniciació a la dansa, perquè construeixen una base que després serveix per a tot. A partir dels 8-10 anys, l'afinitat personal mana."),
+            ("es poden combinar les dues disciplines?",
+             "És la combinació estrella: el clàssic aporta tècnica i el contemporani, llibertat. Moltes alumnes de l'escola fan totes dues i el progrés es multiplica."),
+        ],
+
+        "title_es": "¿clásico o contemporáneo? las diferencias explicadas fácil · escola de dansa cristina colomé",
+        "desc_es": "El ballet clásico y la danza contemporánea comparten base pero hablan lenguas distintas: forma y código contra peso y libertad. Las diferencias explicadas fácil para ayudarte a elegir — o a hacer ambos.",
+        "h1_es": "¿clásico o contemporáneo? las diferencias explicadas fácil",
+        "intro_es": "Es una de las preguntas que más oímos cuando alguien quiere empezar: «¿y qué diferencia hay?». Aquí la tienes sin tecnicismos — y con un secreto final: no hace falta elegir.",
+        "excerpt_es": "Ballet clásico y danza contemporánea comparten base pero hablan lenguas distintas: forma y código contra peso y libertad. Explicado fácil.",
+        "cos_es": """
+<p>Imagina dos maneras de decir la misma frase: una recitada con una dicción perfecta, cada sílaba en su sitio; la otra dicha al oído, con pausas y respiraciones propias. Pues eso son, más o menos, el <a href="/es/ballet-clasico/">clásico</a> y el <a href="/es/danza-contemporanea/">contemporáneo</a>: la misma lengua — el cuerpo — hablada con dos acentos muy distintos.</p>
+
+<h2>el clásico: la belleza del código</h2>
+<p>El ballet clásico es un lenguaje codificado desde hace más de tres siglos: las cinco posiciones, el vocabulario en francés, la verticalidad, la ligereza. Su gracia es precisamente esa: <strong>todo el mundo baila el mismo plié</strong>, y la belleza sale de pulirlo toda la vida. Da una base técnica que sirve para cualquier otro estilo, postura para el día a día y una disciplina que ordena la cabeza.</p>
+
+<h2>el contemporáneo: el peso y la verdad</h2>
+<p>El contemporáneo nació precisamente para romper el código: bailar descalzo, trabajar con el peso del cuerpo en lugar de contra él, bajar al suelo y volver a levantarse, respirar el movimiento. Aquí no se busca la forma perfecta sino <strong>el movimiento verdad</strong>: qué significa este gesto, de dónde sale, hacia dónde va. Es físico, es emocional y es profundamente creativo.</p>
+
+<h2>¿cuál me conviene?</h2>
+<p>Depende más del carácter que del cuerpo. Si te ordena la vida tener un marco claro y disfrutar del detalle, el clásico te enamorará. Si lo que te llama es expresar, explorar y que cada clase sea un viaje distinto, el contemporáneo es tu casa. Los niños suelen empezar por el clásico (la base lo agradece); los adolescentes y adultos a menudo se reparten por pura afinidad de piel.</p>
+
+<h2>el secreto: se multiplican</h2>
+<p>La respuesta que damos más a menudo es «¿por qué no ambos?». El clásico da al contemporáneo la técnica; el contemporáneo da al clásico la libertad. Nuestras alumnas que hacen los dos lo notan en semanas. Mira los grupos de cada disciplina en la <a href="/es/horarios/">parrilla de horarios</a> y, si dudas, empieza con una <a href="/es/blog/clase-de-prueba-gratuita/">clase de prueba gratuita</a> de cada uno: el cuerpo te dirá cuál le toca — o si le tocan los dos.</p>
+""",
+        "faqs_es": [
+            ("¿puedo hacer contemporáneo sin haber hecho nunca clásico?",
+             "Sí. La base clásica ayuda, pero los grupos de contemporáneo trabajan su propia técnica desde cero: peso, suelo, respiración y calidad de movimiento."),
+            ("¿cuál es mejor para un niño que empieza?",
+             "Para los más pequeños solemos recomendar empezar por el clásico o la iniciación a la danza, porque construyen una base que luego sirve para todo. A partir de los 8-10 años, manda la afinidad personal."),
+            ("¿se pueden combinar las dos disciplinas?",
+             "Es la combinación estrella: el clásico aporta técnica y el contemporáneo, libertad. Muchas alumnas de la escuela hacen ambas y el progreso se multiplica."),
+        ],
+    },
+    {
+        "slug": "ballar-en-familia",
+        "slug_es": "bailar-en-familia",
+        "categoria": "l'escola",
+        "categoria_es": "la escuela",
+        "data": "2026-05-27",
+        "data_ca": "27 de maig de 2026",
+        "data_es": "27 de mayo de 2026",
+        "minuts": 4,
+        "nom_wa": "dansa",
+        "nom_wa_es": "danza",
+        "og": "blog-familia.jpg",
+        "img": "blog-familia.jpg",
+        "img_alt": "Dues bosses de dansa penjades una al costat de l'altra, una de petita i una de gran, amb llum càlida",
+        "img_alt_es": "Dos bolsas de danza colgadas una junto a la otra, una pequeña y una grande, con luz cálida",
+        "related_pagines": ["dansa-adults", "dansa-infantil", "cos-benestar", "horaris"],
+        "related_posts": ["comencar-dansa-adults"],
+
+        "title": "ballar en família: quan mares i filles comparteixen escola · escola de dansa cristina colomé",
+        "desc": "A l'escola és cada cop més habitual: la filla fa clàssic a una sala i la mare fa barre o ioga a l'altra. Per què compartir escola (que no classe) enforteix el vincle i simplifica la logística familiar.",
+        "h1": "ballar en família: quan mares i filles comparteixen escola",
+        "intro": "Una de les escenes que més ens agraden: la nena entra a la seva classe, i la mare — en lloc de fer temps en un banc — entra a la seva. Mateixa hora, mateixa escola, cadascuna al seu món.",
+        "excerpt": "La filla fa clàssic a una sala i la mare fa barre o ioga a l'altra. Compartir escola (que no classe) enforteix el vincle i arregla la logística.",
+        "cos": """
+<p>Fa anys, la imatge típica de la porta de l'escola era una filera de mares i pares esperant amb el mòbil a la mà. Cada cop més, aquella espera s'ha convertit en una altra cosa: <strong>la seva pròpia classe</strong>. Mentre la petita fa clàssic infantil, la mare fa <a href="/cos-benestar/">barre o ioga</a>; mentre l'adolescent sua al hip-hop, el pare descobreix que el claqué era el seu ball secret.</p>
+
+<h2>la logística que es resol sola</h2>
+<p>El primer avantatge és pràctic i és enorme: <strong>un sol viatge, dues activitats</strong>. La conciliació és el gran enemic de l'exercici dels adults — «no tinc temps» quasi sempre vol dir «no tinc una hora que quadri». Si la teva hora quadra exactament amb la de la teva filla, l'excusa s'evapora. Mireu junts la <a href="/horaris/">graella</a>: hi ha més coincidències de les que us penseu.</p>
+
+<h2>el vincle que es crea</h2>
+<p>Hi ha alguna cosa especial a compartir el camí de l'escola: sortir de casa amb les bosses de dansa, comentar la classe de tornada, entendre de què parla l'altra quan diu que avui «li ha sortit el gir». No cal ballar juntes ni fer el mateix estil — de fet, gairebé millor que no: <strong>cadascuna té el seu espai</strong>, i el que es comparteix és la passió, no la sala.</p>
+
+<h2>l'exemple silenciós</h2>
+<p>I hi ha un efecte més profund que veiem sovint: quan una nena veu que la seva mare també va a classe, també s'equivoca, també repeteix i també progressa, el missatge que rep no és cap sermó — és un exemple. L'esforç, la constància i el gust per aprendre <strong>es transmeten millor ballant que dient-los</strong>.</p>
+
+<h2>com quadrar-ho</h2>
+<p>Digueu-nos els horaris de la criatura i us busquem les classes d'adults que hi encaixen — o al revés. I si fa temps que no us moveu, cap por: els grups d'<a href="/dansa-adults/">adults</a> tenen nivells d'iniciació de veritat, i la primera classe, com sempre, <a href="/classe-de-prova-gratuita/">és gratuïta</a>. Potser d'aquí a uns mesos, la conversa del sopar serà quina de les dues té el festival més a punt.</p>
+""",
+        "faqs": [
+            ("hi ha classes d'adults a la mateixa hora que les infantils?",
+             "Moltes: la graella està pensada perquè les franges de tarda tinguin alhora grups infantils i d'adults (barre, ioga, clàssic, contemporani...). Digueu-nos l'horari del vostre fill i us busquem la coincidència."),
+            ("mare i filla poden anar a la mateixa classe?",
+             "Els grups van per edats, així que normalment cadascuna té el seu. És part de la gràcia: compartir escola i passió, cadascuna al seu espai."),
+            ("fa anys que no faig exercici: puc començar igualment?",
+             "I tant. Els grups d'adults d'iniciació comencen de zero de debò, i disciplines com el barre o el ioga són una porta d'entrada amable per a qualsevol condició física."),
+        ],
+
+        "title_es": "bailar en familia: cuando madres e hijas comparten escuela · escola de dansa cristina colomé",
+        "desc_es": "En la escuela es cada vez más habitual: la hija hace clásico en una sala y la madre hace barre o yoga en la otra. Por qué compartir escuela (que no clase) refuerza el vínculo y simplifica la logística familiar.",
+        "h1_es": "bailar en familia: cuando madres e hijas comparten escuela",
+        "intro_es": "Una de las escenas que más nos gustan: la niña entra a su clase, y la madre — en lugar de hacer tiempo en un banco — entra a la suya. Misma hora, misma escuela, cada una en su mundo.",
+        "excerpt_es": "La hija hace clásico en una sala y la madre hace barre o yoga en la otra. Compartir escuela (que no clase) refuerza el vínculo y arregla la logística.",
+        "cos_es": """
+<p>Hace años, la imagen típica de la puerta de la escuela era una fila de madres y padres esperando con el móvil en la mano. Cada vez más, esa espera se ha convertido en otra cosa: <strong>su propia clase</strong>. Mientras la pequeña hace clásico infantil, la madre hace <a href="/es/cuerpo-bienestar/">barre o yoga</a>; mientras el adolescente suda en el hip-hop, el padre descubre que el claqué era su baile secreto.</p>
+
+<h2>la logística que se resuelve sola</h2>
+<p>La primera ventaja es práctica y es enorme: <strong>un solo viaje, dos actividades</strong>. La conciliación es el gran enemigo del ejercicio de los adultos — «no tengo tiempo» casi siempre significa «no tengo una hora que cuadre». Si tu hora cuadra exactamente con la de tu hija, la excusa se evapora. Mirad juntos la <a href="/es/horarios/">parrilla</a>: hay más coincidencias de las que pensáis.</p>
+
+<h2>el vínculo que se crea</h2>
+<p>Hay algo especial en compartir el camino de la escuela: salir de casa con las bolsas de danza, comentar la clase a la vuelta, entender de qué habla la otra cuando dice que hoy «le ha salido el giro». No hace falta bailar juntas ni hacer el mismo estilo — de hecho, casi mejor que no: <strong>cada una tiene su espacio</strong>, y lo que se comparte es la pasión, no la sala.</p>
+
+<h2>el ejemplo silencioso</h2>
+<p>Y hay un efecto más profundo que vemos a menudo: cuando una niña ve que su madre también va a clase, también se equivoca, también repite y también progresa, el mensaje que recibe no es ningún sermón — es un ejemplo. El esfuerzo, la constancia y el gusto por aprender <strong>se transmiten mejor bailando que diciéndolos</strong>.</p>
+
+<h2>cómo cuadrarlo</h2>
+<p>Decidnos los horarios de la criatura y os buscamos las clases de adultos que encajan — o al revés. Y si hace tiempo que no os movéis, sin miedo: los grupos de <a href="/es/danza-adultos/">adultos</a> tienen niveles de iniciación de verdad, y la primera clase, como siempre, <a href="/es/blog/clase-de-prueba-gratuita/">es gratuita</a>. Quizá dentro de unos meses, la conversación de la cena sea cuál de las dos tiene el festival más a punto.</p>
+""",
+        "faqs_es": [
+            ("¿hay clases de adultos a la misma hora que las infantiles?",
+             "Muchas: la parrilla está pensada para que las franjas de tarde tengan a la vez grupos infantiles y de adultos (barre, yoga, clásico, contemporáneo...). Decidnos el horario de vuestro hijo y os buscamos la coincidencia."),
+            ("¿madre e hija pueden ir a la misma clase?",
+             "Los grupos van por edades, así que normalmente cada una tiene el suyo. Es parte de la gracia: compartir escuela y pasión, cada una en su espacio."),
+            ("hace años que no hago ejercicio: ¿puedo empezar igualmente?",
+             "Por supuesto. Los grupos de adultos de iniciación empiezan de cero de verdad, y disciplinas como el barre o el yoga son una puerta de entrada amable para cualquier condición física."),
+        ],
+    },
+    {
+        "slug": "musica-a-les-classes",
+        "slug_es": "musica-en-las-clases",
+        "categoria": "l'escola",
+        "categoria_es": "la escuela",
+        "data": "2026-05-20",
+        "data_ca": "20 de maig de 2026",
+        "data_es": "20 de mayo de 2026",
+        "minuts": 4,
+        "nom_wa": "dansa",
+        "nom_wa_es": "danza",
+        "og": "blog-musica.jpg",
+        "img": "blog-musica.jpg",
+        "img_alt": "Un altaveu antic i una llibreta de notes sobre una tauleta de fusta en una sala de dansa",
+        "img_alt_es": "Un altavoz antiguo y una libreta de notas sobre una mesita de madera en una sala de danza",
+        "related_pagines": ["ballet-classic", "hip-hop", "dansa-contemporania", "horaris"],
+        "related_posts": ["dansa-i-timidesa"],
+
+        "title": "la música de les classes: com la triem i per què importa tant · escola de dansa cristina colomé",
+        "desc": "Del piano del clàssic a les llistes que demanen els adolescents de hip-hop: com es tria la música de cada classe de dansa, i per què és la meitat invisible de l'aprenentatge.",
+        "h1": "la música de les classes: com la triem i per què importa tant",
+        "intro": "Si preguntes a una alumna què recorda de fa tres cursos, potser no recordarà la coreografia — però taral·lejarà la cançó. La música és la meitat invisible de cada classe, i triar-la és un ofici.",
+        "excerpt": "Del piano del clàssic a les llistes que demanen els adolescents: com es tria la música de cada classe i per què és la meitat de l'aprenentatge.",
+        "cos": """
+<p>Hi ha una feina que les professores fan cada setmana i que gairebé ningú veu: <strong>triar la música</strong>. Sembla un detall, però qui es dedica a ensenyar dansa sap que una classe amb la música ben triada funciona sola — i una amb la música equivocada costa el doble.</p>
+
+<h2>al clàssic, la música és estructura</h2>
+<p>Una classe de <a href="/ballet-classic/">ballet clàssic</a> té una arquitectura musical mil·limetrada: cada exercici demana el seu tempo, el seu compàs i el seu caràcter — un plié no respira igual que un gran allegro. Per això el repertori de piano per a classe és tot un gènere en ell mateix, i per això les alumnes de clàssic acaben tenint, sense adonar-se'n, una cultura musical clàssica que ja voldrien molts adults.</p>
+
+<h2>al contemporani, la música és paisatge</h2>
+<p>Al <a href="/dansa-contemporania/">contemporani</a> la música fa una altra feina: crea l'atmosfera on el moviment pren sentit. Un dia és un piano minimalista, l'altre una electrònica ambient, l'altre el silenci i la pròpia respiració. Aprendre a ballar «dins» de músiques tan diferents és part de la formació: el cos aprèn a escoltar.</p>
+
+<h2>a les urbanes, la música és el pacte</h2>
+<p>I al <a href="/hip-hop/">hip-hop</a> i al k-pop passa una cosa preciosa: la música és el pacte entre professora i alumnes. Les professores escolten què porta el grup — la cançó del moment, l'artista que els té el cap girat — i ho converteixen en coreografia. Quan un adolescent balla la seva música, la classe deixa de ser una activitat i passa a ser <strong>el seu moment de la setmana</strong>.</p>
+
+<h2>un consell per a casa</h2>
+<p>Si el teu fill o filla surt de classe cantussejant, aprofita-ho: pregunta-li quina cançó és, poseu-la a casa, deixa que t'ensenyi els passos. Aquell moment de cuina i sofà és or: consolida el que ha après i us regala una estona junts. I si la cançó se t'enganxa a tu també... ja saps <a href="/horaris/">on som</a>.</p>
+""",
+        "faqs": [
+            ("les classes de clàssic es fan amb música en directe?",
+             "Treballem amb el gran repertori de piano per a classe de ballet, triat exercici a exercici. L'estructura musical del clàssic és part fonamental del que s'aprèn."),
+            ("els alumnes poden demanar cançons?",
+             "A les disciplines urbanes, i tant: les professores escolten què porta el grup i ho incorporen a les coreografies. És part del que fa que les classes enganxin."),
+            ("la dansa ajuda a l'educació musical?",
+             "Moltíssim: ritme, compàs, fraseig, estils... Ballar és escoltar amb tot el cos, i aquesta escolta es queda per sempre."),
+        ],
+
+        "title_es": "la música de las clases: cómo la elegimos y por qué importa tanto · escola de dansa cristina colomé",
+        "desc_es": "Del piano del clásico a las listas que piden los adolescentes de hip-hop: cómo se elige la música de cada clase de danza, y por qué es la mitad invisible del aprendizaje.",
+        "h1_es": "la música de las clases: cómo la elegimos y por qué importa tanto",
+        "intro_es": "Si preguntas a una alumna qué recuerda de hace tres cursos, quizá no recuerde la coreografía — pero tarareará la canción. La música es la mitad invisible de cada clase, y elegirla es un oficio.",
+        "excerpt_es": "Del piano del clásico a las listas que piden los adolescentes: cómo se elige la música de cada clase y por qué es la mitad del aprendizaje.",
+        "cos_es": """
+<p>Hay un trabajo que las profesoras hacen cada semana y que casi nadie ve: <strong>elegir la música</strong>. Parece un detalle, pero quien se dedica a enseñar danza sabe que una clase con la música bien elegida funciona sola — y una con la música equivocada cuesta el doble.</p>
+
+<h2>en el clásico, la música es estructura</h2>
+<p>Una clase de <a href="/es/ballet-clasico/">ballet clásico</a> tiene una arquitectura musical milimetrada: cada ejercicio pide su tempo, su compás y su carácter — un plié no respira igual que un gran allegro. Por eso el repertorio de piano para clase es todo un género en sí mismo, y por eso las alumnas de clásico acaban teniendo, sin darse cuenta, una cultura musical clásica que ya quisieran muchos adultos.</p>
+
+<h2>en el contemporáneo, la música es paisaje</h2>
+<p>En el <a href="/es/danza-contemporanea/">contemporáneo</a> la música hace otro trabajo: crea la atmósfera donde el movimiento cobra sentido. Un día es un piano minimalista, otro una electrónica ambient, otro el silencio y la propia respiración. Aprender a bailar «dentro» de músicas tan distintas es parte de la formación: el cuerpo aprende a escuchar.</p>
+
+<h2>en las urbanas, la música es el pacto</h2>
+<p>Y en el <a href="/es/hip-hop/">hip-hop</a> y el k-pop pasa algo precioso: la música es el pacto entre profesora y alumnos. Las profesoras escuchan qué trae el grupo — la canción del momento, el artista que les tiene la cabeza girada — y lo convierten en coreografía. Cuando un adolescente baila su música, la clase deja de ser una actividad y pasa a ser <strong>su momento de la semana</strong>.</p>
+
+<h2>un consejo para casa</h2>
+<p>Si tu hijo o hija sale de clase canturreando, aprovéchalo: pregúntale qué canción es, ponedla en casa, deja que te enseñe los pasos. Ese momento de cocina y sofá es oro: consolida lo aprendido y os regala un rato juntos. Y si la canción se te pega a ti también... ya sabes <a href="/es/horarios/">dónde estamos</a>.</p>
+""",
+        "faqs_es": [
+            ("¿las clases de clásico se hacen con música en directo?",
+             "Trabajamos con el gran repertorio de piano para clase de ballet, elegido ejercicio a ejercicio. La estructura musical del clásico es parte fundamental de lo que se aprende."),
+            ("¿los alumnos pueden pedir canciones?",
+             "En las disciplinas urbanas, por supuesto: las profesoras escuchan qué trae el grupo y lo incorporan a las coreografías. Es parte de lo que hace que las clases enganchen."),
+            ("¿la danza ayuda a la educación musical?",
+             "Muchísimo: ritmo, compás, fraseo, estilos... Bailar es escuchar con todo el cuerpo, y esa escucha se queda para siempre."),
+        ],
+    },
+
+    {
+        "slug": "dansa-oriental-forca-elegancia",
+        "slug_es": "danza-oriental-fuerza-elegancia",
+        "categoria": "estils",
+        "categoria_es": "estilos",
+        "data": "2026-05-13",
+        "data_ca": "13 de maig de 2026",
+        "data_es": "13 de mayo de 2026",
+        "minuts": 4,
+        "nom_wa": "dansa del ventre",
+        "nom_wa_es": "danza del vientre",
+        "og": "blog-oriental.jpg",
+        "img": "blog-oriental.jpg",
+        "img_alt": "Un mocador de dansa oriental amb monedes daurades sobre el parquet, amb llum càlida de tarda",
+        "img_alt_es": "Un pañuelo de danza oriental con monedas doradas sobre el parquet, con luz cálida de tarde",
+        "related_pagines": ["dansa-oriental", "dansa-adults", "cos-benestar", "horaris"],
+        "related_posts": ["comencar-dansa-adults"],
+
+        "title": "dansa oriental: la força que s'amaga darrere l'elegància · escola de dansa cristina colomé",
+        "desc": "La dansa oriental (dansa del ventre) és una de les disciplines més completes per a adults: tècnica mil·lenària, treball profund del centre del cos i una relació amb el propi cos que canvia la mirada.",
+        "h1": "dansa oriental: la força que s'amaga darrere l'elegància",
+        "intro": "De fora es veu elegància: braços que onegen, malucs que dibuixen cercles, el dring de les monedes. De dins, és una de les disciplines més exigents i alliberadores que tenim a l'escola.",
+        "excerpt": "La dansa oriental és de les disciplines més completes per a adults: tècnica mil·lenària, treball profund del centre i una nova relació amb el cos.",
+        "cos": """
+<p>Poques disciplines arrosseguen tants malentesos com la <a href="/dansa-oriental/">dansa oriental</a>. I poques sorprenen tant quan es prova: darrere de l'estètica hi ha una tècnica mil·lenària, un treball físic profund i — potser el més valuós — una manera nova de mirar-se el propi cos.</p>
+
+<h2>una tècnica de precisió</h2>
+<p>La dansa oriental es construeix sobre els <strong>aïllaments</strong>: moure el maluc sense moure les espatlles, dibuixar un vuit amb la cintura mentre els braços fan una altra frase. És feina de precisió quirúrgica que demana anys — i que engancha precisament per això: sempre hi ha una capa més per polir. Els shimmies, els cercles, les ondulacions... cada element té la seva escola i la seva història.</p>
+
+<h2>el centre del cos, despert</h2>
+<p>Físicament és un entrenament esplèndid del <strong>core</strong>: tota la musculatura profunda de l'abdomen, l'esquena i el sòl pelvià treballa sense parar, però sense impacte. Per això és una disciplina tan agraïda a totes les edats adultes: enforteix allà on més ho necessitem, millora la postura i desperta zones del cos que la vida de cadira adorm.</p>
+
+<h2>ballar per a una mateixa</h2>
+<p>I hi ha l'efecte que les alumnes veteranes citen sempre: la dansa oriental <strong>reconcilia amb el propi cos</strong>. No hi ha un cos ideal per ballar-la — hi ha el teu, i la dansa el celebra tal com és. En un grup de dones de totes les edats i totes les formes, ballant una tradició que fa segles que celebra el moviment femení, passa una cosa difícil d'explicar i fàcil de sentir: una es fa amiga del mirall.</p>
+
+<h2>vine a provar-ho</h2>
+<p>Els grups d'oriental de l'escola van per nivells, del zero absolut a l'avançat, i el mocador de monedes — que fa tanta patxoca — te'l deixem el primer dia. <a href="/classe-de-prova-gratuita/">La primera classe és gratuïta</a>: vine amb roba còmoda i deixa que els malucs facin la resta. Els horaris, com sempre, <a href="/horaris/">a la graella</a>.</p>
+""",
+        "faqs": [
+            ("cal tenir bona forma física per començar dansa oriental?",
+             "No: és una disciplina sense impacte que s'adapta a qualsevol punt de partida. La força del centre del cos es construeix a poc a poc, classe a classe."),
+            ("la dansa oriental és només per a dones?",
+             "Històricament la ballen persones de tots els gèneres i els nostres grups estan oberts a tothom. La majoria d'alumnes són dones, però la porta és oberta."),
+            ("què em cal per a la primera classe?",
+             "Roba còmoda que et deixi veure la cintura (o no, com et sentis bé) i peus descalços o mitjons. El mocador de monedes te'l deixem nosaltres."),
+        ],
+
+        "title_es": "danza oriental: la fuerza que se esconde tras la elegancia · escola de dansa cristina colomé",
+        "desc_es": "La danza oriental (danza del vientre) es una de las disciplinas más completas para adultos: técnica milenaria, trabajo profundo del centro del cuerpo y una relación con el propio cuerpo que cambia la mirada.",
+        "h1_es": "danza oriental: la fuerza que se esconde tras la elegancia",
+        "intro_es": "Desde fuera se ve elegancia: brazos que ondean, caderas que dibujan círculos, el tintineo de las monedas. Desde dentro, es una de las disciplinas más exigentes y liberadoras que tenemos en la escuela.",
+        "excerpt_es": "La danza oriental es de las disciplinas más completas para adultos: técnica milenaria, trabajo profundo del centro y una nueva relación con el cuerpo.",
+        "cos_es": """
+<p>Pocas disciplinas arrastran tantos malentendidos como la <a href="/es/danza-oriental/">danza oriental</a>. Y pocas sorprenden tanto cuando se prueba: detrás de la estética hay una técnica milenaria, un trabajo físico profundo y — quizá lo más valioso — una manera nueva de mirarse el propio cuerpo.</p>
+
+<h2>una técnica de precisión</h2>
+<p>La danza oriental se construye sobre los <strong>aislamientos</strong>: mover la cadera sin mover los hombros, dibujar un ocho con la cintura mientras los brazos hacen otra frase. Es trabajo de precisión quirúrgica que pide años — y que engancha precisamente por eso: siempre hay una capa más que pulir. Los shimmies, los círculos, las ondulaciones... cada elemento tiene su escuela y su historia.</p>
+
+<h2>el centro del cuerpo, despierto</h2>
+<p>Físicamente es un entrenamiento espléndido del <strong>core</strong>: toda la musculatura profunda del abdomen, la espalda y el suelo pélvico trabaja sin parar, pero sin impacto. Por eso es una disciplina tan agradecida a todas las edades adultas: fortalece donde más lo necesitamos, mejora la postura y despierta zonas del cuerpo que la vida de silla adormece.</p>
+
+<h2>bailar para una misma</h2>
+<p>Y está el efecto que las alumnas veteranas citan siempre: la danza oriental <strong>reconcilia con el propio cuerpo</strong>. No hay un cuerpo ideal para bailarla — está el tuyo, y la danza lo celebra tal como es. En un grupo de mujeres de todas las edades y todas las formas, bailando una tradición que lleva siglos celebrando el movimiento femenino, pasa algo difícil de explicar y fácil de sentir: una se hace amiga del espejo.</p>
+
+<h2>ven a probarlo</h2>
+<p>Los grupos de oriental de la escuela van por niveles, del cero absoluto al avanzado, y el pañuelo de monedas — que luce tanto — te lo dejamos el primer día. <a href="/es/blog/clase-de-prueba-gratuita/">La primera clase es gratuita</a>: ven con ropa cómoda y deja que las caderas hagan el resto. Los horarios, como siempre, <a href="/es/horarios/">en la parrilla</a>.</p>
+""",
+        "faqs_es": [
+            ("¿hace falta buena forma física para empezar danza oriental?",
+             "No: es una disciplina sin impacto que se adapta a cualquier punto de partida. La fuerza del centro del cuerpo se construye poco a poco, clase a clase."),
+            ("¿la danza oriental es solo para mujeres?",
+             "Históricamente la bailan personas de todos los géneros y nuestros grupos están abiertos a todo el mundo. La mayoría de alumnas son mujeres, pero la puerta está abierta."),
+            ("¿qué necesito para la primera clase?",
+             "Ropa cómoda que te deje ver la cintura (o no, como te sientas bien) y pies descalzos o calcetines. El pañuelo de monedas te lo dejamos nosotras."),
+        ],
+    },
+    {
+        "slug": "festival-fi-de-curs",
+        "slug_es": "festival-fin-de-curso",
+        "categoria": "l'escola",
+        "categoria_es": "la escuela",
+        "data": "2026-05-06",
+        "data_ca": "6 de maig de 2026",
+        "data_es": "6 de mayo de 2026",
+        "minuts": 4,
+        "nom_wa": "dansa",
+        "nom_wa_es": "danza",
+        "og": "blog-festival.jpg",
+        "img": "blog-festival.jpg",
+        "img_alt": "Un feix de llum d'escenari il·luminant el terra de fusta d'un teatre buit abans de la funció",
+        "img_alt_es": "Un haz de luz de escenario iluminando el suelo de madera de un teatro vacío antes de la función",
+        "related_pagines": ["formacio-escenica", "dansa-infantil", "musical-interpretacio", "horaris"],
+        "related_posts": ["dansa-i-timidesa", "historia-escola-25-anys"],
+
+        "title": "per què el festival de fi de curs és el cor de l'escola · escola de dansa cristina colomé",
+        "desc": "El festival de fi de curs no és una exhibició: és el moment on tot l'aprenentatge de l'any pren sentit. Nervis, teló, famílies i el creixement que només dona un escenari de veritat.",
+        "h1": "per què el festival de fi de curs és el cor de l'escola",
+        "intro": "Cada juny, quan s'apaguen els llums del teatre i s'obre el teló, passa la cosa més important del curs. I no és la coreografia: és el que el escenari fa amb cada alumna.",
+        "excerpt": "El festival no és una exhibició: és el moment on l'aprenentatge de l'any pren sentit. Nervis, teló i el creixement que només dona un escenari.",
+        "cos": """
+<p>Si ens preguntes quin dia de l'any resumeix millor què és l'escola, no et direm cap dimarts de classe: et direm <strong>el dia del festival</strong>. El teatre ple, les bambolines nervioses, les professores repassant entrades i sortides, i tres-centes famílies esperant que s'obri el teló.</p>
+
+<h2>l'escenari ho canvia tot</h2>
+<p>Es pot assajar una coreografia cent vegades a la sala, però l'escenari és una altra dimensió: els llums que t'encenen la pell, el públic que respira a les fosques, aquell silenci d'un segon abans que comenci la música. <strong>Cap classe pot ensenyar el que ensenya aquest moment</strong>: sortir, fer-ho, i descobrir que en eres capaç.</p>
+
+<h2>els nervis són part del regal</h2>
+<p>Sempre hi ha famílies que pateixen pels nervis de les criatures. El nostre missatge: els nervis són exactament el que hem vingut a treballar. Aprendre que la por escènica es transforma en energia, que l'equip et sosté i que després del teló hi ha l'aplaudiment — això és una lliçó de vida disfressada de ballet. Les alumnes de <a href="/formacio-escenica/">formació escènica</a> ho saben bé: l'escenari s'entrena, com tot.</p>
+
+<h2>la feina invisible</h2>
+<p>Un festival són mesos de feina que no es veu: triar músiques, cosir vestuaris, quadrar entrades de dues-centes criatures perquè tot flueixi, assajos generals on tot surt malament perquè el dia bo surti tot bé. És l'obra col·lectiva de tota l'escola — professores, famílies i alumnes — i per això el vincle que crea dura anys.</p>
+
+<h2>un motiu per començar al setembre</h2>
+<p>Si esteu dubtant si apuntar el vostre fill o filla, penseu-ho així: <strong>el curs és un viatge que acaba en un escenari</strong>. Començar al setembre vol dir tenir tot l'any per preparar aquell moment. I creieu-nos: la cara d'una nena saludant al públic amb el seu grup és de les coses que una família no oblida. <a href="/horaris/">Els horaris són aquí</a> — el teló del juny vinent, també.</p>
+""",
+        "faqs": [
+            ("tots els alumnes participen al festival?",
+             "Tots els grups hi tenen el seu número, dels més petits als adults. Participar és molt recomanable — és el gran moment del curs — però sempre es parla amb cada família."),
+            ("i si al meu fill li fa por l'escenari?",
+             "És normal i és part del procés: els nervis es treballen durant el curs i el grup sosté molt. La immensa majoria de pors escèniques es fonen quan s'obre el teló — i la sensació d'haver-ho fet val un tresor."),
+            ("les famílies poden veure el festival?",
+             "És clar: el festival es fa en un teatre amb entrades per a les famílies. És el dia que l'escola surt de Craywinckel i es planta davant del seu públic."),
+        ],
+
+        "title_es": "por qué el festival de fin de curso es el corazón de la escuela · escola de dansa cristina colomé",
+        "desc_es": "El festival de fin de curso no es una exhibición: es el momento donde todo el aprendizaje del año cobra sentido. Nervios, telón, familias y el crecimiento que solo da un escenario de verdad.",
+        "h1_es": "por qué el festival de fin de curso es el corazón de la escuela",
+        "intro_es": "Cada junio, cuando se apagan las luces del teatro y se abre el telón, pasa lo más importante del curso. Y no es la coreografía: es lo que el escenario hace con cada alumna.",
+        "excerpt_es": "El festival no es una exhibición: es el momento donde el aprendizaje del año cobra sentido. Nervios, telón y el crecimiento que solo da un escenario.",
+        "cos_es": """
+<p>Si nos preguntas qué día del año resume mejor qué es la escuela, no te diremos ningún martes de clase: te diremos <strong>el día del festival</strong>. El teatro lleno, los bastidores nerviosos, las profesoras repasando entradas y salidas, y trescientas familias esperando que se abra el telón.</p>
+
+<h2>el escenario lo cambia todo</h2>
+<p>Se puede ensayar una coreografía cien veces en la sala, pero el escenario es otra dimensión: las luces que te encienden la piel, el público que respira en la oscuridad, ese silencio de un segundo antes de que empiece la música. <strong>Ninguna clase puede enseñar lo que enseña ese momento</strong>: salir, hacerlo, y descubrir que eras capaz.</p>
+
+<h2>los nervios son parte del regalo</h2>
+<p>Siempre hay familias que sufren por los nervios de las criaturas. Nuestro mensaje: los nervios son exactamente lo que hemos venido a trabajar. Aprender que el miedo escénico se transforma en energía, que el equipo te sostiene y que después del telón está el aplauso — eso es una lección de vida disfrazada de ballet. Las alumnas de <a href="/es/formacion-escenica/">formación escénica</a> lo saben bien: el escenario se entrena, como todo.</p>
+
+<h2>el trabajo invisible</h2>
+<p>Un festival son meses de trabajo que no se ve: elegir músicas, coser vestuarios, cuadrar entradas de doscientas criaturas para que todo fluya, ensayos generales donde todo sale mal para que el día bueno salga todo bien. Es la obra colectiva de toda la escuela — profesoras, familias y alumnas — y por eso el vínculo que crea dura años.</p>
+
+<h2>un motivo para empezar en septiembre</h2>
+<p>Si estáis dudando si apuntar a vuestro hijo o hija, pensadlo así: <strong>el curso es un viaje que termina en un escenario</strong>. Empezar en septiembre significa tener todo el año para preparar ese momento. Y creednos: la cara de una niña saludando al público con su grupo es de las cosas que una familia no olvida. <a href="/es/horarios/">Los horarios están aquí</a> — el telón del próximo junio, también.</p>
+""",
+        "faqs_es": [
+            ("¿todos los alumnos participan en el festival?",
+             "Todos los grupos tienen su número, de los más pequeños a los adultos. Participar es muy recomendable — es el gran momento del curso — pero siempre se habla con cada familia."),
+            ("¿y si a mi hijo le da miedo el escenario?",
+             "Es normal y es parte del proceso: los nervios se trabajan durante el curso y el grupo sostiene mucho. La inmensa mayoría de miedos escénicos se funden cuando se abre el telón — y la sensación de haberlo hecho vale un tesoro."),
+            ("¿las familias pueden ver el festival?",
+             "Claro: el festival se hace en un teatro con entradas para las familias. Es el día que la escuela sale de Craywinckel y se planta ante su público."),
+        ],
+    },
+
+    {
+        "slug": "ballar-als-50-i-mes",
+        "slug_es": "bailar-a-los-50-y-mas",
+        "categoria": "adults",
+        "categoria_es": "adultos",
+        "data": "2026-04-29",
+        "data_ca": "29 d'abril de 2026",
+        "data_es": "29 de abril de 2026",
+        "minuts": 4,
+        "nom_wa": "dansa per a adults",
+        "nom_wa_es": "danza para adultos",
+        "og": "blog-adults-grans.jpg",
+        "img": "blog-adults-grans.jpg",
+        "img_alt": "Unes sabatilles de dansa clares amb una tovallola i una ampolla d'aigua sobre un banc de fusta",
+        "img_alt_es": "Unas zapatillas de danza claras con una toalla y una botella de agua sobre un banco de madera",
+        "related_pagines": ["dansa-adults", "cos-benestar", "ball-espanyol", "horaris"],
+        "related_posts": ["comencar-dansa-adults", "barre-entrenament-ballet"],
+
+        "title": "ballar als 50, als 60 i més enllà: el cos ho agraeix · escola de dansa cristina colomé",
+        "desc": "La dansa és de les millors activitats físiques a partir dels 50: memòria, equilibri, força i vida social en una sola hora. Per què mai no és tard i quines disciplines van millor per començar.",
+        "h1": "ballar als 50, als 60 i més enllà: el cos ho agraeix",
+        "intro": "Hi ha una idea que voldríem esborrar per sempre: que la dansa és cosa de joves. A les nostres sales hi ha alumnes que van començar amb els cabells ja blancs — i són de les més constants de l'escola.",
+        "excerpt": "La dansa és de les millors activitats a partir dels 50: memòria, equilibri, força i vida social en una sola hora. Mai no és tard.",
+        "cos": """
+<p>«Jo ja no tinc edat.» Si ens donessin un euro per cada cop que ho hem sentit a recepció — i un altre per cada cop que la mateixa persona, tres mesos després, surt de classe radiant — tindríem el parquet fet d'or. La veritat, avalada per l'experiència i per la ciència: <strong>a partir dels 50, ballar és de les millors coses que pots fer pel teu cos i pel teu cap</strong>.</p>
+
+<h2>el que diu la ciència</h2>
+<p>Ballar és de les poques activitats que entrena el cos i el cervell alhora: memòria (les coreografies), coordinació, equilibri, ritme i decisió en temps real. Els estudis que comparen activitats en persones grans donen a la dansa un lloc d'honor precisament per aquesta combinació — i els metges la recomanen cada cop més per mantenir l'agilitat física i mental.</p>
+
+<h2>el que diu l'experiència</h2>
+<p>El que veiem nosaltres cada setmana: millora la postura en poques setmanes, els equilibris guanyen seguretat, l'esquena es queixa menys i — potser el més important — <strong>la setmana té una cita fixa amb una mateixa</strong>. La classe és una hora on el cap només pot ser allà: comptant, escoltant, ballant. La millor desconnexió que existeix.</p>
+
+<h2>per on començar</h2>
+<p>Depèn del que et demani el cos. El <a href="/cos-benestar/">barre i el ioga</a> són portes d'entrada suaus i molt completes; el <a href="/ball-espanyol/">ball espanyol</a> i la dansa oriental tenen una riquesa i una alegria que enganxen; i el clàssic per a adults — sí, es pot començar clàssic de gran — és elegància pura a foc lent. Tots els grups d'<a href="/dansa-adults/">adults</a> tenen nivells d'iniciació on ningú no espera que sàpigues res.</p>
+
+<h2>l'única condició</h2>
+<p>Venir. La resta — el nivell, la forma, la vergonya dels primers dies — es resol sol amb les setmanes. La primera classe <a href="/classe-de-prova-gratuita/">és gratuïta</a> i sense compromís, i els horaris de matí i vespre són a la <a href="/horaris/">graella</a>. El cos que tens és el cos perfecte per començar: és l'únic que necessites portar.</p>
+""",
+        "faqs": [
+            ("puc començar a ballar dels 50 en amunt sense haver ballat mai?",
+             "I tant: tenim alumnes que van començar de zero passats els 50 i els 60. Els grups d'iniciació per a adults comencen des del principi de debò, i el progrés arriba abans del que et penses."),
+            ("quina disciplina va millor per començar de gran?",
+             "El barre i el ioga són les portes més suaus; el ball espanyol, l'oriental i el clàssic per a adults, les més riques en tècnica i tradició. La millor és la que et faci venir de gust tornar."),
+            ("i si tinc alguna limitació física?",
+             "Explica-nos-la i adaptem: les professores ajusten exercicis contínuament. La dansa ben ensenyada suma salut, mai en resta."),
+        ],
+
+        "title_es": "bailar a los 50, a los 60 y más allá: el cuerpo lo agradece · escola de dansa cristina colomé",
+        "desc_es": "La danza es de las mejores actividades físicas a partir de los 50: memoria, equilibrio, fuerza y vida social en una sola hora. Por qué nunca es tarde y qué disciplinas van mejor para empezar.",
+        "h1_es": "bailar a los 50, a los 60 y más allá: el cuerpo lo agradece",
+        "intro_es": "Hay una idea que querríamos borrar para siempre: que la danza es cosa de jóvenes. En nuestras salas hay alumnas que empezaron con el pelo ya blanco — y son de las más constantes de la escuela.",
+        "excerpt_es": "La danza es de las mejores actividades a partir de los 50: memoria, equilibrio, fuerza y vida social en una sola hora. Nunca es tarde.",
+        "cos_es": """
+<p>«Yo ya no tengo edad.» Si nos dieran un euro por cada vez que lo hemos oído en recepción — y otro por cada vez que la misma persona, tres meses después, sale de clase radiante — tendríamos el parquet hecho de oro. La verdad, avalada por la experiencia y por la ciencia: <strong>a partir de los 50, bailar es de las mejores cosas que puedes hacer por tu cuerpo y por tu cabeza</strong>.</p>
+
+<h2>lo que dice la ciencia</h2>
+<p>Bailar es de las pocas actividades que entrena el cuerpo y el cerebro a la vez: memoria (las coreografías), coordinación, equilibrio, ritmo y decisión en tiempo real. Los estudios que comparan actividades en personas mayores dan a la danza un lugar de honor precisamente por esta combinación — y los médicos la recomiendan cada vez más para mantener la agilidad física y mental.</p>
+
+<h2>lo que dice la experiencia</h2>
+<p>Lo que vemos nosotras cada semana: mejora la postura en pocas semanas, los equilibrios ganan seguridad, la espalda se queja menos y — quizá lo más importante — <strong>la semana tiene una cita fija con una misma</strong>. La clase es una hora donde la cabeza solo puede estar allí: contando, escuchando, bailando. La mejor desconexión que existe.</p>
+
+<h2>por dónde empezar</h2>
+<p>Depende de lo que te pida el cuerpo. El <a href="/es/cuerpo-bienestar/">barre y el yoga</a> son puertas de entrada suaves y muy completas; el <a href="/es/baile-espanol/">baile español</a> y la danza oriental tienen una riqueza y una alegría que enganchan; y el clásico para adultos — sí, se puede empezar clásico de mayor — es elegancia pura a fuego lento. Todos los grupos de <a href="/es/danza-adultos/">adultos</a> tienen niveles de iniciación donde nadie espera que sepas nada.</p>
+
+<h2>la única condición</h2>
+<p>Venir. El resto — el nivel, la forma, la vergüenza de los primeros días — se resuelve solo con las semanas. La primera clase <a href="/es/blog/clase-de-prueba-gratuita/">es gratuita</a> y sin compromiso, y los horarios de mañana y tarde están en la <a href="/es/horarios/">parrilla</a>. El cuerpo que tienes es el cuerpo perfecto para empezar: es lo único que necesitas traer.</p>
+""",
+        "faqs_es": [
+            ("¿puedo empezar a bailar de los 50 en adelante sin haber bailado nunca?",
+             "Por supuesto: tenemos alumnas que empezaron de cero pasados los 50 y los 60. Los grupos de iniciación para adultos empiezan desde el principio de verdad, y el progreso llega antes de lo que crees."),
+            ("¿qué disciplina va mejor para empezar de mayor?",
+             "El barre y el yoga son las puertas más suaves; el baile español, la oriental y el clásico para adultos, las más ricas en técnica y tradición. La mejor es la que te dé ganas de volver."),
+            ("¿y si tengo alguna limitación física?",
+             "Cuéntanosla y adaptamos: las profesoras ajustan ejercicios continuamente. La danza bien enseñada suma salud, nunca resta."),
+        ],
+    },
+    {
+        "slug": "kpop-heels-joves",
+        "slug_es": "kpop-heels-jovenes",
+        "categoria": "estils",
+        "categoria_es": "estilos",
+        "data": "2026-04-22",
+        "data_ca": "22 d'abril de 2026",
+        "data_es": "22 de abril de 2026",
+        "minuts": 4,
+        "nom_wa": "k-pop",
+        "nom_wa_es": "k-pop",
+        "og": "blog-kpop.jpg",
+        "img": "blog-kpop.jpg",
+        "img_alt": "Unes sabates de taló per ballar heels sobre el parquet d'una sala amb llum càlida de tarda",
+        "img_alt_es": "Unos zapatos de tacón para bailar heels sobre el parquet de una sala con luz cálida de tarde",
+        "related_pagines": ["k-pop-heels", "hip-hop", "jazz", "horaris"],
+        "related_posts": ["hip-hop-nens-adolescents"],
+
+        "title": "k-pop i heels: les classes que fan venir els joves corrent · escola de dansa cristina colomé",
+        "desc": "El k-pop i les heels són les disciplines que més creixen entre adolescents i joves adults: coreografies virals, point dance, empoderament i molta més tècnica de la que sembla.",
+        "h1": "k-pop i heels: les classes que fan venir els joves corrents",
+        "intro": "Hi ha dues paraules que fan brillar els ulls de mitja adolescència: k-pop i heels. I darrere del fenomen viral hi ha el que més ens agrada: tècnica, treball i una confiança que es veu créixer setmana a setmana.",
+        "excerpt": "K-pop i heels són les disciplines que més creixen entre joves: coreografies virals, point dance, empoderament i més tècnica de la que sembla.",
+        "cos": """
+<p>Quan vam obrir els grups de <a href="/k-pop-heels/">k-pop i heels</a>, sabíem que agradarien. El que no sabíem és que es convertirien en la porta per on tota una generació entraria a la dansa. Adolescents que mai no s'haurien apuntat a ballet arriben pel k-pop — i acaben descobrint que ballar era el seu lloc.</p>
+
+<h2>k-pop: la coreografia com a idioma</h2>
+<p>El k-pop ha fet una cosa única: ha tornat a posar la coreografia al centre de la música pop. Cada cançó té el seu <strong>point dance</strong> — aquell pas signatura pensat perquè milions de fans l'imitin — i les formacions canvien amb una precisió mil·limètrica. A classe aprenem les coreografies dels grups del moment tal com són, i això vol dir treballar neteja, sincronia i memòria a un nivell que sorprendria qualsevol escèptic.</p>
+
+<h2>heels: força sobre talons</h2>
+<p>Les heels són una altra història i el mateix destí: ballar amb talons no és un caprici estètic, és <strong>un treball de força, equilibri i presència</strong> que transforma la manera de moure's — i de plantar-se al món. És una classe d'empoderament pur: esquena recta, mirada endavant i una seguretat que se'n va cap a la vida de fora de la sala.</p>
+
+<h2>més tècnica de la que sembla</h2>
+<p>Totes dues disciplines beuen del jazz, del hip-hop i fins i tot del vogue: aïllaments, línies, musicalitat, actitud. Qui ve «només» a ballar la cançó del moment s'emporta, sense adonar-se'n, una formació de dansa contemporània urbana molt completa. I qui vulgui anar més enllà té el <a href="/hip-hop/">hip-hop</a> i el <a href="/jazz/">jazz</a> a un passadís de distància.</p>
+
+<h2>vine amb la cançó al cap</h2>
+<p>Si tens (o tens a casa) algú que es passa el dia imitant coreografies davant del mirall, ja saps què li has de dir: que això, ben après i amb grup, és mil vegades millor. <a href="/classe-de-prova-gratuita/">Primera classe gratuïta</a>, horaris <a href="/horaris/">a la graella</a>, i els talons — per a heels — quan la professora digui que els peus estan a punt.</p>
+""",
+        "faqs": [
+            ("a partir de quina edat es pot fer k-pop?",
+             "Els grups de k-pop són juvenils: pensats per a adolescents i joves. Els més petits poden començar per hip-hop o jazz infantil i fer el salt quan toqui."),
+            ("cal portar talons a la primera classe de heels?",
+             "No: es comença treballant la tècnica amb esportives, i els talons s'incorporen quan la base de força i equilibri està construïda. La professora t'orientarà sobre quins talons comprar."),
+            ("les coreografies són les originals dels grups de k-pop?",
+             "Sí: aprenem les coreografies reals dels grups del moment, adaptant la dificultat al nivell del grup. La satisfacció de clavar el point dance de la teva cançó no té preu."),
+        ],
+
+        "title_es": "k-pop y heels: las clases que hacen venir corriendo a los jóvenes · escola de dansa cristina colomé",
+        "desc_es": "El k-pop y las heels son las disciplinas que más crecen entre adolescentes y jóvenes adultos: coreografías virales, point dance, empoderamiento y mucha más técnica de la que parece.",
+        "h1_es": "k-pop y heels: las clases que hacen venir corriendo a los jóvenes",
+        "intro_es": "Hay dos palabras que hacen brillar los ojos de media adolescencia: k-pop y heels. Y detrás del fenómeno viral está lo que más nos gusta: técnica, trabajo y una confianza que se ve crecer semana a semana.",
+        "excerpt_es": "K-pop y heels son las disciplinas que más crecen entre jóvenes: coreografías virales, point dance, empoderamiento y más técnica de la que parece.",
+        "cos_es": """
+<p>Cuando abrimos los grupos de <a href="/es/k-pop-heels/">k-pop y heels</a>, sabíamos que gustarían. Lo que no sabíamos es que se convertirían en la puerta por donde toda una generación entraría a la danza. Adolescentes que nunca se habrían apuntado a ballet llegan por el k-pop — y acaban descubriendo que bailar era su lugar.</p>
+
+<h2>k-pop: la coreografía como idioma</h2>
+<p>El k-pop ha hecho algo único: ha vuelto a poner la coreografía en el centro de la música pop. Cada canción tiene su <strong>point dance</strong> — ese paso firma pensado para que millones de fans lo imiten — y las formaciones cambian con una precisión milimétrica. En clase aprendemos las coreografías de los grupos del momento tal como son, y eso significa trabajar limpieza, sincronía y memoria a un nivel que sorprendería a cualquier escéptico.</p>
+
+<h2>heels: fuerza sobre tacones</h2>
+<p>Las heels son otra historia y el mismo destino: bailar con tacones no es un capricho estético, es <strong>un trabajo de fuerza, equilibrio y presencia</strong> que transforma la manera de moverse — y de plantarse en el mundo. Es una clase de empoderamiento puro: espalda recta, mirada al frente y una seguridad que se va hacia la vida de fuera de la sala.</p>
+
+<h2>más técnica de la que parece</h2>
+<p>Ambas disciplinas beben del jazz, del hip-hop e incluso del vogue: aislamientos, líneas, musicalidad, actitud. Quien viene «solo» a bailar la canción del momento se lleva, sin darse cuenta, una formación de danza urbana contemporánea muy completa. Y quien quiera ir más allá tiene el <a href="/es/hip-hop/">hip-hop</a> y el <a href="/es/jazz/">jazz</a> a un pasillo de distancia.</p>
+
+<h2>ven con la canción en la cabeza</h2>
+<p>Si tienes (o tienes en casa) a alguien que se pasa el día imitando coreografías delante del espejo, ya sabes qué decirle: que eso, bien aprendido y con grupo, es mil veces mejor. <a href="/es/blog/clase-de-prueba-gratuita/">Primera clase gratuita</a>, horarios <a href="/es/horarios/">en la parrilla</a>, y los tacones — para heels — cuando la profesora diga que los pies están a punto.</p>
+""",
+        "faqs_es": [
+            ("¿a partir de qué edad se puede hacer k-pop?",
+             "Los grupos de k-pop son juveniles: pensados para adolescentes y jóvenes. Los más pequeños pueden empezar por hip-hop o jazz infantil y dar el salto cuando toque."),
+            ("¿hay que llevar tacones a la primera clase de heels?",
+             "No: se empieza trabajando la técnica con deportivas, y los tacones se incorporan cuando la base de fuerza y equilibrio está construida. La profesora te orientará sobre qué tacones comprar."),
+            ("¿las coreografías son las originales de los grupos de k-pop?",
+             "Sí: aprendemos las coreografías reales de los grupos del momento, adaptando la dificultad al nivel del grupo. La satisfacción de clavar el point dance de tu canción no tiene precio."),
+        ],
+    },
 ]
