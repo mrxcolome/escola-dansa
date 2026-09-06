@@ -571,13 +571,14 @@ details.faq{border-bottom:1px solid var(--vora)}
 .relacionats{display:flex;gap:10px;flex-wrap:wrap;margin-top:26px}
 .relacionats a{border:1px solid var(--vora);border-radius:100px;padding:10px 22px;font-size:var(--text);font-weight:600;text-transform:lowercase;color:var(--gris);transition:all .3s}
 .relacionats a:hover{border-color:var(--granat-viu);color:var(--blanc)}
-footer.peu{border-top:1px solid var(--vora);padding:34px 5vw;display:flex;flex-wrap:wrap;gap:16px;align-items:center;justify-content:space-between;font-size:var(--text);color:var(--gris);margin-top:80px}
+footer.peu{border-top:1px solid var(--vora);padding:34px 5vw;display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-content:center;text-align:center;font-size:var(--text);color:var(--gris);margin-top:80px}
 footer.peu a.actiu{color:var(--blanc)}
 .peu-email{color:inherit;text-decoration:none}
 .peu-email:hover{color:var(--blanc);text-decoration:underline}
 /* selector d'idioma al peu: dropdown cap amunt (desktop) i cat/es (mobil) */
-.idioma-peu{margin:0 0 0 3vw;display:inline-flex;position:relative;cursor:pointer;vertical-align:middle}
+.idioma-peu{margin:0;display:inline-flex;position:relative;cursor:pointer;vertical-align:middle}
 .idioma-peu .idioma-menu{top:auto;bottom:100%;padding-top:0;padding-bottom:14px}
+.peu-sep{color:var(--gris);opacity:.6}
 .peu-idioma-mobil{display:none}
 .reveal{opacity:0;transform:translateY(36px);transition:opacity .9s var(--ease),transform .9s var(--ease)}
 .reveal.vist{opacity:1;transform:none}
@@ -590,6 +591,8 @@ footer.peu a.actiu{color:var(--blanc)}
   .idioma-mobil a.actiu{color:var(--blanc)}
   .idioma-mobil span{color:var(--gris)}
   .idioma-peu{display:none}
+  .peu-sep{display:none}
+  footer.peu{flex-direction:column;gap:10px}
   .peu-idioma-mobil{display:flex;width:100%;justify-content:center;gap:6px;align-items:center;margin-top:8px}
   header.capsal{padding-top:110px}
   h2{font-size:2.35rem}
@@ -1077,8 +1080,14 @@ def genera(p):
 
 <footer class="peu">
   <span>escola de dansa cristina colomé</span>
-  <span>craywinckel, 25 · 08022 barcelona · <a href="tel:{TEL_LINK}">{TEL}</a><span class="idioma idioma-peu" tabindex="0"><span class="idioma-etiq">idioma</span><span class="idioma-menu"><a href="{url_ca}" hreflang="ca"{' class="actiu"' if lang == 'ca' else ''}>català</a><a href="{url_es}" hreflang="es"{' class="actiu"' if lang == 'es' else ''}>castellano</a></span></span></span>
-  <span class="peu-linia"><a class="peu-email" href="mailto:info@escoladansa.com">info@escoladansa.com</a> · <a class="peu-email" href="{'/es/#privacitat' if lang == 'es' else '/#privacitat'}">{'privacidad' if lang == 'es' else 'privacitat'}</a></span>
+  <span class="peu-sep" aria-hidden="true">·</span>
+  <span>craywinckel, 25 barcelona</span>
+  <span class="peu-sep" aria-hidden="true">·</span>
+  <a class="peu-email" href="mailto:info@escoladansa.com">info@escoladansa.com</a>
+  <span class="peu-sep" aria-hidden="true">·</span>
+  <a class="peu-email" href="{'/es/#privacitat' if lang == 'es' else '/#privacitat'}">{'privacidad' if lang == 'es' else 'privacitat'}</a>
+  <span class="peu-sep peu-sep-idioma" aria-hidden="true">·</span>
+  <span class="idioma idioma-peu" tabindex="0"><span class="idioma-etiq">idioma</span><span class="idioma-menu"><a href="{url_ca}" hreflang="ca"{' class="actiu"' if lang == 'ca' else ''}>català</a><a href="{url_es}" hreflang="es"{' class="actiu"' if lang == 'es' else ''}>castellano</a></span></span>
   <span class="peu-idioma-mobil"><a href="{url_ca}"{' class="actiu"' if lang == 'ca' else ''}>cat</a><span>/</span><a href="{url_es}"{' class="actiu"' if lang == 'es' else ''}>es</a></span>
 </footer>
 

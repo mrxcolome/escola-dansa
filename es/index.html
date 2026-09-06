@@ -111,7 +111,7 @@ body.cursor-actiu .cursor-punt, body.cursor-actiu .cursor-anell{display:block}
 /* ===== NAV ===== */
 nav{
   position:fixed;top:0;left:0;right:0;z-index:100;
-  display:flex;align-items:center;justify-content:space-between;
+  display:flex;align-items:center;justify-content:center;
   padding:18px 5vw;
   transition:background .4s,padding .4s,box-shadow .4s;
 }
@@ -401,8 +401,9 @@ footer.peu a.actiu{color:var(--blanc)}
 .peu-email:hover{color:var(--blanc);text-decoration:underline}
 .peu-priv{background:none;border:0;padding:0;color:inherit;font:inherit;cursor:pointer}
 .peu-priv:hover{color:var(--blanc);text-decoration:underline}
+.peu-sep{color:var(--gris);opacity:.6}
 /* selector d'idioma al peu: dropdown cap amunt (desktop) i cat/es (mobil) */
-.idioma-peu{margin:0 0 0 3vw;display:inline-flex;position:relative;cursor:pointer;vertical-align:middle}
+.idioma-peu{margin:0;display:inline-flex;position:relative;cursor:pointer;vertical-align:middle}
 .idioma-peu .idioma-menu{top:auto;bottom:100%;padding-top:0;padding-bottom:14px}
 .peu-idioma-mobil{display:none}
 
@@ -597,6 +598,7 @@ details.faq{border-bottom:1px solid var(--vora)}
     padding:36px 5vw;
   }
   footer.peu .marca-peu{justify-content:center;text-align:center}
+  .peu-sep{display:none}
 }
 @media (prefers-reduced-motion:reduce){
   *,*::before,*::after{animation-duration:.01ms!important;transition-duration:.01ms!important}
@@ -1051,11 +1053,15 @@ details.faq{border-bottom:1px solid var(--vora)}
 
 <!-- ===== FOOTER ===== -->
 <footer class="peu">
-  <div class="marca-peu">
-    <span>escola de dansa cristina colomé</span>
-  </div>
-  <span>craywinckel, 25 · barcelona<span class="idioma idioma-peu" tabindex="0"><span class="idioma-etiq">idioma</span><span class="idioma-menu"><a href="/" hreflang="ca">català</a><a href="/es/" hreflang="es" class="actiu">castellano</a></span></span></span>
-  <span class="peu-linia"><a class="peu-email" href="mailto:info@escoladansa.com">info@escoladansa.com</a> · <button type="button" class="peu-priv" data-obre="layerPrivacitat">privacidad</button></span>
+  <span>escola de dansa cristina colomé</span>
+  <span class="peu-sep" aria-hidden="true">·</span>
+  <span>craywinckel, 25 barcelona</span>
+  <span class="peu-sep" aria-hidden="true">·</span>
+  <a class="peu-email" href="mailto:info@escoladansa.com">info@escoladansa.com</a>
+  <span class="peu-sep" aria-hidden="true">·</span>
+  <button type="button" class="peu-priv" data-obre="layerPrivacitat">privacidad</button>
+  <span class="peu-sep peu-sep-idioma" aria-hidden="true">·</span>
+  <span class="idioma idioma-peu" tabindex="0"><span class="idioma-etiq">idioma</span><span class="idioma-menu"><a href="/" hreflang="ca">català</a><a href="/es/" hreflang="es" class="actiu">castellano</a></span></span>
   <span class="peu-idioma-mobil"><a href="/">cat</a><span>/</span><a href="/es/" class="actiu">es</a></span>
 </footer>
 
