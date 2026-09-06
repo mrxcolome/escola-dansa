@@ -44,5 +44,5 @@ No pasa nada: nos avisas y listo. Y si un día no puede venir en su horario, mir
 
 ---
 
-escola de dansa cristina colomé · Carrer de Craywinckel, 25, 08022 Barcelona (Sant Gervasi) · tel. 934 17 98 86 · https://escoladansa.com/es/
+escola de dansa cristina colomé · Carrer de Craywinckel, 25, 08022 Barcelona (Sant Gervasi) · tel. 934 17 98 86 · info@escoladansa.com · https://escoladansa.com/es/
 la primera clase de prueba es gratuita.

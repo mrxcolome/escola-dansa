@@ -40,5 +40,5 @@ el claqué el comencem a partir de l'etapa juvenil. per als més petits recomane
 
 ---
 
-escola de dansa cristina colomé · Carrer de Craywinckel, 25, 08022 Barcelona (Sant Gervasi) · tel. 934 17 98 86 · https://escoladansa.com
+escola de dansa cristina colomé · Carrer de Craywinckel, 25, 08022 Barcelona (Sant Gervasi) · tel. 934 17 98 86 · info@escoladansa.com · https://escoladansa.com
 la primera classe de prova és gratuïta.

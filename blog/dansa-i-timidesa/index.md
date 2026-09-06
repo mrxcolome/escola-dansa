@@ -42,5 +42,5 @@ Cada nen té el seu ritme: n'hi ha que a la tercera classe ja canten, d'altres q
 
 ---
 
-escola de dansa cristina colomé · Carrer de Craywinckel, 25, 08022 Barcelona (Sant Gervasi) · tel. 934 17 98 86 · https://escoladansa.com
+escola de dansa cristina colomé · Carrer de Craywinckel, 25, 08022 Barcelona (Sant Gervasi) · tel. 934 17 98 86 · info@escoladansa.com · https://escoladansa.com
 la primera classe de prova és gratuïta.

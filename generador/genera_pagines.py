@@ -573,6 +573,8 @@ details.faq{border-bottom:1px solid var(--vora)}
 .relacionats a:hover{border-color:var(--granat-viu);color:var(--blanc)}
 footer.peu{border-top:1px solid var(--vora);padding:34px 5vw;display:flex;flex-wrap:wrap;gap:16px;align-items:center;justify-content:space-between;font-size:var(--text);color:var(--gris);margin-top:80px}
 footer.peu a.actiu{color:var(--blanc)}
+.peu-email{color:inherit;text-decoration:none}
+.peu-email:hover{color:var(--blanc);text-decoration:underline}
 /* selector d'idioma al peu: dropdown cap amunt (desktop) i cat/es (mobil) */
 .idioma-peu{margin:0 0 0 3vw;display:inline-flex;position:relative;cursor:pointer;vertical-align:middle}
 .idioma-peu .idioma-menu{top:auto;bottom:100%;padding-top:0;padding-bottom:14px}
@@ -827,6 +829,7 @@ def json_ld(p):
                 "name": "escola de Dansa Cristina Colomé",
                 "url": DOMINI + "/",
                 "telephone": "+34934179886",
+                "email": "info@escoladansa.com",
                 "address": {
                     "@type": "PostalAddress",
                     "streetAddress": "carrer de Craywinckel, 25",
@@ -1074,7 +1077,9 @@ def genera(p):
 
 <footer class="peu">
   <span>escola de dansa cristina colomé</span>
-  <span>craywinckel, 25 · 08022 barcelona · <a href="tel:{TEL_LINK}">{TEL}</a><span class="idioma idioma-peu" tabindex="0"><span class="idioma-etiq">idioma</span><span class="idioma-menu"><a href="{url_ca}" hreflang="ca"{' class="actiu"' if lang == 'ca' else ''}>català</a><a href="{url_es}" hreflang="es"{' class="actiu"' if lang == 'es' else ''}>castellano</a></span></span><span class="peu-idioma-mobil"><a href="{url_ca}"{' class="actiu"' if lang == 'ca' else ''}>cat</a><span>/</span><a href="{url_es}"{' class="actiu"' if lang == 'es' else ''}>es</a></span></span>
+  <span>craywinckel, 25 · 08022 barcelona · <a href="tel:{TEL_LINK}">{TEL}</a><span class="idioma idioma-peu" tabindex="0"><span class="idioma-etiq">idioma</span><span class="idioma-menu"><a href="{url_ca}" hreflang="ca"{' class="actiu"' if lang == 'ca' else ''}>català</a><a href="{url_es}" hreflang="es"{' class="actiu"' if lang == 'es' else ''}>castellano</a></span></span></span>
+  <a class="peu-email" href="mailto:info@escoladansa.com">info@escoladansa.com</a>
+  <span class="peu-idioma-mobil"><a href="{url_ca}"{' class="actiu"' if lang == 'ca' else ''}>cat</a><span>/</span><a href="{url_es}"{' class="actiu"' if lang == 'es' else ''}>es</a></span>
 </footer>
 
 <script>{JS}</script>

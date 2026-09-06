@@ -18,10 +18,10 @@ from traduccions_es import TRADUCCIONS_ES
 
 ARREL = gp.ARREL
 PEU_CA = (f"\n---\n\nescola de dansa cristina colomé · Carrer de Craywinckel, 25, "
-          f"08022 Barcelona (Sant Gervasi) · tel. {gp.TEL} · https://escoladansa.com\n"
+          f"08022 Barcelona (Sant Gervasi) · tel. {gp.TEL} · info@escoladansa.com · https://escoladansa.com\n"
           f"la primera classe de prova és gratuïta.\n")
 PEU_ES = (f"\n---\n\nescola de dansa cristina colomé · Carrer de Craywinckel, 25, "
-          f"08022 Barcelona (Sant Gervasi) · tel. {gp.TEL} · https://escoladansa.com/es/\n"
+          f"08022 Barcelona (Sant Gervasi) · tel. {gp.TEL} · info@escoladansa.com · https://escoladansa.com/es/\n"
           f"la primera clase de prueba es gratuita.\n")
 
 

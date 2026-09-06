@@ -392,6 +392,8 @@ footer.peu{
 }
 footer.peu .marca-peu{display:flex;align-items:center;gap:10px}
 footer.peu a.actiu{color:var(--blanc)}
+.peu-email{color:inherit;text-decoration:none}
+.peu-email:hover{color:var(--blanc);text-decoration:underline}
 /* selector d'idioma al peu: dropdown cap amunt (desktop) i cat/es (mobil) */
 .idioma-peu{margin:0 0 0 3vw;display:inline-flex;position:relative;cursor:pointer;vertical-align:middle}
 .idioma-peu .idioma-menu{top:auto;bottom:100%;padding-top:0;padding-bottom:14px}
@@ -607,6 +609,7 @@ details.faq{border-bottom:1px solid var(--vora)}
       "description": "escola de dansa al barri de Sant Gervasi de Barcelona amb més de 25 anys d'història. classes de clàssic, contemporani, jazz, hip-hop, claqué, ball espanyol i dansa oriental per a totes les edats i nivells. primera classe de prova gratuïta.",
       "url": "https://escoladansa.com/",
       "telephone": "+34934179886",
+      "email": "info@escoladansa.com",
       "image": "https://escoladansa.com/assets/og-escola.jpg",
       "logo": "https://escoladansa.com/assets/favicon-512.png",
       "priceRange": "56 € – 104 € al mes",
@@ -1006,6 +1009,10 @@ details.faq{border-bottom:1px solid var(--vora)}
         <small>adreça</small>
         <span>Craywinckel, 25 · 08022 Barcelona</span>
       </a>
+      <a class="dada reveal" href="mailto:info@escoladansa.com">
+        <small>email</small>
+        <span>info@escoladansa.com</span>
+      </a>
       <div class="dada reveal">
         <small>lloguer de sales</small>
         <span>3 sales condicionades i insonoritzades</span>
@@ -1036,7 +1043,9 @@ details.faq{border-bottom:1px solid var(--vora)}
   <div class="marca-peu">
     <span>escola de dansa cristina colomé</span>
   </div>
-  <span>craywinckel, 25 · barcelona<span class="idioma idioma-peu" tabindex="0"><span class="idioma-etiq">idioma</span><span class="idioma-menu"><a href="/" hreflang="ca" class="actiu">català</a><a href="/es/" hreflang="es">castellano</a></span></span><span class="peu-idioma-mobil"><a href="/" class="actiu">cat</a><span>/</span><a href="/es/">es</a></span></span>
+  <span>craywinckel, 25 · barcelona<span class="idioma idioma-peu" tabindex="0"><span class="idioma-etiq">idioma</span><span class="idioma-menu"><a href="/" hreflang="ca" class="actiu">català</a><a href="/es/" hreflang="es">castellano</a></span></span></span>
+  <a class="peu-email" href="mailto:info@escoladansa.com">info@escoladansa.com</a>
+  <span class="peu-idioma-mobil"><a href="/" class="actiu">cat</a><span>/</span><a href="/es/">es</a></span>
 </footer>
 
 <!-- targeta lliscant del butlletí -->

@@ -35,5 +35,5 @@ roba còmoda que et deixi veure el moviment del maluc (leggings i top o samarret
 
 ---
 
-escola de dansa cristina colomé · Carrer de Craywinckel, 25, 08022 Barcelona (Sant Gervasi) · tel. 934 17 98 86 · https://escoladansa.com
+escola de dansa cristina colomé · Carrer de Craywinckel, 25, 08022 Barcelona (Sant Gervasi) · tel. 934 17 98 86 · info@escoladansa.com · https://escoladansa.com
 la primera classe de prova és gratuïta.

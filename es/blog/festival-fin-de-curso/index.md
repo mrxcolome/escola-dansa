@@ -38,5 +38,5 @@ Claro: el festival se hace en un teatro con entradas para las familias. Es el d�
 
 ---
 
-escola de dansa cristina colomé · Carrer de Craywinckel, 25, 08022 Barcelona (Sant Gervasi) · tel. 934 17 98 86 · https://escoladansa.com/es/
+escola de dansa cristina colomé · Carrer de Craywinckel, 25, 08022 Barcelona (Sant Gervasi) · tel. 934 17 98 86 · info@escoladansa.com · https://escoladansa.com/es/
 la primera clase de prueba es gratuita.

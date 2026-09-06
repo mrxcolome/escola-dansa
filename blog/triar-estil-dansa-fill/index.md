@@ -42,5 +42,5 @@ No i no. Tenim nens a clàssic i nenes a hip-hop, i tant de bo cada cop més: el
 
 ---
 
-escola de dansa cristina colomé · Carrer de Craywinckel, 25, 08022 Barcelona (Sant Gervasi) · tel. 934 17 98 86 · https://escoladansa.com
+escola de dansa cristina colomé · Carrer de Craywinckel, 25, 08022 Barcelona (Sant Gervasi) · tel. 934 17 98 86 · info@escoladansa.com · https://escoladansa.com
 la primera classe de prova és gratuïta.
