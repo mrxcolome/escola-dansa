@@ -1078,7 +1078,7 @@ def genera(p):
 <footer class="peu">
   <span>escola de dansa cristina colomé</span>
   <span>craywinckel, 25 · 08022 barcelona · <a href="tel:{TEL_LINK}">{TEL}</a><span class="idioma idioma-peu" tabindex="0"><span class="idioma-etiq">idioma</span><span class="idioma-menu"><a href="{url_ca}" hreflang="ca"{' class="actiu"' if lang == 'ca' else ''}>català</a><a href="{url_es}" hreflang="es"{' class="actiu"' if lang == 'es' else ''}>castellano</a></span></span></span>
-  <a class="peu-email" href="mailto:info@escoladansa.com">info@escoladansa.com</a>
+  <span class="peu-linia"><a class="peu-email" href="mailto:info@escoladansa.com">info@escoladansa.com</a> · <a class="peu-email" href="{'/es/#privacitat' if lang == 'es' else '/#privacitat'}">{'privacidad' if lang == 'es' else 'privacitat'}</a></span>
   <span class="peu-idioma-mobil"><a href="{url_ca}"{' class="actiu"' if lang == 'ca' else ''}>cat</a><span>/</span><a href="{url_es}"{' class="actiu"' if lang == 'es' else ''}>es</a></span>
 </footer>
 

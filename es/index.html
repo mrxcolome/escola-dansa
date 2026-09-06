@@ -397,6 +397,8 @@ footer.peu .marca-peu{display:flex;align-items:center;gap:10px}
 footer.peu a.actiu{color:var(--blanc)}
 .peu-email{color:inherit;text-decoration:none}
 .peu-email:hover{color:var(--blanc);text-decoration:underline}
+.peu-priv{background:none;border:0;padding:0;color:inherit;font:inherit;cursor:pointer}
+.peu-priv:hover{color:var(--blanc);text-decoration:underline}
 /* selector d'idioma al peu: dropdown cap amunt (desktop) i cat/es (mobil) */
 .idioma-peu{margin:0 0 0 3vw;display:inline-flex;position:relative;cursor:pointer;vertical-align:middle}
 .idioma-peu .idioma-menu{top:auto;bottom:100%;padding-top:0;padding-bottom:14px}
@@ -1017,6 +1019,10 @@ details.faq{border-bottom:1px solid var(--vora)}
         <span>info@escoladansa.com</span>
       </a>
       <div class="dada reveal">
+        <small>horario de atención</small>
+        <span>de lunes a viernes, de 17 a 21.30 h (lu y mi también de 11 a 12 h)</span>
+      </div>
+      <div class="dada reveal">
         <small>alquiler de salas</small>
         <span>3 salas acondicionadas e insonorizadas</span>
       </div>
@@ -1047,7 +1053,7 @@ details.faq{border-bottom:1px solid var(--vora)}
     <span>escola de dansa cristina colomé</span>
   </div>
   <span>craywinckel, 25 · barcelona<span class="idioma idioma-peu" tabindex="0"><span class="idioma-etiq">idioma</span><span class="idioma-menu"><a href="/" hreflang="ca">català</a><a href="/es/" hreflang="es" class="actiu">castellano</a></span></span></span>
-  <a class="peu-email" href="mailto:info@escoladansa.com">info@escoladansa.com</a>
+  <span class="peu-linia"><a class="peu-email" href="mailto:info@escoladansa.com">info@escoladansa.com</a> · <button type="button" class="peu-priv" data-obre="layerPrivacitat">privacidad</button></span>
   <span class="peu-idioma-mobil"><a href="/">cat</a><span>/</span><a href="/es/" class="actiu">es</a></span>
 </footer>
 
@@ -1484,6 +1490,7 @@ document.querySelectorAll('[data-canvia]').forEach(a =>
 );
 // arribar amb /#escriu-nos (targeta "formulari" de les pàgines d'estil): obre el layer directament
 if (location.hash === '#escriu-nos') setTimeout(() => obreLayer('layerContacte'), 400);
+if (location.hash === '#privacitat') setTimeout(() => obreLayer('layerPrivacitat'), 400);
 document.querySelectorAll('.layer').forEach(l =>
   l.addEventListener('click', e => { if (e.target === l) tancaLayer(); })
 );
