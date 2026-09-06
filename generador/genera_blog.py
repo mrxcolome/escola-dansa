@@ -79,6 +79,8 @@ nav.solida{background:rgba(247,244,240,.88)}
 .bf-cos .peu-card{color:rgba(245,242,239,.7)}
 .pista-desliza{display:block;text-align:center;font-size:var(--text);color:var(--gris);font-style:italic;margin-top:2px}
 }
+/* el blog es l'unic espai amb majuscules: fora el lowercase de marca als titols */
+h1,h2,h3{text-transform:none}
 """
 gp.CSS += BLOG_CSS
 
