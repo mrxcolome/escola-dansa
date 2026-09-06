@@ -181,6 +181,8 @@ PARELLES = [
     ("de dilluns a divendres, de 17 a 21.30 h (dl i dc també d'11 a 12 h)",
      'de lunes a viernes, de 17 a 21.30 h (lu y mi también de 11 a 12 h)'),
     ('data-obre="layerPrivacitat">privacitat</button>', 'data-obre="layerPrivacitat">privacidad</button>'),
+    ("alt=\"la gran família de l'escola, al festival de fi de curs\"",
+     'alt="la gran familia de la escuela, en el festival de fin de curso"'),
     ('★ deixa la teva ressenya a Google', '★ deja tu reseña en Google'),
 
     # ── FAQ visibles ──

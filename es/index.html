@@ -389,6 +389,13 @@ h2.reveal{opacity:1;transform:none} /* els títols animen per lletres, no en blo
 .cta-insta:hover{border-color:var(--blanc);background:rgba(245,242,239,.06)}
 .cta-insta svg{width:22px;height:22px;fill:currentColor;flex-shrink:0}
 
+/* ===== FOTO DE FAMÍLIA (peu) ===== */
+.peu-foto{position:relative;margin-top:90px;overflow:hidden}
+.peu-foto img{display:block;width:100%;height:clamp(220px,30vw,420px);object-fit:cover;object-position:center 30%;filter:grayscale(1) contrast(1.04)}
+.peu-foto::after{content:"";position:absolute;inset:0;background:
+  linear-gradient(to bottom,var(--negre) 0,rgba(10,10,10,0) 26%,rgba(10,10,10,0) 70%,var(--negre) 100%),
+  rgba(149,0,0,.14)}
+
 /* ===== FOOTER ===== */
 footer.peu{
   border-top:1px solid var(--vora);padding:30px 5vw;
@@ -1051,6 +1058,11 @@ details.faq{border-bottom:1px solid var(--vora)}
 </section>
 
 </main>
+
+<!-- ===== FOTO DE FAMÍLIA ===== -->
+<div class="peu-foto reveal">
+  <img src="/assets/festival-familia.jpg" alt="la gran familia de la escuela, en el festival de fin de curso" width="1600" height="545" loading="lazy">
+</div>
 
 <!-- ===== FOOTER ===== -->
 <footer class="peu">
