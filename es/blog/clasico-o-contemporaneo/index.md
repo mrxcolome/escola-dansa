@@ -6,11 +6,11 @@ Es una de las preguntas que más oímos cuando alguien quiere empezar: «¿y qu�
 
 Imagina dos maneras de decir la misma frase: una recitada con una dicción perfecta, cada sílaba en su sitio; la otra dicha al oído, con pausas y respiraciones propias. Pues eso son, más o menos, el [clásico](/es/ballet-clasico/) y el [contemporáneo](/es/danza-contemporanea/): la misma lengua — el cuerpo — hablada con dos acentos muy distintos.
 
-## el clásico: la belleza del código
+## El clásico: la belleza del código
 
 El ballet clásico es un lenguaje codificado desde hace más de tres siglos: las cinco posiciones, el vocabulario en francés, la verticalidad, la ligereza. Su gracia es precisamente esa: **todo el mundo baila el mismo plié**, y la belleza sale de pulirlo toda la vida. Da una base técnica que sirve para cualquier otro estilo, postura para el día a día y una disciplina que ordena la cabeza.
 
-## el contemporáneo: el peso y la verdad
+## El contemporáneo: el peso y la verdad
 
 El contemporáneo nació precisamente para romper el código: bailar descalzo, trabajar con el peso del cuerpo en lugar de contra él, bajar al suelo y volver a levantarse, respirar el movimiento. Aquí no se busca la forma perfecta sino **el movimiento verdad**: qué significa este gesto, de dónde sale, hacia dónde va. Es físico, es emocional y es profundamente creativo.
 
@@ -18,11 +18,11 @@ El contemporáneo nació precisamente para romper el código: bailar descalzo, t
 
 Depende más del carácter que del cuerpo. Si te ordena la vida tener un marco claro y disfrutar del detalle, el clásico te enamorará. Si lo que te llama es expresar, explorar y que cada clase sea un viaje distinto, el contemporáneo es tu casa. Los niños suelen empezar por el clásico (la base lo agradece); los adolescentes y adultos a menudo se reparten por pura afinidad de piel.
 
-## el secreto: se multiplican
+## El secreto: se multiplican
 
 La respuesta que damos más a menudo es «¿por qué no ambos?». El clásico da al contemporáneo la técnica; el contemporáneo da al clásico la libertad. Nuestras alumnas que hacen los dos lo notan en semanas. Mira los grupos de cada disciplina en la [parrilla de horarios](/es/horarios/) y, si dudas, empieza con una [clase de prueba gratuita](/es/blog/clase-de-prueba-gratuita/) de cada uno: el cuerpo te dirá cuál le toca — o si le tocan los dos.
 
-## preguntas frecuentes
+## Preguntas frecuentes
 
 ### ¿puedo hacer contemporáneo sin haber hecho nunca clásico?
 

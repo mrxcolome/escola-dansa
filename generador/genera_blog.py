@@ -9,6 +9,7 @@ de la web, el blog es regenera igual. Contingut dels posts a blog_posts.py.
 """
 import json
 import os
+import re
 import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -94,18 +95,28 @@ ESCOLA_LD = {
 }
 
 
+# El blog es l'unic espai amb majuscules: els POSTS (titular, segons titulars
+# i bodycopy) van capitalitzats; la portada i la UI mantenen la minuscula de marca.
+def maj(t):
+    return t[0].upper() + t[1:] if t else t
+
+
+def cos_amb_majuscules(c):
+    return re.sub(r'<(h[23])([^>]*)>\s*(.)', lambda m: '<' + m.group(1) + m.group(2) + '>' + m.group(3).upper(), c)
+
+
 def ld_post(p, lang):
     if lang == "ca":
         url, nom_blog, inici = f"{DOMINI}/blog/{p['slug']}/", "blog", ("inici", DOMINI + "/", DOMINI + "/blog/")
         titol, desc, faqs = p["h1"], p["desc"], p["faqs"]
     else:
         url, nom_blog, inici = f"{DOMINI}/es/blog/{p['slug_es']}/", "blog", ("inicio", DOMINI + "/es/", DOMINI + "/es/blog/")
-        titol, desc, faqs = p["h1_es"], p["desc_es"], p["faqs_es"]
+        titol, desc, faqs = maj(p["h1_es"]), p["desc_es"], p["faqs_es"]
     graph = [
         {
             "@type": "BlogPosting",
             "@id": url + "#post",
-            "headline": titol,
+            "headline": maj(titol),
             "description": desc,
             "url": url,
             "mainEntityOfPage": url,
@@ -146,9 +157,9 @@ def chips_relacionats(p, lang):
         if not rp:
             continue
         if lang == "ca":
-            chips.append(f'      <a href="/blog/{rp["slug"]}/">{gp.esc(rp["h1"])}</a>')
+            chips.append(f'      <a href="/blog/{rp["slug"]}/">{gp.esc(maj(rp["h1"]))}</a>')
         else:
-            chips.append(f'      <a href="/es/blog/{rp["slug_es"]}/">{gp.esc(rp["h1_es"])}</a>')
+            chips.append(f'      <a href="/es/blog/{rp["slug_es"]}/">{gp.esc(maj(rp["h1_es"]))}</a>')
     per_slug_pag = {x["slug"]: x for x in gp.PAGINES}
     for s in p.get("related_pagines", []):
         pag = per_slug_pag.get(s)
@@ -181,7 +192,8 @@ def cos_post(p, lang):
         boto_nl, href_nl = "apúntame", "/es/#newsletter"
         lectura = f"{data} · {p['minuts']} min de lectura"
     alt = p["img_alt"] if lang == "ca" else p["img_alt_es"]
-    faqs_html = gp.bloc_faqs({"faqs": faqs})
+    cos = cos_amb_majuscules(cos)
+    faqs_html = gp.bloc_faqs({"faqs": [(maj(q), a) for q, a in faqs]})
     return f"""
   <section class="reveal article">
     <img class="post-img" src="/assets/{p['img']}" alt="{gp.esc(alt)}" width="1600" height="900">
@@ -208,9 +220,9 @@ def pagina_post_ca(p):
         "slug": f"blog/{p['slug']}",
         "nom": p["h1"],
         "nom_wa": p["nom_wa"],
-        "title": p["title"],
+        "title": maj(p["title"]),
         "desc": p["desc"],
-        "h1": p["h1"],
+        "h1": maj(p["h1"]),
         "intro": p["intro"],
         "etiqueta_capsal": f"blog · {p['categoria']}",
         "molla_mig": '<a href="/blog/">blog</a> · ',
@@ -228,9 +240,9 @@ def pagina_post_es(p):
         "lang": "es",
         "nom": p["h1_es"],
         "nom_wa": p["nom_wa_es"],
-        "title": p["title_es"],
+        "title": maj(p["title_es"]),
         "desc": p["desc_es"],
-        "h1": p["h1_es"],
+        "h1": maj(p["h1_es"]),
         "intro": p["intro_es"],
         "etiqueta_capsal": f"blog · {p['categoria_es']}",
         "molla_mig": '<a href="/es/blog/">blog</a> · ',
@@ -246,9 +258,9 @@ def pagina_post_es(p):
 
 def _camps_targeta(p, lang):
     if lang == "ca":
-        return (f"/blog/{p['slug']}/", p["categoria"], p["h1"], p["excerpt"],
+        return (f"/blog/{p['slug']}/", p["categoria"], maj(p["h1"]), p["excerpt"],
                 f"{p['data_ca']} · {p['minuts']} min de lectura", p["img_alt"])
-    return (f"/es/blog/{p['slug_es']}/", p["categoria_es"], p["h1_es"], p["excerpt_es"],
+    return (f"/es/blog/{p['slug_es']}/", p["categoria_es"], maj(p["h1_es"]), p["excerpt_es"],
             f"{p['data_es']} · {p['minuts']} min de lectura", p["img_alt_es"])
 
 
@@ -283,7 +295,7 @@ def ld_index(lang):
             "publisher": ESCOLA_LD,
             "blogPost": [
                 {"@type": "BlogPosting",
-                 "headline": (p["h1"] if lang == "ca" else p["h1_es"]),
+                 "headline": maj(p["h1"] if lang == "ca" else p["h1_es"]),
                  "url": (f"{DOMINI}/blog/{p['slug']}/" if lang == "ca"
                          else f"{DOMINI}/es/blog/{p['slug_es']}/"),
                  "datePublished": p["data"]}
@@ -404,7 +416,7 @@ def feed_rss(lang):
     items = []
     for p in sorted(POSTS, key=lambda x: x["data"], reverse=True):
         if lang == "ca":
-            u, t, e = f"{DOMINI}/blog/{p['slug']}/", p["h1"], p["desc"]
+            u, t, e = f"{DOMINI}/blog/{p['slug']}/", maj(p["h1"]), p["desc"]
         else:
             u, t, e = f"{DOMINI}/es/blog/{p['slug_es']}/", p["h1_es"], p["desc_es"]
         items.append(f"""    <item>

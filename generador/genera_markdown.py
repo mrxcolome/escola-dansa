@@ -168,17 +168,22 @@ def md_home(es=False):
     return '\n'.join(linies) + (PEU_ES if es else PEU_CA)
 
 
+def _maj(t):
+    return t[0].upper() + t[1:] if t else t
+
+
 def md_post(p, es=False):
     suf = '_es' if es else ''
-    linies = [f"# {p['h1' + suf]}", '',
+    linies = [f"# {_maj(p['h1' + suf])}", '',
               f"*{p['data_es' if es else 'data_ca']} · {p['minuts']} min*", '',
               p['intro' + suf], '',
-              html_a_md(p['cos' + suf]), '']
+              re.sub(r'^(#{2,3} )(.)', lambda m: m.group(1) + m.group(2).upper(),
+                     html_a_md(p['cos' + suf]), flags=re.M), '']
     faqs = p.get('faqs' + suf) or []
     if faqs:
-        linies += ['## preguntas frecuentes' if es else '## preguntes freqüents', '']
+        linies += ['## Preguntas frecuentes' if es else '## Preguntes freqüents', '']
         for q, a in faqs:
-            linies += [f"### {q}", '', a, '']
+            linies += [f"### {_maj(q)}", '', a, '']
     return '\n'.join(linies) + (PEU_ES if es else PEU_CA)
 
 
@@ -188,7 +193,7 @@ def md_blog_index(es=False):
     for p in sorted(bp.POSTS, key=lambda x: x['data'], reverse=True):
         slug = f"es/blog/{p['slug_es']}" if es else f"blog/{p['slug']}"
         suf = '_es' if es else ''
-        linies.append(f"- [{p['h1' + suf]}](https://escoladansa.com/{slug}/) — {p['excerpt' + suf]}")
+        linies.append(f"- [{_maj(p['h1' + suf])}](https://escoladansa.com/{slug}/) — {p['excerpt' + suf]}")
     return '\n'.join(linies) + '\n' + (PEU_ES if es else PEU_CA)
 
 

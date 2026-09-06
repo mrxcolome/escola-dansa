@@ -1,4 +1,4 @@
-# qué llevar el primer día de clase de danza
+# Qué llevar el primer día de clase de danza
 
 *22 de julio de 2026 · 4 min*
 
@@ -6,7 +6,7 @@ La buena noticia: mucho menos de lo que crees. La lista completa de la bolsa del
 
 Cada septiembre vemos llegar familias con la bolsa a rebosar: maillot nuevo, medias nuevas, zapatillas de media punta, faldita, malla de invierno por si acaso... y la mitad, sin estrenar, acaba en el fondo del armario. Este artículo es para ahorrarte ese viaje. La regla de oro del primer día es sencilla: **primero prueba, después compra**.
 
-## la lista del primer día (de verdad)
+## La lista del primer día (de verdad)
 
 - **Ropa cómoda y ajustadita.** Unos leggings o mallas y una camiseta que no baile mucho: la profesora tiene que poder ver cómo se coloca el cuerpo. No hace falta que sea «ropa de danza».
 
@@ -16,19 +16,19 @@ Cada septiembre vemos llegar familias con la bolsa a rebosar: maillot nuevo, med
 
 - **Pelo recogido** si lo lleva largo: una coleta o trenza bien hecha. El moño de bailarina ya llegará — ¡el primer día, que no le tire!
 
-## lo que no tienes que comprar (todavía)
+## Lo que no tienes que comprar (todavía)
 
 Ni maillot, ni medias de ballet, ni zapatillas de disciplina, ni faldas. Por dos motivos: primero, porque hasta que no sepamos el estilo y el grupo definitivos no sabréis qué hace falta exactamente; y segundo, porque cada disciplina tiene su material y es una pena duplicar. Cuando la alumna se quede, **os daremos la lista exacta de su grupo** — y os diremos dónde comprarlo sin pagar de más.
 
-## los nervios también vienen a la primera clase
+## Los nervios también vienen a la primera clase
 
 Es normal que el primer día haya algo de vértigo — suyo, y puede que tuyo también. Os lo ponemos fácil: llegad 10 minutos antes, la profesora los recibe por su nombre, y tú puedes esperar fuera tranquilamente. La inmensa mayoría de «no quiero entrar» se convierten en «¿cuándo volvemos?» antes de que termine la música. Y si un día no sale bien, no pasa nada: se vuelve a probar otro día, sin presión.
 
-## dónde y cuándo
+## Dónde y cuándo
 
 Estamos en la calle Craywinckel, 25 (Sant Gervasi, a dos minutos del FGC Av. Tibidabo). Mira la [parrilla de horarios](/es/horarios/) para encontrar el grupo que toca por edad, y recuerda que la [primera clase es gratuita](/es/precios/): el primer día, lo único imprescindible en la bolsa son las ganas.
 
-## preguntas frecuentes
+## Preguntas frecuentes
 
 ### ¿hay que comprar ropa de danza para la clase de prueba?
 
