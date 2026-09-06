@@ -242,11 +242,13 @@ h2 .ll{transition-delay:calc(var(--i)*.028s)}
   padding:22px 0;overflow:hidden;white-space:nowrap;background:rgba(18,18,18,.78);backdrop-filter:blur(2px);
 }
 .marquesina-pista{display:inline-block;animation:marxa 38s linear infinite}
-.marquesina span{
+.marquesina a{text-decoration:none;display:inline-block;
   font-size:clamp(1.1rem,2.2vw,1.7rem);font-weight:800;text-transform:lowercase;
   margin:0 28px;color:var(--blanc);
 }
-.marquesina span:nth-child(odd){color:var(--granat-viu)}
+.marquesina a:nth-child(odd){color:var(--granat-viu)}
+.marquesina a:hover{text-decoration:underline;text-underline-offset:6px}
+.marquesina:hover .marquesina-pista{animation-play-state:paused}
 @keyframes marxa{from{transform:translateX(0)}to{transform:translateX(-50%)}}
 
 /* ===== SECCIONS ===== */
@@ -567,7 +569,7 @@ details.faq{border-bottom:1px solid var(--vora)}
   .hero h1{font-size:clamp(2.35rem,10.2vw,3.4rem)}
   h2{font-size:2.35rem}
   .cita blockquote{font-size:1.9rem}
-  .marquesina span{font-size:1.45rem}
+  .marquesina a{text-decoration:none;display:inline-block;font-size:1.45rem}
   .xifra strong{font-size:2.9rem}
   .activitat h3{font-size:1.55rem}
   .boto{padding:17px 36px}
@@ -775,7 +777,7 @@ details.faq{border-bottom:1px solid var(--vora)}
 <!-- ===== MARQUESINA ===== -->
 <div class="marquesina" aria-hidden="true">
   <div class="marquesina-pista" id="marquesina">
-    <span>ballet clàssic</span><span>contemporani</span><span>jazz</span><span>hip-hop</span><span>claqué</span><span>espanyol</span><span>dansa oriental</span><span>k-pop</span><span>musical</span><span>zumba</span><span>ioga</span><span>barre</span><span>heels</span><span>puntes</span>
+    <a tabindex="-1" href="/ballet-classic/">ballet clàssic</a><a tabindex="-1" href="/dansa-contemporania/">contemporani</a><a tabindex="-1" href="/jazz/">jazz</a><a tabindex="-1" href="/hip-hop/">hip-hop</a><a tabindex="-1" href="/claque/">claqué</a><a tabindex="-1" href="/ball-espanyol/">espanyol</a><a tabindex="-1" href="/dansa-oriental/">dansa oriental</a><a tabindex="-1" href="/k-pop-heels/">k-pop</a><a tabindex="-1" href="/musical-interpretacio/">musical</a><a tabindex="-1" href="/cos-benestar/">zumba</a><a tabindex="-1" href="/cos-benestar/">ioga</a><a tabindex="-1" href="/cos-benestar/">barre</a><a tabindex="-1" href="/k-pop-heels/">heels</a><a tabindex="-1" href="/ballet-classic/">puntes</a>
   </div>
 </div>
 

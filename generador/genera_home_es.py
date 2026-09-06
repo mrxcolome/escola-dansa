@@ -82,12 +82,20 @@ PARELLES = [
      '<a class="boto boto-buit" href="/es/horarios/">ver horarios</a>'),
 
     # ── marquesina ──
-    ('>ballet clàssic</span>', '>ballet clásico</span>'),
-    ('>contemporani</span>', '>contemporáneo</span>'),
-    ('>espanyol</span>', '>español</span>'),
-    ('>dansa oriental</span>', '>danza oriental</span>'),
-    ('>ioga</span>', '>yoga</span>'),
-    ('>puntes</span>', '>puntas</span>'),
+    ('href="/ballet-classic/">ballet clàssic</a>', 'href="/es/ballet-clasico/">ballet clásico</a>'),
+    ('href="/dansa-contemporania/">contemporani</a>', 'href="/es/danza-contemporanea/">contemporáneo</a>'),
+    ('href="/jazz/">jazz</a>', 'href="/es/jazz/">jazz</a>'),
+    ('href="/hip-hop/">hip-hop</a>', 'href="/es/hip-hop/">hip-hop</a>'),
+    ('href="/claque/">claqué</a>', 'href="/es/claque/">claqué</a>'),
+    ('href="/ball-espanyol/">espanyol</a>', 'href="/es/baile-espanol/">español</a>'),
+    ('href="/dansa-oriental/">dansa oriental</a>', 'href="/es/danza-oriental/">danza oriental</a>'),
+    ('href="/k-pop-heels/">k-pop</a>', 'href="/es/k-pop-heels/">k-pop</a>'),
+    ('href="/musical-interpretacio/">musical</a>', 'href="/es/musical-interpretacion/">musical</a>'),
+    ('href="/cos-benestar/">zumba</a>', 'href="/es/cuerpo-bienestar/">zumba</a>'),
+    ('href="/cos-benestar/">ioga</a>', 'href="/es/cuerpo-bienestar/">yoga</a>'),
+    ('href="/cos-benestar/">barre</a>', 'href="/es/cuerpo-bienestar/">barre</a>'),
+    ('href="/k-pop-heels/">heels</a>', 'href="/es/k-pop-heels/">heels</a>'),
+    ('href="/ballet-classic/">puntes</a>', 'href="/es/ballet-clasico/">puntas</a>'),
 
     # ── cita ──
     ('«la dansa ens ajuda a <span class="destacat">sentir-nos a gust</span> en el nostre propi cos, a tenir-ne consciència, a saber utilitzar-lo per <span class="destacat">expressar allò que sentim</span> i imaginem»',
