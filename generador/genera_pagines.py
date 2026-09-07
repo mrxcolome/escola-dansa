@@ -394,7 +394,7 @@ PAGINES = [
         "title": "classes de dansa per a nens a Barcelona · escola de dansa cristina colomé",
         "desc": "extraescolar de dansa per a nens i nenes a Sant Gervasi (Barcelona): iniciació, clàssic, jazz, hip-hop i més, per edats i nivells. 1a classe gratuïta.",
         "h1": "dansa per a nens i nenes",
-        "intro": "l'extraescolar que no sembla una extraescolar: més de 25 anys ajudant nens i nenes a créixer ballant, a dos minuts de l'FGC Av. Tibidabo.",
+        "intro": "l'extraescolar que no sembla una extraescolar: més de 25 anys ajudant nens i nenes a créixer ballant, des dels 3 anys, a dos minuts de l'FGC Av. Tibidabo.",
         "per_a_qui": "de la iniciació a la dansa per als més petits fins als grups juvenils, tots els grups s'organitzen per edats i nivells i tenen continuïtat curs rere curs. les classes són a la tarda, pensades per encaixar amb l'horari escolar de les famílies de Sant Gervasi, la Bonanova i el Putxet.",
         "beneficis": [
             ("psicomotricitat i postura", "la dansa desenvolupa coordinació, equilibri i consciència corporal en l'edat d'or per fer-ho."),
@@ -414,7 +414,7 @@ PAGINES = [
         ],
         "faqs": [
             ("a quina edat pot començar el meu fill o filla?",
-             "des de ben petits, amb els grups d'iniciació a la dansa. a la classe de prova gratuïta veiem quin grup li encaixa millor per edat i maduresa."),
+             "des dels 3 anys, amb els grups d'iniciació a la dansa. a la classe de prova gratuïta veiem quin grup li encaixa millor per edat i maduresa."),
             ("quant costa l'extraescolar de dansa?",
              "les quotes infantils van dels 56 €/mes (1 dia per setmana) als 92 €/mes (4 dies), amb opció trimestral. la primera classe de prova és gratuïta."),
             ("com sabré si li agrada abans d'apuntar-lo?",

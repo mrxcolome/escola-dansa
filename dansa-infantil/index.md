@@ -1,6 +1,6 @@
 # dansa per a nens i nenes
 
-l'extraescolar que no sembla una extraescolar: més de 25 anys ajudant nens i nenes a créixer ballant, a dos minuts de l'FGC Av. Tibidabo.
+l'extraescolar que no sembla una extraescolar: més de 25 anys ajudant nens i nenes a créixer ballant, des dels 3 anys, a dos minuts de l'FGC Av. Tibidabo.
 
 ## per a qui
 
@@ -21,7 +21,7 @@ quotes pel nombre de dies setmanals: des de 56 €/mes (infantil) i 60 €/mes (
 
 ### a quina edat pot començar el meu fill o filla?
 
-des de ben petits, amb els grups d'iniciació a la dansa. a la classe de prova gratuïta veiem quin grup li encaixa millor per edat i maduresa.
+des dels 3 anys, amb els grups d'iniciació a la dansa. a la classe de prova gratuïta veiem quin grup li encaixa millor per edat i maduresa.
 
 ### quant costa l'extraescolar de dansa?
 

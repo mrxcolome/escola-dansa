@@ -1,6 +1,6 @@
 # danza para niños y niñas
 
-la extraescolar que no parece una extraescolar: más de 25 años ayudando a niños y niñas a crecer bailando, a dos minutos del FGC Av. Tibidabo.
+la extraescolar que no parece una extraescolar: más de 25 años ayudando a niños y niñas a crecer bailando, desde los 3 años, a dos minutos del FGC Av. Tibidabo.
 
 ## para quién
 
@@ -21,7 +21,7 @@ cuotas por número de días semanales: desde 56 €/mes (infantil) y 60 €/mes 
 
 ### ¿a qué edad puede empezar mi hijo o hija?
 
-desde bien pequeños, con los grupos de iniciación a la danza. en la clase de prueba gratuita vemos qué grupo le encaja mejor por edad y madurez.
+desde los 3 años, con los grupos de iniciación a la danza. en la clase de prueba gratuita vemos qué grupo le encaja mejor por edad y madurez.
 
 ### ¿cuánto cuesta la extraescolar de danza?
 
