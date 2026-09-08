@@ -54,8 +54,8 @@ nav.solida{background:rgba(247,244,240,.88)}
 .bf-card:nth-child(1){grid-column:1/-1}
 .bf-card:nth-child(1) .bf-img{position:static}
 .bf-card:nth-child(1) .bf-img img{aspect-ratio:21/9}
-.bf-card:nth-child(1) .bf-cos{position:absolute;left:0;right:0;bottom:0;padding:140px 40px 34px;background:linear-gradient(180deg,rgba(23,19,16,0) 0%,rgba(23,19,16,.55) 45%,rgba(23,19,16,.92) 100%)}
-.bf-card:nth-child(1) h3{font-size:clamp(2rem,4.6vw,3.8rem);line-height:1.1;color:#f5f2ef;font-weight:800;max-width:860px;text-shadow:0 2px 18px rgba(23,19,16,.45)}
+.bf-card:nth-child(1) .bf-cos{position:absolute;left:0;right:0;bottom:0;padding:110px 40px 30px;background:linear-gradient(180deg,rgba(23,19,16,0) 0%,rgba(23,19,16,.55) 45%,rgba(23,19,16,.92) 100%)}
+.bf-card:nth-child(1) h3{font-size:clamp(1.6rem,3vw,2.6rem);line-height:1.15;color:#f5f2ef;font-weight:800;max-width:860px;text-shadow:0 2px 18px rgba(23,19,16,.45)}
 .bf-card:nth-child(1) .bf-cos p{color:rgba(245,242,239,.85);max-width:640px;flex:0}
 .bf-card:nth-child(1) .bf-cos .peu-card{color:rgba(245,242,239,.65)}
 .bf-card:nth-child(2),.bf-card:nth-child(3){grid-column:span 3}
@@ -74,7 +74,7 @@ nav.solida{background:rgba(247,244,240,.88)}
 .bf-img{position:absolute;inset:0}
 .bf-img img{width:100%;height:100%;aspect-ratio:auto;object-fit:cover}
 .bf-cos{position:absolute;left:0;right:0;bottom:0;padding:90px 20px 22px;gap:8px;background:linear-gradient(180deg,rgba(23,19,16,0) 0%,rgba(23,19,16,.45) 40%,rgba(23,19,16,.94) 100%)}
-.bf-cos h3{color:#f5f2ef;font-weight:800;text-shadow:0 2px 12px rgba(23,19,16,.5)}
+.bf-cos h3{color:#f5f2ef;font-weight:800;font-size:1.5rem;line-height:1.2;text-shadow:0 2px 12px rgba(23,19,16,.5)}
 .bf-cos p{display:none}
 .bf-cos .peu-card{color:rgba(245,242,239,.7)}
 .pista-desliza{display:block;text-align:center;font-size:var(--text);color:var(--gris);font-style:italic;margin-top:2px}
