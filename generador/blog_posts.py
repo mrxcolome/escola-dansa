@@ -1654,6 +1654,108 @@ POSTS = [
              "Sí: aprendemos las coreografías reales de los grupos del momento, adaptando la dificultad al nivel del grupo. La satisfacción de clavar el point dance de tu canción no tiene precio."),
         ],
     },
+    {
+        "slug": "primeres-setmanes-de-curs",
+        "slug_es": "primeras-semanas-de-curso",
+        "categoria": "famílies",
+        "categoria_es": "familias",
+        "data": "2026-09-08",
+        "data_ca": "8 de setembre de 2026",
+        "data_es": "8 de septiembre de 2026",
+        "minuts": 4,
+        "nom_wa": "dansa",
+        "nom_wa_es": "danza",
+        "og": "blog-primeres-setmanes.jpg",
+        "img": "blog-primeres-setmanes.jpg",
+        "img_alt": "Una bossa de dansa i una jaqueta granat penjades a la barra d'una sala, amb unes sabatilles roses a terra",
+        "img_alt_es": "Una bolsa de danza y una chaqueta granate colgadas en la barra de una sala, con unas zapatillas rosas en el suelo",
+        "related_pagines": ["dansa-infantil", "horaris", "hip-hop"],
+        "related_posts": ["triar-estil-dansa-fill", "dansa-i-timidesa"],
+
+        "title": "les primeres setmanes de curs: com saber si la classe li encaixa · escola de dansa cristina colomé",
+        "desc": "El setembre enganya: l'adaptació a una extraescolar nova dura entre dues i quatre setmanes. Els senyals que la classe de dansa encaixa, els que demanen un ajust, i com ho resolem a l'escola sense drames.",
+        "h1": "les primeres setmanes de curs: com saber si la classe li encaixa",
+        "excerpt": "El setembre enganya: l'adaptació dura entre dues i quatre setmanes. Els senyals que la classe encaixa, els que demanen un ajust, i com ho resolem sense drames.",
+        "intro": "Primera setmana de classes: uns surten de la sala volant, altres arrufen el nas. Abans de treure conclusions, llegeix això — l'adaptació té els seus temps, i gairebé tot té solució fàcil.",
+        "cos": """
+<p>Cada setembre es repeteix la mateixa escena a recepció: una mare ens explica, una mica angoixada, que la seva filla «no ho té clar». Que el primer dia va sortir contenta però el segon no volia entrar. Que potser s'han equivocat d'extraescolar. La nostra resposta, després de més de 25 anys de setembres, és gairebé sempre la mateixa: <strong>encara és aviat per saber-ho</strong>. L'adaptació a una activitat nova — grup nou, professora nova, llenguatge nou — dura entre dues i quatre setmanes. Jutjar una classe pel primer dia és com jutjar un llibre per la primera pàgina.</p>
+
+<h2>els senyals que sí: la classe li encaixa</h2>
+<p>No cal que surti cada dia eufòric. Els senyals bons són més discrets:</p>
+<ul>
+<li><strong>Parla de la classe a casa</strong> — encara que sigui per explicar una tonteria: com es diu la professora, què ha fet una companya, un pas amb un nom graciós.</li>
+<li><strong>El cos se'n recorda</strong> — assaja passos davant del mirall, balla la cançó de classe quan sona al cotxe.</li>
+<li><strong>Pregunta quan hi torna</strong> — ni que sigui amb un «demà tinc dansa?» dit de passada.</li>
+<li><strong>Dins la sala està connectat</strong> — mira la professora, ho intenta. Això les professores ho veuen de seguida, i és el senyal que més compta.</li>
+</ul>
+
+<h2>els senyals que demanen un ajust (que no és el mateix que plegar)</h2>
+<p>De vegades la dansa encaixa però <em>aquella</em> classe no. Passa, i té solucions senzilles:</p>
+<ul>
+<li><strong>«S'avorreix»</strong> — sovint vol dir que el nivell del grup li queda curt o llarg. Un canvi de grup dins del mateix estil ho arregla en una setmana.</li>
+<li><strong>«Diu que no és el que s'esperava»</strong> — potser va demanar hip-hop imaginant una cosa i la seva energia és més de <a href="/dansa-contemporania/">contemporani</a>, o al revés. Canviar d'estil a l'inici de curs és fàcil i no es perd res.</li>
+<li><strong>«Li fa vergonya»</strong> — la timidesa a l'inici és normalíssima i la dansa és justament una de les millors eines per treballar-la. Donem-li les quatre setmanes senceres abans de decidir res.</li>
+<li><strong>«No vol anar-hi mai»</strong> — si després d'un mes la resistència és sistemàtica i dins la sala està desconnectat, llavors sí: parlem-ne. Potser no és el moment, i no passa res. La porta queda oberta.</li>
+</ul>
+
+<h2>com ho resolem a l'escola</h2>
+<p>El circuit és curt i sense drames: <strong>parla amb la professora o amb recepció</strong>. La professora ja té una opinió formada de com està el teu fill dins la sala — de fet, sovint és ella qui ens avisa primer que un alumne estaria millor en un altre grup. Els canvis de grup o d'estil a principi de curs són habituals, es fan en dos dies i el nen ho viu com una cosa natural, no com un fracàs. I si el que cal és provar una disciplina diferent, la <a href="/blog/classe-de-prova-gratuita/">classe de prova</a> torna a estar disponible: millor quinze minuts de conversa i un canvi a temps que un curs sencer a mig gas.</p>
+
+<p>El que mai recomanem és plegar la segona setmana. No pel nostre interès — un alumne desmotivat tampoc no ens fa cap favor — sinó perquè l'experiència ens diu que la immensa majoria de «no ho tinc clar» de setembre es converteixen en «no vull que s'acabi» al juny. Doneu-li temps, mireu els senyals, i parlem.</p>
+""",
+        "faqs": [
+            ("quant dura l'adaptació normal a una extraescolar nova?",
+             "Entre dues i quatre setmanes. Grup nou, professora nova i rutina nova demanen temps: el primer dia gairebé mai és representatiu, ni quan va malament ni quan va molt bé."),
+            ("la segona setmana no vol tornar-hi. Què faig?",
+             "No decideixis encara: parla amb la professora, que veu com està el teu fill dins la sala. Sovint és cosa del grup (nivell) o de l'estil, i totes dues coses es canvien fàcilment a principi de curs."),
+            ("podem canviar de grup o d'estil a mig curs?",
+             "Sí, i a principi de curs encara més fàcilment: els canvis es fan en un parell de dies parlant amb recepció. La quota no canvia si el nombre d'activitats és el mateix."),
+            ("i si definitivament no li agrada la dansa?",
+             "No passa res: millor descobrir-ho havent-ho provat de veritat. Es pot donar de baixa sense penalització, i la porta queda oberta per tornar-ho a provar més endavant — passa més sovint del que et penses."),
+        ],
+
+        "title_es": "las primeras semanas de curso: cómo saber si la clase le encaja · escola de dansa cristina colomé",
+        "desc_es": "Septiembre engaña: la adaptación a una extraescolar nueva dura entre dos y cuatro semanas. Las señales de que la clase de danza encaja, las que piden un ajuste, y cómo lo resolvemos en la escuela sin dramas.",
+        "h1_es": "las primeras semanas de curso: cómo saber si la clase le encaja",
+        "excerpt_es": "Septiembre engaña: la adaptación dura entre dos y cuatro semanas. Las señales de que la clase encaja, las que piden un ajuste, y cómo lo resolvemos sin dramas.",
+        "intro_es": "Primera semana de clases: unos salen de la sala volando, otros arrugan la nariz. Antes de sacar conclusiones, lee esto — la adaptación tiene sus tiempos, y casi todo tiene solución fácil.",
+        "cos_es": """
+<p>Cada septiembre se repite la misma escena en recepción: una madre nos cuenta, algo angustiada, que su hija «no lo tiene claro». Que el primer día salió contenta pero el segundo no quería entrar. Que quizá se han equivocado de extraescolar. Nuestra respuesta, después de más de 25 años de septiembres, es casi siempre la misma: <strong>todavía es pronto para saberlo</strong>. La adaptación a una actividad nueva — grupo nuevo, profesora nueva, lenguaje nuevo — dura entre dos y cuatro semanas. Juzgar una clase por el primer día es como juzgar un libro por la primera página.</p>
+
+<h2>las señales de que sí: la clase le encaja</h2>
+<p>No hace falta que salga cada día eufórico. Las señales buenas son más discretas:</p>
+<ul>
+<li><strong>Habla de la clase en casa</strong> — aunque sea para contar una tontería: cómo se llama la profesora, qué ha hecho una compañera, un paso con un nombre gracioso.</li>
+<li><strong>El cuerpo se acuerda</strong> — ensaya pasos delante del espejo, baila la canción de clase cuando suena en el coche.</li>
+<li><strong>Pregunta cuándo vuelve</strong> — aunque sea con un «¿mañana tengo danza?» dicho de pasada.</li>
+<li><strong>Dentro de la sala está conectado</strong> — mira a la profesora, lo intenta. Eso las profesoras lo ven enseguida, y es la señal que más cuenta.</li>
+</ul>
+
+<h2>las señales que piden un ajuste (que no es lo mismo que dejarlo)</h2>
+<p>A veces la danza encaja pero <em>esa</em> clase no. Pasa, y tiene soluciones sencillas:</p>
+<ul>
+<li><strong>«Se aburre»</strong> — a menudo significa que el nivel del grupo se le queda corto o largo. Un cambio de grupo dentro del mismo estilo lo arregla en una semana.</li>
+<li><strong>«Dice que no es lo que esperaba»</strong> — quizá pidió hip-hop imaginando una cosa y su energía es más de <a href="/es/danza-contemporanea/">contemporáneo</a>, o al revés. Cambiar de estilo a principio de curso es fácil y no se pierde nada.</li>
+<li><strong>«Le da vergüenza»</strong> — la timidez al principio es normalísima y la danza es justamente una de las mejores herramientas para trabajarla. Démosle las cuatro semanas enteras antes de decidir nada.</li>
+<li><strong>«No quiere ir nunca»</strong> — si después de un mes la resistencia es sistemática y dentro de la sala está desconectado, entonces sí: hablemos. Quizá no es el momento, y no pasa nada. La puerta queda abierta.</li>
+</ul>
+
+<h2>cómo lo resolvemos en la escuela</h2>
+<p>El circuito es corto y sin dramas: <strong>habla con la profesora o con recepción</strong>. La profesora ya tiene una opinión formada de cómo está tu hijo dentro de la sala — de hecho, a menudo es ella quien nos avisa primero de que un alumno estaría mejor en otro grupo. Los cambios de grupo o de estilo a principio de curso son habituales, se hacen en dos días y el niño lo vive como algo natural, no como un fracaso. Y si lo que hace falta es probar una disciplina diferente, la <a href="/es/blog/clase-de-prueba-gratuita/">clase de prueba</a> vuelve a estar disponible: mejor quince minutos de conversación y un cambio a tiempo que un curso entero a medio gas.</p>
+
+<p>Lo que nunca recomendamos es dejarlo la segunda semana. No por nuestro interés — un alumno desmotivado tampoco nos hace ningún favor — sino porque la experiencia nos dice que la inmensa mayoría de «no lo tengo claro» de septiembre se convierten en «no quiero que se acabe» en junio. Dadle tiempo, mirad las señales, y hablamos.</p>
+""",
+        "faqs_es": [
+            ("¿cuánto dura la adaptación normal a una extraescolar nueva?",
+             "Entre dos y cuatro semanas. Grupo nuevo, profesora nueva y rutina nueva piden tiempo: el primer día casi nunca es representativo, ni cuando va mal ni cuando va muy bien."),
+            ("la segunda semana no quiere volver. ¿Qué hago?",
+             "No decidas todavía: habla con la profesora, que ve cómo está tu hijo dentro de la sala. A menudo es cosa del grupo (nivel) o del estilo, y ambas cosas se cambian fácilmente a principio de curso."),
+            ("¿podemos cambiar de grupo o de estilo a mitad de curso?",
+             "Sí, y a principio de curso todavía más fácilmente: los cambios se hacen en un par de días hablando con recepción. La cuota no cambia si el número de actividades es el mismo."),
+            ("¿y si definitivamente no le gusta la danza?",
+             "No pasa nada: mejor descubrirlo habiéndolo probado de verdad. Puede darse de baja sin penalización, y la puerta queda abierta para volver a intentarlo más adelante — pasa más a menudo de lo que crees."),
+        ],
+    },
 ]
 
 

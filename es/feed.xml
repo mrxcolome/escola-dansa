@@ -6,7 +6,15 @@
     <atom:link href="https://escoladansa.com/es/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Consejos de danza para familias y adultos, y vida de escuela, desde Sant Gervasi (Barcelona).</description>
     <language>es</language>
-    <lastBuildDate>Wed, 02 Sep 2026 08:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 08 Sep 2026 08:00:00 +0200</lastBuildDate>
+    <item>
+      <title>las primeras semanas de curso: cómo saber si la clase le encaja</title>
+      <link>https://escoladansa.com/es/blog/primeras-semanas-de-curso/</link>
+      <guid isPermaLink="true">https://escoladansa.com/es/blog/primeras-semanas-de-curso/</guid>
+      <pubDate>Tue, 08 Sep 2026 08:00:00 +0200</pubDate>
+      <description>Septiembre engaña: la adaptación a una extraescolar nueva dura entre dos y cuatro semanas. Las señales de que la clase de danza encaja, las que piden un ajuste, y cómo lo resolvemos en la escuela sin dramas.</description>
+      <enclosure url="https://escoladansa.com/assets/blog-primeres-setmanes.jpg" type="image/jpeg" length="150000"/>
+    </item>
     <item>
       <title>más de 25 años moviendo Sant Gervasi</title>
       <link>https://escoladansa.com/es/blog/historia-escuela-25-anos/</link>

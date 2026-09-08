@@ -1,5 +1,6 @@
 # blog · consejos de danza y vida de escuela
 
+- [Las primeras semanas de curso: cómo saber si la clase le encaja](https://escoladansa.com/es/blog/primeras-semanas-de-curso/) — Septiembre engaña: la adaptación dura entre dos y cuatro semanas. Las señales de que la clase encaja, las que piden un ajuste, y cómo lo resolvemos sin dramas.
 - [Más de 25 años moviendo Sant Gervasi](https://escoladansa.com/es/blog/historia-escuela-25-anos/) — Hay alumnas que vinieron de pequeñas y ahora traen a sus hijas. La historia y la manera de hacer de una escuela de barrio que lleva más de un cuarto de siglo bailando.
 - [Cómo es la clase de prueba (y por qué es gratuita)](https://escoladansa.com/es/blog/clase-de-prueba-gratuita/) — Ninguna decisión a ciegas: la primera clase de cualquier disciplina es gratis. Cómo va, qué mirar y el motivo de fondo por el que llevamos décadas regalándola.
 - [Barre: el entrenamiento que viene del ballet (y por qué engancha)](https://escoladansa.com/es/blog/barre-entrenamiento-ballet/) — Tonifica como el gimnasio, alarga como el yoga y se entrena junto a una barra de ballet. Qué es el barre, cómo es una clase y por qué engancha tanto.

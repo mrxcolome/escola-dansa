@@ -1,5 +1,6 @@
 # blog · consells de dansa i vida d’escola
 
+- [Les primeres setmanes de curs: com saber si la classe li encaixa](https://escoladansa.com/blog/primeres-setmanes-de-curs/) — El setembre enganya: l'adaptació dura entre dues i quatre setmanes. Els senyals que la classe encaixa, els que demanen un ajust, i com ho resolem sense drames.
 - [Més de 25 anys movent Sant Gervasi](https://escoladansa.com/blog/historia-escola-25-anys/) — Hi ha alumnes que van venir de petites i ara hi porten les seves filles. La història i la manera de fer d'una escola de barri que fa més d'un quart de segle que balla.
 - [Com és la classe de prova (i per què és gratuïta)](https://escoladansa.com/blog/classe-de-prova-gratuita/) — Cap decisió a cegues: la primera classe de qualsevol disciplina és gratis. Com va, què mirar-hi i el motiu de fons pel qual fa dècades que la regalem.
 - [Barre: l'entrenament que ve del ballet (i per què enganxa)](https://escoladansa.com/blog/barre-entrenament-ballet/) — Tonifica com el gimnàs, allarga com el ioga i s'entrena vora una barra de ballet. Què és el barre, com és una classe i per què enganxa tant.
