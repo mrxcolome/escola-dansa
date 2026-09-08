@@ -554,6 +554,18 @@ details.faq{border-bottom:1px solid var(--vora)}
 .faq summary::after{content:"+";color:var(--granat-viu);font-size:1.4rem;font-weight:400;flex-shrink:0;transition:transform .3s var(--ease)}
 .faq[open] summary::after{transform:rotate(45deg)}
 .faq .resposta{font-size:var(--text);color:var(--gris);font-weight:400;padding:0 0 22px;max-width:680px}
+.news-seccio{max-width:1100px;margin:0 auto}
+.news-blog{margin-top:26px;max-width:560px}
+.nb-camps{display:flex;gap:14px;flex-wrap:wrap;align-items:flex-end}
+.nb-camps input[type=email]{flex:1;min-width:220px;background:transparent;border:0;border-bottom:1px solid var(--vora);color:var(--blanc);font-family:inherit;font-size:var(--text);font-weight:400;padding:12px 2px;border-radius:0}
+.nb-camps input[type=email]:focus{outline:none;border-bottom-color:var(--granat-viu)}
+.nb-camps input::placeholder{color:var(--gris)}
+.nb-rgpd{display:flex;gap:10px;align-items:flex-start;margin-top:16px;font-size:.85rem;color:var(--gris);font-weight:400;cursor:pointer;max-width:520px}
+.nb-rgpd input{flex:none;width:15px;height:15px;margin:3px 0 0;accent-color:var(--granat-viu)}
+.nb-rgpd a{color:var(--granat-viu);font-weight:600}
+.nb-estat{margin-top:10px;font-size:.9rem;min-height:1.2em;font-weight:600}
+.nb-estat.err{color:#e06f5f}
+.nb-estat.ok{color:#7dbb96}
 .cta-final{background:rgba(18,18,18,.7);border:1px solid var(--vora);border-radius:20px;padding:44px 5vw;text-align:center;margin:70px auto 0;max-width:1100px}
 .cta-final h2{margin-bottom:14px}
 .cta-final p{font-size:var(--text);color:var(--gris);font-weight:400;margin-bottom:28px}
@@ -991,6 +1003,68 @@ for _p in PAGINES:
         _p["og"] = f"{DOMINI}/assets/{OG_PROPIS[_p['slug']]}"
 
 
+def formulari_news(lang):
+    """Formulari de newsletter inline (nomes email) per a les pagines del blog."""
+    if lang == "ca":
+        ph, boto, rgpd, priv = "el teu email", "apunta-m'hi", "accepto rebre comunicacions de l'escola segons la", "/#privacitat"
+        err_mail = "revisa l'email — sembla que no és complet"
+        err_rgpd = "marca la casella de la política de privacitat per continuar"
+        enviant, fet = "enviant…", "fet! benvingut/da al club 💃"
+        err_mc = "no s'ha pogut completar — potser ja hi estàs apuntat/da? escriu-nos a info@escoladansa.com"
+        eti_priv = "política de privacitat"
+    else:
+        ph, boto, rgpd, priv = "tu email", "apúntame", "acepto recibir comunicaciones de la escuela según la", "/es/#privacitat"
+        err_mail = "revisa el email — parece que no está completo"
+        err_rgpd = "marca la casilla de la política de privacidad para continuar"
+        enviant, fet = "enviando…", "¡hecho! bienvenido/a al club 💃"
+        err_mc = "no se ha podido completar — ¿quizá ya estás apuntado/a? escríbenos a info@escoladansa.com"
+        eti_priv = "política de privacidad"
+    return f"""
+    <form class="news-blog" id="formNewsBlog" novalidate>
+      <div class="nb-camps">
+        <input type="email" name="EMAIL" id="nbEmail" placeholder="{ph}" autocomplete="email" required>
+        <button class="boto boto-ple" type="submit" id="nbBoto">{boto}</button>
+      </div>
+      <input type="hidden" name="gdpr[7917]" value="Y">
+      <div aria-hidden="true" style="position:absolute;left:-5000px" tabindex="-1">
+        <input type="text" name="b_da5aca6dc87239091e99ef3e4_30f01114ec" tabindex="-1" value="" autocomplete="off">
+      </div>
+      <label class="nb-rgpd"><input type="checkbox" id="nbRgpd"> <span>{rgpd} <a href="{priv}">{eti_priv}</a></span></label>
+      <p class="nb-estat" id="nbEstat" aria-live="polite"></p>
+    </form>
+    <script>
+    (function(){{
+      var f = document.getElementById('formNewsBlog');
+      if (!f) return;
+      var estat = document.getElementById('nbEstat'), boto = document.getElementById('nbBoto');
+      var MC = 'https://escoladansa.us11.list-manage.com/subscribe/post-json?u=da5aca6dc87239091e99ef3e4&id=30f01114ec';
+      window.nbResposta = function(resp){{
+        boto.disabled = false;
+        if (resp && resp.result === 'success' || (resp && resp.result === 'error' && /subscrib/i.test(resp.msg || ''))){{
+          estat.textContent = {fet!r}; estat.className = 'nb-estat ok';
+          try{{ localStorage.setItem('nlSubscrit', String(Date.now())); }}catch(_e){{}}
+          f.reset();
+        }} else {{
+          estat.textContent = {err_mc!r}; estat.className = 'nb-estat err';
+        }}
+      }};
+      f.addEventListener('submit', function(e){{
+        e.preventDefault();
+        estat.textContent = ''; estat.className = 'nb-estat';
+        var email = f.EMAIL.value.trim();
+        if (!/^[^@\s]+@[^@\s]+\.[^@\s]{{2,}}$/.test(email)){{ estat.textContent = {err_mail!r}; estat.className = 'nb-estat err'; f.EMAIL.focus(); return; }}
+        if (!document.getElementById('nbRgpd').checked){{ estat.textContent = {err_rgpd!r}; estat.className = 'nb-estat err'; return; }}
+        estat.textContent = {enviant!r}; boto.disabled = true;
+        var params = new URLSearchParams(new FormData(f));
+        var sc = document.createElement('script');
+        sc.src = MC + '&' + params.toString() + '&c=nbResposta';
+        sc.onerror = function(){{ window.nbResposta({{result:'error', msg:''}}); }};
+        document.body.appendChild(sc);
+      }});
+    }})();
+    </script>"""
+
+
 def genera(p):
     url = f"{DOMINI}/{p['slug']}/"
     lang = p.get("lang", "ca")
@@ -1076,6 +1150,11 @@ def genera(p):
     <p>tria com t'estimes més: truca'ns, escriu-nos o vine a veure'ns. sense compromís, t'ajudem a trobar el grup perfecte.</p>
 {accions_cta(p)}
   </div>
+{f'''  <section class="reveal news-seccio">
+    <div class="etiqueta">newsletter</div>
+    <h2>{"no et perdis res de l'escola" if lang == "ca" else "no te pierdas nada de la escuela"}</h2>
+{formulari_news(lang)}
+  </section>''' if p.get("news", True) else ''}
 </main>
 
 <footer class="peu">

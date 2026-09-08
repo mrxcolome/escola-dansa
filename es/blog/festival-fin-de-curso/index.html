@@ -114,6 +114,18 @@ details.faq{border-bottom:1px solid var(--vora)}
 .faq summary::after{content:"+";color:var(--granat-viu);font-size:1.4rem;font-weight:400;flex-shrink:0;transition:transform .3s var(--ease)}
 .faq[open] summary::after{transform:rotate(45deg)}
 .faq .resposta{font-size:var(--text);color:var(--gris);font-weight:400;padding:0 0 22px;max-width:680px}
+.news-seccio{max-width:1100px;margin:0 auto}
+.news-blog{margin-top:26px;max-width:560px}
+.nb-camps{display:flex;gap:14px;flex-wrap:wrap;align-items:flex-end}
+.nb-camps input[type=email]{flex:1;min-width:220px;background:transparent;border:0;border-bottom:1px solid var(--vora);color:var(--blanc);font-family:inherit;font-size:var(--text);font-weight:400;padding:12px 2px;border-radius:0}
+.nb-camps input[type=email]:focus{outline:none;border-bottom-color:var(--granat-viu)}
+.nb-camps input::placeholder{color:var(--gris)}
+.nb-rgpd{display:flex;gap:10px;align-items:flex-start;margin-top:16px;font-size:.85rem;color:var(--gris);font-weight:400;cursor:pointer;max-width:520px}
+.nb-rgpd input{flex:none;width:15px;height:15px;margin:3px 0 0;accent-color:var(--granat-viu)}
+.nb-rgpd a{color:var(--granat-viu);font-weight:600}
+.nb-estat{margin-top:10px;font-size:.9rem;min-height:1.2em;font-weight:600}
+.nb-estat.err{color:#e06f5f}
+.nb-estat.ok{color:#7dbb96}
 .cta-final{background:rgba(18,18,18,.7);border:1px solid var(--vora);border-radius:20px;padding:44px 5vw;text-align:center;margin:70px auto 0;max-width:1100px}
 .cta-final h2{margin-bottom:14px}
 .cta-final p{font-size:var(--text);color:var(--gris);font-weight:400;margin-bottom:28px}
@@ -227,14 +239,6 @@ nav.solida{background:rgba(247,244,240,.88)}
 .bf-cos .peu-card{color:rgba(245,242,239,.7)}
 .pista-desliza{display:block;text-align:center;font-size:var(--text);color:var(--gris);font-style:italic;margin-top:2px}
 }
-.news-blog{margin-top:26px;max-width:560px}
-.nb-camps{display:flex;gap:14px;flex-wrap:wrap;align-items:flex-end}
-.nb-camps input[type=email]{flex:1;min-width:220px;background:transparent;border:0;border-bottom:1px solid var(--vora);color:var(--blanc);font-family:inherit;font-size:var(--text);font-weight:400;padding:12px 2px;border-radius:0}
-.nb-camps input[type=email]:focus{outline:none;border-bottom-color:var(--granat-viu)}
-.nb-camps input::placeholder{color:var(--gris)}
-.nb-rgpd{display:flex;gap:10px;align-items:flex-start;margin-top:16px;font-size:.85rem;color:var(--gris);font-weight:400;cursor:pointer;max-width:520px}
-.nb-rgpd a{color:var(--granat-viu);font-weight:600}
-.nb-estat{margin-top:10px;font-size:.9rem;min-height:1.2em;font-weight:600}
 .nb-estat.err{color:#c62828}
 .nb-estat.ok{color:#3d6b4f}
 /* el blog es l'unic espai amb majuscules: fora el lowercase de marca als titols */
@@ -461,6 +465,7 @@ h1,h2,h3{text-transform:none}
       <a class="accio" href="https://www.google.com/maps/dir/?api=1&amp;destination=Escola%20de%20Dansa%20Cristina%20Colom%C3%A9%2C%20Carrer%20de%20Craywinckel%2025%2C%2008022%20Barcelona" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5z"/></svg><strong>¿cómo llegar?</strong><small>craywinckel, 25</small></a>
     </div>
   </div>
+
 </main>
 
 <footer class="peu">
