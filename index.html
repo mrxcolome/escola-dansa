@@ -976,7 +976,6 @@ details.faq{border-bottom:1px solid var(--vora)}
   <p class="text-gran linies">tallers, cursos intensius, el festival de fi de curs i les novetats de cada temporada, directament a la teva safata. res d'spam: només el que importa.</p>
   <form id="formNews" class="news-form reveal" novalidate>
     <div class="news-camps">
-      <input type="text" name="LEAD_NAME" id="newsNom" placeholder="el teu nom" autocomplete="name" required>
       <input type="email" name="EMAIL" id="newsEmail" placeholder="el teu email" autocomplete="email" required>
       <button class="boto boto-ple" type="submit" id="newsBoto">apunta-m'hi</button>
     </div>
@@ -1533,11 +1532,9 @@ formNews.addEventListener('submit', e => {
   e.preventDefault();
   // validació pròpia en català (la nativa del navegador surt en l'idioma de cada visitant)
   newsEstat.textContent = ''; newsEstat.className = 'news-estat';
-  const nom = formNews.LEAD_NAME.value.trim();
   const email = formNews.EMAIL.value.trim();
   let errValid = '', campFocus = null;
-  if (!nom){ errValid = 'escriu el teu nom, si us plau'; campFocus = formNews.LEAD_NAME; }
-  else if (!/^[^@\s]+@[^@\s]+\.[^@\s]{2,}$/.test(email)){ errValid = 'revisa l\'email — sembla que no és complet'; campFocus = formNews.EMAIL; }
+  if (!/^[^@\s]+@[^@\s]+\.[^@\s]{2,}$/.test(email)){ errValid = 'revisa l\'email — sembla que no és complet'; campFocus = formNews.EMAIL; }
   else if (!document.getElementById('newsRgpd').checked){ errValid = 'marca la casella de la política de privacitat per continuar'; }
   if (errValid){
     newsEstat.textContent = errValid;
@@ -1551,7 +1548,6 @@ formNews.addEventListener('submit', e => {
     return;
   }
   const params = new URLSearchParams(new FormData(formNews));
-  params.append('MERGE5', nom); // el camp "Nom" de l'audiència també respon a la numeració interna (merge_id 5)
   newsEstat.textContent = 'enviant…';
   newsEstat.className = 'news-estat';
   newsBoto.disabled = true;
@@ -1599,10 +1595,12 @@ formCtc.addEventListener('submit', async e => {
 // ===== TARGETA LLISCANT DEL BUTLLETÍ (60% de scroll, 1 cop per visitant) =====
 const nlCard = document.getElementById('nlCard');
 const nlLS = clau => { try{ return localStorage.getItem(clau); }catch(_){ return null; } };
-const nlLSposa = clau => { try{ localStorage.setItem(clau, '1'); }catch(_){} };
+const nlLSposa = clau => { try{ localStorage.setItem(clau, String(Date.now())); }catch(_){} };
 let nlCardFeta = false;
 function amagaNlCard(){ nlCard.classList.remove('visible'); nlCard.setAttribute('aria-hidden', 'true'); }
-if (!nlLS('nlCardTancada') && !nlLS('nlSubscrit')){
+const nlTancadaFa = Number(nlLS('nlCardTancada') || 0);
+const nlTancadaRecent = nlTancadaFa > 0 && (Date.now() - nlTancadaFa) < 30*24*60*60*1000; // als 30 dies torna a sortir
+if (!nlTancadaRecent && !nlLS('nlSubscrit')){
   const miraScroll = () => {
     if (nlCardFeta) return;
     const total = document.documentElement.scrollHeight - innerHeight;
@@ -1622,7 +1620,7 @@ if (!nlLS('nlCardTancada') && !nlLS('nlSubscrit')){
 document.getElementById('nlCardTanca').addEventListener('click', () => { nlLSposa('nlCardTancada'); amagaNlCard(); });
 document.getElementById('nlCardBoto').addEventListener('click', () => {
   amagaNlCard();
-  setTimeout(() => document.getElementById('newsNom').focus({preventScroll:true}), 900);
+  setTimeout(() => document.getElementById('newsEmail').focus({preventScroll:true}), 900);
 });
 
 // ===== MARQUESINA =====
