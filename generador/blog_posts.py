@@ -1756,6 +1756,150 @@ POSTS = [
              "No pasa nada: mejor descubrirlo habiéndolo probado de verdad. Puede darse de baja sin penalización, y la puerta queda abierta para volver a intentarlo más adelante — pasa más a menudo de lo que crees."),
         ],
     },
+    {
+        "slug": "com-triar-escola-dansa-barcelona",
+        "slug_es": "como-elegir-escuela-danza-barcelona",
+        "categoria": "famílies",
+        "categoria_es": "familias",
+        "data": "2026-09-20",
+        "data_ca": "20 de setembre de 2026",
+        "data_es": "20 de septiembre de 2026",
+        "minuts": 6,
+        "nom_wa": "dansa",
+        "nom_wa_es": "danza",
+        "og": "blog-triar-escola.jpg",
+        "img": "blog-triar-escola.jpg",
+        "img_alt": "Una llibreta granat oberta amb un bolígraf a sobre, en un banc de fusta d'una sala de dansa, amb el mirall i la barra desenfocats al fons",
+        "img_alt_es": "Una libreta granate abierta con un bolígrafo encima, en un banco de madera de una sala de danza, con el espejo y la barra desenfocados al fondo",
+        "related_pagines": ["dansa-infantil", "dansa-adults", "horaris", "preus"],
+        "related_posts": ["classe-de-prova-gratuita", "a-quina-edat-comencar-dansa", "examens-rad-ballet"],
+
+        "title": "com triar escola de dansa a Barcelona: les preguntes que cal fer · escola de dansa cristina colomé",
+        "desc": "Les preguntes que val la pena fer quan visites una escola de dansa a Barcelona: qui entrarà a la sala, quants alumnes hi ha dins, com és el terra, què passa durant el curs i què hi ha darrere del preu. Amb les nostres respostes, perquè les comparis.",
+        "h1": "com triar escola de dansa a Barcelona: les preguntes que cal fer",
+        "excerpt": "Qui entrarà a la sala, quants alumnes hi ha dins, com és el terra i què hi ha darrere del preu. Les preguntes que val la pena fer abans d'apuntar-hi ningú, i les nostres respostes.",
+        "intro": "Totes les escoles diem el mateix al web: professorat titulat, ambient familiar, tots els nivells. Com que això no ajuda a decidir, aquí tens el que sí que ajuda: què mirar i què preguntar quan hi entris.",
+        "cos": """
+<p>A Barcelona hi ha desenes d'escoles de dansa i, al web, totes ens assemblem molt. Les frases fetes no ajuden ningú a triar. El que ajuda és entrar a la sala, mirar i preguntar — i saber què cal preguntar. Aquesta és la llista que faríem servir nosaltres si haguéssim de buscar escola per a un fill, ordenada de més a menys important. Al final hi trobaràs les nostres respostes, perquè les comparis amb les de qualsevol altra escola que visitis, la nostra inclosa.</p>
+
+<h2>qui entrarà a la sala</h2>
+<p>És el que més pesa, i el que menys es pregunta. Una escola són les seves professores: la resta és decoració. Val la pena saber <strong>qui farà classe al teu fill, quina formació té i quants anys fa que ensenya</strong>, no només qui dirigeix l'escola.</p>
+<p>I una pregunta que gairebé ningú fa: <strong>serà la mateixa persona tot el curs?</strong> Els canvis constants de professor són el que més desorienta els nens petits, perquè cada professora té el seu llenguatge i la seva manera de corregir. Pregunta també qui la substitueix els dies que falta.</p>
+
+<h2>quants alumnes hi ha dins</h2>
+<p>La ràtio determina si el teu fill rebrà correccions amb nom i cognoms o si es passarà l'any imitant el que fa el del davant. No hi ha un número màgic — depèn de l'edat i de la disciplina —, però sí que hi ha una manera de comprovar-ho: <strong>mira si la professora corregeix un per un</strong>. Si en una classe sencera no toca l'esquena de ningú ni diu cap nom, hi ha massa gent a la sala.</p>
+<p>Pregunta sempre el màxim d'alumnes per grup i què passa quan un grup s'omple: si n'obren un altre o si hi van encabint gent. Una escola que no sap dir-te aquest número ja t'està donant una resposta.</p>
+
+<h2>la sala i, sobretot, el terra</h2>
+<p>El terra és salut, no estètica. Ballar hores sobre ceràmica o formigó pintat passa factura als genolls i als turmells; el que es busca és <strong>fusta o linòleum sobre una estructura que amorteixi</strong>. Demana veure les sales, no fotos: comprova que hi hagi mirall i barra de debò, que es ventilin i que hi càpiga un desplaçament sencer sense xocar amb la paret.</p>
+<p>Mentre hi ets, mira dues coses més: on esperen les famílies i com són els vestidors. Diuen molt de com s'hi viu cada tarda.</p>
+
+<h2>què passarà durant el curs</h2>
+<p>Un curs de dansa no són només les classes setmanals. Pregunta què hi ha al calendari i, sobretot, què implica per a vosaltres:</p>
+<ul>
+<li><strong>Festival o mostra de fi de curs</strong> — quan és, quants assajos extres demana i si té cost afegit.</li>
+<li><strong>Vestuari</strong> — qui el compra, quant costa i si serveix per a més d'un any.</li>
+<li><strong>Exàmens oficials</strong> — si l'escola prepara exàmens (els de la Royal Academy of Dance són els més habituals en clàssic), si són voluntaris i què costen.</li>
+<li><strong>Comunicació</strong> — com us avisaran si un dia no hi ha classe, i si podreu parlar amb la professora quan calgui.</li>
+</ul>
+
+<h2>què hi ha darrere del preu</h2>
+<p>El preu del web és el començament, no el final. Les preguntes que eviten sorpreses al gener són aquestes: quant costa cada activitat al mes i què passa si en fa dues o tres; si hi ha matrícula i quan es cobra; si cal comprometre's tot el curs o es pot plegar; i què més es paga al llarg de l'any. <strong>Una escola que publica els preus al web t'estalvia la conversa incòmoda</strong>, i sol ser bon senyal.</p>
+
+<h2>si l'horari us encaixa de debò</h2>
+<p>Aquí és on moltes matrícules s'espatllen al novembre. Compta el temps real des que surt de l'escola fins que entra a la sala, amb el berenar pel mig. Mira si hi ha més d'un grup de la mateixa disciplina per si un dia heu de canviar de dia, i pregunta si es pot canviar de grup a mig curs quan l'horari escolar es capgira.</p>
+
+<h2>com et tracten abans de ser client</h2>
+<p>L'últim filtre és el més fiable de tots: <strong>com et responen quan encara no ets ningú</strong>. Si et deixen provar una classe sense compromís, si contesten el WhatsApp el mateix dia, si et deixen entrar a veure la sala en lloc d'enviar-te un fullet. El tracte d'abans acostuma a ser el tracte de després.</p>
+
+<h2>les nostres respostes</h2>
+<p>Per no predicar en va, les nostres, curtes i comprovables:</p>
+<ul>
+<li><strong>Qui fa classe</strong> — la Cristina Colomé i el seu equip de professores. Fa més de 25 anys que l'escola és al mateix lloc de Sant Gervasi, al carrer de Craywinckel, 25.</li>
+<li><strong>Què s'hi fa</strong> — dotze disciplines i 56 classes cada setmana, des dels 3 anys fins als adults, repartides en tres sales.</li>
+<li><strong>Quan</strong> — tardes de dilluns a divendres, i barre al matí dilluns i dimecres. La graella sencera és a <a href="/horaris/">horaris</a>.</li>
+<li><strong>Quant</strong> — 56 € al mes una activitat infantil i 60 € una de juvenil o d'adults; com més activitats, més econòmica surt cadascuna, i pagant per trimestres encara s'estalvia. Matrícula de 65 € en renovar i 70 € en una alta nova. Tot publicat a <a href="/preus/">preus</a>.</li>
+<li><strong>Sense compromís</strong> — la <a href="/blog/classe-de-prova-gratuita/">classe de prova és gratuïta</a>, no hi ha permanència i es pot canviar de grup o d'estil parlant amb recepció.</li>
+<li><strong>Durant el curs</strong> — festival de fi de curs per a qui vulgui pujar a l'escenari i preparació dels <a href="/blog/examens-rad-ballet/">exàmens de la Royal Academy of Dance</a> per a qui s'hi vulgui presentar.</li>
+<li><strong>Ràtios i sales</strong> — te les diem quan ens ho preguntes, i a la classe de prova les veus amb els teus ulls. És la manera honesta de respondre-ho.</li>
+</ul>
+
+<p>Un consell per acabar: visita dues o tres escoles i prova-hi una classe. El que us quedarà no serà el fullet ni el web, sinó la cara amb què surt de la sala. Si ja hi vol tornar, has trobat l'escola. I si vols començar per nosaltres, mira què fem per als <a href="/dansa-infantil/">infants</a> o per als <a href="/dansa-adults/">adults</a> i vine a provar un dia.</p>
+""",
+        "faqs": [
+            ("quantes escoles de dansa val la pena visitar abans de decidir?",
+             "Amb dues o tres n'hi ha prou. Més enllà d'això es barregen i es decideix pitjor. El que sí que val la pena és provar-hi una classe: es nota molt més dins la sala que al taulell."),
+            ("com sé si la professora està titulada?",
+             "Pregunta-ho directament: formació, anys ensenyant i si serà ella tot el curs. Una escola que respon de seguida t'està dient molt, i una que defuig la pregunta, també."),
+            ("quants alumnes per classe són massa?",
+             "Depèn de l'edat i de la disciplina, però la prova és senzilla: si durant una classe sencera la professora no corregeix ningú pel seu nom, hi ha massa gent a la sala."),
+            ("cal comprometre's per tot el curs?",
+             "Varia molt d'una escola a l'altra i convé preguntar-ho abans d'apuntar-s'hi. A la nostra no hi ha permanència: es pot donar de baixa sense penalització i es pot canviar de grup o d'estil durant el curs."),
+        ],
+
+        "title_es": "cómo elegir escuela de danza en Barcelona: las preguntas que hay que hacer · escola de dansa cristina colomé",
+        "desc_es": "Las preguntas que vale la pena hacer cuando visitas una escuela de danza en Barcelona: quién entrará en la sala, cuántos alumnos hay dentro, cómo es el suelo, qué pasa durante el curso y qué hay detrás del precio. Con nuestras respuestas, para que las compares.",
+        "h1_es": "cómo elegir escuela de danza en Barcelona: las preguntas que hay que hacer",
+        "excerpt_es": "Quién entrará en la sala, cuántos alumnos hay dentro, cómo es el suelo y qué hay detrás del precio. Las preguntas que vale la pena hacer antes de apuntar a nadie, y nuestras respuestas.",
+        "intro_es": "Todas las escuelas decimos lo mismo en la web: profesorado titulado, ambiente familiar, todos los niveles. Como eso no ayuda a decidir, aquí tienes lo que sí ayuda: qué mirar y qué preguntar cuando entres.",
+        "cos_es": """
+<p>En Barcelona hay decenas de escuelas de danza y, en la web, todas nos parecemos mucho. Las frases hechas no ayudan a nadie a elegir. Lo que ayuda es entrar en la sala, mirar y preguntar — y saber qué hay que preguntar. Esta es la lista que usaríamos nosotros si tuviéramos que buscar escuela para un hijo, ordenada de más a menos importante. Al final encontrarás nuestras respuestas, para que las compares con las de cualquier otra escuela que visites, la nuestra incluida.</p>
+
+<h2>quién entrará en la sala</h2>
+<p>Es lo que más pesa y lo que menos se pregunta. Una escuela son sus profesoras: lo demás es decoración. Vale la pena saber <strong>quién dará clase a tu hijo, qué formación tiene y cuántos años lleva enseñando</strong>, no solo quién dirige la escuela.</p>
+<p>Y una pregunta que casi nadie hace: <strong>¿será la misma persona todo el curso?</strong> Los cambios constantes de profesor son lo que más desorienta a los niños pequeños, porque cada profesora tiene su lenguaje y su manera de corregir. Pregunta también quién la sustituye los días que falta.</p>
+
+<h2>cuántos alumnos hay dentro</h2>
+<p>La ratio determina si tu hijo recibirá correcciones con nombre y apellidos o si se pasará el año imitando al de delante. No hay un número mágico — depende de la edad y de la disciplina —, pero sí hay una manera de comprobarlo: <strong>mira si la profesora corrige uno por uno</strong>. Si en una clase entera no toca la espalda de nadie ni dice ningún nombre, hay demasiada gente en la sala.</p>
+<p>Pregunta siempre el máximo de alumnos por grupo y qué pasa cuando un grupo se llena: si abren otro o si van encajando gente. Una escuela que no sabe decirte ese número ya te está dando una respuesta.</p>
+
+<h2>la sala y, sobre todo, el suelo</h2>
+<p>El suelo es salud, no estética. Bailar horas sobre cerámica u hormigón pintado pasa factura a rodillas y tobillos; lo que se busca es <strong>madera o linóleo sobre una estructura que amortigüe</strong>. Pide ver las salas, no fotos: comprueba que haya espejo y barra de verdad, que se ventilen y que quepa un desplazamiento entero sin chocar con la pared.</p>
+<p>Ya que estás, mira dos cosas más: dónde esperan las familias y cómo son los vestuarios. Dicen mucho de cómo se vive allí cada tarde.</p>
+
+<h2>qué pasará durante el curso</h2>
+<p>Un curso de danza no son solo las clases semanales. Pregunta qué hay en el calendario y, sobre todo, qué implica para vosotros:</p>
+<ul>
+<li><strong>Festival o muestra de fin de curso</strong> — cuándo es, cuántos ensayos extra pide y si tiene coste añadido.</li>
+<li><strong>Vestuario</strong> — quién lo compra, cuánto cuesta y si sirve para más de un año.</li>
+<li><strong>Exámenes oficiales</strong> — si la escuela prepara exámenes (los de la Royal Academy of Dance son los más habituales en clásico), si son voluntarios y qué cuestan.</li>
+<li><strong>Comunicación</strong> — cómo os avisarán si un día no hay clase, y si podréis hablar con la profesora cuando haga falta.</li>
+</ul>
+
+<h2>qué hay detrás del precio</h2>
+<p>El precio de la web es el principio, no el final. Las preguntas que evitan sorpresas en enero son estas: cuánto cuesta cada actividad al mes y qué pasa si hace dos o tres; si hay matrícula y cuándo se cobra; si hay que comprometerse todo el curso o se puede dejar; y qué más se paga a lo largo del año. <strong>Una escuela que publica los precios en la web te ahorra la conversación incómoda</strong>, y suele ser buena señal.</p>
+
+<h2>si el horario os encaja de verdad</h2>
+<p>Aquí es donde muchas matrículas se estropean en noviembre. Cuenta el tiempo real desde que sale del colegio hasta que entra en la sala, con la merienda por medio. Mira si hay más de un grupo de la misma disciplina por si un día tenéis que cambiar de día, y pregunta si se puede cambiar de grupo a mitad de curso cuando el horario escolar se tuerce.</p>
+
+<h2>cómo te tratan antes de ser cliente</h2>
+<p>El último filtro es el más fiable de todos: <strong>cómo te responden cuando todavía no eres nadie</strong>. Si te dejan probar una clase sin compromiso, si contestan el WhatsApp el mismo día, si te dejan entrar a ver la sala en lugar de mandarte un folleto. El trato de antes suele ser el trato de después.</p>
+
+<h2>nuestras respuestas</h2>
+<p>Para no predicar en vano, las nuestras, cortas y comprobables:</p>
+<ul>
+<li><strong>Quién da clase</strong> — Cristina Colomé y su equipo de profesoras. Hace más de 25 años que la escuela está en el mismo sitio de Sant Gervasi, en la calle de Craywinckel, 25.</li>
+<li><strong>Qué se hace</strong> — doce disciplinas y 56 clases cada semana, desde los 3 años hasta adultos, repartidas en tres salas.</li>
+<li><strong>Cuándo</strong> — tardes de lunes a viernes, y barre por la mañana lunes y miércoles. El horario completo está en <a href="/es/horarios/">horarios</a>.</li>
+<li><strong>Cuánto</strong> — 56 € al mes una actividad infantil y 60 € una juvenil o de adultos; cuantas más actividades, más económica sale cada una, y pagando por trimestres aún se ahorra. Matrícula de 65 € al renovar y 70 € en un alta nueva. Todo publicado en <a href="/es/precios/">precios</a>.</li>
+<li><strong>Sin compromiso</strong> — la <a href="/es/blog/clase-de-prueba-gratuita/">clase de prueba es gratuita</a>, no hay permanencia y se puede cambiar de grupo o de estilo hablando con recepción.</li>
+<li><strong>Durante el curso</strong> — festival de fin de curso para quien quiera subir al escenario y preparación de los <a href="/es/blog/examenes-rad-ballet/">exámenes de la Royal Academy of Dance</a> para quien quiera presentarse.</li>
+<li><strong>Ratios y salas</strong> — te las decimos cuando nos lo preguntas, y en la clase de prueba las ves con tus propios ojos. Es la manera honesta de responderlo.</li>
+</ul>
+
+<p>Un consejo para acabar: visita dos o tres escuelas y prueba una clase en cada una. Lo que os quedará no será el folleto ni la web, sino la cara con la que sale de la sala. Si ya quiere volver, has encontrado la escuela. Y si quieres empezar por nosotros, mira qué hacemos para los <a href="/es/danza-infantil/">niños</a> o para los <a href="/es/danza-adultos/">adultos</a> y ven a probar un día.</p>
+""",
+        "faqs_es": [
+            ("¿cuántas escuelas de danza vale la pena visitar antes de decidir?",
+             "Con dos o tres basta. Más allá de eso se mezclan y se decide peor. Lo que sí vale la pena es probar una clase: se nota mucho más dentro de la sala que en el mostrador."),
+            ("¿cómo sé si la profesora está titulada?",
+             "Pregúntalo directamente: formación, años enseñando y si será ella todo el curso. Una escuela que responde enseguida te está diciendo mucho, y una que esquiva la pregunta, también."),
+            ("¿cuántos alumnos por clase son demasiados?",
+             "Depende de la edad y de la disciplina, pero la prueba es sencilla: si durante una clase entera la profesora no corrige a nadie por su nombre, hay demasiada gente en la sala."),
+            ("¿hay que comprometerse para todo el curso?",
+             "Varía mucho de una escuela a otra y conviene preguntarlo antes de apuntarse. En la nuestra no hay permanencia: se puede dar de baja sin penalización y cambiar de grupo o de estilo durante el curso."),
+        ],
+    },
 ]
 
 

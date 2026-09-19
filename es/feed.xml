@@ -6,7 +6,15 @@
     <atom:link href="https://escoladansa.com/es/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Consejos de danza para familias y adultos, y vida de escuela, desde Sant Gervasi (Barcelona).</description>
     <language>es</language>
-    <lastBuildDate>Tue, 08 Sep 2026 08:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 20 Sep 2026 08:00:00 +0200</lastBuildDate>
+    <item>
+      <title>cómo elegir escuela de danza en Barcelona: las preguntas que hay que hacer</title>
+      <link>https://escoladansa.com/es/blog/como-elegir-escuela-danza-barcelona/</link>
+      <guid isPermaLink="true">https://escoladansa.com/es/blog/como-elegir-escuela-danza-barcelona/</guid>
+      <pubDate>Sun, 20 Sep 2026 08:00:00 +0200</pubDate>
+      <description>Las preguntas que vale la pena hacer cuando visitas una escuela de danza en Barcelona: quién entrará en la sala, cuántos alumnos hay dentro, cómo es el suelo, qué pasa durante el curso y qué hay detrás del precio. Con nuestras respuestas, para que las compares.</description>
+      <enclosure url="https://escoladansa.com/assets/blog-triar-escola.jpg" type="image/jpeg" length="150000"/>
+    </item>
     <item>
       <title>las primeras semanas de curso: cómo saber si la clase le encaja</title>
       <link>https://escoladansa.com/es/blog/primeras-semanas-de-curso/</link>
