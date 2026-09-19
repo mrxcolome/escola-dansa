@@ -3,6 +3,7 @@
 User-agent: *
 Allow: /
 Disallow: /seo/
+Disallow: /dossier/
 Content-Signal: search=yes, ai-input=yes, ai-train=yes
 
 Sitemap: https://escoladansa.com/sitemap.xml

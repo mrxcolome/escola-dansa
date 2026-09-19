@@ -1,0 +1,4 @@
+# document intern per compartir per enllaç: fora de cercadors i assistents
+<IfModule mod_headers.c>
+  Header set X-Robots-Tag "noindex, nofollow, noarchive"
+</IfModule>
