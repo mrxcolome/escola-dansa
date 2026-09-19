@@ -1769,8 +1769,8 @@ POSTS = [
         "nom_wa_es": "danza",
         "og": "blog-triar-escola.jpg",
         "img": "blog-triar-escola.jpg",
-        "img_alt": "Una llibreta granat oberta amb un bolígraf a sobre, en un banc de fusta d'una sala de dansa, amb el mirall i la barra desenfocats al fons",
-        "img_alt_es": "Una libreta granate abierta con un bolígrafo encima, en un banco de madera de una sala de danza, con el espejo y la barra desenfocados al fondo",
+        "img_alt": "Unes sabatilles de ballet rosades amb les cintes descordades, damunt del panot de flor característic de les voreres de Barcelona",
+        "img_alt_es": "Unas zapatillas de ballet rosas con las cintas sueltas, sobre el panot de flor característico de las aceras de Barcelona",
         "related_pagines": ["dansa-infantil", "dansa-adults", "horaris", "preus"],
         "related_posts": ["classe-de-prova-gratuita", "a-quina-edat-comencar-dansa", "examens-rad-ballet"],
 
