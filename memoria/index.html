@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="ca"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow,noarchive">
+<title>Àrea privada</title>
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap">
+<style>
+:root{--fons:#f5f1ec;--paper:#fffdfb;--tinta:#1c1613;--gris:#6c645e;--vora:rgba(28,22,19,.14);--granat:#950000}
+*{box-sizing:border-box}
+body{margin:0;background:var(--fons);color:var(--tinta);font-family:'Montserrat',system-ui,sans-serif;line-height:1.65}
+main{max-width:640px;margin:0 auto;padding:clamp(48px,9vw,96px) clamp(16px,4vw,32px)}
+.eti{display:flex;align-items:center;gap:12px;font-size:.72rem;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--granat);margin:0 0 14px}
+.eti::before{content:"";width:30px;height:1px;background:currentColor}
+h1{font-size:clamp(2.2rem,6vw,3.2rem);font-weight:800;text-transform:lowercase;letter-spacing:-.03em;margin:0;line-height:1}
+h1 span{color:var(--granat)}
+p{margin:18px 0 0;color:var(--gris)}
+.fitxer{margin-top:32px;border-top:2px solid var(--tinta);padding-top:16px}
+.fitxer a{font-weight:800;color:var(--tinta);font-size:1.05rem}
+.fitxer small{display:block;color:var(--gris);font-size:.85rem;margin-top:4px}
+code{display:block;background:var(--paper);border:1px solid var(--vora);border-radius:10px;padding:12px 14px;margin-top:10px;
+  font-family:ui-monospace,Consolas,monospace;font-size:.8rem;color:var(--tinta);overflow-x:auto;white-space:pre}
+</style></head><body><main>
+<p class="eti">àrea privada</p>
+<h1>còpia de seguretat<span>.</span></h1>
+<p>Còpia de la memòria de treball de Claude (projectes, decisions i criteris), del 20 de setembre
+de 2026. L'arxiu està xifrat: cal la mateixa contrasenya amb què has entrat aquí.</p>
+<div class="fitxer">
+  <a href="memoria-claude-2026-09-20.zip.aes" download>memoria-claude-2026-09-20.zip.aes</a>
+  <small>Descarrega'l i desxifra'l per obtenir el .zip amb tots els fitxers i el document llegible.</small>
+  <code>openssl enc -d -aes-256-cbc -pbkdf2 -iter 200000 \
+  -in memoria-claude-2026-09-20.zip.aes \
+  -out memoria-claude-2026-09-20.zip</code>
+  <small>A Windows, l'openssl ve amb el Git: C:\Program Files\Git\usr\bin\openssl.exe</small>
+</div>
+</main></body></html>

@@ -1,0 +1,14 @@
+# Còpia de seguretat privada: sempre amb contrasenya i fora de cercadors
+AuthType Basic
+AuthName "Area privada"
+AuthUserFile /home2/emolocc1/public_html/escoladansa.com/memoria/.htpasswd
+Require valid-user
+
+<IfModule mod_headers.c>
+  Header set X-Robots-Tag "noindex, nofollow, noarchive"
+</IfModule>
+
+# el fitxer de contrasenyes no s'ha de poder demanar mai
+<FilesMatch "^\.ht">
+  Require all denied
+</FilesMatch>
