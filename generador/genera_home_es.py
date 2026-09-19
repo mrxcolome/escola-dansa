@@ -23,7 +23,7 @@ PARELLES = [
     ('<meta name="description" content="escola de dansa a Sant Gervasi (Barcelona) amb més de 25 anys d\'història: clàssic, contemporani, jazz, hip-hop, claqué i més. 1a classe de prova gratuïta.">',
      '<meta name="description" content="escuela de danza en Sant Gervasi (Barcelona) con más de 25 años de historia: clásico, contemporáneo, jazz, hip-hop, claqué y más. 1ª clase de prueba gratuita.">'),
     ('<link rel="canonical" href="https://escoladansa.com/">',
-     '<link rel="canonical" href="https://escoladansa.com/es/">\n<link rel="alternate" hreflang="ca" href="https://escoladansa.com/">\n<link rel="alternate" hreflang="es" href="https://escoladansa.com/es/">\n<link rel="alternate" hreflang="x-default" href="https://escoladansa.com/">'),
+     '<link rel="canonical" href="https://escoladansa.com/es/">'),  # els hreflang ja venen de la home CA
     ('<meta property="og:title" content="escola de dansa cristina colomé · Sant Gervasi, Barcelona">',
      '<meta property="og:title" content="escola de dansa cristina colomé · escuela de danza en Barcelona">'),
     ('<meta property="og:description" content="més de 25 anys movent Barcelona. clàssic, contemporani, jazz, hip-hop, claqué i més, per a totes les edats i nivells. la primera classe de prova és gratuïta.">',
