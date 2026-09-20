@@ -41,6 +41,22 @@ RewriteRule ^inici_xmas(/.*)?$ https://escoladansa.com/ [L,R=301]
 RewriteRule ^casal-infantil-diver-dansa(/.*)?$ https://escoladansa.com/dansa-infantil/ [L,R=301]
 RewriteRule ^stage-juvenil-global-dance(/.*)?$ https://escoladansa.com/ [L,R=301]
 
+# ── 2a tanda (20 set 2026): les 43 adreces velles que encara feien 404 ──
+# (llistades amb la Wayback Machine i comprovades una a una contra la web nova)
+# etiquetes i categories del blog del WordPress -> el blog nou
+RewriteRule ^blog/(tag|category)/.+$ https://escoladansa.com/blog/ [L,R=301]
+# web pre-WordPress (/html/*.htm): pàgines de professores, horaris, preus i com arribar
+RewriteRule ^html/horaris\.htm/?$ https://escoladansa.com/horaris/ [L,R=301]
+RewriteRule ^html/preus\.htm/?$ https://escoladansa.com/preus/ [L,R=301]
+RewriteRule ^html/situacio\.htm/?$ https://escoladansa.com/#contacte [L,R=301,NE]
+RewriteRule ^html/(escola|cristina)\.htm/?$ https://escoladansa.com/#escola [L,R=301,NE]
+RewriteRule ^html/.+$ https://escoladansa.com/ [L,R=301]
+# campanyes d'estiu i de Nadal d'anys passats
+RewriteRule ^estiu[0-9]+(/.*)?$ https://escoladansa.com/dansa-infantil/ [L,R=301]
+RewriteRule ^nadal[0-9]+(/.*)?$ https://escoladansa.com/ [L,R=301]
+# portades velles del lloc estàtic
+RewriteRule ^(default\.htm|index\.html)/?$ https://escoladansa.com/ [L,R=301]
+
 # ── Pàgina 404 personalitzada ──
 # document intern reanomenat (Tramoia -> Backstage)
 RewriteRule ^tramoia(/.*)?$ https://escoladansa.com/backstage/ [L,R=301]
