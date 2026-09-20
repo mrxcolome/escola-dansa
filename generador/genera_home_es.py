@@ -18,10 +18,12 @@ q = urllib.parse.quote
 PARELLES = [
     # ── head ──
     ('<html lang="ca">', '<html lang="es">'),
-    ('<title>escola de dansa cristina colomé · Sant Gervasi, Barcelona</title>',
-     '<title>escola de dansa cristina colomé · escuela de danza en Barcelona</title>'),
-    ('<meta name="description" content="escola de dansa a Sant Gervasi (Barcelona) amb més de 25 anys d\'història: clàssic, contemporani, jazz, hip-hop, claqué i més. 1a classe de prova gratuïta.">',
-     '<meta name="description" content="escuela de danza en Sant Gervasi (Barcelona) con más de 25 años de historia: clásico, contemporáneo, jazz, hip-hop, claqué y más. 1ª clase de prueba gratuita.">'),
+    # el títol comença pel que la gent busca, no per la marca (set 2026: sortíem
+    # a la 1a pàgina per «escola de dansa» amb 0 clics)
+    ('<title>escola de dansa a Sant Gervasi, Barcelona · cristina colomé</title>',
+     '<title>escuela de danza en Sant Gervasi, Barcelona · cristina colomé</title>'),
+    ('<meta name="description" content="escola de dansa a Sant Gervasi (Barcelona), des dels 3 anys fins a adults: clàssic, contemporani, jazz, hip-hop, claqué i més. 1a classe de prova gratuïta.">',
+     '<meta name="description" content="escuela de danza en Sant Gervasi (Barcelona), desde los 3 años hasta adultos: clásico, contemporáneo, jazz, hip-hop, claqué y más. 1ª clase de prueba gratuita.">'),
     ('<link rel="canonical" href="https://escoladansa.com/">',
      '<link rel="canonical" href="https://escoladansa.com/es/">'),  # els hreflang ja venen de la home CA
     ('<meta property="og:title" content="escola de dansa cristina colomé · Sant Gervasi, Barcelona">',
