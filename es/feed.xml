@@ -6,7 +6,15 @@
     <atom:link href="https://escoladansa.com/es/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Consejos de danza para familias y adultos, y vida de escuela, desde Sant Gervasi (Barcelona).</description>
     <language>es</language>
-    <lastBuildDate>Sun, 20 Sep 2026 08:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 27 Sep 2026 08:00:00 +0200</lastBuildDate>
+    <item>
+      <title>aún estás a tiempo: apuntarse a danza con el curso empezado</title>
+      <link>https://escoladansa.com/es/blog/apuntarse-con-el-curso-empezado/</link>
+      <guid isPermaLink="true">https://escoladansa.com/es/blog/apuntarse-con-el-curso-empezado/</guid>
+      <pubDate>Sun, 27 Sep 2026 08:00:00 +0200</pubDate>
+      <description>El curso empezó en septiembre, pero octubre sigue siendo un buen momento para empezar a bailar: los grupos aún se están formando, la clase de prueba es gratuita y del primer mes solo se pagan los días que quedan.</description>
+      <enclosure url="https://escoladansa.com/assets/blog-encara-hi-ets-a-temps.jpg" type="image/jpeg" length="150000"/>
+    </item>
     <item>
       <title>cómo elegir escuela de danza en Barcelona: las preguntas que hay que hacer</title>
       <link>https://escoladansa.com/es/blog/como-elegir-escuela-danza-barcelona/</link>

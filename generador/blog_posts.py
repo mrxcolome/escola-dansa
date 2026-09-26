@@ -1900,6 +1900,106 @@ POSTS = [
              "Varía mucho de una escuela a otra y conviene preguntarlo antes de apuntarse. En la nuestra no hay permanencia: se puede dar de baja sin penalización y cambiar de grupo o de estilo durante el curso."),
         ],
     },
+    {
+        "slug": "apuntar-se-amb-el-curs-comencat",
+        "slug_es": "apuntarse-con-el-curso-empezado",
+        "categoria": "famílies",
+        "categoria_es": "familias",
+        "data": "2026-09-27",
+        "data_ca": "27 de setembre de 2026",
+        "data_es": "27 de septiembre de 2026",
+        "minuts": 4,
+        "nom_wa": "dansa",
+        "nom_wa_es": "danza",
+        "og": "blog-encara-hi-ets-a-temps.jpg",
+        "img": "blog-encara-hi-ets-a-temps.jpg",
+        "img_alt": "Unes sabatilles de ballet lligades amb la cinta, a terra d'una sala de dansa al costat d'una bossa i un jersei granat, amb la barra al fons",
+        "img_alt_es": "Unas zapatillas de ballet atadas con la cinta, en el suelo de una sala de danza junto a una bolsa y un jersey granate, con la barra al fondo",
+        "related_pagines": ["horaris", "preus", "dansa-infantil", "dansa-adults"],
+        "related_posts": ["classe-de-prova-gratuita", "primeres-setmanes-de-curs", "comencar-dansa-adults"],
+
+        "title": "encara hi ets a temps: apuntar-se a dansa amb el curs començat · escola de dansa cristina colomé",
+        "desc": "El curs va començar al setembre, però l'octubre segueix sent un bon moment per començar a ballar: els grups encara s'estan fent, la classe de prova és gratuïta i del primer mes només es paguen els dies que queden.",
+        "h1": "encara hi ets a temps: apuntar-se a dansa amb el curs començat",
+        "excerpt": "El setembre s'ha escapat i encara no l'has apuntat? No passa res: a l'octubre els grups encara s'estan fent, la prova és gratuïta i del primer mes només es paguen els dies que queden.",
+        "intro": "Cada octubre hi ha famílies que truquen demanant perdó per arribar tard. No cal: començar ara no té cap penalització, i t'expliquem per què.",
+        "cos": """
+<p>El setembre passa volant. Entre la tornada a l'escola, els llibres, les altres extraescolars i posar la casa en marxa, hi ha una decisió que sempre queda per a la setmana que ve. I quan arriba l'octubre, moltes famílies donen per fet que ja fan tard i s'esperen al curs vinent. <strong>No cal esperar a res.</strong> A la nostra escola es pot començar durant tot l'any, i l'octubre és, de fet, un dels millors moments.</p>
+
+<h2>per què l'octubre encara és bon moment</h2>
+<p>Les primeres setmanes de curs són de posar-se en marxa: conèixer el grup, recordar el que es va aprendre, tornar a agafar el ritme. Hi ha alumnes que canvien de dia, altres que proven una disciplina diferent i algun que s'hi afegeix. Dit d'una altra manera: <strong>els grups encara s'estan fent</strong>, i entrar-hi ara és entrar amb tothom, no interrompre res.</p>
+<p>A més, a la <a href="/blog/primeres-setmanes-de-curs/">primera classe tothom és nou d'alguna manera</a>: el nen que ve de l'any passat també està reconeixent la professora i els companys.</p>
+
+<h2>«i la coreografia? ja la sabran tots»</h2>
+<p>És el dubte més repetit i té resposta fàcil: <strong>al setembre i l'octubre no es munta coreografia</strong>. Es treballa tècnica, col·locació, ritme i condició física, que és la base sobre la qual després es construeix tot. El muntatge del festival arriba molt més endavant, i per llavors qui ha entrat a l'octubre ja fa mesos que hi és.</p>
+
+<h2>com és entrar a mig curs, pas a pas</h2>
+<ul>
+<li><strong>Una classe de prova, gratuïta i sense compromís.</strong> Ve, la fa sencera i decidiu després. <a href="/blog/classe-de-prova-gratuita/">Aquí expliquem com va</a>.</li>
+<li><strong>La plaça, al grup que encaixi.</strong> Mirem edat, nivell i horari. Si el grup que voleu està ple, us proposem el germà més proper dins del mateix estil.</li>
+<li><strong>Del primer mes només es paguen els dies que queden.</strong> Si entra a mitjan octubre, la quota d'aquell mes es calcula proporcionalment: ningú paga un mes sencer per mitja classe.</li>
+<li><strong>A partir d'aquí, com tothom.</strong> Mateixa quota, mateix grup, mateix festival. Els preus són els de sempre i els tens tots a <a href="/preus/">preus</a>.</li>
+</ul>
+
+<h2>i si qui dubta ets tu, i no un nen?</h2>
+<p>Amb els adults passa igual, però amb una excusa afegida: la sensació que «ja seria l'única que no en sap». No és cert, i menys en els grups d'iniciació, on gairebé tothom comença de zero. Hi ha classes al vespre i també <strong>barre els matins de dilluns i dimecres</strong>, que és entrenament pur i no demana haver ballat mai. Ho expliquem a <a href="/dansa-adults/">dansa per a adults</a> i a <a href="/blog/comencar-dansa-adults/">mai no és tard: començar a ballar d'adult</a>.</p>
+
+<h2>l'única cosa que sí que corre</h2>
+<p>Les places. Hi ha grups —sobretot els infantils de primera hora de la tarda— que s'omplen aviat, i quan passa només podem oferir un altre dia o un altre estil. Si tens clar quin dia us aniria bé, val més preguntar-ho aviat que al desembre.</p>
+<p>Mira la <a href="/horaris/">graella d'horaris</a>, tria el dia que us encaixi i escriu-nos. Provar-ho no costa res, i el pitjor que pot passar és que descobriu que aquell dia no us va bé.</p>
+""",
+        "faqs": [
+            ("es pot començar al novembre o al gener?",
+             "Sí. A l'escola s'hi pot entrar durant tot el curs, mentre quedin places al grup. Com abans es comenci, més fàcil és agafar el ritme del grup, però no hi ha cap porta tancada al calendari."),
+            ("haurem de pagar el mes sencer si comença a mitjan mes?",
+             "No: la quota del primer mes es calcula pels dies que queden. A partir del mes següent, la quota normal segons el nombre d'activitats setmanals. La matrícula d'alta nova sí que es paga sencera, al taulell."),
+            ("podrà sortir al festival de fi de curs?",
+             "Normalment sí, i començant a l'octubre hi ha temps de sobres: el muntatge comença molt més tard. A la classe de prova o a recepció t'ho confirmen segons el grup."),
+            ("i si prova i no li agrada?",
+             "No passa res. La classe de prova és gratuïta i sense compromís, i tampoc hi ha permanència: es pot canviar de grup, d'estil o donar-se de baixa sense penalització."),
+        ],
+
+        "title_es": "aún estás a tiempo: apuntarse a danza con el curso empezado · escola de dansa cristina colomé",
+        "desc_es": "El curso empezó en septiembre, pero octubre sigue siendo un buen momento para empezar a bailar: los grupos aún se están formando, la clase de prueba es gratuita y del primer mes solo se pagan los días que quedan.",
+        "h1_es": "aún estás a tiempo: apuntarse a danza con el curso empezado",
+        "excerpt_es": "¿Septiembre se ha escapado y todavía no lo has apuntado? No pasa nada: en octubre los grupos aún se están formando, la prueba es gratuita y del primer mes solo se pagan los días que quedan.",
+        "intro_es": "Cada octubre hay familias que llaman pidiendo perdón por llegar tarde. No hace falta: empezar ahora no tiene ninguna penalización, y te contamos por qué.",
+        "cos_es": """
+<p>Septiembre pasa volando. Entre la vuelta al cole, los libros, las otras extraescolares y poner la casa en marcha, siempre hay una decisión que queda para la semana que viene. Y cuando llega octubre, muchas familias dan por hecho que ya llegan tarde y esperan al curso siguiente. <strong>No hace falta esperar a nada.</strong> En nuestra escuela se puede empezar durante todo el año, y octubre es, de hecho, uno de los mejores momentos.</p>
+
+<h2>por qué octubre sigue siendo buen momento</h2>
+<p>Las primeras semanas de curso son de ponerse en marcha: conocer al grupo, recordar lo aprendido, recuperar el ritmo. Hay alumnos que cambian de día, otros que prueban una disciplina distinta y alguno que se suma. Dicho de otro modo: <strong>los grupos todavía se están formando</strong>, y entrar ahora es entrar con todos, no interrumpir nada.</p>
+<p>Además, en la <a href="/es/blog/primeras-semanas-de-curso/">primera clase todo el mundo es nuevo de alguna manera</a>: el niño que viene del año pasado también está reconociendo a la profesora y a los compañeros.</p>
+
+<h2>«¿y la coreografía? ya se la sabrán todos»</h2>
+<p>Es la duda más repetida y tiene respuesta fácil: <strong>en septiembre y octubre no se monta coreografía</strong>. Se trabaja técnica, colocación, ritmo y condición física, que es la base sobre la que después se construye todo. El montaje del festival llega mucho más adelante, y para entonces quien ha entrado en octubre lleva meses en la sala.</p>
+
+<h2>cómo es entrar a mitad de curso, paso a paso</h2>
+<ul>
+<li><strong>Una clase de prueba, gratuita y sin compromiso.</strong> Viene, la hace entera y decidís después. <a href="/es/blog/clase-de-prueba-gratuita/">Aquí explicamos cómo va</a>.</li>
+<li><strong>La plaza, en el grupo que encaje.</strong> Miramos edad, nivel y horario. Si el grupo que queréis está lleno, os proponemos el más cercano dentro del mismo estilo.</li>
+<li><strong>Del primer mes solo se pagan los días que quedan.</strong> Si entra a mediados de octubre, la cuota de ese mes se calcula proporcionalmente: nadie paga un mes entero por media clase.</li>
+<li><strong>A partir de ahí, como todos.</strong> Misma cuota, mismo grupo, mismo festival. Los precios son los de siempre y los tienes en <a href="/es/precios/">precios</a>.</li>
+</ul>
+
+<h2>¿y si quien duda eres tú, y no un niño?</h2>
+<p>Con los adultos pasa igual, pero con una excusa añadida: la sensación de que «sería la única que no sabe». No es cierto, y menos en los grupos de iniciación, donde casi todo el mundo empieza de cero. Hay clases por la tarde-noche y también <strong>barre las mañanas de lunes y miércoles</strong>, que es entrenamiento puro y no pide haber bailado nunca. Lo contamos en <a href="/es/danza-adultos/">danza para adultos</a> y en <a href="/es/blog/empezar-danza-adultos/">nunca es tarde: empezar a bailar de adulto</a>.</p>
+
+<h2>lo único que sí corre</h2>
+<p>Las plazas. Hay grupos —sobre todo los infantiles de primera hora de la tarde— que se llenan pronto, y cuando ocurre solo podemos ofrecer otro día u otro estilo. Si tenéis claro qué día os iría bien, mejor preguntarlo pronto que en diciembre.</p>
+<p>Mira el <a href="/es/horarios/">horario completo</a>, elige el día que os encaje y escríbenos. Probarlo no cuesta nada, y lo peor que puede pasar es que descubráis que ese día no os va bien.</p>
+""",
+        "faqs_es": [
+            ("¿se puede empezar en noviembre o en enero?",
+             "Sí. En la escuela se puede entrar durante todo el curso, mientras queden plazas en el grupo. Cuanto antes se empiece, más fácil es coger el ritmo del grupo, pero no hay ninguna puerta cerrada en el calendario."),
+            ("¿habrá que pagar el mes entero si empieza a mitad de mes?",
+             "No: la cuota del primer mes se calcula por los días que quedan. A partir del mes siguiente, la cuota normal según el número de actividades semanales. La matrícula de alta nueva sí se paga entera, en el mostrador."),
+            ("¿podrá salir en el festival de fin de curso?",
+             "Normalmente sí, y empezando en octubre hay tiempo de sobra: el montaje empieza mucho más tarde. En la clase de prueba o en recepción te lo confirman según el grupo."),
+            ("¿y si prueba y no le gusta?",
+             "No pasa nada. La clase de prueba es gratuita y sin compromiso, y tampoco hay permanencia: se puede cambiar de grupo, de estilo o darse de baja sin penalización."),
+        ],
+    },
 ]
 
 

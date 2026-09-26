@@ -1,5 +1,6 @@
 # blog · consells de dansa i vida d’escola
 
+- [Encara hi ets a temps: apuntar-se a dansa amb el curs començat](https://escoladansa.com/blog/apuntar-se-amb-el-curs-comencat/) — El setembre s'ha escapat i encara no l'has apuntat? No passa res: a l'octubre els grups encara s'estan fent, la prova és gratuïta i del primer mes només es paguen els dies que queden.
 - [Com triar escola de dansa a Barcelona: les preguntes que cal fer](https://escoladansa.com/blog/com-triar-escola-dansa-barcelona/) — Qui entrarà a la sala, quants alumnes hi ha dins, com és el terra i què hi ha darrere del preu. Les preguntes que val la pena fer abans d'apuntar-hi ningú, i les nostres respostes.
 - [Les primeres setmanes de curs: com saber si la classe li encaixa](https://escoladansa.com/blog/primeres-setmanes-de-curs/) — El setembre enganya: l'adaptació dura entre dues i quatre setmanes. Els senyals que la classe encaixa, els que demanen un ajust, i com ho resolem sense drames.
 - [Més de 25 anys movent Sant Gervasi](https://escoladansa.com/blog/historia-escola-25-anys/) — Hi ha alumnes que van venir de petites i ara hi porten les seves filles. La història i la manera de fer d'una escola de barri que fa més d'un quart de segle que balla.
