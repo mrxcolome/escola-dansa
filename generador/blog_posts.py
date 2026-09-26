@@ -1913,8 +1913,8 @@ POSTS = [
         "nom_wa_es": "danza",
         "og": "blog-encara-hi-ets-a-temps.jpg",
         "img": "blog-encara-hi-ets-a-temps.jpg",
-        "img_alt": "Unes sabatilles de ballet lligades amb la cinta, a terra d'una sala de dansa al costat d'una bossa i un jersei granat, amb la barra al fons",
-        "img_alt_es": "Unas zapatillas de ballet atadas con la cinta, en el suelo de una sala de danza junto a una bolsa y un jersey granate, con la barra al fondo",
+        "img_alt": "Un grup d'alumnes d'esquena, a mig moviment amb una cama enrere i els braços oberts, davant del mirall i la barra d'una sala de dansa",
+        "img_alt_es": "Un grupo de alumnas de espaldas, a medio movimiento con una pierna atrás y los brazos abiertos, ante el espejo y la barra de una sala de danza",
         "related_pagines": ["horaris", "preus", "dansa-infantil", "dansa-adults"],
         "related_posts": ["classe-de-prova-gratuita", "primeres-setmanes-de-curs", "comencar-dansa-adults"],
 
