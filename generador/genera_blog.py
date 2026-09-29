@@ -29,6 +29,7 @@ nav.solida{background:rgba(247,244,240,.88)}
 .boto-ple{color:#f5f2ef}
 .cta-final{background:rgba(255,253,251,.85)}
 .accio:hover,.idioma-menu a:hover,.post-card:hover{background:rgba(149,0,0,.06)}
+.capsal .entradeta{max-width:none}
 .post-img{width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;display:block;border-radius:20px;margin:0 0 26px}
 .article .meta-post{font-size:var(--text);color:var(--gris);font-weight:400;font-style:italic;margin-bottom:38px}
 .article p{font-size:var(--text);color:var(--gris);font-weight:400;margin:0 0 22px}
