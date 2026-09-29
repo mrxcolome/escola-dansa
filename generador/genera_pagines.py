@@ -213,7 +213,7 @@ PAGINES = [
              "el claqué el comencem a partir de l'etapa juvenil. per als més petits recomanem començar per jazz, clàssic o hip-hop i fer el pas després."),
         ],
         "related": ["jazz", "musical-interpretacio", "dansa-adults"],
-        "posts": ["claque-el-ball-que-sona"],
+        "posts": ["claque-adults-primera-classe", "claque-el-ball-que-sona"],
     },
     {
         "slug": "ball-espanyol",

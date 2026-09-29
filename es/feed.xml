@@ -6,7 +6,15 @@
     <atom:link href="https://escoladansa.com/es/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Consejos de danza para familias y adultos, y vida de escuela, desde Sant Gervasi (Barcelona).</description>
     <language>es</language>
-    <lastBuildDate>Sun, 27 Sep 2026 08:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 29 Sep 2026 08:00:00 +0200</lastBuildDate>
+    <item>
+      <title>claqué de adulto: lo que hay que saber antes de la primera clase</title>
+      <link>https://escoladansa.com/es/blog/claque-adultos-primera-clase/</link>
+      <guid isPermaLink="true">https://escoladansa.com/es/blog/claque-adultos-primera-clase/</guid>
+      <pubDate>Tue, 29 Sep 2026 08:00:00 +0200</pubDate>
+      <description>¿Quieres empezar claqué de adulto? Si hace falta tener oído, qué zapatos necesitas y cuándo comprarlos, cómo es una clase y cuánto se tarda en sonar bien. Clase de prueba gratuita en Sant Gervasi.</description>
+      <enclosure url="https://escoladansa.com/assets/blog-claque-adults.jpg" type="image/jpeg" length="150000"/>
+    </item>
     <item>
       <title>aún estás a tiempo: apuntarse a danza con el curso empezado</title>
       <link>https://escoladansa.com/es/blog/apuntarse-con-el-curso-empezado/</link>

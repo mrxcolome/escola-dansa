@@ -1059,7 +1059,7 @@ POSTS = [
         "img_alt": "Un parell de sabates de claqué negres amb les plaques metàl·liques brillants sobre el parquet",
         "img_alt_es": "Un par de zapatos de claqué negros con las placas metálicas brillantes sobre el parquet",
         "related_pagines": ["claque", "jazz", "musical-interpretacio", "horaris"],
-        "related_posts": ["triar-estil-dansa-fill"],
+        "related_posts": ["claque-adults-primera-classe", "triar-estil-dansa-fill"],
 
         "title": "el claqué: el ball que també és música · escola de dansa cristina colomé",
         "desc": "Al claqué els peus són l'instrument: cada pas és un so i cada coreografia, una partitura. Què fa tan especial el claqué, per què va bé a totes les edats i com són les classes.",
@@ -1998,6 +1998,138 @@ POSTS = [
              "Normalmente sí, y empezando en octubre hay tiempo de sobra: el montaje empieza mucho más tarde. En la clase de prueba o en recepción te lo confirman según el grupo."),
             ("¿y si prueba y no le gusta?",
              "No pasa nada. La clase de prueba es gratuita y sin compromiso, y tampoco hay permanencia: se puede cambiar de grupo, de estilo o darse de baja sin penalización."),
+        ],
+    },
+    {
+        "slug": "claque-adults-primera-classe",
+        "slug_es": "claque-adultos-primera-clase",
+        "categoria": "adults",
+        "categoria_es": "adultos",
+        "data": "2026-09-29",
+        "data_ca": "29 de setembre de 2026",
+        "data_es": "29 de septiembre de 2026",
+        "minuts": 5,
+        "nom_wa": "claqué",
+        "nom_wa_es": "claqué",
+        "og": "blog-claque-adults.jpg",
+        "img": "blog-claque-adults.jpg",
+        "img_alt": "Els peus de dues persones adultes amb sabates de claqué, a mig pas sobre el parquet d'una sala de dansa",
+        "img_alt_es": "Los pies de dos personas adultas con zapatos de claqué, a medio paso sobre el parquet de una sala de danza",
+        "related_pagines": ["claque", "dansa-adults", "horaris", "preus"],
+        "related_posts": ["claque-el-ball-que-sona", "comencar-dansa-adults", "classe-de-prova-gratuita"],
+
+        "title": "claqué per a adults: el que cal saber abans de la primera classe · escola de dansa cristina colomé",
+        "desc": "Vols començar claqué d'adult? Si cal tenir oïda, quines sabates calen i quan comprar-les, com és una classe i quant es triga a sonar bé. Classe de prova gratuïta a Sant Gervasi.",
+        "h1": "claqué d'adult: el que cal saber abans de la primera classe",
+        "excerpt": "Si cal tenir oïda, quines sabates calen i quan comprar-les, com és una classe i quant es triga a sonar bé: els dubtes de qui vol començar claqué d'adult.",
+        "intro": "Et fa gràcia el claqué des de fa anys, però sempre hi ha alguna cosa que et frena: l'oïda, les sabates, l'edat, fer el ridícul. Aquí tens les respostes, abans de posar-te les plaques.",
+        "cos": """
+<p>El <a href="/claque/">claqué</a> és de les disciplines que més adults ens pregunten i que menys s'atreveixen a provar. Tothom en té una imatge (Fred Astaire, un musical, una escena de pel·lícula) i gairebé tothom té la mateixa sospita: «això no és per a mi». En aquest post responem els dubtes que ens arriben abans de la primera classe. Si vols saber què és el claqué i d'on ve, ho expliquem a <a href="/blog/claque-el-ball-que-sona/">el claqué: el ball que també és música</a>.</p>
+
+<h2>«no tinc oïda»: no cal tenir-ne per començar</h2>
+<p>És el dubte número u, i el que menys hauria de frenar-te. El ritme no és un do que es té o no es té: <strong>s'entrena</strong>, i el claqué és precisament una de les millors maneres d'entrenar-lo. Les primeres classes es treballen sons senzills, a poc a poc i comptant en veu alta. Com que el que fas amb els peus <em>se sent</em>, tu mateix t'adones de seguida de quan vas a temps i quan no, i aquesta és la millor escola que hi ha.</p>
+
+<h2>les sabates: no les compris abans de provar</h2>
+<p>Per a la <a href="/blog/classe-de-prova-gratuita/">classe de prova</a> no calen sabates de claqué: n'hi ha prou amb unes sabates de <strong>sola dura</strong> (de pell o de vestir, que no siguin esportives de goma). Així pots decidir si t'agrada sense gastar-te res.</p>
+<p>Si t'hi quedes, llavors sí que convé comprar-ne unes, i aquí tens tres consells:</p>
+<ul>
+<li><strong>Espera't a la primera o segona setmana.</strong> Pregunta'ns abans: t'orientem sobre quin model et va millor segons el teu peu i el teu nivell.</li>
+<li><strong>Per començar, no calen les més cares.</strong> Unes sabates d'iniciació ben ajustades i amb les plaques ben cargolades fan la feina de sobres durant molt de temps.</li>
+<li><strong>Que ajustin bé.</strong> Una sabata de claqué ha d'anar ferma, sense ballar-te dins el peu: si llisca, perds el control del so.</li>
+</ul>
+
+<h2>com és una classe per dins</h2>
+<p>Una classe de claqué té una estructura que dona molta seguretat a qui comença:</p>
+<ul>
+<li><strong>Escalfament</strong> de turmells, genolls i malucs, que són les articulacions que més treballen.</li>
+<li><strong>Els sons bàsics</strong>: punta, taló, els famosos <em>shuffle</em> i <em>flap</em>. Són com l'abecedari: pocs moviments que després es combinen de mil maneres.</li>
+<li><strong>Combinacions</strong> cada vegada més llargues, primer a poc a poc i després a la velocitat de la música.</li>
+<li><strong>Una frase amb música</strong> per acabar, que és el moment en què tot el grup sona alhora i entens per què enganxa.</li>
+</ul>
+<p>Si mai no n'has fet, explica'ns-ho abans de venir: segons la teva base de dansa i de ritme et recomanarem el grup, i la classe de prova serveix per comprovar que hi encaixes.</p>
+
+<h2>quant es triga a sonar bé?</h2>
+<p>Siguem sincers: les primeres setmanes sonen més a soroll que a música. És normal i li passa a tothom. El cos ha d'aprendre a deixar anar el turmell i a fer sons nets i separats, i això demana repetició. La bona notícia és que el progrés <strong>s'escolta</strong>: un dia t'adones que aquella combinació que et semblava impossible surt sola, i aquest moment és molt satisfactori.</p>
+<p>No cal practicar a casa per avançar, però si et ve de gust repassar, n'hi ha prou amb uns minuts sobre una superfície dura que no faci mal a ningú (i avisa els veïns de sota).</p>
+
+<h2>per què enganxa tant d'adult</h2>
+<ul>
+<li><strong>Exercita el cap tant com les cames.</strong> Memoritzar seqüències, comptar i coordinar peus i música alhora és un entrenament mental de primera.</li>
+<li><strong>No cal ser flexible ni haver ballat mai.</strong> El claqué no demana spagats ni salts: demana ritme, i el ritme s'aprèn.</li>
+<li><strong>És social.</strong> Quan el grup sona junt, es crea una complicitat especial. I riure's dels propis errors forma part de la classe.</li>
+<li><strong>Desconnecta de veritat.</strong> Durant una hora estàs tan pendent dels peus i de la música que no hi ha lloc per a res més.</li>
+</ul>
+
+<h2>on i quan</h2>
+<p>A l'escola tenim grups de claqué d'adults <strong>els dimarts i els dijous a les 18.30</strong>, i un grup juvenil els dimarts a les 19.45. Els tens tots a la <a href="/horaris/">graella d'horaris</a>, i les quotes, a <a href="/preus/">preus</a>. Si també et fan gràcia altres estils, fes una ullada a totes les opcions de <a href="/dansa-adults/">dansa per a adults</a>.</p>
+<p>La primera classe és gratuïta: vine amb sabates de sola dura i ganes de fer soroll.</p>
+""",
+        "faqs": [
+            ("cal tenir oïda musical per fer claqué?",
+             "No. El ritme s'entrena, i el claqué és una de les millors maneres d'entrenar-lo: com que els peus sonen, tu mateix sents quan vas a temps. Les primeres classes es fan a poc a poc i comptant en veu alta."),
+            ("quines sabates necessito per a la classe de prova?",
+             "Unes sabates de sola dura, de pell o de vestir, no esportives. No cal comprar sabates de claqué fins que no decideixis quedar-t'hi, i abans de fer-ho t'orientem sobre quin model et va bé."),
+            ("mai no he fet dansa: puc començar claqué d'adult?",
+             "Sí. El claqué no demana flexibilitat ni experiència prèvia en dansa. Explica'ns la teva base abans de venir i et recomanarem el grup que et convé; la classe de prova serveix per comprovar-ho."),
+            ("quins dies hi ha claqué per a adults?",
+             "Els dimarts i els dijous a les 18.30. Hi ha també un grup juvenil els dimarts a les 19.45. Tens tots els horaris a la graella de la web."),
+        ],
+
+        "title_es": "claqué para adultos: lo que hay que saber antes de la primera clase · escola de dansa cristina colomé",
+        "desc_es": "¿Quieres empezar claqué de adulto? Si hace falta tener oído, qué zapatos necesitas y cuándo comprarlos, cómo es una clase y cuánto se tarda en sonar bien. Clase de prueba gratuita en Sant Gervasi.",
+        "h1_es": "claqué de adulto: lo que hay que saber antes de la primera clase",
+        "excerpt_es": "Si hace falta tener oído, qué zapatos necesitas y cuándo comprarlos, cómo es una clase y cuánto se tarda en sonar bien: las dudas de quien quiere empezar claqué de adulto.",
+        "intro_es": "Hace años que el claqué te llama, pero siempre hay algo que te frena: el oído, los zapatos, la edad, hacer el ridículo. Aquí tienes las respuestas, antes de ponerte las placas.",
+        "cos_es": """
+<p>El <a href="/es/claque/">claqué</a> es de las disciplinas por las que más adultos nos preguntan y que menos se atreven a probar. Todo el mundo tiene una imagen (Fred Astaire, un musical, una escena de película) y casi todo el mundo tiene la misma sospecha: «esto no es para mí». En este post respondemos las dudas que nos llegan antes de la primera clase. Si quieres saber qué es el claqué y de dónde viene, lo contamos en <a href="/es/blog/claque-el-baile-que-suena/">el claqué: el baile que también es música</a>.</p>
+
+<h2>«no tengo oído»: no hace falta para empezar</h2>
+<p>Es la duda número uno, y la que menos debería frenarte. El ritmo no es un don que se tiene o no se tiene: <strong>se entrena</strong>, y el claqué es precisamente una de las mejores maneras de entrenarlo. Las primeras clases se trabajan sonidos sencillos, poco a poco y contando en voz alta. Como lo que haces con los pies <em>se oye</em>, tú mismo te das cuenta enseguida de cuándo vas a tiempo y cuándo no, y esa es la mejor escuela que hay.</p>
+
+<h2>los zapatos: no los compres antes de probar</h2>
+<p>Para la <a href="/es/blog/clase-de-prueba-gratuita/">clase de prueba</a> no hacen falta zapatos de claqué: basta con unos zapatos de <strong>suela dura</strong> (de piel o de vestir, que no sean deportivas de goma). Así puedes decidir si te gusta sin gastarte nada.</p>
+<p>Si te quedas, entonces sí conviene comprar unos, y aquí tienes tres consejos:</p>
+<ul>
+<li><strong>Espera a la primera o segunda semana.</strong> Pregúntanos antes: te orientamos sobre qué modelo te va mejor según tu pie y tu nivel.</li>
+<li><strong>Para empezar, no hacen falta los más caros.</strong> Unos zapatos de iniciación bien ajustados y con las placas bien atornilladas cumplen de sobra durante mucho tiempo.</li>
+<li><strong>Que ajusten bien.</strong> Un zapato de claqué debe ir firme, sin bailarte dentro: si resbala, pierdes el control del sonido.</li>
+</ul>
+
+<h2>cómo es una clase por dentro</h2>
+<p>Una clase de claqué tiene una estructura que da mucha seguridad a quien empieza:</p>
+<ul>
+<li><strong>Calentamiento</strong> de tobillos, rodillas y caderas, que son las articulaciones que más trabajan.</li>
+<li><strong>Los sonidos básicos</strong>: punta, tacón, los famosos <em>shuffle</em> y <em>flap</em>. Son como el abecedario: pocos movimientos que luego se combinan de mil maneras.</li>
+<li><strong>Combinaciones</strong> cada vez más largas, primero despacio y después a la velocidad de la música.</li>
+<li><strong>Una frase con música</strong> para terminar, que es el momento en que todo el grupo suena a la vez y entiendes por qué engancha.</li>
+</ul>
+<p>Si nunca has hecho claqué, cuéntanoslo antes de venir: según tu base de danza y de ritmo te recomendaremos el grupo, y la clase de prueba sirve para comprobar que encajas.</p>
+
+<h2>¿cuánto se tarda en sonar bien?</h2>
+<p>Seamos sinceros: las primeras semanas suenan más a ruido que a música. Es normal y le pasa a todo el mundo. El cuerpo tiene que aprender a soltar el tobillo y a hacer sonidos limpios y separados, y eso pide repetición. La buena noticia es que el progreso <strong>se oye</strong>: un día te das cuenta de que aquella combinación que te parecía imposible sale sola, y ese momento es muy satisfactorio.</p>
+<p>No hace falta practicar en casa para avanzar, pero si te apetece repasar, basta con unos minutos sobre una superficie dura que no moleste a nadie (y avisa a los vecinos de abajo).</p>
+
+<h2>por qué engancha tanto de adulto</h2>
+<ul>
+<li><strong>Ejercita la cabeza tanto como las piernas.</strong> Memorizar secuencias, contar y coordinar pies y música a la vez es un entrenamiento mental de primera.</li>
+<li><strong>No hace falta ser flexible ni haber bailado nunca.</strong> El claqué no pide spagats ni saltos: pide ritmo, y el ritmo se aprende.</li>
+<li><strong>Es social.</strong> Cuando el grupo suena junto, se crea una complicidad especial. Y reírse de los propios errores forma parte de la clase.</li>
+<li><strong>Desconecta de verdad.</strong> Durante una hora estás tan pendiente de los pies y de la música que no queda sitio para nada más.</li>
+</ul>
+
+<h2>dónde y cuándo</h2>
+<p>En la escuela tenemos grupos de claqué de adultos <strong>los martes y los jueves a las 18.30</strong>, y un grupo juvenil los martes a las 19.45. Los tienes todos en el <a href="/es/horarios/">horario completo</a>, y las cuotas, en <a href="/es/precios/">precios</a>. Si también te apetecen otros estilos, echa un vistazo a todas las opciones de <a href="/es/danza-adultos/">danza para adultos</a>.</p>
+<p>La primera clase es gratuita: ven con zapatos de suela dura y ganas de hacer ruido.</p>
+""",
+        "faqs_es": [
+            ("¿hace falta tener oído musical para hacer claqué?",
+             "No. El ritmo se entrena, y el claqué es una de las mejores maneras de entrenarlo: como los pies suenan, tú mismo oyes cuándo vas a tiempo. Las primeras clases se hacen despacio y contando en voz alta."),
+            ("¿qué zapatos necesito para la clase de prueba?",
+             "Unos zapatos de suela dura, de piel o de vestir, no deportivas. No hace falta comprar zapatos de claqué hasta que decidas quedarte, y antes de hacerlo te orientamos sobre qué modelo te va bien."),
+            ("nunca he hecho danza: ¿puedo empezar claqué de adulto?",
+             "Sí. El claqué no pide flexibilidad ni experiencia previa en danza. Cuéntanos tu base antes de venir y te recomendaremos el grupo que te conviene; la clase de prueba sirve para comprobarlo."),
+            ("¿qué días hay claqué para adultos?",
+             "Los martes y los jueves a las 18.30. También hay un grupo juvenil los martes a las 19.45. Tienes todos los horarios en la web."),
         ],
     },
 ]

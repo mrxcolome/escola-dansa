@@ -1,5 +1,6 @@
 # blog · consejos de danza y vida de escuela
 
+- [Claqué de adulto: lo que hay que saber antes de la primera clase](https://escoladansa.com/es/blog/claque-adultos-primera-clase/) — Si hace falta tener oído, qué zapatos necesitas y cuándo comprarlos, cómo es una clase y cuánto se tarda en sonar bien: las dudas de quien quiere empezar claqué de adulto.
 - [Aún estás a tiempo: apuntarse a danza con el curso empezado](https://escoladansa.com/es/blog/apuntarse-con-el-curso-empezado/) — ¿Septiembre se ha escapado y todavía no lo has apuntado? No pasa nada: en octubre los grupos aún se están formando, la prueba es gratuita y del primer mes solo se pagan los días que quedan.
 - [Cómo elegir escuela de danza en Barcelona: las preguntas que hay que hacer](https://escoladansa.com/es/blog/como-elegir-escuela-danza-barcelona/) — Quién entrará en la sala, cuántos alumnos hay dentro, cómo es el suelo y qué hay detrás del precio. Las preguntas que vale la pena hacer antes de apuntar a nadie, y nuestras respuestas.
 - [Las primeras semanas de curso: cómo saber si la clase le encaja](https://escoladansa.com/es/blog/primeras-semanas-de-curso/) — Septiembre engaña: la adaptación dura entre dos y cuatro semanas. Las señales de que la clase encaja, las que piden un ajuste, y cómo lo resolvemos sin dramas.
