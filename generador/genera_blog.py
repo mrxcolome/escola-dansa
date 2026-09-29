@@ -30,11 +30,10 @@ nav.solida{background:rgba(247,244,240,.88)}
 .cta-final{background:rgba(255,253,251,.85)}
 .accio:hover,.idioma-menu a:hover,.post-card:hover{background:rgba(149,0,0,.06)}
 .post-img{width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;display:block;border-radius:20px;margin:0 0 26px}
-.article{max-width:760px}
 .article .meta-post{font-size:var(--text);color:var(--gris);font-weight:400;font-style:italic;margin-bottom:38px}
-.article p{font-size:var(--text);color:var(--gris);font-weight:400;margin:0 0 22px;max-width:720px}
+.article p{font-size:var(--text);color:var(--gris);font-weight:400;margin:0 0 22px}
 .article h2{margin:54px 0 20px;font-size:var(--text);font-weight:800}
-.article ul{margin:0 0 22px 20px;max-width:700px}
+.article ul{margin:0 0 22px 20px}
 .article li{font-size:var(--text);color:var(--gris);font-weight:400;margin:10px 0}
 .article p strong,.article li strong{color:var(--blanc);font-weight:600}
 .article a{color:var(--granat-viu);font-weight:600}
@@ -200,8 +199,8 @@ def cos_post(p, lang):
     cos = cos_amb_majuscules(cos)
     faqs_html = gp.bloc_faqs({"faqs": [(maj(q), a) for q, a in faqs]})
     return f"""
-  <section class="reveal article">
-    <img class="post-img" src="/assets/{p['img']}" alt="{gp.esc(alt)}" width="1600" height="900">
+  <section class="article">
+    <img class="post-img" fetchpriority="high" src="/assets/{p['img']}" alt="{gp.esc(alt)}" width="1600" height="900">
     <p class="meta-post">{gp.esc(lectura)}</p>{cos}
   </section>
 {faqs_html}
