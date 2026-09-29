@@ -96,8 +96,8 @@ TRADUCCIONS_ES = {
     },
     "claque": {
         "nom": "claqué",
-        "title": "clases de claqué en Barcelona · escola de dansa cristina colomé",
-        "desc": "clases de claqué en Sant Gervasi (Barcelona): el ritmo en los pies, de juvenil a adultos. primera clase de prueba gratuita.",
+        "title": "claqué en Barcelona: clases para jóvenes y adultos · cristina colomé",
+        "desc": "clases de claqué (tap dance) en Sant Gervasi, Barcelona: el ritmo en los pies para jóvenes y adultos, martes y jueves. la clase de prueba es gratuita y no hace falta traer zapatos de claqué.",
         "h1": "claqué",
         "intro": "el ritmo en los pies. el claqué convierte al bailarín en músico: cada paso es percusión, y cada coreografía, una canción.",
         "per_a_qui": "grupos juveniles y de adultos (intermedio). es una disciplina única: trabaja el ritmo como ninguna otra y engancha desde el primer día. si te gusta la música tanto como bailar, el claqué te hará feliz.",

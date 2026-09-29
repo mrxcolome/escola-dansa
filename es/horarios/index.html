@@ -142,6 +142,11 @@ details.faq{border-bottom:1px solid var(--vora)}
 .relacionats{display:flex;gap:10px;flex-wrap:wrap;margin-top:26px}
 .relacionats a{border:1px solid var(--vora);border-radius:100px;padding:10px 22px;font-size:var(--text);font-weight:600;text-transform:lowercase;color:var(--gris);transition:all .3s}
 .relacionats a:hover{border-color:var(--granat-viu);color:var(--blanc)}
+.posts-blog{list-style:none;margin-top:22px;padding:0}
+.posts-blog li{border-bottom:1px solid var(--vora)}
+.posts-blog a{display:block;padding:16px 0;font-size:var(--text);font-weight:600;color:var(--gris);transition:color .3s}
+.posts-blog a::after{content:" →";color:var(--granat-viu)}
+.posts-blog a:hover{color:var(--blanc)}
 footer.peu{border-top:1px solid var(--vora);padding:34px 5vw;display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-content:center;text-align:center;font-size:var(--text);color:var(--gris);margin-top:80px}
 footer.peu a.actiu{color:var(--blanc)}
 .peu-email{color:inherit;text-decoration:none}
@@ -317,6 +322,15 @@ footer.peu a.actiu{color:var(--blanc)}
   </section>
   <section class="reveal">
     <p class="text-gran">cada actividad tiene su propia página con horarios, beneficios y preguntas: míralas todas en <a href="/es/#activitats" style="color:var(--granat-viu);font-weight:600">actividades</a>. y si tienes dudas de nivel o de grupo, llámanos al <a href="tel:+34934179886" style="color:var(--granat-viu);font-weight:600">934 17 98 86</a> y te orientamos.</p>
+  </section>
+  <section class="reveal">
+    <div class="etiqueta">del blog</div>
+    <h2>por si aún te lo estás pensando</h2>
+    <ul class="posts-blog">
+      <li><a href="/es/blog/apuntarse-con-el-curso-empezado/">aún estás a tiempo: apuntarse a danza con el curso empezado</a></li>
+      <li><a href="/es/blog/clase-de-prueba-gratuita/">cómo es la clase de prueba (y por qué es gratuita)</a></li>
+      <li><a href="/es/blog/primer-dia-clase-danza/">qué llevar el primer día de clase de danza</a></li>
+    </ul>
   </section>
   <div class="cta-final reveal">
     <h2>ven a probarlo: la primera clase es gratis</h2>

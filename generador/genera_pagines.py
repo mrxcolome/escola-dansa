@@ -10,6 +10,8 @@ import json
 import os
 import urllib.parse
 
+from blog_posts import POSTS
+
 ARREL = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))  # WEB_2026/
 DOMINI = "https://escoladansa.com"
 CURS = "2026–27"  # ⚠️ actualitzar cada curs
@@ -185,8 +187,10 @@ PAGINES = [
     {
         "slug": "claque",
         "nom": "claqué",
-        "title": "classes de claqué a Barcelona · escola de dansa cristina colomé",
-        "desc": "classes de claqué a Sant Gervasi (Barcelona): el ritme als peus, de juvenil a adults. primera classe de prova gratuïta.",
+        # set 2026: «claqué» 320 impressions/setmana a pos 9-10 amb 0 clics. el títol diu
+        # per a qui és i la descripció respon els dubtes (dies, sabates, prova gratis)
+        "title": "claqué a Barcelona: classes per a joves i adults · cristina colomé",
+        "desc": "classes de claqué (tap dance) a Sant Gervasi, Barcelona: el ritme als peus per a joves i adults, dimarts i dijous. la classe de prova és gratuïta i no cal portar sabates de claqué.",
         "h1": "claqué",
         "intro": "el ritme als peus. el claqué converteix el ballarí en músic: cada pas és percussió, i cada coreografia, una cançó.",
         "per_a_qui": "grups juvenils i d'adults (intermedi). és una disciplina única: treballa el ritme com cap altra i engancha des del primer dia. si t'agrada la música tant com ballar, el claqué et farà feliç.",
@@ -209,6 +213,7 @@ PAGINES = [
              "el claqué el comencem a partir de l'etapa juvenil. per als més petits recomanem començar per jazz, clàssic o hip-hop i fer el pas després."),
         ],
         "related": ["jazz", "musical-interpretacio", "dansa-adults"],
+        "posts": ["claque-el-ball-que-sona"],
     },
     {
         "slug": "ball-espanyol",
@@ -583,6 +588,11 @@ details.faq{border-bottom:1px solid var(--vora)}
 .relacionats{display:flex;gap:10px;flex-wrap:wrap;margin-top:26px}
 .relacionats a{border:1px solid var(--vora);border-radius:100px;padding:10px 22px;font-size:var(--text);font-weight:600;text-transform:lowercase;color:var(--gris);transition:all .3s}
 .relacionats a:hover{border-color:var(--granat-viu);color:var(--blanc)}
+.posts-blog{list-style:none;margin-top:22px;padding:0}
+.posts-blog li{border-bottom:1px solid var(--vora)}
+.posts-blog a{display:block;padding:16px 0;font-size:var(--text);font-weight:600;color:var(--gris);transition:color .3s}
+.posts-blog a::after{content:" →";color:var(--granat-viu)}
+.posts-blog a:hover{color:var(--blanc)}
 footer.peu{border-top:1px solid var(--vora);padding:34px 5vw;display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-content:center;text-align:center;font-size:var(--text);color:var(--gris);margin-top:80px}
 footer.peu a.actiu{color:var(--blanc)}
 .peu-email{color:inherit;text-decoration:none}
@@ -735,6 +745,27 @@ def bloc_relacionats(p):
     <div class="relacionats">
 {enll}
     </div>
+  </section>"""
+
+
+def bloc_posts(p, lang="ca"):
+    """Enllaços de tornada cap als posts del blog (els posts ja enllacen les pàgines de servei)."""
+    if not p.get("posts"):
+        return ""
+    per_slug = {x["slug"]: x for x in POSTS}
+    es = lang == "es"
+    enll = "\n".join(
+        f'      <li><a href="/es/blog/{x["slug_es"]}/">{esc(x["h1_es"])}</a></li>' if es else
+        f'      <li><a href="/blog/{x["slug"]}/">{esc(x["h1"])}</a></li>'
+        for x in (per_slug[s] for s in p["posts"])
+    )
+    return f"""
+  <section class="reveal">
+    <div class="etiqueta">del blog</div>
+    <h2>{p.get("posts_titol_es" if es else "posts_titol", "para saber más" if es else "per saber-ne més")}</h2>
+    <ul class="posts-blog">
+{enll}
+    </ul>
   </section>"""
 
 
@@ -896,7 +927,14 @@ def cos_estandard(p):
     <h2>preus</h2>
     <p class="text-gran">les classes funcionen per quota mensual o trimestral segons els dies per setmana: des de 56 €/mes (infantil) i 60 €/mes (adults). consulta <a href="/preus/" style="color:var(--granat-viu);font-weight:600">totes les tarifes del curs</a> — i recorda que la primera classe de prova és gratuïta.</p>
   </section>
-{bloc_faqs(p)}{bloc_relacionats(p)}"""
+{bloc_faqs(p)}{bloc_posts(p, p.get("lang", "ca"))}{bloc_relacionats(p)}"""
+
+
+# posts de temporada enllaçats des de /horaris/ i /preus/ (CA i ES)
+POSTS_HORARIS = ["apuntar-se-amb-el-curs-comencat", "classe-de-prova-gratuita", "primer-dia-classe-dansa"]
+TITOL_TEMPORADA = {"posts_titol": "per si encara t'ho estàs pensant",
+                   "posts_titol_es": "por si aún te lo estás pensando"}
+POSTS_PREUS = ["apuntar-se-amb-el-curs-comencat", "classe-de-prova-gratuita", "com-triar-escola-dansa-barcelona"]
 
 
 def cos_horaris():
@@ -916,7 +954,7 @@ def cos_horaris():
     return "".join(dies) + f'''
   <section class="reveal">
     <p class="text-gran">cada activitat té la seva pàgina amb horaris, beneficis i preguntes: mira-les totes a <a href="/#activitats" style="color:var(--granat-viu);font-weight:600">activitats</a>. i si tens dubtes de nivell o de grup, truca'ns al <a href="tel:{TEL_LINK}" style="color:var(--granat-viu);font-weight:600">{TEL}</a> i t'orientem.</p>
-  </section>'''
+  </section>''' + bloc_posts({"posts": POSTS_HORARIS, **TITOL_TEMPORADA})
 
 
 def taula(caption, capcalera, files):
@@ -943,7 +981,7 @@ def cos_preus():
 {taula("quota trimestral", capc, TARIFA_TRIMESTRAL)}
 {taula("matrícula i altres", None, TARIFA_ALTRES)}
     <p class="text-gran" style="margin-top:30px">també oferim <strong>classes particulars</strong>, classes especials per a celebracions (casaments, comiats, aniversaris) i tallers de cap de setmana o de vacances (Nadal, Setmana Santa i estiu). i novetat: vine a celebrar el teu aniversari amb nosaltres!</p>
-  </section>'''
+  </section>''' + bloc_posts({"posts": POSTS_PREUS, **TITOL_TEMPORADA})
 
 
 LD_BREADCRUMB = lambda nom, slug: json.dumps({
@@ -1216,7 +1254,7 @@ def cos_horaris_es():
     return "".join(dies) + f'''
   <section class="reveal">
     <p class="text-gran">cada actividad tiene su propia página con horarios, beneficios y preguntas: míralas todas en <a href="/es/#activitats" style="color:var(--granat-viu);font-weight:600">actividades</a>. y si tienes dudas de nivel o de grupo, llámanos al <a href="tel:{TEL_LINK}" style="color:var(--granat-viu);font-weight:600">{TEL}</a> y te orientamos.</p>
-  </section>'''
+  </section>''' + bloc_posts({"posts": POSTS_HORARIS, **TITOL_TEMPORADA}, "es")
 
 
 def cos_preus_es():
@@ -1237,7 +1275,7 @@ def cos_preus_es():
 {taula("cuota trimestral", capc, tri)}
 {taula("matrícula y otros", None, alt)}
     <p class="text-gran" style="margin-top:30px">también ofrecemos <strong>clases particulares</strong>, clases especiales para celebraciones (bodas, despedidas, cumpleaños) y talleres de fin de semana o de vacaciones (Navidad, Semana Santa y verano). y novedad: ¡ven a celebrar tu cumpleaños con nosotros!</p>
-  </section>'''
+  </section>''' + bloc_posts({"posts": POSTS_PREUS, **TITOL_TEMPORADA}, "es")
 
 
 LD_BREADCRUMB_ES = lambda nom, slug_es: json.dumps({
