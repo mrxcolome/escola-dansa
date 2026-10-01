@@ -40,3 +40,4 @@ jobs:
             generador/**
             .gitignore
             README.md
+            CLAUDE.md
