@@ -502,13 +502,11 @@ nav.solida{background:rgba(10,10,10,.85);backdrop-filter:blur(14px);padding:10px
 /* selector d'idioma (mòbil): cat / es fix a dalt a la dreta */
 .idioma-mobil{display:none}
 /* avís de galetes (GA4 només amb consentiment) */
-.avis-galetes{position:fixed;left:16px;right:16px;bottom:16px;z-index:180;background:var(--gris-fosc);border:1px solid var(--vora);border-radius:16px;padding:18px 22px;display:none;gap:14px;align-items:center;justify-content:space-between;flex-wrap:wrap;box-shadow:0 18px 50px rgba(0,0,0,.55)}
+.avis-galetes{position:fixed;left:50%;top:50%;transform:translate(-50%,-50%);z-index:180;width:min(480px,calc(100vw - 32px));background:var(--gris-fosc);border:1px solid var(--vora);border-radius:22px;padding:36px 30px 30px;display:none;flex-direction:column;gap:24px;align-items:center;text-align:center;box-shadow:0 0 0 100vmax rgba(23,19,16,.38),0 24px 60px rgba(0,0,0,.35)}
 .avis-galetes.visible{display:flex}
-.avis-galetes p{font-size:var(--text);color:var(--gris);font-weight:400;max-width:620px}
-.avis-galetes .boto{padding:11px 22px;margin:0 8px 0 0}
-.avis-galetes > div{display:flex;align-items:center}
-@media (max-width:700px){.avis-galetes > div{flex-direction:row-reverse}.avis-galetes .boto{margin:0 0 0 8px}}
-@media (min-width:701px){.avis-galetes{left:auto;max-width:560px}}
+.avis-galetes p{font-size:calc(var(--text) * 1.08);color:var(--gris);font-weight:400;line-height:1.6}
+.avis-galetes > div{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;width:100%}
+.avis-galetes .boto{padding:15px 30px;margin:0;flex:1 1 170px;justify-content:center;text-align:center}
 header.capsal{padding:150px 5vw 60px;max-width:1100px;margin:0 auto}
 .molla{font-size:var(--text-vermells);letter-spacing:.08em;color:var(--gris);margin-bottom:26px;text-transform:lowercase}
 .molla a{color:var(--gris);transition:color .3s}
