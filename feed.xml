@@ -6,7 +6,15 @@
     <atom:link href="https://escoladansa.com/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Consells de dansa per a famílies i adults, i vida d&#x27;escola, des de Sant Gervasi (Barcelona).</description>
     <language>ca</language>
-    <lastBuildDate>Tue, 29 Sep 2026 08:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 04 Oct 2026 08:00:00 +0200</lastBuildDate>
+    <item>
+      <title>Dansa i estudis: com aguantar el ritme quan arriben els exàmens</title>
+      <link>https://escoladansa.com/blog/dansa-i-estudis/</link>
+      <guid isPermaLink="true">https://escoladansa.com/blog/dansa-i-estudis/</guid>
+      <pubDate>Sun, 04 Oct 2026 08:00:00 +0200</pubDate>
+      <description>Arriben els primers exàmens d&#x27;ESO i batxillerat i apareix la temptació de deixar la dansa. Per què sovint és mala idea i com organitzar-se perquè hi càpiga tot: consells per a famílies amb adolescents.</description>
+      <enclosure url="https://escoladansa.com/assets/blog-dansa-estudis.jpg" type="image/jpeg" length="150000"/>
+    </item>
     <item>
       <title>Claqué d&#x27;adult: el que cal saber abans de la primera classe</title>
       <link>https://escoladansa.com/blog/claque-adults-primera-classe/</link>

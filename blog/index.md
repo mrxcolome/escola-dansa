@@ -1,5 +1,6 @@
 # blog · consells de dansa i vida d’escola
 
+- [Dansa i estudis: com aguantar el ritme quan arriben els exàmens](https://escoladansa.com/blog/dansa-i-estudis/) — Arriben els primers exàmens i la dansa sembla el primer que sobra. Per què sovint és al revés, i com organitzar la setmana perquè hi càpiga tot.
 - [Claqué d'adult: el que cal saber abans de la primera classe](https://escoladansa.com/blog/claque-adults-primera-classe/) — Si cal tenir oïda, quines sabates calen i quan comprar-les, com és una classe i quant es triga a sonar bé: els dubtes de qui vol començar claqué d'adult.
 - [Encara hi ets a temps: apuntar-se a dansa amb el curs començat](https://escoladansa.com/blog/apuntar-se-amb-el-curs-comencat/) — El setembre s'ha escapat i encara no l'has apuntat? No passa res: a l'octubre els grups encara s'estan fent, la prova és gratuïta i del primer mes només es paguen els dies que queden.
 - [Com triar escola de dansa a Barcelona: les preguntes que cal fer](https://escoladansa.com/blog/com-triar-escola-dansa-barcelona/) — Qui entrarà a la sala, quants alumnes hi ha dins, com és el terra i què hi ha darrere del preu. Les preguntes que val la pena fer abans d'apuntar-hi ningú, i les nostres respostes.

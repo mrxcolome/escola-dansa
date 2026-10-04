@@ -2132,6 +2132,110 @@ POSTS = [
              "Los martes y los jueves a las 18.30. También hay un grupo juvenil los martes a las 19.45. Tienes todos los horarios en la web."),
         ],
     },
+    {
+        "slug": "dansa-i-estudis",
+        "slug_es": "danza-y-estudios",
+        "categoria": "famílies",
+        "categoria_es": "familias",
+        "data": "2026-10-04",
+        "data_ca": "4 d'octubre de 2026",
+        "data_es": "4 de octubre de 2026",
+        "minuts": 5,
+        "nom_wa": "dansa",
+        "nom_wa_es": "danza",
+        "og": "blog-dansa-estudis.jpg",
+        "img": "blog-dansa-estudis.jpg",
+        "img_alt": "Una motxilla d'institut oberta amb llibres i apunts, al costat d'unes sabatilles de dansa, sobre el banc d'una sala de dansa, amb la barra i el mirall al fons",
+        "img_alt_es": "Una mochila de instituto abierta con libros y apuntes, junto a unas zapatillas de danza, sobre el banco de una sala de danza, con la barra y el espejo al fondo",
+        "related_pagines": ["hip-hop", "k-pop-heels", "dansa-contemporania", "horaris"],
+        "related_posts": ["hip-hop-nens-adolescents", "kpop-heels-joves", "dansa-i-timidesa"],
+
+        "title": "dansa i estudis: com aguantar el ritme quan arriben els exàmens · escola de dansa cristina colomé",
+        "desc": "Arriben els primers exàmens d'ESO i batxillerat i apareix la temptació de deixar la dansa. Per què sovint és mala idea i com organitzar-se perquè hi càpiga tot: consells per a famílies amb adolescents.",
+        "h1": "dansa i estudis: com aguantar el ritme quan arriben els exàmens",
+        "excerpt": "Arriben els primers exàmens i la dansa sembla el primer que sobra. Per què sovint és al revés, i com organitzar la setmana perquè hi càpiga tot.",
+        "intro": "Cada octubre passa el mateix: arriben els primers exàmens de l'ESO o del batxillerat i, a casa, la dansa és el primer que es posa en dubte. Abans de deixar-la, val la pena pensar-ho dues vegades.",
+        "cos": """
+<p>A l'adolescència la setmana s'omple de cop: més deures, més exàmens, més extraescolars i més vida social. Quan arriben els primers controls del trimestre, la pregunta surt sola a moltes cases: «i si deixa la dansa fins que acabi el curs?». És una reacció comprensible, però sovint té l'efecte contrari al que busquem.</p>
+
+<h2>la dansa no treu temps: en dona</h2>
+<p>Sembla una contradicció, però no ho és. Una hora i mitja de classe és, per a molts adolescents, <strong>l'única estona de la setmana sense pantalles, sense notes i sense pressió</strong>. Moure's, concentrar-se en la música i en el cos i riure amb el grup ajuda a descarregar l'estrès acumulat, i això es nota després a l'hora de seure a estudiar.</p>
+<p>A més, l'exercici físic regular ajuda a dormir millor i a mantenir l'atenció, dues coses que en època d'exàmens valen or. Qui treu la dansa per guanyar temps d'estudi sovint descobreix que aquell temps no es converteix en estudi, sinó en mòbil.</p>
+
+<h2>el que s'aprèn a la sala serveix a l'aula</h2>
+<p>La dansa entrena hàbits que es traslladen directament als estudis:</p>
+<ul>
+<li><strong>Memòria i seqüències.</strong> Aprendre una coreografia és memoritzar una sèrie de passos en ordre i recuperar-la sota pressió. És el mateix múscul que fa servir un examen.</li>
+<li><strong>Constància.</strong> Un pas difícil no surt el primer dia, i a la sala s'aprèn que repetir funciona. Aquesta paciència és molt útil davant d'una assignatura que costa.</li>
+<li><strong>Organització.</strong> Qui té dies fixos de classe aprèn a repartir la feina de la setmana. Sense cap horari fix, és més fàcil deixar-ho tot per a l'últim dia.</li>
+</ul>
+
+<h2>com organitzar-se perquè hi càpiga tot</h2>
+<ul>
+<li><strong>Trieu bé el dia i l'hora.</strong> Els grups juvenils de l'escola fan classe entre les 17.15 i les 20.30, de dilluns a divendres. Una classe a primera hora de la tarda deixa el vespre lliure per estudiar; una al vespre pot servir de pausa entre dues tandes d'estudi. Ho teniu tot a la <a href="/horaris/">graella d'horaris</a>.</li>
+<li><strong>Feu de la classe una fita, no un obstacle.</strong> «Acabo aquest tema i després vaig a dansa» funciona molt millor que «avui no vaig perquè tinc examen».</li>
+<li><strong>No ho deixeu a la primera setmana dolenta.</strong> Totes les èpoques d'exàmens tenen un pic. Si aquella setmana no hi ha manera, es pot faltar a una classe; deixar-ho del tot és una altra cosa.</li>
+<li><strong>Parleu amb la professora.</strong> Si hi ha una setmana complicada, és millor que ho sàpiga. A les professores els interessa que els alumnes segueixin ballant, i ajuden a trobar la manera.</li>
+</ul>
+
+<h2>i si de debò no hi arriba?</h2>
+<p>Hi ha cursos més carregats que d'altres, i a vegades sí que cal ajustar. Abans de deixar-ho, hi ha opcions intermèdies: <strong>passar de dos dies a un</strong>, canviar a un grup d'un altre dia o d'un altre estil que encaixi millor. A la nostra escola no hi ha permanència i es pot canviar de grup o d'estil durant el curs.</p>
+<p>Si teniu dubtes, truqueu-nos al <a href="tel:+34934179886">934 17 98 86</a> o passeu per recepció. Mirarem plegats quina opció li va millor, perquè la dansa continuï sumant i no restant.</p>
+""",
+        "faqs": [
+            ("és millor deixar la dansa en època d'exàmens?",
+             "Normalment no. La classe és una estona de desconnexió que ajuda a descarregar l'estrès i a dormir millor, i el temps que s'allibera deixant-la no sempre es converteix en estudi. Si una setmana concreta no hi ha manera, es pot faltar a una classe sense deixar-ho del tot."),
+            ("a quina hora fan classe els grups juvenils?",
+             "Entre les 17.15 i les 20.30, de dilluns a divendres, segons l'estil i el grup. Tots els horaris són a la graella de la web."),
+            ("es pot reduir de dos dies a un durant el curs?",
+             "Sí. No hi ha permanència i es pot ajustar el nombre de dies, canviar de grup o d'estil durant el curs. Parleu-ne amb recepció i us orientem."),
+            ("quins estils agraden més als adolescents?",
+             "Depèn de cadascú, però el hip-hop, el k-pop i el contemporani són dels que més enganxen a aquesta edat. La primera classe de prova és gratuïta, així que es pot provar sense compromís."),
+        ],
+
+        "title_es": "danza y estudios: cómo mantener el ritmo cuando llegan los exámenes · escola de dansa cristina colomé",
+        "desc_es": "Llegan los primeros exámenes de ESO y bachillerato y aparece la tentación de dejar la danza. Por qué a menudo es mala idea y cómo organizarse para que quepa todo: consejos para familias con adolescentes.",
+        "h1_es": "danza y estudios: cómo mantener el ritmo cuando llegan los exámenes",
+        "excerpt_es": "Llegan los primeros exámenes y la danza parece lo primero que sobra. Por qué a menudo es al revés, y cómo organizar la semana para que quepa todo.",
+        "intro_es": "Cada octubre pasa lo mismo: llegan los primeros exámenes de la ESO o del bachillerato y, en casa, la danza es lo primero que se pone en duda. Antes de dejarla, vale la pena pensarlo dos veces.",
+        "cos_es": """
+<p>En la adolescencia la semana se llena de golpe: más deberes, más exámenes, más extraescolares y más vida social. Cuando llegan los primeros controles del trimestre, la pregunta sale sola en muchas casas: «¿y si deja la danza hasta que acabe el curso?». Es una reacción comprensible, pero a menudo tiene el efecto contrario al que buscamos.</p>
+
+<h2>la danza no quita tiempo: lo da</h2>
+<p>Parece una contradicción, pero no lo es. Una hora y media de clase es, para muchos adolescentes, <strong>el único rato de la semana sin pantallas, sin notas y sin presión</strong>. Moverse, concentrarse en la música y en el cuerpo y reír con el grupo ayuda a descargar el estrés acumulado, y eso se nota después a la hora de sentarse a estudiar.</p>
+<p>Además, el ejercicio físico regular ayuda a dormir mejor y a mantener la atención, dos cosas que en época de exámenes valen oro. Quien quita la danza para ganar tiempo de estudio a menudo descubre que ese tiempo no se convierte en estudio, sino en móvil.</p>
+
+<h2>lo que se aprende en la sala sirve en el aula</h2>
+<p>La danza entrena hábitos que se trasladan directamente a los estudios:</p>
+<ul>
+<li><strong>Memoria y secuencias.</strong> Aprender una coreografía es memorizar una serie de pasos en orden y recuperarla bajo presión. Es el mismo músculo que usa un examen.</li>
+<li><strong>Constancia.</strong> Un paso difícil no sale el primer día, y en la sala se aprende que repetir funciona. Esa paciencia es muy útil ante una asignatura que cuesta.</li>
+<li><strong>Organización.</strong> Quien tiene días fijos de clase aprende a repartir el trabajo de la semana. Sin ningún horario fijo, es más fácil dejarlo todo para el último día.</li>
+</ul>
+
+<h2>cómo organizarse para que quepa todo</h2>
+<ul>
+<li><strong>Elegid bien el día y la hora.</strong> Los grupos juveniles de la escuela tienen clase entre las 17.15 y las 20.30, de lunes a viernes. Una clase a primera hora de la tarde deja la noche libre para estudiar; una por la noche puede servir de pausa entre dos tandas de estudio. Lo tenéis todo en el <a href="/es/horarios/">horario completo</a>.</li>
+<li><strong>Haced de la clase una meta, no un obstáculo.</strong> «Acabo este tema y después voy a danza» funciona mucho mejor que «hoy no voy porque tengo examen».</li>
+<li><strong>No lo dejéis en la primera semana mala.</strong> Todas las épocas de exámenes tienen un pico. Si esa semana no hay manera, se puede faltar a una clase; dejarlo del todo es otra cosa.</li>
+<li><strong>Hablad con la profesora.</strong> Si hay una semana complicada, es mejor que lo sepa. A las profesoras les interesa que los alumnos sigan bailando, y ayudan a encontrar la manera.</li>
+</ul>
+
+<h2>¿y si de verdad no llega?</h2>
+<p>Hay cursos más cargados que otros, y a veces sí hay que ajustar. Antes de dejarlo, hay opciones intermedias: <strong>pasar de dos días a uno</strong>, cambiar a un grupo de otro día o de otro estilo que encaje mejor. En nuestra escuela no hay permanencia y se puede cambiar de grupo o de estilo durante el curso.</p>
+<p>Si tenéis dudas, llamadnos al <a href="tel:+34934179886">934 17 98 86</a> o pasad por recepción. Miraremos juntos qué opción le va mejor, para que la danza siga sumando y no restando.</p>
+""",
+        "faqs_es": [
+            ("¿es mejor dejar la danza en época de exámenes?",
+             "Normalmente no. La clase es un rato de desconexión que ayuda a descargar el estrés y a dormir mejor, y el tiempo que se libera dejándola no siempre se convierte en estudio. Si una semana concreta no hay manera, se puede faltar a una clase sin dejarlo del todo."),
+            ("¿a qué hora tienen clase los grupos juveniles?",
+             "Entre las 17.15 y las 20.30, de lunes a viernes, según el estilo y el grupo. Todos los horarios están en la web."),
+            ("¿se puede reducir de dos días a uno durante el curso?",
+             "Sí. No hay permanencia y se puede ajustar el número de días, cambiar de grupo o de estilo durante el curso. Habladlo con recepción y os orientamos."),
+            ("¿qué estilos gustan más a los adolescentes?",
+             "Depende de cada uno, pero el hip-hop, el k-pop y el contemporáneo son de los que más enganchan a esta edad. La primera clase de prueba es gratuita, así que se puede probar sin compromiso."),
+        ],
+    },
 ]
 
 
