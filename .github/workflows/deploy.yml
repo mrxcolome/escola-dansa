@@ -28,7 +28,33 @@ jobs:
           FTP_CARPETA: ${{ secrets.FTP_CARPETA }}
         run: echo "dir=${FTP_CARPETA%/}/" >> "$GITHUB_OUTPUT"
 
+      # el servidor FTP de Webempresa de vegades no respon a temps (Timeout control socket):
+      # si el primer intent falla, s'espera un minut i es torna a provar una vegada
       - name: sincronitzar per FTPS (només fitxers canviats)
+        id: ftp1
+        continue-on-error: true
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.FTP_SERVIDOR }}
+          username: ${{ secrets.FTP_USUARI }}
+          password: ${{ secrets.FTP_CONTRASENYA }}
+          protocol: ftps
+          server-dir: ${{ steps.carpeta.outputs.dir }}
+          exclude: |
+            **/.git*
+            **/.git*/**
+            .github/**
+            generador/**
+            .gitignore
+            README.md
+            CLAUDE.md
+
+      - name: esperar abans del segon intent
+        if: steps.ftp1.outcome == 'failure'
+        run: sleep 60
+
+      - name: sincronitzar per FTPS (segon intent)
+        if: steps.ftp1.outcome == 'failure'
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
           server: ${{ secrets.FTP_SERVIDOR }}
