@@ -8,7 +8,7 @@ Cada setembre veiem famílies que arriben el primer dia amb l'equip complet: mai
 
 ## El primer dia: roba còmoda i prou
 
-Per a la [classe de prova](/classe-de-prova-gratuita/) i les primeres setmanes, amb uns leggings o pantalons elàstics, una samarreta que no balli massa i mitjons n'hi ha prou. Volem que el nen o la nena decideixi si li agrada la dansa, no que estreni vestuari. Quan la plaça ja és seva, la professora us dirà exactament què necessita el seu grup — i us estalviareu compres equivocades.
+Per a la [classe de prova](/blog/classe-de-prova-gratuita/) i les primeres setmanes, amb uns leggings o pantalons elàstics, una samarreta que no balli massa i mitjons n'hi ha prou. Volem que el nen o la nena decideixi si li agrada la dansa, no que estreni vestuari. Quan la plaça ja és seva, la professora us dirà exactament què necessita el seu grup — i us estalviareu compres equivocades.
 
 ## Clàssic: el ritual més bonic
 

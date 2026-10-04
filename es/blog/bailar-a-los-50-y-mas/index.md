@@ -18,6 +18,16 @@ Lo que vemos nosotras cada semana: mejora la postura en pocas semanas, los equil
 
 Depende de lo que te pida el cuerpo. El [barre y el yoga](/es/cuerpo-bienestar/) son puertas de entrada suaves y muy completas; el [baile español](/es/baile-espanol/) y la danza oriental tienen una riqueza y una alegría que enganchan; y el clásico para adultos — sí, se puede empezar clásico de mayor — es elegancia pura a fuego lento. Todos los grupos de [adultos](/es/danza-adultos/) tienen niveles de iniciación donde nadie espera que sepas nada.
 
+## Clases concretas para empezar pasados los 60
+
+- **Barre, lunes y miércoles a las 11 de la mañana.** Es la puerta de entrada que más recomendamos a partir de los 60: se trabaja en la barra, con apoyo, y combina fuerza, equilibrio y postura. Además, es por la mañana, cuando la sala está tranquila.
+
+- **Yoga, martes y jueves a las 20.30.** Para quien busca flexibilidad y calma por la noche.
+
+- **Grupos de adultos de iniciación por la tarde-noche**, entre las 18.30 y las 21.30: clásico, baile español y más, por niveles. Los encontrarás todos en [danza para adultos](/es/danza-adultos/).
+
+Si tienes alguna limitación (rodillas, espalda, una operación reciente), cuéntasela a la profesora el primer día: los ejercicios se adaptan.
+
 ## La única condición
 
 Venir. El resto — el nivel, la forma, la vergüenza de los primeros días — se resuelve solo con las semanas. La primera clase [es gratuita](/es/blog/clase-de-prueba-gratuita/) y sin compromiso, y los horarios de mañana y tarde están en la [parrilla](/es/horarios/). El cuerpo que tienes es el cuerpo perfecto para empezar: es lo único que necesitas traer.
@@ -35,6 +45,10 @@ El barre y el yoga son las puertas más suaves; el baile español, la oriental y
 ### ¿y si tengo alguna limitación física?
 
 Cuéntanosla y adaptamos: las profesoras ajustan ejercicios continuamente. La danza bien enseñada suma salud, nunca resta.
+
+### ¿hay clases de baile por la mañana para mayores?
+
+Sí: el barre, los lunes y los miércoles a las 11 de la mañana. Es una clase en la barra, con apoyo, pensada para trabajar fuerza, equilibrio y postura, y es de las preferidas de quien empieza pasados los 60.
 
 ---
 

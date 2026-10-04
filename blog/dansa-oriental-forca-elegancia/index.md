@@ -20,7 +20,7 @@ I hi ha l'efecte que les alumnes veteranes citen sempre: la dansa oriental **rec
 
 ## Vine a provar-ho
 
-Els grups d'oriental de l'escola van per nivells, del zero absolut a l'avançat, i el mocador de monedes — que fa tanta patxoca — te'l deixem el primer dia. [La primera classe és gratuïta](/classe-de-prova-gratuita/): vine amb roba còmoda i deixa que els malucs facin la resta. Els horaris, com sempre, [a la graella](/horaris/).
+Els grups d'oriental de l'escola van per nivells, del zero absolut a l'avançat, i el mocador de monedes — que fa tanta patxoca — te'l deixem el primer dia. [La primera classe és gratuïta](/blog/classe-de-prova-gratuita/): vine amb roba còmoda i deixa que els malucs facin la resta. Els horaris, com sempre, [a la graella](/horaris/).
 
 ## Preguntes freqüents
 

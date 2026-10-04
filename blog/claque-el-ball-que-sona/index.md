@@ -20,7 +20,7 @@ Aquesta és la millor part: **per a gairebé tothom**. Els nens hi aprenen ritme
 
 ## Prova-ho: el so et convencerà
 
-El claqué s'ha de sentir als peus. Vine a fer una [classe de prova gratuïta](/classe-de-prova-gratuita/) — les primeres classes es poden fer amb sabata de sola dura mentre decideixes — i mira els horaris dels grups a la [graella](/horaris/). T'avisem d'una cosa: el «tap-tap» és addictiu.
+El claqué s'ha de sentir als peus. Vine a fer una [classe de prova gratuïta](/blog/classe-de-prova-gratuita/) — les primeres classes es poden fer amb sabata de sola dura mentre decideixes — i mira els horaris dels grups a la [graella](/horaris/). T'avisem d'una cosa: el «tap-tap» és addictiu.
 
 ## Preguntes freqüents
 

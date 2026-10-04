@@ -20,7 +20,7 @@ Si hi ha una cosa que veiem curs rere curs és la colla que es forma a les class
 
 ## Com començar
 
-Com sempre a l'escola: [amb una classe de prova gratuïta](/classe-de-prova-gratuita/). Roba còmoda, esportives netes i ganes de moure's. Mira els grups de hip-hop a la [graella d'horaris](/horaris/) — n'hi ha des d'infantil fins a adults — i si el que t'estira és el k-pop o les heels, també [tenim classe per a tu](/k-pop-heels/).
+Com sempre a l'escola: [amb una classe de prova gratuïta](/blog/classe-de-prova-gratuita/). Roba còmoda, esportives netes i ganes de moure's. Mira els grups de hip-hop a la [graella d'horaris](/horaris/) — n'hi ha des d'infantil fins a adults — i si el que t'estira és el k-pop o les heels, també [tenim classe per a tu](/k-pop-heels/).
 
 ## Preguntes freqüents
 

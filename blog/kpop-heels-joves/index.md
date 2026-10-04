@@ -20,7 +20,7 @@ Totes dues disciplines beuen del jazz, del hip-hop i fins i tot del vogue: aïll
 
 ## Vine amb la cançó al cap
 
-Si tens (o tens a casa) algú que es passa el dia imitant coreografies davant del mirall, ja saps què li has de dir: que això, ben après i amb grup, és mil vegades millor. [Primera classe gratuïta](/classe-de-prova-gratuita/), horaris [a la graella](/horaris/), i els talons — per a heels — quan la professora digui que els peus estan a punt.
+Si tens (o tens a casa) algú que es passa el dia imitant coreografies davant del mirall, ja saps què li has de dir: que això, ben après i amb grup, és mil vegades millor. [Primera classe gratuïta](/blog/classe-de-prova-gratuita/), horaris [a la graella](/horaris/), i els talons — per a heels — quan la professora digui que els peus estan a punt.
 
 ## Preguntes freqüents
 

@@ -464,6 +464,7 @@ PAGINES = [
              "des de 60 €/mes (1 dia per setmana) fins a 104 €/mes (4 dies de classes de més d'una hora), amb opció trimestral. la primera classe de prova és gratuïta."),
         ],
         "related": ["ballet-classic", "dansa-contemporania", "cos-benestar", "claque"],
+        "posts": ["ballar-als-50-i-mes", "comencar-dansa-adults", "barre-entrenament-ballet"],
     },
 ]
 

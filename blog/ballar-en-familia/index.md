@@ -20,7 +20,7 @@ I hi ha un efecte més profund que veiem sovint: quan una nena veu que la seva m
 
 ## Com quadrar-ho
 
-Digueu-nos els horaris de la criatura i us busquem les classes d'adults que hi encaixen — o al revés. I si fa temps que no us moveu, cap por: els grups d'[adults](/dansa-adults/) tenen nivells d'iniciació de veritat, i la primera classe, com sempre, [és gratuïta](/classe-de-prova-gratuita/). Potser d'aquí a uns mesos, la conversa del sopar serà quina de les dues té el festival més a punt.
+Digueu-nos els horaris de la criatura i us busquem les classes d'adults que hi encaixen — o al revés. I si fa temps que no us moveu, cap por: els grups d'[adults](/dansa-adults/) tenen nivells d'iniciació de veritat, i la primera classe, com sempre, [és gratuïta](/blog/classe-de-prova-gratuita/). Potser d'aquí a uns mesos, la conversa del sopar serà quina de les dues té el festival més a punt.
 
 ## Preguntes freqüents
 

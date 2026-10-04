@@ -18,9 +18,19 @@ El que veiem nosaltres cada setmana: millora la postura en poques setmanes, els 
 
 Depèn del que et demani el cos. El [barre i el ioga](/cos-benestar/) són portes d'entrada suaus i molt completes; el [ball espanyol](/ball-espanyol/) i la dansa oriental tenen una riquesa i una alegria que enganxen; i el clàssic per a adults — sí, es pot començar clàssic de gran — és elegància pura a foc lent. Tots els grups d'[adults](/dansa-adults/) tenen nivells d'iniciació on ningú no espera que sàpigues res.
 
+## Classes concretes per començar passats els 60
+
+- **Barre, dilluns i dimecres a les 11 del matí.** És la porta d'entrada que més recomanem a partir dels 60: es treballa a la barra, amb suport, i combina força, equilibri i postura. A més, és en horari de matí, quan la sala és tranquil·la.
+
+- **Ioga, dimarts i dijous a les 20.30.** Per a qui busca flexibilitat i calma al vespre.
+
+- **Grups d'adults d'iniciació als vespres**, entre les 18.30 i les 21.30: clàssic, ball espanyol i més, per nivells. Els trobaràs tots a [dansa per a adults](/dansa-adults/).
+
+Si tens alguna limitació (genolls, esquena, una operació recent), explica-la a la professora el primer dia: els exercicis s'adapten.
+
 ## L'única condició
 
-Venir. La resta — el nivell, la forma, la vergonya dels primers dies — es resol sol amb les setmanes. La primera classe [és gratuïta](/classe-de-prova-gratuita/) i sense compromís, i els horaris de matí i vespre són a la [graella](/horaris/). El cos que tens és el cos perfecte per començar: és l'únic que necessites portar.
+Venir. La resta — el nivell, la forma, la vergonya dels primers dies — es resol sol amb les setmanes. La primera classe [és gratuïta](/blog/classe-de-prova-gratuita/) i sense compromís, i els horaris de matí i vespre són a la [graella](/horaris/). El cos que tens és el cos perfecte per començar: és l'únic que necessites portar.
 
 ## Preguntes freqüents
 
@@ -35,6 +45,10 @@ El barre i el ioga són les portes més suaus; el ball espanyol, l'oriental i el
 ### I si tinc alguna limitació física?
 
 Explica-nos-la i adaptem: les professores ajusten exercicis contínuament. La dansa ben ensenyada suma salut, mai en resta.
+
+### Hi ha classes de dansa al matí per a gent gran?
+
+Sí: el barre, els dilluns i els dimecres a les 11 del matí. És una classe a la barra, amb suport, pensada per treballar força, equilibri i postura, i és de les preferides de qui comença passats els 60.
 
 ---
 

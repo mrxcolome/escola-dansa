@@ -904,7 +904,7 @@ POSTS = [
 <p>Cada setembre veiem famílies que arriben el primer dia amb l'equip complet: maillot nou, mitges noves, sabatilles de mitja punta acabades d'estrenar. I ens sap greu dir-los que potser han corregut massa. El nostre consell de sempre és el contrari: <strong>vine amb roba còmoda, prova, i compra després</strong>. Aquí tens què cal de debò per a cada disciplina.</p>
 
 <h2>el primer dia: roba còmoda i prou</h2>
-<p>Per a la <a href="/classe-de-prova-gratuita/">classe de prova</a> i les primeres setmanes, amb uns leggings o pantalons elàstics, una samarreta que no balli massa i mitjons n'hi ha prou. Volem que el nen o la nena decideixi si li agrada la dansa, no que estreni vestuari. Quan la plaça ja és seva, la professora us dirà exactament què necessita el seu grup — i us estalviareu compres equivocades.</p>
+<p>Per a la <a href="/blog/classe-de-prova-gratuita/">classe de prova</a> i les primeres setmanes, amb uns leggings o pantalons elàstics, una samarreta que no balli massa i mitjons n'hi ha prou. Volem que el nen o la nena decideixi si li agrada la dansa, no que estreni vestuari. Quan la plaça ja és seva, la professora us dirà exactament què necessita el seu grup — i us estalviareu compres equivocades.</p>
 
 <h2>clàssic: el ritual més bonic</h2>
 <p>Al <a href="/ballet-classic/">ballet clàssic</a> el vestuari és part de l'aprenentatge: maillot, mitges i sabatilles de mitja punta (les puntes arriben molt més endavant, quan el peu i la tècnica estan a punt — mai abans). El cabell recollit en un monyo no és mania: és seguretat i és tradició. Tot plegat costa menys del que sembla i dura cursos sencers.</p>
@@ -1003,7 +1003,7 @@ POSTS = [
 <p>Si hi ha una cosa que veiem curs rere curs és la colla que es forma a les classes de hip-hop. Ballar en grup, suar en grup, equivocar-se en grup i clavar-la en grup crea un vincle que va molt més enllà de la sala. Per a molts adolescents, la classe de la setmana és <strong>el seu lloc</strong> — i això, a segons quines edats, val or.</p>
 
 <h2>com començar</h2>
-<p>Com sempre a l'escola: <a href="/classe-de-prova-gratuita/">amb una classe de prova gratuïta</a>. Roba còmoda, esportives netes i ganes de moure's. Mira els grups de hip-hop a la <a href="/horaris/">graella d'horaris</a> — n'hi ha des d'infantil fins a adults — i si el que t'estira és el k-pop o les heels, també <a href="/k-pop-heels/">tenim classe per a tu</a>.</p>
+<p>Com sempre a l'escola: <a href="/blog/classe-de-prova-gratuita/">amb una classe de prova gratuïta</a>. Roba còmoda, esportives netes i ganes de moure's. Mira els grups de hip-hop a la <a href="/horaris/">graella d'horaris</a> — n'hi ha des d'infantil fins a adults — i si el que t'estira és el k-pop o les heels, també <a href="/k-pop-heels/">tenim classe per a tu</a>.</p>
 """,
         "faqs": [
             ("a partir de quina edat es pot fer hip-hop?",
@@ -1079,7 +1079,7 @@ POSTS = [
 <p>Aquesta és la millor part: <strong>per a gairebé tothom</strong>. Els nens hi aprenen ritme i coordinació d'una manera que sembla màgia; els adolescents hi troben una habilitat que ningú més té; i els adults el descobreixen com una gimnàstica mental i física fantàstica — memòria, ritme, cames i riures, tot alhora. A l'escola tenim grups juvenils i d'adults, i el nivell es construeix des de zero.</p>
 
 <h2>prova-ho: el so et convencerà</h2>
-<p>El claqué s'ha de sentir als peus. Vine a fer una <a href="/classe-de-prova-gratuita/">classe de prova gratuïta</a> — les primeres classes es poden fer amb sabata de sola dura mentre decideixes — i mira els horaris dels grups a la <a href="/horaris/">graella</a>. T'avisem d'una cosa: el «tap-tap» és addictiu.</p>
+<p>El claqué s'ha de sentir als peus. Vine a fer una <a href="/blog/classe-de-prova-gratuita/">classe de prova gratuïta</a> — les primeres classes es poden fer amb sabata de sola dura mentre decideixes — i mira els horaris dels grups a la <a href="/horaris/">graella</a>. T'avisem d'una cosa: el «tap-tap» és addictiu.</p>
 """,
         "faqs": [
             ("cal haver fet dansa abans per començar claqué?",
@@ -1156,7 +1156,7 @@ POSTS = [
 <p>Depèn més del caràcter que del cos. Si t'ordena la vida tenir un marc clar i gaudir del detall, el clàssic t'enamorarà. Si el que et crida és expressar, explorar i que cada classe sigui un viatge diferent, el contemporani és casa teva. Els nens solen començar pel clàssic (la base ho agraeix); els adolescents i adults sovint es reparteixen per pura afinitat de pell.</p>
 
 <h2>el secret: es multipliquen</h2>
-<p>La resposta que donem més sovint és «per què no tots dos?». El clàssic dona al contemporani la tècnica; el contemporani dona al clàssic la llibertat. Les nostres alumnes que en fan tots dos ho noten en setmanes. Mira els grups de cada disciplina a la <a href="/horaris/">graella d'horaris</a> i, si dubtes, comença amb una <a href="/classe-de-prova-gratuita/">classe de prova gratuïta</a> de cadascun: el cos et dirà quin li toca — o si li toquen tots dos.</p>
+<p>La resposta que donem més sovint és «per què no tots dos?». El clàssic dona al contemporani la tècnica; el contemporani dona al clàssic la llibertat. Les nostres alumnes que en fan tots dos ho noten en setmanes. Mira els grups de cada disciplina a la <a href="/horaris/">graella d'horaris</a> i, si dubtes, comença amb una <a href="/blog/classe-de-prova-gratuita/">classe de prova gratuïta</a> de cadascun: el cos et dirà quin li toca — o si li toquen tots dos.</p>
 """,
         "faqs": [
             ("puc fer contemporani sense haver fet mai clàssic?",
@@ -1232,7 +1232,7 @@ POSTS = [
 <p>I hi ha un efecte més profund que veiem sovint: quan una nena veu que la seva mare també va a classe, també s'equivoca, també repeteix i també progressa, el missatge que rep no és cap sermó — és un exemple. L'esforç, la constància i el gust per aprendre <strong>es transmeten millor ballant que dient-los</strong>.</p>
 
 <h2>com quadrar-ho</h2>
-<p>Digueu-nos els horaris de la criatura i us busquem les classes d'adults que hi encaixen — o al revés. I si fa temps que no us moveu, cap por: els grups d'<a href="/dansa-adults/">adults</a> tenen nivells d'iniciació de veritat, i la primera classe, com sempre, <a href="/classe-de-prova-gratuita/">és gratuïta</a>. Potser d'aquí a uns mesos, la conversa del sopar serà quina de les dues té el festival més a punt.</p>
+<p>Digueu-nos els horaris de la criatura i us busquem les classes d'adults que hi encaixen — o al revés. I si fa temps que no us moveu, cap por: els grups d'<a href="/dansa-adults/">adults</a> tenen nivells d'iniciació de veritat, i la primera classe, com sempre, <a href="/blog/classe-de-prova-gratuita/">és gratuïta</a>. Potser d'aquí a uns mesos, la conversa del sopar serà quina de les dues té el festival més a punt.</p>
 """,
         "faqs": [
             ("hi ha classes d'adults a la mateixa hora que les infantils?",
@@ -1385,7 +1385,7 @@ POSTS = [
 <p>I hi ha l'efecte que les alumnes veteranes citen sempre: la dansa oriental <strong>reconcilia amb el propi cos</strong>. No hi ha un cos ideal per ballar-la — hi ha el teu, i la dansa el celebra tal com és. En un grup de dones de totes les edats i totes les formes, ballant una tradició que fa segles que celebra el moviment femení, passa una cosa difícil d'explicar i fàcil de sentir: una es fa amiga del mirall.</p>
 
 <h2>vine a provar-ho</h2>
-<p>Els grups d'oriental de l'escola van per nivells, del zero absolut a l'avançat, i el mocador de monedes — que fa tanta patxoca — te'l deixem el primer dia. <a href="/classe-de-prova-gratuita/">La primera classe és gratuïta</a>: vine amb roba còmoda i deixa que els malucs facin la resta. Els horaris, com sempre, <a href="/horaris/">a la graella</a>.</p>
+<p>Els grups d'oriental de l'escola van per nivells, del zero absolut a l'avançat, i el mocador de monedes — que fa tanta patxoca — te'l deixem el primer dia. <a href="/blog/classe-de-prova-gratuita/">La primera classe és gratuïta</a>: vine amb roba còmoda i deixa que els malucs facin la resta. Els horaris, com sempre, <a href="/horaris/">a la graella</a>.</p>
 """,
         "faqs": [
             ("cal tenir bona forma física per començar dansa oriental?",
@@ -1520,8 +1520,8 @@ POSTS = [
         "related_pagines": ["dansa-adults", "cos-benestar", "ball-espanyol", "horaris"],
         "related_posts": ["comencar-dansa-adults", "barre-entrenament-ballet"],
 
-        "title": "ballar als 50, als 60 i més enllà: el cos ho agraeix · escola de dansa cristina colomé",
-        "desc": "La dansa és de les millors activitats físiques a partir dels 50: memòria, equilibri, força i vida social en una sola hora. Per què mai no és tard i quines disciplines van millor per començar.",
+        "title": "classes de dansa per a més grans de 50 i 60 anys: el cos ho agraeix · escola de dansa cristina colomé",
+        "desc": "Classes de dansa per a més grans de 50 i 60 anys a Sant Gervasi (Barcelona): barre els matins, clàssic, espanyol i més, amb grups d'iniciació. Per què mai no és tard i per on començar.",
         "h1": "ballar als 50, als 60 i més enllà: el cos ho agraeix",
         "intro": "Hi ha una idea que voldríem esborrar per sempre: que la dansa és cosa de joves. A les nostres sales hi ha alumnes que van començar amb els cabells ja blancs — i són de les més constants de l'escola.",
         "excerpt": "La dansa és de les millors activitats a partir dels 50: memòria, equilibri, força i vida social en una sola hora. Mai no és tard.",
@@ -1537,8 +1537,16 @@ POSTS = [
 <h2>per on començar</h2>
 <p>Depèn del que et demani el cos. El <a href="/cos-benestar/">barre i el ioga</a> són portes d'entrada suaus i molt completes; el <a href="/ball-espanyol/">ball espanyol</a> i la dansa oriental tenen una riquesa i una alegria que enganxen; i el clàssic per a adults — sí, es pot començar clàssic de gran — és elegància pura a foc lent. Tots els grups d'<a href="/dansa-adults/">adults</a> tenen nivells d'iniciació on ningú no espera que sàpigues res.</p>
 
+<h2>classes concretes per començar passats els 60</h2>
+<ul>
+<li><strong>Barre, dilluns i dimecres a les 11 del matí.</strong> És la porta d'entrada que més recomanem a partir dels 60: es treballa a la barra, amb suport, i combina força, equilibri i postura. A més, és en horari de matí, quan la sala és tranquil·la.</li>
+<li><strong>Ioga, dimarts i dijous a les 20.30.</strong> Per a qui busca flexibilitat i calma al vespre.</li>
+<li><strong>Grups d'adults d'iniciació als vespres</strong>, entre les 18.30 i les 21.30: clàssic, ball espanyol i més, per nivells. Els trobaràs tots a <a href="/dansa-adults/">dansa per a adults</a>.</li>
+</ul>
+<p>Si tens alguna limitació (genolls, esquena, una operació recent), explica-la a la professora el primer dia: els exercicis s'adapten.</p>
+
 <h2>l'única condició</h2>
-<p>Venir. La resta — el nivell, la forma, la vergonya dels primers dies — es resol sol amb les setmanes. La primera classe <a href="/classe-de-prova-gratuita/">és gratuïta</a> i sense compromís, i els horaris de matí i vespre són a la <a href="/horaris/">graella</a>. El cos que tens és el cos perfecte per començar: és l'únic que necessites portar.</p>
+<p>Venir. La resta — el nivell, la forma, la vergonya dels primers dies — es resol sol amb les setmanes. La primera classe <a href="/blog/classe-de-prova-gratuita/">és gratuïta</a> i sense compromís, i els horaris de matí i vespre són a la <a href="/horaris/">graella</a>. El cos que tens és el cos perfecte per començar: és l'únic que necessites portar.</p>
 """,
         "faqs": [
             ("puc començar a ballar dels 50 en amunt sense haver ballat mai?",
@@ -1547,10 +1555,12 @@ POSTS = [
              "El barre i el ioga són les portes més suaus; el ball espanyol, l'oriental i el clàssic per a adults, les més riques en tècnica i tradició. La millor és la que et faci venir de gust tornar."),
             ("i si tinc alguna limitació física?",
              "Explica-nos-la i adaptem: les professores ajusten exercicis contínuament. La dansa ben ensenyada suma salut, mai en resta."),
+            ("hi ha classes de dansa al matí per a gent gran?",
+             "Sí: el barre, els dilluns i els dimecres a les 11 del matí. És una classe a la barra, amb suport, pensada per treballar força, equilibri i postura, i és de les preferides de qui comença passats els 60."),
         ],
 
-        "title_es": "bailar a los 50, a los 60 y más allá: el cuerpo lo agradece · escola de dansa cristina colomé",
-        "desc_es": "La danza es de las mejores actividades físicas a partir de los 50: memoria, equilibrio, fuerza y vida social en una sola hora. Por qué nunca es tarde y qué disciplinas van mejor para empezar.",
+        "title_es": "clases de baile para mayores de 50 y 60: el cuerpo lo agradece · escola de dansa cristina colomé",
+        "desc_es": "Clases de baile para mayores de 50 y de 60 en Sant Gervasi (Barcelona): barre por la mañana, clásico, español y más, con grupos de iniciación. Por qué nunca es tarde y por dónde empezar.",
         "h1_es": "bailar a los 50, a los 60 y más allá: el cuerpo lo agradece",
         "intro_es": "Hay una idea que querríamos borrar para siempre: que la danza es cosa de jóvenes. En nuestras salas hay alumnas que empezaron con el pelo ya blanco — y son de las más constantes de la escuela.",
         "excerpt_es": "La danza es de las mejores actividades a partir de los 50: memoria, equilibrio, fuerza y vida social en una sola hora. Nunca es tarde.",
@@ -1566,6 +1576,14 @@ POSTS = [
 <h2>por dónde empezar</h2>
 <p>Depende de lo que te pida el cuerpo. El <a href="/es/cuerpo-bienestar/">barre y el yoga</a> son puertas de entrada suaves y muy completas; el <a href="/es/baile-espanol/">baile español</a> y la danza oriental tienen una riqueza y una alegría que enganchan; y el clásico para adultos — sí, se puede empezar clásico de mayor — es elegancia pura a fuego lento. Todos los grupos de <a href="/es/danza-adultos/">adultos</a> tienen niveles de iniciación donde nadie espera que sepas nada.</p>
 
+<h2>clases concretas para empezar pasados los 60</h2>
+<ul>
+<li><strong>Barre, lunes y miércoles a las 11 de la mañana.</strong> Es la puerta de entrada que más recomendamos a partir de los 60: se trabaja en la barra, con apoyo, y combina fuerza, equilibrio y postura. Además, es por la mañana, cuando la sala está tranquila.</li>
+<li><strong>Yoga, martes y jueves a las 20.30.</strong> Para quien busca flexibilidad y calma por la noche.</li>
+<li><strong>Grupos de adultos de iniciación por la tarde-noche</strong>, entre las 18.30 y las 21.30: clásico, baile español y más, por niveles. Los encontrarás todos en <a href="/es/danza-adultos/">danza para adultos</a>.</li>
+</ul>
+<p>Si tienes alguna limitación (rodillas, espalda, una operación reciente), cuéntasela a la profesora el primer día: los ejercicios se adaptan.</p>
+
 <h2>la única condición</h2>
 <p>Venir. El resto — el nivel, la forma, la vergüenza de los primeros días — se resuelve solo con las semanas. La primera clase <a href="/es/blog/clase-de-prueba-gratuita/">es gratuita</a> y sin compromiso, y los horarios de mañana y tarde están en la <a href="/es/horarios/">parrilla</a>. El cuerpo que tienes es el cuerpo perfecto para empezar: es lo único que necesitas traer.</p>
 """,
@@ -1576,6 +1594,8 @@ POSTS = [
              "El barre y el yoga son las puertas más suaves; el baile español, la oriental y el clásico para adultos, las más ricas en técnica y tradición. La mejor es la que te dé ganas de volver."),
             ("¿y si tengo alguna limitación física?",
              "Cuéntanosla y adaptamos: las profesoras ajustan ejercicios continuamente. La danza bien enseñada suma salud, nunca resta."),
+            ("¿hay clases de baile por la mañana para mayores?",
+             "Sí: el barre, los lunes y los miércoles a las 11 de la mañana. Es una clase en la barra, con apoyo, pensada para trabajar fuerza, equilibrio y postura, y es de las preferidas de quien empieza pasados los 60."),
         ],
     },
     {
@@ -1614,7 +1634,7 @@ POSTS = [
 <p>Totes dues disciplines beuen del jazz, del hip-hop i fins i tot del vogue: aïllaments, línies, musicalitat, actitud. Qui ve «només» a ballar la cançó del moment s'emporta, sense adonar-se'n, una formació de dansa contemporània urbana molt completa. I qui vulgui anar més enllà té el <a href="/hip-hop/">hip-hop</a> i el <a href="/jazz/">jazz</a> a un passadís de distància.</p>
 
 <h2>vine amb la cançó al cap</h2>
-<p>Si tens (o tens a casa) algú que es passa el dia imitant coreografies davant del mirall, ja saps què li has de dir: que això, ben après i amb grup, és mil vegades millor. <a href="/classe-de-prova-gratuita/">Primera classe gratuïta</a>, horaris <a href="/horaris/">a la graella</a>, i els talons — per a heels — quan la professora digui que els peus estan a punt.</p>
+<p>Si tens (o tens a casa) algú que es passa el dia imitant coreografies davant del mirall, ja saps què li has de dir: que això, ben après i amb grup, és mil vegades millor. <a href="/blog/classe-de-prova-gratuita/">Primera classe gratuïta</a>, horaris <a href="/horaris/">a la graella</a>, i els talons — per a heels — quan la professora digui que els peus estan a punt.</p>
 """,
         "faqs": [
             ("a partir de quina edat es pot fer k-pop?",

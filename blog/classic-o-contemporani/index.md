@@ -20,7 +20,7 @@ Depèn més del caràcter que del cos. Si t'ordena la vida tenir un marc clar i 
 
 ## El secret: es multipliquen
 
-La resposta que donem més sovint és «per què no tots dos?». El clàssic dona al contemporani la tècnica; el contemporani dona al clàssic la llibertat. Les nostres alumnes que en fan tots dos ho noten en setmanes. Mira els grups de cada disciplina a la [graella d'horaris](/horaris/) i, si dubtes, comença amb una [classe de prova gratuïta](/classe-de-prova-gratuita/) de cadascun: el cos et dirà quin li toca — o si li toquen tots dos.
+La resposta que donem més sovint és «per què no tots dos?». El clàssic dona al contemporani la tècnica; el contemporani dona al clàssic la llibertat. Les nostres alumnes que en fan tots dos ho noten en setmanes. Mira els grups de cada disciplina a la [graella d'horaris](/horaris/) i, si dubtes, comença amb una [classe de prova gratuïta](/blog/classe-de-prova-gratuita/) de cadascun: el cos et dirà quin li toca — o si li toquen tots dos.
 
 ## Preguntes freqüents
 

@@ -391,7 +391,7 @@ def pagina_index(lang):
 # ─────────────────────────────────────────────────────────────────────────────
 # SITEMAP — font única: pàgines del generador + home + blog
 # ─────────────────────────────────────────────────────────────────────────────
-LASTMOD_PAGINES = "2026-09-29"  # actualitzar quan es toquin les pàgines estàtiques
+LASTMOD_PAGINES = "2026-10-04"  # actualitzar quan es toquin les pàgines estàtiques
 
 
 def sitemap():
