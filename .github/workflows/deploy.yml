@@ -19,6 +19,9 @@ jobs:
       - name: baixar el codi
         uses: actions/checkout@v4
 
+      - name: comprovar enllaços interns (si n'hi ha cap de trencat, no es publica)
+        run: python3 generador/comprova_enllacos.py
+
       - name: normalitzar la carpeta de destí (ha d'acabar amb /)
         id: carpeta
         env:

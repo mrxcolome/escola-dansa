@@ -23,6 +23,8 @@ python3 genera_home_es.py   # es/index.html a partir d'index.html
 python3 genera_markdown.py  # un index.md al costat de cada index.html
 ```
 
+Després de regenerar: `python3 generador/comprova_enllacos.py` revisa tots els enllaços interns. El desplegament l'executa abans de pujar res i, si troba un enllaç trencat, s'atura sense publicar. Als posts, els enllaços a altres posts van amb `/blog/<slug>/` (CA) o `/es/blog/<slug_es>/` (ES).
+
 Comprovació bàsica: regenerar sense haver tocat res no ha de produir cap diff (`git status`). `genera_home_es.py` avisa si alguna cadena de la taula `PARELLES` ja no es troba.
 
 Com encaixa:
