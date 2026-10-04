@@ -110,7 +110,7 @@ TRADUCCIONS_ES = {
             ("¿necesito zapatos de claqué para probar?",
              "para la clase de prueba gratuita no hace falta: ven con calzado de suela dura y ya verás si te engancha (te enganchará)."),
             ("nunca he hecho claqué: ¿qué grupo me toca?",
-             "habla con nosotros: según tu base de danza y ritmo te recomendaremos el grupo adecuado, y el primer día es de prueba."),
+             "no hace falta haberlo hecho nunca: al grupo de adultos se puede entrar desde cero. cuéntanos tu base de danza y de ritmo para que podamos orientarte, y el primer día es de prueba."),
             ("¿los niños pueden hacer claqué?",
              "el claqué lo empezamos a partir de la etapa juvenil. para los más pequeños recomendamos empezar por jazz, clásico o hip-hop y dar el paso después."),
         ],

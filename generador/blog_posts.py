@@ -2046,7 +2046,7 @@ POSTS = [
 <li><strong>Combinacions</strong> cada vegada més llargues, primer a poc a poc i després a la velocitat de la música.</li>
 <li><strong>Una frase amb música</strong> per acabar, que és el moment en què tot el grup sona alhora i entens per què enganxa.</li>
 </ul>
-<p>Si mai no n'has fet, explica'ns-ho abans de venir: segons la teva base de dansa i de ritme et recomanarem el grup, i la classe de prova serveix per comprovar que hi encaixes.</p>
+<p><strong>Al grup d'adults s'hi pot entrar sense haver fet mai claqué.</strong> Explica'ns-ho abans de venir perquè la professora sàpiga que comences, i la classe de prova serveix per comprovar que hi estàs a gust.</p>
 
 <h2>quant es triga a sonar bé?</h2>
 <p>Siguem sincers: les primeres setmanes sonen més a soroll que a música. És normal i li passa a tothom. El cos ha d'aprendre a deixar anar el turmell i a fer sons nets i separats, i això demana repetició. La bona notícia és que el progrés <strong>s'escolta</strong>: un dia t'adones que aquella combinació que et semblava impossible surt sola, i aquest moment és molt satisfactori.</p>
@@ -2070,7 +2070,7 @@ POSTS = [
             ("quines sabates necessito per a la classe de prova?",
              "Unes sabates de sola dura, de pell o de vestir, no esportives. No cal comprar sabates de claqué fins que no decideixis quedar-t'hi, i abans de fer-ho t'orientem sobre quin model et va bé."),
             ("mai no he fet dansa: puc començar claqué d'adult?",
-             "Sí. El claqué no demana flexibilitat ni experiència prèvia en dansa. Explica'ns la teva base abans de venir i et recomanarem el grup que et convé; la classe de prova serveix per comprovar-ho."),
+             "Sí. Al grup d'adults s'hi pot entrar de zero: el claqué no demana flexibilitat ni experiència prèvia en dansa. Explica'ns-ho abans de venir i la classe de prova serveix per comprovar que hi estàs a gust."),
             ("quins dies hi ha claqué per a adults?",
              "Els dimarts i els dijous a les 18.30. Hi ha també un grup juvenil els dimarts a les 19.45. Tens tots els horaris a la graella de la web."),
         ],
@@ -2103,7 +2103,7 @@ POSTS = [
 <li><strong>Combinaciones</strong> cada vez más largas, primero despacio y después a la velocidad de la música.</li>
 <li><strong>Una frase con música</strong> para terminar, que es el momento en que todo el grupo suena a la vez y entiendes por qué engancha.</li>
 </ul>
-<p>Si nunca has hecho claqué, cuéntanoslo antes de venir: según tu base de danza y de ritmo te recomendaremos el grupo, y la clase de prueba sirve para comprobar que encajas.</p>
+<p><strong>Al grupo de adultos se puede entrar sin haber hecho nunca claqué.</strong> Cuéntanoslo antes de venir para que la profesora sepa que empiezas, y la clase de prueba sirve para comprobar que estás a gusto.</p>
 
 <h2>¿cuánto se tarda en sonar bien?</h2>
 <p>Seamos sinceros: las primeras semanas suenan más a ruido que a música. Es normal y le pasa a todo el mundo. El cuerpo tiene que aprender a soltar el tobillo y a hacer sonidos limpios y separados, y eso pide repetición. La buena noticia es que el progreso <strong>se oye</strong>: un día te das cuenta de que aquella combinación que te parecía imposible sale sola, y ese momento es muy satisfactorio.</p>
@@ -2127,7 +2127,7 @@ POSTS = [
             ("¿qué zapatos necesito para la clase de prueba?",
              "Unos zapatos de suela dura, de piel o de vestir, no deportivas. No hace falta comprar zapatos de claqué hasta que decidas quedarte, y antes de hacerlo te orientamos sobre qué modelo te va bien."),
             ("nunca he hecho danza: ¿puedo empezar claqué de adulto?",
-             "Sí. El claqué no pide flexibilidad ni experiencia previa en danza. Cuéntanos tu base antes de venir y te recomendaremos el grupo que te conviene; la clase de prueba sirve para comprobarlo."),
+             "Sí. Al grupo de adultos se puede entrar desde cero: el claqué no pide flexibilidad ni experiencia previa en danza. Cuéntanoslo antes de venir y la clase de prueba sirve para comprobar que estás a gusto."),
             ("¿qué días hay claqué para adultos?",
              "Los martes y los jueves a las 18.30. También hay un grupo juvenil los martes a las 19.45. Tienes todos los horarios en la web."),
         ],

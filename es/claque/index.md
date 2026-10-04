@@ -32,7 +32,7 @@ para la clase de prueba gratuita no hace falta: ven con calzado de suela dura y 
 
 ### nunca he hecho claqué: ¿qué grupo me toca?
 
-habla con nosotros: según tu base de danza y ritmo te recomendaremos el grupo adecuado, y el primer día es de prueba.
+no hace falta haberlo hecho nunca: al grupo de adultos se puede entrar desde cero. cuéntanos tu base de danza y de ritmo para que podamos orientarte, y el primer día es de prueba.
 
 ### ¿los niños pueden hacer claqué?
 

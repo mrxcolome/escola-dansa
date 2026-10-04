@@ -34,7 +34,7 @@ Una clase de claqué tiene una estructura que da mucha seguridad a quien empieza
 
 - **Una frase con música** para terminar, que es el momento en que todo el grupo suena a la vez y entiendes por qué engancha.
 
-Si nunca has hecho claqué, cuéntanoslo antes de venir: según tu base de danza y de ritmo te recomendaremos el grupo, y la clase de prueba sirve para comprobar que encajas.
+**Al grupo de adultos se puede entrar sin haber hecho nunca claqué.** Cuéntanoslo antes de venir para que la profesora sepa que empiezas, y la clase de prueba sirve para comprobar que estás a gusto.
 
 ## ¿cuánto se tarda en sonar bien?
 
@@ -70,7 +70,7 @@ Unos zapatos de suela dura, de piel o de vestir, no deportivas. No hace falta co
 
 ### Nunca he hecho danza: ¿puedo empezar claqué de adulto?
 
-Sí. El claqué no pide flexibilidad ni experiencia previa en danza. Cuéntanos tu base antes de venir y te recomendaremos el grupo que te conviene; la clase de prueba sirve para comprobarlo.
+Sí. Al grupo de adultos se puede entrar desde cero: el claqué no pide flexibilidad ni experiencia previa en danza. Cuéntanoslo antes de venir y la clase de prueba sirve para comprobar que estás a gusto.
 
 ### ¿qué días hay claqué para adultos?
 

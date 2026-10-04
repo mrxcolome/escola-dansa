@@ -208,7 +208,7 @@ PAGINES = [
             ("necessito sabates de claqué per provar?",
              "per a la classe de prova gratuïta no cal: vine amb calçat de sola dura i ja veuràs si t'enganxa (t'enganxarà)."),
             ("mai no he fet claqué: quin grup em toca?",
-             "parla amb nosaltres: segons la teva base de dansa i ritme et recomanarem el grup adequat, i el primer dia és de prova."),
+             "no cal haver-ne fet mai: al grup d'adults s'hi pot entrar de zero. explica'ns la teva base de dansa i de ritme perquè et puguem orientar, i el primer dia és de prova."),
             ("els nens poden fer claqué?",
              "el claqué el comencem a partir de l'etapa juvenil. per als més petits recomanem començar per jazz, clàssic o hip-hop i fer el pas després."),
         ],

@@ -34,7 +34,7 @@ Una classe de claqué té una estructura que dona molta seguretat a qui comença
 
 - **Una frase amb música** per acabar, que és el moment en què tot el grup sona alhora i entens per què enganxa.
 
-Si mai no n'has fet, explica'ns-ho abans de venir: segons la teva base de dansa i de ritme et recomanarem el grup, i la classe de prova serveix per comprovar que hi encaixes.
+**Al grup d'adults s'hi pot entrar sense haver fet mai claqué.** Explica'ns-ho abans de venir perquè la professora sàpiga que comences, i la classe de prova serveix per comprovar que hi estàs a gust.
 
 ## Quant es triga a sonar bé?
 
@@ -70,7 +70,7 @@ Unes sabates de sola dura, de pell o de vestir, no esportives. No cal comprar sa
 
 ### Mai no he fet dansa: puc començar claqué d'adult?
 
-Sí. El claqué no demana flexibilitat ni experiència prèvia en dansa. Explica'ns la teva base abans de venir i et recomanarem el grup que et convé; la classe de prova serveix per comprovar-ho.
+Sí. Al grup d'adults s'hi pot entrar de zero: el claqué no demana flexibilitat ni experiència prèvia en dansa. Explica'ns-ho abans de venir i la classe de prova serveix per comprovar que hi estàs a gust.
 
 ### Quins dies hi ha claqué per a adults?
 
