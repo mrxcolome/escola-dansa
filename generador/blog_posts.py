@@ -646,9 +646,9 @@ POSTS = [
         "related_pagines": ["cos-benestar", "dansa-adults", "horaris"],
         "related_posts": ["comencar-dansa-adults"],
 
-        "title": "barre: l'entrenament que ve del ballet (i per què enganxa) · escola de dansa cristina colomé",
-        "desc": "Què és el barre, l'entrenament inspirat en el ballet que tonifica, allarga i millora la postura sense impacte. Com és una classe, per a qui és i els horaris de matí a la nostra escola de Barcelona.",
-        "h1": "barre: l'entrenament que ve del ballet (i per què enganxa)",
+        "title": "barre: exercicis de dansa per tonificar (i 5 per fer a casa) · escola de dansa cristina colomé",
+        "desc": "Exercicis de dansa per tonificar i millorar la postura sense impacte: què és el barre, 5 exercicis per fer a casa amb una cadira i les classes de matí a la nostra escola de Barcelona.",
+        "h1": "barre: exercicis de dansa per tonificar (i 5 per fer a casa)",
         "intro": "Tonifica com el gimnàs, allarga com el ioga i s'entrena amb música vora una barra de ballet. El barre és l'entrenament de moda a mig món — i tenim els matins reservats per a ell.",
         "excerpt": "Tonifica com el gimnàs, allarga com el ioga i s'entrena vora una barra de ballet. Què és el barre, com és una classe i per què enganxa tant.",
         "cos": """
@@ -668,6 +668,17 @@ POSTS = [
 <h2>per a qui és</h2>
 <p>Per a tothom, i ho diem literalment: dels 20 als 70 i escaig, gent que no ha fet mai exercici i esportistes que busquen complement. Cada exercici té versions per a cada nivell, així que la classe s'adapta a tu i no al revés. I si t'agrada la música i l'estètica de la dansa però «ballar» et fa mandra o vergonya, el barre és la teva porta: <strong>tot el bo del ballet, sense haver de ballar</strong>.</p>
 
+<h2>5 exercicis de dansa per fer a casa</h2>
+<p>Per tastar-ho no et cal res més que una <strong>cadira amb respatller</strong> (farà de barra), uns mitjons i deu minuts. Fes-los a poc a poc, amb l'esquena llarga i respirant. Si alguna cosa fa mal, para.</p>
+<ul>
+<li><strong>Pliés.</strong> Dret, amb una mà al respatller, els talons junts i les puntes cap enfora. Doblega els genolls cap als costats, sense aixecar els talons, i torna a pujar estirant les cames. 2 sèries de 10.</li>
+<li><strong>Relevés.</strong> Amb els peus en paral·lel, puja a mitja punta, aguanta dos segons i baixa a poc a poc, sense deixar caure el pes. 2 sèries de 12. Treballa turmells, bessons i equilibri.</li>
+<li><strong>Tendus.</strong> Llisca un peu cap endavant per terra fins que només toqui la punta, i torna a tancar. Després cap al costat i cap enrere. 8 de cada, i canvia de cama.</li>
+<li><strong>Passé amb equilibri.</strong> Puja un peu fins al genoll de l'altra cama, amb el genoll obert cap al costat, i intenta deixar anar la cadira uns segons. 5 per cama.</li>
+<li><strong>Port de bras i estirament.</strong> Per acabar, aixeca un braç per sobre del cap i inclina el tronc cap al costat contrari, respirant a fons. Fes-ho 4 vegades per costat.</li>
+</ul>
+<p>Són exercicis de base de qualsevol classe de ballet, i justament per això funcionen: <strong>petits, controlats i repetits</strong>. A classe la professora et corregeix la col·locació, i és aquí on fan de debò l'efecte.</p>
+
 <h2>quan i on</h2>
 <p>A l'escola el barre viu als <strong>matins: dilluns i dimecres a les 11 h</strong> — l'hora perfecta si tens els vespres ocupats o vols començar el dia amb el cos posat a lloc. Forma part de la família de <a href="/cos-benestar/">cos i benestar</a>, juntament amb el ioga i la zumba, i com tot a l'escola, <strong>la primera classe és gratuïta</strong>. Vine amb roba còmoda i mitjons: la barra t'espera.</p>
 """,
@@ -678,11 +689,13 @@ POSTS = [
              "És molt complet: força, flexibilitat, equilibri i postura en una mateixa sessió. Dues classes per setmana (dilluns i dimecres) són una rutina rodona per si sola."),
             ("estic embarassada o em recupero d'una lesió: puc fer barre?",
              "En ser de baix impacte, el barre sol ser una gran opció en aquestes situacions — sempre amb el vistiplau del teu metge i avisant la professora, que t'adaptarà els exercicis."),
+            ("quins exercicis de dansa puc fer a casa?",
+             "Els de base del ballet, amb una cadira com a barra: pliés, relevés, tendus, passé amb equilibri i un estirament de braços per acabar. Deu minuts, a poc a poc i amb l'esquena llarga. A classe la professora et corregeix la col·locació, i és on fan de debò l'efecte."),
         ],
 
-        "title_es": "barre: el entrenamiento que viene del ballet (y por qué engancha) · escola de dansa cristina colomé",
-        "desc_es": "Qué es el barre, el entrenamiento inspirado en el ballet que tonifica, alarga y mejora la postura sin impacto. Cómo es una clase, para quién es y los horarios de mañana en nuestra escuela de Barcelona.",
-        "h1_es": "barre: el entrenamiento que viene del ballet (y por qué engancha)",
+        "title_es": "barre: ejercicios de danza para tonificar (y 5 para hacer en casa) · escola de dansa cristina colomé",
+        "desc_es": "Ejercicios de danza para tonificar y mejorar la postura sin impacto: qué es el barre, 5 ejercicios para hacer en casa con una silla y las clases de mañana en nuestra escuela de Barcelona.",
+        "h1_es": "barre: ejercicios de danza para tonificar (y 5 para hacer en casa)",
         "intro_es": "Tonifica como el gimnasio, alarga como el yoga y se entrena con música junto a una barra de ballet. El barre es el entrenamiento de moda en medio mundo — y tenemos las mañanas reservadas para él.",
         "excerpt_es": "Tonifica como el gimnasio, alarga como el yoga y se entrena junto a una barra de ballet. Qué es el barre, cómo es una clase y por qué engancha tanto.",
         "cos_es": """
@@ -702,6 +715,17 @@ POSTS = [
 <h2>para quién es</h2>
 <p>Para todo el mundo, y lo decimos literalmente: de los 20 a los 70 y pico, gente que no ha hecho nunca ejercicio y deportistas que buscan complemento. Cada ejercicio tiene versiones para cada nivel, así que la clase se adapta a ti y no al revés. Y si te gusta la música y la estética de la danza pero «bailar» te da pereza o vergüenza, el barre es tu puerta: <strong>todo lo bueno del ballet, sin tener que bailar</strong>.</p>
 
+<h2>5 ejercicios de danza para hacer en casa</h2>
+<p>Para probarlo no necesitas nada más que una <strong>silla con respaldo</strong> (hará de barra), unos calcetines y diez minutos. Hazlos despacio, con la espalda larga y respirando. Si algo duele, para.</p>
+<ul>
+<li><strong>Pliés.</strong> De pie, con una mano en el respaldo, los talones juntos y las puntas hacia fuera. Dobla las rodillas hacia los lados, sin levantar los talones, y vuelve a subir estirando las piernas. 2 series de 10.</li>
+<li><strong>Relevés.</strong> Con los pies en paralelo, sube a media punta, aguanta dos segundos y baja despacio, sin dejar caer el peso. 2 series de 12. Trabaja tobillos, gemelos y equilibrio.</li>
+<li><strong>Tendus.</strong> Desliza un pie hacia delante por el suelo hasta que solo toque la punta, y vuelve a cerrar. Después hacia el lado y hacia atrás. 8 de cada, y cambia de pierna.</li>
+<li><strong>Passé con equilibrio.</strong> Sube un pie hasta la rodilla de la otra pierna, con la rodilla abierta hacia el lado, e intenta soltar la silla unos segundos. 5 por pierna.</li>
+<li><strong>Port de bras y estiramiento.</strong> Para terminar, levanta un brazo por encima de la cabeza e inclina el tronco hacia el lado contrario, respirando a fondo. Hazlo 4 veces por lado.</li>
+</ul>
+<p>Son ejercicios de base de cualquier clase de ballet, y precisamente por eso funcionan: <strong>pequeños, controlados y repetidos</strong>. En clase la profesora te corrige la colocación, y es ahí donde hacen efecto de verdad.</p>
+
 <h2>cuándo y dónde</h2>
 <p>En la escuela el barre vive en las <strong>mañanas: lunes y miércoles a las 11 h</strong> — la hora perfecta si tienes las tardes ocupadas o quieres empezar el día con el cuerpo puesto en su sitio. Forma parte de la familia de <a href="/es/cuerpo-bienestar/">cuerpo y bienestar</a>, junto con el yoga y la zumba, y como todo en la escuela, <strong>la primera clase es gratuita</strong>. Ven con ropa cómoda y calcetines: la barra te espera.</p>
 """,
@@ -712,6 +736,8 @@ POSTS = [
              "Es muy completo: fuerza, flexibilidad, equilibrio y postura en una misma sesión. Dos clases por semana (lunes y miércoles) son una rutina redonda por sí sola."),
             ("estoy embarazada o me recupero de una lesión: ¿puedo hacer barre?",
              "Al ser de bajo impacto, el barre suele ser una gran opción en estas situaciones — siempre con el visto bueno de tu médico y avisando a la profesora, que te adaptará los ejercicios."),
+            ("¿qué ejercicios de danza puedo hacer en casa?",
+             "Los de base del ballet, con una silla como barra: pliés, relevés, tendus, passé con equilibrio y un estiramiento de brazos para terminar. Diez minutos, despacio y con la espalda larga. En clase la profesora te corrige la colocación, y es donde hacen efecto de verdad."),
         ],
     },
     {
@@ -2260,6 +2286,106 @@ POSTS = [
              "Sí. No hay permanencia y se puede ajustar el número de días, cambiar de grupo o de estilo durante el curso. Habladlo con recepción y os orientamos."),
             ("¿qué estilos gustan más a los adolescentes?",
              "Depende de cada uno, pero el hip-hop, el k-pop y el contemporáneo son de los que más enganchan a esta edad. La primera clase de prueba es gratuita, así que se puede probar sin compromiso."),
+        ],
+    },
+    {
+        "slug": "classes-dansa-mati-barcelona",
+        "slug_es": "clases-baile-manana-barcelona",
+        "categoria": "adults",
+        "categoria_es": "adultos",
+        "data": "2026-10-11",
+        "data_ca": "11 d'octubre de 2026",
+        "data_es": "11 de octubre de 2026",
+        "minuts": 4,
+        "nom_wa": "barre",
+        "nom_wa_es": "barre",
+        "og": "blog-classes-mati.jpg",
+        "img": "blog-classes-mati.jpg",
+        "img_alt": "Una sala de dansa amb llum de matí que entra per la finestra, la barra de fusta i el parquet, a punt per començar la classe",
+        "img_alt_es": "Una sala de danza con luz de mañana que entra por la ventana, la barra de madera y el parquet, lista para empezar la clase",
+        "related_pagines": ["cos-benestar", "dansa-adults", "horaris", "preus"],
+        "related_posts": ["barre-entrenament-ballet", "ballar-als-50-i-mes", "comencar-dansa-adults"],
+
+        "title": "classes de dansa al matí a Barcelona: el barre de les 11 · escola de dansa cristina colomé",
+        "desc": "Classes de dansa al matí a Sant Gervasi (Barcelona): barre els dilluns i dimecres a les 11, per a adults de totes les edats i sense experiència. Per a qui és, com és la classe i com provar-ho gratis.",
+        "h1": "classes de dansa al matí a Barcelona: el barre de les 11",
+        "excerpt": "Tens els matins lliures i els vespres plens? Els dilluns i dimecres a les 11 hi ha barre: dansa, força i postura per començar el dia, sense haver ballat mai.",
+        "intro": "La majoria de classes de dansa per a adults són al vespre, després de la feina. Però no tothom té els vespres lliures, i hi ha qui prefereix començar el dia movent-se. Per a ells hi ha el barre de les 11.",
+        "cos": """
+<p>Busques <strong>classes de dansa al matí a Barcelona</strong> i només trobes horaris de vespre? És habitual: la majoria d'escoles concentren els adults entre les 7 i les 10 del vespre. A la nostra escola de Sant Gervasi també, però els <strong>dilluns i els dimecres a les 11 del matí</strong> la sala C és per al <a href="/blog/barre-entrenament-ballet/">barre</a>.</p>
+
+<h2>per a qui és una classe a les 11 del matí</h2>
+<ul>
+<li><strong>Si treballes a torns o des de casa</strong> i el vespre és el moment que tens per a la família o per descansar.</li>
+<li><strong>Si t'has jubilat</strong> o tens els matins lliures i vols una rutina que et faci sortir de casa amb un objectiu.</li>
+<li><strong>Si acabes de deixar els nens a l'escola</strong> i vols una estona per a tu abans de tornar a la rutina.</li>
+<li><strong>Si simplement prefereixes començar el dia movent-te</strong>, amb el cos despert i el cap clar.</li>
+</ul>
+
+<h2>què és el barre (i per què és ideal per al matí)</h2>
+<p>El barre és un entrenament que neix del ballet: es treballa a la barra, amb música, amb exercicis com els pliés, els relevés o els tendus, i combinat amb treball de centre i estiraments. <strong>No cal haver ballat mai</strong> i no hi ha coreografies per aprendre. És de baix impacte, així que va bé a qualsevol edat, i treballa justament el que el cos agraeix a primera hora: <strong>postura, força, equilibri i flexibilitat</strong>.</p>
+<p>Si en vols un tast abans de venir, al post del barre hi ha <a href="/blog/barre-entrenament-ballet/">5 exercicis de dansa per fer a casa</a> amb una cadira.</p>
+
+<h2>com és un matí de barre a l'escola</h2>
+<p>A les 11 la sala és tranquil·la, amb llum natural i un grup reduït. La classe comença escalfant, passa a la barra, on es fa la major part del treball, i acaba amb estiraments. La professora adapta cada exercici al nivell i al cos de cadascú, i si tens alguna limitació (genolls, esquena, una lesió antiga), només cal que l'hi expliquis el primer dia.</p>
+<p>Moltes alumnes venen els dos dies, dilluns i dimecres, perquè fan una rutina rodona. Però també es pot venir un sol dia.</p>
+
+<h2>i si m'agrada ballar de veritat?</h2>
+<p>Llavors el barre és una molt bona base, i quan vulguis fer el pas, els grups d'adults dels vespres (entre les 18.30 i les 21.30) tenen <a href="/ballet-classic/">clàssic</a>, <a href="/ball-espanyol/">ball espanyol</a>, jazz i molts més estils per nivells, també d'iniciació. Els tens tots a <a href="/dansa-adults/">dansa per a adults</a>.</p>
+
+<h2>com començar</h2>
+<p>Com totes les classes de l'escola, <strong>la primera és gratuïta</strong>: vine un dilluns o un dimecres a les 11 amb roba còmoda i mitjons. Els preus per a adults comencen a 60 € al mes amb un dia a la setmana, i els tens tots a <a href="/preus/">preus</a>. Per reservar la prova, truca'ns al <a href="tel:+34934179886">934 17 98 86</a> o escriu-nos per WhatsApp.</p>
+""",
+        "faqs": [
+            ("hi ha classes de dansa al matí per a adults?",
+             "Sí: el barre, els dilluns i els dimecres a les 11 del matí, a la nostra escola de Sant Gervasi. La resta de grups d'adults són als vespres, entre les 18.30 i les 21.30."),
+            ("cal haver ballat abans per fer barre?",
+             "No. El barre agafa la barra i els exercicis de base del ballet, però és un entrenament sense coreografies, i la professora l'adapta a cada nivell."),
+            ("puc venir només un dia a la setmana?",
+             "Sí. Es pot venir un dia o els dos (dilluns i dimecres). Els preus per a adults comencen a 60 € al mes amb un dia a la setmana."),
+            ("quina edat cal tenir?",
+             "Cap en concret: al barre del matí hi ha alumnes de totes les edats, també de més de 60 anys. És de baix impacte i cada exercici té versions per a cada nivell."),
+        ],
+
+        "title_es": "clases de baile por la mañana en Barcelona: el barre de las 11 · escola de dansa cristina colomé",
+        "desc_es": "Clases de baile por la mañana en Sant Gervasi (Barcelona): barre los lunes y miércoles a las 11, para adultos de todas las edades y sin experiencia. Para quién es, cómo es la clase y cómo probarlo gratis.",
+        "h1_es": "clases de baile por la mañana en Barcelona: el barre de las 11",
+        "excerpt_es": "¿Tienes las mañanas libres y las tardes llenas? Los lunes y miércoles a las 11 hay barre: danza, fuerza y postura para empezar el día, sin haber bailado nunca.",
+        "intro_es": "La mayoría de clases de danza para adultos son por la tarde-noche, después del trabajo. Pero no todo el mundo tiene las tardes libres, y hay quien prefiere empezar el día moviéndose. Para ellos está el barre de las 11.",
+        "cos_es": """
+<p>¿Buscas <strong>clases de baile por la mañana en Barcelona</strong> y solo encuentras horarios de tarde? Es habitual: la mayoría de escuelas concentran a los adultos entre las 7 y las 10 de la noche. En nuestra escuela de Sant Gervasi también, pero <strong>los lunes y los miércoles a las 11 de la mañana</strong> la sala C es para el <a href="/es/blog/barre-entrenamiento-ballet/">barre</a>.</p>
+
+<h2>para quién es una clase a las 11 de la mañana</h2>
+<ul>
+<li><strong>Si trabajas a turnos o desde casa</strong> y la tarde es el momento que tienes para la familia o para descansar.</li>
+<li><strong>Si te has jubilado</strong> o tienes las mañanas libres y quieres una rutina que te haga salir de casa con un objetivo.</li>
+<li><strong>Si acabas de dejar a los niños en el colegio</strong> y quieres un rato para ti antes de volver a la rutina.</li>
+<li><strong>Si simplemente prefieres empezar el día moviéndote</strong>, con el cuerpo despierto y la cabeza clara.</li>
+</ul>
+
+<h2>qué es el barre (y por qué es ideal por la mañana)</h2>
+<p>El barre es un entrenamiento que nace del ballet: se trabaja en la barra, con música, con ejercicios como los pliés, los relevés o los tendus, y combinado con trabajo de centro y estiramientos. <strong>No hace falta haber bailado nunca</strong> y no hay coreografías que aprender. Es de bajo impacto, así que va bien a cualquier edad, y trabaja justo lo que el cuerpo agradece a primera hora: <strong>postura, fuerza, equilibrio y flexibilidad</strong>.</p>
+<p>Si quieres probarlo antes de venir, en el post del barre hay <a href="/es/blog/barre-entrenamiento-ballet/">5 ejercicios de danza para hacer en casa</a> con una silla.</p>
+
+<h2>cómo es una mañana de barre en la escuela</h2>
+<p>A las 11 la sala está tranquila, con luz natural y un grupo reducido. La clase empieza calentando, pasa a la barra, donde se hace la mayor parte del trabajo, y termina con estiramientos. La profesora adapta cada ejercicio al nivel y al cuerpo de cada uno, y si tienes alguna limitación (rodillas, espalda, una lesión antigua), solo tienes que contárselo el primer día.</p>
+<p>Muchas alumnas vienen los dos días, lunes y miércoles, porque hacen una rutina redonda. Pero también se puede venir un solo día.</p>
+
+<h2>¿y si me gusta bailar de verdad?</h2>
+<p>Entonces el barre es una muy buena base, y cuando quieras dar el paso, los grupos de adultos de la tarde-noche (entre las 18.30 y las 21.30) tienen <a href="/es/ballet-clasico/">clásico</a>, <a href="/es/baile-espanol/">baile español</a>, jazz y muchos más estilos por niveles, también de iniciación. Los tienes todos en <a href="/es/danza-adultos/">danza para adultos</a>.</p>
+
+<h2>cómo empezar</h2>
+<p>Como todas las clases de la escuela, <strong>la primera es gratuita</strong>: ven un lunes o un miércoles a las 11 con ropa cómoda y calcetines. Los precios para adultos empiezan en 60 € al mes con un día a la semana, y los tienes todos en <a href="/es/precios/">precios</a>. Para reservar la prueba, llámanos al <a href="tel:+34934179886">934 17 98 86</a> o escríbenos por WhatsApp.</p>
+""",
+        "faqs_es": [
+            ("¿hay clases de baile por la mañana para adultos?",
+             "Sí: el barre, los lunes y los miércoles a las 11 de la mañana, en nuestra escuela de Sant Gervasi. El resto de grupos de adultos son por la tarde-noche, entre las 18.30 y las 21.30."),
+            ("¿hay que haber bailado antes para hacer barre?",
+             "No. El barre toma la barra y los ejercicios de base del ballet, pero es un entrenamiento sin coreografías, y la profesora lo adapta a cada nivel."),
+            ("¿puedo venir solo un día a la semana?",
+             "Sí. Se puede venir un día o los dos (lunes y miércoles). Los precios para adultos empiezan en 60 € al mes con un día a la semana."),
+            ("¿qué edad hay que tener?",
+             "Ninguna en concreto: en el barre de la mañana hay alumnas de todas las edades, también de más de 60 años. Es de bajo impacto y cada ejercicio tiene versiones para cada nivel."),
         ],
     },
 ]

@@ -366,6 +366,7 @@ PAGINES = [
              "per a qui té els matins lliures i vol començar el dia cuidant-se: el barre de dilluns i dimecres a les 11 h."),
         ],
         "related": ["fit-dance", "ballet-classic", "dansa-adults"],
+        "posts": ["barre-entrenament-ballet", "ballar-als-50-i-mes"],
     },
     {
         "slug": "fit-dance",

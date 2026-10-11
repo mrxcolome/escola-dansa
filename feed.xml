@@ -6,7 +6,15 @@
     <atom:link href="https://escoladansa.com/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Consells de dansa per a famílies i adults, i vida d&#x27;escola, des de Sant Gervasi (Barcelona).</description>
     <language>ca</language>
-    <lastBuildDate>Sun, 04 Oct 2026 08:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 11 Oct 2026 08:00:00 +0200</lastBuildDate>
+    <item>
+      <title>Classes de dansa al matí a Barcelona: el barre de les 11</title>
+      <link>https://escoladansa.com/blog/classes-dansa-mati-barcelona/</link>
+      <guid isPermaLink="true">https://escoladansa.com/blog/classes-dansa-mati-barcelona/</guid>
+      <pubDate>Sun, 11 Oct 2026 08:00:00 +0200</pubDate>
+      <description>Classes de dansa al matí a Sant Gervasi (Barcelona): barre els dilluns i dimecres a les 11, per a adults de totes les edats i sense experiència. Per a qui és, com és la classe i com provar-ho gratis.</description>
+      <enclosure url="https://escoladansa.com/assets/blog-classes-mati.jpg" type="image/jpeg" length="150000"/>
+    </item>
     <item>
       <title>Dansa i estudis: com aguantar el ritme quan arriben els exàmens</title>
       <link>https://escoladansa.com/blog/dansa-i-estudis/</link>
@@ -64,11 +72,11 @@
       <enclosure url="https://escoladansa.com/assets/blog-classe-prova.jpg" type="image/jpeg" length="150000"/>
     </item>
     <item>
-      <title>Barre: l&#x27;entrenament que ve del ballet (i per què enganxa)</title>
+      <title>Barre: exercicis de dansa per tonificar (i 5 per fer a casa)</title>
       <link>https://escoladansa.com/blog/barre-entrenament-ballet/</link>
       <guid isPermaLink="true">https://escoladansa.com/blog/barre-entrenament-ballet/</guid>
       <pubDate>Wed, 19 Aug 2026 08:00:00 +0200</pubDate>
-      <description>Què és el barre, l&#x27;entrenament inspirat en el ballet que tonifica, allarga i millora la postura sense impacte. Com és una classe, per a qui és i els horaris de matí a la nostra escola de Barcelona.</description>
+      <description>Exercicis de dansa per tonificar i millorar la postura sense impacte: què és el barre, 5 exercicis per fer a casa amb una cadira i les classes de matí a la nostra escola de Barcelona.</description>
       <enclosure url="https://escoladansa.com/assets/blog-barre.jpg" type="image/jpeg" length="150000"/>
     </item>
     <item>

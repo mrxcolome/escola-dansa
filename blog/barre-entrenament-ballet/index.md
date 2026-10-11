@@ -1,4 +1,4 @@
-# Barre: l'entrenament que ve del ballet (i per què enganxa)
+# Barre: exercicis de dansa per tonificar (i 5 per fer a casa)
 
 *19 d'agost de 2026 · 4 min*
 
@@ -24,6 +24,22 @@ El barre combina exercicis de força inspirats en la tècnica del ballet (pliés
 
 Per a tothom, i ho diem literalment: dels 20 als 70 i escaig, gent que no ha fet mai exercici i esportistes que busquen complement. Cada exercici té versions per a cada nivell, així que la classe s'adapta a tu i no al revés. I si t'agrada la música i l'estètica de la dansa però «ballar» et fa mandra o vergonya, el barre és la teva porta: **tot el bo del ballet, sense haver de ballar**.
 
+## 5 exercicis de dansa per fer a casa
+
+Per tastar-ho no et cal res més que una **cadira amb respatller** (farà de barra), uns mitjons i deu minuts. Fes-los a poc a poc, amb l'esquena llarga i respirant. Si alguna cosa fa mal, para.
+
+- **Pliés.** Dret, amb una mà al respatller, els talons junts i les puntes cap enfora. Doblega els genolls cap als costats, sense aixecar els talons, i torna a pujar estirant les cames. 2 sèries de 10.
+
+- **Relevés.** Amb els peus en paral·lel, puja a mitja punta, aguanta dos segons i baixa a poc a poc, sense deixar caure el pes. 2 sèries de 12. Treballa turmells, bessons i equilibri.
+
+- **Tendus.** Llisca un peu cap endavant per terra fins que només toqui la punta, i torna a tancar. Després cap al costat i cap enrere. 8 de cada, i canvia de cama.
+
+- **Passé amb equilibri.** Puja un peu fins al genoll de l'altra cama, amb el genoll obert cap al costat, i intenta deixar anar la cadira uns segons. 5 per cama.
+
+- **Port de bras i estirament.** Per acabar, aixeca un braç per sobre del cap i inclina el tronc cap al costat contrari, respirant a fons. Fes-ho 4 vegades per costat.
+
+Són exercicis de base de qualsevol classe de ballet, i justament per això funcionen: **petits, controlats i repetits**. A classe la professora et corregeix la col·locació, i és aquí on fan de debò l'efecte.
+
 ## Quan i on
 
 A l'escola el barre viu als **matins: dilluns i dimecres a les 11 h** — l'hora perfecta si tens els vespres ocupats o vols començar el dia amb el cos posat a lloc. Forma part de la família de [cos i benestar](/cos-benestar/), juntament amb el ioga i la zumba, i com tot a l'escola, **la primera classe és gratuïta**. Vine amb roba còmoda i mitjons: la barra t'espera.
@@ -41,6 +57,10 @@ No, gens: el barre agafa la barra i l'estil del ballet, però és un entrenament
 ### Estic embarassada o em recupero d'una lesió: puc fer barre?
 
 En ser de baix impacte, el barre sol ser una gran opció en aquestes situacions — sempre amb el vistiplau del teu metge i avisant la professora, que t'adaptarà els exercicis.
+
+### Quins exercicis de dansa puc fer a casa?
+
+Els de base del ballet, amb una cadira com a barra: pliés, relevés, tendus, passé amb equilibri i un estirament de braços per acabar. Deu minuts, a poc a poc i amb l'esquena llarga. A classe la professora et corregeix la col·locació, i és on fan de debò l'efecte.
 
 ---
 
