@@ -1,8 +1,10 @@
-# El claqué: el baile que también es música
+# Qué es el claqué: el baile que también es música
 
 *10 de junio de 2026 · 4 min*
 
 Hay una disciplina en la escuela donde no solo bailas la música: la haces. Bienvenidos al claqué, el arte de convertir los pies en un instrumento de percusión.
+
+**El claqué (en inglés, *tap dance*) es un baile de percusión en el que los pies hacen música.** Se baila con unos zapatos que llevan placas metálicas en la punta y en el tacón: cada golpe en el suelo es un sonido, y combinando golpes, silencios y ritmos se construyen coreografías que se escuchan tanto como se ven. Nació en Estados Unidos y se hizo famoso con los musicales de Hollywood.
 
 El primer día de claqué pasa siempre lo mismo: alguien hace el primer «tap» con la placa metálica y se le escapa la sonrisa. Es un sonido que engancha. Porque el [claqué](/es/claque/) tiene algo que ninguna otra disciplina de la escuela tiene: **cuando bailas, suenas**.
 
@@ -21,6 +23,8 @@ Esta es la mejor parte: **para casi todo el mundo**. Los niños aprenden ritmo y
 ## Pruébalo: el sonido te convencerá
 
 El claqué hay que sentirlo en los pies. Ven a hacer una [clase de prueba gratuita](/es/blog/clase-de-prueba-gratuita/) — las primeras clases se pueden hacer con zapato de suela dura mientras decides — y mira los horarios de los grupos en la [parrilla](/es/horarios/). Te avisamos de una cosa: el «tap-tap» es adictivo.
+
+Toda la información de los grupos, los horarios y los precios está en la página de [clases de claqué en Barcelona](/es/claque/). Y si empiezas de adulto, lee [lo que hay que saber antes de la primera clase](/es/blog/claque-adultos-primera-clase/).
 
 ## Preguntas frecuentes
 

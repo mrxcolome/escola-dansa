@@ -1,8 +1,10 @@
-# El claqué: el ball que també és música
+# Què és el claqué: el ball que també és música
 
 *10 de juny de 2026 · 4 min*
 
 Hi ha una disciplina a l'escola on no només balles la música: la fas. Benvinguts al claqué, l'art de convertir els peus en un instrument de percussió.
+
+**El claqué (en anglès, *tap dance*) és un ball de percussió en què els peus fan música.** Es balla amb unes sabates que porten plaques metàl·liques a la punta i al taló: cada cop a terra és un so, i combinant cops, silencis i ritmes es construeixen coreografies que s'escolten tant com es veuen. Va néixer als Estats Units i es va fer famós amb els musicals de Hollywood.
 
 El primer dia de claqué passa sempre el mateix: algú fa el primer «tap» amb la placa metàl·lica i se li escapa el somriure. És un so que engancha. Perquè el [claqué](/claque/) té una cosa que cap altra disciplina de l'escola té: **quan balles, sones**.
 
@@ -21,6 +23,8 @@ Aquesta és la millor part: **per a gairebé tothom**. Els nens hi aprenen ritme
 ## Prova-ho: el so et convencerà
 
 El claqué s'ha de sentir als peus. Vine a fer una [classe de prova gratuïta](/blog/classe-de-prova-gratuita/) — les primeres classes es poden fer amb sabata de sola dura mentre decideixes — i mira els horaris dels grups a la [graella](/horaris/). T'avisem d'una cosa: el «tap-tap» és addictiu.
+
+Tota la informació dels grups, els horaris i els preus és a la pàgina de [classes de claqué a Barcelona](/claque/). I si comences d'adult, llegeix [el que cal saber abans de la primera classe](/blog/claque-adults-primera-classe/).
 
 ## Preguntes freqüents
 

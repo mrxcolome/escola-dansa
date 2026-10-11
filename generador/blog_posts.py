@@ -1061,12 +1061,14 @@ POSTS = [
         "related_pagines": ["claque", "jazz", "musical-interpretacio", "horaris"],
         "related_posts": ["claque-adults-primera-classe", "triar-estil-dansa-fill"],
 
-        "title": "el claqué: el ball que també és música · escola de dansa cristina colomé",
-        "desc": "Al claqué els peus són l'instrument: cada pas és un so i cada coreografia, una partitura. Què fa tan especial el claqué, per què va bé a totes les edats i com són les classes.",
-        "h1": "el claqué: el ball que també és música",
+        "title": "què és el claqué: el ball que també és música · escola de dansa cristina colomé",
+        "desc": "El claqué és un ball en què els peus fan música: unes sabates amb plaques metàl·liques a la punta i al taló converteixen cada pas en un so. D'on ve, per a qui és i com són les classes a Barcelona.",
+        "h1": "què és el claqué: el ball que també és música",
         "intro": "Hi ha una disciplina a l'escola on no només balles la música: la fas. Benvinguts al claqué, l'art de convertir els peus en un instrument de percussió.",
         "excerpt": "Al claqué els peus són l'instrument: cada pas és un so i cada coreografia, una partitura. Per què va bé a totes les edats.",
         "cos": """
+<p><strong>El claqué (en anglès, <em>tap dance</em>) és un ball de percussió en què els peus fan música.</strong> Es balla amb unes sabates que porten plaques metàl·liques a la punta i al taló: cada cop a terra és un so, i combinant cops, silencis i ritmes es construeixen coreografies que s'escolten tant com es veuen. Va néixer als Estats Units i es va fer famós amb els musicals de Hollywood.</p>
+
 <p>El primer dia de claqué passa sempre el mateix: algú fa el primer «tap» amb la placa metàl·lica i se li escapa el somriure. És un so que engancha. Perquè el <a href="/claque/">claqué</a> té una cosa que cap altra disciplina de l'escola té: <strong>quan balles, sones</strong>.</p>
 
 <h2>ballarins que són músics</h2>
@@ -1080,6 +1082,7 @@ POSTS = [
 
 <h2>prova-ho: el so et convencerà</h2>
 <p>El claqué s'ha de sentir als peus. Vine a fer una <a href="/blog/classe-de-prova-gratuita/">classe de prova gratuïta</a> — les primeres classes es poden fer amb sabata de sola dura mentre decideixes — i mira els horaris dels grups a la <a href="/horaris/">graella</a>. T'avisem d'una cosa: el «tap-tap» és addictiu.</p>
+<p>Tota la informació dels grups, els horaris i els preus és a la pàgina de <a href="/claque/">classes de claqué a Barcelona</a>. I si comences d'adult, llegeix <a href="/blog/claque-adults-primera-classe/">el que cal saber abans de la primera classe</a>.</p>
 """,
         "faqs": [
             ("cal haver fet dansa abans per començar claqué?",
@@ -1090,12 +1093,14 @@ POSTS = [
              "Per a tots dos: tenim grups juvenils i d'adults. És de les disciplines que millor envelleixen — es pot començar i gaudir a qualsevol edat."),
         ],
 
-        "title_es": "el claqué: el baile que también es música · escola de dansa cristina colomé",
-        "desc_es": "En el claqué los pies son el instrumento: cada paso es un sonido y cada coreografía, una partitura. Qué hace tan especial el claqué, por qué va bien a todas las edades y cómo son las clases.",
-        "h1_es": "el claqué: el baile que también es música",
+        "title_es": "qué es el claqué: el baile que también es música · escola de dansa cristina colomé",
+        "desc_es": "El claqué es un baile en el que los pies hacen música: unos zapatos con placas metálicas en la punta y el tacón convierten cada paso en un sonido. De dónde viene, para quién es y cómo son las clases en Barcelona.",
+        "h1_es": "qué es el claqué: el baile que también es música",
         "intro_es": "Hay una disciplina en la escuela donde no solo bailas la música: la haces. Bienvenidos al claqué, el arte de convertir los pies en un instrumento de percusión.",
         "excerpt_es": "En el claqué los pies son el instrumento: cada paso es un sonido y cada coreografía, una partitura. Por qué va bien a todas las edades.",
         "cos_es": """
+<p><strong>El claqué (en inglés, <em>tap dance</em>) es un baile de percusión en el que los pies hacen música.</strong> Se baila con unos zapatos que llevan placas metálicas en la punta y en el tacón: cada golpe en el suelo es un sonido, y combinando golpes, silencios y ritmos se construyen coreografías que se escuchan tanto como se ven. Nació en Estados Unidos y se hizo famoso con los musicales de Hollywood.</p>
+
 <p>El primer día de claqué pasa siempre lo mismo: alguien hace el primer «tap» con la placa metálica y se le escapa la sonrisa. Es un sonido que engancha. Porque el <a href="/es/claque/">claqué</a> tiene algo que ninguna otra disciplina de la escuela tiene: <strong>cuando bailas, suenas</strong>.</p>
 
 <h2>bailarines que son músicos</h2>
@@ -1109,6 +1114,7 @@ POSTS = [
 
 <h2>pruébalo: el sonido te convencerá</h2>
 <p>El claqué hay que sentirlo en los pies. Ven a hacer una <a href="/es/blog/clase-de-prueba-gratuita/">clase de prueba gratuita</a> — las primeras clases se pueden hacer con zapato de suela dura mientras decides — y mira los horarios de los grupos en la <a href="/es/horarios/">parrilla</a>. Te avisamos de una cosa: el «tap-tap» es adictivo.</p>
+<p>Toda la información de los grupos, los horarios y los precios está en la página de <a href="/es/claque/">clases de claqué en Barcelona</a>. Y si empiezas de adulto, lee <a href="/es/blog/claque-adultos-primera-clase/">lo que hay que saber antes de la primera clase</a>.</p>
 """,
         "faqs_es": [
             ("¿hay que haber hecho danza antes de empezar claqué?",
