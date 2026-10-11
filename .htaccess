@@ -56,7 +56,8 @@ RewriteRule ^estiu[0-9]+(/.*)?$ https://escoladansa.com/dansa-infantil/ [L,R=301
 RewriteRule ^nadal[0-9]+(/.*)?$ https://escoladansa.com/ [L,R=301]
 
 # ── 3a tanda (11 oct 2026): posts del blog del WordPress que Search Console encara veu com a 404 ──
-RewriteRule ^es/bienvenida/?$ https://escoladansa.com/es/ [L,R=301]
+RewriteRule ^benvinguda(/.*)?$ https://escoladansa.com/ [L,R=301]
+RewriteRule ^es/bienvenida(/.*)?$ https://escoladansa.com/es/ [L,R=301]
 RewriteRule ^blog/dansa-contemporania-a-barcelona-[^/]*/?$ https://escoladansa.com/dansa-contemporania/ [L,R=301]
 RewriteRule ^blog/ballet-classic-a-barcelona-[^/]*/?$ https://escoladansa.com/ballet-classic/ [L,R=301]
 RewriteRule ^blog/hip-hop-a-barcelona-[^/]*/?$ https://escoladansa.com/hip-hop/ [L,R=301]
