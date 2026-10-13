@@ -483,7 +483,10 @@ main,nav,footer{position:relative;z-index:1}
 ::selection{background:var(--granat-viu);color:var(--blanc)}
 a{color:inherit;text-decoration:none}
 h1,h2,h3{font-weight:800;text-transform:lowercase;letter-spacing:-.02em;line-height:1.1}
-nav{position:fixed;top:0;left:0;right:0;z-index:100;display:flex;align-items:center;justify-content:space-between;padding:18px 5vw;transition:background .4s,padding .4s}
+nav{position:fixed;top:0;left:0;right:0;z-index:100;display:flex;align-items:center;justify-content:space-between;gap:32px;padding:18px 5vw;transition:background .4s,padding .4s}
+/* pantalles mitjanes: el menú s'estreny perquè no toqui la marca */
+@media (min-width:701px) and (max-width:1280px){.nav-marca,.nav-links{font-size:.92rem}.nav-links{gap:16px;letter-spacing:0}}
+@media (min-width:701px) and (max-width:1180px){.nav-marca{display:none}nav{justify-content:flex-end}}
 nav.solida{background:rgba(10,10,10,.85);backdrop-filter:blur(14px);padding:10px 5vw;box-shadow:0 1px 0 var(--vora)}
 .nav-marca{font-weight:800;text-transform:lowercase;font-size:var(--text);white-space:nowrap}
 .nav-marca:hover{color:var(--granat-viu);transition:color .3s}

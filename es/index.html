@@ -108,7 +108,7 @@ body.cursor-actiu .cursor-punt, body.cursor-actiu .cursor-anell{display:block}
 /* ===== NAV ===== */
 nav{
   position:fixed;top:0;left:0;right:0;z-index:100;
-  display:flex;align-items:center;justify-content:center;
+  display:flex;align-items:center;justify-content:space-between;gap:32px;
   padding:18px 5vw;
   transition:background .4s,padding .4s,box-shadow .4s;
 }
@@ -539,6 +539,10 @@ details.faq{border-bottom:1px solid var(--vora)}
 .faq .resposta{font-size:var(--text);color:var(--gris);font-weight:400;padding:0 0 24px;max-width:680px}
 .faq .resposta a{color:var(--granat-viu);font-weight:600}
 .faq .resposta a:hover{text-decoration:underline}
+
+/* pantalles mitjanes: el menú s'estreny i, si no hi cap, s'amaga el nom (la marca torna a sortir al mòbil) */
+@media (min-width:901px) and (max-width:1280px){.nav-marca,.nav-links{font-size:.92rem}.nav-links{gap:16px;letter-spacing:0}.idioma{margin-left:16px;margin-right:0}}
+@media (min-width:901px) and (max-width:1180px){.nav-marca{display:none}nav{justify-content:flex-end}}
 
 /* ===== RESPONSIVE ===== */
 @media (max-width:900px){
