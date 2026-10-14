@@ -858,7 +858,7 @@ details.faq{border-bottom:1px solid var(--vora)}
     </div></div>
     <div class="activitat reveal"><div class="activitat-inner">
       <div class="cara cara-front"><span class="num">10</span><h3>formación escénica</h3></div>
-      <div class="cara cara-back"><p>viernes por la tarde: jazz, hip-hop, claqué, canto e interpretación</p><a class="mes-info" href="/formacio-escenica/">+ info</a></div>
+      <div class="cara cara-back"><p>el entrenamiento completo del artista: jazz, hip-hop, claqué, canto e interpretación</p><a class="mes-info" href="/formacio-escenica/">+ info</a></div>
     </div></div>
     <div class="activitat reveal"><div class="activitat-inner">
       <div class="cara cara-front"><span class="num">11</span><h3>cuerpo &amp; bienestar</h3></div>
@@ -1349,20 +1349,23 @@ if (PUNTER_FI && !REDUIT){
 
 // ===== TARGETES FLIP: tota la targeta és clicable =====
 // desktop: el hover ja gira, un clic a qualsevol punt navega a la pàgina de l'estil
-// mòbil: 1r toc gira la targeta (mostra la info), 2n toc navega
-document.querySelectorAll('.activitat').forEach(c => {
+// mòbil: un toc gira la targeta; un altre toc (fora del «+ info») la torna a girar,
+// i si no es toca, torna sola al cap de 4 s. Només el «+ info» navega.
+const TARGETES = document.querySelectorAll('.activitat');
+TARGETES.forEach(c => {
   const enllac = c.querySelector('.mes-info');
+  let temps = null;
+  const tanca = () => { c.classList.remove('girada'); clearTimeout(temps); };
   c.addEventListener('click', e => {
     if (e.target.closest('a')) return; // clic directe al "+ info": ja navega sol
     if (PUNTER_FI){
       if (enllac) location.href = enllac.getAttribute('href');
       return;
     }
-    if (c.classList.contains('girada') && enllac){
-      location.href = enllac.getAttribute('href');
-      return;
-    }
-    c.classList.toggle('girada'); vibra(8);
+    if (c.classList.contains('girada')){ tanca(); return; }
+    TARGETES.forEach(t => { if (t !== c) t.classList.remove('girada'); });
+    c.classList.add('girada'); vibra(8);
+    clearTimeout(temps); temps = setTimeout(tanca, 4000);
   });
 });
 
