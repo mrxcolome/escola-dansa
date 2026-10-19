@@ -13,6 +13,11 @@ RewriteCond %{HTTPS} !=on
 RewriteCond %{HTTP:X-Forwarded-Proto} !https
 RewriteRule ^ https://escoladansa.com%{REQUEST_URI} [L,R=301]
 
+# 3) carpeta sense barra final (/claque -> /claque/): directament a https en un sol salt.
+#    Sense això, l'Apache afegia la barra però enviava a http://, i calia un segon salt cap a https.
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^(.*[^/])$ https://escoladansa.com/$1/ [L,R=301]
+
 # ── Markdown per a agents: Accept: text/markdown → index.md (negociació de contingut) ──
 AddType text/markdown .md
 AddCharset UTF-8 .md
