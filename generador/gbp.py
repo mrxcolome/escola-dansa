@@ -8,6 +8,7 @@ L'executa el workflow .github/workflows/gbp.yml amb tres secrets del repo:
   python3 gbp.py ressenyes   # actualitza la nota i el nombre d'opinions de la portada (CA i ES)
   python3 gbp.py publica     # publica a la fitxa els posts del blog que encara no hi són
   python3 gbp.py llista      # mostra les 10 ressenyes més recents i si tenen resposta (no canvia res)
+  python3 gbp.py respon      # contesta les ressenyes de gbp_respostes.json que encara no tenen resposta
 
 Els posts ja publicats a la fitxa es guarden a gbp_publicats.json (el workflow el desa al repo).
 """
@@ -24,6 +25,7 @@ ARREL = os.path.dirname(AQUI)
 DOMINI = "https://escoladansa.com"
 NOM_FITXA = "cristina colom"  # per trobar la fitxa si el compte en té més d'una
 PUBLICATS = os.path.join(AQUI, "gbp_publicats.json")
+RESPOSTES = os.path.join(AQUI, "gbp_respostes.json")  # {"nom de qui l'ha escrit": "resposta"}
 HOME_CA = os.path.join(ARREL, "index.html")
 HOME_ES_GEN = os.path.join(AQUI, "genera_home_es.py")
 
@@ -31,7 +33,7 @@ RE_CA = re.compile(r"<strong>\d,\d</strong> a Google · \d+ opinions")
 RE_ES = re.compile(r"<strong>\d,\d</strong> en Google · \d+ opiniones")
 
 
-def crida(url, dades=None, token=None, formulari=False):
+def crida(url, dades=None, token=None, formulari=False, metode=None):
     capcaleres = {}
     if token:
         capcaleres["Authorization"] = f"Bearer {token}"
@@ -42,7 +44,7 @@ def crida(url, dades=None, token=None, formulari=False):
         else:
             cos = json.dumps(dades).encode()
             capcaleres["Content-Type"] = "application/json"
-    req = urllib.request.Request(url, data=cos, headers=capcaleres)
+    req = urllib.request.Request(url, data=cos, headers=capcaleres, method=metode)
     try:
         with urllib.request.urlopen(req, timeout=30) as r:
             return json.loads(r.read() or b"{}")
@@ -106,6 +108,34 @@ def ordre_llista():
             print(f"  resposta: {rv['reviewReply'].get('comment', '')}")
 
 
+def ordre_respon():
+    """Contesta les ressenyes sense resposta dels autors de gbp_respostes.json i treu del fitxer les ja fetes."""
+    respostes = json.load(open(RESPOSTES, encoding="utf-8"))
+    if not respostes:
+        print("cap resposta pendent")
+        return
+    token = token_acces()
+    compte, fitxa, _ = troba_fitxa(token)
+    r = crida(f"https://mybusiness.googleapis.com/v4/{compte}/{fitxa}/reviews?pageSize=50&orderBy=updateTime%20desc",
+              token=token)
+    pendents = {k.strip().lower(): k for k in respostes}
+    for rv in r.get("reviews", []):
+        autor = rv.get("reviewer", {}).get("displayName", "").strip().lower()
+        if autor not in pendents:
+            continue
+        nom = pendents.pop(autor)
+        if rv.get("reviewReply"):
+            print(f"ja tenia resposta: {nom}")
+        else:
+            crida(f"https://mybusiness.googleapis.com/v4/{rv['name']}/reply", {"comment": respostes[nom]},
+                  token=token, metode="PUT")
+            print(f"contestada: {nom}")
+        del respostes[nom]
+    for nom in pendents.values():
+        print(f"no trobada: {nom} (es queda al fitxer)")
+    json.dump(respostes, open(RESPOSTES, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+
+
 def ordre_ressenyes():
     token = token_acces()
     compte, fitxa, _ = troba_fitxa(token)
@@ -154,7 +184,7 @@ def ordre_publica():
 
 
 if __name__ == "__main__":
-    ordres = {"prova": ordre_prova, "ressenyes": ordre_ressenyes, "publica": ordre_publica, "llista": ordre_llista}
+    ordres = {"prova": ordre_prova, "ressenyes": ordre_ressenyes, "publica": ordre_publica, "llista": ordre_llista, "respon": ordre_respon}
     if len(sys.argv) != 2 or sys.argv[1] not in ordres:
         sys.exit(f"ús: python3 gbp.py {'|'.join(ordres)}")
     ordres[sys.argv[1]]()

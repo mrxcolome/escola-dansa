@@ -1,7 +1,7 @@
 # Fitxa de Google (API de Perfil d'Empresa): generador/gbp.py
 #  - després de cada desplegament: publica a la fitxa els posts nous del blog
 #  - cada dia: actualitza la nota i el nombre d'opinions de la portada i, si canvien, ho publica
-#  - a mà (pestanya Actions): prova | ressenyes | publica | llista
+#  - a mà (pestanya Actions): prova | ressenyes | publica | llista | respon
 # Secrets: GBP_CLIENT_ID, GBP_CLIENT_SECRET, GBP_REFRESH_TOKEN
 name: fitxa de google
 
@@ -16,7 +16,7 @@ on:
       ordre:
         description: "què fer"
         type: choice
-        options: [prova, ressenyes, publica, llista]
+        options: [prova, ressenyes, publica, llista, respon]
         default: prova
 
 concurrency:
@@ -70,7 +70,7 @@ jobs:
           if [ "${{ steps.ordre.outputs.o }}" = "ressenyes" ]; then
             git commit -m "portada: opinions de Google actualitzades automàticament"
           else
-            git commit -m "fitxa: registre de posts publicats a Google"
+            git commit -m "fitxa: registre de posts i respostes publicats a Google"
           fi
           git push origin HEAD:main
           # un push fet amb el token del workflow no llança el desplegament: es llança a mà
