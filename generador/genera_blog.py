@@ -22,13 +22,7 @@ ARREL, DOMINI = gp.ARREL, gp.DOMINI
 # El blog va EN CLAR per diferenciar-lo de la web: inversió dels tokens de color
 # (mateixos noms de variable, valors girats — la resta de la plantilla no es toca).
 BLOG_CSS = """
-:root{--negre:#f7f4f0;--gris-fosc:#fffdfb;--blanc:#171310;--gris:#6f6862;--vora:rgba(23,19,16,.14)}
-body::before{background:radial-gradient(55vmax 55vmax at 85% -10%,rgba(149,0,0,.06),transparent 65%),radial-gradient(45vmax 45vmax at -10% 80%,rgba(77,5,5,.05),transparent 70%)}
-nav.solida{background:rgba(247,244,240,.88)}
-::selection{color:#f5f2ef}
-.boto-ple{color:#f5f2ef}
-.cta-final{background:rgba(255,253,251,.85)}
-.accio:hover,.idioma-menu a:hover,.post-card:hover{background:rgba(149,0,0,.06)}
+.post-card:hover{background:rgba(149,0,0,.06)}
 .capsal .entradeta{max-width:none}
 .post-img{width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;display:block;border-radius:20px;margin:0 0 26px}
 .article .meta-post{font-size:var(--text);color:var(--gris);font-weight:400;font-style:italic;margin-bottom:38px}
@@ -80,8 +74,6 @@ nav.solida{background:rgba(247,244,240,.88)}
 .bf-cos .peu-card{color:rgba(245,242,239,.7)}
 .pista-desliza{display:block;text-align:center;font-size:var(--text);color:var(--gris);font-style:italic;margin-top:2px}
 }
-.nb-estat.err{color:#c62828}
-.nb-estat.ok{color:#3d6b4f}
 /* el blog es l'unic espai amb majuscules: fora el lowercase de marca als titols */
 h1,h2,h3{text-transform:none}
 """
@@ -238,6 +230,7 @@ def pagina_post_ca(p):
         "cos": cos_post(p, "ca"),
         "ld": ld_post(p, "ca"),
         "news": False,
+        "tema": "clar",
     }
     return gp.genera(pd)
 
@@ -259,6 +252,7 @@ def pagina_post_es(p):
         "cos": cos_post(p, "es"),
         "ld": ld_post(p, "es"),
         "news": False,
+        "tema": "clar",
     }
     pagina = gp.genera(pd)
     for a, b in gp.fixos_es():
@@ -353,6 +347,7 @@ def pagina_index(lang):
   </section>""",
             "ld": ld_index("ca"),
         "news": False,
+        "tema": "clar",
         }
         return gp.genera(pd)
     pd = {
@@ -381,6 +376,7 @@ def pagina_index(lang):
   </section>""",
         "ld": ld_index("es"),
         "news": False,
+        "tema": "clar",
     }
     pagina = gp.genera(pd)
     for a, b in gp.fixos_es():

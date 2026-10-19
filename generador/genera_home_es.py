@@ -17,7 +17,7 @@ q = urllib.parse.quote
 
 PARELLES = [
     # ── head ──
-    ('<html lang="ca">', '<html lang="es">'),
+    ('<html lang="ca" data-tema="fosc">', '<html lang="es" data-tema="fosc">'),
     # el títol comença pel que la gent busca, no per la marca (set 2026: sortíem
     # a la 1a pàgina per «escola de dansa» amb 0 clics)
     ('<title>escola de dansa a Sant Gervasi, Barcelona · cristina colomé</title>',
@@ -331,6 +331,7 @@ for _p in sorted(_POSTS, key=lambda x: x["data"], reverse=True)[:3]:
             PARELLES.append(_pa)
 
 PARELLES += [
+    ('aria-label="mode clar / fosc"', 'aria-label="modo claro / oscuro"'),
     ('"assets/', '"/assets/'),
     ("'assets/", "'/assets/"),
     ('url(assets/', 'url(/assets/'),

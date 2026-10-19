@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-<html lang="ca">
+<html lang="ca" data-tema="fosc">
 <head>
 <meta charset="UTF-8">
+<script>try{var t=localStorage.getItem('tema');if(t)document.documentElement.dataset.tema=t}catch(e){}</script>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>escola de dansa a Sant Gervasi, Barcelona · cristina colomé</title>
 <meta name="description" content="escola de dansa a Sant Gervasi (Barcelona), des dels 3 anys fins a adults: clàssic, contemporani, jazz, hip-hop, claqué i més. 1a classe de prova gratuïta.">
@@ -122,7 +123,7 @@ nav.solida{background:rgba(10,10,10,.85);backdrop-filter:blur(14px);padding:10px
 .nav-links a::after{content:"";position:absolute;left:0;bottom:-6px;width:0;height:2px;background:var(--granat-viu);transition:width .3s var(--ease)}
 .nav-links a:hover::after{width:100%}
 /* selector d'idioma (desktop): desplegable en mouseover */
-.idioma{position:relative;margin-left:5vw;margin-right:-2.5vw;cursor:pointer}
+.idioma{position:relative;margin-left:5vw;cursor:pointer}
 .idioma-etiq{opacity:.85;transition:opacity .3s}
 .idioma:hover .idioma-etiq,.idioma:focus-within .idioma-etiq{opacity:1}
 .idioma-menu{position:absolute;top:100%;right:0;padding-top:16px;display:none;min-width:150px}
@@ -541,8 +542,35 @@ details.faq{border-bottom:1px solid var(--vora)}
 .faq .resposta a:hover{text-decoration:underline}
 
 /* pantalles mitjanes: el menú s'estreny i, si no hi cap, s'amaga el nom (la marca torna a sortir al mòbil) */
-@media (min-width:901px) and (max-width:1280px){.nav-marca,.nav-links{font-size:.92rem}.nav-links{gap:16px;letter-spacing:0}.idioma{margin-left:16px;margin-right:0}}
+@media (min-width:901px) and (max-width:1440px){.nav-marca,.nav-links{font-size:.92rem}.nav-links{gap:14px;letter-spacing:0}.idioma{margin-left:16px;margin-right:0}}
 @media (min-width:901px) and (max-width:1180px){.nav-marca{display:none}nav{justify-content:flex-end}}
+
+/* ===== MODE CLAR / FOSC =====
+   botó del menú; la tria es recorda a localStorage 'tema'. Mateix bloc que genera_pagines.py,
+   més els retocs propis de la home. El hero i el menú sobre el hero es queden sempre foscos (són foto). */
+.tema-boto{background:none;border:0;color:inherit;cursor:pointer;padding:4px;margin-left:18px;margin-right:-4px;display:inline-flex;align-items:center;opacity:.85;transition:opacity .3s,transform .5s var(--ease)}
+.tema-boto:hover{opacity:1;transform:rotate(-20deg)}
+.tema-boto svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.ico-lluna{display:none}
+html[data-tema="clar"] .ico-sol{display:none}
+html[data-tema="clar"] .ico-lluna{display:block}
+html[data-tema="clar"]{--negre:#f7f4f0;--gris-fosc:#fffdfb;--blanc:#171310;--gris:#6f6862;--vora:rgba(23,19,16,.14);color-scheme:light}
+html[data-tema="clar"] .aurora i{opacity:.12}
+html[data-tema="clar"] nav.solida{background:rgba(247,244,240,.88)}
+html[data-tema="clar"] nav:not(.solida),html[data-tema="clar"] .idioma-mobil,html[data-tema="clar"] .hero{--blanc:#f5f2ef;--gris:#cfc8c1;--vora:rgba(245,242,239,.2);color:var(--blanc)}
+html[data-tema="clar"] ::selection{color:#f5f2ef}
+html[data-tema="clar"] .boto-ple{color:#f5f2ef}
+html[data-tema="clar"] .cursor-anell{border-color:rgba(23,19,16,.35)}
+html[data-tema="clar"] #cintaOmbra{stroke:rgba(23,19,16,.08)}
+html[data-tema="clar"] .marquesina{background:rgba(255,253,251,.8)}
+html[data-tema="clar"] .escola,html[data-tema="clar"] .newsletter{background:rgba(255,253,251,.55)}
+html[data-tema="clar"] .banda{background:rgba(255,253,251,.6)}
+html[data-tema="clar"] .cara-back{--blanc:#f5f2ef}
+html[data-tema="clar"] .xifra:hover,html[data-tema="clar"] .accio:hover,html[data-tema="clar"] .idioma-menu a:hover{background:rgba(149,0,0,.06)}
+html[data-tema="clar"] .cta-insta:hover{background:rgba(23,19,16,.05)}
+html[data-tema="clar"] .layer{background:rgba(247,244,240,.97)}
+html[data-tema="clar"] .layer-tanca{background:rgba(247,244,240,.6)}
+html[data-tema="clar"] .nl-card{box-shadow:0 18px 50px rgba(23,19,16,.14)}
 
 /* ===== RESPONSIVE ===== */
 @media (max-width:900px){
@@ -552,9 +580,14 @@ details.faq{border-bottom:1px solid var(--vora)}
     opacity:0;visibility:hidden;transition:opacity .4s,visibility .4s;
   }
   .menu-obert .nav-links{opacity:1;visibility:visible}
+  html[data-tema="clar"] .nav-links{background:rgba(247,244,240,.97)}
+  html[data-tema="clar"] .menu-obert nav{--blanc:#171310;color:var(--blanc)}
   .hamburguesa{display:block}
   .hero-glow{right:-30vw}
-  .escola-grid,.contacte-grid{grid-template-columns:1fr;gap:60px}
+  .escola-grid,.contacte-grid{grid-template-columns:minmax(0,1fr);gap:60px}
+  /* les xifres no han d'eixamplar la columna: «insonoritzades» no cabia a 2 columnes */
+  .xifra{padding:28px 18px}
+  .xifra small{letter-spacing:.04em;overflow-wrap:anywhere}
   .contacte-logo{order:2;margin-top:20px}
   .contacte-logo svg{height:46vh}
   .banda-doble{grid-template-columns:1fr}
@@ -583,6 +616,7 @@ details.faq{border-bottom:1px solid var(--vora)}
   .news-camps .boto{width:100%;justify-content:center}
   .idioma-mobil{display:flex;gap:8px;align-items:center;position:absolute;top:18px;right:5vw;z-index:120;font-size:var(--text);font-weight:400}
   .idioma-mobil a{color:var(--gris)}
+  .idioma-mobil .tema-boto{margin:0 10px 0 0;color:var(--blanc)}
   .idioma-mobil a.actiu{color:var(--blanc)}
   .idioma-mobil span{color:var(--gris)}
   .idioma-peu{display:none}
@@ -747,11 +781,12 @@ details.faq{border-bottom:1px solid var(--vora)}
         <a href="/es/" hreflang="es">castellano</a>
       </div>
     </div>
+    <button class="tema-boto" type="button" aria-label="mode clar / fosc"><svg class="ico-sol" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.5"/><path d="M12 2v2.5M12 19.5V22M2 12h2.5M19.5 12H22M4.9 4.9l1.8 1.8M17.3 17.3l1.8 1.8M4.9 19.1l1.8-1.8M17.3 6.7l1.8-1.8"/></svg><svg class="ico-lluna" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5z"/></svg></button>
   </div>
 </nav>
 
 <div class="idioma-mobil" aria-label="idioma">
-  <a href="/" class="actiu">cat</a><span>/</span><a href="/es/">es</a>
+  <button class="tema-boto" type="button" aria-label="mode clar / fosc"><svg class="ico-sol" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.5"/><path d="M12 2v2.5M12 19.5V22M2 12h2.5M19.5 12H22M4.9 4.9l1.8 1.8M17.3 17.3l1.8 1.8M4.9 19.1l1.8-1.8M17.3 6.7l1.8-1.8"/></svg><svg class="ico-lluna" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5z"/></svg></button><a href="/" class="actiu">cat</a><span>/</span><a href="/es/">es</a>
 </div>
 
 <div class="avis-galetes" id="avisGaletes">
@@ -1127,6 +1162,14 @@ const PUNTER_FI = matchMedia('(hover:hover) and (pointer:fine)').matches;
 
 // ===== NAV =====
 const nav = document.getElementById('nav');
+// mode clar / fosc: el botó canvia el tema i el recorda; la barra del mòbil agafa el color del fons
+function colorBarra(){const m=document.querySelector('meta[name=theme-color]');if(m)m.content=document.documentElement.dataset.tema==='clar'?'#f7f4f0':'#0a0a0a'}
+colorBarra();
+document.querySelectorAll('.tema-boto').forEach(b=>b.addEventListener('click',()=>{
+  const t=document.documentElement.dataset.tema==='clar'?'fosc':'clar';
+  document.documentElement.dataset.tema=t;try{localStorage.setItem('tema',t)}catch(e){}
+  colorBarra();
+}));
 const hamburguesa = document.getElementById('hamburguesa');
 hamburguesa.addEventListener('click', () => document.body.classList.toggle('menu-obert'));
 document.querySelectorAll('#navLinks a').forEach(a =>
