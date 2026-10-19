@@ -2402,8 +2402,8 @@ POSTS = [
         "nom_wa_es": "danza",
         "og": "blog-quantes-classes.jpg",
         "img": "blog-quantes-classes.jpg",
-        "img_alt": "Unes sabatilles de ballet i unes sabates de jazz a terra d'una sala de dansa, al peu de la barra",
-        "img_alt_es": "Unas zapatillas de ballet y unos zapatos de jazz en el suelo de una sala de danza, al pie de la barra",
+        "img_alt": "L'horari setmanal de classes clavat amb xinxetes en un suro a la paret de l'escola, al costat d'unes puntes penjades a la porta de la sala",
+        "img_alt_es": "El horario semanal de clases clavado con chinchetas en un corcho en la pared de la escuela, junto a unas puntas colgadas en la puerta de la sala",
         "related_pagines": ["horaris", "preus", "dansa-infantil", "dansa-adults"],
         "related_posts": ["triar-estil-dansa-fill", "dansa-i-estudis", "a-quina-edat-comencar-dansa"],
 
