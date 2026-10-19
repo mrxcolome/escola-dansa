@@ -548,7 +548,7 @@ h2{font-size:clamp(2rem,4.6vw,3.8rem);margin-bottom:22px}
 .taula-preus th,.taula-preus td{padding:14px 12px;text-align:left;border-bottom:1px solid var(--vora);font-size:var(--text)}
 .taula-preus th{font-size:var(--text-vermells);letter-spacing:.2em;text-transform:uppercase;color:var(--gris);font-weight:600}
 .taula-preus td:first-child{font-weight:600}
-.taula-preus .preu{color:var(--granat-viu);font-weight:800;white-space:nowrap}
+.taula-preus .preu{color:var(--blanc);font-weight:800;white-space:nowrap}
 .nota-curs a{color:var(--granat-viu);font-weight:600}
 .disciplines-llista{margin-top:30px}
 .disc-item{display:block;padding:20px 0;border-bottom:1px solid var(--vora);transition:padding-left .25s var(--ease)}
