@@ -183,7 +183,7 @@ PARELLES = [
     ("de dilluns a divendres, de 17 a 21.30 h (dl i dc també d'11 a 12 h)",
      'de lunes a viernes, de 17 a 21.30 h (lu y mi también de 11 a 12 h)'),
     ('data-obre="layerPrivacitat">privacitat</button>', 'data-obre="layerPrivacitat">privacidad</button>'),
-    ('★ deixa la teva ressenya a Google', '★ deja tu reseña en Google'),
+    ('★ deixa la teva ressenya', '★ deja tu reseña'),
 
     # ── FAQ visibles ──
     ('<div class="etiqueta reveal">preguntes freqüents</div>', '<div class="etiqueta reveal">preguntas frecuentes</div>'),
