@@ -462,14 +462,13 @@ def feed_rss(lang):
 
 
 def retocs_head(pagina, lang):
-    """Autodiscovery del feed + theme-color clar (el blog va en fons blanc)."""
+    """Autodiscovery del feed."""
     feed = "/feed.xml" if lang == "ca" else "/es/feed.xml"
     titol = "blog escola de dansa cristina colomé" + (" (es)" if lang == "es" else "")
     pagina = pagina.replace(
         '<link rel="icon"',
         f'<link rel="alternate" type="application/rss+xml" title="{titol}" href="{feed}">\n<link rel="icon"', 1)
-    return pagina.replace('<meta name="theme-color" content="#0a0a0a">',
-                          '<meta name="theme-color" content="#f7f4f0">', 1)
+    return pagina
 
 
 # ─────────────────────────────────────────────────────────────────────────────

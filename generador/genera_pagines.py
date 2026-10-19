@@ -1141,7 +1141,7 @@ def genera(p):
         url_ca = f"{DOMINI}/{p['slug_ca']}/"
         url_es = url
     return f"""<!DOCTYPE html>
-<html lang="{lang}" data-tema="{p.get("tema", "fosc")}">
+<html lang="{lang}" data-tema="{p.get("tema", "clar")}">
 <head>
 <meta charset="UTF-8">
 <script>try{{var t=localStorage.getItem('tema');if(t)document.documentElement.dataset.tema=t}}catch(e){{}}</script>
@@ -1152,7 +1152,7 @@ def genera(p):
 <link rel="alternate" hreflang="ca" href="{url_ca}">
 <link rel="alternate" hreflang="es" href="{url_es}">
 <link rel="alternate" hreflang="x-default" href="{url_ca}">
-<meta name="theme-color" content="#0a0a0a">
+<meta name="theme-color" content="#f7f4f0">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Escola de Dansa Cristina Colomé">
 <meta property="og:title" content="{esc(p["title"])}">

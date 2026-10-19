@@ -17,7 +17,7 @@ q = urllib.parse.quote
 
 PARELLES = [
     # ── head ──
-    ('<html lang="ca" data-tema="fosc">', '<html lang="es" data-tema="fosc">'),
+    ('<html lang="ca" data-tema="clar">', '<html lang="es" data-tema="clar">'),
     # el títol comença pel que la gent busca, no per la marca (set 2026: sortíem
     # a la 1a pàgina per «escola de dansa» amb 0 clics)
     ('<title>escola de dansa a Sant Gervasi, Barcelona · cristina colomé</title>',

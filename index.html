@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ca" data-tema="fosc">
+<html lang="ca" data-tema="clar">
 <head>
 <meta charset="UTF-8">
 <script>try{var t=localStorage.getItem('tema');if(t)document.documentElement.dataset.tema=t}catch(e){}</script>
@@ -10,7 +10,7 @@
 <link rel="alternate" hreflang="ca" href="https://escoladansa.com/">
 <link rel="alternate" hreflang="es" href="https://escoladansa.com/es/">
 <link rel="alternate" hreflang="x-default" href="https://escoladansa.com/">
-<meta name="theme-color" content="#0a0a0a">
+<meta name="theme-color" content="#f7f4f0">
 
 <!-- Open Graph (WhatsApp, Instagram, Facebook) + Twitter -->
 <meta property="og:type" content="website">
@@ -546,7 +546,7 @@ details.faq{border-bottom:1px solid var(--vora)}
 @media (min-width:901px) and (max-width:1180px){.nav-marca{display:none}nav{justify-content:flex-end}}
 
 /* ===== MODE CLAR / FOSC =====
-   botó del menú; la tria es recorda a localStorage 'tema'. Mateix bloc que genera_pagines.py,
+   per defecte clar; botó del menú; la tria es recorda a localStorage 'tema'. Mateix bloc que genera_pagines.py,
    més els retocs propis de la home. El hero i el menú sobre el hero es queden sempre foscos (són foto). */
 .tema-boto{background:none;border:0;color:inherit;cursor:pointer;padding:4px;margin-left:18px;margin-right:-4px;display:inline-flex;align-items:center;opacity:.85;transition:opacity .3s,transform .5s var(--ease)}
 .tema-boto:hover{opacity:1;transform:rotate(-20deg)}
@@ -565,7 +565,15 @@ html[data-tema="clar"] #cintaOmbra{stroke:rgba(23,19,16,.08)}
 html[data-tema="clar"] .marquesina{background:rgba(255,253,251,.8)}
 html[data-tema="clar"] .escola,html[data-tema="clar"] .newsletter{background:rgba(255,253,251,.55)}
 html[data-tema="clar"] .banda{background:rgba(255,253,251,.6)}
-html[data-tema="clar"] .cara-back{--blanc:#f5f2ef}
+/* la cinta i les guspires, més discretes sobre fons clar */
+html[data-tema="clar"] .cinta{opacity:.35}
+html[data-tema="clar"] .cinta-spark{filter:opacity(.4)}
+/* revers de les activitats: rosat clar amb text fosc, en lloc del granat fosc */
+html[data-tema="clar"] .cara-back{background:linear-gradient(155deg,#fff8f6,#f4dedb);border:1px solid rgba(149,0,0,.22)}
+html[data-tema="clar"] .cara-back p{color:#3b302c}
+html[data-tema="clar"] .cara-back .mes-info{color:var(--granat-viu);border-bottom-color:rgba(149,0,0,.45)}
+html[data-tema="clar"] .cara-back .mes-info:hover{border-color:var(--granat-viu)}
+html[data-tema="clar"] .bloc-post:hover{background:#fbf0ee}
 html[data-tema="clar"] .xifra:hover,html[data-tema="clar"] .accio:hover,html[data-tema="clar"] .idioma-menu a:hover{background:rgba(149,0,0,.06)}
 html[data-tema="clar"] .cta-insta:hover{background:rgba(23,19,16,.05)}
 html[data-tema="clar"] .layer{background:rgba(247,244,240,.97)}
