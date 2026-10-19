@@ -624,7 +624,8 @@ html[data-tema="clar"] .nl-card{box-shadow:0 18px 50px rgba(23,19,16,.14)}
   .news-camps .boto{width:100%;justify-content:center}
   /* idiomes i botó del tema fixos (sticky) en una píndola, com a les pàgines interiors */
   .idioma-mobil{display:flex;gap:8px;align-items:center;position:fixed;top:12px;right:12px;z-index:120;font-size:var(--text);font-weight:400;padding:7px 16px;border-radius:100px;background:rgba(10,10,10,.6);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border:1px solid var(--vora)}
-  html[data-tema="clar"] .idioma-mobil{background:rgba(247,244,240,.82)}
+  html[data-tema="clar"] .idioma-mobil{background:rgba(247,244,240,.82);transition:background .4s,border-color .4s}
+  .idioma-mobil.sobre-hero,html[data-tema="clar"] .idioma-mobil.sobre-hero{--blanc:#f5f2ef;--gris:#cfc8c1;background:rgba(10,10,10,.18);border-color:rgba(245,242,239,.22)}
   .idioma-mobil a{color:var(--gris)}
   .idioma-mobil .tema-boto{order:9;margin:0 -4px 0 6px;color:var(--blanc)}
   .idioma-mobil a.actiu{color:var(--blanc)}
@@ -1172,6 +1173,10 @@ const PUNTER_FI = matchMedia('(hover:hover) and (pointer:fine)').matches;
 
 // ===== NAV =====
 const nav = document.getElementById('nav');
+// píndola d'idiomes del mòbil: mentre és damunt del vídeo, vidre fosc i transparent (en mode clar destacava massa)
+const idiomaMobil = document.querySelector('.idioma-mobil'), heroEl = document.getElementById('inici');
+let altHero = heroEl ? heroEl.offsetHeight : 0;
+addEventListener('resize', () => { altHero = heroEl ? heroEl.offsetHeight : 0; }, {passive:true});
 // mode clar / fosc: el botó canvia el tema i el recorda; la barra del mòbil agafa el color del fons
 function colorBarra(){const m=document.querySelector('meta[name=theme-color]');if(m)m.content=document.documentElement.dataset.tema==='clar'?'#f7f4f0':'#0a0a0a'}
 colorBarra();
@@ -1808,6 +1813,7 @@ function bucle(){
   }
 
   nav.classList.toggle('solida', scrollY > 40);
+  if (idiomaMobil) idiomaMobil.classList.toggle('sobre-hero', scrollY < altHero - 70);
   if (!window.__pausaBucle) requestAnimationFrame(bucle);
 }
 requestAnimationFrame(bucle);
