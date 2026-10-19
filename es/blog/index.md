@@ -1,5 +1,6 @@
 # blog · consejos de danza y vida de escuela
 
+- [¿cuántas clases de danza a la semana le convienen?](https://escoladansa.com/es/blog/cuantas-clases-danza-semana/) — ¿Un día, dos o tres? Cuántas clases de danza a la semana convienen según la edad, las señales para añadir otra y cuánto cuesta de verdad el segundo día.
 - [Clases de baile por la mañana en Barcelona: el barre de las 11](https://escoladansa.com/es/blog/clases-baile-manana-barcelona/) — ¿Tienes las mañanas libres y las tardes llenas? Los lunes y miércoles a las 11 hay barre: danza, fuerza y postura para empezar el día, sin haber bailado nunca.
 - [Danza y estudios: cómo mantener el ritmo cuando llegan los exámenes](https://escoladansa.com/es/blog/danza-y-estudios/) — Llegan los primeros exámenes y la danza parece lo primero que sobra. Por qué a menudo es al revés, y cómo organizar la semana para que quepa todo.
 - [Claqué de adulto: lo que hay que saber antes de la primera clase](https://escoladansa.com/es/blog/claque-adultos-primera-clase/) — Si hace falta tener oído, qué zapatos necesitas y cuándo comprarlos, cómo es una clase y cuánto se tarda en sonar bien: las dudas de quien quiere empezar claqué de adulto.

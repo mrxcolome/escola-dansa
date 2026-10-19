@@ -6,7 +6,15 @@
     <atom:link href="https://escoladansa.com/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Consells de dansa per a famílies i adults, i vida d&#x27;escola, des de Sant Gervasi (Barcelona).</description>
     <language>ca</language>
-    <lastBuildDate>Sun, 11 Oct 2026 08:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 19 Oct 2026 08:00:00 +0200</lastBuildDate>
+    <item>
+      <title>Quantes classes de dansa a la setmana li convenen?</title>
+      <link>https://escoladansa.com/blog/quantes-classes-dansa-setmana/</link>
+      <guid isPermaLink="true">https://escoladansa.com/blog/quantes-classes-dansa-setmana/</guid>
+      <pubDate>Mon, 19 Oct 2026 08:00:00 +0200</pubDate>
+      <description>Un dia, dos o tres? Quantes classes de dansa a la setmana convenen segons l&#x27;edat i l&#x27;objectiu, els senyals per afegir-ne un altre (o no) i quant costa el segon dia. Guia de l&#x27;escola Cristina Colomé, Barcelona.</description>
+      <enclosure url="https://escoladansa.com/assets/blog-quantes-classes.jpg" type="image/jpeg" length="150000"/>
+    </item>
     <item>
       <title>Classes de dansa al matí a Barcelona: el barre de les 11</title>
       <link>https://escoladansa.com/blog/classes-dansa-mati-barcelona/</link>

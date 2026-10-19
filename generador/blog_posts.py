@@ -2388,6 +2388,131 @@ POSTS = [
              "Ninguna en concreto: en el barre de la mañana hay alumnas de todas las edades, también de más de 60 años. Es de bajo impacto y cada ejercicio tiene versiones para cada nivel."),
         ],
     },
+
+    {
+        "slug": "quantes-classes-dansa-setmana",
+        "slug_es": "cuantas-clases-danza-semana",
+        "categoria": "famílies",
+        "categoria_es": "familias",
+        "data": "2026-10-19",
+        "data_ca": "19 d'octubre de 2026",
+        "data_es": "19 de octubre de 2026",
+        "minuts": 5,
+        "nom_wa": "dansa",
+        "nom_wa_es": "danza",
+        "og": "blog-quantes-classes.jpg",
+        "img": "blog-quantes-classes.jpg",
+        "img_alt": "Unes sabatilles de ballet i unes sabates de jazz a terra d'una sala de dansa, al peu de la barra",
+        "img_alt_es": "Unas zapatillas de ballet y unos zapatos de jazz en el suelo de una sala de danza, al pie de la barra",
+        "related_pagines": ["horaris", "preus", "dansa-infantil", "dansa-adults"],
+        "related_posts": ["triar-estil-dansa-fill", "dansa-i-estudis", "a-quina-edat-comencar-dansa"],
+
+        "title": "quantes classes de dansa a la setmana? guia per edats · escola de dansa cristina colomé",
+        "desc": "Un dia, dos o tres? Quantes classes de dansa a la setmana convenen segons l'edat i l'objectiu, els senyals per afegir-ne un altre (o no) i quant costa el segon dia. Guia de l'escola Cristina Colomé, Barcelona.",
+        "h1": "quantes classes de dansa a la setmana li convenen?",
+        "excerpt": "Un dia, dos o tres? Quantes classes de dansa a la setmana convenen segons l'edat, els senyals per afegir-ne una altra i quant costa de debò el segon dia.",
+        "intro": "Passat el primer mes de curs, arriba la pregunta: «i si en fes un dia més?». No hi ha una resposta única, però sí unes pautes clares segons l'edat i el que es busca. Aquí les tens.",
+        "cos": """
+<p>A l'octubre les rutines ja s'han assentat i és quan moltes famílies (i molts adults) es plantegen si un dia de dansa a la setmana és poc, just o massa. La resposta depèn sobretot de dues coses: <strong>l'edat</strong> i <strong>què vols treure'n</strong>. Gaudir, aprendre una tècnica, preparar exàmens o simplement moure't.</p>
+
+<h2>dels 3 als 5 anys: amb un dia n'hi ha prou</h2>
+<p>A la <a href="/dansa-infantil/">iniciació a la dansa</a> el que compta és que la criatura s'ho passi bé, escolti la música i guanyi coordinació. <strong>Un dia a la setmana</strong> és el ritme natural: dona temps de pair el que han après i fa que esperin la classe amb ganes. Si en demana més, el segon dia pot arribar, però sense presses.</p>
+
+<h2>dels 6 als 11 anys: un o dos dies</h2>
+<p>Aquí comença la tècnica de veritat i es nota la diferència. Amb <strong>un dia</strong> s'aprèn i es gaudeix. Amb <strong>dos</strong>, el progrés és molt més visible, perquè el cos no "oblida" d'una setmana a l'altra. Una bona opció és fer dos dies d'estils diferents: per exemple <a href="/ballet-classic/">clàssic</a> i <a href="/jazz/">jazz</a>, o clàssic i <a href="/hip-hop/">hip-hop</a>. El clàssic dona base, l'altre estil dona llibertat. Si dubtes de quin, tens la guia per <a href="/blog/triar-estil-dansa-fill/">triar l'estil de dansa del teu fill</a>.</p>
+
+<h2>adolescents: de dos a tres dies (o més, si hi ha un objectiu)</h2>
+<p>Als grups juvenils, <strong>dos dies</strong> és el punt d'equilibri per avançar de debò. Qui prepara els <a href="/blog/examens-rad-ballet/">exàmens de la Royal Academy of Dance</a>, qui fa puntes o qui somia amb dedicar-s'hi sol fer-ne <strong>tres o més</strong>, i aquí hi entra també la <a href="/formacio-escenica/">formació escènica</a> dels divendres. Ara bé, amb els exàmens i els deures, l'agenda s'omple: al post <a href="/blog/dansa-i-estudis/">dansa i estudis</a> expliquem com fer-ho encaixar sense que res se'n ressenti.</p>
+
+<h2>adults: un dia per gaudir, dos per notar-ho</h2>
+<p>Si comences ara, <strong>un dia</strong> és perfecte per agafar el gust. Quan vulguis notar progrés (més flexibilitat, més memòria de moviment, més força), <strong>dos dies</strong> marquen la diferència. Hi ha qui combina un estil de ball amb una classe de cos, com el <a href="/blog/barre-entrenament-ballet/">barre</a> o el ioga. Totes les opcions són a <a href="/dansa-adults/">dansa per a adults</a>.</p>
+
+<h2>senyals que toca afegir un dia</h2>
+<ul>
+<li><strong>Arriba a casa i continua ballant.</strong> Les ganes són el millor indicador.</li>
+<li><strong>Diu que la classe se li fa curta</strong> o pregunta per un altre estil que ha vist a l'escola.</li>
+<li><strong>Té un objectiu concret</strong>: un examen, el festival, passar de grup.</li>
+<li><strong>La professora ho suggereix.</strong> Ella veu quan el cos ja demana més.</li>
+</ul>
+
+<h2>i senyals que és millor no afegir-ne</h2>
+<ul>
+<li><strong>Arriba cansat i sense ganes</strong>, i la classe es converteix en una obligació.</li>
+<li><strong>L'agenda ja va justa</strong> i un dia més resta hores de son o d'estudi.</li>
+<li><strong>Es va molestant per alguna lesió</strong> o creixement ràpid (habitual a la pubertat): millor consolidar.</li>
+</ul>
+<p>Més dansa no sempre és millor dansa. Un dia viscut amb ganes val més que tres a contracor.</p>
+
+<h2>quant costa un dia més?</h2>
+<p>Menys del que sembla. A l'escola el preu no es multiplica per dies: <strong>el segon dia costa 12 € més al mes</strong> per als grups infantils (de 56 € a 68 €) i 13 € més per als juvenils i adults amb classes de fins a una hora (de 60 € a 73 €). Totes les tarifes, també les trimestrals, són a <a href="/preus/">preus</a>, i els grups i dies, a <a href="/horaris/">horaris</a>.</p>
+
+<h2>en resum</h2>
+<p>De 3 a 5 anys, un dia. De 6 a 11, un o dos. Adolescents, dos o tres. Adults, un per començar i dos per notar-ho. I, per sobre de tot, escolta les ganes. Si tens dubtes sobre quin grup o quin dia afegir, truca'ns al <a href="tel:+34934179886">934 17 98 86</a> o escriu-nos per WhatsApp i ho mirem amb tu.</p>
+""",
+        "faqs": [
+            ("quantes classes de dansa a la setmana són recomanables?",
+             "Depèn de l'edat: de 3 a 5 anys, un dia; de 6 a 11, un o dos; adolescents, dos o tres (més si preparen exàmens o fan puntes); adults, un dia per començar i dos per notar progrés."),
+            ("un dia a la setmana és suficient per aprendre dansa?",
+             "Sí, per aprendre i gaudir-ne. Amb dos dies el progrés és més ràpid i visible, perquè el cos no oblida d'una setmana a l'altra."),
+            ("quant costa afegir un segon dia de classe?",
+             "A l'escola, el segon dia costa 12 € més al mes en els grups infantils (de 56 € a 68 €) i 13 € més en els juvenils i adults de fins a una hora (de 60 € a 73 €)."),
+            ("és millor fer dos dies del mateix estil o de dos estils diferents?",
+             "Totes dues opcions funcionen. Combinar el clàssic, que dona base, amb un estil més lliure com el jazz o el hip-hop és una combinació molt completa per a nens i adolescents."),
+        ],
+
+        "title_es": "¿cuántas clases de danza a la semana? guía por edades · escola de dansa cristina colomé",
+        "desc_es": "¿Un día, dos o tres? Cuántas clases de danza a la semana convienen según la edad y el objetivo, las señales para añadir otra (o no) y cuánto cuesta el segundo día. Guía de la escuela Cristina Colomé, Barcelona.",
+        "h1_es": "¿cuántas clases de danza a la semana le convienen?",
+        "excerpt_es": "¿Un día, dos o tres? Cuántas clases de danza a la semana convienen según la edad, las señales para añadir otra y cuánto cuesta de verdad el segundo día.",
+        "intro_es": "Pasado el primer mes de curso, llega la pregunta: «¿y si hiciera un día más?». No hay una respuesta única, pero sí unas pautas claras según la edad y lo que se busca. Aquí las tienes.",
+        "cos_es": """
+<p>En octubre las rutinas ya se han asentado y es cuando muchas familias (y muchos adultos) se plantean si un día de danza a la semana es poco, justo o demasiado. La respuesta depende sobre todo de dos cosas: <strong>la edad</strong> y <strong>qué quieres sacar de ello</strong>. Disfrutar, aprender una técnica, preparar exámenes o simplemente moverte.</p>
+
+<h2>de los 3 a los 5 años: con un día es suficiente</h2>
+<p>En la <a href="/es/danza-infantil/">iniciación a la danza</a> lo que cuenta es que el niño se lo pase bien, escuche la música y gane coordinación. <strong>Un día a la semana</strong> es el ritmo natural: da tiempo a asimilar lo aprendido y hace que esperen la clase con ganas. Si pide más, el segundo día puede llegar, pero sin prisas.</p>
+
+<h2>de los 6 a los 11 años: uno o dos días</h2>
+<p>Aquí empieza la técnica de verdad y se nota la diferencia. Con <strong>un día</strong> se aprende y se disfruta. Con <strong>dos</strong>, el progreso es mucho más visible, porque el cuerpo no "olvida" de una semana a otra. Una buena opción es hacer dos días de estilos distintos: por ejemplo <a href="/es/ballet-clasico/">clásico</a> y <a href="/es/jazz/">jazz</a>, o clásico y <a href="/es/hip-hop/">hip-hop</a>. El clásico da base, el otro estilo da libertad. Si dudas de cuál, tienes la guía para <a href="/es/blog/elegir-estilo-danza-hijo/">elegir el estilo de danza de tu hijo</a>.</p>
+
+<h2>adolescentes: de dos a tres días (o más, si hay un objetivo)</h2>
+<p>En los grupos juveniles, <strong>dos días</strong> es el punto de equilibrio para avanzar de verdad. Quien prepara los <a href="/es/blog/examenes-rad-ballet/">exámenes de la Royal Academy of Dance</a>, quien hace puntas o quien sueña con dedicarse a ello suele hacer <strong>tres o más</strong>, y aquí entra también la <a href="/es/formacion-escenica/">formación escénica</a> de los viernes. Eso sí, con los exámenes y los deberes, la agenda se llena: en el post <a href="/es/blog/danza-y-estudios/">danza y estudios</a> explicamos cómo hacerlo encajar sin que nada se resienta.</p>
+
+<h2>adultos: un día para disfrutar, dos para notarlo</h2>
+<p>Si empiezas ahora, <strong>un día</strong> es perfecto para cogerle el gusto. Cuando quieras notar progreso (más flexibilidad, más memoria de movimiento, más fuerza), <strong>dos días</strong> marcan la diferencia. Hay quien combina un estilo de baile con una clase de cuerpo, como el <a href="/es/blog/barre-entrenamiento-ballet/">barre</a> o el yoga. Todas las opciones están en <a href="/es/danza-adultos/">danza para adultos</a>.</p>
+
+<h2>señales de que toca añadir un día</h2>
+<ul>
+<li><strong>Llega a casa y sigue bailando.</strong> Las ganas son el mejor indicador.</li>
+<li><strong>Dice que la clase se le hace corta</strong> o pregunta por otro estilo que ha visto en la escuela.</li>
+<li><strong>Tiene un objetivo concreto</strong>: un examen, el festival, pasar de grupo.</li>
+<li><strong>La profesora lo sugiere.</strong> Ella ve cuándo el cuerpo ya pide más.</li>
+</ul>
+
+<h2>y señales de que es mejor no añadirlo</h2>
+<ul>
+<li><strong>Llega cansado y sin ganas</strong>, y la clase se convierte en una obligación.</li>
+<li><strong>La agenda ya va justa</strong> y un día más resta horas de sueño o de estudio.</li>
+<li><strong>Se queja de alguna molestia</strong> o está en pleno estirón (habitual en la pubertad): mejor consolidar.</li>
+</ul>
+<p>Más danza no siempre es mejor danza. Un día vivido con ganas vale más que tres a disgusto.</p>
+
+<h2>¿cuánto cuesta un día más?</h2>
+<p>Menos de lo que parece. En la escuela el precio no se multiplica por días: <strong>el segundo día cuesta 12 € más al mes</strong> en los grupos infantiles (de 56 € a 68 €) y 13 € más en los juveniles y adultos con clases de hasta una hora (de 60 € a 73 €). Todas las tarifas, también las trimestrales, están en <a href="/es/precios/">precios</a>, y los grupos y días, en <a href="/es/horarios/">horarios</a>.</p>
+
+<h2>en resumen</h2>
+<p>De 3 a 5 años, un día. De 6 a 11, uno o dos. Adolescentes, dos o tres. Adultos, uno para empezar y dos para notarlo. Y, por encima de todo, escucha las ganas. Si tienes dudas sobre qué grupo o qué día añadir, llámanos al <a href="tel:+34934179886">934 17 98 86</a> o escríbenos por WhatsApp y lo miramos contigo.</p>
+""",
+        "faqs_es": [
+            ("¿cuántas clases de danza a la semana son recomendables?",
+             "Depende de la edad: de 3 a 5 años, un día; de 6 a 11, uno o dos; adolescentes, dos o tres (más si preparan exámenes o hacen puntas); adultos, un día para empezar y dos para notar progreso."),
+            ("¿un día a la semana es suficiente para aprender danza?",
+             "Sí, para aprender y disfrutar. Con dos días el progreso es más rápido y visible, porque el cuerpo no olvida de una semana a otra."),
+            ("¿cuánto cuesta añadir un segundo día de clase?",
+             "En la escuela, el segundo día cuesta 12 € más al mes en los grupos infantiles (de 56 € a 68 €) y 13 € más en los juveniles y adultos de hasta una hora (de 60 € a 73 €)."),
+            ("¿es mejor hacer dos días del mismo estilo o de dos estilos distintos?",
+             "Las dos opciones funcionan. Combinar el clásico, que da base, con un estilo más libre como el jazz o el hip-hop es una combinación muy completa para niños y adolescentes."),
+        ],
+    },
 ]
 
 

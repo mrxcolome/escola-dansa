@@ -6,7 +6,15 @@
     <atom:link href="https://escoladansa.com/es/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Consejos de danza para familias y adultos, y vida de escuela, desde Sant Gervasi (Barcelona).</description>
     <language>es</language>
-    <lastBuildDate>Sun, 11 Oct 2026 08:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 19 Oct 2026 08:00:00 +0200</lastBuildDate>
+    <item>
+      <title>¿cuántas clases de danza a la semana le convienen?</title>
+      <link>https://escoladansa.com/es/blog/cuantas-clases-danza-semana/</link>
+      <guid isPermaLink="true">https://escoladansa.com/es/blog/cuantas-clases-danza-semana/</guid>
+      <pubDate>Mon, 19 Oct 2026 08:00:00 +0200</pubDate>
+      <description>¿Un día, dos o tres? Cuántas clases de danza a la semana convienen según la edad y el objetivo, las señales para añadir otra (o no) y cuánto cuesta el segundo día. Guía de la escuela Cristina Colomé, Barcelona.</description>
+      <enclosure url="https://escoladansa.com/assets/blog-quantes-classes.jpg" type="image/jpeg" length="150000"/>
+    </item>
     <item>
       <title>clases de baile por la mañana en Barcelona: el barre de las 11</title>
       <link>https://escoladansa.com/es/blog/clases-baile-manana-barcelona/</link>
