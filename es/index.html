@@ -542,13 +542,13 @@ details.faq{border-bottom:1px solid var(--vora)}
 .faq .resposta a:hover{text-decoration:underline}
 
 /* pantalles mitjanes: el menú s'estreny i, si no hi cap, s'amaga el nom (la marca torna a sortir al mòbil) */
-@media (min-width:901px) and (max-width:1440px){.nav-marca,.nav-links{font-size:.92rem}.nav-links{gap:14px;letter-spacing:0}.idioma{margin-left:16px;margin-right:0}}
+@media (min-width:901px) and (max-width:1440px){.nav-marca,.nav-links{font-size:.92rem}.nav-links{gap:14px;letter-spacing:0}.idioma{margin-left:16px;margin-right:0}.nav-links .tema-boto{margin-left:-4px}}
 @media (min-width:901px) and (max-width:1180px){.nav-marca{display:none}nav{justify-content:flex-end}}
 
 /* ===== MODE CLAR / FOSC =====
    per defecte clar; botó del menú; la tria es recorda a localStorage 'tema'. Mateix bloc que genera_pagines.py,
    més els retocs propis de la home. El hero i el menú sobre el hero es queden sempre foscos (són foto). */
-.tema-boto{background:none;border:0;color:inherit;cursor:pointer;padding:4px;margin-left:18px;margin-right:-4px;display:inline-flex;align-items:center;opacity:.85;transition:opacity .3s,transform .5s var(--ease)}
+.tema-boto{background:none;border:0;color:inherit;cursor:pointer;padding:4px;margin-left:-24px;margin-right:-4px;display:inline-flex;align-items:center;opacity:.85;transition:opacity .3s,transform .5s var(--ease)}
 .tema-boto:hover{opacity:1;transform:rotate(-20deg)}
 .tema-boto svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
 .ico-lluna{display:none}
@@ -624,7 +624,7 @@ html[data-tema="clar"] .nl-card{box-shadow:0 18px 50px rgba(23,19,16,.14)}
   .news-camps .boto{width:100%;justify-content:center}
   .idioma-mobil{display:flex;gap:8px;align-items:center;position:absolute;top:18px;right:5vw;z-index:120;font-size:var(--text);font-weight:400}
   .idioma-mobil a{color:var(--gris)}
-  .idioma-mobil .tema-boto{margin:0 10px 0 0;color:var(--blanc)}
+  .idioma-mobil .tema-boto{margin:0 6px 0 0;color:var(--blanc)}
   .idioma-mobil a.actiu{color:var(--blanc)}
   .idioma-mobil span{color:var(--gris)}
   .idioma-peu{display:none}
