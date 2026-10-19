@@ -1,0 +1,79 @@
+# Fitxa de Google (API de Perfil d'Empresa): generador/gbp.py
+#  - després de cada desplegament: publica a la fitxa els posts nous del blog
+#  - cada dia: actualitza la nota i el nombre d'opinions de la portada i, si canvien, ho publica
+#  - a mà (pestanya Actions): prova | ressenyes | publica
+# Secrets: GBP_CLIENT_ID, GBP_CLIENT_SECRET, GBP_REFRESH_TOKEN
+name: fitxa de google
+
+on:
+  workflow_run:
+    workflows: ["desplegar a webempresa"]
+    types: [completed]
+  schedule:
+    - cron: "17 6 * * *"
+  workflow_dispatch:
+    inputs:
+      ordre:
+        description: "què fer"
+        type: choice
+        options: [prova, ressenyes, publica]
+        default: prova
+
+concurrency:
+  group: fitxa-google
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  actions: write
+
+jobs:
+  fitxa:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    env:
+      GBP_CLIENT_ID: ${{ secrets.GBP_CLIENT_ID }}
+      GBP_CLIENT_SECRET: ${{ secrets.GBP_CLIENT_SECRET }}
+      GBP_REFRESH_TOKEN: ${{ secrets.GBP_REFRESH_TOKEN }}
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - name: baixar el codi
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: triar l'ordre
+        id: ordre
+        run: |
+          case "${{ github.event_name }}" in
+            workflow_run) echo "o=publica" >> "$GITHUB_OUTPUT" ;;
+            schedule) echo "o=ressenyes" >> "$GITHUB_OUTPUT" ;;
+            *) echo "o=${{ inputs.ordre }}" >> "$GITHUB_OUTPUT" ;;
+          esac
+
+      - name: executar
+        run: python3 generador/gbp.py ${{ steps.ordre.outputs.o }}
+
+      - name: regenerar la home ES i els markdown (si han canviat les opinions)
+        if: steps.ordre.outputs.o == 'ressenyes'
+        run: |
+          if ! git diff --quiet; then
+            cd generador && python3 genera_home_es.py && python3 genera_markdown.py
+          fi
+
+      - name: desar els canvis i, si toca la web, desplegar
+        run: |
+          git diff --quiet && { echo "sense canvis"; exit 0; }
+          git config user.name "github-actions[bot]"
+          git config user.email "41898333+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if [ "${{ steps.ordre.outputs.o }}" = "ressenyes" ]; then
+            git commit -m "portada: opinions de Google actualitzades automàticament"
+          else
+            git commit -m "fitxa: registre de posts publicats a Google"
+          fi
+          git push origin HEAD:main
+          # un push fet amb el token del workflow no llança el desplegament: es llança a mà
+          if git diff --name-only HEAD~1 | grep -qv '^generador/'; then
+            gh workflow run deploy.yml --ref main
+          fi
