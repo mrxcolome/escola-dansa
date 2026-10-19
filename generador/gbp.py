@@ -7,6 +7,7 @@ L'executa el workflow .github/workflows/gbp.yml amb tres secrets del repo:
   python3 gbp.py prova       # mostra el compte, la fitxa i les ressenyes (no canvia res)
   python3 gbp.py ressenyes   # actualitza la nota i el nombre d'opinions de la portada (CA i ES)
   python3 gbp.py publica     # publica a la fitxa els posts del blog que encara no hi són
+  python3 gbp.py llista      # mostra les 10 ressenyes més recents i si tenen resposta (no canvia res)
 
 Els posts ja publicats a la fitxa es guarden a gbp_publicats.json (el workflow el desa al repo).
 """
@@ -91,6 +92,20 @@ def ordre_prova():
     print(f"compte: {compte}\nfitxa: {fitxa} ({titol})\nressenyes: {nota} de mitjana, {total} en total")
 
 
+def ordre_llista():
+    token = token_acces()
+    compte, fitxa, _ = troba_fitxa(token)
+    r = crida(f"https://mybusiness.googleapis.com/v4/{compte}/{fitxa}/reviews?pageSize=10&orderBy=updateTime%20desc",
+              token=token)
+    estrelles = {"ONE": 1, "TWO": 2, "THREE": 3, "FOUR": 4, "FIVE": 5}
+    for rv in r.get("reviews", []):
+        print(f"--- {rv.get('createTime', '')[:10]} · {rv.get('reviewer', {}).get('displayName', '?')} · "
+              f"{estrelles.get(rv.get('starRating'), '?')}★ · {'respost' if rv.get('reviewReply') else 'SENSE RESPOSTA'}")
+        print(rv.get("comment", "(sense text)"))
+        if rv.get("reviewReply"):
+            print(f"  resposta: {rv['reviewReply'].get('comment', '')}")
+
+
 def ordre_ressenyes():
     token = token_acces()
     compte, fitxa, _ = troba_fitxa(token)
@@ -139,7 +154,7 @@ def ordre_publica():
 
 
 if __name__ == "__main__":
-    ordres = {"prova": ordre_prova, "ressenyes": ordre_ressenyes, "publica": ordre_publica}
+    ordres = {"prova": ordre_prova, "ressenyes": ordre_ressenyes, "publica": ordre_publica, "llista": ordre_llista}
     if len(sys.argv) != 2 or sys.argv[1] not in ordres:
         sys.exit(f"ús: python3 gbp.py {'|'.join(ordres)}")
     ordres[sys.argv[1]]()
