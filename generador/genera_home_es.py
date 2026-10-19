@@ -177,8 +177,6 @@ PARELLES = [
     ("«Varietat d'estils, horaris i nivells, amb un ambient familiar i molt acollidor. Un tracte proper i personalitzat, i un equip professional i entregat. Una escola per aprendre i gaudir de la dansa en tots els sentits.»",
      '«Variedad de estilos, horarios y niveles, con un ambiente familiar y muy acogedor. Un trato cercano y personalizado, y un equipo profesional y entregado. Una escuela para aprender y disfrutar de la danza en todos sus sentidos.»'),
     ('<small>· ressenya a Google</small>', '<small>· reseña en Google</small>'),
-    ('ressenyes traduïdes del castellà original — llegeix-les totes tal com es van escriure.',
-     'reseñas en su castellano original — léelas todas en Google.'),
     ("<small>horari d'atenció</small>", '<small>horario de atención</small>'),
     ("de dilluns a divendres, de 17 a 21.30 h (dl i dc també d'11 a 12 h)",
      'de lunes a viernes, de 17 a 21.30 h (lu y mi también de 11 a 12 h)'),
