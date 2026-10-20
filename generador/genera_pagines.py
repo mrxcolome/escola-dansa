@@ -107,8 +107,9 @@ PAGINES = [
             ("dimecres", "20.30", "contemporani adults intermedi", "sala H"),
             ("dijous", "17.30", "contemporani juvenil A", "sala H"),
             ("dijous", "19.30", "contemporani juvenil C", "sala H"),
-            ("divendres", "17.30", "contemporani infantil B", "sala H"),
-            ("divendres", "18.30", "contemporani juvenil A", "sala H"),
+            ("divendres", "17.30", "contemporani infantil", "sala C"),
+            ("divendres", "18.45", "contemporani juvenil", "sala H"),
+            ("divendres", "18.45", "contemporani juvenil", "sala N"),
         ],
         "faqs": [
             ("què es treballa en una classe de contemporani?",
@@ -140,7 +141,8 @@ PAGINES = [
             ("dimarts", "17.15", "jazz infantil A", "sala N"),
             ("dimecres", "17.30", "jazz infantil C", "sala N"),
             ("dijous", "20.30", "jazz adults intermedi", "sala H"),
-            ("divendres", "17.30", "jazz juvenil A", "sala N"),
+            ("divendres", "17.45", "jazz juvenil", "sala H"),
+            ("divendres", "17.45", "jazz juvenil", "sala N"),
         ],
         "faqs": [
             ("a partir de quina edat es pot fer jazz?",
@@ -172,7 +174,7 @@ PAGINES = [
             ("dimecres", "20.30", "hip-hop adults avançat", "sala N"),
             ("dijous", "17.30", "hip-hop juvenil B", "sala C"),
             ("dijous", "18.30", "hip-hop infantil A", "sala N"),
-            ("divendres", "19.45", "hip-hop juvenil A", "sala H"),
+            ("divendres", "19.45", "hip-hop juvenil", "sala H"),
         ],
         "faqs": [
             ("el meu fill no ha ballat mai: pot començar amb hip-hop?",
@@ -256,6 +258,7 @@ PAGINES = [
         "horaris": [
             ("dimarts", "20.30", "dansa del ventre · juvenil avançat", "sala N"),
             ("dijous", "20.30", "dansa del ventre · adults avançat", "sala N"),
+            ("divendres", "17.00", "dansa del ventre · juvenil", "sala H"),
         ],
         "faqs": [
             ("mai no n'he fet: puc apuntar-m'hi?",
@@ -280,7 +283,7 @@ PAGINES = [
         ],
         "horaris": [
             ("dimarts", "20.30", "heels adults avançat", "sala H"),
-            ("divendres", "17.30", "k-pop juvenil A", "sala C"),
+            ("divendres", "18.15", "k-pop", "sala C"),
         ],
         "faqs": [
             ("cal saber ballar per fer k-pop?",
@@ -297,16 +300,13 @@ PAGINES = [
         "desc": "classes de musical i interpretació per a infants a Sant Gervasi (Barcelona): ballar, cantar i actuar. primera classe de prova gratuïta.",
         "h1": "musical & interpretació",
         "intro": "ballar, cantar i actuar: el triple somni del teatre musical, a l'abast dels més petits. dansa-teatre per créixer sobre l'escenari.",
-        "per_a_qui": "grups infantils els divendres a la tarda. perfecte per a nens i nenes amb vena artística que ho volen fer tot: moure's, cantar, interpretar personatges i perdre la vergonya dalt d'un escenari.",
+        "per_a_qui": "grups infantils per a nens i nenes amb vena artística que ho volen fer tot: moure's, cantar, interpretar personatges i perdre la vergonya dalt d'un escenari.",
         "beneficis": [
             ("expressió completa", "cos, veu i emoció treballant junts — l'expressivitat es multiplica."),
             ("perdre la por escènica", "actuar des de petits dóna una seguretat que dura tota la vida."),
             ("treball en equip", "un musical es construeix entre tots: escoltar, esperar el torn, brillar junts."),
         ],
-        "horaris": [
-            ("divendres", "18.30", "musical infantil", "sala N"),
-            ("divendres", "19.45", "interpretació infantil", "sala N"),
-        ],
+        "sense_grup": True,  # curs 2026-27: el divendres ja no es fa (canvi d'horari del 20-oct)
         "faqs": [
             ("el meu fill és tímid: li anirà bé?",
              "és justament on més floreixen els tímids: el joc teatral treu la vergonya sense pressió. prova la primera classe gratuïta i ho veuràs."),
@@ -319,21 +319,19 @@ PAGINES = [
         "slug": "formacio-escenica",
         "nom": "formació escènica",
         "title": "formació escènica per a joves a Barcelona · escola de dansa cristina colomé",
-        "desc": "formació escènica els divendres a la tarda a Sant Gervasi (Barcelona): jazz, hip-hop, claqué, cant i interpretació en un sol pack. 1a classe gratuïta.",
+        "desc": "formació escènica a Sant Gervasi (Barcelona): jazz, hip-hop, claqué, cant i interpretació en una sola formació per a joves que volen l'escenari.",
         "h1": "formació escènica",
         "intro": "l'entrenament complet de l'artista: jazz, hip-hop, claqué, cant i interpretació, tot en una mateixa tarda. per a qui vol l'escenari de veritat.",
-        "per_a_qui": "els divendres a la tarda, en format pack, per a joves que volen una formació artística completa: ballar diversos estils, cantar i interpretar. la millor preparació per a musicals, càstings i escenaris — o simplement per gaudir-ho tot.",
+        "per_a_qui": "per a joves que volen una formació artística completa: ballar diversos estils, cantar i interpretar. la millor preparació per a musicals, càstings i escenaris — o simplement per gaudir-ho tot.",
         "beneficis": [
             ("formació 360°", "cinc disciplines en una tarda: la polivalència que demana l'escenari actual."),
-            ("un preu de pack", "tot el divendres a la tarda per 85 €/mes — la manera més completa de formar-se."),
-            ("esperit de companyia", "el grup dels divendres funciona com una petita companyia: pinya, projecte i escenari."),
+            ("tot en un", "una sola formació per tastar-ho tot i descobrir on brilles més."),
+            ("esperit de companyia", "el grup funciona com una petita companyia: pinya, projecte i escenari."),
         ],
-        "horaris": [
-            ("divendres", "17.15", "formació escènica · jazz, hip-hop, claqué, cant i interpretació", "sales H+N"),
-        ],
+        "sense_grup": True,  # curs 2026-27: el divendres ja no es fa (canvi d'horari del 20-oct)
         "faqs": [
-            ("quant costa la formació escènica?",
-             "el pack complet dels divendres val 85 € al mes (247 € si pagues el trimestre). la primera tarda de prova és gratuïta."),
+            ("hi ha grup aquest curs?",
+             "aquest curs no hi ha grup obert. si t'interessa, escriu-nos i t'avisarem si se n'obre un; mentrestant, el jazz, el hip-hop i el claqué tenen grups juvenils durant la setmana."),
             ("cal experiència prèvia?",
              "no: cal ganes. el format multidisciplinar permet que cadascú creixi des del seu punt de partida."),
         ],
@@ -414,9 +412,9 @@ PAGINES = [
             ("jazz", "jazz", "energia i coreografia — la porta d'entrada més divertida"),
             ("hip-hop", "hip-hop", "estils urbans per als que ballen tot el dia a casa"),
             ("contemporani", "dansa-contemporania", "expressió i moviment lliure per a infants i juvenils"),
-            ("musical & interpretació", "musical-interpretacio", "ballar, cantar i actuar els divendres"),
+            ("musical & interpretació", "musical-interpretacio", "ballar, cantar i actuar"),
             ("k-pop", "k-pop-heels", "les coreos dels seus ídols, per a juvenils"),
-            ("formació escènica", "formacio-escenica", "el pack complet d'artista dels divendres a la tarda"),
+            ("formació escènica", "formacio-escenica", "la formació completa d'artista"),
         ],
         "faqs": [
             ("a quina edat pot començar el meu fill o filla?",
@@ -692,6 +690,13 @@ def esc(t):
 
 
 def bloc_horaris(p):
+    if p.get("sense_grup"):
+        return f"""
+  <section class="reveal">
+    <div class="etiqueta">curs {CURS}</div>
+    <h2>horaris de {esc(p["nom"])}</h2>
+    <p class="text-gran">aquest curs no hi ha grup obert. si t'interessa, truca'ns al <a href="tel:{TEL_LINK}">{TEL}</a> o escriu-nos pel <a href="/#contacte">formulari de contacte</a> i t'avisarem si se n'obre un. mentrestant, tens tots els grups a la <a href="/horaris/">graella completa de l'escola</a>.</p>
+  </section>"""
     if not p.get("horaris"):
         return ""
     files = "\n".join(
@@ -836,11 +841,10 @@ GRAELLA = {
         ("20.30", "ioga", "", "sala C"),
     ],
     "divendres": [
-        ("17.15", "formació escènica", "jazz, hip-hop, claqué, cant i interpretació", "sales H+N"),
-        ("17.30", "contemporani", "infantil B", "sala H"), ("17.30", "jazz", "juvenil A", "sala N"),
-        ("17.30", "k-pop", "juvenil A", "sala C"), ("18.30", "contemporani", "juvenil A", "sala H"),
-        ("18.30", "musical", "infantil", "sala N"), ("19.45", "hip-hop", "juvenil A", "sala H"),
-        ("19.45", "interpretació", "infantil", "sala N"),
+        ("17.00", "dansa del ventre", "juvenil", "sala H"), ("17.30", "contemporani", "infantil", "sala C"),
+        ("17.45", "jazz", "juvenil", "sala H"), ("17.45", "jazz", "juvenil", "sala N"),
+        ("18.15", "k-pop", "", "sala C"), ("18.45", "contemporani", "juvenil", "sala H"),
+        ("18.45", "contemporani", "juvenil", "sala N"), ("19.45", "hip-hop", "juvenil", "sala H"),
     ],
 }
 
@@ -858,7 +862,6 @@ TARIFA_TRIMESTRAL = [
 TARIFA_ALTRES = [
     ("matrícula alumnes antics", "65 €"),
     ("matrícula nous alumnes", "70 €"),
-    ("formació escènica kids & teens", "85 €/mes · 247 €/trim"),
     ("balls de saló (10 sessions)", "180 €/persona"),
 ]
 
@@ -1298,8 +1301,7 @@ def cos_preus_es():
            ("juvenil y adultos · más de 1 h",) + f[1:] for f in TARIFA_TRIMESTRAL]
     alt = [("matrícula antiguos alumnos", TARIFA_ALTRES[0][1]),
            ("matrícula nuevos alumnos", TARIFA_ALTRES[1][1]),
-           ("formación escénica kids & teens", TARIFA_ALTRES[2][1].replace("mes", "mes").replace("trim", "trim")),
-           ("bailes de salón (10 sesiones)", TARIFA_ALTRES[3][1].replace("persona", "persona"))]
+           ("bailes de salón (10 sesiones)", TARIFA_ALTRES[2][1])]
     return f'''
   <section class="reveal">
 {taula("cuota mensual", capc, men)}
@@ -1341,6 +1343,9 @@ def fixos_es():
     parelles += [
         ('href="/#activitats"', 'href="/es/#activitats"'),
         ('aria-label="mode clar / fosc"', 'aria-label="modo claro / oscuro"'),
+        ("aquest curs no hi ha grup obert. si t'interessa, truca'ns al", "este curso no hay grupo abierto. si te interesa, llámanos al"),
+        ("o escriu-nos pel <a href=\"/#contacte\">formulari de contacte</a> i t'avisarem si se n'obre un. mentrestant, tens tots els grups a la <a href=\"/es/horarios/\">graella completa de l'escola</a>.",
+         "o escríbenos por el <a href=\"/es/#contacte\">formulario de contacto</a> y te avisaremos si se abre uno. mientras tanto, tienes todos los grupos en el <a href=\"/es/horarios/\">horario completo de la escuela</a>."),
         ('href="/#escola"', 'href="/es/#escola"'),
         ('href="/#contacte"', 'href="/es/#contacte"'),
         ('href="/#escriu-nos"', 'href="/es/#escriu-nos"'),

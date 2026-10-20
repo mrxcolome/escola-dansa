@@ -17,7 +17,7 @@ el k-pop és per a juvenils que somien amb les coreografies dels seus grups pref
 | dia | hora | grup | sala |
 |---|---|---|---|
 | dimarts | 20.30 | heels adults avançat | sala H |
-| divendres | 17.30 | k-pop juvenil A | sala C |
+| divendres | 18.15 | k-pop | sala C |
 
 ## preus
 

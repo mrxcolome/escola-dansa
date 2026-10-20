@@ -20,7 +20,6 @@
 
 | matrícula alumnes antics | 65 € |
 | matrícula nous alumnes | 70 € |
-| formació escènica kids & teens | 85 €/mes · 247 €/trim |
 | balls de saló (10 sessions) | 180 €/persona |
 
 ---

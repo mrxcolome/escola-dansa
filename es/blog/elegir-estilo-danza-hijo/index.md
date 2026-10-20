@@ -18,9 +18,9 @@ El [jazz](/es/jazz/) es energía coreografiada: ritmo, saltos y canciones que re
 
 Hay niños que cuando bailan cuentan cosas. Para ellos, el contemporáneo (movimiento libre, emociones, creación) o el [musical e interpretación](/es/musical-interpretacion/) — donde se baila, se canta y se actúa — son un regalo: no solo aprenden pasos, aprenden a decir cosas con el cuerpo.
 
-## Si no se decide: formación escénica, el menú degustación
+## Si no se decide: probar antes de elegir
 
-Los viernes tenemos un pack que es exactamente eso: jazz, hip-hop, claqué, canto e interpretación en una misma tarde. Para los indecisos (o los que lo quieren todo), es la manera de probarlo antes de elegir.
+Para los indecisos (o los que lo quieren todo), la mejor manera de elegir es probarlo: la primera clase es gratuita. Habladlo con nosotros y os ayudaremos a encontrar el estilo que le va.
 
 ## El método que no falla nunca
 

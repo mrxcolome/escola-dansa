@@ -4,19 +4,13 @@ l'entrenament complet de l'artista: jazz, hip-hop, claqué, cant i interpretaci�
 
 ## per a qui
 
-els divendres a la tarda, en format pack, per a joves que volen una formació artística completa: ballar diversos estils, cantar i interpretar. la millor preparació per a musicals, càstings i escenaris — o simplement per gaudir-ho tot.
+per a joves que volen una formació artística completa: ballar diversos estils, cantar i interpretar. la millor preparació per a musicals, càstings i escenaris — o simplement per gaudir-ho tot.
 
 ## beneficis
 
 - **formació 360°**: cinc disciplines en una tarda: la polivalència que demana l'escenari actual.
-- **un preu de pack**: tot el divendres a la tarda per 85 €/mes — la manera més completa de formar-se.
-- **esperit de companyia**: el grup dels divendres funciona com una petita companyia: pinya, projecte i escenari.
-
-## horaris · curs 2026–27
-
-| dia | hora | grup | sala |
-|---|---|---|---|
-| divendres | 17.15 | formació escènica · jazz, hip-hop, claqué, cant i interpretació | sales H+N |
+- **tot en un**: una sola formació per tastar-ho tot i descobrir on brilles més.
+- **esperit de companyia**: el grup funciona com una petita companyia: pinya, projecte i escenari.
 
 ## preus
 
@@ -24,9 +18,9 @@ quotes pel nombre de dies setmanals: des de 56 €/mes (infantil) i 60 €/mes (
 
 ## preguntes freqüents
 
-### quant costa la formació escènica?
+### hi ha grup aquest curs?
 
-el pack complet dels divendres val 85 € al mes (247 € si pagues el trimestre). la primera tarda de prova és gratuïta.
+aquest curs no hi ha grup obert. si t'interessa, escriu-nos i t'avisarem si se n'obre un; mentrestant, el jazz, el hip-hop i el claqué tenen grups juvenils durant la setmana.
 
 ### cal experiència prèvia?
 

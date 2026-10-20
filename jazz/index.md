@@ -22,7 +22,8 @@ energia, ritme i coreografies que enganxen. el jazz és la porta d'entrada perfe
 | dimarts | 17.15 | jazz infantil A | sala N |
 | dimecres | 17.30 | jazz infantil C | sala N |
 | dijous | 20.30 | jazz adults intermedi | sala H |
-| divendres | 17.30 | jazz juvenil A | sala N |
+| divendres | 17.45 | jazz juvenil | sala H |
+| divendres | 17.45 | jazz juvenil | sala N |
 
 ## preus
 

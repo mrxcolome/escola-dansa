@@ -24,7 +24,7 @@ La danza entrena hábitos que se trasladan directamente a los estudios:
 
 ## Cómo organizarse para que quepa todo
 
-- **Elegid bien el día y la hora.** Los grupos juveniles de la escuela tienen clase entre las 17.15 y las 20.30, de lunes a viernes. Una clase a primera hora de la tarde deja la noche libre para estudiar; una por la noche puede servir de pausa entre dos tandas de estudio. Lo tenéis todo en el [horario completo](/es/horarios/).
+- **Elegid bien el día y la hora.** Los grupos juveniles de la escuela tienen clase entre las 17.00 y las 20.30, de lunes a viernes. Una clase a primera hora de la tarde deja la noche libre para estudiar; una por la noche puede servir de pausa entre dos tandas de estudio. Lo tenéis todo en el [horario completo](/es/horarios/).
 
 - **Haced de la clase una meta, no un obstáculo.** «Acabo este tema y después voy a danza» funciona mucho mejor que «hoy no voy porque tengo examen».
 
@@ -46,7 +46,7 @@ Normalmente no. La clase es un rato de desconexión que ayuda a descargar el est
 
 ### ¿a qué hora tienen clase los grupos juveniles?
 
-Entre las 17.15 y las 20.30, de lunes a viernes, según el estilo y el grupo. Todos los horarios están en la web.
+Entre las 17.00 y las 20.30, de lunes a viernes, según el estilo y el grupo. Todos los horarios están en la web.
 
 ### ¿se puede reducir de dos días a uno durante el curso?
 

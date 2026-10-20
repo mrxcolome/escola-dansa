@@ -4,20 +4,13 @@ bailar, cantar y actuar: el triple sueño del teatro musical, al alcance de los 
 
 ## para quién
 
-grupos infantiles los viernes por la tarde. perfecto para niños y niñas con vena artística que quieren hacerlo todo: moverse, cantar, interpretar personajes y perder la vergüenza encima de un escenario.
+grupos infantiles para niños y niñas con vena artística que quieren hacerlo todo: moverse, cantar, interpretar personajes y perder la vergüenza encima de un escenario.
 
 ## beneficios
 
 - **expresión completa**: cuerpo, voz y emoción trabajando juntos — la expresividad se multiplica.
 - **perder el miedo escénico**: actuar desde pequeños da una seguridad que dura toda la vida.
 - **trabajo en equipo**: un musical se construye entre todos: escuchar, esperar el turno, brillar juntos.
-
-## horarios · curso 2026–27
-
-| día | hora | grupo | sala |
-|---|---|---|---|
-| viernes | 18.30 | musical infantil | sala N |
-| viernes | 19.45 | interpretación infantil | sala N |
 
 ## precios
 

@@ -245,8 +245,8 @@ POSTS = [
 <h2>si és expressiu, sensible o teatral: contemporani o musical</h2>
 <p>Hi ha nens que quan ballen expliquen coses. Per a ells, el contemporani (moviment lliure, emocions, creació) o el <a href="/musical-interpretacio/">musical i interpretació</a> — on es balla, es canta i s'actua — són un regal: no només aprenen passos, aprenen a dir coses amb el cos.</p>
 
-<h2>si no es decideix: formació escènica, el menú degustació</h2>
-<p>Els divendres tenim un pack que és exactament això: jazz, hip-hop, claqué, cant i interpretació en una mateixa tarda. Per als indecisos (o els que ho volen tot), és la manera de tastar-ho abans de triar.</p>
+<h2>si no es decideix: tastar abans de triar</h2>
+<p>Per als indecisos (o els que ho volen tot), la millor manera de triar és provar-ho: la primera classe és gratuïta. Parleu-ne amb nosaltres i us ajudarem a trobar l'estil que li escau.</p>
 
 <h2>el mètode que no falla mai</h2>
 <p>Tot l'anterior són orientacions; la decisió de veritat es pren a la sala. El nostre consell de sempre: <strong>tria dues opcions i prova-les</strong>. La primera classe de cada estil és gratuïta, així que el «test» no costa res. I una última cosa, potser la més important: <strong>que triï ell o ella</strong>. L'estil que un nen tria és l'estil al qual torna cada setmana amb ganes — i les ganes són el 90% de tot.</p>
@@ -277,8 +277,8 @@ POSTS = [
 <h2>si es expresivo, sensible o teatral: contemporáneo o musical</h2>
 <p>Hay niños que cuando bailan cuentan cosas. Para ellos, el contemporáneo (movimiento libre, emociones, creación) o el <a href="/es/musical-interpretacion/">musical e interpretación</a> — donde se baila, se canta y se actúa — son un regalo: no solo aprenden pasos, aprenden a decir cosas con el cuerpo.</p>
 
-<h2>si no se decide: formación escénica, el menú degustación</h2>
-<p>Los viernes tenemos un pack que es exactamente eso: jazz, hip-hop, claqué, canto e interpretación en una misma tarde. Para los indecisos (o los que lo quieren todo), es la manera de probarlo antes de elegir.</p>
+<h2>si no se decide: probar antes de elegir</h2>
+<p>Para los indecisos (o los que lo quieren todo), la mejor manera de elegir es probarlo: la primera clase es gratuita. Habladlo con nosotros y os ayudaremos a encontrar el estilo que le va.</p>
 
 <h2>el método que no falla nunca</h2>
 <p>Todo lo anterior son orientaciones; la decisión de verdad se toma en la sala. Nuestro consejo de siempre: <strong>elige dos opciones y pruébalas</strong>. La primera clase de cada estilo es gratuita, así que el «test» no cuesta nada. Y una última cosa, quizá la más importante: <strong>que elija él o ella</strong>. El estilo que un niño elige es el estilo al que vuelve cada semana con ganas — y las ganas son el 90% de todo.</p>
@@ -2224,7 +2224,7 @@ POSTS = [
 
 <h2>com organitzar-se perquè hi càpiga tot</h2>
 <ul>
-<li><strong>Trieu bé el dia i l'hora.</strong> Els grups juvenils de l'escola fan classe entre les 17.15 i les 20.30, de dilluns a divendres. Una classe a primera hora de la tarda deixa el vespre lliure per estudiar; una al vespre pot servir de pausa entre dues tandes d'estudi. Ho teniu tot a la <a href="/horaris/">graella d'horaris</a>.</li>
+<li><strong>Trieu bé el dia i l'hora.</strong> Els grups juvenils de l'escola fan classe entre les 17.00 i les 20.30, de dilluns a divendres. Una classe a primera hora de la tarda deixa el vespre lliure per estudiar; una al vespre pot servir de pausa entre dues tandes d'estudi. Ho teniu tot a la <a href="/horaris/">graella d'horaris</a>.</li>
 <li><strong>Feu de la classe una fita, no un obstacle.</strong> «Acabo aquest tema i després vaig a dansa» funciona molt millor que «avui no vaig perquè tinc examen».</li>
 <li><strong>No ho deixeu a la primera setmana dolenta.</strong> Totes les èpoques d'exàmens tenen un pic. Si aquella setmana no hi ha manera, es pot faltar a una classe; deixar-ho del tot és una altra cosa.</li>
 <li><strong>Parleu amb la professora.</strong> Si hi ha una setmana complicada, és millor que ho sàpiga. A les professores els interessa que els alumnes segueixin ballant, i ajuden a trobar la manera.</li>
@@ -2238,7 +2238,7 @@ POSTS = [
             ("és millor deixar la dansa en època d'exàmens?",
              "Normalment no. La classe és una estona de desconnexió que ajuda a descarregar l'estrès i a dormir millor, i el temps que s'allibera deixant-la no sempre es converteix en estudi. Si una setmana concreta no hi ha manera, es pot faltar a una classe sense deixar-ho del tot."),
             ("a quina hora fan classe els grups juvenils?",
-             "Entre les 17.15 i les 20.30, de dilluns a divendres, segons l'estil i el grup. Tots els horaris són a la graella de la web."),
+             "Entre les 17.00 i les 20.30, de dilluns a divendres, segons l'estil i el grup. Tots els horaris són a la graella de la web."),
             ("es pot reduir de dos dies a un durant el curs?",
              "Sí. No hi ha permanència i es pot ajustar el nombre de dies, canviar de grup o d'estil durant el curs. Parleu-ne amb recepció i us orientem."),
             ("quins estils agraden més als adolescents?",
@@ -2267,7 +2267,7 @@ POSTS = [
 
 <h2>cómo organizarse para que quepa todo</h2>
 <ul>
-<li><strong>Elegid bien el día y la hora.</strong> Los grupos juveniles de la escuela tienen clase entre las 17.15 y las 20.30, de lunes a viernes. Una clase a primera hora de la tarde deja la noche libre para estudiar; una por la noche puede servir de pausa entre dos tandas de estudio. Lo tenéis todo en el <a href="/es/horarios/">horario completo</a>.</li>
+<li><strong>Elegid bien el día y la hora.</strong> Los grupos juveniles de la escuela tienen clase entre las 17.00 y las 20.30, de lunes a viernes. Una clase a primera hora de la tarde deja la noche libre para estudiar; una por la noche puede servir de pausa entre dos tandas de estudio. Lo tenéis todo en el <a href="/es/horarios/">horario completo</a>.</li>
 <li><strong>Haced de la clase una meta, no un obstáculo.</strong> «Acabo este tema y después voy a danza» funciona mucho mejor que «hoy no voy porque tengo examen».</li>
 <li><strong>No lo dejéis en la primera semana mala.</strong> Todas las épocas de exámenes tienen un pico. Si esa semana no hay manera, se puede faltar a una clase; dejarlo del todo es otra cosa.</li>
 <li><strong>Hablad con la profesora.</strong> Si hay una semana complicada, es mejor que lo sepa. A las profesoras les interesa que los alumnos sigan bailando, y ayudan a encontrar la manera.</li>
@@ -2281,7 +2281,7 @@ POSTS = [
             ("¿es mejor dejar la danza en época de exámenes?",
              "Normalmente no. La clase es un rato de desconexión que ayuda a descargar el estrés y a dormir mejor, y el tiempo que se libera dejándola no siempre se convierte en estudio. Si una semana concreta no hay manera, se puede faltar a una clase sin dejarlo del todo."),
             ("¿a qué hora tienen clase los grupos juveniles?",
-             "Entre las 17.15 y las 20.30, de lunes a viernes, según el estilo y el grupo. Todos los horarios están en la web."),
+             "Entre las 17.00 y las 20.30, de lunes a viernes, según el estilo y el grupo. Todos los horarios están en la web."),
             ("¿se puede reducir de dos días a uno durante el curso?",
              "Sí. No hay permanencia y se puede ajustar el número de días, cambiar de grupo o de estilo durante el curso. Habladlo con recepción y os orientamos."),
             ("¿qué estilos gustan más a los adolescentes?",
@@ -2422,7 +2422,7 @@ POSTS = [
 <p>Aquí comença la tècnica de veritat i es nota la diferència. Amb <strong>un dia</strong> s'aprèn i es gaudeix. Amb <strong>dos</strong>, el progrés és molt més visible, perquè el cos no "oblida" d'una setmana a l'altra. Una bona opció és fer dos dies d'estils diferents: per exemple <a href="/ballet-classic/">clàssic</a> i <a href="/jazz/">jazz</a>, o clàssic i <a href="/hip-hop/">hip-hop</a>. El clàssic dona base, l'altre estil dona llibertat. Si dubtes de quin, tens la guia per <a href="/blog/triar-estil-dansa-fill/">triar l'estil de dansa del teu fill</a>.</p>
 
 <h2>adolescents: de dos a tres dies (o més, si hi ha un objectiu)</h2>
-<p>Als grups juvenils, <strong>dos dies</strong> és el punt d'equilibri per avançar de debò. Qui prepara els <a href="/blog/examens-rad-ballet/">exàmens de la Royal Academy of Dance</a>, qui fa puntes o qui somia amb dedicar-s'hi sol fer-ne <strong>tres o més</strong>, i aquí hi entra també la <a href="/formacio-escenica/">formació escènica</a> dels divendres. Ara bé, amb els exàmens i els deures, l'agenda s'omple: al post <a href="/blog/dansa-i-estudis/">dansa i estudis</a> expliquem com fer-ho encaixar sense que res se'n ressenti.</p>
+<p>Als grups juvenils, <strong>dos dies</strong> és el punt d'equilibri per avançar de debò. Qui prepara els <a href="/blog/examens-rad-ballet/">exàmens de la Royal Academy of Dance</a>, qui fa puntes o qui somia amb dedicar-s'hi sol fer-ne <strong>tres o més</strong>. Ara bé, amb els exàmens i els deures, l'agenda s'omple: al post <a href="/blog/dansa-i-estudis/">dansa i estudis</a> expliquem com fer-ho encaixar sense que res se'n ressenti.</p>
 
 <h2>adults: un dia per gaudir, dos per notar-ho</h2>
 <p>Si comences ara, <strong>un dia</strong> és perfecte per agafar el gust. Quan vulguis notar progrés (més flexibilitat, més memòria de moviment, més força), <strong>dos dies</strong> marquen la diferència. Hi ha qui combina un estil de ball amb una classe de cos, com el <a href="/blog/barre-entrenament-ballet/">barre</a> o el ioga. Totes les opcions són a <a href="/dansa-adults/">dansa per a adults</a>.</p>
@@ -2475,7 +2475,7 @@ POSTS = [
 <p>Aquí empieza la técnica de verdad y se nota la diferencia. Con <strong>un día</strong> se aprende y se disfruta. Con <strong>dos</strong>, el progreso es mucho más visible, porque el cuerpo no "olvida" de una semana a otra. Una buena opción es hacer dos días de estilos distintos: por ejemplo <a href="/es/ballet-clasico/">clásico</a> y <a href="/es/jazz/">jazz</a>, o clásico y <a href="/es/hip-hop/">hip-hop</a>. El clásico da base, el otro estilo da libertad. Si dudas de cuál, tienes la guía para <a href="/es/blog/elegir-estilo-danza-hijo/">elegir el estilo de danza de tu hijo</a>.</p>
 
 <h2>adolescentes: de dos a tres días (o más, si hay un objetivo)</h2>
-<p>En los grupos juveniles, <strong>dos días</strong> es el punto de equilibrio para avanzar de verdad. Quien prepara los <a href="/es/blog/examenes-rad-ballet/">exámenes de la Royal Academy of Dance</a>, quien hace puntas o quien sueña con dedicarse a ello suele hacer <strong>tres o más</strong>, y aquí entra también la <a href="/es/formacion-escenica/">formación escénica</a> de los viernes. Eso sí, con los exámenes y los deberes, la agenda se llena: en el post <a href="/es/blog/danza-y-estudios/">danza y estudios</a> explicamos cómo hacerlo encajar sin que nada se resienta.</p>
+<p>En los grupos juveniles, <strong>dos días</strong> es el punto de equilibrio para avanzar de verdad. Quien prepara los <a href="/es/blog/examenes-rad-ballet/">exámenes de la Royal Academy of Dance</a>, quien hace puntas o quien sueña con dedicarse a ello suele hacer <strong>tres o más</strong>. Eso sí, con los exámenes y los deberes, la agenda se llena: en el post <a href="/es/blog/danza-y-estudios/">danza y estudios</a> explicamos cómo hacerlo encajar sin que nada se resienta.</p>
 
 <h2>adultos: un día para disfrutar, dos para notarlo</h2>
 <p>Si empiezas ahora, <strong>un día</strong> es perfecto para cogerle el gusto. Cuando quieras notar progreso (más flexibilidad, más memoria de movimiento, más fuerza), <strong>dos días</strong> marcan la diferencia. Hay quien combina un estilo de baile con una clase de cuerpo, como el <a href="/es/blog/barre-entrenamiento-ballet/">barre</a> o el yoga. Todas las opciones están en <a href="/es/danza-adultos/">danza para adultos</a>.</p>

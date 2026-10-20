@@ -72,14 +72,14 @@
 
 | hora | actividad | grupo | sala |
 |---|---|---|---|
-| 17.15 | formación escénica | jazz, hip-hop, claqué, canto e interpretación | sales H+N |
-| 17.30 | contemporáneo | infantil B | sala H |
-| 17.30 | jazz | juvenil A | sala N |
-| 17.30 | k-pop | juvenil A | sala C |
-| 18.30 | contemporáneo | juvenil A | sala H |
-| 18.30 | musical | infantil | sala N |
-| 19.45 | hip-hop | juvenil A | sala H |
-| 19.45 | interpretación | infantil | sala N |
+| 17.00 | danza del vientre | juvenil | sala H |
+| 17.30 | contemporáneo | infantil | sala C |
+| 17.45 | jazz | juvenil | sala H |
+| 17.45 | jazz | juvenil | sala N |
+| 18.15 | k-pop |  | sala C |
+| 18.45 | contemporáneo | juvenil | sala H |
+| 18.45 | contemporáneo | juvenil | sala N |
+| 19.45 | hip-hop | juvenil | sala H |
 
 ---
 

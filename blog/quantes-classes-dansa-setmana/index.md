@@ -16,7 +16,7 @@ Aquí comença la tècnica de veritat i es nota la diferència. Amb **un dia** s
 
 ## Adolescents: de dos a tres dies (o més, si hi ha un objectiu)
 
-Als grups juvenils, **dos dies** és el punt d'equilibri per avançar de debò. Qui prepara els [exàmens de la Royal Academy of Dance](/blog/examens-rad-ballet/), qui fa puntes o qui somia amb dedicar-s'hi sol fer-ne **tres o més**, i aquí hi entra també la [formació escènica](/formacio-escenica/) dels divendres. Ara bé, amb els exàmens i els deures, l'agenda s'omple: al post [dansa i estudis](/blog/dansa-i-estudis/) expliquem com fer-ho encaixar sense que res se'n ressenti.
+Als grups juvenils, **dos dies** és el punt d'equilibri per avançar de debò. Qui prepara els [exàmens de la Royal Academy of Dance](/blog/examens-rad-ballet/), qui fa puntes o qui somia amb dedicar-s'hi sol fer-ne **tres o més**. Ara bé, amb els exàmens i els deures, l'agenda s'omple: al post [dansa i estudis](/blog/dansa-i-estudis/) expliquem com fer-ho encaixar sense que res se'n ressenti.
 
 ## Adults: un dia per gaudir, dos per notar-ho
 

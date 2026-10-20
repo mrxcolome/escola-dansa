@@ -18,9 +18,9 @@ El [jazz](/jazz/) és energia coreografiada: ritme, salts i cançons que reconei
 
 Hi ha nens que quan ballen expliquen coses. Per a ells, el contemporani (moviment lliure, emocions, creació) o el [musical i interpretació](/musical-interpretacio/) — on es balla, es canta i s'actua — són un regal: no només aprenen passos, aprenen a dir coses amb el cos.
 
-## Si no es decideix: formació escènica, el menú degustació
+## Si no es decideix: tastar abans de triar
 
-Els divendres tenim un pack que és exactament això: jazz, hip-hop, claqué, cant i interpretació en una mateixa tarda. Per als indecisos (o els que ho volen tot), és la manera de tastar-ho abans de triar.
+Per als indecisos (o els que ho volen tot), la millor manera de triar és provar-ho: la primera classe és gratuïta. Parleu-ne amb nosaltres i us ajudarem a trobar l'estil que li escau.
 
 ## El mètode que no falla mai
 

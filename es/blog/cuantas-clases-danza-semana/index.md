@@ -16,7 +16,7 @@ Aquí empieza la técnica de verdad y se nota la diferencia. Con **un día** se 
 
 ## Adolescentes: de dos a tres días (o más, si hay un objetivo)
 
-En los grupos juveniles, **dos días** es el punto de equilibrio para avanzar de verdad. Quien prepara los [exámenes de la Royal Academy of Dance](/es/blog/examenes-rad-ballet/), quien hace puntas o quien sueña con dedicarse a ello suele hacer **tres o más**, y aquí entra también la [formación escénica](/es/formacion-escenica/) de los viernes. Eso sí, con los exámenes y los deberes, la agenda se llena: en el post [danza y estudios](/es/blog/danza-y-estudios/) explicamos cómo hacerlo encajar sin que nada se resienta.
+En los grupos juveniles, **dos días** es el punto de equilibrio para avanzar de verdad. Quien prepara los [exámenes de la Royal Academy of Dance](/es/blog/examenes-rad-ballet/), quien hace puntas o quien sueña con dedicarse a ello suele hacer **tres o más**. Eso sí, con los exámenes y los deberes, la agenda se llena: en el post [danza y estudios](/es/blog/danza-y-estudios/) explicamos cómo hacerlo encajar sin que nada se resienta.
 
 ## Adultos: un día para disfrutar, dos para notarlo
 

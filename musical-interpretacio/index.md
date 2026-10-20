@@ -4,20 +4,13 @@ ballar, cantar i actuar: el triple somni del teatre musical, a l'abast dels més
 
 ## per a qui
 
-grups infantils els divendres a la tarda. perfecte per a nens i nenes amb vena artística que ho volen fer tot: moure's, cantar, interpretar personatges i perdre la vergonya dalt d'un escenari.
+grups infantils per a nens i nenes amb vena artística que ho volen fer tot: moure's, cantar, interpretar personatges i perdre la vergonya dalt d'un escenari.
 
 ## beneficis
 
 - **expressió completa**: cos, veu i emoció treballant junts — l'expressivitat es multiplica.
 - **perdre la por escènica**: actuar des de petits dóna una seguretat que dura tota la vida.
 - **treball en equip**: un musical es construeix entre tots: escoltar, esperar el torn, brillar junts.
-
-## horaris · curs 2026–27
-
-| dia | hora | grup | sala |
-|---|---|---|---|
-| divendres | 18.30 | musical infantil | sala N |
-| divendres | 19.45 | interpretació infantil | sala N |
 
 ## preus
 

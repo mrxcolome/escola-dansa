@@ -4,19 +4,13 @@ el entrenamiento completo del artista: jazz, hip-hop, claqué, canto e interpret
 
 ## para quién
 
-los viernes por la tarde, en formato pack, para jóvenes que quieren una formación artística completa: bailar varios estilos, cantar e interpretar. la mejor preparación para musicales, castings y escenarios — o simplemente para disfrutarlo todo.
+para jóvenes que quieren una formación artística completa: bailar varios estilos, cantar e interpretar. la mejor preparación para musicales, castings y escenarios — o simplemente para disfrutarlo todo.
 
 ## beneficios
 
 - **formación 360°**: cinco disciplinas en una tarde: la polivalencia que pide el escenario actual.
-- **un precio de pack**: todo el viernes por la tarde por 85 €/mes — la manera más completa de formarse.
-- **espíritu de compañía**: el grupo de los viernes funciona como una pequeña compañía: piña, proyecto y escenario.
-
-## horarios · curso 2026–27
-
-| día | hora | grupo | sala |
-|---|---|---|---|
-| viernes | 17.15 | formación escénica · jazz, hip-hop, claqué, canto e interpretaciónn | sales H+N |
+- **todo en uno**: una sola formación para probarlo todo y descubrir dónde brillas más.
+- **espíritu de compañía**: el grupo funciona como una pequeña compañía: piña, proyecto y escenario.
 
 ## precios
 
@@ -24,9 +18,9 @@ cuotas por número de días semanales: desde 56 €/mes (infantil) y 60 €/mes 
 
 ## preguntas frecuentes
 
-### ¿cuánto cuesta la formación escénica?
+### ¿hay grupo este curso?
 
-el pack completo de los viernes vale 85 € al mes (247 € si pagas el trimestre). la primera tarde de prueba es gratuita.
+este curso no hay grupo abierto. si te interesa, escríbenos y te avisaremos si se abre uno; mientras tanto, el jazz, el hip-hop y el claqué tienen grupos juveniles durante la semana.
 
 ### ¿hace falta experiencia previa?
 
