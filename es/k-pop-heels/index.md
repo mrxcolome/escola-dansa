@@ -17,7 +17,7 @@ el k-pop es para juveniles que sueñan con las coreografías de sus grupos favor
 | día | hora | grupo | sala |
 |---|---|---|---|
 | martes | 20.30 | heels adultos avanzado | sala H |
-| viernes | 18.15 | k-pop | sala C |
+| viernes | 18.15 | k-pop juvenil | sala C |
 
 ## precios
 

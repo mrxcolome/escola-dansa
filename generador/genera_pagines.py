@@ -283,7 +283,7 @@ PAGINES = [
         ],
         "horaris": [
             ("dimarts", "20.30", "heels adults avançat", "sala H"),
-            ("divendres", "18.15", "k-pop", "sala C"),
+            ("divendres", "18.15", "k-pop juvenil", "sala C"),
         ],
         "faqs": [
             ("cal saber ballar per fer k-pop?",
@@ -843,7 +843,7 @@ GRAELLA = {
     "divendres": [
         ("17.00", "dansa del ventre", "juvenil", "sala H"), ("17.30", "contemporani", "infantil", "sala C"),
         ("17.45", "jazz", "juvenil", "sala H"), ("17.45", "jazz", "juvenil", "sala N"),
-        ("18.15", "k-pop", "", "sala C"), ("18.45", "contemporani", "juvenil", "sala H"),
+        ("18.15", "k-pop", "juvenil", "sala C"), ("18.45", "contemporani", "juvenil", "sala H"),
         ("18.45", "contemporani", "juvenil", "sala N"), ("19.45", "hip-hop", "juvenil", "sala H"),
     ],
 }
