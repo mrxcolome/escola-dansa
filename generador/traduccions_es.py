@@ -159,7 +159,7 @@ TRADUCCIONS_ES = {
         "desc": "clases de k-pop y heels en Sant Gervasi (Barcelona): las coreografías del momento y actitud sobre tacones. primera clase de prueba gratuita.",
         "h1": "k-pop & heels",
         "intro": "las coreos del momento y toda la actitud. del fenómeno k-pop al empoderamiento del heels: dos clases para bailar como en los videoclips.",
-        "per_a_qui": "el k-pop es para juveniles que sueñan con las coreografías de sus grupos favoritos; el heels, para adultos avanzados que quieren trabajar actitud, línea y seguridad sobre tacones.",
+        "per_a_qui": "el k-pop es para niños y jóvenes que sueñan con las coreografías de sus grupos favoritos; el heels, para adultos avanzados que quieren trabajar actitud, línea y seguridad sobre tacones.",
         "beneficis": [
             ("bailar lo que te gusta", "coreografías reales de los artistas del momento: la motivación viene de serie."),
             ("actitud y seguridad", "el heels es una clase de empoderamiento puro: postura, presencia y confianza."),

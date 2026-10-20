@@ -4,7 +4,7 @@ les coreos del moment i tota l'actitud. del fenomen k-pop a l'empoderament del h
 
 ## per a qui
 
-el k-pop és per a juvenils que somien amb les coreografies dels seus grups preferits; el heels, per a adults avançats que volen treballar actitud, línia i seguretat sobre talons.
+el k-pop és per a nens i joves que somien amb les coreografies dels seus grups preferits; el heels, per a adults avançats que volen treballar actitud, línia i seguretat sobre talons.
 
 ## beneficis
 
@@ -17,7 +17,7 @@ el k-pop és per a juvenils que somien amb les coreografies dels seus grups pref
 | dia | hora | grup | sala |
 |---|---|---|---|
 | dimarts | 20.30 | heels adults avançat | sala H |
-| divendres | 18.15 | k-pop juvenil | sala C |
+| divendres | 18.15 | k-pop infantil i juvenil | sala C |
 
 ## preus
 

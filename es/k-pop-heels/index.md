@@ -4,7 +4,7 @@ las coreos del momento y toda la actitud. del fenómeno k-pop al empoderamiento 
 
 ## para quién
 
-el k-pop es para juveniles que sueñan con las coreografías de sus grupos favoritos; el heels, para adultos avanzados que quieren trabajar actitud, línea y seguridad sobre tacones.
+el k-pop es para niños y jóvenes que sueñan con las coreografías de sus grupos favoritos; el heels, para adultos avanzados que quieren trabajar actitud, línea y seguridad sobre tacones.
 
 ## beneficios
 
@@ -17,7 +17,7 @@ el k-pop es para juveniles que sueñan con las coreografías de sus grupos favor
 | día | hora | grupo | sala |
 |---|---|---|---|
 | martes | 20.30 | heels adultos avanzado | sala H |
-| viernes | 18.15 | k-pop juvenil | sala C |
+| viernes | 18.15 | k-pop infantil y juvenil | sala C |
 
 ## precios
 

@@ -76,7 +76,7 @@
 | 17.30 | contemporáneo | infantil | sala C |
 | 17.45 | jazz | juvenil | sala H |
 | 17.45 | jazz | juvenil | sala N |
-| 18.15 | k-pop | juvenil | sala C |
+| 18.15 | k-pop | infantil y juvenil | sala C |
 | 18.45 | contemporáneo | juvenil | sala H |
 | 18.45 | contemporáneo | juvenil | sala N |
 | 19.45 | hip-hop | juvenil | sala H |

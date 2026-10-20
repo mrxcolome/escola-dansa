@@ -275,7 +275,7 @@ PAGINES = [
         "desc": "classes de k-pop i heels a Sant Gervasi (Barcelona): les coreografies del moment i actitud sobre talons. primera classe de prova gratuïta.",
         "h1": "k-pop & heels",
         "intro": "les coreos del moment i tota l'actitud. del fenomen k-pop a l'empoderament del heels: dues classes per ballar com als videoclips.",
-        "per_a_qui": "el k-pop és per a juvenils que somien amb les coreografies dels seus grups preferits; el heels, per a adults avançats que volen treballar actitud, línia i seguretat sobre talons.",
+        "per_a_qui": "el k-pop és per a nens i joves que somien amb les coreografies dels seus grups preferits; el heels, per a adults avançats que volen treballar actitud, línia i seguretat sobre talons.",
         "beneficis": [
             ("ballar el que t'agrada", "coreografies reals dels artistes del moment: la motivació ve de sèrie."),
             ("actitud i seguretat", "el heels és una classe d'empoderament pur: postura, presència i confiança."),
@@ -283,7 +283,7 @@ PAGINES = [
         ],
         "horaris": [
             ("dimarts", "20.30", "heels adults avançat", "sala H"),
-            ("divendres", "18.15", "k-pop juvenil", "sala C"),
+            ("divendres", "18.15", "k-pop infantil i juvenil", "sala C"),
         ],
         "faqs": [
             ("cal saber ballar per fer k-pop?",
@@ -843,7 +843,7 @@ GRAELLA = {
     "divendres": [
         ("17.00", "dansa del ventre", "juvenil", "sala H"), ("17.30", "contemporani", "infantil", "sala C"),
         ("17.45", "jazz", "juvenil", "sala H"), ("17.45", "jazz", "juvenil", "sala N"),
-        ("18.15", "k-pop", "juvenil", "sala C"), ("18.45", "contemporani", "juvenil", "sala H"),
+        ("18.15", "k-pop", "infantil i juvenil", "sala C"), ("18.45", "contemporani", "juvenil", "sala H"),
         ("18.45", "contemporani", "juvenil", "sala N"), ("19.45", "hip-hop", "juvenil", "sala H"),
     ],
 }
@@ -1258,7 +1258,7 @@ def _trad_grup(s):
     for a, b in [("adults bàsic", "adultos básico"), ("adults avançat", "adultos avanzado"),
                  ("adults intermedi", "adultos intermedio"), ("adults iniciació", "adultos iniciación"),
                  ("juvenil avançat", "juvenil avanzado"), ("juvenil intermedi", "juvenil intermedio"),
-                 ("grup ", "grupo "), ("jazz, hip-hop, claqué, cant i interpretació",
+                 ("grup ", "grupo "), ("infantil i juvenil", "infantil y juvenil"), ("jazz, hip-hop, claqué, cant i interpretació",
                                        "jazz, hip-hop, claqué, canto e interpretación")]:
         s = s.replace(a, b)
     return s
