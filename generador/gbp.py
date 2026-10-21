@@ -100,6 +100,10 @@ def ordre_fitxa():
     _, fitxa, _ = troba_fitxa(token)
     camps = "title,categories,websiteUri,regularHours,profile,storefrontAddress,phoneNumbers,metadata,openInfo"
     r = crida(f"https://mybusinessbusinessinformation.googleapis.com/v1/{fitxa}?readMask={camps}", token=token)
+    cat = r.pop("categories", {})
+    print("categoria principal:", cat.get("primaryCategory", {}).get("displayName"))
+    print("categories addicionals:", [c.get("displayName") for c in cat.get("additionalCategories", [])])
+    r.pop("regularHours", None)
     print(json.dumps(r, ensure_ascii=False, indent=1))
 
 
