@@ -100,7 +100,7 @@ def ordre_prova():
 def ordre_fitxa():
     token = token_acces()
     _, fitxa, _ = troba_fitxa(token)
-    camps = "title,categories,websiteUri,regularHours,profile,storefrontAddress,phoneNumbers,metadata,openInfo"
+    camps = "title,categories,websiteUri,regularHours,profile,storefrontAddress,phoneNumbers,metadata,openInfo,latlng"
     r = crida(f"https://mybusinessbusinessinformation.googleapis.com/v1/{fitxa}?readMask={camps}", token=token)
     cat = r.pop("categories", {})
     pc = cat.get("primaryCategory", {})
