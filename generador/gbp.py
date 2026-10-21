@@ -103,8 +103,15 @@ def ordre_fitxa():
     camps = "title,categories,websiteUri,regularHours,profile,storefrontAddress,phoneNumbers,metadata,openInfo"
     r = crida(f"https://mybusinessbusinessinformation.googleapis.com/v1/{fitxa}?readMask={camps}", token=token)
     cat = r.pop("categories", {})
-    print("categoria principal:", cat.get("primaryCategory", {}).get("displayName"))
-    print("categories addicionals:", [c.get("displayName") for c in cat.get("additionalCategories", [])])
+    pc = cat.get("primaryCategory", {})
+    print("categoria principal:", pc.get("displayName"), pc.get("name"))
+    print("categories addicionals:", [(c.get("displayName"), c.get("name")) for c in cat.get("additionalCategories", [])])
+    # categories de Google que tenen a veure amb la dansa, en castellà (com les veu qui cerca)
+    llista = crida("https://mybusinessbusinessinformation.googleapis.com/v1/categories?regionCode=ES&languageCode=es"
+                   "&view=BASIC&pageSize=100&filter=displayname%3Dbaile", token=token).get("categories", [])
+    llista += crida("https://mybusinessbusinessinformation.googleapis.com/v1/categories?regionCode=ES&languageCode=es"
+                    "&view=BASIC&pageSize=100&filter=displayname%3Ddanza", token=token).get("categories", [])
+    print("categories ES amb «baile»/«danza»:", [(c.get("displayName"), c.get("name")) for c in llista])
     r.pop("regularHours", None)
     print(json.dumps(r, ensure_ascii=False, indent=1))
 
