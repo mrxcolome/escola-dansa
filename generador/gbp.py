@@ -108,9 +108,9 @@ def ordre_fitxa():
     print("categories addicionals:", [(c.get("displayName"), c.get("name")) for c in cat.get("additionalCategories", [])])
     # categories de Google que tenen a veure amb la dansa, en castellà (com les veu qui cerca)
     llista = crida("https://mybusinessbusinessinformation.googleapis.com/v1/categories?regionCode=ES&languageCode=es"
-                   "&view=BASIC&pageSize=100&filter=displayname%3Dbaile", token=token).get("categories", [])
+                   "&view=BASIC&pageSize=100&filter=displayName%3Dbaile", token=token).get("categories", [])
     llista += crida("https://mybusinessbusinessinformation.googleapis.com/v1/categories?regionCode=ES&languageCode=es"
-                    "&view=BASIC&pageSize=100&filter=displayname%3Ddanza", token=token).get("categories", [])
+                    "&view=BASIC&pageSize=100&filter=displayName%3Ddanza", token=token).get("categories", [])
     print("categories ES amb «baile»/«danza»:", [(c.get("displayName"), c.get("name")) for c in llista])
     r.pop("regularHours", None)
     print(json.dumps(r, ensure_ascii=False, indent=1))
