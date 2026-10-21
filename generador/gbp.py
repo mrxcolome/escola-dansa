@@ -114,6 +114,16 @@ def ordre_fitxa():
     print("categories ES amb «baile»/«danza»:", [(c.get("displayName"), c.get("name")) for c in llista])
     r.pop("regularHours", None)
     print(json.dumps(r, ensure_ascii=False, indent=1))
+    if r.get("metadata", {}).get("hasGoogleUpdated"):
+        # Google ha canviat dades de la fitxa pel seu compte: quins camps i amb quins valors
+        g = crida(f"https://mybusinessbusinessinformation.googleapis.com/v1/{fitxa}:getGoogleUpdated?readMask={camps}",
+                  token=token)
+        print("canvis de Google pendents de revisar (camps):", g.get("diffMask"), "| pendents:", g.get("pendingMask"))
+        loc = g.get("location", {})
+        for camp in (g.get("diffMask") or "").split(","):
+            camp = camp.strip().split(".")[0]
+            if camp:
+                print(f"  {camp} segons Google:", json.dumps(loc.get(camp), ensure_ascii=False)[:600])
 
 
 def ordre_edita():
