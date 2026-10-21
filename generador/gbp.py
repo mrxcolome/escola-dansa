@@ -8,6 +8,7 @@ L'executa el workflow .github/workflows/gbp.yml amb tres secrets del repo:
   python3 gbp.py ressenyes   # actualitza la nota i el nombre d'opinions de la portada (CA i ES)
   python3 gbp.py publica     # publica a la fitxa els posts del blog que encara no hi són
   python3 gbp.py llista      # mostra les 10 ressenyes més recents i si tenen resposta (no canvia res)
+  python3 gbp.py edita       # aplica a la fitxa els canvis de gbp_canvis.json (camps de l'API: websiteUri, profile…) i el buida
   python3 gbp.py fitxa       # mostra les dades de la fitxa: categories, web, horari, descripció (no canvia res)
   python3 gbp.py respon      # contesta les ressenyes de gbp_respostes.json que encara no tenen resposta
 
@@ -26,7 +27,8 @@ ARREL = os.path.dirname(AQUI)
 DOMINI = "https://escoladansa.com"
 NOM_FITXA = "cristina colom"  # per trobar la fitxa si el compte en té més d'una
 PUBLICATS = os.path.join(AQUI, "gbp_publicats.json")
-RESPOSTES = os.path.join(AQUI, "gbp_respostes.json")  # {"nom de qui l'ha escrit": "resposta"}
+RESPOSTES = os.path.join(AQUI, "gbp_respostes.json")
+CANVIS = os.path.join(AQUI, "gbp_canvis.json")  # camps de la fitxa per canviar amb `edita`  # {"nom de qui l'ha escrit": "resposta"}
 HOME_CA = os.path.join(ARREL, "index.html")
 HOME_ES_GEN = os.path.join(AQUI, "genera_home_es.py")
 
@@ -105,6 +107,21 @@ def ordre_fitxa():
     print("categories addicionals:", [c.get("displayName") for c in cat.get("additionalCategories", [])])
     r.pop("regularHours", None)
     print(json.dumps(r, ensure_ascii=False, indent=1))
+
+
+def ordre_edita():
+    canvis = json.load(open(CANVIS, encoding="utf-8"))
+    if not canvis:
+        print("cap canvi pendent")
+        return
+    token = token_acces()
+    _, fitxa, _ = troba_fitxa(token)
+    mascara = ",".join("profile.description" if k == "profile" else k for k in canvis)
+    r = crida(f"https://mybusinessbusinessinformation.googleapis.com/v1/{fitxa}?updateMask={mascara}", canvis,
+              token=token, metode="PATCH")
+    print("fitxa actualitzada:", mascara)
+    print(json.dumps({k: r.get(k) for k in canvis}, ensure_ascii=False, indent=1))
+    json.dump({}, open(CANVIS, "w", encoding="utf-8"))
 
 
 def ordre_llista():
@@ -197,7 +214,7 @@ def ordre_publica():
 
 
 if __name__ == "__main__":
-    ordres = {"prova": ordre_prova, "ressenyes": ordre_ressenyes, "publica": ordre_publica, "llista": ordre_llista, "respon": ordre_respon, "fitxa": ordre_fitxa}
+    ordres = {"prova": ordre_prova, "ressenyes": ordre_ressenyes, "publica": ordre_publica, "llista": ordre_llista, "respon": ordre_respon, "fitxa": ordre_fitxa, "edita": ordre_edita}
     if len(sys.argv) != 2 or sys.argv[1] not in ordres:
         sys.exit(f"ús: python3 gbp.py {'|'.join(ordres)}")
     ordres[sys.argv[1]]()
