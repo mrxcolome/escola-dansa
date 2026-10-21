@@ -8,6 +8,7 @@ L'executa el workflow .github/workflows/gbp.yml amb tres secrets del repo:
   python3 gbp.py ressenyes   # actualitza la nota i el nombre d'opinions de la portada (CA i ES)
   python3 gbp.py publica     # publica a la fitxa els posts del blog que encara no hi són
   python3 gbp.py llista      # mostra les 10 ressenyes més recents i si tenen resposta (no canvia res)
+  python3 gbp.py fitxa       # mostra les dades de la fitxa: categories, web, horari, descripció (no canvia res)
   python3 gbp.py respon      # contesta les ressenyes de gbp_respostes.json que encara no tenen resposta
 
 Els posts ja publicats a la fitxa es guarden a gbp_publicats.json (el workflow el desa al repo).
@@ -92,6 +93,14 @@ def ordre_prova():
     compte, fitxa, titol = troba_fitxa(token)
     nota, total = ressenyes(token, compte, fitxa)
     print(f"compte: {compte}\nfitxa: {fitxa} ({titol})\nressenyes: {nota} de mitjana, {total} en total")
+
+
+def ordre_fitxa():
+    token = token_acces()
+    _, fitxa, _ = troba_fitxa(token)
+    camps = "title,categories,websiteUri,regularHours,profile,storefrontAddress,phoneNumbers,metadata,openInfo"
+    r = crida(f"https://mybusinessbusinessinformation.googleapis.com/v1/{fitxa}?readMask={camps}", token=token)
+    print(json.dumps(r, ensure_ascii=False, indent=1))
 
 
 def ordre_llista():
@@ -184,7 +193,7 @@ def ordre_publica():
 
 
 if __name__ == "__main__":
-    ordres = {"prova": ordre_prova, "ressenyes": ordre_ressenyes, "publica": ordre_publica, "llista": ordre_llista, "respon": ordre_respon}
+    ordres = {"prova": ordre_prova, "ressenyes": ordre_ressenyes, "publica": ordre_publica, "llista": ordre_llista, "respon": ordre_respon, "fitxa": ordre_fitxa}
     if len(sys.argv) != 2 or sys.argv[1] not in ordres:
         sys.exit(f"ús: python3 gbp.py {'|'.join(ordres)}")
     ordres[sys.argv[1]]()

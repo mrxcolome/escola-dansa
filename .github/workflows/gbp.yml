@@ -1,7 +1,7 @@
 # Fitxa de Google (API de Perfil d'Empresa): generador/gbp.py
 #  - després de cada desplegament: publica a la fitxa els posts nous del blog
 #  - cada dia: actualitza la nota i el nombre d'opinions de la portada i, si canvien, ho publica
-#  - a mà (pestanya Actions): prova | ressenyes | publica | llista | respon
+#  - a mà (pestanya Actions): prova | ressenyes | publica | llista | respon | fitxa
 # Secrets: GBP_CLIENT_ID, GBP_CLIENT_SECRET, GBP_REFRESH_TOKEN
 name: fitxa de google
 
@@ -16,7 +16,7 @@ on:
       ordre:
         description: "què fer"
         type: choice
-        options: [prova, ressenyes, publica, llista, respon]
+        options: [prova, ressenyes, publica, llista, respon, fitxa]
         default: prova
 
 concurrency:
