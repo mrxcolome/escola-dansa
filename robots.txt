@@ -6,6 +6,7 @@ Disallow: /seo/
 Disallow: /dossier/
 Disallow: /memoria/
 Disallow: /google/
+Disallow: /contacte.php
 Content-Signal: search=yes, ai-input=yes, ai-train=yes
 
 Sitemap: https://escoladansa.com/sitemap.xml
