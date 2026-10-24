@@ -2527,8 +2527,8 @@ POSTS = [
         "nom_wa_es": "ballet",
         "og": "blog-puntes.jpg",
         "img": "blog-puntes.jpg",
-        "img_alt": "Una alumna de l'escola en puntes, amb tutú blanc i diadema de plomes, fent un arabesc a l'escenari del festival de fi de curs",
-        "img_alt_es": "Una alumna de la escuela en puntas, con tutú blanco y diadema de plumas, haciendo un arabesque en el escenario del festival de fin de curso",
+        "img_alt": "Les cames d'un grup d'alumnes de ballet amb mitges i puntes de setí rosa, pujades en puntes sobre el parquet d'una sala de dansa amb la barra al fons",
+        "img_alt_es": "Las piernas de un grupo de alumnas de ballet con medias y puntas de satén rosa, subidas en puntas sobre el parquet de una sala de danza con la barra al fondo",
         "related_pagines": ["ballet-classic", "horaris", "preus"],
         "related_posts": ["examens-rad-ballet", "roba-dansa-que-portar", "quantes-classes-dansa-setmana"],
 
