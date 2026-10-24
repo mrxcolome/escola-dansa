@@ -40,5 +40,40 @@
   "categoria": "EXTERIOR",
   "descripcio": "Façana de l'escola",
   "media": "accounts/100623180645872263097/locations/174356757396587910/media/CIABIhDzTnLuxdQoRFtE1psxxg3v"
+ },
+ {
+  "fitxer": "assets/fitxa/festival-salutacio-final.jpg",
+  "categoria": "ADDITIONAL",
+  "descripcio": "Salutació final del festival de fi de curs"
+ },
+ {
+  "fitxer": "assets/fitxa/facana-families.jpg",
+  "categoria": "EXTERIOR",
+  "descripcio": "Famílies a la porta de l'escola"
+ },
+ {
+  "fitxer": "assets/fitxa/festival-foto-grup.jpg",
+  "categoria": "ADDITIONAL",
+  "descripcio": "Alumnes i professors al festival de fi de curs"
+ },
+ {
+  "fitxer": "assets/fitxa/festival-escenari.jpg",
+  "categoria": "ADDITIONAL",
+  "descripcio": "Final del festival de fi de curs"
+ },
+ {
+  "fitxer": "assets/fitxa/festival-esquelets.jpg",
+  "categoria": "ADDITIONAL",
+  "descripcio": "Coreografia al festival de fi de curs"
+ },
+ {
+  "fitxer": "assets/fitxa/festival-classic.jpg",
+  "categoria": "ADDITIONAL",
+  "descripcio": "Ballet clàssic al festival de fi de curs"
+ },
+ {
+  "fitxer": "assets/fitxa/festival-dansa-espanyola.jpg",
+  "categoria": "ADDITIONAL",
+  "descripcio": "Dansa espanyola al festival de fi de curs"
  }
 ]
