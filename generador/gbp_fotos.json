@@ -1,8 +1,38 @@
 [
- {"fitxer": "assets/fitxa/sala-classe-adults.jpg", "categoria": "AT_WORK", "descripcio": "Classe a la sala gran de l'escola"},
- {"fitxer": "assets/fitxa/sala-escalfament.jpg", "categoria": "INTERIOR", "descripcio": "Escalfament a la sala"},
- {"fitxer": "assets/fitxa/sala-classe-juvenil.jpg", "categoria": "AT_WORK", "descripcio": "Classe juvenil"},
- {"fitxer": "assets/fitxa/recepcio.jpg", "categoria": "INTERIOR", "descripcio": "Recepció de l'escola"},
- {"fitxer": "assets/fitxa/dia-dansa-barra.jpg", "categoria": "ADDITIONAL", "descripcio": "Dia de la Dansa a la plaça del Diamant"},
- {"fitxer": "assets/fitxa/dia-dansa-grup.jpg", "categoria": "ADDITIONAL", "descripcio": "Dia de la Dansa a la plaça del Diamant"}
+ {
+  "fitxer": "assets/fitxa/sala-classe-adults.jpg",
+  "categoria": "AT_WORK",
+  "descripcio": "Classe a la sala gran de l'escola",
+  "media": "accounts/100623180645872263097/locations/174356757396587910/media/CIABIhDVBAAufsZdJBGTgW5iQJ1l"
+ },
+ {
+  "fitxer": "assets/fitxa/sala-escalfament.jpg",
+  "categoria": "INTERIOR",
+  "descripcio": "Escalfament a la sala",
+  "media": "accounts/100623180645872263097/locations/174356757396587910/media/CIABIhBJK7XHItMs6JLYGNWxiIxS"
+ },
+ {
+  "fitxer": "assets/fitxa/sala-classe-juvenil.jpg",
+  "categoria": "AT_WORK",
+  "descripcio": "Classe juvenil",
+  "media": "accounts/100623180645872263097/locations/174356757396587910/media/CIABIhBu-yW2unVpawuDL_WHSA2b"
+ },
+ {
+  "fitxer": "assets/fitxa/recepcio.jpg",
+  "categoria": "INTERIOR",
+  "descripcio": "Recepció de l'escola",
+  "media": "accounts/100623180645872263097/locations/174356757396587910/media/CIABIhDflLzIdzbmYeLXUFiPvksN"
+ },
+ {
+  "fitxer": "assets/fitxa/dia-dansa-barra.jpg",
+  "categoria": "ADDITIONAL",
+  "descripcio": "Dia de la Dansa a la plaça del Diamant",
+  "media": "accounts/100623180645872263097/locations/174356757396587910/media/CIABIhCnXmL5NYaFh-He30tgmQ-V"
+ },
+ {
+  "fitxer": "assets/fitxa/dia-dansa-grup.jpg",
+  "categoria": "ADDITIONAL",
+  "descripcio": "Dia de la Dansa a la plaça del Diamant",
+  "media": "accounts/100623180645872263097/locations/174356757396587910/media/CIABIhBjqTtVBjnElQ001f6QTZcC"
+ }
 ]
