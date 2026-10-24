@@ -904,7 +904,7 @@ def json_ld(p):
             "inLanguage": "ca",
             "provider": {
                 "@type": "School",
-                "name": "escola de Dansa Cristina Colomé",
+                "name": "Escola de Dansa Cristina Colomé",
                 "url": DOMINI + "/",
                 "telephone": "+34934179886",
                 "email": "info@escoladansa.com",

@@ -20,10 +20,10 @@ PARELLES = [
     ('<html lang="ca" data-tema="clar">', '<html lang="es" data-tema="clar">'),
     # el títol comença pel que la gent busca, no per la marca (set 2026: sortíem
     # a la 1a pàgina per «escola de dansa» amb 0 clics)
-    ('<title>escola de dansa a Sant Gervasi, Barcelona · cristina colomé</title>',
-     '<title>escuela de danza en Sant Gervasi, Barcelona · cristina colomé</title>'),
-    ('<meta name="description" content="escola de dansa a Sant Gervasi (Barcelona), des dels 3 anys fins a adults: clàssic, contemporani, jazz, hip-hop, claqué i més. 1a classe de prova gratuïta.">',
-     '<meta name="description" content="escuela de danza en Sant Gervasi (Barcelona), desde los 3 años hasta adultos: clásico, contemporáneo, jazz, hip-hop, claqué y más. 1ª clase de prueba gratuita.">'),
+    ('<title>escola de dansa a Barcelona (Sant Gervasi) · cristina colomé</title>',
+     '<title>escuela de danza en Barcelona (Sant Gervasi) · cristina colomé</title>'),
+    ('<meta name="description" content="escola de dansa a Barcelona (Sant Gervasi) amb més de 25 anys: classes de dansa per a nens des dels 3 anys, joves i adults. clàssic, contemporani, jazz, hip-hop, claqué i més. 1a classe gratuïta.">',
+     '<meta name="description" content="escuela de danza en Barcelona (Sant Gervasi) con más de 25 años: clases de danza para niños desde 3 años, jóvenes y adultos. clásico, contemporáneo, jazz, hip-hop, claqué y más. 1ª clase gratuita.">'),
     ('<link rel="canonical" href="https://escoladansa.com/">',
      '<link rel="canonical" href="https://escoladansa.com/es/">'),  # els hreflang ja venen de la home CA
     ('<meta property="og:title" content="escola de dansa cristina colomé · Sant Gervasi, Barcelona">',
@@ -75,10 +75,12 @@ PARELLES = [
 
     # ── hero ──
     ('aria-hidden="true">dansa</span>', 'aria-hidden="true">danza</span>'),
+    ('<h1 id="titol" aria-label="escola de dansa cristina colomé">', '<h1 id="titol" aria-label="escuela de danza cristina colomé">'),
+    ('<span class="linia" data-lletres>escola</span>', '<span class="linia" data-lletres>escuela</span>'),
     ("const MOTS_ROTATIUS = ['dansa','ballet','jazz','hip-hop','claqué','k-pop','música','zumba','ioga','dansa'];",
      "const MOTS_ROTATIUS = ['danza','ballet','jazz','hip-hop','claqué','k-pop','música','zumba','yoga','danza'];"),
-    ('<p class="hero-sub">més de 25 anys movent Barcelona. clàssic, contemporani, jazz, hip-hop, claqué, espanyol, dansa oriental… per a totes les edats i nivells.</p>',
-     '<p class="hero-sub">más de 25 años moviendo Barcelona. clásico, contemporáneo, jazz, hip-hop, claqué, español, danza oriental… para todas las edades y niveles.</p>'),
+    ('<p class="hero-sub">més de 25 anys movent Barcelona: classes de dansa per a totes les edats i nivells. clàssic, contemporani, jazz, hip-hop, claqué, espanyol, dansa oriental…</p>',
+     '<p class="hero-sub">más de 25 años moviendo Barcelona: clases de danza para todas las edades y niveles. clásico, contemporáneo, jazz, hip-hop, claqué, español, danza oriental…</p>'),
     ('>classe de prova gratuïta</a>', '>clase de prueba gratuita</a>'),
     ('<a class="boto boto-buit" href="/horaris/">veure horaris</a>',
      '<a class="boto boto-buit" href="/es/horarios/">ver horarios</a>'),
@@ -113,8 +115,8 @@ PARELLES = [
     # ── l'escola ──
     ('<div class="etiqueta reveal">l\'escola</div>', '<div class="etiqueta reveal">la escuela</div>'),
     ('ballar és un plaer, i més encara si es fa entre amics', 'bailar es un placer, y más aún si se hace entre amigos'),
-    ("som un centre de referència al barri de Sant Gervasi, a Barcelona. un espai pensat per aprendre, formar-se, interactuar i gaudir, amb propostes per a totes les edats i tots els nivells: des de la iniciació a la dansa fins a la preparació d'exàmens oficials.",
-     'somos un centro de referencia en el barrio de Sant Gervasi, en Barcelona. un espacio pensado para aprender, formarse, interactuar y disfrutar, con propuestas para todas las edades y todos los niveles: desde la iniciación a la danza hasta la preparación de exámenes oficiales.'),
+    ("som una escola de dansa de referència a Barcelona, al barri de Sant Gervasi. un espai pensat per aprendre, formar-se, interactuar i gaudir, amb classes de dansa per a totes les edats i tots els nivells: des de la iniciació a la dansa fins a la preparació d'exàmens oficials.",
+     'somos una escuela de danza de referencia en Barcelona, en el barrio de Sant Gervasi. un espacio pensado para aprender, formarse, interactuar y disfrutar, con clases de danza para todas las edades y todos los niveles: desde la iniciación a la danza hasta la preparación de exámenes oficiales.'),
     ("<small>anys d'història</small>", '<small>años de historia</small>'),
     ('<small>sales insonoritzades</small>', '<small>salas insonorizadas</small>'),
     ('<small>disciplines</small>', '<small>disciplinas</small>'),
