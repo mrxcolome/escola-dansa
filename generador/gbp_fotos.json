@@ -1,0 +1,8 @@
+[
+ {"fitxer": "assets/fitxa/sala-classe-adults.jpg", "categoria": "AT_WORK", "descripcio": "Classe a la sala gran de l'escola"},
+ {"fitxer": "assets/fitxa/sala-escalfament.jpg", "categoria": "INTERIOR", "descripcio": "Escalfament a la sala"},
+ {"fitxer": "assets/fitxa/sala-classe-juvenil.jpg", "categoria": "AT_WORK", "descripcio": "Classe juvenil"},
+ {"fitxer": "assets/fitxa/recepcio.jpg", "categoria": "INTERIOR", "descripcio": "Recepció de l'escola"},
+ {"fitxer": "assets/fitxa/dia-dansa-barra.jpg", "categoria": "ADDITIONAL", "descripcio": "Dia de la Dansa a la plaça del Diamant"},
+ {"fitxer": "assets/fitxa/dia-dansa-grup.jpg", "categoria": "ADDITIONAL", "descripcio": "Dia de la Dansa a la plaça del Diamant"}
+]

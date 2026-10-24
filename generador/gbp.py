@@ -11,6 +11,7 @@ L'executa el workflow .github/workflows/gbp.yml amb tres secrets del repo:
   python3 gbp.py edita       # aplica a la fitxa els canvis de gbp_canvis.json (camps de l'API: websiteUri, profile…) i el buida
   python3 gbp.py fitxa       # mostra les dades de la fitxa: categories, web, horari, descripció (no canvia res)
   python3 gbp.py respon      # contesta les ressenyes de gbp_respostes.json que encara no tenen resposta
+  python3 gbp.py fotos       # puja a la fitxa les fotos de gbp_fotos.json que encara no hi són i llista les que hi ha
 
 Els posts ja publicats a la fitxa es guarden a gbp_publicats.json (el workflow el desa al repo).
 """
@@ -28,6 +29,7 @@ DOMINI = "https://escoladansa.com"
 NOM_FITXA = "cristina colom"  # per trobar la fitxa si el compte en té més d'una
 PUBLICATS = os.path.join(AQUI, "gbp_publicats.json")
 RESPOSTES = os.path.join(AQUI, "gbp_respostes.json")
+FOTOS = os.path.join(AQUI, "gbp_fotos.json")  # [{"fitxer": "assets/fitxa/x.jpg", "categoria": "INTERIOR"}, …]
 CANVIS = os.path.join(AQUI, "gbp_canvis.json")  # camps de la fitxa per canviar amb `edita`  # {"nom de qui l'ha escrit": "resposta"}
 HOME_CA = os.path.join(ARREL, "index.html")
 HOME_ES_GEN = os.path.join(AQUI, "genera_home_es.py")
@@ -183,6 +185,30 @@ def ordre_respon():
     json.dump(respostes, open(RESPOSTES, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
 
 
+def ordre_fotos():
+    """Puja les fotos de gbp_fotos.json sense «media» (han d'estar ja publicades a la web) i hi apunta el resultat."""
+    fotos = json.load(open(FOTOS, encoding="utf-8"))
+    token = token_acces()
+    compte, fitxa, _ = troba_fitxa(token)
+    for f in fotos:
+        if f.get("media"):
+            continue
+        # categories de Google: COVER, PROFILE, LOGO, EXTERIOR, INTERIOR, AT_WORK, TEAMS, ADDITIONAL
+        cos = {"mediaFormat": "PHOTO", "locationAssociation": {"category": f.get("categoria", "ADDITIONAL")},
+               "sourceUrl": f"{DOMINI}/{f['fitxer']}"}
+        if f.get("descripcio"):
+            cos["description"] = f["descripcio"]
+        r = crida(f"https://mybusiness.googleapis.com/v4/{compte}/{fitxa}/media", cos, token=token)
+        f["media"] = r.get("name", "?")
+        print(f"pujada: {f['fitxer']} ({cos['locationAssociation']['category']})")
+        json.dump(fotos, open(FOTOS, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    r = crida(f"https://mybusiness.googleapis.com/v4/{compte}/{fitxa}/media?pageSize=100", token=token)
+    print(f"fotos a la fitxa: {r.get('totalMediaItemCount', 0)}")
+    for m in r.get("mediaItems", []):
+        print(f"  {m.get('createTime', '')[:10]} · {m.get('locationAssociation', {}).get('category', '?')} · "
+              f"{m.get('mediaFormat')} · {m.get('googleUrl', '')}")
+
+
 def ordre_ressenyes():
     token = token_acces()
     compte, fitxa, _ = troba_fitxa(token)
@@ -231,7 +257,7 @@ def ordre_publica():
 
 
 if __name__ == "__main__":
-    ordres = {"prova": ordre_prova, "ressenyes": ordre_ressenyes, "publica": ordre_publica, "llista": ordre_llista, "respon": ordre_respon, "fitxa": ordre_fitxa, "edita": ordre_edita}
+    ordres = {"prova": ordre_prova, "ressenyes": ordre_ressenyes, "publica": ordre_publica, "llista": ordre_llista, "respon": ordre_respon, "fitxa": ordre_fitxa, "edita": ordre_edita, "fotos": ordre_fotos}
     if len(sys.argv) != 2 or sys.argv[1] not in ordres:
         sys.exit(f"ús: python3 gbp.py {'|'.join(ordres)}")
     ordres[sys.argv[1]]()
