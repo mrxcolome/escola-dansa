@@ -2513,6 +2513,137 @@ POSTS = [
              "Las dos opciones funcionan. Combinar el clásico, que da base, con un estilo más libre como el jazz o el hip-hop es una combinación muy completa para niños y adolescentes."),
         ],
     },
+
+    {
+        "slug": "a-quina-edat-puntes-ballet",
+        "slug_es": "a-que-edad-puntas-ballet",
+        "categoria": "famílies",
+        "categoria_es": "familias",
+        "data": "2026-10-26",
+        "data_ca": "26 d'octubre de 2026",
+        "data_es": "26 de octubre de 2026",
+        "minuts": 5,
+        "nom_wa": "ballet",
+        "nom_wa_es": "ballet",
+        "og": "blog-puntes.jpg",
+        "img": "blog-puntes.jpg",
+        "img_alt": "Una alumna de l'escola en puntes, amb tutú blanc i diadema de plomes, fent un arabesc a l'escenari del festival de fi de curs",
+        "img_alt_es": "Una alumna de la escuela en puntas, con tutú blanco y diadema de plumas, haciendo un arabesque en el escenario del festival de fin de curso",
+        "related_pagines": ["ballet-classic", "horaris", "preus"],
+        "related_posts": ["examens-rad-ballet", "roba-dansa-que-portar", "quantes-classes-dansa-setmana"],
+
+        "title": "a quina edat es comença amb puntes al ballet? · escola de dansa cristina colomé",
+        "desc": "Quan pot començar a ballar amb puntes una nena o un nen? Edat orientativa, els senyals que el peu i la tècnica estan a punt, els riscos d'avançar-les i com triar les primeres puntes. Guia de l'escola Cristina Colomé, Barcelona.",
+        "h1": "a quina edat es comença amb puntes al ballet?",
+        "excerpt": "Quan es pot començar a ballar amb puntes? L'edat orientativa, els senyals que el peu està a punt, per què no s'han d'avançar i com han de ser les primeres puntes.",
+        "intro": "És la il·lusió de gairebé tothom que fa ballet: el dia de les primeres puntes. I també una de les preguntes que més ens fan les famílies. La resposta curta: no depèn tant de l'edat com de la preparació. La llarga, aquí.",
+        "cos": """
+<p>Les puntes són el moment màgic del <a href="/ballet-classic/">ballet clàssic</a>: ballar sobre l'extrem dels dits, dins d'unes sabatilles amb la punta rígida. Precisament perquè tot el pes del cos recau en un punt tan petit, no s'hi arriba per edat, sinó quan <strong>el peu, el turmell i la tècnica estan preparats</strong>. A l'escola ho decideix la professora, alumna per alumna.</p>
+
+<h2>l'edat orientativa: cap als 11 o 12 anys</h2>
+<p>Com a referència general, la majoria d'alumnes comencen amb puntes <strong>entre els 11 i els 12 anys</strong>, i rarament abans. Hi ha una raó física: els ossos del peu encara creixen i no estan del tot formats fins a l'adolescència, i carregar-los abans d'hora pot fer mal. Però l'edat és només un mínim. Una alumna de 13 anys que fa un any que balla no està més a punt que una d'11 que en porta cinc.</p>
+
+<h2>el que compta de debò: la preparació</h2>
+<p>Abans de les puntes calen, normalment, <strong>uns quants anys de clàssic de manera regular</strong> (tres o quatre és habitual) i un ritme de <strong>dues o tres classes a la setmana</strong>. Amb un sol dia, el cos no acumula prou força. Si et preguntes quants dies li convenen, ho expliquem a <a href="/blog/quantes-classes-dansa-setmana/">quantes classes de dansa a la setmana</a>.</p>
+
+<h2>senyals que el peu està a punt</h2>
+<ul>
+<li><strong>Puja a mitja punta amb control</strong>: fa relevés seguits sense que el turmell es desviï cap a fora o cap a dins.</li>
+<li><strong>Manté l'esquena i l'abdomen ferms</strong> mentre balla, sense enfonsar-se.</li>
+<li><strong>Estira bé el peu</strong> i té força als dits i a l'arc, no només flexibilitat.</li>
+<li><strong>Aguanta l'equilibri</strong> sobre una cama en mitja punta.</li>
+<li><strong>Té constància</strong>: no falta a classe i fa cas de les correccions.</li>
+</ul>
+<p>Molts d'aquests senyals es treballen amb exercicis de «prepuntes» a la barra durant els cursos anteriors. Quan la professora veu que tot encaixa, és ella qui dona el vistiplau.</p>
+
+<h2>per què no s'han d'avançar</h2>
+<p>Començar abans d'hora no fa arribar més lluny: fa arribar amb dolor. Un peu sense prou força es torça, el pes es reparteix malament i apareixen molèsties als turmells, als genolls o a l'esquena. També es corre el risc d'agafar vicis que després costa molt corregir. Esperar un curs més no és perdre el temps: és la manera de ballar en puntes molts anys.</p>
+
+<h2>les primeres puntes: com han de ser</h2>
+<ul>
+<li><strong>Sempre provades en una botiga especialitzada</strong>, mai comprades per internet a cegues ni heretades d'una altra alumna: cada peu és diferent i la punta s'ha d'adaptar al seu.</li>
+<li><strong>Revisades per la professora</strong> abans de fer-les servir.</li>
+<li><strong>Amb les cintes i les gomes cosides a casa</strong>, i uns protectors per als dits.</li>
+<li>Un parell costa aproximadament <strong>entre 60 i 100 €</strong> i, al principi, dura força, perquè s'hi balla poca estona.</li>
+</ul>
+<p>Tot el que cal per a la resta de classes ho tens al post sobre <a href="/blog/roba-dansa-que-portar/">quina roba portar a dansa</a>.</p>
+
+<h2>com són les primeres classes amb puntes</h2>
+<p>Res de sortir a l'escenari el primer dia. Es comença <strong>a la barra, amb poca estona al final de la classe</strong>, i es va allargant a poc a poc fins que el peu s'hi acostuma i es poden fer exercicis al centre. Els primers mesos són d'aprendre a pujar i baixar bé, no de fer piruetes. I tranquil·litat si al principi fan mal els dits: és normal, i les professores ensenyen a protegir-los.</p>
+
+<h2>i els exàmens de la RAD?</h2>
+<p>Per a qui prepara els <a href="/blog/examens-rad-ballet/">exàmens de la Royal Academy of Dance</a>, les puntes formen part dels nivells vocacionals, a partir de l'Intermediate Foundation. Són un bon objectiu perquè marquen un camí ordenat: primer la base, després les puntes.</p>
+
+<h2>en resum</h2>
+<p>Cap als 11 o 12 anys com a mínim, després de diversos anys de clàssic regular i amb dues o tres classes a la setmana. Però l'última paraula no la té el calendari: la té la professora, quan veu que el peu i la tècnica estan a punt. Si la teva filla o el teu fill somia amb les puntes, el camí comença al <a href="/ballet-classic/">ballet clàssic</a>: mira la <a href="/horaris/">graella d'horaris</a> o truca'ns al <a href="tel:+34934179886">934 17 98 86</a>. La primera classe és gratuïta.</p>
+""",
+        "faqs": [
+            ("a quina edat es comença a ballar amb puntes?",
+             "Com a referència, entre els 11 i els 12 anys, i rarament abans. Però més que l'edat compta la preparació: diversos anys de ballet clàssic regular, dues o tres classes a la setmana i força al peu i al turmell."),
+            ("qui decideix quan una alumna pot posar-se puntes?",
+             "La professora de clàssic, alumna per alumna, quan veu que el peu, el turmell i la tècnica estan preparats. A l'escola mai s'avancen per il·lusió."),
+            ("és perillós començar amb puntes massa aviat?",
+             "Sí. Els ossos del peu encara creixen fins a l'adolescència i, sense prou força, el pes es reparteix malament: apareixen molèsties als turmells, als genolls o a l'esquena, i vicis difícils de corregir."),
+            ("on s'han de comprar les primeres puntes?",
+             "En una botiga especialitzada, on les provin al peu de l'alumna, i revisades després per la professora. No és recomanable comprar-les per internet sense provar-les ni fer servir les d'una altra persona."),
+        ],
+
+        "title_es": "¿a qué edad se empieza con puntas en ballet? · escola de dansa cristina colomé",
+        "desc_es": "¿Cuándo puede empezar a bailar con puntas una niña o un niño? Edad orientativa, las señales de que el pie y la técnica están preparados, los riesgos de adelantarlas y cómo elegir las primeras puntas. Guía de la escuela Cristina Colomé, Barcelona.",
+        "h1_es": "¿a qué edad se empieza con puntas en ballet?",
+        "excerpt_es": "¿Cuándo se puede empezar a bailar con puntas? La edad orientativa, las señales de que el pie está preparado, por qué no hay que adelantarlas y cómo deben ser las primeras puntas.",
+        "intro_es": "Es la ilusión de casi todo el que hace ballet: el día de las primeras puntas. Y también una de las preguntas que más nos hacen las familias. La respuesta corta: no depende tanto de la edad como de la preparación. La larga, aquí.",
+        "cos_es": """
+<p>Las puntas son el momento mágico del <a href="/es/ballet-clasico/">ballet clásico</a>: bailar sobre el extremo de los dedos, dentro de unas zapatillas con la punta rígida. Precisamente porque todo el peso del cuerpo recae en un punto tan pequeño, no se llega a ellas por edad, sino cuando <strong>el pie, el tobillo y la técnica están preparados</strong>. En la escuela lo decide la profesora, alumna por alumna.</p>
+
+<h2>la edad orientativa: hacia los 11 o 12 años</h2>
+<p>Como referencia general, la mayoría de alumnas empiezan con puntas <strong>entre los 11 y los 12 años</strong>, y rara vez antes. Hay una razón física: los huesos del pie todavía crecen y no están del todo formados hasta la adolescencia, y cargarlos antes de tiempo puede hacer daño. Pero la edad es solo un mínimo. Una alumna de 13 años que lleva un año bailando no está más preparada que una de 11 que lleva cinco.</p>
+
+<h2>lo que cuenta de verdad: la preparación</h2>
+<p>Antes de las puntas hacen falta, normalmente, <strong>unos cuantos años de clásico de forma regular</strong> (tres o cuatro es lo habitual) y un ritmo de <strong>dos o tres clases a la semana</strong>. Con un solo día, el cuerpo no acumula suficiente fuerza. Si te preguntas cuántos días le convienen, lo explicamos en <a href="/es/blog/cuantas-clases-danza-semana/">cuántas clases de danza a la semana</a>.</p>
+
+<h2>señales de que el pie está preparado</h2>
+<ul>
+<li><strong>Sube a media punta con control</strong>: hace relevés seguidos sin que el tobillo se vaya hacia fuera o hacia dentro.</li>
+<li><strong>Mantiene la espalda y el abdomen firmes</strong> mientras baila, sin hundirse.</li>
+<li><strong>Estira bien el pie</strong> y tiene fuerza en los dedos y en el arco, no solo flexibilidad.</li>
+<li><strong>Aguanta el equilibrio</strong> sobre una pierna en media punta.</li>
+<li><strong>Es constante</strong>: no falta a clase y hace caso de las correcciones.</li>
+</ul>
+<p>Muchas de estas señales se trabajan con ejercicios de «prepuntas» en la barra durante los cursos anteriores. Cuando la profesora ve que todo encaja, es ella quien da el visto bueno.</p>
+
+<h2>por qué no hay que adelantarlas</h2>
+<p>Empezar antes de tiempo no hace llegar más lejos: hace llegar con dolor. Un pie sin suficiente fuerza se tuerce, el peso se reparte mal y aparecen molestias en los tobillos, las rodillas o la espalda. También se corre el riesgo de coger vicios que luego cuesta mucho corregir. Esperar un curso más no es perder el tiempo: es la manera de bailar en puntas muchos años.</p>
+
+<h2>las primeras puntas: cómo deben ser</h2>
+<ul>
+<li><strong>Siempre probadas en una tienda especializada</strong>, nunca compradas por internet a ciegas ni heredadas de otra alumna: cada pie es distinto y la punta tiene que adaptarse al suyo.</li>
+<li><strong>Revisadas por la profesora</strong> antes de usarlas.</li>
+<li><strong>Con las cintas y las gomas cosidas en casa</strong>, y unos protectores para los dedos.</li>
+<li>Un par cuesta aproximadamente <strong>entre 60 y 100 €</strong> y, al principio, dura bastante, porque se baila poco rato con ellas.</li>
+</ul>
+<p>Todo lo que hace falta para el resto de clases lo tienes en el post sobre <a href="/es/blog/ropa-danza-que-llevar/">qué ropa llevar a danza</a>.</p>
+
+<h2>cómo son las primeras clases con puntas</h2>
+<p>Nada de salir al escenario el primer día. Se empieza <strong>en la barra, con poco rato al final de la clase</strong>, y se va alargando poco a poco hasta que el pie se acostumbra y se pueden hacer ejercicios en el centro. Los primeros meses son para aprender a subir y bajar bien, no para hacer piruetas. Y tranquilidad si al principio duelen los dedos: es normal, y las profesoras enseñan a protegerlos.</p>
+
+<h2>¿y los exámenes de la RAD?</h2>
+<p>Para quien prepara los <a href="/es/blog/examenes-rad-ballet/">exámenes de la Royal Academy of Dance</a>, las puntas forman parte de los niveles vocacionales, a partir del Intermediate Foundation. Son un buen objetivo porque marcan un camino ordenado: primero la base, después las puntas.</p>
+
+<h2>en resumen</h2>
+<p>Hacia los 11 o 12 años como mínimo, después de varios años de clásico regular y con dos o tres clases a la semana. Pero la última palabra no la tiene el calendario: la tiene la profesora, cuando ve que el pie y la técnica están preparados. Si tu hija o tu hijo sueña con las puntas, el camino empieza en el <a href="/es/ballet-clasico/">ballet clásico</a>: mira la <a href="/es/horarios/">parrilla de horarios</a> o llámanos al <a href="tel:+34934179886">934 17 98 86</a>. La primera clase es gratuita.</p>
+""",
+        "faqs_es": [
+            ("¿a qué edad se empieza a bailar con puntas?",
+             "Como referencia, entre los 11 y los 12 años, y rara vez antes. Pero más que la edad cuenta la preparación: varios años de ballet clásico regular, dos o tres clases a la semana y fuerza en el pie y el tobillo."),
+            ("¿quién decide cuándo una alumna puede ponerse puntas?",
+             "La profesora de clásico, alumna por alumna, cuando ve que el pie, el tobillo y la técnica están preparados. En la escuela nunca se adelantan por ilusión."),
+            ("¿es peligroso empezar con puntas demasiado pronto?",
+             "Sí. Los huesos del pie siguen creciendo hasta la adolescencia y, sin suficiente fuerza, el peso se reparte mal: aparecen molestias en tobillos, rodillas o espalda, y vicios difíciles de corregir."),
+            ("¿dónde hay que comprar las primeras puntas?",
+             "En una tienda especializada, donde las prueben en el pie de la alumna, y revisadas después por la profesora. No es recomendable comprarlas por internet sin probarlas ni usar las de otra persona."),
+        ],
+    },
 ]
 
 

@@ -1,5 +1,6 @@
 # blog · consejos de danza y vida de escuela
 
+- [¿a qué edad se empieza con puntas en ballet?](https://escoladansa.com/es/blog/a-que-edad-puntas-ballet/) — ¿Cuándo se puede empezar a bailar con puntas? La edad orientativa, las señales de que el pie está preparado, por qué no hay que adelantarlas y cómo deben ser las primeras puntas.
 - [¿cuántas clases de danza a la semana le convienen?](https://escoladansa.com/es/blog/cuantas-clases-danza-semana/) — ¿Un día, dos o tres? Cuántas clases de danza a la semana convienen según la edad, las señales para añadir otra y cuánto cuesta de verdad el segundo día.
 - [Clases de baile por la mañana en Barcelona: el barre de las 11](https://escoladansa.com/es/blog/clases-baile-manana-barcelona/) — ¿Tienes las mañanas libres y las tardes llenas? Los lunes y miércoles a las 11 hay barre: danza, fuerza y postura para empezar el día, sin haber bailado nunca.
 - [Danza y estudios: cómo mantener el ritmo cuando llegan los exámenes](https://escoladansa.com/es/blog/danza-y-estudios/) — Llegan los primeros exámenes y la danza parece lo primero que sobra. Por qué a menudo es al revés, y cómo organizar la semana para que quepa todo.
