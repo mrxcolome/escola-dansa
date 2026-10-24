@@ -6,7 +6,15 @@
     <atom:link href="https://escoladansa.com/es/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Consejos de danza para familias y adultos, y vida de escuela, desde Sant Gervasi (Barcelona).</description>
     <language>es</language>
-    <lastBuildDate>Mon, 19 Oct 2026 08:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 25 Oct 2026 08:00:00 +0200</lastBuildDate>
+    <item>
+      <title>¿a qué edad se empieza con puntas en ballet?</title>
+      <link>https://escoladansa.com/es/blog/a-que-edad-puntas-ballet/</link>
+      <guid isPermaLink="true">https://escoladansa.com/es/blog/a-que-edad-puntas-ballet/</guid>
+      <pubDate>Sun, 25 Oct 2026 08:00:00 +0200</pubDate>
+      <description>¿Cuándo puede empezar a bailar con puntas una niña o un niño? Edad orientativa, las señales de que el pie y la técnica están preparados, los riesgos de adelantarlas y cómo elegir las primeras puntas. Guía de la escuela Cristina Colomé, Barcelona.</description>
+      <enclosure url="https://escoladansa.com/assets/blog-puntes.jpg" type="image/jpeg" length="150000"/>
+    </item>
     <item>
       <title>¿cuántas clases de danza a la semana le convienen?</title>
       <link>https://escoladansa.com/es/blog/cuantas-clases-danza-semana/</link>
