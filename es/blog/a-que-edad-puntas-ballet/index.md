@@ -1,6 +1,6 @@
 # ¿a qué edad se empieza con puntas en ballet?
 
-*26 de octubre de 2026 · 5 min*
+*25 de octubre de 2026 · 5 min*
 
 Es la ilusión de casi todo el que hace ballet: el día de las primeras puntas. Y también una de las preguntas que más nos hacen las familias. La respuesta corta: no depende tanto de la edad como de la preparación. La larga, aquí.
 

@@ -1,6 +1,6 @@
 # A quina edat es comença amb puntes al ballet?
 
-*26 d'octubre de 2026 · 5 min*
+*25 d'octubre de 2026 · 5 min*
 
 És la il·lusió de gairebé tothom que fa ballet: el dia de les primeres puntes. I també una de les preguntes que més ens fan les famílies. La resposta curta: no depèn tant de l'edat com de la preparació. La llarga, aquí.
 
