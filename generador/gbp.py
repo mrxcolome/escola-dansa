@@ -21,7 +21,8 @@ import re
 import sys
 import urllib.parse
 import urllib.request
-from datetime import date
+from datetime import datetime
+from zoneinfo import ZoneInfo
 
 AQUI = os.path.dirname(os.path.abspath(__file__))
 ARREL = os.path.dirname(AQUI)
@@ -234,7 +235,7 @@ def ordre_publica():
     sys.path.insert(0, AQUI)
     from blog_posts import POSTS
     publicats = json.load(open(PUBLICATS, encoding="utf-8"))
-    avui = date.today().isoformat()
+    avui = datetime.now(ZoneInfo("Europe/Madrid")).date().isoformat()  # el runner va en UTC
     nous = [p for p in POSTS if p["slug"] not in publicats and p["data"] <= avui]
     if not nous:
         print("cap post nou per publicar a la fitxa")
