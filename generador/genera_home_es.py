@@ -169,7 +169,7 @@ PARELLES = [
     # ── opinions (a la versió ES: cites en castellà ORIGINAL de Google) ──
     ('<div class="etiqueta reveal">opinions</div>', '<div class="etiqueta reveal">opiniones</div>'),
     ('les famílies ho diuen millor que nosaltres', 'las familias lo dicen mejor que nosotros'),
-    ('<strong>4,9</strong> a Google · 37 opinions', '<strong>4,9</strong> en Google · 37 opiniones'),
+    ('<strong>4,9</strong> a Google · 39 opinions', '<strong>4,9</strong> en Google · 39 opiniones'),
     ('«Una escola increïble! Professors immillorables, ambient sa, familiar i proper. Un gran nivell amb uns professionals exemplars.»',
      '«Una escuela increíble! Profesores inmejorables, ambiente sano, familiar y cercano. Un gran nivel con unos profesionales ejemplares.»'),
     ('«Escola fantàstica per a totes les edats! Ambient espectacularment agradable i familiar. Et permet aprendre totes les disciplines i amb diferents nivells.»',
