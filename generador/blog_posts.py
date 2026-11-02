@@ -2644,6 +2644,127 @@ POSTS = [
              "En una tienda especializada, donde las prueben en el pie de la alumna, y revisadas después por la profesora. No es recomendable comprarlas por internet sin probarlas ni usar las de otra persona."),
         ],
     },
+
+    {
+        "slug": "el-meu-fill-vol-deixar-la-dansa",
+        "slug_es": "mi-hijo-quiere-dejar-la-danza",
+        "categoria": "famílies",
+        "categoria_es": "familias",
+        "data": "2026-11-03",
+        "data_ca": "3 de novembre de 2026",
+        "data_es": "3 de noviembre de 2026",
+        "minuts": 5,
+        "nom_wa": "dansa",
+        "nom_wa_es": "danza",
+        "og": "blog-deixar-dansa.jpg",
+        "img": "blog-deixar-dansa.jpg",
+        "img_alt": "Una bossa de dansa oberta amb unes sabatilles de ballet a dins, sobre un banc al passadís d'una escola de dansa, amb llum de tarda",
+        "img_alt_es": "Una bolsa de danza abierta con unas zapatillas de ballet dentro, sobre un banco en el pasillo de una escuela de danza, con luz de tarde",
+        "related_pagines": ["dansa-infantil", "horaris", "preus"],
+        "related_posts": ["primeres-setmanes-de-curs", "triar-estil-dansa-fill", "dansa-i-estudis"],
+
+        "title": "el meu fill vol deixar la dansa: què fem? · escola de dansa cristina colomé",
+        "desc": "La teva filla o el teu fill diu que vol deixar la dansa? Per què passa, com parlar-ne sense pressionar, què provar abans de plegar i quan és millor acceptar-ho. Guia de l'escola Cristina Colomé, Barcelona.",
+        "h1": "el meu fill vol deixar la dansa: què fem?",
+        "excerpt": "«No vull anar més a dansa.» Per què passa, com parlar-ne sense pressionar, què es pot provar abans de plegar i quan és millor deixar-ho estar.",
+        "intro": "Un dia, sense avisar: «no vull anar més a dansa». Fa anys que hi va, li agradava, i ara no. És una de les situacions que més desconcerten les famílies. Abans de decidir res, val la pena entendre què hi ha al darrere.",
+        "cos": """
+<p>Que un nen o una adolescent vulgui deixar una activitat que li agradava és molt normal. No vol dir que hagi fracassat ningú, ni ell ni vosaltres. Moltes vegades, «vull deixar la dansa» és la manera curta de dir una altra cosa. Per això el primer pas no és dir que sí ni que no: és <strong>escoltar</strong>.</p>
+
+<h2>per què passa: els motius més habituals</h2>
+<ul>
+<li><strong>Una mala setmana.</strong> Una correcció que li ha sabut greu, una discussió amb una companya, un pas que no li surt. Sovint es passa tan de pressa com ha vingut.</li>
+<li><strong>El grup ja no li encaixa.</strong> Les amigues han plegat, ha canviat de grup o el nivell li queda curt o llarg.</li>
+<li><strong>Massa coses a l'agenda.</strong> Amb l'institut arriben els deures i els exàmens, i la dansa és el primer que sembla que sobra. En parlem al post <a href="/blog/dansa-i-estudis/">dansa i estudis</a>.</li>
+<li><strong>El cos canvia.</strong> A la pubertat, el creixement i la mirada dels altres poden fer que se senti incòmode al mirall o amb la roba de dansa.</li>
+<li><strong>Vol una altra cosa.</strong> Fa anys que fa el mateix estil i té ganes de provar-ne un altre, però no sap com dir-ho.</li>
+<li><strong>De veritat ja no li agrada.</strong> També passa, i és tan vàlid com tota la resta.</li>
+</ul>
+
+<h2>com parlar-ne sense pressionar</h2>
+<p>Busca un moment tranquil, no just quan surt de classe enfadat. Pregunta més que no pas opinis: <em>«què és el que no t'agrada ara?»</em>, <em>«hi ha alguna cosa que hagi canviat?»</em>. Evita els arguments de culpa («amb tot el que hem pagat», «ara que anaves tan bé»): només fan que s'hi enroqui. I deixa clar que la decisió es pot prendre junts, sense presses.</p>
+
+<h2>què es pot provar abans de plegar</h2>
+<p>Moltes vegades no cal deixar la dansa, sinó canviar-ne alguna peça:</p>
+<ul>
+<li><strong>Canviar de grup</strong>, si el problema és el nivell o l'ambient.</li>
+<li><strong>Canviar d'estil.</strong> Qui porta anys de clàssic pot descobrir-se al <a href="/hip-hop/">hip-hop</a>, al <a href="/dansa-contemporania/">contemporani</a> o al <a href="/jazz/">jazz</a>. Si no sabeu cap a on, us pot ajudar la guia per <a href="/blog/triar-estil-dansa-fill/">triar l'estil de dansa del teu fill</a>.</li>
+<li><strong>Fer un dia menys</strong> a la setmana durant una temporada, perquè torni a ser un moment per gaudir i no una obligació.</li>
+<li><strong>Parlar amb la professora.</strong> Ella veu coses a la sala que a casa no es veuen, i sovint té la clau.</li>
+</ul>
+<p>A l'escola no hi ha permanència: es pot canviar de grup o d'estil durant el curs sense cap problema.</p>
+
+<h2>esperar al final del trimestre?</h2>
+<p>Una bona fórmula és pactar un termini curt: <strong>acabar el trimestre</strong> o unes quantes setmanes més, i després tornar-ne a parlar. Si era una mala ratxa, sovint passa sola. Si no, la decisió arribarà més pensada. El que no funciona és obligar-lo a anar-hi indefinidament a contracor: la dansa s'ha de viure amb ganes.</p>
+
+<h2>quan és millor acceptar-ho</h2>
+<p>Si després de parlar-ne i de provar algun canvi continua sense ganes, si cada classe és una lluita o si té clar que vol dedicar el temps a una altra cosa, toca acceptar-ho. Res del que ha après es perd: la coordinació, l'oïda musical, la disciplina i la confiança es queden per sempre. I la porta queda oberta. Moltes alumnes tornen anys després, de vegades als grups d'<a href="/dansa-adults/">adults</a>.</p>
+
+<h2>en resum</h2>
+<p>Escolta abans de decidir, busca el motiu real, prova un canvi de grup, d'estil o de ritme, i pacta un termini curt. Si al final vol plegar, que ho faci sentint que ha estat escoltat. Si vols parlar-ne amb nosaltres, truca'ns al <a href="tel:+34934179886">934 17 98 86</a> o passa per l'escola: ho mirem junts.</p>
+""",
+        "faqs": [
+            ("què faig si el meu fill vol deixar la dansa?",
+             "Primer, escoltar per entendre el motiu real: una mala setmana, el grup, l'agenda, els canvis del cos o les ganes de fer una altra cosa. Després, provar algun canvi (de grup, d'estil o de dies) i pactar un termini curt, com acabar el trimestre, abans de decidir."),
+            ("l'he d'obligar a continuar fins a final de curs?",
+             "Obligar-lo indefinidament a contracor no funciona. Sí que pot ser útil pactar un termini curt, com acabar el trimestre, i després tornar-ne a parlar amb calma."),
+            ("es pot canviar d'estil o de grup a mig curs?",
+             "Sí. A l'escola no hi ha permanència: es pot canviar de grup o d'estil durant el curs, i també donar-se de baixa sense penalització."),
+            ("si ho deixa, haurà perdut el temps?",
+             "No. La coordinació, l'oïda musical, la disciplina i la confiança que dona la dansa es queden per sempre. I moltes alumnes hi tornen anys després."),
+        ],
+
+        "title_es": "mi hijo quiere dejar la danza: ¿qué hacemos? · escola de dansa cristina colomé",
+        "desc_es": "¿Tu hija o tu hijo dice que quiere dejar la danza? Por qué pasa, cómo hablarlo sin presionar, qué probar antes de dejarlo y cuándo es mejor aceptarlo. Guía de la escuela Cristina Colomé, Barcelona.",
+        "h1_es": "mi hijo quiere dejar la danza: ¿qué hacemos?",
+        "excerpt_es": "«No quiero ir más a danza.» Por qué pasa, cómo hablarlo sin presionar, qué se puede probar antes de dejarlo y cuándo es mejor aceptarlo.",
+        "intro_es": "Un día, sin avisar: «no quiero ir más a danza». Lleva años yendo, le gustaba, y ahora no. Es una de las situaciones que más desconciertan a las familias. Antes de decidir nada, vale la pena entender qué hay detrás.",
+        "cos_es": """
+<p>Que un niño o una adolescente quiera dejar una actividad que le gustaba es muy normal. No quiere decir que haya fracasado nadie, ni él ni vosotros. Muchas veces, «quiero dejar la danza» es la manera corta de decir otra cosa. Por eso el primer paso no es decir que sí ni que no: es <strong>escuchar</strong>.</p>
+
+<h2>por qué pasa: los motivos más habituales</h2>
+<ul>
+<li><strong>Una mala semana.</strong> Una corrección que le ha sentado mal, una discusión con una compañera, un paso que no le sale. A menudo se pasa tan rápido como ha venido.</li>
+<li><strong>El grupo ya no le encaja.</strong> Las amigas lo han dejado, ha cambiado de grupo o el nivel le queda corto o largo.</li>
+<li><strong>Demasiadas cosas en la agenda.</strong> Con el instituto llegan los deberes y los exámenes, y la danza es lo primero que parece que sobra. Lo hablamos en el post <a href="/es/blog/danza-y-estudios/">danza y estudios</a>.</li>
+<li><strong>El cuerpo cambia.</strong> En la pubertad, el crecimiento y la mirada de los demás pueden hacer que se sienta incómodo frente al espejo o con la ropa de danza.</li>
+<li><strong>Quiere otra cosa.</strong> Lleva años haciendo el mismo estilo y tiene ganas de probar otro, pero no sabe cómo decirlo.</li>
+<li><strong>De verdad ya no le gusta.</strong> También pasa, y es tan válido como todo lo demás.</li>
+</ul>
+
+<h2>cómo hablarlo sin presionar</h2>
+<p>Busca un momento tranquilo, no justo cuando sale de clase enfadado. Pregunta más que opines: <em>«¿qué es lo que no te gusta ahora?»</em>, <em>«¿ha cambiado algo?»</em>. Evita los argumentos de culpa («con todo lo que hemos pagado», «ahora que ibas tan bien»): solo hacen que se cierre en banda. Y deja claro que la decisión se puede tomar juntos, sin prisas.</p>
+
+<h2>qué se puede probar antes de dejarlo</h2>
+<p>Muchas veces no hace falta dejar la danza, sino cambiar alguna pieza:</p>
+<ul>
+<li><strong>Cambiar de grupo</strong>, si el problema es el nivel o el ambiente.</li>
+<li><strong>Cambiar de estilo.</strong> Quien lleva años de clásico puede descubrirse en el <a href="/es/hip-hop/">hip-hop</a>, en el <a href="/es/danza-contemporanea/">contemporáneo</a> o en el <a href="/es/jazz/">jazz</a>. Si no sabéis hacia dónde, os puede ayudar la guía para <a href="/es/blog/elegir-estilo-danza-hijo/">elegir el estilo de danza de tu hijo</a>.</li>
+<li><strong>Hacer un día menos</strong> a la semana durante una temporada, para que vuelva a ser un momento para disfrutar y no una obligación.</li>
+<li><strong>Hablar con la profesora.</strong> Ella ve cosas en la sala que en casa no se ven, y a menudo tiene la clave.</li>
+</ul>
+<p>En la escuela no hay permanencia: se puede cambiar de grupo o de estilo durante el curso sin ningún problema.</p>
+
+<h2>¿esperar al final del trimestre?</h2>
+<p>Una buena fórmula es pactar un plazo corto: <strong>terminar el trimestre</strong> o unas cuantas semanas más, y luego volver a hablarlo. Si era una mala racha, a menudo se pasa sola. Si no, la decisión llegará más pensada. Lo que no funciona es obligarle a ir indefinidamente a disgusto: la danza tiene que vivirse con ganas.</p>
+
+<h2>cuándo es mejor aceptarlo</h2>
+<p>Si después de hablarlo y de probar algún cambio sigue sin ganas, si cada clase es una lucha o si tiene claro que quiere dedicar el tiempo a otra cosa, toca aceptarlo. Nada de lo aprendido se pierde: la coordinación, el oído musical, la disciplina y la confianza se quedan para siempre. Y la puerta queda abierta. Muchas alumnas vuelven años después, a veces a los grupos de <a href="/es/danza-adultos/">adultos</a>.</p>
+
+<h2>en resumen</h2>
+<p>Escucha antes de decidir, busca el motivo real, prueba un cambio de grupo, de estilo o de ritmo, y pacta un plazo corto. Si al final quiere dejarlo, que lo haga sintiendo que ha sido escuchado. Si quieres hablarlo con nosotros, llámanos al <a href="tel:+34934179886">934 17 98 86</a> o pásate por la escuela: lo vemos juntos.</p>
+""",
+        "faqs_es": [
+            ("¿qué hago si mi hijo quiere dejar la danza?",
+             "Primero, escuchar para entender el motivo real: una mala semana, el grupo, la agenda, los cambios del cuerpo o las ganas de hacer otra cosa. Después, probar algún cambio (de grupo, de estilo o de días) y pactar un plazo corto, como terminar el trimestre, antes de decidir."),
+            ("¿tengo que obligarle a seguir hasta final de curso?",
+             "Obligarle indefinidamente a disgusto no funciona. Sí que puede ser útil pactar un plazo corto, como terminar el trimestre, y después volver a hablarlo con calma."),
+            ("¿se puede cambiar de estilo o de grupo a mitad de curso?",
+             "Sí. En la escuela no hay permanencia: se puede cambiar de grupo o de estilo durante el curso, y también darse de baja sin penalización."),
+            ("si lo deja, ¿habrá perdido el tiempo?",
+             "No. La coordinación, el oído musical, la disciplina y la confianza que da la danza se quedan para siempre. Y muchas alumnas vuelven años después."),
+        ],
+    },
 ]
 
 
