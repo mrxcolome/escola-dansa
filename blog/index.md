@@ -1,5 +1,6 @@
 # blog · consells de dansa i vida d’escola
 
+- [El meu fill vol deixar la dansa: què fem?](https://escoladansa.com/blog/el-meu-fill-vol-deixar-la-dansa/) — «No vull anar més a dansa.» Per què passa, com parlar-ne sense pressionar, què es pot provar abans de plegar i quan és millor deixar-ho estar.
 - [A quina edat es comença amb puntes al ballet?](https://escoladansa.com/blog/a-quina-edat-puntes-ballet/) — Quan es pot començar a ballar amb puntes? L'edat orientativa, els senyals que el peu està a punt, per què no s'han d'avançar i com han de ser les primeres puntes.
 - [Quantes classes de dansa a la setmana li convenen?](https://escoladansa.com/blog/quantes-classes-dansa-setmana/) — Un dia, dos o tres? Quantes classes de dansa a la setmana convenen segons l'edat, els senyals per afegir-ne una altra i quant costa de debò el segon dia.
 - [Classes de dansa al matí a Barcelona: el barre de les 11](https://escoladansa.com/blog/classes-dansa-mati-barcelona/) — Tens els matins lliures i els vespres plens? Els dilluns i dimecres a les 11 hi ha barre: dansa, força i postura per començar el dia, sense haver ballat mai.

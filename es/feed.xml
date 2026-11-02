@@ -6,7 +6,15 @@
     <atom:link href="https://escoladansa.com/es/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Consejos de danza para familias y adultos, y vida de escuela, desde Sant Gervasi (Barcelona).</description>
     <language>es</language>
-    <lastBuildDate>Sun, 25 Oct 2026 08:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 03 Nov 2026 08:00:00 +0200</lastBuildDate>
+    <item>
+      <title>mi hijo quiere dejar la danza: ¿qué hacemos?</title>
+      <link>https://escoladansa.com/es/blog/mi-hijo-quiere-dejar-la-danza/</link>
+      <guid isPermaLink="true">https://escoladansa.com/es/blog/mi-hijo-quiere-dejar-la-danza/</guid>
+      <pubDate>Tue, 03 Nov 2026 08:00:00 +0200</pubDate>
+      <description>¿Tu hija o tu hijo dice que quiere dejar la danza? Por qué pasa, cómo hablarlo sin presionar, qué probar antes de dejarlo y cuándo es mejor aceptarlo. Guía de la escuela Cristina Colomé, Barcelona.</description>
+      <enclosure url="https://escoladansa.com/assets/blog-deixar-dansa.jpg" type="image/jpeg" length="150000"/>
+    </item>
     <item>
       <title>¿a qué edad se empieza con puntas en ballet?</title>
       <link>https://escoladansa.com/es/blog/a-que-edad-puntas-ballet/</link>

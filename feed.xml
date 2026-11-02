@@ -6,7 +6,15 @@
     <atom:link href="https://escoladansa.com/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Consells de dansa per a famílies i adults, i vida d&#x27;escola, des de Sant Gervasi (Barcelona).</description>
     <language>ca</language>
-    <lastBuildDate>Sun, 25 Oct 2026 08:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 03 Nov 2026 08:00:00 +0200</lastBuildDate>
+    <item>
+      <title>El meu fill vol deixar la dansa: què fem?</title>
+      <link>https://escoladansa.com/blog/el-meu-fill-vol-deixar-la-dansa/</link>
+      <guid isPermaLink="true">https://escoladansa.com/blog/el-meu-fill-vol-deixar-la-dansa/</guid>
+      <pubDate>Tue, 03 Nov 2026 08:00:00 +0200</pubDate>
+      <description>La teva filla o el teu fill diu que vol deixar la dansa? Per què passa, com parlar-ne sense pressionar, què provar abans de plegar i quan és millor acceptar-ho. Guia de l&#x27;escola Cristina Colomé, Barcelona.</description>
+      <enclosure url="https://escoladansa.com/assets/blog-deixar-dansa.jpg" type="image/jpeg" length="150000"/>
+    </item>
     <item>
       <title>A quina edat es comença amb puntes al ballet?</title>
       <link>https://escoladansa.com/blog/a-quina-edat-puntes-ballet/</link>
