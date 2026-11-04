@@ -497,6 +497,32 @@ def modul_home():
     print(f"modul del blog injectat a index.html ({len(posts3)} targetes)")
 
 
+# ─────────────────────────────────────────────────────────────────────────────
+# BLOG A LLMS.TXT — llista tots els posts (CA i ES, del més nou al més antic)
+# entre els marcadors <!-- BLOG-AUTO --> ... <!-- /BLOG-AUTO --> de llms.txt.
+# Els assistents d'IA citen sobretot els posts ES: hi han de ser tots.
+# ─────────────────────────────────────────────────────────────────────────────
+def llms_blog():
+    cami = os.path.join(ARREL, "llms.txt")
+    with open(cami, encoding="utf-8") as f:
+        t = f.read()
+    inici, fi = "<!-- BLOG-AUTO -->", "<!-- /BLOG-AUTO -->"
+    if inici not in t or fi not in t:
+        print("AVIS: llms.txt sense marcadors BLOG-AUTO — llista del blog NO actualitzada")
+        return
+    posts = sorted(POSTS, key=lambda p: p["data"], reverse=True)
+    linies = [f"- [El blog]({gp.DOMINI}/blog/): consells de dansa per a famílies i adults, guies per començar i vida d'escola"]
+    linies += [f"- [{maj(p['h1'])}]({gp.DOMINI}/blog/{p['slug']}/): {p['excerpt']}" for p in posts]
+    linies += ["", "### En español", "",
+               f"- [El blog]({gp.DOMINI}/es/blog/): consejos de danza para familias y adultos, guías para empezar y vida de escuela"]
+    linies += [f"- [{maj(p['h1_es'])}]({gp.DOMINI}/es/blog/{p['slug_es']}/): {p['excerpt_es']}" for p in posts]
+    pre, resta = t.split(inici, 1)
+    _mig, post = resta.split(fi, 1)
+    with open(cami, "w", encoding="utf-8", newline="\n") as f:
+        f.write(pre + inici + "\n" + "\n".join(linies) + "\n" + fi + post)
+    print(f"llms.txt: {len(posts)} posts CA + {len(posts)} ES")
+
+
 def escriu(cami, contingut):
     os.makedirs(os.path.dirname(cami), exist_ok=True)
     with open(cami, "w", encoding="utf-8") as f:
@@ -514,6 +540,7 @@ def main():
     escriu(os.path.join(ARREL, "feed.xml"), feed_rss("ca"))
     escriu(os.path.join(ARREL, "es", "feed.xml"), feed_rss("es"))
     modul_home()
+    llms_blog()
     with open(os.path.join(ARREL, "sitemap.xml"), "w", encoding="utf-8") as f:
         f.write(sitemap())
     print(f"blog: {len(POSTS)} posts CA + {len(POSTS)} ES + 2 index + 2 feeds; sitemap.xml reescrit ({sitemap().count('<url>')} URLs)")
