@@ -1,0 +1,57 @@
+# Graella de la web ← Backstage (l'única font): generador/sincronitza_graella.py
+#  - cada hora (de 7 a 23 h a Barcelona) i a mà des de la pestanya Actions
+#  - si la graella del Backstage ha canviat: regenera la web, comprova els enllaços i la publica
+name: graella del backstage
+
+on:
+  schedule:
+    - cron: "7 5-21 * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: graella-backstage
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  actions: write
+
+jobs:
+  graella:
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - name: baixar el codi
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: llegir la graella del Backstage
+        id: sinc
+        run: |
+          python3 generador/sincronitza_graella.py | tee sortida.txt
+          if grep -q "^CANVIS" sortida.txt; then echo "canvis=si" >> "$GITHUB_OUTPUT"; fi
+          rm sortida.txt
+
+      - name: regenerar la web
+        if: steps.sinc.outputs.canvis == 'si'
+        run: |
+          cd generador
+          python3 genera_pagines.py
+          python3 genera_blog.py
+          python3 genera_home_es.py
+          python3 genera_markdown.py
+          python3 comprova_enllacos.py
+
+      - name: desar i publicar
+        if: steps.sinc.outputs.canvis == 'si'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898333+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "horaris: graella actualitzada des del Backstage"
+          git pull --rebase origin main
+          git push origin HEAD:main
+          # un push fet amb el token del workflow no llança el desplegament: es llança a mà
+          gh workflow run deploy.yml --ref main
