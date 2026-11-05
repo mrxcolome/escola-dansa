@@ -4,7 +4,7 @@ mai no és tard per començar a ballar — ni per tornar-hi. grups d'adults de t
 
 ## per a qui
 
-tant si no has ballat mai com si ho vas deixar fa anys, tenim un grup per a tu: els vespres (de 18.30 a 21.30) hi ha clàssic, contemporani, jazz, hip-hop, claqué, espanyol, dansa oriental i heels per nivells — i els matins, barre per començar el dia amb energia. sense exàmens ni pressió: ballar per gaudir-ne.
+tant si no has ballat mai com si ho vas deixar fa anys, tenim un grup per a tu: els vespres (de 18.30 a 21.45) hi ha clàssic, contemporani, jazz, hip-hop, claqué, espanyol, dansa oriental i heels per nivells — i els matins, barre per començar el dia amb energia. sense exàmens ni pressió: ballar per gaudir-ne.
 
 ## beneficis
 
@@ -25,7 +25,7 @@ quotes pel nombre de dies setmanals: des de 56 €/mes (infantil) i 60 €/mes (
 
 ### quins horaris fan les classes d'adults?
 
-la majoria són als vespres, entre les 18.30 i les 21.30, perfectes per després de la feina. i el barre, els dilluns i dimecres a les 11 del matí.
+la majoria són als vespres, entre les 18.30 i les 21.45, perfectes per després de la feina. i al matí, el barre (dilluns i dimecres) i el cos i moviment (dijous), a les 10.
 
 ### quant costen les classes per a adults?
 

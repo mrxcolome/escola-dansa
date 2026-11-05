@@ -17,7 +17,6 @@ para adultos que quieren entrenar bailando: el fit dance combina coreografía y 
 | día | hora | grupo | sala |
 |---|---|---|---|
 | lunes | 19.30 | fit dance | sala N |
-| lunes | 20.30 | femme empower · adultos intermedio | sala N |
 
 ## precios
 

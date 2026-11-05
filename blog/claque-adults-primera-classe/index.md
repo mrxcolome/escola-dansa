@@ -54,7 +54,7 @@ No cal practicar a casa per avançar, però si et ve de gust repassar, n'hi ha p
 
 ## On i quan
 
-A l'escola tenim grups de claqué d'adults **els dimarts i els dijous a les 18.30**, i un grup juvenil els dimarts a les 19.45. Els tens tots a la [graella d'horaris](/horaris/), i les quotes, a [preus](/preus/). Si també et fan gràcia altres estils, fes una ullada a totes les opcions de [dansa per a adults](/dansa-adults/).
+A l'escola tenim grups de claqué d'adults **els dimarts i els dijous a les 18.45**. Els tens tots a la [graella d'horaris](/horaris/), i les quotes, a [preus](/preus/). Si també et fan gràcia altres estils, fes una ullada a totes les opcions de [dansa per a adults](/dansa-adults/).
 
 La primera classe és gratuïta: vine amb sabates de sola dura i ganes de fer soroll.
 
@@ -74,7 +74,7 @@ Sí. Al grup d'adults s'hi pot entrar de zero: el claqué no demana flexibilitat
 
 ### Quins dies hi ha claqué per a adults?
 
-Els dimarts i els dijous a les 18.30. Hi ha també un grup juvenil els dimarts a les 19.45. Tens tots els horaris a la graella de la web.
+Els dimarts i els dijous a les 18.45. Tens tots els horaris a la graella de la web.
 
 ---
 

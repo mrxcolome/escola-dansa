@@ -4,7 +4,7 @@ el ritmo en los pies. el claqué convierte al bailarín en músico: cada paso es
 
 ## para quién
 
-grupos juveniles y de adultos (intermedio). es una disciplina única: trabaja el ritmo como ninguna otra y engancha desde el primer día. si te gusta la música tanto como bailar, el claqué te hará feliz.
+grupos de adultos (martes y jueves a las 18.45). es una disciplina única: trabaja el ritmo como ninguna otra y engancha desde el primer día. si te gusta la música tanto como bailar, el claqué te hará feliz.
 
 ## beneficios
 
@@ -16,9 +16,8 @@ grupos juveniles y de adultos (intermedio). es una disciplina única: trabaja el
 
 | día | hora | grupo | sala |
 |---|---|---|---|
-| martes | 18.30 | claqué adultos intermedio | sala C |
-| martes | 19.45 | claqué juvenil A | sala N |
-| jueves | 18.30 | claqué adultos intermedio | sala C |
+| martes | 18.45 | claqué adultos II | sala C |
+| jueves | 18.45 | claqué adultos II | sala C |
 
 ## precios
 

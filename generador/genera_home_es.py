@@ -180,8 +180,8 @@ PARELLES = [
      '«Variedad de estilos, horarios y niveles, con un ambiente familiar y muy acogedor. Un trato cercano y personalizado, y un equipo profesional y entregado. Una escuela para aprender y disfrutar de la danza en todos sus sentidos.»'),
     ('<small>· ressenya a Google</small>', '<small>· reseña en Google</small>'),
     ("<small>horari d'atenció</small>", '<small>horario de atención</small>'),
-    ("de dilluns a divendres, de 17 a 21.30 h (dl i dc també d'11 a 12 h)",
-     'de lunes a viernes, de 17 a 21.30 h (lu y mi también de 11 a 12 h)'),
+    ("de dilluns a divendres, de 17 a 21.45 h (matins: dl, dc i dj de 10 a 11 h)",
+     'de lunes a viernes, de 17 a 21.45 h (mañanas: lu, mi y ju de 10 a 11 h)'),
     ('data-obre="layerPrivacitat">privacitat</button>', 'data-obre="layerPrivacitat">privacidad</button>'),
     ('★ deixa la teva ressenya', '★ deja tu reseña'),
 

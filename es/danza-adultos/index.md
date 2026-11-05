@@ -4,7 +4,7 @@ nunca es tarde para empezar a bailar — ni para volver. grupos de adultos de to
 
 ## para quién
 
-tanto si no has bailado nunca como si lo dejaste hace años, tenemos un grupo para ti: por las noches (de 18.30 a 21.30) hay clásico, contemporáneo, jazz, hip-hop, claqué, español, danza oriental y heels por niveles — y por las mañanas, barre para empezar el día con energía. sin exámenes ni presión: bailar para disfrutar.
+tanto si no has bailado nunca como si lo dejaste hace años, tenemos un grupo para ti: por las noches (de 18.30 a 21.45) hay clásico, contemporáneo, jazz, hip-hop, claqué, español, danza oriental y heels por niveles — y por las mañanas, barre para empezar el día con energía. sin exámenes ni presión: bailar para disfrutar.
 
 ## beneficios
 
@@ -25,7 +25,7 @@ cuotas por número de días semanales: desde 56 €/mes (infantil) y 60 €/mes 
 
 ### ¿qué horarios tienen las clases de adultos?
 
-la mayoría son por la noche, entre las 18.30 y las 21.30, perfectas para después del trabajo. y el barre, los lunes y miércoles a las 11 de la mañana.
+la mayoría son por la noche, entre las 18.30 y las 21.45, perfectas para después del trabajo. y por la mañana, el barre (lunes y miércoles) y cuerpo y movimiento (jueves), a las 10.
 
 ### ¿cuánto cuestan las clases para adultos?
 

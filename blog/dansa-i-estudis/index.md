@@ -24,7 +24,7 @@ La dansa entrena hàbits que es traslladen directament als estudis:
 
 ## Com organitzar-se perquè hi càpiga tot
 
-- **Trieu bé el dia i l'hora.** Els grups juvenils de l'escola fan classe entre les 17.00 i les 20.30, de dilluns a divendres. Una classe a primera hora de la tarda deixa el vespre lliure per estudiar; una al vespre pot servir de pausa entre dues tandes d'estudi. Ho teniu tot a la [graella d'horaris](/horaris/).
+- **Trieu bé el dia i l'hora.** Els grups juvenils de l'escola fan classe entre les 17.00 i les 20.45, de dilluns a divendres. Una classe a primera hora de la tarda deixa el vespre lliure per estudiar; una al vespre pot servir de pausa entre dues tandes d'estudi. Ho teniu tot a la [graella d'horaris](/horaris/).
 
 - **Feu de la classe una fita, no un obstacle.** «Acabo aquest tema i després vaig a dansa» funciona molt millor que «avui no vaig perquè tinc examen».
 

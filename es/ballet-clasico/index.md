@@ -17,20 +17,18 @@ tenemos grupos de clásico para todas las edades y niveles: infantiles, juvenile
 
 | día | hora | grupo | sala |
 |---|---|---|---|
-| lunes | 17.30 | clásico infantil A | sala C |
-| lunes | 18.30 | clásico puntas · juvenil B | sala C |
-| lunes | 19.30 | clásico adultos iniciación | sala C |
-| lunes | 19.30 | clásico adultos avanzado | sala H |
-| martes | 17.30 | clásico juvenil A | sala H |
-| martes | 18.30 | clásico juvenil C | sala H |
-| martes | 19.45 | clásico adultos intermedio | sala C |
-| miércoles | 17.15 | clásico juvenil B | sala H |
-| miércoles | 18.30 | clásico infantil B | sala N |
-| miércoles | 18.30 | clásico adultos iniciación | sala C |
-| miércoles | 19.30 | clásico adultos avanzado | sala H |
-| jueves | 17.30 | clásico infantil C | sala N |
-| jueves | 18.30 | clásico juvenil C | sala H |
-| jueves | 19.45 | clásico adultos intermedio | sala C |
+| lunes | 17.45 | clásico infantil II | sala C |
+| lunes | 18.30 | clásico juvenil II | sala H |
+| lunes | 18.30 | clásico adultos I | sala C |
+| martes | 17.30 | clásico juvenil I | sala H |
+| martes | 19.45 | clásico adultos II | sala C |
+| miércoles | 17.15 | clásico juvenil II | sala H |
+| miércoles | 17.30 | clásico infantil I | sala C |
+| miércoles | 18.30 | clásico infantil II | sala N |
+| miércoles | 18.30 | clásico adultos I | sala C |
+| miércoles | 19.30 | clásico adultos III | sala H |
+| jueves | 18.30 | clásico juvenil III | sala H |
+| jueves | 19.45 | clásico adultos II | sala C |
 
 ## precios
 

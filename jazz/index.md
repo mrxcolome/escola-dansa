@@ -16,12 +16,10 @@ energia, ritme i coreografies que enganxen. el jazz és la porta d'entrada perfe
 
 | dia | hora | grup | sala |
 |---|---|---|---|
-| dilluns | 17.00 | jazz infantil A | sala C |
-| dilluns | 18.30 | jazz infantil D | sala N |
-| dilluns | 18.30 | jazz adults bàsic | sala H |
-| dimarts | 17.15 | jazz infantil A | sala N |
-| dimecres | 17.30 | jazz infantil C | sala N |
-| dijous | 20.30 | jazz adults intermedi | sala H |
+| dilluns | 17.00 | jazz infantil II | sala C |
+| dilluns | 18.30 | jazz infantil III | sala N |
+| dimarts | 17.30 | jazz infantil I | sala N |
+| dimecres | 17.45 | jazz infantil II | sala N |
 | divendres | 17.45 | jazz juvenil | sala H |
 | divendres | 17.45 | jazz juvenil | sala N |
 

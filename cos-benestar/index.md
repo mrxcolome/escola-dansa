@@ -4,7 +4,7 @@ cuidar-se també és ballar. ioga per respirar, barre per tonificar amb ADN de d
 
 ## per a qui
 
-per a adults de totes les edats i condicions físiques: el barre als matins (dilluns i dimecres a les 11 h), i el ioga i la zumba als vespres. cap d'aquestes classes demana experiència — només ganes de trobar-te bé.
+per a adults de totes les edats i condicions físiques: el barre als matins (dilluns i dimecres a les 10 h), el cos i moviment el dijous a les 10 h, i el ioga i la zumba als vespres. cap d'aquestes classes demana experiència — només ganes de trobar-te bé.
 
 ## beneficis
 
@@ -16,11 +16,13 @@ per a adults de totes les edats i condicions físiques: el barre als matins (dil
 
 | dia | hora | grup | sala |
 |---|---|---|---|
-| dilluns | 11.00 | barre | sala C |
-| dimarts | 20.30 | ioga | sala C |
-| dimecres | 11.00 | barre | sala C |
+| dilluns | 10.00 | barre | sala C |
+| dimarts | 20.45 | ioga | sala C |
+| dimecres | 10.00 | barre | sala C |
 | dimecres | 19.30 | zumba | sala N |
-| dijous | 20.30 | ioga | sala C |
+| dijous | 10.00 | cos i moviment | sala C |
+| dijous | 19.30 | zumba | sala N |
+| dijous | 20.45 | ioga | sala C |
 
 ## preus
 
@@ -34,7 +36,7 @@ el barre és per a tothom: s'inspira en el ballet però és una classe de tonifi
 
 ### les classes de matí són per a qui?
 
-per a qui té els matins lliures i vol començar el dia cuidant-se: el barre de dilluns i dimecres a les 11 h.
+per a qui té els matins lliures i vol començar el dia cuidant-se: el barre de dilluns i dimecres a les 10 h.
 
 ---
 

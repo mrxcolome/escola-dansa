@@ -20,11 +20,11 @@ Depèn del que et demani el cos. El [barre i el ioga](/cos-benestar/) són porte
 
 ## Classes concretes per començar passats els 60
 
-- **Barre, dilluns i dimecres a les 11 del matí.** És la porta d'entrada que més recomanem a partir dels 60: es treballa a la barra, amb suport, i combina força, equilibri i postura. A més, és en horari de matí, quan la sala és tranquil·la.
+- **Barre, dilluns i dimecres a les 10 del matí.** És la porta d'entrada que més recomanem a partir dels 60: es treballa a la barra, amb suport, i combina força, equilibri i postura. A més, és en horari de matí, quan la sala és tranquil·la.
 
-- **Ioga, dimarts i dijous a les 20.30.** Per a qui busca flexibilitat i calma al vespre.
+- **Ioga, dimarts i dijous a les 20.45.** Per a qui busca flexibilitat i calma al vespre.
 
-- **Grups d'adults d'iniciació als vespres**, entre les 18.30 i les 21.30: clàssic, ball espanyol i més, per nivells. Els trobaràs tots a [dansa per a adults](/dansa-adults/).
+- **Grups d'adults d'iniciació als vespres**, entre les 18.30 i les 21.45: clàssic, ball espanyol i més, per nivells. Els trobaràs tots a [dansa per a adults](/dansa-adults/).
 
 Si tens alguna limitació (genolls, esquena, una operació recent), explica-la a la professora el primer dia: els exercicis s'adapten.
 
@@ -48,7 +48,7 @@ Explica-nos-la i adaptem: les professores ajusten exercicis contínuament. La da
 
 ### Hi ha classes de dansa al matí per a gent gran?
 
-Sí: el barre, els dilluns i els dimecres a les 11 del matí. És una classe a la barra, amb suport, pensada per treballar força, equilibri i postura, i és de les preferides de qui comença passats els 60.
+Sí: el barre, els dilluns i els dimecres a les 10 del matí. És una classe a la barra, amb suport, pensada per treballar força, equilibri i postura, i és de les preferides de qui comença passats els 60.
 
 ---
 

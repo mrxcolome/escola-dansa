@@ -4,7 +4,7 @@ el ritme als peus. el claqué converteix el ballarí en músic: cada pas és per
 
 ## per a qui
 
-grups juvenils i d'adults (intermedi). és una disciplina única: treballa el ritme com cap altra i engancha des del primer dia. si t'agrada la música tant com ballar, el claqué et farà feliç.
+grups d'adults (dimarts i dijous a les 18.45). és una disciplina única: treballa el ritme com cap altra i engancha des del primer dia. si t'agrada la música tant com ballar, el claqué et farà feliç.
 
 ## beneficis
 
@@ -16,9 +16,8 @@ grups juvenils i d'adults (intermedi). és una disciplina única: treballa el ri
 
 | dia | hora | grup | sala |
 |---|---|---|---|
-| dimarts | 18.30 | claqué adults intermedi | sala C |
-| dimarts | 19.45 | claqué juvenil A | sala N |
-| dijous | 18.30 | claqué adults intermedi | sala C |
+| dimarts | 18.45 | claqué adults II | sala C |
+| dijous | 18.45 | claqué adults II | sala C |
 
 ## preus
 

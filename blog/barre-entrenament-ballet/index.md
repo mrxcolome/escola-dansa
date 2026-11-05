@@ -42,7 +42,7 @@ Són exercicis de base de qualsevol classe de ballet, i justament per això func
 
 ## Quan i on
 
-A l'escola el barre viu als **matins: dilluns i dimecres a les 11 h** — l'hora perfecta si tens els vespres ocupats o vols començar el dia amb el cos posat a lloc. Forma part de la família de [cos i benestar](/cos-benestar/), juntament amb el ioga i la zumba, i com tot a l'escola, **la primera classe és gratuïta**. Vine amb roba còmoda i mitjons: la barra t'espera.
+A l'escola el barre viu als **matins: dilluns i dimecres a les 10 h** — l'hora perfecta si tens els vespres ocupats o vols començar el dia amb el cos posat a lloc. Forma part de la família de [cos i benestar](/cos-benestar/), juntament amb el ioga i la zumba, i com tot a l'escola, **la primera classe és gratuïta**. Vine amb roba còmoda i mitjons: la barra t'espera.
 
 ## Preguntes freqüents
 

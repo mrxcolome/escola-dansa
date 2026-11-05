@@ -42,7 +42,7 @@ Son ejercicios de base de cualquier clase de ballet, y precisamente por eso func
 
 ## Cuándo y dónde
 
-En la escuela el barre vive en las **mañanas: lunes y miércoles a las 11 h** — la hora perfecta si tienes las tardes ocupadas o quieres empezar el día con el cuerpo puesto en su sitio. Forma parte de la familia de [cuerpo y bienestar](/es/cuerpo-bienestar/), junto con el yoga y la zumba, y como todo en la escuela, **la primera clase es gratuita**. Ven con ropa cómoda y calcetines: la barra te espera.
+En la escuela el barre vive en las **mañanas: lunes y miércoles a las 10 h** — la hora perfecta si tienes las tardes ocupadas o quieres empezar el día con el cuerpo puesto en su sitio. Forma parte de la familia de [cuerpo y bienestar](/es/cuerpo-bienestar/), junto con el yoga y la zumba, y como todo en la escuela, **la primera clase es gratuita**. Ven con ropa cómoda y calcetines: la barra te espera.
 
 ## Preguntas frecuentes
 

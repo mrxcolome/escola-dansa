@@ -30,7 +30,7 @@ No hay un único camino bueno — está el que te apetezca más:
 
 - **[Danza oriental](/es/danza-oriental/)**: suave con las articulaciones, potente con el centro del cuerpo, y muy agradecida desde el primer día.
 
-- **Fit dance, yoga y barre**: si prefieres entrar por la puerta del [bienestar y el ejercicio](/es/cuerpo-bienestar/) y que el baile venga solo. Las mañanas de barre (lunes y miércoles a las 11 h) son perfectas si tienes las tardes ocupadas.
+- **Fit dance, yoga y barre**: si prefieres entrar por la puerta del [bienestar y el ejercicio](/es/cuerpo-bienestar/) y que el baile venga solo. Las mañanas de barre (lunes y miércoles a las 10 h) son perfectas si tienes las tardes ocupadas.
 
 Todos los grupos de adultos, con niveles y horarios, están en la página de [danza para adultos](/es/danza-adultos/).
 

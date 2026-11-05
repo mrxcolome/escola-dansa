@@ -17,20 +17,18 @@ tenim grups de clàssic per a totes les edats i nivells: infantils, juvenils i a
 
 | dia | hora | grup | sala |
 |---|---|---|---|
-| dilluns | 17.30 | clàssic infantil A | sala C |
-| dilluns | 18.30 | clàssic puntes · juvenil B | sala C |
-| dilluns | 19.30 | clàssic adults iniciació | sala C |
-| dilluns | 19.30 | clàssic adults avançat | sala H |
-| dimarts | 17.30 | clàssic juvenil A | sala H |
-| dimarts | 18.30 | clàssic juvenil C | sala H |
-| dimarts | 19.45 | clàssic adults intermedi | sala C |
-| dimecres | 17.15 | clàssic juvenil B | sala H |
-| dimecres | 18.30 | clàssic infantil B | sala N |
-| dimecres | 18.30 | clàssic adults iniciació | sala C |
-| dimecres | 19.30 | clàssic adults avançat | sala H |
-| dijous | 17.30 | clàssic infantil C | sala N |
-| dijous | 18.30 | clàssic juvenil C | sala H |
-| dijous | 19.45 | clàssic adults intermedi | sala C |
+| dilluns | 17.45 | clàssic infantil II | sala C |
+| dilluns | 18.30 | clàssic juvenil II | sala H |
+| dilluns | 18.30 | clàssic adults I | sala C |
+| dimarts | 17.30 | clàssic juvenil I | sala H |
+| dimarts | 19.45 | clàssic adults II | sala C |
+| dimecres | 17.15 | clàssic juvenil II | sala H |
+| dimecres | 17.30 | clàssic infantil I | sala C |
+| dimecres | 18.30 | clàssic infantil II | sala N |
+| dimecres | 18.30 | clàssic adults I | sala C |
+| dimecres | 19.30 | clàssic adults III | sala H |
+| dijous | 18.30 | clàssic juvenil III | sala H |
+| dijous | 19.45 | clàssic adults II | sala C |
 
 ## preus
 

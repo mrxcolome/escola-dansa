@@ -16,8 +16,8 @@ grups juvenils i d'adults de nivell intermedi. si t'atrau la nostra tradició de
 
 | dia | hora | grup | sala |
 |---|---|---|---|
-| dimecres | 19.30 | espanyol juvenil intermedi | sala C |
-| dimecres | 20.30 | espanyol adults intermedi | sala C |
+| dimecres | 19.30 | espanyol juvenil II | sala C |
+| dimecres | 20.30 | espanyol adults II | sala C |
 
 ## preus
 

@@ -60,22 +60,6 @@ PAGINES = [
             ("la base de totes les danses", "qui fa clàssic té més facilitat per al contemporani, el jazz i qualsevol altre estil."),
             ("musicalitat", "aprendre a escoltar la música i moure-s'hi és un regal per sempre."),
         ],
-        "horaris": [
-            ("dilluns", "17.30", "clàssic infantil A", "sala C"),
-            ("dilluns", "18.30", "clàssic puntes · juvenil B", "sala C"),
-            ("dilluns", "19.30", "clàssic adults iniciació", "sala C"),
-            ("dilluns", "19.30", "clàssic adults avançat", "sala H"),
-            ("dimarts", "17.30", "clàssic juvenil A", "sala H"),
-            ("dimarts", "18.30", "clàssic juvenil C", "sala H"),
-            ("dimarts", "19.45", "clàssic adults intermedi", "sala C"),
-            ("dimecres", "17.15", "clàssic juvenil B", "sala H"),
-            ("dimecres", "18.30", "clàssic infantil B", "sala N"),
-            ("dimecres", "18.30", "clàssic adults iniciació", "sala C"),
-            ("dimecres", "19.30", "clàssic adults avançat", "sala H"),
-            ("dijous", "17.30", "clàssic infantil C", "sala N"),
-            ("dijous", "18.30", "clàssic juvenil C", "sala H"),
-            ("dijous", "19.45", "clàssic adults intermedi", "sala C"),
-        ],
         "faqs": [
             ("cal experiència per començar ballet clàssic?",
              "no. hi ha grups d'iniciació tant per a infants com per a adults, i la primera classe de prova és gratuïta perquè ho comprovis sense compromís."),
@@ -101,16 +85,6 @@ PAGINES = [
             ("un cos fort i flexible", "treball de terra, caigudes, espirals: força i mobilitat reals per a tot el cos."),
             ("connexió amb un mateix", "respiració, pes, fluïdesa — una estona per escoltar-te i alliberar tensions."),
         ],
-        "horaris": [
-            ("dilluns", "20.30", "contemporani adults avançat", "sala H"),
-            ("dimecres", "18.15", "contemporani juvenil B", "sala H"),
-            ("dimecres", "20.30", "contemporani adults intermedi", "sala H"),
-            ("dijous", "17.30", "contemporani juvenil A", "sala H"),
-            ("dijous", "19.30", "contemporani juvenil C", "sala H"),
-            ("divendres", "17.30", "contemporani infantil", "sala C"),
-            ("divendres", "18.45", "contemporani juvenil", "sala H"),
-            ("divendres", "18.45", "contemporani juvenil", "sala N"),
-        ],
         "faqs": [
             ("què es treballa en una classe de contemporani?",
              "tècnica (treball de terra, espirals, salts), improvisació i creació coreogràfica, sempre adaptat al nivell del grup."),
@@ -133,16 +107,6 @@ PAGINES = [
             ("coordinació i ritme", "coreografies que treballen memòria, musicalitat i coordinació de tot el cos."),
             ("energia i forma física", "una classe de jazz és cardio disfressat de diversió."),
             ("confiança sobre la pista", "aprens a ballar davant dels altres i a gaudir-ne — al festival de fi de curs es nota!"),
-        ],
-        "horaris": [
-            ("dilluns", "17.00", "jazz infantil A", "sala C"),
-            ("dilluns", "18.30", "jazz infantil D", "sala N"),
-            ("dilluns", "18.30", "jazz adults bàsic", "sala H"),
-            ("dimarts", "17.15", "jazz infantil A", "sala N"),
-            ("dimecres", "17.30", "jazz infantil C", "sala N"),
-            ("dijous", "20.30", "jazz adults intermedi", "sala H"),
-            ("divendres", "17.45", "jazz juvenil", "sala H"),
-            ("divendres", "17.45", "jazz juvenil", "sala N"),
         ],
         "faqs": [
             ("a partir de quina edat es pot fer jazz?",
@@ -167,15 +131,6 @@ PAGINES = [
             ("forma física de veritat", "potència, resistència i control — una classe urbana crema energia de valent."),
             ("cultura i comunitat", "més que passos: musicalitat, estil propi i sentit de grup."),
         ],
-        "horaris": [
-            ("dilluns", "17.30", "hip-hop infantil B", "sala H"),
-            ("dimarts", "18.30", "hip-hop infantil C", "sala N"),
-            ("dimarts", "19.45", "hip-hop juvenil C", "sala H"),
-            ("dimecres", "20.30", "hip-hop adults avançat", "sala N"),
-            ("dijous", "17.30", "hip-hop juvenil B", "sala C"),
-            ("dijous", "18.30", "hip-hop infantil A", "sala N"),
-            ("divendres", "19.45", "hip-hop juvenil", "sala H"),
-        ],
         "faqs": [
             ("el meu fill no ha ballat mai: pot començar amb hip-hop?",
              "és una de les millors portes d'entrada: música que coneixen, moviments naturals i grups per edats. la primera classe de prova és gratuïta."),
@@ -195,16 +150,11 @@ PAGINES = [
         "desc": "classes de claqué (tap dance) a Sant Gervasi, Barcelona: el ritme als peus per a joves i adults, dimarts i dijous. la classe de prova és gratuïta i no cal portar sabates de claqué.",
         "h1": "claqué",
         "intro": "el ritme als peus. el claqué converteix el ballarí en músic: cada pas és percussió, i cada coreografia, una cançó.",
-        "per_a_qui": "grups juvenils i d'adults (intermedi). és una disciplina única: treballa el ritme com cap altra i engancha des del primer dia. si t'agrada la música tant com ballar, el claqué et farà feliç.",
+        "per_a_qui": "grups d'adults (dimarts i dijous a les 18.45). és una disciplina única: treballa el ritme com cap altra i engancha des del primer dia. si t'agrada la música tant com ballar, el claqué et farà feliç.",
         "beneficis": [
             ("oïda i ritme musical", "fer música amb els peus desenvolupa una musicalitat finíssima."),
             ("coordinació i agilitat", "peus ràpids, ment desperta: el claqué és gimnàstica per al cervell."),
             ("una tradició amb molt de swing", "del musical americà als escenaris d'avui — ballar claqué és pura elegància."),
-        ],
-        "horaris": [
-            ("dimarts", "18.30", "claqué adults intermedi", "sala C"),
-            ("dimarts", "19.45", "claqué juvenil A", "sala N"),
-            ("dijous", "18.30", "claqué adults intermedi", "sala C"),
         ],
         "faqs": [
             ("necessito sabates de claqué per provar?",
@@ -230,10 +180,6 @@ PAGINES = [
             ("tècnica exigent i completa", "braços, esquena, colpeig — un treball tècnic que complementa qualsevol altra dansa."),
             ("patrimoni viu", "ballar espanyol és mantenir viva una tradició única al món."),
         ],
-        "horaris": [
-            ("dimecres", "19.30", "espanyol juvenil intermedi", "sala C"),
-            ("dimecres", "20.30", "espanyol adults intermedi", "sala C"),
-        ],
         "faqs": [
             ("puc començar sense nivell?",
              "els grups actuals són de nivell intermedi, però parla amb nosaltres: valorem la teva base a la classe de prova gratuïta i et diem sincerament si t'hi pots incorporar."),
@@ -255,11 +201,6 @@ PAGINES = [
             ("expressió i autoestima", "una dansa que celebra el cos tal com és i et reconcilia amb el mirall."),
             ("esquena i postura", "el treball d'ondulacions enforteix i flexibilitza tota la cadena posterior."),
         ],
-        "horaris": [
-            ("dimarts", "20.30", "dansa del ventre · juvenil avançat", "sala N"),
-            ("dijous", "20.30", "dansa del ventre · adults avançat", "sala N"),
-            ("divendres", "17.00", "dansa del ventre · juvenil", "sala H"),
-        ],
         "faqs": [
             ("mai no n'he fet: puc apuntar-m'hi?",
              "els grups actuals són avançats, però vine a la classe de prova gratuïta i valorem el teu encaix — o t'avisem quan obrim grup d'iniciació."),
@@ -280,10 +221,6 @@ PAGINES = [
             ("ballar el que t'agrada", "coreografies reals dels artistes del moment: la motivació ve de sèrie."),
             ("actitud i seguretat", "el heels és una classe d'empoderament pur: postura, presència i confiança."),
             ("memòria coreogràfica", "aprendre coreos completes entrena la memòria i la neteja de moviment."),
-        ],
-        "horaris": [
-            ("dimarts", "20.30", "heels adults avançat", "sala H"),
-            ("divendres", "18.15", "k-pop infantil i juvenil", "sala C"),
         ],
         "faqs": [
             ("cal saber ballar per fer k-pop?",
@@ -319,23 +256,22 @@ PAGINES = [
         "slug": "formacio-escenica",
         "nom": "formació escènica",
         "title": "formació escènica per a joves a Barcelona · escola de dansa cristina colomé",
-        "desc": "formació escènica a Sant Gervasi (Barcelona): jazz, hip-hop, claqué, cant i interpretació en una sola formació per a joves que volen l'escenari.",
+        "desc": "formació escènica a Sant Gervasi (Barcelona): jazz, contemporani, hip-hop i dansa del ventre en una mateixa tarda, els divendres, per a joves que volen l'escenari.",
         "h1": "formació escènica",
-        "intro": "l'entrenament complet de l'artista: jazz, hip-hop, claqué, cant i interpretació, tot en una mateixa tarda. per a qui vol l'escenari de veritat.",
-        "per_a_qui": "per a joves que volen una formació artística completa: ballar diversos estils, cantar i interpretar. la millor preparació per a musicals, càstings i escenaris — o simplement per gaudir-ho tot.",
+        "intro": "l'entrenament complet de l'artista: jazz, contemporani, hip-hop i dansa del ventre, tot en una mateixa tarda de divendres. per a qui vol l'escenari de veritat.",
+        "per_a_qui": "per a joves que volen una formació artística completa: ballar diversos estils i fer-ho a l'escenari. la millor preparació per a musicals, càstings i escenaris — o simplement per gaudir-ho tot.",
         "beneficis": [
-            ("formació 360°", "cinc disciplines en una tarda: la polivalència que demana l'escenari actual."),
+            ("formació 360°", "quatre disciplines en una tarda: la polivalència que demana l'escenari actual."),
             ("tot en un", "una sola formació per tastar-ho tot i descobrir on brilles més."),
             ("esperit de companyia", "el grup funciona com una petita companyia: pinya, projecte i escenari."),
         ],
-        "sense_grup": True,  # curs 2026-27: el divendres ja no es fa (canvi d'horari del 20-oct)
         "faqs": [
-            ("hi ha grup aquest curs?",
-             "aquest curs no hi ha grup obert. si t'interessa, escriu-nos i t'avisarem si se n'obre un; mentrestant, el jazz, el hip-hop i el claqué tenen grups juvenils durant la setmana."),
+            ("quan es fa?",
+             "els divendres a la tarda, de 17.00 a 20.45, a les sales H i N: dansa del ventre, jazz, contemporani i hip-hop per a joves. els horaris de cada classe són a sota."),
             ("cal experiència prèvia?",
              "no: cal ganes. el format multidisciplinar permet que cadascú creixi des del seu punt de partida."),
         ],
-        "related": ["musical-interpretacio", "jazz", "claque", "hip-hop"],
+        "related": ["jazz", "dansa-contemporania", "hip-hop", "dansa-oriental"],
     },
     {
         "slug": "cos-benestar",
@@ -344,24 +280,17 @@ PAGINES = [
         "desc": "classes de ioga, barre i zumba a Sant Gervasi (Barcelona): cuida't ballant, als matins i als vespres. primera classe de prova gratuïta.",
         "h1": "cos & benestar",
         "intro": "cuidar-se també és ballar. ioga per respirar, barre per tonificar amb ADN de dansa i zumba per suar somrient.",
-        "per_a_qui": "per a adults de totes les edats i condicions físiques: el barre als matins (dilluns i dimecres a les 11 h), i el ioga i la zumba als vespres. cap d'aquestes classes demana experiència — només ganes de trobar-te bé.",
+        "per_a_qui": "per a adults de totes les edats i condicions físiques: el barre als matins (dilluns i dimecres a les 10 h), el cos i moviment el dijous a les 10 h, i el ioga i la zumba als vespres. cap d'aquestes classes demana experiència — només ganes de trobar-te bé.",
         "beneficis": [
             ("barre: tonificació amb elegància", "el millor del ballet (postura, cames, core) sense necessitat de saber ballar."),
             ("ioga: respirar i desconnectar", "flexibilitat, calma i una pausa de veritat en la setmana."),
             ("zumba: cardio amb somriure", "la classe on suar és una festa — ritmes llatins i energia amunt."),
         ],
-        "horaris": [
-            ("dilluns", "11.00", "barre", "sala C"),
-            ("dimarts", "20.30", "ioga", "sala C"),
-            ("dimecres", "11.00", "barre", "sala C"),
-            ("dimecres", "19.30", "zumba", "sala N"),
-            ("dijous", "20.30", "ioga", "sala C"),
-        ],
         "faqs": [
             ("no he fet mai dansa: puc fer barre?",
              "el barre és per a tothom: s'inspira en el ballet però és una classe de tonificació, no de coreografia. ideal per començar."),
             ("les classes de matí són per a qui?",
-             "per a qui té els matins lliures i vol començar el dia cuidant-se: el barre de dilluns i dimecres a les 11 h."),
+             "per a qui té els matins lliures i vol començar el dia cuidant-se: el barre de dilluns i dimecres a les 10 h."),
         ],
         "related": ["fit-dance", "ballet-classic", "dansa-adults"],
         "posts": ["barre-entrenament-ballet", "ballar-als-50-i-mes"],
@@ -378,10 +307,6 @@ PAGINES = [
             ("posar-se en forma sense avorrir-se", "quan l'entrenament és ballar, la constància ve sola."),
             ("força i actitud", "treball físic real amb música alta i energia de grup."),
             ("comunitat", "les classes d'empoderament creen pinya — vindràs per l'exercici i et quedaràs per la gent."),
-        ],
-        "horaris": [
-            ("dilluns", "19.30", "fit dance", "sala N"),
-            ("dilluns", "20.30", "femme empower · adults intermedi", "sala N"),
         ],
         "faqs": [
             ("quina forma física necessito?",
@@ -435,7 +360,7 @@ PAGINES = [
         "desc": "classes de dansa per a adults a Sant Gervasi (Barcelona): clàssic, contemporani, jazz, hip-hop, claqué i més, d'iniciació a avançat. 1a classe gratuïta.",
         "h1": "dansa per a adults",
         "intro": "mai no és tard per començar a ballar — ni per tornar-hi. grups d'adults de tots els nivells, als vespres i als matins, sense pressió i amb molt bon ambient.",
-        "per_a_qui": "tant si no has ballat mai com si ho vas deixar fa anys, tenim un grup per a tu: els vespres (de 18.30 a 21.30) hi ha clàssic, contemporani, jazz, hip-hop, claqué, espanyol, dansa oriental i heels per nivells — i els matins, barre per començar el dia amb energia. sense exàmens ni pressió: ballar per gaudir-ne.",
+        "per_a_qui": "tant si no has ballat mai com si ho vas deixar fa anys, tenim un grup per a tu: els vespres (de 18.30 a 21.45) hi ha clàssic, contemporani, jazz, hip-hop, claqué, espanyol, dansa oriental i heels per nivells — i els matins, barre per començar el dia amb energia. sense exàmens ni pressió: ballar per gaudir-ne.",
         "beneficis": [
             ("desconnectar de veritat", "una hora de dansa és una hora sense mòbil, sense feina i sense pantalles."),
             ("forma física sense gimnàs", "cardio, força, flexibilitat i postura — tot ballant."),
@@ -458,7 +383,7 @@ PAGINES = [
             ("tinc més de 40/50/60 anys: puc començar?",
              "és clar que sí — a l'escola diem que ballem de 0 a 99. tria una disciplina d'iniciació o el barre i comença al teu ritme."),
             ("quins horaris fan les classes d'adults?",
-             "la majoria són als vespres, entre les 18.30 i les 21.30, perfectes per després de la feina. i el barre, els dilluns i dimecres a les 11 del matí."),
+             "la majoria són als vespres, entre les 18.30 i les 21.45, perfectes per després de la feina. i al matí, el barre (dilluns i dimecres) i el cos i moviment (dijous), a les 10."),
             ("quant costen les classes per a adults?",
              "des de 60 €/mes (1 dia per setmana) fins a 104 €/mes (4 dies de classes de més d'una hora), amb opció trimestral. la primera classe de prova és gratuïta."),
         ],
@@ -808,45 +733,70 @@ def bloc_posts(p, lang="ca"):
 # ─────────────────────────────────────────────────────────────────────────────
 GRAELLA = {
     "dilluns": [
-        ("11.00", "barre", "", "sala C"), ("17.00", "jazz", "infantil A", "sala C"),
-        ("17.30", "hip-hop", "infantil B", "sala H"), ("17.30", "clàssic", "infantil A", "sala C"),
-        ("18.30", "jazz", "adults bàsic", "sala H"), ("18.30", "jazz", "infantil D", "sala N"),
-        ("18.30", "clàssic puntes", "juvenil B", "sala C"), ("19.30", "clàssic", "adults avançat", "sala H"),
-        ("19.30", "fit dance", "", "sala N"), ("19.30", "clàssic", "adults iniciació", "sala C"),
-        ("20.30", "contemporani", "adults avançat", "sala H"), ("20.30", "femme empower", "adults intermedi", "sala N"),
+        ("10.00", "barre", "", "sala C"), ("17.00", "jazz", "infantil II", "sala C"),
+        ("17.30", "hip-hop", "infantil II", "sala H"), ("17.30", "contemporani", "infantil II", "sala N"),
+        ("17.45", "clàssic", "infantil II", "sala C"), ("18.30", "clàssic", "juvenil II", "sala H"),
+        ("18.30", "jazz", "infantil III", "sala N"), ("18.30", "clàssic", "adults I", "sala C"),
+        ("19.30", "fit dance", "", "sala N"), ("19.30", "preparació de proves", "", "sala C"),
+        ("19.45", "contemporani", "adults I", "sala H"), ("20.30", "heels", "adults II", "sala N"),
     ],
     "dimarts": [
-        ("17.15", "jazz", "infantil A", "sala N"), ("17.30", "clàssic", "juvenil A", "sala H"),
-        ("17.30", "iniciació dansa", "grup B", "sala C"), ("18.30", "clàssic", "juvenil C", "sala H"),
-        ("18.30", "hip-hop", "infantil C", "sala N"), ("18.30", "claqué", "adults intermedi", "sala C"),
-        ("19.45", "hip-hop", "juvenil C", "sala H"), ("19.45", "claqué", "juvenil A", "sala N"),
-        ("19.45", "clàssic", "adults intermedi", "sala C"), ("20.30", "heels", "adults avançat", "sala H"),
-        ("20.30", "dansa del ventre", "juvenil avançat", "sala N"), ("20.30", "ioga", "", "sala C"),
+        ("17.30", "clàssic", "juvenil I", "sala H"), ("17.30", "jazz", "infantil I", "sala N"),
+        ("17.30", "iniciació dansa", "I", "sala C"), ("18.30", "hip-hop", "juvenil I", "sala H"),
+        ("18.30", "preparació de proves", "", "sala N"), ("18.45", "claqué", "adults II", "sala C"),
+        ("19.30", "hip-hop", "adults intermedi", "sala H"), ("19.45", "clàssic", "adults II", "sala C"),
+        ("20.30", "heels", "adults III", "sala H"), ("20.30", "dansa del ventre", "adults II", "sala N"),
+        ("20.45", "ioga", "", "sala C"),
     ],
     "dimecres": [
-        ("11.00", "barre", "", "sala C"), ("17.15", "clàssic", "juvenil B", "sala H"),
-        ("17.30", "jazz", "infantil C", "sala N"), ("17.30", "iniciació dansa", "grup B", "sala C"),
-        ("18.15", "contemporani", "juvenil B", "sala H"), ("18.30", "clàssic", "infantil B", "sala N"),
-        ("18.30", "clàssic", "adults iniciació", "sala C"), ("19.30", "clàssic", "adults avançat", "sala H"),
-        ("19.30", "zumba", "", "sala N"), ("19.30", "espanyol", "juvenil intermedi", "sala C"),
-        ("20.30", "contemporani", "adults intermedi", "sala H"), ("20.30", "hip-hop", "adults avançat", "sala N"),
-        ("20.30", "espanyol", "adults intermedi", "sala C"),
+        ("10.00", "barre", "", "sala C"), ("17.15", "clàssic", "juvenil II", "sala H"),
+        ("17.30", "clàssic", "infantil I", "sala C"), ("17.45", "jazz", "infantil II", "sala N"),
+        ("18.15", "contemporani", "juvenil II", "sala H"), ("18.30", "clàssic", "infantil II", "sala N"),
+        ("18.30", "clàssic", "adults I", "sala C"), ("19.30", "clàssic", "adults III", "sala H"),
+        ("19.30", "zumba", "", "sala N"), ("19.30", "espanyol", "juvenil II", "sala C"),
+        ("20.30", "contemporani", "adults III", "sala H"), ("20.30", "heels", "adults II", "sala N"),
+        ("20.30", "espanyol", "adults II", "sala C"),
     ],
     "dijous": [
-        ("17.30", "contemporani", "juvenil A", "sala H"), ("17.30", "clàssic", "infantil C", "sala N"),
-        ("17.30", "hip-hop", "juvenil B", "sala C"), ("18.30", "clàssic", "juvenil C", "sala H"),
-        ("18.30", "hip-hop", "infantil A", "sala N"), ("18.30", "claqué", "adults intermedi", "sala C"),
-        ("19.30", "contemporani", "juvenil C", "sala H"), ("19.45", "clàssic", "adults intermedi", "sala C"),
-        ("20.30", "jazz", "adults intermedi", "sala H"), ("20.30", "dansa del ventre", "adults avançat", "sala N"),
-        ("20.30", "ioga", "", "sala C"),
+        ("10.00", "cos i moviment", "", "sala C"), ("17.30", "contemporani", "juvenil A", "sala H"),
+        ("17.30", "iniciació dansa", "I", "sala N"), ("18.30", "clàssic", "juvenil III", "sala H"),
+        ("18.30", "hip-hop", "infantil I", "sala N"), ("18.45", "claqué", "adults II", "sala C"),
+        ("19.30", "contemporani", "adults II", "sala H"), ("19.30", "zumba", "", "sala N"),
+        ("19.45", "clàssic", "adults II", "sala C"), ("20.30", "dansa del ventre", "adults III", "sala H"),
+        ("20.45", "ioga", "", "sala C"),
     ],
     "divendres": [
-        ("17.00", "dansa del ventre", "juvenil", "sala H"), ("17.30", "contemporani", "infantil", "sala C"),
+        ("17.00", "dansa del ventre", "juvenil II", "sala H"), ("17.30", "contemporani", "infantil I", "sala C"),
         ("17.45", "jazz", "juvenil", "sala H"), ("17.45", "jazz", "juvenil", "sala N"),
-        ("18.15", "k-pop", "infantil i juvenil", "sala C"), ("18.45", "contemporani", "juvenil", "sala H"),
+        ("18.15", "k-pop", "infantil", "sala C"), ("18.45", "contemporani", "juvenil", "sala H"),
         ("18.45", "contemporani", "juvenil", "sala N"), ("19.45", "hip-hop", "juvenil", "sala H"),
     ],
 }
+
+# Horaris de cada pàgina d'activitat: es deriven de la GRAELLA (font única), així no se'n separen mai.
+# slug → filtre (dia, hora, activitat, grup, sala)
+FILTRES_HORARIS = {
+    "ballet-classic": lambda d, h, a, g, s: a == "clàssic",
+    "dansa-contemporania": lambda d, h, a, g, s: a == "contemporani",
+    "jazz": lambda d, h, a, g, s: a == "jazz",
+    "hip-hop": lambda d, h, a, g, s: a == "hip-hop",
+    "claque": lambda d, h, a, g, s: a == "claqué",
+    "ball-espanyol": lambda d, h, a, g, s: a == "espanyol",
+    "dansa-oriental": lambda d, h, a, g, s: a == "dansa del ventre",
+    "k-pop-heels": lambda d, h, a, g, s: a in ("k-pop", "heels"),
+    "formacio-escenica": lambda d, h, a, g, s: d == "divendres" and s in ("sala H", "sala N"),
+    "cos-benestar": lambda d, h, a, g, s: a in ("barre", "ioga", "zumba", "cos i moviment"),
+    "fit-dance": lambda d, h, a, g, s: a == "fit dance",
+}
+
+
+def horaris_de(filtre):
+    return [(d, h, f"{a} {g}".strip(), s) for d, files in GRAELLA.items() for h, a, g, s in files if filtre(d, h, a, g, s)]
+
+
+for _p in PAGINES:
+    if _p["slug"] in FILTRES_HORARIS:
+        _p["horaris"] = horaris_de(FILTRES_HORARIS[_p["slug"]])
 
 # TARIFES DEL CURS (font única per a /preus/) — files: (concepte, 1 dia, 2, 3, 4)
 TARIFA_MENSUAL = [
@@ -1259,14 +1209,15 @@ def _trad_grup(s):
                  ("adults intermedi", "adultos intermedio"), ("adults iniciació", "adultos iniciación"),
                  ("juvenil avançat", "juvenil avanzado"), ("juvenil intermedi", "juvenil intermedio"),
                  ("grup ", "grupo "), ("infantil i juvenil", "infantil y juvenil"), ("jazz, hip-hop, claqué, cant i interpretació",
-                                       "jazz, hip-hop, claqué, canto e interpretación")]:
+                                       "jazz, hip-hop, claqué, canto e interpretación"), ("adults", "adultos")]:
         s = s.replace(a, b)
     return s
 
 
 TRAD_ACT = {"clàssic": "clásico", "clàssic puntes": "clásico puntas", "iniciació dansa": "iniciación danza",
             "contemporani": "contemporáneo", "espanyol": "español", "dansa del ventre": "danza del vientre",
-            "ioga": "yoga", "interpretació": "interpretación", "formació escènica": "formación escénica"}
+            "ioga": "yoga", "interpretació": "interpretación", "formació escènica": "formación escénica",
+            "cos i moviment": "cuerpo y movimiento", "preparació de proves": "preparación de pruebas"}
 TRAD_DIES = {"dilluns": "lunes", "dimarts": "martes", "dimecres": "miércoles",
              "dijous": "jueves", "divendres": "viernes"}
 

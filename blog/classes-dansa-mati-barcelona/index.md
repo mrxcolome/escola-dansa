@@ -1,12 +1,12 @@
-# Classes de dansa al matí a Barcelona: el barre de les 11
+# Classes de dansa al matí a Barcelona: el barre de les 10
 
 *11 d'octubre de 2026 · 4 min*
 
-La majoria de classes de dansa per a adults són al vespre, després de la feina. Però no tothom té els vespres lliures, i hi ha qui prefereix començar el dia movent-se. Per a ells hi ha el barre de les 11.
+La majoria de classes de dansa per a adults són al vespre, després de la feina. Però no tothom té els vespres lliures, i hi ha qui prefereix començar el dia movent-se. Per a ells hi ha el barre de les 10.
 
-Busques **classes de dansa al matí a Barcelona** i només trobes horaris de vespre? És habitual: la majoria d'escoles concentren els adults entre les 7 i les 10 del vespre. A la nostra escola de Sant Gervasi també, però els **dilluns i els dimecres a les 11 del matí** la sala C és per al [barre](/blog/barre-entrenament-ballet/).
+Busques **classes de dansa al matí a Barcelona** i només trobes horaris de vespre? És habitual: la majoria d'escoles concentren els adults entre les 7 i les 10 del vespre. A la nostra escola de Sant Gervasi també, però els **dilluns i els dimecres a les 10 del matí** la sala C és per al [barre](/blog/barre-entrenament-ballet/).
 
-## Per a qui és una classe a les 11 del matí
+## Per a qui és una classe a les 10 del matí
 
 - **Si treballes a torns o des de casa** i el vespre és el moment que tens per a la família o per descansar.
 
@@ -24,23 +24,23 @@ Si en vols un tast abans de venir, al post del barre hi ha [5 exercicis de dansa
 
 ## Com és un matí de barre a l'escola
 
-A les 11 la sala és tranquil·la, amb llum natural i un grup reduït. La classe comença escalfant, passa a la barra, on es fa la major part del treball, i acaba amb estiraments. La professora adapta cada exercici al nivell i al cos de cadascú, i si tens alguna limitació (genolls, esquena, una lesió antiga), només cal que l'hi expliquis el primer dia.
+A les 10 la sala és tranquil·la, amb llum natural i un grup reduït. La classe comença escalfant, passa a la barra, on es fa la major part del treball, i acaba amb estiraments. La professora adapta cada exercici al nivell i al cos de cadascú, i si tens alguna limitació (genolls, esquena, una lesió antiga), només cal que l'hi expliquis el primer dia.
 
 Moltes alumnes venen els dos dies, dilluns i dimecres, perquè fan una rutina rodona. Però també es pot venir un sol dia.
 
 ## I si m'agrada ballar de veritat?
 
-Llavors el barre és una molt bona base, i quan vulguis fer el pas, els grups d'adults dels vespres (entre les 18.30 i les 21.30) tenen [clàssic](/ballet-classic/), [ball espanyol](/ball-espanyol/), jazz i molts més estils per nivells, també d'iniciació. Els tens tots a [dansa per a adults](/dansa-adults/).
+Llavors el barre és una molt bona base, i quan vulguis fer el pas, els grups d'adults dels vespres (entre les 18.30 i les 21.45) tenen [clàssic](/ballet-classic/), [ball espanyol](/ball-espanyol/), jazz i molts més estils per nivells, també d'iniciació. Els tens tots a [dansa per a adults](/dansa-adults/).
 
 ## Com començar
 
-Com totes les classes de l'escola, **la primera és gratuïta**: vine un dilluns o un dimecres a les 11 amb roba còmoda i mitjons. Els preus per a adults comencen a 60 € al mes amb un dia a la setmana, i els tens tots a [preus](/preus/). Per reservar la prova, truca'ns al [934 17 98 86](tel:+34934179886) o escriu-nos per WhatsApp.
+Com totes les classes de l'escola, **la primera és gratuïta**: vine un dilluns o un dimecres a les 10 amb roba còmoda i mitjons. Els preus per a adults comencen a 60 € al mes amb un dia a la setmana, i els tens tots a [preus](/preus/). Per reservar la prova, truca'ns al [934 17 98 86](tel:+34934179886) o escriu-nos per WhatsApp.
 
 ## Preguntes freqüents
 
 ### Hi ha classes de dansa al matí per a adults?
 
-Sí: el barre, els dilluns i els dimecres a les 11 del matí, a la nostra escola de Sant Gervasi. La resta de grups d'adults són als vespres, entre les 18.30 i les 21.30.
+Sí: el barre, els dilluns i els dimecres a les 10 del matí, a la nostra escola de Sant Gervasi. La resta de grups d'adults són als vespres, entre les 18.30 i les 21.45.
 
 ### Cal haver ballat abans per fer barre?
 

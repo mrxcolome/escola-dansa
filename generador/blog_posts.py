@@ -147,7 +147,7 @@ POSTS = [
 <li><strong>Ballet clàssic iniciació</strong>: si busques tècnica, elegància i postura. Tenim grups d'adults pensats per començar de zero, sense haver trepitjat mai una barra.</li>
 <li><strong>Contemporani</strong>: si el que vols és moure't lliure i expressar-te, amb un treball físic complet.</li>
 <li><strong><a href="/dansa-oriental/">Dansa oriental</a></strong>: suau amb les articulacions, potent amb el centre del cos, i molt agraïda des del primer dia.</li>
-<li><strong>Fit dance, ioga i barre</strong>: si prefereixes entrar per la porta del <a href="/cos-benestar/">benestar i l'exercici</a> i que el ball vingui sol. Els matins de barre (dilluns i dimecres a les 11 h) són perfectes si tens els vespres ocupats.</li>
+<li><strong>Fit dance, ioga i barre</strong>: si prefereixes entrar per la porta del <a href="/cos-benestar/">benestar i l'exercici</a> i que el ball vingui sol. Els matins de barre (dilluns i dimecres a les 10 h) són perfectes si tens els vespres ocupats.</li>
 </ul>
 <p>Tots els grups d'adults, amb nivells i horaris, són a la pàgina de <a href="/dansa-adults/">dansa per a adults</a>.</p>
 
@@ -191,7 +191,7 @@ POSTS = [
 <li><strong>Ballet clásico iniciación</strong>: si buscas técnica, elegancia y postura. Tenemos grupos de adultos pensados para empezar de cero, sin haber pisado nunca una barra.</li>
 <li><strong>Contemporáneo</strong>: si lo que quieres es moverte libre y expresarte, con un trabajo físico completo.</li>
 <li><strong><a href="/es/danza-oriental/">Danza oriental</a></strong>: suave con las articulaciones, potente con el centro del cuerpo, y muy agradecida desde el primer día.</li>
-<li><strong>Fit dance, yoga y barre</strong>: si prefieres entrar por la puerta del <a href="/es/cuerpo-bienestar/">bienestar y el ejercicio</a> y que el baile venga solo. Las mañanas de barre (lunes y miércoles a las 11 h) son perfectas si tienes las tardes ocupadas.</li>
+<li><strong>Fit dance, yoga y barre</strong>: si prefieres entrar por la puerta del <a href="/es/cuerpo-bienestar/">bienestar y el ejercicio</a> y que el baile venga solo. Las mañanas de barre (lunes y miércoles a las 10 h) son perfectas si tienes las tardes ocupadas.</li>
 </ul>
 <p>Todos los grupos de adultos, con niveles y horarios, están en la página de <a href="/es/danza-adultos/">danza para adultos</a>.</p>
 
@@ -680,7 +680,7 @@ POSTS = [
 <p>Són exercicis de base de qualsevol classe de ballet, i justament per això funcionen: <strong>petits, controlats i repetits</strong>. A classe la professora et corregeix la col·locació, i és aquí on fan de debò l'efecte.</p>
 
 <h2>quan i on</h2>
-<p>A l'escola el barre viu als <strong>matins: dilluns i dimecres a les 11 h</strong> — l'hora perfecta si tens els vespres ocupats o vols començar el dia amb el cos posat a lloc. Forma part de la família de <a href="/cos-benestar/">cos i benestar</a>, juntament amb el ioga i la zumba, i com tot a l'escola, <strong>la primera classe és gratuïta</strong>. Vine amb roba còmoda i mitjons: la barra t'espera.</p>
+<p>A l'escola el barre viu als <strong>matins: dilluns i dimecres a les 10 h</strong> — l'hora perfecta si tens els vespres ocupats o vols començar el dia amb el cos posat a lloc. Forma part de la família de <a href="/cos-benestar/">cos i benestar</a>, juntament amb el ioga i la zumba, i com tot a l'escola, <strong>la primera classe és gratuïta</strong>. Vine amb roba còmoda i mitjons: la barra t'espera.</p>
 """,
         "faqs": [
             ("cal haver fet ballet per fer barre?",
@@ -727,7 +727,7 @@ POSTS = [
 <p>Son ejercicios de base de cualquier clase de ballet, y precisamente por eso funcionan: <strong>pequeños, controlados y repetidos</strong>. En clase la profesora te corrige la colocación, y es ahí donde hacen efecto de verdad.</p>
 
 <h2>cuándo y dónde</h2>
-<p>En la escuela el barre vive en las <strong>mañanas: lunes y miércoles a las 11 h</strong> — la hora perfecta si tienes las tardes ocupadas o quieres empezar el día con el cuerpo puesto en su sitio. Forma parte de la familia de <a href="/es/cuerpo-bienestar/">cuerpo y bienestar</a>, junto con el yoga y la zumba, y como todo en la escuela, <strong>la primera clase es gratuita</strong>. Ven con ropa cómoda y calcetines: la barra te espera.</p>
+<p>En la escuela el barre vive en las <strong>mañanas: lunes y miércoles a las 10 h</strong> — la hora perfecta si tienes las tardes ocupadas o quieres empezar el día con el cuerpo puesto en su sitio. Forma parte de la familia de <a href="/es/cuerpo-bienestar/">cuerpo y bienestar</a>, junto con el yoga y la zumba, y como todo en la escuela, <strong>la primera clase es gratuita</strong>. Ven con ropa cómoda y calcetines: la barra te espera.</p>
 """,
         "faqs_es": [
             ("¿hay que haber hecho ballet para hacer barre?",
@@ -1571,9 +1571,9 @@ POSTS = [
 
 <h2>classes concretes per començar passats els 60</h2>
 <ul>
-<li><strong>Barre, dilluns i dimecres a les 11 del matí.</strong> És la porta d'entrada que més recomanem a partir dels 60: es treballa a la barra, amb suport, i combina força, equilibri i postura. A més, és en horari de matí, quan la sala és tranquil·la.</li>
-<li><strong>Ioga, dimarts i dijous a les 20.30.</strong> Per a qui busca flexibilitat i calma al vespre.</li>
-<li><strong>Grups d'adults d'iniciació als vespres</strong>, entre les 18.30 i les 21.30: clàssic, ball espanyol i més, per nivells. Els trobaràs tots a <a href="/dansa-adults/">dansa per a adults</a>.</li>
+<li><strong>Barre, dilluns i dimecres a les 10 del matí.</strong> És la porta d'entrada que més recomanem a partir dels 60: es treballa a la barra, amb suport, i combina força, equilibri i postura. A més, és en horari de matí, quan la sala és tranquil·la.</li>
+<li><strong>Ioga, dimarts i dijous a les 20.45.</strong> Per a qui busca flexibilitat i calma al vespre.</li>
+<li><strong>Grups d'adults d'iniciació als vespres</strong>, entre les 18.30 i les 21.45: clàssic, ball espanyol i més, per nivells. Els trobaràs tots a <a href="/dansa-adults/">dansa per a adults</a>.</li>
 </ul>
 <p>Si tens alguna limitació (genolls, esquena, una operació recent), explica-la a la professora el primer dia: els exercicis s'adapten.</p>
 
@@ -1588,7 +1588,7 @@ POSTS = [
             ("i si tinc alguna limitació física?",
              "Explica-nos-la i adaptem: les professores ajusten exercicis contínuament. La dansa ben ensenyada suma salut, mai en resta."),
             ("hi ha classes de dansa al matí per a gent gran?",
-             "Sí: el barre, els dilluns i els dimecres a les 11 del matí. És una classe a la barra, amb suport, pensada per treballar força, equilibri i postura, i és de les preferides de qui comença passats els 60."),
+             "Sí: el barre, els dilluns i els dimecres a les 10 del matí. És una classe a la barra, amb suport, pensada per treballar força, equilibri i postura, i és de les preferides de qui comença passats els 60."),
         ],
 
         "title_es": "clases de baile para mayores de 50 y 60: el cuerpo lo agradece · escola de dansa cristina colomé",
@@ -1610,9 +1610,9 @@ POSTS = [
 
 <h2>clases concretas para empezar pasados los 60</h2>
 <ul>
-<li><strong>Barre, lunes y miércoles a las 11 de la mañana.</strong> Es la puerta de entrada que más recomendamos a partir de los 60: se trabaja en la barra, con apoyo, y combina fuerza, equilibrio y postura. Además, es por la mañana, cuando la sala está tranquila.</li>
-<li><strong>Yoga, martes y jueves a las 20.30.</strong> Para quien busca flexibilidad y calma por la noche.</li>
-<li><strong>Grupos de adultos de iniciación por la tarde-noche</strong>, entre las 18.30 y las 21.30: clásico, baile español y más, por niveles. Los encontrarás todos en <a href="/es/danza-adultos/">danza para adultos</a>.</li>
+<li><strong>Barre, lunes y miércoles a las 10 de la mañana.</strong> Es la puerta de entrada que más recomendamos a partir de los 60: se trabaja en la barra, con apoyo, y combina fuerza, equilibrio y postura. Además, es por la mañana, cuando la sala está tranquila.</li>
+<li><strong>Yoga, martes y jueves a las 20.45.</strong> Para quien busca flexibilidad y calma por la noche.</li>
+<li><strong>Grupos de adultos de iniciación por la tarde-noche</strong>, entre las 18.30 y las 21.45: clásico, baile español y más, por niveles. Los encontrarás todos en <a href="/es/danza-adultos/">danza para adultos</a>.</li>
 </ul>
 <p>Si tienes alguna limitación (rodillas, espalda, una operación reciente), cuéntasela a la profesora el primer día: los ejercicios se adaptan.</p>
 
@@ -1627,7 +1627,7 @@ POSTS = [
             ("¿y si tengo alguna limitación física?",
              "Cuéntanosla y adaptamos: las profesoras ajustan ejercicios continuamente. La danza bien enseñada suma salud, nunca resta."),
             ("¿hay clases de baile por la mañana para mayores?",
-             "Sí: el barre, los lunes y los miércoles a las 11 de la mañana. Es una clase en la barra, con apoyo, pensada para trabajar fuerza, equilibrio y postura, y es de las preferidas de quien empieza pasados los 60."),
+             "Sí: el barre, los lunes y los miércoles a las 10 de la mañana. Es una clase en la barra, con apoyo, pensada para trabajar fuerza, equilibrio y postura, y es de las preferidas de quien empieza pasados los 60."),
         ],
     },
     {
@@ -2113,7 +2113,7 @@ POSTS = [
 </ul>
 
 <h2>on i quan</h2>
-<p>A l'escola tenim grups de claqué d'adults <strong>els dimarts i els dijous a les 18.30</strong>, i un grup juvenil els dimarts a les 19.45. Els tens tots a la <a href="/horaris/">graella d'horaris</a>, i les quotes, a <a href="/preus/">preus</a>. Si també et fan gràcia altres estils, fes una ullada a totes les opcions de <a href="/dansa-adults/">dansa per a adults</a>.</p>
+<p>A l'escola tenim grups de claqué d'adults <strong>els dimarts i els dijous a les 18.45</strong>. Els tens tots a la <a href="/horaris/">graella d'horaris</a>, i les quotes, a <a href="/preus/">preus</a>. Si també et fan gràcia altres estils, fes una ullada a totes les opcions de <a href="/dansa-adults/">dansa per a adults</a>.</p>
 <p>La primera classe és gratuïta: vine amb sabates de sola dura i ganes de fer soroll.</p>
 """,
         "faqs": [
@@ -2124,7 +2124,7 @@ POSTS = [
             ("mai no he fet dansa: puc començar claqué d'adult?",
              "Sí. Al grup d'adults s'hi pot entrar de zero: el claqué no demana flexibilitat ni experiència prèvia en dansa. Explica'ns-ho abans de venir i la classe de prova serveix per comprovar que hi estàs a gust."),
             ("quins dies hi ha claqué per a adults?",
-             "Els dimarts i els dijous a les 18.30. Hi ha també un grup juvenil els dimarts a les 19.45. Tens tots els horaris a la graella de la web."),
+             "Els dimarts i els dijous a les 18.45. Tens tots els horaris a la graella de la web."),
         ],
 
         "title_es": "claqué para adultos: lo que hay que saber antes de la primera clase · escola de dansa cristina colomé",
@@ -2170,7 +2170,7 @@ POSTS = [
 </ul>
 
 <h2>dónde y cuándo</h2>
-<p>En la escuela tenemos grupos de claqué de adultos <strong>los martes y los jueves a las 18.30</strong>, y un grupo juvenil los martes a las 19.45. Los tienes todos en el <a href="/es/horarios/">horario completo</a>, y las cuotas, en <a href="/es/precios/">precios</a>. Si también te apetecen otros estilos, echa un vistazo a todas las opciones de <a href="/es/danza-adultos/">danza para adultos</a>.</p>
+<p>En la escuela tenemos grupos de claqué de adultos <strong>los martes y los jueves a las 18.45</strong>. Los tienes todos en el <a href="/es/horarios/">horario completo</a>, y las cuotas, en <a href="/es/precios/">precios</a>. Si también te apetecen otros estilos, echa un vistazo a todas las opciones de <a href="/es/danza-adultos/">danza para adultos</a>.</p>
 <p>La primera clase es gratuita: ven con zapatos de suela dura y ganas de hacer ruido.</p>
 """,
         "faqs_es": [
@@ -2181,7 +2181,7 @@ POSTS = [
             ("nunca he hecho danza: ¿puedo empezar claqué de adulto?",
              "Sí. Al grupo de adultos se puede entrar desde cero: el claqué no pide flexibilidad ni experiencia previa en danza. Cuéntanoslo antes de venir y la clase de prueba sirve para comprobar que estás a gusto."),
             ("¿qué días hay claqué para adultos?",
-             "Los martes y los jueves a las 18.30. También hay un grupo juvenil los martes a las 19.45. Tienes todos los horarios en la web."),
+             "Los martes y los jueves a las 18.45. Tienes todos los horarios en la web."),
         ],
     },
     {
@@ -2224,7 +2224,7 @@ POSTS = [
 
 <h2>com organitzar-se perquè hi càpiga tot</h2>
 <ul>
-<li><strong>Trieu bé el dia i l'hora.</strong> Els grups juvenils de l'escola fan classe entre les 17.00 i les 20.30, de dilluns a divendres. Una classe a primera hora de la tarda deixa el vespre lliure per estudiar; una al vespre pot servir de pausa entre dues tandes d'estudi. Ho teniu tot a la <a href="/horaris/">graella d'horaris</a>.</li>
+<li><strong>Trieu bé el dia i l'hora.</strong> Els grups juvenils de l'escola fan classe entre les 17.00 i les 20.45, de dilluns a divendres. Una classe a primera hora de la tarda deixa el vespre lliure per estudiar; una al vespre pot servir de pausa entre dues tandes d'estudi. Ho teniu tot a la <a href="/horaris/">graella d'horaris</a>.</li>
 <li><strong>Feu de la classe una fita, no un obstacle.</strong> «Acabo aquest tema i després vaig a dansa» funciona molt millor que «avui no vaig perquè tinc examen».</li>
 <li><strong>No ho deixeu a la primera setmana dolenta.</strong> Totes les èpoques d'exàmens tenen un pic. Si aquella setmana no hi ha manera, es pot faltar a una classe; deixar-ho del tot és una altra cosa.</li>
 <li><strong>Parleu amb la professora.</strong> Si hi ha una setmana complicada, és millor que ho sàpiga. A les professores els interessa que els alumnes segueixin ballant, i ajuden a trobar la manera.</li>
@@ -2267,7 +2267,7 @@ POSTS = [
 
 <h2>cómo organizarse para que quepa todo</h2>
 <ul>
-<li><strong>Elegid bien el día y la hora.</strong> Los grupos juveniles de la escuela tienen clase entre las 17.00 y las 20.30, de lunes a viernes. Una clase a primera hora de la tarde deja la noche libre para estudiar; una por la noche puede servir de pausa entre dos tandas de estudio. Lo tenéis todo en el <a href="/es/horarios/">horario completo</a>.</li>
+<li><strong>Elegid bien el día y la hora.</strong> Los grupos juveniles de la escuela tienen clase entre las 17.00 y las 20.45, de lunes a viernes. Una clase a primera hora de la tarde deja la noche libre para estudiar; una por la noche puede servir de pausa entre dos tandas de estudio. Lo tenéis todo en el <a href="/es/horarios/">horario completo</a>.</li>
 <li><strong>Haced de la clase una meta, no un obstáculo.</strong> «Acabo este tema y después voy a danza» funciona mucho mejor que «hoy no voy porque tengo examen».</li>
 <li><strong>No lo dejéis en la primera semana mala.</strong> Todas las épocas de exámenes tienen un pico. Si esa semana no hay manera, se puede faltar a una clase; dejarlo del todo es otra cosa.</li>
 <li><strong>Hablad con la profesora.</strong> Si hay una semana complicada, es mejor que lo sepa. A las profesoras les interesa que los alumnos sigan bailando, y ayudan a encontrar la manera.</li>
@@ -2306,15 +2306,15 @@ POSTS = [
         "related_pagines": ["cos-benestar", "dansa-adults", "horaris", "preus"],
         "related_posts": ["barre-entrenament-ballet", "ballar-als-50-i-mes", "comencar-dansa-adults"],
 
-        "title": "classes de dansa al matí a Barcelona: el barre de les 11 · escola de dansa cristina colomé",
-        "desc": "Classes de dansa al matí a Sant Gervasi (Barcelona): barre els dilluns i dimecres a les 11, per a adults de totes les edats i sense experiència. Per a qui és, com és la classe i com provar-ho gratis.",
-        "h1": "classes de dansa al matí a Barcelona: el barre de les 11",
-        "excerpt": "Tens els matins lliures i els vespres plens? Els dilluns i dimecres a les 11 hi ha barre: dansa, força i postura per començar el dia, sense haver ballat mai.",
-        "intro": "La majoria de classes de dansa per a adults són al vespre, després de la feina. Però no tothom té els vespres lliures, i hi ha qui prefereix començar el dia movent-se. Per a ells hi ha el barre de les 11.",
+        "title": "classes de dansa al matí a Barcelona: el barre de les 10 · escola de dansa cristina colomé",
+        "desc": "Classes de dansa al matí a Sant Gervasi (Barcelona): barre els dilluns i dimecres a les 10, per a adults de totes les edats i sense experiència. Per a qui és, com és la classe i com provar-ho gratis.",
+        "h1": "classes de dansa al matí a Barcelona: el barre de les 10",
+        "excerpt": "Tens els matins lliures i els vespres plens? Els dilluns i dimecres a les 10 hi ha barre: dansa, força i postura per començar el dia, sense haver ballat mai.",
+        "intro": "La majoria de classes de dansa per a adults són al vespre, després de la feina. Però no tothom té els vespres lliures, i hi ha qui prefereix començar el dia movent-se. Per a ells hi ha el barre de les 10.",
         "cos": """
-<p>Busques <strong>classes de dansa al matí a Barcelona</strong> i només trobes horaris de vespre? És habitual: la majoria d'escoles concentren els adults entre les 7 i les 10 del vespre. A la nostra escola de Sant Gervasi també, però els <strong>dilluns i els dimecres a les 11 del matí</strong> la sala C és per al <a href="/blog/barre-entrenament-ballet/">barre</a>.</p>
+<p>Busques <strong>classes de dansa al matí a Barcelona</strong> i només trobes horaris de vespre? És habitual: la majoria d'escoles concentren els adults entre les 7 i les 10 del vespre. A la nostra escola de Sant Gervasi també, però els <strong>dilluns i els dimecres a les 10 del matí</strong> la sala C és per al <a href="/blog/barre-entrenament-ballet/">barre</a>.</p>
 
-<h2>per a qui és una classe a les 11 del matí</h2>
+<h2>per a qui és una classe a les 10 del matí</h2>
 <ul>
 <li><strong>Si treballes a torns o des de casa</strong> i el vespre és el moment que tens per a la família o per descansar.</li>
 <li><strong>Si t'has jubilat</strong> o tens els matins lliures i vols una rutina que et faci sortir de casa amb un objectiu.</li>
@@ -2327,18 +2327,18 @@ POSTS = [
 <p>Si en vols un tast abans de venir, al post del barre hi ha <a href="/blog/barre-entrenament-ballet/">5 exercicis de dansa per fer a casa</a> amb una cadira.</p>
 
 <h2>com és un matí de barre a l'escola</h2>
-<p>A les 11 la sala és tranquil·la, amb llum natural i un grup reduït. La classe comença escalfant, passa a la barra, on es fa la major part del treball, i acaba amb estiraments. La professora adapta cada exercici al nivell i al cos de cadascú, i si tens alguna limitació (genolls, esquena, una lesió antiga), només cal que l'hi expliquis el primer dia.</p>
+<p>A les 10 la sala és tranquil·la, amb llum natural i un grup reduït. La classe comença escalfant, passa a la barra, on es fa la major part del treball, i acaba amb estiraments. La professora adapta cada exercici al nivell i al cos de cadascú, i si tens alguna limitació (genolls, esquena, una lesió antiga), només cal que l'hi expliquis el primer dia.</p>
 <p>Moltes alumnes venen els dos dies, dilluns i dimecres, perquè fan una rutina rodona. Però també es pot venir un sol dia.</p>
 
 <h2>i si m'agrada ballar de veritat?</h2>
-<p>Llavors el barre és una molt bona base, i quan vulguis fer el pas, els grups d'adults dels vespres (entre les 18.30 i les 21.30) tenen <a href="/ballet-classic/">clàssic</a>, <a href="/ball-espanyol/">ball espanyol</a>, jazz i molts més estils per nivells, també d'iniciació. Els tens tots a <a href="/dansa-adults/">dansa per a adults</a>.</p>
+<p>Llavors el barre és una molt bona base, i quan vulguis fer el pas, els grups d'adults dels vespres (entre les 18.30 i les 21.45) tenen <a href="/ballet-classic/">clàssic</a>, <a href="/ball-espanyol/">ball espanyol</a>, jazz i molts més estils per nivells, també d'iniciació. Els tens tots a <a href="/dansa-adults/">dansa per a adults</a>.</p>
 
 <h2>com començar</h2>
-<p>Com totes les classes de l'escola, <strong>la primera és gratuïta</strong>: vine un dilluns o un dimecres a les 11 amb roba còmoda i mitjons. Els preus per a adults comencen a 60 € al mes amb un dia a la setmana, i els tens tots a <a href="/preus/">preus</a>. Per reservar la prova, truca'ns al <a href="tel:+34934179886">934 17 98 86</a> o escriu-nos per WhatsApp.</p>
+<p>Com totes les classes de l'escola, <strong>la primera és gratuïta</strong>: vine un dilluns o un dimecres a les 10 amb roba còmoda i mitjons. Els preus per a adults comencen a 60 € al mes amb un dia a la setmana, i els tens tots a <a href="/preus/">preus</a>. Per reservar la prova, truca'ns al <a href="tel:+34934179886">934 17 98 86</a> o escriu-nos per WhatsApp.</p>
 """,
         "faqs": [
             ("hi ha classes de dansa al matí per a adults?",
-             "Sí: el barre, els dilluns i els dimecres a les 11 del matí, a la nostra escola de Sant Gervasi. La resta de grups d'adults són als vespres, entre les 18.30 i les 21.30."),
+             "Sí: el barre, els dilluns i els dimecres a les 10 del matí, a la nostra escola de Sant Gervasi. La resta de grups d'adults són als vespres, entre les 18.30 i les 21.45."),
             ("cal haver ballat abans per fer barre?",
              "No. El barre agafa la barra i els exercicis de base del ballet, però és un entrenament sense coreografies, i la professora l'adapta a cada nivell."),
             ("puc venir només un dia a la setmana?",
@@ -2347,15 +2347,15 @@ POSTS = [
              "Cap en concret: al barre del matí hi ha alumnes de totes les edats, també de més de 60 anys. És de baix impacte i cada exercici té versions per a cada nivell."),
         ],
 
-        "title_es": "clases de baile por la mañana en Barcelona: el barre de las 11 · escola de dansa cristina colomé",
-        "desc_es": "Clases de baile por la mañana en Sant Gervasi (Barcelona): barre los lunes y miércoles a las 11, para adultos de todas las edades y sin experiencia. Para quién es, cómo es la clase y cómo probarlo gratis.",
-        "h1_es": "clases de baile por la mañana en Barcelona: el barre de las 11",
-        "excerpt_es": "¿Tienes las mañanas libres y las tardes llenas? Los lunes y miércoles a las 11 hay barre: danza, fuerza y postura para empezar el día, sin haber bailado nunca.",
-        "intro_es": "La mayoría de clases de danza para adultos son por la tarde-noche, después del trabajo. Pero no todo el mundo tiene las tardes libres, y hay quien prefiere empezar el día moviéndose. Para ellos está el barre de las 11.",
+        "title_es": "clases de baile por la mañana en Barcelona: el barre de las 10 · escola de dansa cristina colomé",
+        "desc_es": "Clases de baile por la mañana en Sant Gervasi (Barcelona): barre los lunes y miércoles a las 10, para adultos de todas las edades y sin experiencia. Para quién es, cómo es la clase y cómo probarlo gratis.",
+        "h1_es": "clases de baile por la mañana en Barcelona: el barre de las 10",
+        "excerpt_es": "¿Tienes las mañanas libres y las tardes llenas? Los lunes y miércoles a las 10 hay barre: danza, fuerza y postura para empezar el día, sin haber bailado nunca.",
+        "intro_es": "La mayoría de clases de danza para adultos son por la tarde-noche, después del trabajo. Pero no todo el mundo tiene las tardes libres, y hay quien prefiere empezar el día moviéndose. Para ellos está el barre de las 10.",
         "cos_es": """
-<p>¿Buscas <strong>clases de baile por la mañana en Barcelona</strong> y solo encuentras horarios de tarde? Es habitual: la mayoría de escuelas concentran a los adultos entre las 7 y las 10 de la noche. En nuestra escuela de Sant Gervasi también, pero <strong>los lunes y los miércoles a las 11 de la mañana</strong> la sala C es para el <a href="/es/blog/barre-entrenamiento-ballet/">barre</a>.</p>
+<p>¿Buscas <strong>clases de baile por la mañana en Barcelona</strong> y solo encuentras horarios de tarde? Es habitual: la mayoría de escuelas concentran a los adultos entre las 7 y las 10 de la noche. En nuestra escuela de Sant Gervasi también, pero <strong>los lunes y los miércoles a las 10 de la mañana</strong> la sala C es para el <a href="/es/blog/barre-entrenamiento-ballet/">barre</a>.</p>
 
-<h2>para quién es una clase a las 11 de la mañana</h2>
+<h2>para quién es una clase a las 10 de la mañana</h2>
 <ul>
 <li><strong>Si trabajas a turnos o desde casa</strong> y la tarde es el momento que tienes para la familia o para descansar.</li>
 <li><strong>Si te has jubilado</strong> o tienes las mañanas libres y quieres una rutina que te haga salir de casa con un objetivo.</li>
@@ -2368,18 +2368,18 @@ POSTS = [
 <p>Si quieres probarlo antes de venir, en el post del barre hay <a href="/es/blog/barre-entrenamiento-ballet/">5 ejercicios de danza para hacer en casa</a> con una silla.</p>
 
 <h2>cómo es una mañana de barre en la escuela</h2>
-<p>A las 11 la sala está tranquila, con luz natural y un grupo reducido. La clase empieza calentando, pasa a la barra, donde se hace la mayor parte del trabajo, y termina con estiramientos. La profesora adapta cada ejercicio al nivel y al cuerpo de cada uno, y si tienes alguna limitación (rodillas, espalda, una lesión antigua), solo tienes que contárselo el primer día.</p>
+<p>A las 10 la sala está tranquila, con luz natural y un grupo reducido. La clase empieza calentando, pasa a la barra, donde se hace la mayor parte del trabajo, y termina con estiramientos. La profesora adapta cada ejercicio al nivel y al cuerpo de cada uno, y si tienes alguna limitación (rodillas, espalda, una lesión antigua), solo tienes que contárselo el primer día.</p>
 <p>Muchas alumnas vienen los dos días, lunes y miércoles, porque hacen una rutina redonda. Pero también se puede venir un solo día.</p>
 
 <h2>¿y si me gusta bailar de verdad?</h2>
-<p>Entonces el barre es una muy buena base, y cuando quieras dar el paso, los grupos de adultos de la tarde-noche (entre las 18.30 y las 21.30) tienen <a href="/es/ballet-clasico/">clásico</a>, <a href="/es/baile-espanol/">baile español</a>, jazz y muchos más estilos por niveles, también de iniciación. Los tienes todos en <a href="/es/danza-adultos/">danza para adultos</a>.</p>
+<p>Entonces el barre es una muy buena base, y cuando quieras dar el paso, los grupos de adultos de la tarde-noche (entre las 18.30 y las 21.45) tienen <a href="/es/ballet-clasico/">clásico</a>, <a href="/es/baile-espanol/">baile español</a>, jazz y muchos más estilos por niveles, también de iniciación. Los tienes todos en <a href="/es/danza-adultos/">danza para adultos</a>.</p>
 
 <h2>cómo empezar</h2>
-<p>Como todas las clases de la escuela, <strong>la primera es gratuita</strong>: ven un lunes o un miércoles a las 11 con ropa cómoda y calcetines. Los precios para adultos empiezan en 60 € al mes con un día a la semana, y los tienes todos en <a href="/es/precios/">precios</a>. Para reservar la prueba, llámanos al <a href="tel:+34934179886">934 17 98 86</a> o escríbenos por WhatsApp.</p>
+<p>Como todas las clases de la escuela, <strong>la primera es gratuita</strong>: ven un lunes o un miércoles a las 10 con ropa cómoda y calcetines. Los precios para adultos empiezan en 60 € al mes con un día a la semana, y los tienes todos en <a href="/es/precios/">precios</a>. Para reservar la prueba, llámanos al <a href="tel:+34934179886">934 17 98 86</a> o escríbenos por WhatsApp.</p>
 """,
         "faqs_es": [
             ("¿hay clases de baile por la mañana para adultos?",
-             "Sí: el barre, los lunes y los miércoles a las 11 de la mañana, en nuestra escuela de Sant Gervasi. El resto de grupos de adultos son por la tarde-noche, entre las 18.30 y las 21.30."),
+             "Sí: el barre, los lunes y los miércoles a las 10 de la mañana, en nuestra escuela de Sant Gervasi. El resto de grupos de adultos son por la tarde-noche, entre las 18.30 y las 21.45."),
             ("¿hay que haber bailado antes para hacer barre?",
              "No. El barre toma la barra y los ejercicios de base del ballet, pero es un entrenamiento sin coreografías, y la profesora lo adapta a cada nivel."),
             ("¿puedo venir solo un día a la semana?",

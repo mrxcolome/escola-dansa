@@ -30,7 +30,7 @@ No hi ha un únic camí bo — hi ha el que et faci més ganes:
 
 - **[Dansa oriental](/dansa-oriental/)**: suau amb les articulacions, potent amb el centre del cos, i molt agraïda des del primer dia.
 
-- **Fit dance, ioga i barre**: si prefereixes entrar per la porta del [benestar i l'exercici](/cos-benestar/) i que el ball vingui sol. Els matins de barre (dilluns i dimecres a les 11 h) són perfectes si tens els vespres ocupats.
+- **Fit dance, ioga i barre**: si prefereixes entrar per la porta del [benestar i l'exercici](/cos-benestar/) i que el ball vingui sol. Els matins de barre (dilluns i dimecres a les 10 h) són perfectes si tens els vespres ocupats.
 
 Tots els grups d'adults, amb nivells i horaris, són a la pàgina de [dansa per a adults](/dansa-adults/).
 

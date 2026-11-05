@@ -17,7 +17,6 @@ per a adults que volen entrenar ballant: el fit dance combina coreografia i cond
 | dia | hora | grup | sala |
 |---|---|---|---|
 | dilluns | 19.30 | fit dance | sala N |
-| dilluns | 20.30 | femme empower · adults intermedi | sala N |
 
 ## preus
 

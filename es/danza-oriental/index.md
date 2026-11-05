@@ -16,9 +16,9 @@ grupos juveniles y de adultos de nivel avanzado, por las noches. si buscas una d
 
 | día | hora | grupo | sala |
 |---|---|---|---|
-| martes | 20.30 | danza del vientre · juvenil avanzado | sala N |
-| jueves | 20.30 | danza del vientre · adultos avanzado | sala N |
-| viernes | 17.00 | danza del vientre · juvenil | sala H |
+| martes | 20.30 | danza del vientre adultos II | sala N |
+| jueves | 20.30 | danza del vientre adultos III | sala H |
+| viernes | 17.00 | danza del vientre juvenil II | sala H |
 
 ## precios
 

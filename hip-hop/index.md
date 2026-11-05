@@ -16,12 +16,10 @@ des d'infantil fins a adults avançat, amb grups juvenils per nivells. si el teu
 
 | dia | hora | grup | sala |
 |---|---|---|---|
-| dilluns | 17.30 | hip-hop infantil B | sala H |
-| dimarts | 18.30 | hip-hop infantil C | sala N |
-| dimarts | 19.45 | hip-hop juvenil C | sala H |
-| dimecres | 20.30 | hip-hop adults avançat | sala N |
-| dijous | 17.30 | hip-hop juvenil B | sala C |
-| dijous | 18.30 | hip-hop infantil A | sala N |
+| dilluns | 17.30 | hip-hop infantil II | sala H |
+| dimarts | 18.30 | hip-hop juvenil I | sala H |
+| dimarts | 19.30 | hip-hop adults intermedi | sala H |
+| dijous | 18.30 | hip-hop infantil I | sala N |
 | divendres | 19.45 | hip-hop juvenil | sala H |
 
 ## preus

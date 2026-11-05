@@ -54,7 +54,7 @@ No hace falta practicar en casa para avanzar, pero si te apetece repasar, basta 
 
 ## Dónde y cuándo
 
-En la escuela tenemos grupos de claqué de adultos **los martes y los jueves a las 18.30**, y un grupo juvenil los martes a las 19.45. Los tienes todos en el [horario completo](/es/horarios/), y las cuotas, en [precios](/es/precios/). Si también te apetecen otros estilos, echa un vistazo a todas las opciones de [danza para adultos](/es/danza-adultos/).
+En la escuela tenemos grupos de claqué de adultos **los martes y los jueves a las 18.45**. Los tienes todos en el [horario completo](/es/horarios/), y las cuotas, en [precios](/es/precios/). Si también te apetecen otros estilos, echa un vistazo a todas las opciones de [danza para adultos](/es/danza-adultos/).
 
 La primera clase es gratuita: ven con zapatos de suela dura y ganas de hacer ruido.
 
@@ -74,7 +74,7 @@ Sí. Al grupo de adultos se puede entrar desde cero: el claqué no pide flexibil
 
 ### ¿qué días hay claqué para adultos?
 
-Los martes y los jueves a las 18.30. También hay un grupo juvenil los martes a las 19.45. Tienes todos los horarios en la web.
+Los martes y los jueves a las 18.45. Tienes todos los horarios en la web.
 
 ---
 

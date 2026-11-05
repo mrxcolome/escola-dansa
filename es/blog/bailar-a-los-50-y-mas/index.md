@@ -20,11 +20,11 @@ Depende de lo que te pida el cuerpo. El [barre y el yoga](/es/cuerpo-bienestar/)
 
 ## Clases concretas para empezar pasados los 60
 
-- **Barre, lunes y miércoles a las 11 de la mañana.** Es la puerta de entrada que más recomendamos a partir de los 60: se trabaja en la barra, con apoyo, y combina fuerza, equilibrio y postura. Además, es por la mañana, cuando la sala está tranquila.
+- **Barre, lunes y miércoles a las 10 de la mañana.** Es la puerta de entrada que más recomendamos a partir de los 60: se trabaja en la barra, con apoyo, y combina fuerza, equilibrio y postura. Además, es por la mañana, cuando la sala está tranquila.
 
-- **Yoga, martes y jueves a las 20.30.** Para quien busca flexibilidad y calma por la noche.
+- **Yoga, martes y jueves a las 20.45.** Para quien busca flexibilidad y calma por la noche.
 
-- **Grupos de adultos de iniciación por la tarde-noche**, entre las 18.30 y las 21.30: clásico, baile español y más, por niveles. Los encontrarás todos en [danza para adultos](/es/danza-adultos/).
+- **Grupos de adultos de iniciación por la tarde-noche**, entre las 18.30 y las 21.45: clásico, baile español y más, por niveles. Los encontrarás todos en [danza para adultos](/es/danza-adultos/).
 
 Si tienes alguna limitación (rodillas, espalda, una operación reciente), cuéntasela a la profesora el primer día: los ejercicios se adaptan.
 
@@ -48,7 +48,7 @@ Cuéntanosla y adaptamos: las profesoras ajustan ejercicios continuamente. La da
 
 ### ¿hay clases de baile por la mañana para mayores?
 
-Sí: el barre, los lunes y los miércoles a las 11 de la mañana. Es una clase en la barra, con apoyo, pensada para trabajar fuerza, equilibrio y postura, y es de las preferidas de quien empieza pasados los 60.
+Sí: el barre, los lunes y los miércoles a las 10 de la mañana. Es una clase en la barra, con apoyo, pensada para trabajar fuerza, equilibrio y postura, y es de las preferidas de quien empieza pasados los 60.
 
 ---
 

@@ -16,9 +16,9 @@ grups juvenils i d'adults de nivell avançat, als vespres. si busques una dansa 
 
 | dia | hora | grup | sala |
 |---|---|---|---|
-| dimarts | 20.30 | dansa del ventre · juvenil avançat | sala N |
-| dijous | 20.30 | dansa del ventre · adults avançat | sala N |
-| divendres | 17.00 | dansa del ventre · juvenil | sala H |
+| dimarts | 20.30 | dansa del ventre adults II | sala N |
+| dijous | 20.30 | dansa del ventre adults III | sala H |
+| divendres | 17.00 | dansa del ventre juvenil II | sala H |
 
 ## preus
 

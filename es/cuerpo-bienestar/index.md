@@ -4,7 +4,7 @@ cuidarse también es bailar. yoga para respirar, barre para tonificar con ADN de
 
 ## para quién
 
-para adultos de todas las edades y condiciones físicas: el barre por las mañanas (lunes y miércoles a las 11 h), y el yoga y la zumba por las noches. ninguna de estas clases pide experiencia — solo ganas de encontrarte bien.
+para adultos de todas las edades y condiciones físicas: el barre por las mañanas (lunes y miércoles a las 10 h), cuerpo y movimiento el jueves a las 10 h, y el yoga y la zumba por las noches. ninguna de estas clases pide experiencia — solo ganas de encontrarte bien.
 
 ## beneficios
 
@@ -16,11 +16,13 @@ para adultos de todas las edades y condiciones físicas: el barre por las mañan
 
 | día | hora | grupo | sala |
 |---|---|---|---|
-| lunes | 11.00 | barre | sala C |
-| martes | 20.30 | yoga | sala C |
-| miércoles | 11.00 | barre | sala C |
+| lunes | 10.00 | barre | sala C |
+| martes | 20.45 | yoga | sala C |
+| miércoles | 10.00 | barre | sala C |
 | miércoles | 19.30 | zumba | sala N |
-| jueves | 20.30 | yoga | sala C |
+| jueves | 10.00 | cuerpo y movimiento | sala C |
+| jueves | 19.30 | zumba | sala N |
+| jueves | 20.45 | yoga | sala C |
 
 ## precios
 
@@ -34,7 +36,7 @@ el barre es para todo el mundo: se inspira en el ballet pero es una clase de ton
 
 ### ¿las clases de mañana son para quién?
 
-para quien tiene las mañanas libres y quiere empezar el día cuidándose: el barre de lunes y miércoles a las 11 h.
+para quien tiene las mañanas libres y quiere empezar el día cuidándose: el barre de lunes y miércoles a las 10 h.
 
 ---
 

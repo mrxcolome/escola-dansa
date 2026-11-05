@@ -1,12 +1,12 @@
-# Clases de baile por la mañana en Barcelona: el barre de las 11
+# Clases de baile por la mañana en Barcelona: el barre de las 10
 
 *11 de octubre de 2026 · 4 min*
 
-La mayoría de clases de danza para adultos son por la tarde-noche, después del trabajo. Pero no todo el mundo tiene las tardes libres, y hay quien prefiere empezar el día moviéndose. Para ellos está el barre de las 11.
+La mayoría de clases de danza para adultos son por la tarde-noche, después del trabajo. Pero no todo el mundo tiene las tardes libres, y hay quien prefiere empezar el día moviéndose. Para ellos está el barre de las 10.
 
-¿Buscas **clases de baile por la mañana en Barcelona** y solo encuentras horarios de tarde? Es habitual: la mayoría de escuelas concentran a los adultos entre las 7 y las 10 de la noche. En nuestra escuela de Sant Gervasi también, pero **los lunes y los miércoles a las 11 de la mañana** la sala C es para el [barre](/es/blog/barre-entrenamiento-ballet/).
+¿Buscas **clases de baile por la mañana en Barcelona** y solo encuentras horarios de tarde? Es habitual: la mayoría de escuelas concentran a los adultos entre las 7 y las 10 de la noche. En nuestra escuela de Sant Gervasi también, pero **los lunes y los miércoles a las 10 de la mañana** la sala C es para el [barre](/es/blog/barre-entrenamiento-ballet/).
 
-## Para quién es una clase a las 11 de la mañana
+## Para quién es una clase a las 10 de la mañana
 
 - **Si trabajas a turnos o desde casa** y la tarde es el momento que tienes para la familia o para descansar.
 
@@ -24,23 +24,23 @@ Si quieres probarlo antes de venir, en el post del barre hay [5 ejercicios de da
 
 ## Cómo es una mañana de barre en la escuela
 
-A las 11 la sala está tranquila, con luz natural y un grupo reducido. La clase empieza calentando, pasa a la barra, donde se hace la mayor parte del trabajo, y termina con estiramientos. La profesora adapta cada ejercicio al nivel y al cuerpo de cada uno, y si tienes alguna limitación (rodillas, espalda, una lesión antigua), solo tienes que contárselo el primer día.
+A las 10 la sala está tranquila, con luz natural y un grupo reducido. La clase empieza calentando, pasa a la barra, donde se hace la mayor parte del trabajo, y termina con estiramientos. La profesora adapta cada ejercicio al nivel y al cuerpo de cada uno, y si tienes alguna limitación (rodillas, espalda, una lesión antigua), solo tienes que contárselo el primer día.
 
 Muchas alumnas vienen los dos días, lunes y miércoles, porque hacen una rutina redonda. Pero también se puede venir un solo día.
 
 ## ¿y si me gusta bailar de verdad?
 
-Entonces el barre es una muy buena base, y cuando quieras dar el paso, los grupos de adultos de la tarde-noche (entre las 18.30 y las 21.30) tienen [clásico](/es/ballet-clasico/), [baile español](/es/baile-espanol/), jazz y muchos más estilos por niveles, también de iniciación. Los tienes todos en [danza para adultos](/es/danza-adultos/).
+Entonces el barre es una muy buena base, y cuando quieras dar el paso, los grupos de adultos de la tarde-noche (entre las 18.30 y las 21.45) tienen [clásico](/es/ballet-clasico/), [baile español](/es/baile-espanol/), jazz y muchos más estilos por niveles, también de iniciación. Los tienes todos en [danza para adultos](/es/danza-adultos/).
 
 ## Cómo empezar
 
-Como todas las clases de la escuela, **la primera es gratuita**: ven un lunes o un miércoles a las 11 con ropa cómoda y calcetines. Los precios para adultos empiezan en 60 € al mes con un día a la semana, y los tienes todos en [precios](/es/precios/). Para reservar la prueba, llámanos al [934 17 98 86](tel:+34934179886) o escríbenos por WhatsApp.
+Como todas las clases de la escuela, **la primera es gratuita**: ven un lunes o un miércoles a las 10 con ropa cómoda y calcetines. Los precios para adultos empiezan en 60 € al mes con un día a la semana, y los tienes todos en [precios](/es/precios/). Para reservar la prueba, llámanos al [934 17 98 86](tel:+34934179886) o escríbenos por WhatsApp.
 
 ## Preguntas frecuentes
 
 ### ¿hay clases de baile por la mañana para adultos?
 
-Sí: el barre, los lunes y los miércoles a las 11 de la mañana, en nuestra escuela de Sant Gervasi. El resto de grupos de adultos son por la tarde-noche, entre las 18.30 y las 21.30.
+Sí: el barre, los lunes y los miércoles a las 10 de la mañana, en nuestra escuela de Sant Gervasi. El resto de grupos de adultos son por la tarde-noche, entre las 18.30 y las 21.45.
 
 ### ¿hay que haber bailado antes para hacer barre?
 
