@@ -82,12 +82,6 @@
   ],
   [
    "17.30",
-   "iniciació dansa",
-   "I",
-   "sala N"
-  ],
-  [
-   "17.30",
    "jazz",
    "infantil I",
    "sala N"
@@ -165,6 +159,12 @@
    "clàssic",
    "juvenil II",
    "sala H"
+  ],
+  [
+   "17.30",
+   "iniciació dansa",
+   "I",
+   "sala N"
   ],
   [
    "17.30",
@@ -286,6 +286,12 @@
    "20.30",
    "dansa del ventre",
    "adults III",
+   "sala H"
+  ],
+  [
+   "20.30",
+   "jazz",
+   "adults intermedi",
    "sala H"
   ],
   [

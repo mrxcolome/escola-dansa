@@ -22,7 +22,6 @@
 | hora | actividad | grupo | sala |
 |---|---|---|---|
 | 17.30 | clásico | juvenil I | sala H |
-| 17.30 | iniciación danza | I | sala N |
 | 17.30 | jazz | infantil I | sala N |
 | 17.30 | iniciación danza | I | sala C |
 | 18.30 | hip-hop | juvenil I | sala H |
@@ -41,6 +40,7 @@
 |---|---|---|---|
 | 10.00 | barre |  | sala C |
 | 17.30 | clásico | juvenil II | sala H |
+| 17.30 | iniciación danza | I | sala N |
 | 17.30 | clásico | infantil I | sala C |
 | 17.45 | jazz | infantil II | sala N |
 | 18.30 | contemporáneo | juvenil II | sala H |
@@ -66,6 +66,7 @@
 | 19.30 | zumba |  | sala N |
 | 19.45 | clásico | adultos II | sala C |
 | 20.30 | danza del vientre | adultos III | sala H |
+| 20.30 | jazz | adultos intermedio | sala H |
 | 20.45 | yoga |  | sala C |
 
 ## viernes

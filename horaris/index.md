@@ -22,7 +22,6 @@
 | hora | activitat | grup | sala |
 |---|---|---|---|
 | 17.30 | clàssic | juvenil I | sala H |
-| 17.30 | iniciació dansa | I | sala N |
 | 17.30 | jazz | infantil I | sala N |
 | 17.30 | iniciació dansa | I | sala C |
 | 18.30 | hip-hop | juvenil I | sala H |
@@ -41,6 +40,7 @@
 |---|---|---|---|
 | 10.00 | barre |  | sala C |
 | 17.30 | clàssic | juvenil II | sala H |
+| 17.30 | iniciació dansa | I | sala N |
 | 17.30 | clàssic | infantil I | sala C |
 | 17.45 | jazz | infantil II | sala N |
 | 18.30 | contemporani | juvenil II | sala H |
@@ -66,6 +66,7 @@
 | 19.30 | zumba |  | sala N |
 | 19.45 | clàssic | adults II | sala C |
 | 20.30 | dansa del ventre | adults III | sala H |
+| 20.30 | jazz | adults intermedi | sala H |
 | 20.45 | ioga |  | sala C |
 
 ## divendres
