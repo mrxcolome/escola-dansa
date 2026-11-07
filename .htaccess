@@ -69,6 +69,10 @@ RewriteRule ^blog/hip-hop-a-barcelona-[^/]*/?$ https://escoladansa.com/hip-hop/ 
 RewriteRule ^blog/torna-el-casal-destiu-[^/]*/?$ https://escoladansa.com/dansa-infantil/ [L,R=301]
 RewriteRule ^blog/descobreix-lescola-de-dansa-cristina-colome-[^/]*/?$ https://escoladansa.com/#escola [L,R=301,NE]
 RewriteRule ^blog/escola-de-dansa-cristina-colome/.+$ https://escoladansa.com/#escola [L,R=301,NE]
+# 4a tanda (7 nov 2026): els 3 404 que quedaven a Search Console
+RewriteRule ^es/escuela/?$ https://escoladansa.com/es/#escola [L,R=301,NE]
+RewriteRule ^blog/author/.+$ https://escoladansa.com/blog/ [L,R=301]
+RewriteRule ^blog/beneficis-de-la-dansa-per-a-la-salut-fisica-i-mental/.+$ https://escoladansa.com/dansa-adults/ [L,R=301]
 # portades velles del lloc estàtic
 RewriteRule ^(default\.htm|index\.html)/?$ https://escoladansa.com/ [L,R=301]
 
