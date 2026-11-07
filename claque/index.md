@@ -17,6 +17,7 @@ grups d'adults (dimarts i dijous a les 18.45). és una disciplina única: trebal
 | dia | hora | grup | sala |
 |---|---|---|---|
 | dimarts | 18.45 | claqué adults II | sala C |
+| dimarts | 19.45 | claqué juvenil A | sala N |
 | dijous | 18.45 | claqué adults II | sala C |
 
 ## preus

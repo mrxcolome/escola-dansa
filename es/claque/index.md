@@ -17,6 +17,7 @@ grupos de adultos (martes y jueves a las 18.45). es una disciplina única: traba
 | día | hora | grupo | sala |
 |---|---|---|---|
 | martes | 18.45 | claqué adultos II | sala C |
+| martes | 19.45 | claqué juvenil A | sala N |
 | jueves | 18.45 | claqué adultos II | sala C |
 
 ## precios

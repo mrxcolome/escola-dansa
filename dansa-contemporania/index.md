@@ -18,7 +18,7 @@ oferim contemporani des d'infantil fins a adults, amb grups juvenils per nivells
 |---|---|---|---|
 | dilluns | 17.30 | contemporani infantil II | sala N |
 | dilluns | 19.45 | contemporani adults I | sala H |
-| dimecres | 18.15 | contemporani juvenil II | sala H |
+| dimecres | 18.30 | contemporani juvenil II | sala H |
 | dimecres | 20.30 | contemporani adults III | sala H |
 | dijous | 17.30 | contemporani juvenil A | sala H |
 | dijous | 19.30 | contemporani adults II | sala H |

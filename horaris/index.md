@@ -22,12 +22,14 @@
 | hora | activitat | grup | sala |
 |---|---|---|---|
 | 17.30 | clàssic | juvenil I | sala H |
+| 17.30 | iniciació dansa | I | sala N |
 | 17.30 | jazz | infantil I | sala N |
 | 17.30 | iniciació dansa | I | sala C |
 | 18.30 | hip-hop | juvenil I | sala H |
 | 18.30 | preparació de proves |  | sala N |
 | 18.45 | claqué | adults II | sala C |
 | 19.30 | hip-hop | adults intermedi | sala H |
+| 19.45 | claqué | juvenil A | sala N |
 | 19.45 | clàssic | adults II | sala C |
 | 20.30 | heels | adults III | sala H |
 | 20.30 | dansa del ventre | adults II | sala N |
@@ -41,7 +43,7 @@
 | 17.30 | clàssic | juvenil II | sala H |
 | 17.30 | clàssic | infantil I | sala C |
 | 17.45 | jazz | infantil II | sala N |
-| 18.15 | contemporani | juvenil II | sala H |
+| 18.30 | contemporani | juvenil II | sala H |
 | 18.30 | clàssic | infantil II | sala N |
 | 18.30 | clàssic | adults I | sala C |
 | 19.30 | clàssic | adults III | sala H |
@@ -57,7 +59,6 @@
 |---|---|---|---|
 | 10.00 | cos i moviment |  | sala C |
 | 17.30 | contemporani | juvenil A | sala H |
-| 17.30 | iniciació dansa | I | sala N |
 | 18.30 | clàssic | juvenil III | sala H |
 | 18.30 | hip-hop | infantil I | sala N |
 | 18.45 | claqué | adults II | sala C |
