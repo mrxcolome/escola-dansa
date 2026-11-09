@@ -48,6 +48,11 @@ jobs:
             .gitignore
             README.md
             CLAUDE.md
+            api/**
+            middleware.js
+            package.json
+            vercel.json
+            .vercelignore
 
       - name: esperar abans del segon intent
         if: steps.ftp1.outcome == 'failure'
@@ -70,3 +75,8 @@ jobs:
             .gitignore
             README.md
             CLAUDE.md
+            api/**
+            middleware.js
+            package.json
+            vercel.json
+            .vercelignore

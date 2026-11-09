@@ -1,0 +1,6 @@
+.git
+info
+node_modules
+_web
+.vercel
+.env*

@@ -2,3 +2,10 @@ info/
 Thumbs.db
 desktop.ini
 generador/__pycache__/
+
+node_modules/
+_web/
+.vercel/
+
+.vercel
+.env*

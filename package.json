@@ -1,0 +1,9 @@
+{
+  "name": "escola-dansa-web",
+  "private": true,
+  "type": "module",
+  "description": "Web estàtica d'escoladansa.com; només la funció del formulari de contacte (api/) té dependències",
+  "dependencies": {
+    "nodemailer": "6.9.16"
+  }
+}

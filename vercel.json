@@ -1,0 +1,235 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
+  "installCommand": "npm install",
+  "buildCommand": "python3 generador/vercel_build.py",
+  "outputDirectory": "_web",
+  "trailingSlash": true,
+  "redirects": [
+    {
+      "source": "/:cami(inici/?)",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
+      "source": "/:cami(escola/?)",
+      "destination": "/#escola",
+      "statusCode": 301
+    },
+    {
+      "source": "/:cami((?:activitats|category/activitats)/?)",
+      "destination": "/#activitats",
+      "statusCode": 301
+    },
+    {
+      "source": "/:cami(contacte/?)",
+      "destination": "/#contacte",
+      "statusCode": 301
+    },
+    {
+      "source": "/:cami(horaris/(?!index\\.(?:html|md)$).+)",
+      "destination": "/horaris/",
+      "statusCode": 301
+    },
+    {
+      "source": "/:cami(blog/classes-de-dansa-per-als-mes-petits/?)",
+      "destination": "/dansa-infantil/",
+      "statusCode": 301
+    },
+    {
+      "source": "/:cami(blog/modalitats-de-dansa-a-lescola-de-dansa-cristina-colome/?)",
+      "destination": "/#activitats",
+      "statusCode": 301
+    },
+    {
+      "source": "/:cami(blog/guia-dels-millors-maillots-de-dansa-i-on-comprar-los/?)",
+      "destination": "/ballet-classic/",
+      "statusCode": 301
+    },
+    {
+      "source": "/:cami(blog/escola-de-dansa-cristina-colome/?)",
+      "destination": "/#escola",
+      "statusCode": 301
+    },
+    {
+      "source": "/:cami(blog/beneficis-de-la-dansa-per-a-la-salut-fisica-i-mental/?)",
+      "destination": "/dansa-adults/",
+      "statusCode": 301
+    },
+    {
+      "source": "/:cami((?:tag|author|category)/.+)",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
+      "source": "/:cami(inici_xmas(?:/.*)?)",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
+      "source": "/:cami(casal-infantil-diver-dansa(?:/.*)?)",
+      "destination": "/dansa-infantil/",
+      "statusCode": 301
+    },
+    {
+      "source": "/:cami(stage-juvenil-global-dance(?:/.*)?)",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
+      "source": "/:cami(blog/(?:tag|category)/.+)",
+      "destination": "/blog/",
+      "statusCode": 301
+    },
+    {
+      "source": "/:cami(html/horaris\\.htm/?)",
+      "destination": "/horaris/",
+      "statusCode": 301
+    },
+    {
+      "source": "/:cami(html/preus\\.htm/?)",
+      "destination": "/preus/",
+      "statusCode": 301
+    },
+    {
+      "source": "/:cami(html/situacio\\.htm/?)",
+      "destination": "/#contacte",
+      "statusCode": 301
+    },
+    {
+      "source": "/:cami(html/(?:escola|cristina)\\.htm/?)",
+      "destination": "/#escola",
+      "statusCode": 301
+    },
+    {
+      "source": "/:cami(html/.+)",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
+      "source": "/:cami(estiu[0-9]+(?:/.*)?)",
+      "destination": "/dansa-infantil/",
+      "statusCode": 301
+    },
+    {
+      "source": "/:cami(nadal[0-9]+(?:/.*)?)",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
+      "source": "/:cami(benvinguda(?:/.*)?)",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
+      "source": "/:cami(es/bienvenida(?:/.*)?)",
+      "destination": "/es/",
+      "statusCode": 301
+    },
+    {
+      "source": "/:cami(blog/dansa-contemporania-a-barcelona-[^/]*/?)",
+      "destination": "/dansa-contemporania/",
+      "statusCode": 301
+    },
+    {
+      "source": "/:cami(blog/ballet-classic-a-barcelona-[^/]*/?)",
+      "destination": "/ballet-classic/",
+      "statusCode": 301
+    },
+    {
+      "source": "/:cami(blog/hip-hop-a-barcelona-[^/]*/?)",
+      "destination": "/hip-hop/",
+      "statusCode": 301
+    },
+    {
+      "source": "/:cami(blog/torna-el-casal-destiu-[^/]*/?)",
+      "destination": "/dansa-infantil/",
+      "statusCode": 301
+    },
+    {
+      "source": "/:cami(blog/descobreix-lescola-de-dansa-cristina-colome-[^/]*/?)",
+      "destination": "/#escola",
+      "statusCode": 301
+    },
+    {
+      "source": "/:cami(blog/escola-de-dansa-cristina-colome/.+)",
+      "destination": "/#escola",
+      "statusCode": 301
+    },
+    {
+      "source": "/:cami(es/escuela/?)",
+      "destination": "/es/#escola",
+      "statusCode": 301
+    },
+    {
+      "source": "/:cami(blog/author/.+)",
+      "destination": "/blog/",
+      "statusCode": 301
+    },
+    {
+      "source": "/:cami(blog/beneficis-de-la-dansa-per-a-la-salut-fisica-i-mental/.+)",
+      "destination": "/dansa-adults/",
+      "statusCode": 301
+    },
+    {
+      "source": "/:cami((?:default\\.htm|index\\.html)/?)",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
+      "source": "/:cami(tramoia(?:/.*)?)",
+      "destination": "/backstage/",
+      "statusCode": 301
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/contacte.php",
+      "destination": "/api/contacte"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "Link",
+          "value": "<https://escoladansa.com/llms.txt>; rel=\"describedby llms-txt\", <https://escoladansa.com/sitemap.xml>; rel=\"sitemap\", <https://escoladansa.com/llms.txt>; rel=\"service-doc\""
+        }
+      ]
+    },
+    {
+      "source": "/(robots|llms)\\.txt",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=3600"
+        }
+      ]
+    },
+    {
+      "source": "/(.*)\\.md",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/markdown; charset=utf-8"
+        }
+      ]
+    },
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": ".*\\.vercel\\.app"
+        }
+      ],
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex"
+        }
+      ]
+    }
+  ]
+}
