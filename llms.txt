@@ -43,6 +43,7 @@ Dades clau:
 
 <!-- BLOG-AUTO -->
 - [El blog](https://escoladansa.com/blog/): consells de dansa per a famílies i adults, guies per començar i vida d'escola
+- [Extraescolar de dansa: guia per a famílies](https://escoladansa.com/blog/extraescolar-de-dansa/): Des de quina edat, a l'escola o en una escola de dansa, quants dies a la setmana, horaris, preus i com començar, fins i tot amb el curs començat.
 - [El meu fill vol deixar la dansa: què fem?](https://escoladansa.com/blog/el-meu-fill-vol-deixar-la-dansa/): «No vull anar més a dansa.» Per què passa, com parlar-ne sense pressionar, què es pot provar abans de plegar i quan és millor deixar-ho estar.
 - [A quina edat es comença amb puntes al ballet?](https://escoladansa.com/blog/a-quina-edat-puntes-ballet/): Quan es pot començar a ballar amb puntes? L'edat orientativa, els senyals que el peu està a punt, per què no s'han d'avançar i com han de ser les primeres puntes.
 - [Quantes classes de dansa a la setmana li convenen?](https://escoladansa.com/blog/quantes-classes-dansa-setmana/): Un dia, dos o tres? Quantes classes de dansa a la setmana convenen segons l'edat, els senyals per afegir-ne una altra i quant costa de debò el segon dia.
@@ -76,6 +77,7 @@ Dades clau:
 ### En español
 
 - [El blog](https://escoladansa.com/es/blog/): consejos de danza para familias y adultos, guías para empezar y vida de escuela
+- [Extraescolar de danza: guía para familias](https://escoladansa.com/es/blog/extraescolar-de-danza/): Desde qué edad, en el colegio o en una escuela de danza, cuántos días a la semana, horarios, precios y cómo empezar, incluso con el curso empezado.
 - [Mi hijo quiere dejar la danza: ¿qué hacemos?](https://escoladansa.com/es/blog/mi-hijo-quiere-dejar-la-danza/): «No quiero ir más a danza.» Por qué pasa, cómo hablarlo sin presionar, qué se puede probar antes de dejarlo y cuándo es mejor aceptarlo.
 - [¿a qué edad se empieza con puntas en ballet?](https://escoladansa.com/es/blog/a-que-edad-puntas-ballet/): ¿Cuándo se puede empezar a bailar con puntas? La edad orientativa, las señales de que el pie está preparado, por qué no hay que adelantarlas y cómo deben ser las primeras puntas.
 - [¿cuántas clases de danza a la semana le convienen?](https://escoladansa.com/es/blog/cuantas-clases-danza-semana/): ¿Un día, dos o tres? Cuántas clases de danza a la semana convienen según la edad, las señales para añadir otra y cuánto cuesta de verdad el segundo día.

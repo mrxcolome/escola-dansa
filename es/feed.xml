@@ -6,7 +6,15 @@
     <atom:link href="https://escoladansa.com/es/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Consejos de danza para familias y adultos, y vida de escuela, desde Sant Gervasi (Barcelona).</description>
     <language>es</language>
-    <lastBuildDate>Tue, 03 Nov 2026 08:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 09 Nov 2026 08:00:00 +0200</lastBuildDate>
+    <item>
+      <title>extraescolar de danza: guía para familias</title>
+      <link>https://escoladansa.com/es/blog/extraescolar-de-danza/</link>
+      <guid isPermaLink="true">https://escoladansa.com/es/blog/extraescolar-de-danza/</guid>
+      <pubDate>Mon, 09 Nov 2026 08:00:00 +0200</pubDate>
+      <description>¿Quieres apuntar a tu hijo o hija a una extraescolar de danza? Desde qué edad, en el colegio o en una escuela de danza, cuántos días, horarios, precios y cómo empezar. Guía de la escuela Cristina Colomé, Barcelona.</description>
+      <enclosure url="https://escoladansa.com/assets/blog-extraescolar-dansa.jpg" type="image/jpeg" length="150000"/>
+    </item>
     <item>
       <title>mi hijo quiere dejar la danza: ¿qué hacemos?</title>
       <link>https://escoladansa.com/es/blog/mi-hijo-quiere-dejar-la-danza/</link>

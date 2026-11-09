@@ -2765,6 +2765,127 @@ POSTS = [
              "No. La coordinación, el oído musical, la disciplina y la confianza que da la danza se quedan para siempre. Y muchas alumnas vuelven años después."),
         ],
     },
+
+    {
+        "slug": "extraescolar-de-dansa",
+        "slug_es": "extraescolar-de-danza",
+        "categoria": "famílies",
+        "categoria_es": "familias",
+        "data": "2026-11-09",
+        "data_ca": "9 de novembre de 2026",
+        "data_es": "9 de noviembre de 2026",
+        "minuts": 5,
+        "nom_wa": "dansa",
+        "nom_wa_es": "danza",
+        "og": "blog-extraescolar-dansa.jpg",
+        "img": "blog-extraescolar-dansa.jpg",
+        "img_alt": "Una motxilla d'escola i una bossa de dansa amb unes sabatilles de ballet penjades d'un penja-robes, al vestidor d'una escola de dansa, amb llum de tarda",
+        "img_alt_es": "Una mochila de colegio y una bolsa de danza con unas zapatillas de ballet colgadas de un perchero, en el vestuario de una escuela de danza, con luz de tarde",
+        "related_pagines": ["dansa-infantil", "horaris", "preus"],
+        "related_posts": ["quantes-classes-dansa-setmana", "triar-estil-dansa-fill", "classe-de-prova-gratuita"],
+
+        "title": "extraescolar de dansa a Barcelona: guia per a famílies · escola de dansa cristina colomé",
+        "desc": "Vols apuntar el teu fill o filla a una extraescolar de dansa? Des de quina edat, a l'escola o en una escola de dansa, quants dies, horaris, preus i com començar. Guia de l'escola Cristina Colomé, Barcelona.",
+        "h1": "extraescolar de dansa: guia per a famílies",
+        "excerpt": "Des de quina edat, a l'escola o en una escola de dansa, quants dies a la setmana, horaris, preus i com començar, fins i tot amb el curs començat.",
+        "intro": "La dansa és una de les extraescolars que més demanen els nens i les nenes, i també una de les que més dubtes generen a casa. Des de quina edat? On? Quants dies? Quant costa? Aquí tens les respostes, curtes i clares.",
+        "cos": """
+<p>Una bona extraescolar ha de complir tres coses: que li agradi, que encaixi amb l'horari de la família i que li aporti alguna cosa més enllà de passar l'estona. La dansa les compleix totes tres: treballa la coordinació, la postura i l'oïda musical, dona confiança i crea amistats que duren anys. En parlem a fons al post sobre els <a href="/blog/beneficis-dansa-nens/">beneficis de la dansa per als nens</a>.</p>
+
+<h2>des de quina edat?</h2>
+<p>Des dels <strong>3 anys</strong>, amb els grups d'iniciació a la dansa: música, joc i moviment, sense tècnica encara. Cap als 5 o 6 anys ja es pot començar un estil (clàssic, jazz, hip-hop…), i els grups juvenils continuen fins a l'adolescència. Si tens dubtes amb l'edat, mira <a href="/blog/a-quina-edat-comencar-dansa/">a quina edat es pot començar a ballar</a>.</p>
+
+<h2>a l'escola o en una escola de dansa?</h2>
+<p>Moltes escoles i AFA ofereixen dansa al migdia o en sortir de classe. És còmode, i per als més petits pot ser una bona primera presa de contacte. La diferència amb una escola de dansa és sobretot la <strong>continuïtat</strong>:</p>
+<ul>
+<li><strong>Professores especialitzades</strong> en cada estil, no una monitora per a tot.</li>
+<li><strong>Grups per edat i nivell</strong>, que avancen curs rere curs.</li>
+<li><strong>Sales preparades</strong> per a la dansa, insonoritzades, amb miralls i barres.</li>
+<li><strong>Més estils per triar</strong> i la possibilitat de canviar-ne.</li>
+<li><strong>Un festival de fi de curs</strong> en un teatre, que és el gran moment de l'any.</li>
+</ul>
+<p>Si la dansa li agrada de debò, una escola de dansa li permetrà créixer-hi. Si no saps quin estil triar, et pot ajudar la guia per <a href="/blog/triar-estil-dansa-fill/">triar l'estil de dansa del teu fill</a>.</p>
+
+<h2>quants dies a la setmana?</h2>
+<p>Per començar, <strong>un o dos dies</strong> és el més habitual i és suficient. Amb el temps, si s'hi engresca, es pot afegir un altre estil o un altre dia. Ho expliquem amb més detall a <a href="/blog/quantes-classes-dansa-setmana/">quantes classes de dansa a la setmana li convenen</a>.</p>
+
+<h2>horaris: encaixa amb la tarda?</h2>
+<p>A l'escola, les classes infantils són a la tarda, a partir de les 17 h, pensades perquè hi pugueu arribar en sortir de l'escola. Som al carrer de Craywinckel, a Sant Gervasi, a dos minuts de l'FGC Av. Tibidabo. Pots veure tots els grups a la pàgina d'<a href="/horaris/">horaris</a>.</p>
+
+<h2>quant costa?</h2>
+<p>Aquest curs, la quota infantil va dels <strong>56 €/mes</strong> (un dia a la setmana) als 92 €/mes (quatre dies), amb opció de pagament trimestral, més la matrícula. Tots els preus són a la pàgina de <a href="/preus/">preus</a>. La primera classe és gratuïta, i no hi ha permanència.</p>
+
+<h2>i si el curs ja ha començat?</h2>
+<p>Cap problema: a la dansa s'hi pot entrar en qualsevol moment del curs, i els primers dies la professora l'ajuda a posar-se al dia. Ho expliquem a <a href="/blog/apuntar-se-amb-el-curs-comencat/">apuntar-se amb el curs començat</a>.</p>
+
+<h2>com començar</h2>
+<p>El millor és venir a fer una <a href="/blog/classe-de-prova-gratuita/">classe de prova gratuïta</a>: la professora veu quin grup li encaixa per edat i maduresa, i vosaltres decidiu amb calma. Per al primer dia n'hi ha prou amb roba còmoda; si vols saber què caldrà després, mira <a href="/blog/roba-dansa-que-portar/">quina roba portar a dansa</a>.</p>
+
+<h2>en resum</h2>
+<p>Des dels 3 anys, un o dos dies a la setmana per començar, a la tarda en sortir de l'escola, i amb una classe de prova abans de decidir. Si vols que t'ajudem a triar el grup, truca'ns al <a href="tel:+34934179886">934 17 98 86</a> o passa per l'escola.</p>
+""",
+        "faqs": [
+            ("a partir de quina edat es pot fer extraescolar de dansa?",
+             "Des dels 3 anys, amb els grups d'iniciació a la dansa. Cap als 5 o 6 anys ja es pot començar un estil, com el clàssic, el jazz o el hip-hop."),
+            ("quants dies a la setmana és recomanable?",
+             "Per començar, un o dos dies a la setmana. Si s'hi engresca, més endavant es pot afegir un altre dia o un altre estil."),
+            ("quant costa una extraescolar de dansa?",
+             "A l'escola Cristina Colomé, aquest curs la quota infantil va dels 56 €/mes (un dia a la setmana) als 92 €/mes (quatre dies), amb opció trimestral i matrícula. La primera classe és gratuïta."),
+            ("es pot començar a mig curs?",
+             "Sí. Es pot entrar en qualsevol moment del curs, sense permanència, i abans es pot fer una classe de prova gratuïta."),
+        ],
+
+        "title_es": "extraescolar de danza en Barcelona: guía para familias · escola de dansa cristina colomé",
+        "desc_es": "¿Quieres apuntar a tu hijo o hija a una extraescolar de danza? Desde qué edad, en el colegio o en una escuela de danza, cuántos días, horarios, precios y cómo empezar. Guía de la escuela Cristina Colomé, Barcelona.",
+        "h1_es": "extraescolar de danza: guía para familias",
+        "excerpt_es": "Desde qué edad, en el colegio o en una escuela de danza, cuántos días a la semana, horarios, precios y cómo empezar, incluso con el curso empezado.",
+        "intro_es": "La danza es una de las extraescolares que más piden los niños y las niñas, y también una de las que más dudas generan en casa. ¿Desde qué edad? ¿Dónde? ¿Cuántos días? ¿Cuánto cuesta? Aquí tienes las respuestas, cortas y claras.",
+        "cos_es": """
+<p>Una buena extraescolar tiene que cumplir tres cosas: que le guste, que encaje con el horario de la familia y que le aporte algo más allá de pasar el rato. La danza las cumple las tres: trabaja la coordinación, la postura y el oído musical, da confianza y crea amistades que duran años. Lo contamos a fondo en el post sobre los <a href="/es/blog/beneficios-danza-ninos/">beneficios de la danza para los niños</a>.</p>
+
+<h2>¿desde qué edad?</h2>
+<p>Desde los <strong>3 años</strong>, con los grupos de iniciación a la danza: música, juego y movimiento, todavía sin técnica. Hacia los 5 o 6 años ya se puede empezar un estilo (clásico, jazz, hip-hop…), y los grupos juveniles continúan hasta la adolescencia. Si tienes dudas con la edad, mira <a href="/es/blog/a-que-edad-empezar-danza/">a qué edad se puede empezar a bailar</a>.</p>
+
+<h2>¿en el colegio o en una escuela de danza?</h2>
+<p>Muchos colegios y AFA ofrecen danza al mediodía o al salir de clase. Es cómodo, y para los más pequeños puede ser una buena primera toma de contacto. La diferencia con una escuela de danza es sobre todo la <strong>continuidad</strong>:</p>
+<ul>
+<li><strong>Profesoras especializadas</strong> en cada estilo, no una monitora para todo.</li>
+<li><strong>Grupos por edad y nivel</strong>, que avanzan curso tras curso.</li>
+<li><strong>Salas preparadas</strong> para la danza, insonorizadas, con espejos y barras.</li>
+<li><strong>Más estilos para elegir</strong> y la posibilidad de cambiar.</li>
+<li><strong>Un festival de fin de curso</strong> en un teatro, que es el gran momento del año.</li>
+</ul>
+<p>Si la danza le gusta de verdad, una escuela de danza le permitirá crecer en ella. Si no sabes qué estilo elegir, te puede ayudar la guía para <a href="/es/blog/elegir-estilo-danza-hijo/">elegir el estilo de danza de tu hijo</a>.</p>
+
+<h2>¿cuántos días a la semana?</h2>
+<p>Para empezar, <strong>uno o dos días</strong> es lo más habitual y es suficiente. Con el tiempo, si se engancha, se puede añadir otro estilo u otro día. Lo explicamos con más detalle en <a href="/es/blog/cuantas-clases-danza-semana/">cuántas clases de danza a la semana le convienen</a>.</p>
+
+<h2>horarios: ¿encaja con la tarde?</h2>
+<p>En la escuela, las clases infantiles son por la tarde, a partir de las 17 h, pensadas para que podáis llegar al salir del colegio. Estamos en la calle Craywinckel, en Sant Gervasi, a dos minutos del FGC Av. Tibidabo. Puedes ver todos los grupos en la página de <a href="/es/horarios/">horarios</a>.</p>
+
+<h2>¿cuánto cuesta?</h2>
+<p>Este curso, la cuota infantil va de los <strong>56 €/mes</strong> (un día a la semana) a los 92 €/mes (cuatro días), con opción de pago trimestral, más la matrícula. Todos los precios están en la página de <a href="/es/precios/">precios</a>. La primera clase es gratuita, y no hay permanencia.</p>
+
+<h2>¿y si el curso ya ha empezado?</h2>
+<p>Ningún problema: a la danza se puede entrar en cualquier momento del curso, y los primeros días la profesora le ayuda a ponerse al día. Lo explicamos en <a href="/es/blog/apuntarse-con-el-curso-empezado/">apuntarse con el curso empezado</a>.</p>
+
+<h2>cómo empezar</h2>
+<p>Lo mejor es venir a hacer una <a href="/es/blog/clase-de-prueba-gratuita/">clase de prueba gratuita</a>: la profesora ve qué grupo le encaja por edad y madurez, y vosotros decidís con calma. Para el primer día basta con ropa cómoda; si quieres saber qué hará falta después, mira <a href="/es/blog/ropa-danza-que-llevar/">qué ropa llevar a danza</a>.</p>
+
+<h2>en resumen</h2>
+<p>Desde los 3 años, uno o dos días a la semana para empezar, por la tarde al salir del colegio, y con una clase de prueba antes de decidir. Si quieres que te ayudemos a elegir el grupo, llámanos al <a href="tel:+34934179886">934 17 98 86</a> o pásate por la escuela.</p>
+""",
+        "faqs_es": [
+            ("¿a partir de qué edad se puede hacer extraescolar de danza?",
+             "Desde los 3 años, con los grupos de iniciación a la danza. Hacia los 5 o 6 años ya se puede empezar un estilo, como el clásico, el jazz o el hip-hop."),
+            ("¿cuántos días a la semana es recomendable?",
+             "Para empezar, uno o dos días a la semana. Si se engancha, más adelante se puede añadir otro día u otro estilo."),
+            ("¿cuánto cuesta una extraescolar de danza?",
+             "En la escuela Cristina Colomé, este curso la cuota infantil va de los 56 €/mes (un día a la semana) a los 92 €/mes (cuatro días), con opción trimestral y matrícula. La primera clase es gratuita."),
+            ("¿se puede empezar a mitad de curso?",
+             "Sí. Se puede entrar en cualquier momento del curso, sin permanencia, y antes se puede hacer una clase de prueba gratuita."),
+        ],
+    },
 ]
 
 
