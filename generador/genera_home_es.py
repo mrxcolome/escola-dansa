@@ -22,20 +22,20 @@ PARELLES = [
     # a la 1a pàgina per «escola de dansa» amb 0 clics)
     ('<title>escola de dansa a Barcelona (Sant Gervasi) · cristina colomé</title>',
      '<title>escuela de danza en Barcelona (Sant Gervasi) · cristina colomé</title>'),
-    ('<meta name="description" content="escola de dansa a Barcelona (Sant Gervasi) amb més de 25 anys: classes de dansa per a nens des dels 3 anys, joves i adults. clàssic, contemporani, jazz, hip-hop, claqué i més. 1a classe gratuïta.">',
+    ('<meta name="description" content="escola de dansa a Barcelona (Sant Gervasi) amb més de 25 anys: classes de dansa i extraescolars per a nens des dels 3 anys, joves i adults. clàssic, contemporani, jazz, hip-hop, claqué i més. 1a classe gratuïta.">',
      '<meta name="description" content="escuela de danza en Barcelona (Sant Gervasi) con más de 25 años: clases de danza para niños desde 3 años, jóvenes y adultos. clásico, contemporáneo, jazz, hip-hop, claqué y más. 1ª clase gratuita.">'),
     ('<link rel="canonical" href="https://escoladansa.com/">',
      '<link rel="canonical" href="https://escoladansa.com/es/">'),  # els hreflang ja venen de la home CA
     ('<meta property="og:title" content="escola de dansa cristina colomé · Sant Gervasi, Barcelona">',
      '<meta property="og:title" content="escola de dansa cristina colomé · escuela de danza en Barcelona">'),
-    ('<meta property="og:description" content="més de 25 anys movent Barcelona. clàssic, contemporani, jazz, hip-hop, claqué i més, per a totes les edats i nivells. la primera classe de prova és gratuïta.">',
+    ('<meta property="og:description" content="més de 25 anys de dansa a Barcelona. clàssic, contemporani, jazz, hip-hop, claqué i més, per a totes les edats i nivells. la primera classe de prova és gratuïta.">',
      '<meta property="og:description" content="más de 25 años moviendo Barcelona. clásico, contemporáneo, jazz, hip-hop, claqué y más, para todas las edades y niveles. la primera clase de prueba es gratuita.">'),
     ('<meta property="og:url" content="https://escoladansa.com/">',
      '<meta property="og:url" content="https://escoladansa.com/es/">'),
     ('<meta property="og:locale" content="ca_ES">', '<meta property="og:locale" content="es_ES">'),
     ('<meta name="twitter:title" content="escola de dansa cristina colomé · Sant Gervasi, Barcelona">',
      '<meta name="twitter:title" content="escola de dansa cristina colomé · escuela de danza en Barcelona">'),
-    ('<meta name="twitter:description" content="més de 25 anys movent Barcelona. la primera classe de prova és gratuïta.">',
+    ('<meta name="twitter:description" content="més de 25 anys de dansa a Barcelona. la primera classe de prova és gratuïta.">',
      '<meta name="twitter:description" content="más de 25 años moviendo Barcelona. la primera clase de prueba es gratuita.">'),
 
     # ── JSON-LD (localBusiness + FAQPage) ──
@@ -79,7 +79,7 @@ PARELLES = [
     ('<span class="linia" data-lletres>escola</span>', '<span class="linia" data-lletres>escuela</span>'),
     ("const MOTS_ROTATIUS = ['dansa','ballet','jazz','hip-hop','claqué','k-pop','música','zumba','ioga','dansa'];",
      "const MOTS_ROTATIUS = ['danza','ballet','jazz','hip-hop','claqué','k-pop','música','zumba','yoga','danza'];"),
-    ('<p class="hero-sub">més de 25 anys movent Barcelona: classes de dansa per a totes les edats i nivells. clàssic, contemporani, jazz, hip-hop, claqué, espanyol, dansa oriental…</p>',
+    ('<p class="hero-sub">més de 25 anys de dansa a Barcelona: classes per a totes les edats i nivells. clàssic, contemporani, jazz, hip-hop, claqué, espanyol, dansa oriental…</p>',
      '<p class="hero-sub">más de 25 años moviendo Barcelona: clases de danza para todas las edades y niveles. clásico, contemporáneo, jazz, hip-hop, claqué, español, danza oriental…</p>'),
     ('>classe de prova gratuïta</a>', '>clase de prueba gratuita</a>'),
     ('<a class="boto boto-buit" href="/horaris/">veure horaris</a>',
@@ -115,7 +115,7 @@ PARELLES = [
     # ── l'escola ──
     ('<div class="etiqueta reveal">l\'escola</div>', '<div class="etiqueta reveal">la escuela</div>'),
     ('ballar és un plaer, i més encara si es fa entre amics', 'bailar es un placer, y más aún si se hace entre amigos'),
-    ("som una escola de dansa de referència a Barcelona, al barri de Sant Gervasi. un espai pensat per aprendre, formar-se, interactuar i gaudir, amb classes de dansa per a totes les edats i tots els nivells: des de la iniciació a la dansa fins a la preparació d'exàmens oficials.",
+    ("som una escola de referència de la dansa a Barcelona, al barri de Sant Gervasi. un espai pensat per aprendre, formar-se, interactuar i gaudir, amb classes de dansa per a totes les edats i tots els nivells: des de la iniciació a la dansa fins a la preparació d'exàmens oficials.",
      'somos una escuela de danza de referencia en Barcelona, en el barrio de Sant Gervasi. un espacio pensado para aprender, formarse, interactuar y disfrutar, con clases de danza para todas las edades y todos los niveles: desde la iniciación a la danza hasta la preparación de exámenes oficiales.'),
     ("<small>anys d'història</small>", '<small>años de historia</small>'),
     ('<small>sales insonoritzades</small>', '<small>salas insonorizadas</small>'),
