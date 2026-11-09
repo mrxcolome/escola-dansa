@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="ca"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="robots" content="noindex,nofollow,noarchive">
+<title>Carta als reis · materials de l'escola</title>
+<link rel="icon" href="https://escoladansa.com/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="https://escoladansa.com/assets/favicon-32.png">
+<link rel="apple-touch-icon" href="https://escoladansa.com/assets/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;800&display=swap">
+<style>
+/* pàgina interna (noindex, bloquejada a robots.txt): llista de fotos i vídeos per a l'Ànnia */
+:root{
+  --bg:#f5f1ec; --surface:#fffdfb; --fg:#1c1613; --muted:#6c645e;
+  --line:rgba(28,22,19,.14); --accent:#950000; --accent-soft:rgba(149,0,0,.07);
+  --font:"Montserrat",system-ui,-apple-system,"Segoe UI",sans-serif;
+}
+@media (prefers-color-scheme:dark){
+  :root{ --bg:#15100f; --surface:#1f1816; --fg:#f2ebe7; --muted:#b3a7a1;
+    --line:rgba(242,235,231,.16); --accent:#ff7a7a; --accent-soft:rgba(255,122,122,.1); color-scheme:dark; }
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:var(--font);font-size:15px;line-height:1.6;
+  padding:32px max(16px,env(safe-area-inset-right)) 72px max(16px,env(safe-area-inset-left))}
+.wrap{max-width:800px;margin:0 auto;display:grid;gap:44px}
+header{display:grid;gap:12px}
+.eti{font-weight:600;font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--accent)}
+h1{font-weight:800;font-size:clamp(34px,7vw,52px);line-height:1.02;margin:0;letter-spacing:-.02em;text-wrap:balance}
+h1 span{color:var(--accent)}
+.lead{margin:0;max-width:62ch;color:var(--muted);font-size:16px}
+.progres{display:flex;align-items:center;gap:12px;font-size:13px;color:var(--muted);font-variant-numeric:tabular-nums}
+.barra{flex:1;max-width:260px;height:6px;border-radius:3px;background:var(--line);overflow:hidden}
+.barra i{display:block;height:100%;width:0;background:var(--accent);transition:width .3s}
+section{display:grid;gap:14px}
+h2{font-weight:800;font-size:22px;margin:0;display:flex;flex-wrap:wrap;align-items:baseline;gap:10px}
+h2 small{font-weight:500;font-size:13px;color:var(--muted)}
+.nota{margin:0;color:var(--muted);max-width:64ch}
+ul.items{list-style:none;margin:0;padding:0;border-top:1px solid var(--line)}
+ul.items li{border-bottom:1px solid var(--line)}
+ul.items label{display:grid;grid-template-columns:22px 1fr;gap:12px;padding:16px 4px;cursor:pointer}
+ul.items input{width:18px;height:18px;margin:3px 0 0;accent-color:var(--accent)}
+ul.items input:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.it{min-width:0;display:grid;gap:6px}
+.cap{display:flex;flex-wrap:wrap;align-items:baseline;gap:8px 12px}
+.cap b{font-weight:600}
+.qt{font-weight:800;color:var(--accent);font-variant-numeric:tabular-nums;white-space:nowrap}
+.it p{margin:0;color:var(--muted);font-size:14px}
+.spec{font-size:12.5px;color:var(--fg);background:var(--accent-soft);border-radius:6px;padding:6px 10px;justify-self:start}
+.spec code{font-family:inherit;font-weight:600}
+.tags{display:flex;flex-wrap:wrap;gap:6px}
+.tag{font-style:normal;font-size:11px;font-weight:600;letter-spacing:.04em;padding:2px 8px;border-radius:999px;border:1px solid var(--line);color:var(--muted)}
+li.fet .cap b{text-decoration:line-through;color:var(--muted)}
+.caixa{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:20px;display:grid;gap:12px}
+.caixa h2{font-size:18px}
+.taula{overflow-x:auto}
+table{border-collapse:collapse;width:100%;min-width:560px;font-size:13.5px}
+th,td{text-align:left;padding:9px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);font-weight:600}
+td:first-child{font-weight:600;white-space:nowrap}
+.caixa ul{margin:0;padding-left:18px;display:grid;gap:6px}
+.caixa li{max-width:64ch}
+.peu{font-size:13px;color:var(--muted);margin:0}
+@media (max-width:620px){
+  table{min-width:0}
+  thead{display:none}
+  table,tbody,tr,td{display:block;width:100%}
+  tr{padding:10px 0;border-bottom:1px solid var(--line)}
+  td{border:0;padding:2px 0}
+  td:first-child{font-size:15px;padding-bottom:4px}
+  td:nth-child(2)::before{content:"format: ";color:var(--muted)}
+  td:nth-child(3)::before{content:"mida: ";color:var(--muted)}
+  td:nth-child(4)::before{content:"fitxer: ";color:var(--muted)}
+}
+@media (prefers-reduced-motion:reduce){.barra i{transition:none}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="eti">escola de dansa cristina colomé · per a l'Ànnia · novembre 2026</div>
+    <h1>carta als reis<span>.</span></h1>
+    <p class="lead">Les fotos i els vídeos que necessitem per a la fitxa de Google, la web, el blog, el butlletí i les xarxes. Cada punt diu quantes en volem i en quin format. Està ordenat per prioritat: el primer bloc és el que més ens ajuda a sortir al mapa de Google.</p>
+    <div class="progres"><div class="barra"><i id="barra"></i></div><span id="compte">0 de 0</span></div>
+  </header>
+
+  <section class="caixa" id="formats">
+    <h2>com les volem</h2>
+    <p class="nota">Si un punt de la llista no diu res més, val això:</p>
+    <div class="taula">
+      <table>
+        <thead><tr><th>material</th><th>format i orientació</th><th>mida mínima</th><th>extensió</th></tr></thead>
+        <tbody>
+          <tr><td>foto horitzontal</td><td>4:3 o 16:9, apaïsada</td><td>2000 px d'ample (ideal 4000, la del mòbil tal qual)</td><td>JPG o HEIC, l'original</td></tr>
+          <tr><td>foto vertical</td><td>4:5 o 9:16, dreta</td><td>1500 × 1900 px</td><td>JPG o HEIC</td></tr>
+          <tr><td>retrat</td><td>4:5 vertical, mig cos</td><td>1500 × 1900 px</td><td>JPG o HEIC</td></tr>
+          <tr><td>vídeo horitzontal</td><td>16:9, mòbil apaïsat</td><td>1920 × 1080 (1080p), millor 4K; 30 fps</td><td>MP4 o MOV</td></tr>
+          <tr><td>vídeo vertical</td><td>9:16, mòbil dret</td><td>1080 × 1920; 30 fps</td><td>MP4 o MOV</td></tr>
+          <tr><td>logo</td><td>vectorial, o fons transparent</td><td>1000 px si és PNG</td><td>SVG, PDF o AI; si no, PNG</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <ul>
+      <li><b>Per a Google, el vídeo ha de durar 30 segons com a màxim</b> i pesar menys de 75 MB. Per a la web i les xarxes, clips de 10 a 30 segons.</li>
+      <li><b>De cada moment, millor les dues orientacions</b>: horitzontal per a la web i Google, vertical per a les xarxes.</li>
+      <li><b>Mòbil estable</b> (recolzat o amb les dues mans), sense zoom digital i amb la lent neta. Llum natural sempre que es pugui.</li>
+      <li><b>Sense filtres ni textos</b> sobreposats: els posem nosaltres si cal. Els vídeos poden anar sense música.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>1. el més urgent <small>fitxa de Google i portada de la web</small></h2>
+    <p class="nota">Google Maps només accepta fotos reals de l'escola: ni de banc d'imatges ni fetes amb IA.</p>
+    <ul class="items">
+      <li><label><input type="checkbox" id="m1"><div class="it"><div class="cap"><b>Vídeo per a la portada de la web</b><span class="qt">3 clips</span></div><p>Una classe en ple moviment a la nostra sala, de 20-30 s cada clip, amb el mòbil quiet (sense caminar). El vídeo que hi ha ara a la portada no és de l'escola i l'hem de canviar. Si pot ser, un dels tres també en vertical.</p><span class="spec">vídeo horitzontal 16:9 · <code>4K o 1080p</code> · 30 fps · MP4/MOV · sense so</span><div class="tags"><i class="tag">web</i><i class="tag">Google</i></div></div></label></li>
+      <li><label><input type="checkbox" id="m2"><div class="it"><div class="cap"><b>Les tres sales buides (C, H i N)</b><span class="qt">6 fotos</span></div><p>Dues de cada sala, de dia i amb els llums encesos: una des de la porta i una des del fons, amb els miralls i les barres.</p><span class="spec">foto horitzontal · <code>2000 px</code> o més · JPG/HEIC</span><div class="tags"><i class="tag">Google</i><i class="tag">web</i></div></div></label></li>
+      <li><label><input type="checkbox" id="m3"><div class="it"><div class="cap"><b>Una classe de cada estil</b><span class="qt">3 fotos × 12 estils = 36</span></div><p>Clàssic, contemporani, jazz, hip-hop, claqué, espanyol, oriental, k-pop/heels, musical, iniciació (els petits), adults i barre/fit dance. Millor en ple moviment que posant, i que es vegi la sala.</p><span class="spec">foto horitzontal · <code>2000 px</code> o més · JPG/HEIC</span><div class="tags"><i class="tag">Google</i><i class="tag">web</i><i class="tag">blog</i></div></div></label></li>
+      <li><label><input type="checkbox" id="m4"><div class="it"><div class="cap"><b>Entrada i recepció</b><span class="qt">4 fotos</span></div><p>La porta amb el rètol (2) i el taulell de recepció (2), sense pantalles ni papers amb noms a la vista.</p><span class="spec">foto horitzontal · <code>2000 px</code> o més · JPG/HEIC</span><div class="tags"><i class="tag">Google</i></div></div></label></li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>2. les persones <small>web, butlletí i Google</small></h2>
+    <ul class="items">
+      <li><label><input type="checkbox" id="m6"><div class="it"><div class="cap"><b>Retrat de cada professora i professor</b><span class="qt">2 fotos per persona</span></div><p>Un retrat de mig cos mirant a càmera, amb un fons net (paret llisa o la sala buida), i una foto fent classe. Ens serveix per a la web i per a «la profe del mes» del butlletí.</p><span class="spec">retrat 4:5 vertical · <code>1500 × 1900 px</code> · JPG/HEIC</span><div class="tags"><i class="tag">web</i><i class="tag">butlletí</i></div></div></label></li>
+      <li><label><input type="checkbox" id="m7"><div class="it"><div class="cap"><b>Tot l'equip junt</b><span class="qt">3 fotos</span></div><p>Tothom a la sala o a l'entrada, somrient i també una de més informal.</p><span class="spec">foto horitzontal · <code>2000 px</code> o més · JPG/HEIC</span><div class="tags"><i class="tag">web</i><i class="tag">Google</i></div></div></label></li>
+      <li><label><input type="checkbox" id="m8"><div class="it"><div class="cap"><b>La Cristina</b><span class="qt">4 fotos</span></div><p>Dos retrats (un horitzontal i un vertical) i dues fotos ensenyant a la sala.</p><span class="spec">foto horitzontal i retrat 4:5 · <code>2000 px</code> o més · JPG/HEIC</span><div class="tags"><i class="tag">web</i><i class="tag">blog</i><i class="tag">butlletí</i></div></div></label></li>
+      <li><label><input type="checkbox" id="m9"><div class="it"><div class="cap"><b>Vídeos de famílies i alumnes adults</b><span class="qt">4 vídeos</span></div><p>Una sola pregunta: «què t'agrada de l'escola?». 20-30 s cadascun, la persona mirant a càmera, en un lloc sense soroll. Aquí sí que importa el so: millor amb el micròfon a prop.</p><span class="spec">vídeo vertical 9:16 · <code>1080 × 1920</code> · MP4/MOV · amb so</span><div class="tags"><i class="tag">web</i><i class="tag">xarxes</i><i class="tag">Google</i></div></div></label></li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>3. el dia a dia <small>blog, butlletí i xarxes</small></h2>
+    <ul class="items">
+      <li><label><input type="checkbox" id="m10"><div class="it"><div class="cap"><b>Detalls sense cares</b><span class="qt">20 fotos</span></div><p>Sabatilles, puntes, sabates de claqué, la barra, el mirall, bosses penjades, mans i peus fent un pas, la llum a la sala. Són ideals per als posts del blog i no demanen el consentiment de ningú.</p><span class="spec">foto horitzontal · <code>2000 px</code> o més · JPG/HEIC</span><div class="tags"><i class="tag">blog</i><i class="tag">butlletí</i></div></div></label></li>
+      <li><label><input type="checkbox" id="m11"><div class="it"><div class="cap"><b>«El repte del mes» en vídeo</b><span class="qt">1 vídeo cada mes</span></div><p>Una professora fent el repte del butlletí (per exemple, 20 segons en relevé). 15 s.</p><span class="spec">vídeo vertical 9:16 · <code>1080 × 1920</code> · MP4/MOV</span><div class="tags"><i class="tag">butlletí</i><i class="tag">xarxes</i></div></div></label></li>
+      <li><label><input type="checkbox" id="m12"><div class="it"><div class="cap"><b>Un pas explicat</b><span class="qt">1 vídeo per estil (12)</span></div><p>Una professora ensenyant un pas bàsic del seu estil, a velocitat normal i després a poc a poc. 15-30 s. Ens dona material per a posts i xarxes durant mesos.</p><span class="spec">vídeo vertical 9:16 · <code>1080 × 1920</code> · MP4/MOV</span><div class="tags"><i class="tag">blog</i><i class="tag">xarxes</i></div></div></label></li>
+      <li><label><input type="checkbox" id="m13"><div class="it"><div class="cap"><b>Entrades i sortides</b><span class="qt">6 fotos</span></div><p>L'ambient de les 17 h amb famílies i alumnes, d'esquena o de lluny si no tenim permís.</p><span class="spec">foto horitzontal · <code>2000 px</code> o més · JPG/HEIC</span><div class="tags"><i class="tag">web</i><i class="tag">Google</i></div></div></label></li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>4. els grans moments <small>tot el curs</small></h2>
+    <ul class="items">
+      <li><label><input type="checkbox" id="m14"><div class="it"><div class="cap"><b>Festival de fi de curs del juny 2026</b><span class="qt">tot el que hi hagi</span></div><p>Fotos i vídeos de l'escenari, els assajos i el backstage. Encara que siguin de mòbil.</p><span class="spec">l'original de cada fitxer, sense passar per WhatsApp</span><div class="tags"><i class="tag">web</i><i class="tag">blog</i><i class="tag">Google</i></div></div></label></li>
+      <li><label><input type="checkbox" id="m15"><div class="it"><div class="cap"><b>Festival del juny 2027</b><span class="qt">reservar fotògraf</span></div><p>Buscar ja una persona que en faci fotos i vídeo amb qualitat. És el material que farem servir tot l'any següent.</p><span class="spec">fotos JPG a resolució completa · vídeo 4K · drets d'ús per a web i xarxes</span><div class="tags"><i class="tag">web</i><i class="tag">butlletí</i></div></div></label></li>
+      <li><label><input type="checkbox" id="m16"><div class="it"><div class="cap"><b>Dia de la Dansa, Nadal i actuacions fora</b><span class="qt">10 fotos + 2 clips per sortida</span></div><p>Les fotos, en horitzontal; els clips, de 15-30 s en vertical.</p><span class="spec">foto horitzontal <code>2000 px</code> · vídeo vertical <code>1080 × 1920</code></span><div class="tags"><i class="tag">xarxes</i><i class="tag">butlletí</i><i class="tag">Google</i></div></div></label></li>
+      <li><label><input type="checkbox" id="m17"><div class="it"><div class="cap"><b>Logo</b><span class="qt">1 fitxer</span></div><p>L'original de qui el va dissenyar, si existeix.</p><span class="spec">SVG, PDF o AI · si no, PNG amb fons transparent de <code>1000 px</code></span><div class="tags"><i class="tag">Google</i><i class="tag">butlletí</i></div></div></label></li>
+    </ul>
+  </section>
+
+  <section class="caixa">
+    <h2>abans de fer-les</h2>
+    <ul>
+      <li><b>Només alumnes amb drets d'imatge.</b> Al Backstage, a la fitxa de cada alumne, hi ha la casella «drets d'imatge». Si no la té marcada, que no surti la cara: d'esquena, de lluny o només detalls.</li>
+      <li><b>Sense noms ni pantalles</b> a la vista: llistes, ordinador de recepció, papers del taulell.</li>
+      <li><b>Avisa el grup abans</b> de gravar, i a les famílies si són petits.</li>
+    </ul>
+  </section>
+
+  <section class="caixa">
+    <h2>com passar-les</h2>
+    <ul>
+      <li><b>Per Google Drive</b>, a la carpeta compartida de materials, en una subcarpeta per data: <code>2026-11 classes</code>, <code>2026-11 equip</code>…</li>
+      <li><b>Sempre l'original.</b> Res de WhatsApp: comprimeix les fotos i els vídeos i després no serveixen per a la web ni per a Google.</li>
+      <li><b>Si hi ha un nom o un estil, al nom del fitxer</b> o al de la carpeta: <code>jazz-infantil-02.jpg</code>, <code>retrat-nora.jpg</code>. Ens estalvia preguntar.</li>
+    </ul>
+  </section>
+
+  <p class="peu">Les caselles es guarden només en el teu navegador: serveixen per portar el compte.</p>
+</div>
+
+<script>
+(function(){
+  var caixes=[].slice.call(document.querySelectorAll('ul.items input[type=checkbox]'));
+  var CLAU='carta-reis-materials', desat={};
+  try{desat=JSON.parse(localStorage.getItem(CLAU)||'{}')||{}}catch(e){desat={}}
+  function pinta(){
+    var n=0;
+    caixes.forEach(function(c){c.closest('li').classList.toggle('fet',c.checked);if(c.checked)n++});
+    document.getElementById('compte').textContent=n+' de '+caixes.length;
+    document.getElementById('barra').style.width=(caixes.length?n*100/caixes.length:0)+'%';
+  }
+  caixes.forEach(function(c){
+    if(desat[c.id])c.checked=true;
+    c.addEventListener('change',function(){desat[c.id]=c.checked;try{localStorage.setItem(CLAU,JSON.stringify(desat))}catch(e){}pinta()});
+  });
+  pinta();
+})();
+</script>
+</body></html>

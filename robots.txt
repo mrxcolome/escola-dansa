@@ -6,6 +6,7 @@ Disallow: /seo/
 Disallow: /dossier/
 Disallow: /memoria/
 Disallow: /google/
+Disallow: /materials/
 Disallow: /contacte.php
 Content-Signal: search=yes, ai-input=yes, ai-train=yes
 
