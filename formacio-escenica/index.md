@@ -17,10 +17,10 @@ per a joves que volen una formació artística completa: ballar diversos estils 
 | dia | hora | grup | sala |
 |---|---|---|---|
 | divendres | 17.00 | dansa del ventre juvenil II | sala H |
-| divendres | 17.45 | jazz juvenil | sala H |
-| divendres | 17.45 | jazz juvenil | sala N |
-| divendres | 18.45 | contemporani juvenil | sala H |
-| divendres | 18.45 | contemporani juvenil | sala N |
+| divendres | 17.45 | jazz juvenil C | sala H |
+| divendres | 17.45 | jazz juvenil B | sala N |
+| divendres | 18.45 | contemporani juvenil B | sala H |
+| divendres | 18.45 | contemporani juvenil C | sala N |
 | divendres | 19.45 | hip-hop juvenil | sala H |
 
 ## preus

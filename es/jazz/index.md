@@ -19,10 +19,7 @@ es una de las disciplinas con más grupos de la escuela: infantiles por edades, 
 | lunes | 17.00 | jazz infantil II | sala C |
 | lunes | 18.30 | jazz infantil III | sala N |
 | martes | 17.30 | jazz infantil I | sala N |
-| miércoles | 17.45 | jazz infantil II | sala N |
 | jueves | 20.30 | jazz adultos intermedio | sala H |
-| viernes | 17.45 | jazz juvenil | sala H |
-| viernes | 17.45 | jazz juvenil | sala N |
 
 ## precios
 

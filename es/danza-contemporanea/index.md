@@ -16,15 +16,12 @@ ofrecemos contemporáneo desde infantil hasta adultos, con grupos juveniles por 
 
 | día | hora | grupo | sala |
 |---|---|---|---|
-| lunes | 17.30 | contemporáneo infantil II | sala N |
 | lunes | 19.45 | contemporáneo adultos I | sala H |
 | miércoles | 18.30 | contemporáneo juvenil II | sala H |
 | miércoles | 20.30 | contemporáneo adultos III | sala H |
 | jueves | 17.30 | contemporáneo juvenil A | sala H |
 | jueves | 19.30 | contemporáneo adultos II | sala H |
 | viernes | 17.30 | contemporáneo infantil I | sala C |
-| viernes | 18.45 | contemporáneo juvenil | sala H |
-| viernes | 18.45 | contemporáneo juvenil | sala N |
 
 ## precios
 

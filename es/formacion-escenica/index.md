@@ -17,10 +17,10 @@ para jóvenes que quieren una formación artística completa: bailar varios esti
 | día | hora | grupo | sala |
 |---|---|---|---|
 | viernes | 17.00 | danza del vientre juvenil II | sala H |
-| viernes | 17.45 | jazz juvenil | sala H |
-| viernes | 17.45 | jazz juvenil | sala N |
-| viernes | 18.45 | contemporáneo juvenil | sala H |
-| viernes | 18.45 | contemporáneo juvenil | sala N |
+| viernes | 17.45 | jazz juvenil C | sala H |
+| viernes | 17.45 | jazz juvenil B | sala N |
+| viernes | 18.45 | contemporáneo juvenil B | sala H |
+| viernes | 18.45 | contemporáneo juvenil C | sala N |
 | viernes | 19.45 | hip-hop juvenil | sala H |
 
 ## precios

@@ -1,12 +1,6 @@
 {
  "dilluns": [
   [
-   "10.00",
-   "barre",
-   "",
-   "sala C"
-  ],
-  [
    "17.00",
    "jazz",
    "infantil II",
@@ -20,8 +14,8 @@
   ],
   [
    "17.30",
-   "contemporani",
-   "infantil II",
+   "contemporani infantil",
+   "",
    "sala N"
   ],
   [
@@ -88,8 +82,8 @@
   ],
   [
    "17.30",
-   "iniciació dansa",
-   "I",
+   "iniciació dansa B",
+   "",
    "sala C"
   ],
   [
@@ -118,12 +112,6 @@
   ],
   [
    "19.45",
-   "claqué",
-   "juvenil A",
-   "sala N"
-  ],
-  [
-   "19.45",
    "clàssic",
    "adults II",
    "sala C"
@@ -149,33 +137,27 @@
  ],
  "dimecres": [
   [
-   "10.00",
-   "barre",
-   "",
-   "sala C"
-  ],
-  [
    "17.30",
-   "clàssic",
-   "juvenil II",
+   "clàssic juvenil B",
+   "",
    "sala H"
   ],
   [
    "17.30",
-   "iniciació dansa",
-   "I",
+   "iniciació dansa B",
+   "",
    "sala N"
   ],
   [
    "17.30",
-   "clàssic",
-   "infantil I",
+   "clàssic infantil B",
+   "",
    "sala C"
   ],
   [
    "17.45",
-   "jazz",
-   "infantil II",
+   "jazz infantil C",
+   "",
    "sala N"
   ],
   [
@@ -247,6 +229,12 @@
    "sala H"
   ],
   [
+   "17.30",
+   "clàssic",
+   "infantil C",
+   "sala N"
+  ],
+  [
    "18.30",
    "clàssic",
    "juvenil III",
@@ -316,14 +304,14 @@
   ],
   [
    "17.45",
-   "jazz",
-   "juvenil",
+   "jazz juvenil C",
+   "",
    "sala H"
   ],
   [
    "17.45",
-   "jazz",
-   "juvenil",
+   "jazz juvenil B",
+   "",
    "sala N"
   ],
   [
@@ -334,14 +322,14 @@
   ],
   [
    "18.45",
-   "contemporani",
-   "juvenil",
+   "contemporani juvenil B",
+   "",
    "sala H"
   ],
   [
    "18.45",
-   "contemporani",
-   "juvenil",
+   "contemporani juvenil C",
+   "",
    "sala N"
   ],
   [
