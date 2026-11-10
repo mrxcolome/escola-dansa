@@ -1,5 +1,5 @@
 <?php
-// Formulari de contacte d'escoladansa.com → info@escoladansa.com (+ còpia oculta)
+// Formulari de contacte d'escoladansa.com → tina.colome@gmail.com, de moment (+ còpia oculta)
 header('Content-Type: application/json; charset=utf-8');
 if ($_SERVER['REQUEST_METHOD'] !== 'POST') { http_response_code(405); echo '{"ok":false}'; exit; }
 
@@ -32,5 +32,5 @@ if (filter_var($contacte, FILTER_VALIDATE_EMAIL)) {
 }
 
 $assumpte = mb_encode_mimeheader("Consulta web: $nom", 'UTF-8');
-$ok = mail('info@escoladansa.com', $assumpte, $cos, $capceleres);
+$ok = mail('tina.colome@gmail.com', $assumpte, $cos, $capceleres);
 echo json_encode(['ok' => (bool) $ok]);

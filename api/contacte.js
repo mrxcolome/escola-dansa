@@ -1,11 +1,11 @@
-// Formulari de contacte d'escoladansa.com → info@escoladansa.com (+ còpia oculta).
+// Formulari de contacte d'escoladansa.com → tina.colome@gmail.com, de moment (+ còpia oculta).
 // Substitueix contacte.php de Webempresa: vercel.json reescriu /contacte.php cap aquí,
 // així la home no canvia. El correu surt pel servidor SMTP de la bústia de l'escola.
 // Variables a Vercel (Settings → Environment Variables): SMTP_HOST, SMTP_PORT,
 // SMTP_USER, SMTP_PASS. Les posa el Xavi; no van mai al repo.
 import nodemailer from 'nodemailer'
 
-const DESTI = 'info@escoladansa.com'
+const DESTI = 'tina.colome@gmail.com' // de moment (10-nov-2026), per decisió del Xavi
 const COPIA = 'xcolome@hotmail.com'
 
 const neteja = (v) => String(v ?? '').replace(/[\r\n]+/g, ' ').trim()
