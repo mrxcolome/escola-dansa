@@ -1,10 +1,11 @@
 // Formulari de contacte d'escoladansa.com → tina.colome@gmail.com, de moment (+ còpia oculta).
 // Substitueix contacte.php de Webempresa: vercel.json reescriu /contacte.php cap aquí,
-// així la home no canvia. El correu surt pel servidor SMTP de la bústia de l'escola.
-// Variables a Vercel (Settings → Environment Variables): SMTP_HOST, SMTP_PORT,
-// SMTP_USER, SMTP_PASS. Les posa el Xavi; no van mai al repo.
-import nodemailer from 'nodemailer'
+// així la home no canvia. El correu l'envia Resend (servei de correus transaccionals),
+// des de web@escoladansa.com (domini verificat a Resend amb registres a Vercel DNS).
+// Variable a Vercel (Settings → Environment Variables): RESEND_API_KEY. La posa el
+// Xavi; no va mai al repo.
 
+const REMITENT = 'Web escoladansa.com <web@escoladansa.com>'
 const DESTI = 'tina.colome@gmail.com' // de moment (10-nov-2026), per decisió del Xavi
 const COPIA = 'xcolome@hotmail.com'
 
@@ -35,24 +36,29 @@ export async function POST(request) {
   }
 
   const esEmail = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(contacte)
-  const transport = nodemailer.createTransport({
-    host: process.env.SMTP_HOST,
-    port: Number(process.env.SMTP_PORT || 465),
-    secure: Number(process.env.SMTP_PORT || 465) === 465,
-    auth: { user: process.env.SMTP_USER, pass: process.env.SMTP_PASS },
-  })
 
   try {
-    await transport.sendMail({
-      from: `"Web escoladansa.com" <${process.env.SMTP_USER || DESTI}>`,
-      to: DESTI,
-      bcc: COPIA,
-      replyTo: esEmail ? { name: nom, address: contacte } : undefined,
-      subject: `Consulta web: ${nom}`,
-      text:
-        "Nou missatge del formulari de contacte d'escoladansa.com\n\n" +
-        `Nom: ${nom}\nContacte: ${contacte}\n\nMissatge:\n${missatge}\n`,
+    const resposta = await fetch('https://api.resend.com/emails', {
+      method: 'POST',
+      headers: {
+        Authorization: `Bearer ${process.env.RESEND_API_KEY}`,
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        from: REMITENT,
+        to: [DESTI],
+        bcc: [COPIA],
+        reply_to: esEmail ? contacte : undefined,
+        subject: `Consulta web: ${nom}`,
+        text:
+          "Nou missatge del formulari de contacte d'escoladansa.com\n\n" +
+          `Nom: ${nom}\nContacte: ${contacte}\n\nMissatge:\n${missatge}\n`,
+      }),
     })
+    if (!resposta.ok) {
+      console.error('contacte: Resend ha dit', resposta.status, await resposta.text())
+      return json({ ok: false }, 502)
+    }
     return json({ ok: true })
   } catch (e) {
     console.error('contacte: no s’ha pogut enviar', e?.message)
