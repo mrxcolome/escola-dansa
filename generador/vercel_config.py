@@ -71,6 +71,10 @@ config = {
     "outputDirectory": "_web",
     "trailingSlash": True,
     "redirects": [
+        # www → arrel, en un sol salt (com feia el .htaccess de Webempresa)
+        {"source": "/:cami*", "has": [{"type": "host", "value": "www.escoladansa.com"}],
+         "destination": "https://escoladansa.com/:cami*", "statusCode": 301},
+    ] + [
         {"source": f"/:cami({regex})", "destination": desti, "statusCode": 301}
         for regex, desti in REDIRECCIONS
     ],

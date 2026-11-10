@@ -7,6 +7,17 @@
   "trailingSlash": true,
   "redirects": [
     {
+      "source": "/:cami*",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.escoladansa.com"
+        }
+      ],
+      "destination": "https://escoladansa.com/:cami*",
+      "statusCode": 301
+    },
+    {
       "source": "/:cami(inici/?)",
       "destination": "/",
       "statusCode": 301
