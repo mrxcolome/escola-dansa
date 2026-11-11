@@ -16,7 +16,9 @@ para adultos de todas las edades y condiciones físicas: el barre por las mañan
 
 | día | hora | grupo | sala |
 |---|---|---|---|
+| lunes | 10.00 | barre | sala C |
 | martes | 20.45 | yoga | sala C |
+| miércoles | 10.00 | barre | sala C |
 | miércoles | 19.30 | zumba | sala N |
 | jueves | 10.00 | cuerpo y movimiento | sala C |
 | jueves | 19.30 | zumba | sala N |
