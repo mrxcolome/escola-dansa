@@ -22,7 +22,7 @@ tenemos grupos de clásico para todas las edades y niveles: infantiles, juvenile
 | lunes | 18.30 | clásico adultos I | sala C |
 | martes | 17.30 | clásico juvenil I | sala H |
 | martes | 19.45 | clásico adultos II | sala C |
-| miércoles | 17.15 | clásico juvenil II | sala H |
+| miércoles | 17.30 | clásico juvenil II | sala H |
 | miércoles | 17.30 | clásico infantil I | sala C |
 | miércoles | 18.30 | clásico infantil II | sala N |
 | miércoles | 18.30 | clásico adultos I | sala C |

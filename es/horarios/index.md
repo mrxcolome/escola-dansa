@@ -38,7 +38,7 @@
 | hora | actividad | grupo | sala |
 |---|---|---|---|
 | 10.00 | barre |  | sala C |
-| 17.15 | clásico | juvenil II | sala H |
+| 17.30 | clásico | juvenil II | sala H |
 | 17.30 | clásico | infantil I | sala C |
 | 17.45 | jazz | infantil II | sala N |
 | 18.15 | contemporáneo | juvenil II | sala H |

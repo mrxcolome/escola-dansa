@@ -22,7 +22,7 @@ tenim grups de clàssic per a totes les edats i nivells: infantils, juvenils i a
 | dilluns | 18.30 | clàssic adults I | sala C |
 | dimarts | 17.30 | clàssic juvenil I | sala H |
 | dimarts | 19.45 | clàssic adults II | sala C |
-| dimecres | 17.15 | clàssic juvenil II | sala H |
+| dimecres | 17.30 | clàssic juvenil II | sala H |
 | dimecres | 17.30 | clàssic infantil I | sala C |
 | dimecres | 18.30 | clàssic infantil II | sala N |
 | dimecres | 18.30 | clàssic adults I | sala C |
