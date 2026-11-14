@@ -14,7 +14,6 @@ concurrency:
 
 permissions:
   contents: write
-  actions: write
 
 jobs:
   graella:
@@ -53,5 +52,4 @@ jobs:
           git commit -m "horaris: graella actualitzada des del Backstage"
           git pull --rebase origin main
           git push origin HEAD:main
-          # un push fet amb el token del workflow no llança el desplegament: es llança a mà
-          gh workflow run deploy.yml --ref main
+          # Vercel desplega sol cada push a main

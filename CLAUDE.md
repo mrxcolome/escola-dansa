@@ -6,7 +6,7 @@ Web estàtica de l'Escola de Dansa Cristina Colomé (https://escoladansa.com), e
 
 ## Publicar
 
-- Cada push a `main` desplega la web a Webempresa per FTPS (`.github/workflows/deploy.yml`, només fitxers canviats). El que hi ha a `main` és el que surt publicat. `generador/` no es puja.
+- La web és a **Vercel** (projecte `escola-dansa-web`, equip xavis-projects; DNS del domini també a Vercel). Cada push a `main` la desplega sol, també els que fan els workflows. El build (`generador/vercel_build.py`) passa el comprovador d'enllaços i copia la web pública a `_web/` (sense `generador/`, `api/`…). El que hi ha a `main` és el que surt publicat.
 - Després d'un desplegament que afegeixi o canviï URLs: `python3 generador/ping_indexnow.py` (notifica totes les URL del sitemap a IndexNow/Bing).
 - El servidor serveix les imatges amb `max-age` d'un any: per substituir una imatge, crea un fitxer amb **nom nou** (p. ex. `blog-x-2.jpg`) en lloc de sobreescriure'l.
 - Previsualització local: `python3 -m http.server` des de l'arrel.
@@ -23,7 +23,7 @@ python3 genera_home_es.py   # es/index.html a partir d'index.html
 python3 genera_markdown.py  # un index.md al costat de cada index.html
 ```
 
-Després de regenerar: `python3 generador/comprova_enllacos.py` revisa tots els enllaços interns. El desplegament l'executa abans de pujar res i, si troba un enllaç trencat, s'atura sense publicar. Als posts, els enllaços a altres posts van amb `/blog/<slug>/` (CA) o `/es/blog/<slug_es>/` (ES).
+Després de regenerar: `python3 generador/comprova_enllacos.py` revisa tots els enllaços interns. El build de Vercel l'executa abans de publicar i, si troba un enllaç trencat, falla i la versió anterior continua en línia. Als posts, els enllaços a altres posts van amb `/blog/<slug>/` (CA) o `/es/blog/<slug_es>/` (ES).
 
 Comprovació bàsica: regenerar sense haver tocat res no ha de produir cap diff (`git status`). `genera_home_es.py` avisa si alguna cadena de la taula `PARELLES` ja no es troba.
 
@@ -33,14 +33,14 @@ Com encaixa:
 - `traduccions_es.py` té el contingut ES per slug. El que no hi és s'hereta del CA. Les cadenes fixes de la plantilla es tradueixen amb les parelles de `fixos_es()`: **un text nou a la plantilla necessita la seva parella ES allà**. Els slugs ES són a `SLUG_ES`.
 - `genera_blog.py` reutilitza plantilla i CSS de `genera_pagines.py` (amb `BLOG_CSS` per sobre, tema clar). Els posts són a `blog_posts.py` (llista `POSTS`, un diccionari per post amb camps CA i `*_es`; vegeu-ne un d'existent com a model). Les imatges van a `assets/` a 1600×900. `LASTMOD_PAGINES` (data del sitemap per a les pàgines estàtiques) s'ha d'actualitzar quan es toquen aquestes pàgines.
 - La home CA (`index.html`) és **feta a mà** i porta una còpia pròpia del CSS i del JS comuns: un canvi de disseny global s'ha d'aplicar a `genera_pagines.py` i a `index.html`. Només la zona entre `<!-- BLOG-AUTO -->` i `<!-- /BLOG-AUTO -->` la reescriu `genera_blog.py`.
-- Fitxa de Google (API de Perfil d'Empresa): `generador/gbp.py` + `.github/workflows/gbp.yml`. Després de cada desplegament publica a la fitxa els posts nous (registre a `gbp_publicats.json`); cada dia actualitza el bloc d'opinions de la portada (`index.html` i la parella de `genera_home_es.py`) i, si canvia, ho desplega. A mà (Actions → «fitxa de google»): `llista` mostra les ressenyes recents, `respon` contesta les de `gbp_respostes.json` (nom de l'autor → text), `fitxa` mostra les dades de la fitxa, `edita` hi aplica els camps de `gbp_canvis.json` i `fotos` hi puja les fotos de `gbp_fotos.json` (fitxers d'`assets/fitxa/`, ja desplegats: Google les baixa de la web).
-- `.htaccess`: redireccions 301 de la web antiga (WordPress i pre-WordPress), canònic https sense www, i negociació `Accept: text/markdown` → `index.md`.
+- Fitxa de Google (API de Perfil d'Empresa): `generador/gbp.py` + `.github/workflows/gbp.yml`. Després de cada push a main (quan Vercel ja serveix la versió nova) i cada matí publica a la fitxa els posts nous (registre a `gbp_publicats.json`); cada dia actualitza el bloc d'opinions de la portada (`index.html` i la parella de `genera_home_es.py`) i, si canvia, en fa commit (Vercel ho desplega). A mà (Actions → «fitxa de google»): `llista` mostra les ressenyes recents, `respon` contesta les de `gbp_respostes.json` (nom de l'autor → text), `fitxa` mostra les dades de la fitxa, `edita` hi aplica els camps de `gbp_canvis.json` i `fotos` hi puja les fotos de `gbp_fotos.json` (fitxers d'`assets/fitxa/`, ja desplegats: Google les baixa de la web).
+- `vercel.json` es **genera** amb `python3 generador/vercel_config.py`: redireccions 301 de la web antiga (llista `REDIRECCIONS`), capçaleres i el noindex de `*.vercel.app`. www → arrel es fa al domini de Vercel. La negociació `Accept: text/markdown` → `index.md` la fa `middleware.js`.
 
 ## Convencions
 
 - Estil de la casa en minúscula (títols, botons, navegació). Excepció: dins dels posts del blog els titulars i el cos van amb majúscula inicial (`maj()` i `cos_amb_majuscules()` a `genera_blog.py`).
 - Google Analytics (GA4) només es carrega si l'usuari accepta l'avís de galetes (`localStorage` `galetes`). Rebutjar ha de ser tan fàcil com acceptar.
-- Formulari de contacte: `contacte.php`. Newsletter: Mailchimp per JSONP des de la plantilla.
+- Formulari de contacte: la home envia a `/contacte.php`, que `vercel.json` reescriu a la funció `api/contacte.js`; envia per **Resend** (variable `RESEND_API_KEY` a Vercel) des de web@escoladansa.com. Newsletter: Mailchimp per JSONP des de la plantilla. Correu de l'equip: OVH.
 - Missatges de commit: `àrea: descripció` (`blog:`, `seo:`, `galetes:`, `dossier:`…), en català.
 
 ## Seccions internes (noindex, bloquejades a `robots.txt`)

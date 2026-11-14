@@ -2,7 +2,7 @@
 """
 Markdown per a agents d'IA: genera un index.md al costat de cada index.html
 (home, 16 pàgines CA + 16 ES, portada del blog i cada post CA/ES).
-El .htaccess serveix aquests .md quan la petició porta Accept: text/markdown
+El middleware.js de Vercel serveix aquests .md quan la petició porta Accept: text/markdown
 (negociació de contingut — Cloudflare «Markdown for Agents»).
 
 Us: python genera_markdown.py   (després de genera_pagines i genera_blog)
