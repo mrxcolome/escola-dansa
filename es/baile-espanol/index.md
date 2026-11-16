@@ -21,7 +21,7 @@ grupos juveniles y de adultos de nivel intermedio. si te atrae nuestra tradició
 
 ## precios
 
-la cuota la marca la duración de las clases: desde 57 €/mes (clases de 45 min) y 60 €/mes (clases de 1 hora). Todas las tarifas: https://escoladansa.com/es/precios/
+la cuota la marca la duración de las clases: desde 56 €/mes (clases de 45 min) y 60 €/mes (clases de 1 hora). Todas las tarifas: https://escoladansa.com/es/precios/
 
 ## preguntas frecuentes
 

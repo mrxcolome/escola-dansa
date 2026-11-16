@@ -44,7 +44,7 @@ Más danza no siempre es mejor danza. Un día vivido con ganas vale más que tre
 
 ## ¿cuánto cuesta un día más?
 
-Menos de lo que parece. En la escuela el precio no se multiplica por días: **el segundo día cuesta 11 € más al mes** en las clases de 45 minutos (de 57 € a 68 €) y 13 € más en las de 1 hora (de 60 € a 73 €). Todas las tarifas, también las trimestrales, están en [precios](/es/precios/), y los grupos y días, en [horarios](/es/horarios/).
+Menos de lo que parece. En la escuela el precio no se multiplica por días: **el segundo día cuesta 12 € más al mes** en las clases de 45 minutos (de 56 € a 68 €) y 13 € más en las de 1 hora (de 60 € a 73 €). Todas las tarifas, también las trimestrales, están en [precios](/es/precios/), y los grupos y días, en [horarios](/es/horarios/).
 
 ## En resumen
 
@@ -62,7 +62,7 @@ Sí, para aprender y disfrutar. Con dos días el progreso es más rápido y visi
 
 ### ¿cuánto cuesta añadir un segundo día de clase?
 
-En la escuela, el segundo día cuesta 11 € más al mes en las clases de 45 minutos (de 57 € a 68 €) y 13 € más en las de 1 hora (de 60 € a 73 €).
+En la escuela, el segundo día cuesta 12 € más al mes en las clases de 45 minutos (de 56 € a 68 €) y 13 € más en las de 1 hora (de 60 € a 73 €).
 
 ### ¿es mejor hacer dos días del mismo estilo o de dos estilos distintos?
 

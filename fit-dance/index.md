@@ -20,7 +20,7 @@ per a adults que volen entrenar ballant: el fit dance combina coreografia i cond
 
 ## preus
 
-la quota la marca la durada de les classes: des de 57 €/mes (classes de 45 min) i 60 €/mes (classes d'1 hora). Totes les tarifes: https://escoladansa.com/preus/
+la quota la marca la durada de les classes: des de 56 €/mes (classes de 45 min) i 60 €/mes (classes d'1 hora). Totes les tarifes: https://escoladansa.com/preus/
 
 ## preguntes freqüents
 

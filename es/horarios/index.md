@@ -23,7 +23,7 @@
 |---|---|---|---|
 | 17.30 | clásico | juvenil I | sala H |
 | 17.30 | jazz | infantil I | sala N |
-| 17.30 | iniciación danza | I | sala C |
+| 17.30 | iniciació dansa A |  | sala C |
 | 18.30 | hip-hop | juvenil I | sala H |
 | 18.30 | preparación de pruebas |  | sala N |
 | 18.45 | claqué | adultos II | sala C |
@@ -57,13 +57,14 @@
 |---|---|---|---|
 | 10.00 | cuerpo y movimiento |  | sala C |
 | 17.30 | contemporáneo | juvenil A | sala H |
-| 17.30 | iniciación danza | I | sala N |
 | 18.30 | clásico | juvenil III | sala H |
 | 18.30 | hip-hop | infantil I | sala N |
 | 18.45 | claqué | adultos II | sala C |
 | 19.30 | contemporáneo | adultos II | sala H |
 | 19.30 | zumba |  | sala N |
 | 19.45 | clásico | adultos II | sala C |
+| 20.30 | Jazz ad |  | sala H |
+| 20.30 | Jazz ad |  | sala H |
 | 20.30 | danza del vientre | adultos III | sala H |
 | 20.45 | yoga |  | sala C |
 
