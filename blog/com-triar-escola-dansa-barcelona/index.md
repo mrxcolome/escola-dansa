@@ -58,7 +58,7 @@ Per no predicar en va, les nostres, curtes i comprovables:
 
 - **Quan** — tardes de dilluns a divendres, i barre al matí dilluns i dimecres. La graella sencera és a [horaris](/horaris/).
 
-- **Quant** — 56 € al mes una activitat de 45 minuts i 60 € una d'1 hora (la tarifa la marca la durada de la classe); com més activitats, més econòmica surt cadascuna, i pagant per trimestres encara s'estalvia. Matrícula de 65 € en renovar i 70 € en una alta nova. Tot publicat a [preus](/preus/).
+- **Quant** — 57 € al mes una activitat de 45 minuts i 60 € una d'1 hora (la tarifa la marca la durada de la classe); com més activitats, més econòmica surt cadascuna, i pagant per trimestres encara s'estalvia. Matrícula de 65 € en renovar i 70 € en una alta nova. Tot publicat a [preus](/preus/).
 
 - **Sense compromís** — la [classe de prova és gratuïta](/blog/classe-de-prova-gratuita/), no hi ha permanència i es pot canviar de grup o d'estil parlant amb recepció.
 
