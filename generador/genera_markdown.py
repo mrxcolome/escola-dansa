@@ -15,6 +15,7 @@ import re
 import blog_posts as bp
 import genera_pagines as gp
 from traduccions_es import TRADUCCIONS_ES
+from tarifes import preus
 
 ARREL = gp.ARREL
 PEU_CA = (f"\n---\n\nescola de dansa cristina colomé · Carrer de Craywinckel, 25, "
@@ -28,7 +29,7 @@ PEU_ES = (f"\n---\n\nescola de dansa cristina colomé · Carrer de Craywinckel, 
 def escriu(cami_rel, text):
     ruta = os.path.join(ARREL, cami_rel)
     os.makedirs(os.path.dirname(ruta), exist_ok=True)
-    io.open(ruta, 'w', encoding='utf-8', newline='\n').write(text)
+    io.open(ruta, 'w', encoding='utf-8', newline='\n').write(preus(text))
 
 
 def html_a_md(s):
@@ -90,12 +91,12 @@ def md_pagina(p, es=False):
         linies.append('')
     if es:
         linies += ['## precios', '',
-                   'cuotas por número de días semanales: desde 56 €/mes (infantil) y 60 €/mes '
-                   '(juvenil y adultos). Todas las tarifas: https://escoladansa.com/es/precios/', '']
+                   'la cuota la marca la duración de las clases: desde ⟦m45.1⟧ €/mes (clases de 45 min) y ⟦m60.1⟧ €/mes '
+                   '(clases de 1 hora). Todas las tarifas: https://escoladansa.com/es/precios/', '']
     else:
         linies += ['## preus', '',
-                   'quotes pel nombre de dies setmanals: des de 56 €/mes (infantil) i 60 €/mes '
-                   '(juvenil i adults). Totes les tarifes: https://escoladansa.com/preus/', '']
+                   'la quota la marca la durada de les classes: des de ⟦m45.1⟧ €/mes (classes de 45 min) i ⟦m60.1⟧ €/mes '
+                   "(classes d'1 hora). Totes les tarifes: https://escoladansa.com/preus/", '']
     if faqs:
         linies.append('## preguntas frecuentes' if es else '## preguntes freqüents')
         linies.append('')

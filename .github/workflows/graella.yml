@@ -1,7 +1,8 @@
-# Graella de la web ← Backstage (l'única font): generador/sincronitza_graella.py
+# Graella i tarifes de la web ← Backstage (l'única font):
+#   generador/sincronitza_graella.py (classes) i generador/sincronitza_tarifes.py (preus)
 #  - cada hora (de 7 a 23 h a Barcelona) i a mà des de la pestanya Actions
-#  - si la graella del Backstage ha canviat: regenera la web, comprova els enllaços i la publica
-name: graella del backstage
+#  - si alguna de les dues ha canviat: regenera la web, comprova els enllaços i la publica
+name: graella i tarifes del backstage
 
 on:
   schedule:
@@ -26,11 +27,14 @@ jobs:
         with:
           ref: main
 
-      - name: llegir la graella del Backstage
+      - name: llegir la graella i les tarifes del Backstage
         id: sinc
         run: |
           python3 generador/sincronitza_graella.py | tee sortida.txt
+          python3 generador/sincronitza_tarifes.py | tee -a sortida.txt
           if grep -q "^CANVIS" sortida.txt; then echo "canvis=si" >> "$GITHUB_OUTPUT"; fi
+          if grep -q "^CANVIS: graella" sortida.txt; then echo "graella=si" >> "$GITHUB_OUTPUT"; fi
+          if grep -q "^CANVIS: tarifes" sortida.txt; then echo "tarifes=si" >> "$GITHUB_OUTPUT"; fi
           rm sortida.txt
 
       - name: regenerar la web
@@ -49,7 +53,10 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898333+github-actions[bot]@users.noreply.github.com"
           git add -A
-          git commit -m "horaris: graella actualitzada des del Backstage"
+          que=""
+          [ "${{ steps.sinc.outputs.graella }}" = "si" ] && que="graella"
+          [ "${{ steps.sinc.outputs.tarifes }}" = "si" ] && que="${que:+$que i }tarifes"
+          git commit -m "backstage: ${que} actualitzades des del Backstage"
           git pull --rebase origin main
           git push origin HEAD:main
           # Vercel desplega sol cada push a main

@@ -276,7 +276,7 @@ TRADUCCIONS_ES = {
             ("¿a qué edad puede empezar mi hijo o hija?",
              "desde los 3 años, con los grupos de iniciación a la danza. en la clase de prueba gratuita vemos qué grupo le encaja mejor por edad y madurez."),
             ("¿cuánto cuesta la extraescolar de danza?",
-             "la cuota va por la duración de las clases: desde 56 €/mes (1 día por semana, clases de 45 min) o 60 €/mes (clases de 1 hora), con opción trimestral. la primera clase de prueba es gratuita."),
+             "la cuota va por la duración de las clases: desde ⟦m45.1⟧ €/mes (1 día por semana, clases de 45 min) o ⟦m60.1⟧ €/mes (clases de 1 hora), con opción trimestral. la primera clase de prueba es gratuita."),
             ("¿cómo sabré si le gusta antes de apuntarlo?",
              "para eso la primera clase es gratuita y sin compromiso: lo traéis, lo prueba, y decidís con calma."),
             ("¿hacen actuaciones?",
@@ -315,7 +315,7 @@ TRADUCCIONS_ES = {
             ("¿qué horarios tienen las clases de adultos?",
              "la mayoría son por la noche, entre las 18.30 y las 21.45, perfectas para después del trabajo. y por la mañana, el barre (lunes y miércoles) y cuerpo y movimiento (jueves), a las 10."),
             ("¿cuánto cuestan las clases para adultos?",
-             "desde 60 €/mes (1 día por semana) hasta 104 €/mes (4 días de clases de más de una hora), con opción trimestral. la primera clase de prueba es gratuita."),
+             "desde ⟦m60.1⟧ €/mes (1 día por semana) hasta ⟦mmes60.4⟧ €/mes (4 días de clases de más de una hora), con opción trimestral. la primera clase de prueba es gratuita."),
         ],
     },
     # pàgines custom: cos i ld s'injecten des de genera_pagines.py

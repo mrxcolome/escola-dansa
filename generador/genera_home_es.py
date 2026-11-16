@@ -9,6 +9,8 @@ import io
 import os
 import urllib.parse
 
+from tarifes import actualitza_home, preus
+
 ARREL = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 ORIGEN = os.path.join(ARREL, "index.html")
 DESTI = os.path.join(ARREL, "es", "index.html")
@@ -52,8 +54,8 @@ PARELLES = [
     ('"text": "la primera classe de prova és gratuïta. truca\'ns al 934 17 98 86 o passa\'t per l\'escola i et reservem plaça al grup que t\'encaixi."',
      '"text": "la primera clase de prueba es gratuita. llámanos al 934 17 98 86 o pásate por la escuela y te reservamos plaza en el grupo que te encaje."'),
     ('"name": "quant costen les classes?"', '"name": "¿cuánto cuestan las clases?"'),
-    ('"text": "les quotes mensuals van dels 56 € (1 dia per setmana de classes de 45 min) als 104 € (4 dies de classes de més d\'1 hora), amb opció de pagament trimestral. la primera classe de prova és gratuïta."',
-     '"text": "las cuotas mensuales van de los 56 € (1 día por semana de clases de 45 min) a los 104 € (4 días de clases de más de 1 hora), con opción de pago trimestral. la primera clase de prueba es gratuita."'),
+    ('"text": "les quotes mensuals van dels ⟦m45.1⟧ € (1 dia per setmana de classes de 45 min) als ⟦mmes60.4⟧ € (4 dies de classes de més d\'1 hora), amb opció de pagament trimestral. la primera classe de prova és gratuïta."',
+     '"text": "las cuotas mensuales van de los ⟦m45.1⟧ € (1 día por semana de clases de 45 min) a los ⟦mmes60.4⟧ € (4 días de clases de más de 1 hora), con opción de pago trimestral. la primera clase de prueba es gratuita."'),
     ('"name": "on és l\'escola i com s\'hi arriba?"', '"name": "¿dónde está la escuela y cómo se llega?"'),
     ('"text": "som al carrer de Craywinckel, 25, al barri de Sant Gervasi – la Bonanova de Barcelona, a dos minuts de l\'estació d\'FGC Av. Tibidabo."',
      '"text": "estamos en la calle Craywinckel, 25, en el barrio de Sant Gervasi – la Bonanova de Barcelona, a dos minutos de la estación de FGC Av. Tibidabo."'),
@@ -161,8 +163,8 @@ PARELLES = [
      '<a class="boto boto-ple reveal" href="/es/horarios/">ver los horarios</a>'),
     ('<div class="etiqueta reveal">tarifes</div>', '<div class="etiqueta reveal">tarifas</div>'),
     ('<h2 class="reveal" data-lletres>preus</h2>', '<h2 class="reveal" data-lletres>precios</h2>'),
-    ('quotes mensuals des de 56 €. paga per mes o per trimestre, amb 1, 2, 3 o 4 dies de classe a la setmana. la primera classe de prova és gratuïta.',
-     'cuotas mensuales desde 56 €. paga por mes o por trimestre, con 1, 2, 3 o 4 días de clase a la semana. la primera clase de prueba es gratuita.'),
+    ('quotes mensuals des de ⟦m45.1⟧ €. paga per mes o per trimestre, amb 1, 2, 3 o 4 dies de classe a la setmana. la primera classe de prova és gratuïta.',
+     'cuotas mensuales desde ⟦m45.1⟧ €. paga por mes o por trimestre, con 1, 2, 3 o 4 días de clase a la semana. la primera clase de prueba es gratuita.'),
     ('<a class="boto boto-buit reveal" href="/preus/">veure les tarifes</a>',
      '<a class="boto boto-buit reveal" href="/es/precios/">ver las tarifas</a>'),
 
@@ -198,8 +200,8 @@ PARELLES = [
     ('la primera classe de prova és gratuïta. truca\'ns al <a href="tel:+34934179886">934 17 98 86</a> o passa\'t per l\'escola i et reservem plaça al grup que t\'encaixi.',
      'la primera clase de prueba es gratuita. llámanos al <a href="tel:+34934179886">934 17 98 86</a> o pásate por la escuela y te reservamos plaza en el grupo que te encaje.'),
     ('<summary>quant costen les classes?</summary>', '<summary>¿cuánto cuestan las clases?</summary>'),
-    ('les quotes mensuals van dels 56 € (1 dia per setmana de classes de 45 min) als 104 € (4 dies de classes de més d\'1 hora), amb opció de pagament trimestral. consulta <a href="/preus/">totes les tarifes</a>.',
-     'las cuotas mensuales van de los 56 € (1 día por semana de clases de 45 min) a los 104 € (4 días de clases de más de 1 hora), con opción de pago trimestral. consulta <a href="/es/precios/">todas las tarifas</a>.'),
+    ('les quotes mensuals van dels ⟦m45.1⟧ € (1 dia per setmana de classes de 45 min) als ⟦mmes60.4⟧ € (4 dies de classes de més d\'1 hora), amb opció de pagament trimestral. consulta <a href="/preus/">totes les tarifes</a>.',
+     'las cuotas mensuales van de los ⟦m45.1⟧ € (1 día por semana de clases de 45 min) a los ⟦mmes60.4⟧ € (4 días de clases de más de 1 hora), con opción de pago trimestral. consulta <a href="/es/precios/">todas las tarifas</a>.'),
     ("<summary>on és l'escola i com s'hi arriba?</summary>", '<summary>¿dónde está la escuela y cómo se llega?</summary>'),
     ('som al carrer de Craywinckel, 25, al barri de Sant Gervasi – la Bonanova, a dos minuts de l\'estació d\'FGC Av. Tibidabo.',
      'estamos en la calle Craywinckel, 25, en el barrio de Sant Gervasi – la Bonanova, a dos minutos de la estación de FGC Av. Tibidabo.'),
@@ -339,9 +341,13 @@ PARELLES += [
 
 
 def main():
+    # primer els preus vigents (Backstage → tarifes.json) a les frases amb preus de la home CA
+    if actualitza_home(ORIGEN):
+        print("index.html: preus actualitzats")
     h = io.open(ORIGEN, encoding="utf-8").read()
     fetes, perdudes = 0, []
     for ca, es in PARELLES:
+        ca, es = preus(ca), preus(es)
         if ca in h:
             h = h.replace(ca, es)
             fetes += 1

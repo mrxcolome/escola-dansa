@@ -1,0 +1,49 @@
+{
+ "taules": {
+  "45": {
+   "mensual": [
+    56,
+    68,
+    80,
+    92
+   ],
+   "trimestral": [
+    162,
+    197,
+    232,
+    267
+   ]
+  },
+  "60": {
+   "mensual": [
+    60,
+    73,
+    85,
+    99
+   ],
+   "trimestral": [
+    174,
+    212,
+    247,
+    288
+   ]
+  },
+  "mes60": {
+   "mensual": [
+    65,
+    81,
+    92,
+    104
+   ],
+   "trimestral": [
+    189,
+    235,
+    267,
+    302
+   ]
+  }
+ },
+ "matriculaRenovacio": 65,
+ "matriculaNova": 70,
+ "ballsSalo": 180
+}

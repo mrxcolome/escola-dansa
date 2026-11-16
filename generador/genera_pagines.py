@@ -345,7 +345,7 @@ PAGINES = [
             ("a quina edat pot començar el meu fill o filla?",
              "des dels 3 anys, amb els grups d'iniciació a la dansa. a la classe de prova gratuïta veiem quin grup li encaixa millor per edat i maduresa."),
             ("quant costa l'extraescolar de dansa?",
-             "la quota va per la durada de les classes: des de 56 €/mes (1 dia per setmana, classes de 45 min) o 60 €/mes (classes d'1 hora), amb opció trimestral. la primera classe de prova és gratuïta."),
+             "la quota va per la durada de les classes: des de ⟦m45.1⟧ €/mes (1 dia per setmana, classes de 45 min) o ⟦m60.1⟧ €/mes (classes d'1 hora), amb opció trimestral. la primera classe de prova és gratuïta."),
             ("com sabré si li agrada abans d'apuntar-lo?",
              "per això la primera classe és gratuïta i sense compromís: el porteu, ho prova, i decidiu amb calma."),
             ("fan actuacions?",
@@ -385,7 +385,7 @@ PAGINES = [
             ("quins horaris fan les classes d'adults?",
              "la majoria són als vespres, entre les 18.30 i les 21.45, perfectes per després de la feina. i al matí, el barre (dilluns i dimecres) i el cos i moviment (dijous), a les 10."),
             ("quant costen les classes per a adults?",
-             "des de 60 €/mes (1 dia per setmana) fins a 104 €/mes (4 dies de classes de més d'una hora), amb opció trimestral. la primera classe de prova és gratuïta."),
+             "des de ⟦m60.1⟧ €/mes (1 dia per setmana) fins a ⟦mmes60.4⟧ €/mes (4 dies de classes de més d'una hora), amb opció trimestral. la primera classe de prova és gratuïta."),
         ],
         "related": ["ballet-classic", "dansa-contemporania", "cos-benestar", "claque"],
         "posts": ["ballar-als-50-i-mes", "comencar-dansa-adults", "barre-entrenament-ballet"],
@@ -761,22 +761,9 @@ for _p in PAGINES:
     if _p["slug"] in FILTRES_HORARIS:
         _p["horaris"] = horaris_de(FILTRES_HORARIS[_p["slug"]])
 
-# TARIFES DEL CURS (font única per a /preus/) — files: (concepte, 1 dia, 2, 3, 4)
-TARIFA_MENSUAL = [
-    ("classes de 45 min", "56 €", "68 €", "80 €", "92 €"),
-    ("classes d'1 hora", "60 €", "73 €", "85 €", "99 €"),
-    ("classes de més d'1 hora", "65 €", "81 €", "92 €", "104 €"),
-]
-TARIFA_TRIMESTRAL = [
-    ("classes de 45 min", "162 €", "197 €", "232 €", "267 €"),
-    ("classes d'1 hora", "174 €", "212 €", "247 €", "288 €"),
-    ("classes de més d'1 hora", "189 €", "235 €", "267 €", "302 €"),
-]
-TARIFA_ALTRES = [
-    ("matrícula alumnes antics", "65 €"),
-    ("matrícula nous alumnes", "70 €"),
-    ("balls de saló (10 sessions)", "180 €/persona"),
-]
+# TARIFES DEL CURS: la font és el Backstage (tarifes.json, vegeu tarifes.py).
+# Als textos, els preus van amb marques ⟦m45.1⟧… que es resolen en escriure cada pàgina.
+from tarifes import TARIFA_MENSUAL, TARIFA_TRIMESTRAL, TARIFA_ALTRES, preus  # noqa: E402
 
 ICONA_TEL = '<path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>'
 ICONA_WA = '<path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.885-9.885 9.885m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z"/>'
@@ -833,8 +820,8 @@ def json_ld(p):
                 "@type": "Offer",
                 "category": "quota mensual",
                 "priceCurrency": "EUR",
-                "price": "56",
-                "description": "quotes mensuals des de 56 €. primera classe de prova gratuïta.",
+                "price": "⟦m45.1⟧",
+                "description": "quotes mensuals des de ⟦m45.1⟧ €. primera classe de prova gratuïta.",
             },
         },
         {
@@ -870,7 +857,7 @@ def cos_estandard(p):
   <section class="reveal">
     <div class="etiqueta">tarifes</div>
     <h2>preus</h2>
-    <p class="text-gran">les classes funcionen per quota mensual o trimestral segons els dies per setmana: des de 56 €/mes (classes de 45 min) i 60 €/mes (classes d'1 hora). consulta <a href="/preus/" style="color:var(--granat-viu);font-weight:600">totes les tarifes del curs</a> — i recorda que la primera classe de prova és gratuïta.</p>
+    <p class="text-gran">les classes funcionen per quota mensual o trimestral segons els dies per setmana: des de ⟦m45.1⟧ €/mes (classes de 45 min) i ⟦m60.1⟧ €/mes (classes d'1 hora). consulta <a href="/preus/" style="color:var(--granat-viu);font-weight:600">totes les tarifes del curs</a> — i recorda que la primera classe de prova és gratuïta.</p>
   </section>
 {bloc_faqs(p)}{bloc_posts(p, p.get("lang", "ca"))}{bloc_relacionats(p)}"""
 
@@ -1290,8 +1277,8 @@ def fixos_es():
         ('<h2>també et pot agradar</h2>', '<h2>también te puede gustar</h2>'),
         ('<div class="etiqueta">tarifes</div>', '<div class="etiqueta">tarifas</div>'),
         ('<h2>preus</h2>', '<h2>precios</h2>'),
-        ('les classes funcionen per quota mensual o trimestral segons els dies per setmana: des de 56 €/mes (classes de 45 min) i 60 €/mes (classes d\'1 hora). consulta <a href="/es/precios/" style="color:var(--granat-viu);font-weight:600">totes les tarifes del curs</a> — i recorda que la primera classe de prova és gratuïta.',
-         'las clases funcionan por cuota mensual o trimestral según los días por semana: desde 56 €/mes (clases de 45 min) y 60 €/mes (clases de 1 hora). consulta <a href="/es/precios/" style="color:var(--granat-viu);font-weight:600">todas las tarifas del curso</a> — y recuerda que la primera clase de prueba es gratuita.'),
+        ('les classes funcionen per quota mensual o trimestral segons els dies per setmana: des de ⟦m45.1⟧ €/mes (classes de 45 min) i ⟦m60.1⟧ €/mes (classes d\'1 hora). consulta <a href="/es/precios/" style="color:var(--granat-viu);font-weight:600">totes les tarifes del curs</a> — i recorda que la primera classe de prova és gratuïta.',
+         'las clases funcionan por cuota mensual o trimestral según los días por semana: desde ⟦m45.1⟧ €/mes (clases de 45 min) y ⟦m60.1⟧ €/mes (clases de 1 hora). consulta <a href="/es/precios/" style="color:var(--granat-viu);font-weight:600">todas las tarifas del curso</a> — y recuerda que la primera clase de prueba es gratuita.'),
         ('<h2>vine a provar-ho: la primera classe és gratis</h2>', '<h2>ven a probarlo: la primera clase es gratis</h2>'),
         ("<p>tria com t'estimes més: truca'ns, escriu-nos o vine a veure'ns. sense compromís, t'ajudem a trobar el grup perfecte.</p>",
          '<p>elige como prefieras: llámanos, escríbenos o ven a vernos. sin compromiso, te ayudamos a encontrar el grupo perfecto.</p>'),
@@ -1340,13 +1327,13 @@ def main():
         os.makedirs(carpeta, exist_ok=True)
         desti = os.path.join(carpeta, "index.html")
         with open(desti, "w", encoding="utf-8") as f:
-            f.write(genera(p))
+            f.write(preus(genera(p)))
         # versió en castellà
         if p["slug"] in TRADUCCIONS_ES:
             carpeta_es = os.path.join(ARREL, "es", SLUG_ES[p["slug"]])
             os.makedirs(carpeta_es, exist_ok=True)
             with open(os.path.join(carpeta_es, "index.html"), "w", encoding="utf-8") as f:
-                f.write(genera_es(p))
+                f.write(preus(genera_es(p)))
     n_es = len([p for p in PAGINES if p["slug"] in TRADUCCIONS_ES])
     print(f"{len(PAGINES)} pàgines CA + {n_es} pàgines ES generades a {ARREL}")
 

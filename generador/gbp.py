@@ -234,6 +234,7 @@ def ordre_ressenyes():
 def ordre_publica():
     sys.path.insert(0, AQUI)
     from blog_posts import POSTS
+    from tarifes import preus  # els textos dels posts poden dur marques de preu ⟦…⟧
     publicats = json.load(open(PUBLICATS, encoding="utf-8"))
     avui = datetime.now(ZoneInfo("Europe/Madrid")).date().isoformat()  # el runner va en UTC
     nous = [p for p in POSTS if p["slug"] not in publicats and p["data"] <= avui]
@@ -247,7 +248,7 @@ def ordre_publica():
         cos = {
             "languageCode": "ca",
             "topicType": "STANDARD",
-            "summary": f"{p['excerpt']}\n\nT'ho expliquem al blog de l'escola.",
+            "summary": f"{preus(p['excerpt'])}\n\nT'ho expliquem al blog de l'escola.",
             "callToAction": {"actionType": "LEARN_MORE", "url": url},
             "media": [{"mediaFormat": "PHOTO", "sourceUrl": f"{DOMINI}/assets/{p['img']}"}],
         }

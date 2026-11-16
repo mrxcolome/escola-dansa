@@ -155,7 +155,7 @@ POSTS = [
 <p>Arribes, et presentem el grup, i fas la classe sencera al teu ritme — la professora t'anirà donant alternatives més senzilles de cada exercici. Ningú no espera que segueixis tot: espera que t'ho passis bé. Necessites roba còmoda i prou. I el més important: <strong>la primera classe és gratuïta</strong>, precisament perquè la decisió la prenguis havent-ho provat, no imaginant-t'ho des del sofà.</p>
 
 <h2>el truc final</h2>
-<p>Vine acompanyat si et fa mandra venir sol — mitja escola d'adults va començar «perquè una amiga m'hi va arrossegar». Però si no tens qui t'acompanyi, vine igualment: l'acompanyament el trobaràs dins la sala. Les <a href="/preus/">quotes d'adults comencen als 60 €/mes</a>, i el primer pas no costa res. Literalment.</p>
+<p>Vine acompanyat si et fa mandra venir sol — mitja escola d'adults va començar «perquè una amiga m'hi va arrossegar». Però si no tens qui t'acompanyi, vine igualment: l'acompanyament el trobaràs dins la sala. Les <a href="/preus/">quotes d'adults comencen als ⟦m60.1⟧ €/mes</a>, i el primer pas no costa res. Literalment.</p>
 """,
         "faqs": [
             ("necessito flexibilitat o forma física per començar?",
@@ -199,7 +199,7 @@ POSTS = [
 <p>Llegas, te presentamos el grupo, y haces la clase entera a tu ritmo — la profesora te irá dando alternativas más sencillas de cada ejercicio. Nadie espera que sigas todo: espera que lo pases bien. Necesitas ropa cómoda y ya está. Y lo más importante: <strong>la primera clase es gratuita</strong>, precisamente para que la decisión la tomes habiéndolo probado, no imaginándolo desde el sofá.</p>
 
 <h2>el truco final</h2>
-<p>Ven acompañado si te da pereza venir solo — media escuela de adultos empezó «porque una amiga me arrastró». Pero si no tienes quien te acompañe, ven igualmente: la compañía la encontrarás dentro de la sala. Las <a href="/es/precios/">cuotas de adultos empiezan en 60 €/mes</a>, y el primer paso no cuesta nada. Literalmente.</p>
+<p>Ven acompañado si te da pereza venir solo — media escuela de adultos empezó «porque una amiga me arrastró». Pero si no tienes quien te acompañe, ven igualmente: la compañía la encontrarás dentro de la sala. Las <a href="/es/precios/">cuotas de adultos empiezan en ⟦m60.1⟧ €/mes</a>, y el primer paso no cuesta nada. Literalmente.</p>
 """,
         "faqs_es": [
             ("¿necesito flexibilidad o forma física para empezar?",
@@ -1870,7 +1870,7 @@ POSTS = [
 <li><strong>Qui fa classe</strong> — la Cristina Colomé i el seu equip de professores. Fa més de 25 anys que l'escola és al mateix lloc de Sant Gervasi, al carrer de Craywinckel, 25.</li>
 <li><strong>Què s'hi fa</strong> — dotze disciplines i 56 classes cada setmana, des dels 3 anys fins als adults, repartides en tres sales.</li>
 <li><strong>Quan</strong> — tardes de dilluns a divendres, i barre al matí dilluns i dimecres. La graella sencera és a <a href="/horaris/">horaris</a>.</li>
-<li><strong>Quant</strong> — 56 € al mes una activitat infantil i 60 € una de juvenil o d'adults; com més activitats, més econòmica surt cadascuna, i pagant per trimestres encara s'estalvia. Matrícula de 65 € en renovar i 70 € en una alta nova. Tot publicat a <a href="/preus/">preus</a>.</li>
+<li><strong>Quant</strong> — ⟦m45.1⟧ € al mes una activitat de 45 minuts i ⟦m60.1⟧ € una d'1 hora (la tarifa la marca la durada de la classe); com més activitats, més econòmica surt cadascuna, i pagant per trimestres encara s'estalvia. Matrícula de ⟦renovacio⟧ € en renovar i ⟦nova⟧ € en una alta nova. Tot publicat a <a href="/preus/">preus</a>.</li>
 <li><strong>Sense compromís</strong> — la <a href="/blog/classe-de-prova-gratuita/">classe de prova és gratuïta</a>, no hi ha permanència i es pot canviar de grup o d'estil parlant amb recepció.</li>
 <li><strong>Durant el curs</strong> — festival de fi de curs per a qui vulgui pujar a l'escenari i preparació dels <a href="/blog/examens-rad-ballet/">exàmens de la Royal Academy of Dance</a> per a qui s'hi vulgui presentar.</li>
 <li><strong>Ràtios i sales</strong> — te les diem quan ens ho preguntes, i a la classe de prova les veus amb els teus ulls. És la manera honesta de respondre-ho.</li>
@@ -1933,7 +1933,7 @@ POSTS = [
 <li><strong>Quién da clase</strong> — Cristina Colomé y su equipo de profesoras. Hace más de 25 años que la escuela está en el mismo sitio de Sant Gervasi, en la calle de Craywinckel, 25.</li>
 <li><strong>Qué se hace</strong> — doce disciplinas y 56 clases cada semana, desde los 3 años hasta adultos, repartidas en tres salas.</li>
 <li><strong>Cuándo</strong> — tardes de lunes a viernes, y barre por la mañana lunes y miércoles. El horario completo está en <a href="/es/horarios/">horarios</a>.</li>
-<li><strong>Cuánto</strong> — 56 € al mes una actividad infantil y 60 € una juvenil o de adultos; cuantas más actividades, más económica sale cada una, y pagando por trimestres aún se ahorra. Matrícula de 65 € al renovar y 70 € en un alta nueva. Todo publicado en <a href="/es/precios/">precios</a>.</li>
+<li><strong>Cuánto</strong> — ⟦m45.1⟧ € al mes una actividad de 45 minutos y ⟦m60.1⟧ € una de 1 hora (la tarifa la marca la duración de la clase); cuantas más actividades, más económica sale cada una, y pagando por trimestres aún se ahorra. Matrícula de ⟦renovacio⟧ € al renovar y ⟦nova⟧ € en un alta nueva. Todo publicado en <a href="/es/precios/">precios</a>.</li>
 <li><strong>Sin compromiso</strong> — la <a href="/es/blog/clase-de-prueba-gratuita/">clase de prueba es gratuita</a>, no hay permanencia y se puede cambiar de grupo o de estilo hablando con recepción.</li>
 <li><strong>Durante el curso</strong> — festival de fin de curso para quien quiera subir al escenario y preparación de los <a href="/es/blog/examenes-rad-ballet/">exámenes de la Royal Academy of Dance</a> para quien quiera presentarse.</li>
 <li><strong>Ratios y salas</strong> — te las decimos cuando nos lo preguntas, y en la clase de prueba las ves con tus propios ojos. Es la manera honesta de responderlo.</li>
@@ -2334,7 +2334,7 @@ POSTS = [
 <p>Llavors el barre és una molt bona base, i quan vulguis fer el pas, els grups d'adults dels vespres (entre les 18.30 i les 21.45) tenen <a href="/ballet-classic/">clàssic</a>, <a href="/ball-espanyol/">ball espanyol</a>, jazz i molts més estils per nivells, també d'iniciació. Els tens tots a <a href="/dansa-adults/">dansa per a adults</a>.</p>
 
 <h2>com començar</h2>
-<p>Com totes les classes de l'escola, <strong>la primera és gratuïta</strong>: vine un dilluns o un dimecres a les 10 amb roba còmoda i mitjons. Els preus per a adults comencen a 60 € al mes amb un dia a la setmana, i els tens tots a <a href="/preus/">preus</a>. Per reservar la prova, truca'ns al <a href="tel:+34934179886">934 17 98 86</a> o escriu-nos per WhatsApp.</p>
+<p>Com totes les classes de l'escola, <strong>la primera és gratuïta</strong>: vine un dilluns o un dimecres a les 10 amb roba còmoda i mitjons. Els preus per a adults comencen a ⟦m60.1⟧ € al mes amb un dia a la setmana, i els tens tots a <a href="/preus/">preus</a>. Per reservar la prova, truca'ns al <a href="tel:+34934179886">934 17 98 86</a> o escriu-nos per WhatsApp.</p>
 """,
         "faqs": [
             ("hi ha classes de dansa al matí per a adults?",
@@ -2342,7 +2342,7 @@ POSTS = [
             ("cal haver ballat abans per fer barre?",
              "No. El barre agafa la barra i els exercicis de base del ballet, però és un entrenament sense coreografies, i la professora l'adapta a cada nivell."),
             ("puc venir només un dia a la setmana?",
-             "Sí. Es pot venir un dia o els dos (dilluns i dimecres). Els preus per a adults comencen a 60 € al mes amb un dia a la setmana."),
+             "Sí. Es pot venir un dia o els dos (dilluns i dimecres). Els preus per a adults comencen a ⟦m60.1⟧ € al mes amb un dia a la setmana."),
             ("quina edat cal tenir?",
              "Cap en concret: al barre del matí hi ha alumnes de totes les edats, també de més de 60 anys. És de baix impacte i cada exercici té versions per a cada nivell."),
         ],
@@ -2375,7 +2375,7 @@ POSTS = [
 <p>Entonces el barre es una muy buena base, y cuando quieras dar el paso, los grupos de adultos de la tarde-noche (entre las 18.30 y las 21.45) tienen <a href="/es/ballet-clasico/">clásico</a>, <a href="/es/baile-espanol/">baile español</a>, jazz y muchos más estilos por niveles, también de iniciación. Los tienes todos en <a href="/es/danza-adultos/">danza para adultos</a>.</p>
 
 <h2>cómo empezar</h2>
-<p>Como todas las clases de la escuela, <strong>la primera es gratuita</strong>: ven un lunes o un miércoles a las 10 con ropa cómoda y calcetines. Los precios para adultos empiezan en 60 € al mes con un día a la semana, y los tienes todos en <a href="/es/precios/">precios</a>. Para reservar la prueba, llámanos al <a href="tel:+34934179886">934 17 98 86</a> o escríbenos por WhatsApp.</p>
+<p>Como todas las clases de la escuela, <strong>la primera es gratuita</strong>: ven un lunes o un miércoles a las 10 con ropa cómoda y calcetines. Los precios para adultos empiezan en ⟦m60.1⟧ € al mes con un día a la semana, y los tienes todos en <a href="/es/precios/">precios</a>. Para reservar la prueba, llámanos al <a href="tel:+34934179886">934 17 98 86</a> o escríbenos por WhatsApp.</p>
 """,
         "faqs_es": [
             ("¿hay clases de baile por la mañana para adultos?",
@@ -2383,7 +2383,7 @@ POSTS = [
             ("¿hay que haber bailado antes para hacer barre?",
              "No. El barre toma la barra y los ejercicios de base del ballet, pero es un entrenamiento sin coreografías, y la profesora lo adapta a cada nivel."),
             ("¿puedo venir solo un día a la semana?",
-             "Sí. Se puede venir un día o los dos (lunes y miércoles). Los precios para adultos empiezan en 60 € al mes con un día a la semana."),
+             "Sí. Se puede venir un día o los dos (lunes y miércoles). Los precios para adultos empiezan en ⟦m60.1⟧ € al mes con un día a la semana."),
             ("¿qué edad hay que tener?",
              "Ninguna en concreto: en el barre de la mañana hay alumnas de todas las edades, también de más de 60 años. Es de bajo impacto y cada ejercicio tiene versiones para cada nivel."),
         ],
@@ -2444,7 +2444,7 @@ POSTS = [
 <p>Més dansa no sempre és millor dansa. Un dia viscut amb ganes val més que tres a contracor.</p>
 
 <h2>quant costa un dia més?</h2>
-<p>Menys del que sembla. A l'escola el preu no es multiplica per dies: <strong>el segon dia costa 12 € més al mes</strong> per als grups infantils (de 56 € a 68 €) i 13 € més per als juvenils i adults amb classes de fins a una hora (de 60 € a 73 €). Totes les tarifes, també les trimestrals, són a <a href="/preus/">preus</a>, i els grups i dies, a <a href="/horaris/">horaris</a>.</p>
+<p>Menys del que sembla. A l'escola el preu no es multiplica per dies: <strong>el segon dia costa ⟦dm45.1-2⟧ € més al mes</strong> en les classes de 45 minuts (de ⟦m45.1⟧ € a ⟦m45.2⟧ €) i ⟦dm60.1-2⟧ € més en les d'1 hora (de ⟦m60.1⟧ € a ⟦m60.2⟧ €). Totes les tarifes, també les trimestrals, són a <a href="/preus/">preus</a>, i els grups i dies, a <a href="/horaris/">horaris</a>.</p>
 
 <h2>en resum</h2>
 <p>De 3 a 5 anys, un dia. De 6 a 11, un o dos. Adolescents, dos o tres. Adults, un per començar i dos per notar-ho. I, per sobre de tot, escolta les ganes. Si tens dubtes sobre quin grup o quin dia afegir, truca'ns al <a href="tel:+34934179886">934 17 98 86</a> o escriu-nos per WhatsApp i ho mirem amb tu.</p>
@@ -2455,7 +2455,7 @@ POSTS = [
             ("un dia a la setmana és suficient per aprendre dansa?",
              "Sí, per aprendre i gaudir-ne. Amb dos dies el progrés és més ràpid i visible, perquè el cos no oblida d'una setmana a l'altra."),
             ("quant costa afegir un segon dia de classe?",
-             "A l'escola, el segon dia costa 12 € més al mes en els grups infantils (de 56 € a 68 €) i 13 € més en els juvenils i adults de fins a una hora (de 60 € a 73 €)."),
+             "A l'escola, el segon dia costa ⟦dm45.1-2⟧ € més al mes en les classes de 45 minuts (de ⟦m45.1⟧ € a ⟦m45.2⟧ €) i ⟦dm60.1-2⟧ € més en les d'1 hora (de ⟦m60.1⟧ € a ⟦m60.2⟧ €)."),
             ("és millor fer dos dies del mateix estil o de dos estils diferents?",
              "Totes dues opcions funcionen. Combinar el clàssic, que dona base, amb un estil més lliure com el jazz o el hip-hop és una combinació molt completa per a nens i adolescents."),
         ],
@@ -2497,7 +2497,7 @@ POSTS = [
 <p>Más danza no siempre es mejor danza. Un día vivido con ganas vale más que tres a disgusto.</p>
 
 <h2>¿cuánto cuesta un día más?</h2>
-<p>Menos de lo que parece. En la escuela el precio no se multiplica por días: <strong>el segundo día cuesta 12 € más al mes</strong> en los grupos infantiles (de 56 € a 68 €) y 13 € más en los juveniles y adultos con clases de hasta una hora (de 60 € a 73 €). Todas las tarifas, también las trimestrales, están en <a href="/es/precios/">precios</a>, y los grupos y días, en <a href="/es/horarios/">horarios</a>.</p>
+<p>Menos de lo que parece. En la escuela el precio no se multiplica por días: <strong>el segundo día cuesta ⟦dm45.1-2⟧ € más al mes</strong> en las clases de 45 minutos (de ⟦m45.1⟧ € a ⟦m45.2⟧ €) y ⟦dm60.1-2⟧ € más en las de 1 hora (de ⟦m60.1⟧ € a ⟦m60.2⟧ €). Todas las tarifas, también las trimestrales, están en <a href="/es/precios/">precios</a>, y los grupos y días, en <a href="/es/horarios/">horarios</a>.</p>
 
 <h2>en resumen</h2>
 <p>De 3 a 5 años, un día. De 6 a 11, uno o dos. Adolescentes, dos o tres. Adultos, uno para empezar y dos para notarlo. Y, por encima de todo, escucha las ganas. Si tienes dudas sobre qué grupo o qué día añadir, llámanos al <a href="tel:+34934179886">934 17 98 86</a> o escríbenos por WhatsApp y lo miramos contigo.</p>
@@ -2508,7 +2508,7 @@ POSTS = [
             ("¿un día a la semana es suficiente para aprender danza?",
              "Sí, para aprender y disfrutar. Con dos días el progreso es más rápido y visible, porque el cuerpo no olvida de una semana a otra."),
             ("¿cuánto cuesta añadir un segundo día de clase?",
-             "En la escuela, el segundo día cuesta 12 € más al mes en los grupos infantiles (de 56 € a 68 €) y 13 € más en los juveniles y adultos de hasta una hora (de 60 € a 73 €)."),
+             "En la escuela, el segundo día cuesta ⟦dm45.1-2⟧ € más al mes en las clases de 45 minutos (de ⟦m45.1⟧ € a ⟦m45.2⟧ €) y ⟦dm60.1-2⟧ € más en las de 1 hora (de ⟦m60.1⟧ € a ⟦m60.2⟧ €)."),
             ("¿es mejor hacer dos días del mismo estilo o de dos estilos distintos?",
              "Las dos opciones funcionan. Combinar el clásico, que da base, con un estilo más libre como el jazz o el hip-hop es una combinación muy completa para niños y adolescentes."),
         ],
@@ -2813,7 +2813,7 @@ POSTS = [
 <p>A l'escola, les classes infantils són a la tarda, a partir de les 17 h, pensades perquè hi pugueu arribar en sortir de l'escola. Som al carrer de Craywinckel, a Sant Gervasi, a dos minuts de l'FGC Av. Tibidabo. Pots veure tots els grups a la pàgina d'<a href="/horaris/">horaris</a>.</p>
 
 <h2>quant costa?</h2>
-<p>Aquest curs, la quota infantil va dels <strong>56 €/mes</strong> (un dia a la setmana) als 92 €/mes (quatre dies), amb opció de pagament trimestral, més la matrícula. Tots els preus són a la pàgina de <a href="/preus/">preus</a>. La primera classe és gratuïta, i no hi ha permanència.</p>
+<p>Aquest curs, la quota de les classes infantils de 45 minuts va dels <strong>⟦m45.1⟧ €/mes</strong> (un dia a la setmana) als ⟦m45.4⟧ €/mes (quatre dies), amb opció de pagament trimestral, més la matrícula. Tots els preus són a la pàgina de <a href="/preus/">preus</a>. La primera classe és gratuïta, i no hi ha permanència.</p>
 
 <h2>i si el curs ja ha començat?</h2>
 <p>Cap problema: a la dansa s'hi pot entrar en qualsevol moment del curs, i els primers dies la professora l'ajuda a posar-se al dia. Ho expliquem a <a href="/blog/apuntar-se-amb-el-curs-comencat/">apuntar-se amb el curs començat</a>.</p>
@@ -2830,7 +2830,7 @@ POSTS = [
             ("quants dies a la setmana és recomanable?",
              "Per començar, un o dos dies a la setmana. Si s'hi engresca, més endavant es pot afegir un altre dia o un altre estil."),
             ("quant costa una extraescolar de dansa?",
-             "A l'escola Cristina Colomé, aquest curs la quota infantil va dels 56 €/mes (un dia a la setmana) als 92 €/mes (quatre dies), amb opció trimestral i matrícula. La primera classe és gratuïta."),
+             "A l'escola Cristina Colomé, aquest curs la quota de les classes infantils de 45 minuts va dels ⟦m45.1⟧ €/mes (un dia a la setmana) als ⟦m45.4⟧ €/mes (quatre dies), amb opció trimestral i matrícula. La primera classe és gratuïta."),
             ("es pot començar a mig curs?",
              "Sí. Es pot entrar en qualsevol moment del curs, sense permanència, i abans es pot fer una classe de prova gratuïta."),
         ],
@@ -2864,7 +2864,7 @@ POSTS = [
 <p>En la escuela, las clases infantiles son por la tarde, a partir de las 17 h, pensadas para que podáis llegar al salir del colegio. Estamos en la calle Craywinckel, en Sant Gervasi, a dos minutos del FGC Av. Tibidabo. Puedes ver todos los grupos en la página de <a href="/es/horarios/">horarios</a>.</p>
 
 <h2>¿cuánto cuesta?</h2>
-<p>Este curso, la cuota infantil va de los <strong>56 €/mes</strong> (un día a la semana) a los 92 €/mes (cuatro días), con opción de pago trimestral, más la matrícula. Todos los precios están en la página de <a href="/es/precios/">precios</a>. La primera clase es gratuita, y no hay permanencia.</p>
+<p>Este curso, la cuota de las clases infantiles de 45 minutos va de los <strong>⟦m45.1⟧ €/mes</strong> (un día a la semana) a los ⟦m45.4⟧ €/mes (cuatro días), con opción de pago trimestral, más la matrícula. Todos los precios están en la página de <a href="/es/precios/">precios</a>. La primera clase es gratuita, y no hay permanencia.</p>
 
 <h2>¿y si el curso ya ha empezado?</h2>
 <p>Ningún problema: a la danza se puede entrar en cualquier momento del curso, y los primeros días la profesora le ayuda a ponerse al día. Lo explicamos en <a href="/es/blog/apuntarse-con-el-curso-empezado/">apuntarse con el curso empezado</a>.</p>
@@ -2881,7 +2881,7 @@ POSTS = [
             ("¿cuántos días a la semana es recomendable?",
              "Para empezar, uno o dos días a la semana. Si se engancha, más adelante se puede añadir otro día u otro estilo."),
             ("¿cuánto cuesta una extraescolar de danza?",
-             "En la escuela Cristina Colomé, este curso la cuota infantil va de los 56 €/mes (un día a la semana) a los 92 €/mes (cuatro días), con opción trimestral y matrícula. La primera clase es gratuita."),
+             "En la escuela Cristina Colomé, este curso la cuota de las clases infantiles de 45 minutos va de los ⟦m45.1⟧ €/mes (un día a la semana) a los ⟦m45.4⟧ €/mes (cuatro días), con opción trimestral y matrícula. La primera clase es gratuita."),
             ("¿se puede empezar a mitad de curso?",
              "Sí. Se puede entrar en cualquier momento del curso, sin permanencia, y antes se puede hacer una clase de prueba gratuita."),
         ],

@@ -14,6 +14,7 @@ import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import genera_pagines as gp  # noqa: E402
+from tarifes import preus  # noqa: E402
 from blog_posts import POSTS, entradeta_min  # noqa: E402
 
 ARREL, DOMINI = gp.ARREL, gp.DOMINI
@@ -493,7 +494,7 @@ def modul_home():
     pre, resta = h.split(inici, 1)
     _mig, post = resta.split(fi, 1)
     with open(cami, "w", encoding="utf-8", newline="\n") as f:
-        f.write(pre + inici + "\n" + cards + "\n  " + fi + post)
+        f.write(preus(pre + inici + "\n" + cards + "\n  " + fi + post))
     print(f"modul del blog injectat a index.html ({len(posts3)} targetes)")
 
 
@@ -519,14 +520,14 @@ def llms_blog():
     pre, resta = t.split(inici, 1)
     _mig, post = resta.split(fi, 1)
     with open(cami, "w", encoding="utf-8", newline="\n") as f:
-        f.write(pre + inici + "\n" + "\n".join(linies) + "\n" + fi + post)
+        f.write(preus(pre + inici + "\n" + "\n".join(linies) + "\n" + fi + post))
     print(f"llms.txt: {len(posts)} posts CA + {len(posts)} ES")
 
 
 def escriu(cami, contingut):
     os.makedirs(os.path.dirname(cami), exist_ok=True)
     with open(cami, "w", encoding="utf-8") as f:
-        f.write(contingut)
+        f.write(preus(contingut))
 
 
 def main():

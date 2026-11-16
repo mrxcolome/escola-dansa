@@ -24,7 +24,7 @@ desde infantil hasta adultos avanzado, con grupos juveniles por niveles. si tu h
 
 ## precios
 
-cuotas por número de días semanales: desde 56 €/mes (infantil) y 60 €/mes (juvenil y adultos). Todas las tarifas: https://escoladansa.com/es/precios/
+la cuota la marca la duración de las clases: desde 56 €/mes (clases de 45 min) y 60 €/mes (clases de 1 hora). Todas las tarifas: https://escoladansa.com/es/precios/
 
 ## preguntas frecuentes
 
