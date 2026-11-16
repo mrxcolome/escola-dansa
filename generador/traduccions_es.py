@@ -276,7 +276,7 @@ TRADUCCIONS_ES = {
             ("¿a qué edad puede empezar mi hijo o hija?",
              "desde los 3 años, con los grupos de iniciación a la danza. en la clase de prueba gratuita vemos qué grupo le encaja mejor por edad y madurez."),
             ("¿cuánto cuesta la extraescolar de danza?",
-             "las cuotas infantiles van de los 56 €/mes (1 día por semana) a los 92 €/mes (4 días), con opción trimestral. la primera clase de prueba es gratuita."),
+             "la cuota va por la duración de las clases: desde 56 €/mes (1 día por semana, clases de 45 min) o 60 €/mes (clases de 1 hora), con opción trimestral. la primera clase de prueba es gratuita."),
             ("¿cómo sabré si le gusta antes de apuntarlo?",
              "para eso la primera clase es gratuita y sin compromiso: lo traéis, lo prueba, y decidís con calma."),
             ("¿hacen actuaciones?",

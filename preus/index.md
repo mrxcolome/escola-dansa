@@ -4,17 +4,17 @@
 
 |  | 1 dia | 2 dies | 3 dies | 4 dies |
 |---|---|---|---|---|
-| infantil | 56 € | 68 € | 80 € | 92 € |
-| juvenil i adults · fins 1 h | 60 € | 73 € | 85 € | 99 € |
-| juvenil i adults · més d'1 h | 65 € | 81 € | 92 € | 104 € |
+| classes de 45 min | 56 € | 68 € | 80 € | 92 € |
+| classes d'1 hora | 60 € | 73 € | 85 € | 99 € |
+| classes de més d'1 hora | 65 € | 81 € | 92 € | 104 € |
 
 ## quota trimestral
 
 |  | 1 dia | 2 dies | 3 dies | 4 dies |
 |---|---|---|---|---|
-| infantil | 162 € | 197 € | 232 € | 267 € |
-| juvenil i adults · fins 1 h | 174 € | 212 € | 247 € | 288 € |
-| juvenil i adults · més d'1 h | 189 € | 235 € | 267 € | 302 € |
+| classes de 45 min | 162 € | 197 € | 232 € | 267 € |
+| classes d'1 hora | 174 € | 212 € | 247 € | 288 € |
+| classes de més d'1 hora | 189 € | 235 € | 267 € | 302 € |
 
 ## matrícula i altres
 

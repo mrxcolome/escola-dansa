@@ -25,7 +25,7 @@ desde los 3 años, con los grupos de iniciación a la danza. en la clase de prue
 
 ### ¿cuánto cuesta la extraescolar de danza?
 
-las cuotas infantiles van de los 56 €/mes (1 día por semana) a los 92 €/mes (4 días), con opción trimestral. la primera clase de prueba es gratuita.
+la cuota va por la duración de las clases: desde 56 €/mes (1 día por semana, clases de 45 min) o 60 €/mes (clases de 1 hora), con opción trimestral. la primera clase de prueba es gratuita.
 
 ### ¿cómo sabré si le gusta antes de apuntarlo?
 

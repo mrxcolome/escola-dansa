@@ -345,7 +345,7 @@ PAGINES = [
             ("a quina edat pot començar el meu fill o filla?",
              "des dels 3 anys, amb els grups d'iniciació a la dansa. a la classe de prova gratuïta veiem quin grup li encaixa millor per edat i maduresa."),
             ("quant costa l'extraescolar de dansa?",
-             "les quotes infantils van dels 56 €/mes (1 dia per setmana) als 92 €/mes (4 dies), amb opció trimestral. la primera classe de prova és gratuïta."),
+             "la quota va per la durada de les classes: des de 56 €/mes (1 dia per setmana, classes de 45 min) o 60 €/mes (classes d'1 hora), amb opció trimestral. la primera classe de prova és gratuïta."),
             ("com sabré si li agrada abans d'apuntar-lo?",
              "per això la primera classe és gratuïta i sense compromís: el porteu, ho prova, i decidiu amb calma."),
             ("fan actuacions?",
@@ -763,14 +763,14 @@ for _p in PAGINES:
 
 # TARIFES DEL CURS (font única per a /preus/) — files: (concepte, 1 dia, 2, 3, 4)
 TARIFA_MENSUAL = [
-    ("infantil", "56 €", "68 €", "80 €", "92 €"),
-    ("juvenil i adults · fins 1 h", "60 €", "73 €", "85 €", "99 €"),
-    ("juvenil i adults · més d'1 h", "65 €", "81 €", "92 €", "104 €"),
+    ("classes de 45 min", "56 €", "68 €", "80 €", "92 €"),
+    ("classes d'1 hora", "60 €", "73 €", "85 €", "99 €"),
+    ("classes de més d'1 hora", "65 €", "81 €", "92 €", "104 €"),
 ]
 TARIFA_TRIMESTRAL = [
-    ("infantil", "162 €", "197 €", "232 €", "267 €"),
-    ("juvenil i adults · fins 1 h", "174 €", "212 €", "247 €", "288 €"),
-    ("juvenil i adults · més d'1 h", "189 €", "235 €", "267 €", "302 €"),
+    ("classes de 45 min", "162 €", "197 €", "232 €", "267 €"),
+    ("classes d'1 hora", "174 €", "212 €", "247 €", "288 €"),
+    ("classes de més d'1 hora", "189 €", "235 €", "267 €", "302 €"),
 ]
 TARIFA_ALTRES = [
     ("matrícula alumnes antics", "65 €"),
@@ -870,7 +870,7 @@ def cos_estandard(p):
   <section class="reveal">
     <div class="etiqueta">tarifes</div>
     <h2>preus</h2>
-    <p class="text-gran">les classes funcionen per quota mensual o trimestral segons els dies per setmana: des de 56 €/mes (infantil) i 60 €/mes (adults). consulta <a href="/preus/" style="color:var(--granat-viu);font-weight:600">totes les tarifes del curs</a> — i recorda que la primera classe de prova és gratuïta.</p>
+    <p class="text-gran">les classes funcionen per quota mensual o trimestral segons els dies per setmana: des de 56 €/mes (classes de 45 min) i 60 €/mes (classes d'1 hora). consulta <a href="/preus/" style="color:var(--granat-viu);font-weight:600">totes les tarifes del curs</a> — i recorda que la primera classe de prova és gratuïta.</p>
   </section>
 {bloc_faqs(p)}{bloc_posts(p, p.get("lang", "ca"))}{bloc_relacionats(p)}"""
 
@@ -922,6 +922,7 @@ def cos_preus():
     capc = ["", "1 dia", "2 dies", "3 dies", "4 dies"]
     return f'''
   <section class="reveal">
+    <p class="text-gran">la quota la marca la <strong>durada de les classes</strong>, no l'edat: si alguna de les classes que fas passa de la franja, s'aplica la tarifa de la més llarga.</p>
 {taula("quota mensual", capc, TARIFA_MENSUAL)}
 {taula("quota trimestral", capc, TARIFA_TRIMESTRAL)}
 {taula("matrícula i altres", None, TARIFA_ALTRES)}
@@ -1207,17 +1208,15 @@ def cos_horaris_es():
 
 def cos_preus_es():
     capc = ["", "1 día", "2 días", "3 días", "4 días"]
-    men = [("infantil",) + f[1:] if f[0] == "infantil" else
-           ("juvenil y adultos · hasta 1 h",) + f[1:] if "fins" in f[0] else
-           ("juvenil y adultos · más de 1 h",) + f[1:] for f in TARIFA_MENSUAL]
-    tri = [("infantil",) + f[1:] if f[0] == "infantil" else
-           ("juvenil y adultos · hasta 1 h",) + f[1:] if "fins" in f[0] else
-           ("juvenil y adultos · más de 1 h",) + f[1:] for f in TARIFA_TRIMESTRAL]
+    franja_es = ["clases de 45 min", "clases de 1 hora", "clases de más de 1 hora"]
+    men = [(franja_es[i],) + f[1:] for i, f in enumerate(TARIFA_MENSUAL)]
+    tri = [(franja_es[i],) + f[1:] for i, f in enumerate(TARIFA_TRIMESTRAL)]
     alt = [("matrícula antiguos alumnos", TARIFA_ALTRES[0][1]),
            ("matrícula nuevos alumnos", TARIFA_ALTRES[1][1]),
            ("bailes de salón (10 sesiones)", TARIFA_ALTRES[2][1])]
     return f'''
   <section class="reveal">
+    <p class="text-gran">la cuota la marca la <strong>duración de las clases</strong>, no la edad: si alguna de las clases que haces pasa de la franja, se aplica la tarifa de la más larga.</p>
 {taula("cuota mensual", capc, men)}
 {taula("cuota trimestral", capc, tri)}
 {taula("matrícula y otros", None, alt)}
@@ -1291,8 +1290,8 @@ def fixos_es():
         ('<h2>també et pot agradar</h2>', '<h2>también te puede gustar</h2>'),
         ('<div class="etiqueta">tarifes</div>', '<div class="etiqueta">tarifas</div>'),
         ('<h2>preus</h2>', '<h2>precios</h2>'),
-        ('les classes funcionen per quota mensual o trimestral segons els dies per setmana: des de 56 €/mes (infantil) i 60 €/mes (adults). consulta <a href="/es/precios/" style="color:var(--granat-viu);font-weight:600">totes les tarifes del curs</a> — i recorda que la primera classe de prova és gratuïta.',
-         'las clases funcionan por cuota mensual o trimestral según los días por semana: desde 56 €/mes (infantil) y 60 €/mes (adultos). consulta <a href="/es/precios/" style="color:var(--granat-viu);font-weight:600">todas las tarifas del curso</a> — y recuerda que la primera clase de prueba es gratuita.'),
+        ('les classes funcionen per quota mensual o trimestral segons els dies per setmana: des de 56 €/mes (classes de 45 min) i 60 €/mes (classes d\'1 hora). consulta <a href="/es/precios/" style="color:var(--granat-viu);font-weight:600">totes les tarifes del curs</a> — i recorda que la primera classe de prova és gratuïta.',
+         'las clases funcionan por cuota mensual o trimestral según los días por semana: desde 56 €/mes (clases de 45 min) y 60 €/mes (clases de 1 hora). consulta <a href="/es/precios/" style="color:var(--granat-viu);font-weight:600">todas las tarifas del curso</a> — y recuerda que la primera clase de prueba es gratuita.'),
         ('<h2>vine a provar-ho: la primera classe és gratis</h2>', '<h2>ven a probarlo: la primera clase es gratis</h2>'),
         ("<p>tria com t'estimes més: truca'ns, escriu-nos o vine a veure'ns. sense compromís, t'ajudem a trobar el grup perfecte.</p>",
          '<p>elige como prefieras: llámanos, escríbenos o ven a vernos. sin compromiso, te ayudamos a encontrar el grupo perfecto.</p>'),

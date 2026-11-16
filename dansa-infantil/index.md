@@ -25,7 +25,7 @@ des dels 3 anys, amb els grups d'iniciació a la dansa. a la classe de prova gra
 
 ### quant costa l'extraescolar de dansa?
 
-les quotes infantils van dels 56 €/mes (1 dia per setmana) als 92 €/mes (4 dies), amb opció trimestral. la primera classe de prova és gratuïta.
+la quota va per la durada de les classes: des de 56 €/mes (1 dia per setmana, classes de 45 min) o 60 €/mes (classes d'1 hora), amb opció trimestral. la primera classe de prova és gratuïta.
 
 ### com sabré si li agrada abans d'apuntar-lo?
 
