@@ -58,7 +58,7 @@ Para no predicar en vano, las nuestras, cortas y comprobables:
 
 - **Cuándo** — tardes de lunes a viernes, y barre por la mañana lunes y miércoles. El horario completo está en [horarios](/es/horarios/).
 
-- **Cuánto** — 56 € al mes una actividad de 45 minutos y 60 € una de 1 hora (la tarifa la marca la duración de la clase); cuantas más actividades, más económica sale cada una, y pagando por trimestres aún se ahorra. Matrícula de 65 € al renovar y 70 € en un alta nueva. Todo publicado en [precios](/es/precios/).
+- **Cuánto** — 50 € al mes una actividad de 45 minutos y 60 € una de 1 hora (la tarifa la marca la duración de la clase); cuantas más actividades, más económica sale cada una, y pagando por trimestres aún se ahorra. Matrícula de 65 € al renovar y 70 € en un alta nueva. Todo publicado en [precios](/es/precios/).
 
 - **Sin compromiso** — la [clase de prueba es gratuita](/es/blog/clase-de-prueba-gratuita/), no hay permanencia y se puede cambiar de grupo o de estilo hablando con recepción.
 

@@ -36,7 +36,7 @@ En la escuela, las clases infantiles son por la tarde, a partir de las 17 h, pen
 
 ## ¿cuánto cuesta?
 
-Este curso, la cuota de las clases infantiles de 45 minutos va de los **56 €/mes** (un día a la semana) a los 92 €/mes (cuatro días), con opción de pago trimestral, más la matrícula. Todos los precios están en la página de [precios](/es/precios/). La primera clase es gratuita, y no hay permanencia.
+Este curso, la cuota de las clases infantiles de 45 minutos va de los **50 €/mes** (un día a la semana) a los 92 €/mes (cuatro días), con opción de pago trimestral, más la matrícula. Todos los precios están en la página de [precios](/es/precios/). La primera clase es gratuita, y no hay permanencia.
 
 ## ¿y si el curso ya ha empezado?
 
@@ -62,7 +62,7 @@ Para empezar, uno o dos días a la semana. Si se engancha, más adelante se pued
 
 ### ¿cuánto cuesta una extraescolar de danza?
 
-En la escuela Cristina Colomé, este curso la cuota de las clases infantiles de 45 minutos va de los 56 €/mes (un día a la semana) a los 92 €/mes (cuatro días), con opción trimestral y matrícula. La primera clase es gratuita.
+En la escuela Cristina Colomé, este curso la cuota de las clases infantiles de 45 minutos va de los 50 €/mes (un día a la semana) a los 92 €/mes (cuatro días), con opción trimestral y matrícula. La primera clase es gratuita.
 
 ### ¿se puede empezar a mitad de curso?
 

@@ -23,7 +23,7 @@ es una de las disciplinas con más grupos de la escuela: infantiles por edades, 
 
 ## precios
 
-la cuota la marca la duración de las clases: desde 56 €/mes (clases de 45 min) y 60 €/mes (clases de 1 hora). Todas las tarifas: https://escoladansa.com/es/precios/
+la cuota la marca la duración de las clases: desde 50 €/mes (clases de 45 min) y 60 €/mes (clases de 1 hora). Todas las tarifas: https://escoladansa.com/es/precios/
 
 ## preguntas frecuentes
 
