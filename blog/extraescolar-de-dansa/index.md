@@ -36,7 +36,7 @@ A l'escola, les classes infantils són a la tarda, a partir de les 17 h, pensade
 
 ## Quant costa?
 
-Aquest curs, la quota de les classes infantils de 45 minuts va dels **50 €/mes** (un dia a la setmana) als 92 €/mes (quatre dies), amb opció de pagament trimestral, més la matrícula. Tots els preus són a la pàgina de [preus](/preus/). La primera classe és gratuïta, i no hi ha permanència.
+Aquest curs, la quota de les classes infantils de 45 minuts va dels **56 €/mes** (un dia a la setmana) als 92 €/mes (quatre dies), amb opció de pagament trimestral, més la matrícula. Tots els preus són a la pàgina de [preus](/preus/). La primera classe és gratuïta, i no hi ha permanència.
 
 ## I si el curs ja ha començat?
 
@@ -62,7 +62,7 @@ Per començar, un o dos dies a la setmana. Si s'hi engresca, més endavant es po
 
 ### Quant costa una extraescolar de dansa?
 
-A l'escola Cristina Colomé, aquest curs la quota de les classes infantils de 45 minuts va dels 50 €/mes (un dia a la setmana) als 92 €/mes (quatre dies), amb opció trimestral i matrícula. La primera classe és gratuïta.
+A l'escola Cristina Colomé, aquest curs la quota de les classes infantils de 45 minuts va dels 56 €/mes (un dia a la setmana) als 92 €/mes (quatre dies), amb opció trimestral i matrícula. La primera classe és gratuïta.
 
 ### Es pot començar a mig curs?
 

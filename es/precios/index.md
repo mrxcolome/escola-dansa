@@ -4,7 +4,7 @@
 
 |  | 1 día | 2 días | 3 días | 4 días |
 |---|---|---|---|---|
-| classes de 45 min | 50 € | 68 € | 80 € | 92 € |
+| classes de 45 min | 56 € | 68 € | 80 € | 92 € |
 | classes d'1 hora | 60 € | 73 € | 85 € | 99 € |
 | classes de más de 1 hora | 65 € | 81 € | 92 € | 104 € |
 

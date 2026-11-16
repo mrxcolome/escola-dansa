@@ -44,7 +44,7 @@ Més dansa no sempre és millor dansa. Un dia viscut amb ganes val més que tres
 
 ## Quant costa un dia més?
 
-Menys del que sembla. A l'escola el preu no es multiplica per dies: **el segon dia costa 18 € més al mes** en les classes de 45 minuts (de 50 € a 68 €) i 13 € més en les d'1 hora (de 60 € a 73 €). Totes les tarifes, també les trimestrals, són a [preus](/preus/), i els grups i dies, a [horaris](/horaris/).
+Menys del que sembla. A l'escola el preu no es multiplica per dies: **el segon dia costa 12 € més al mes** en les classes de 45 minuts (de 56 € a 68 €) i 13 € més en les d'1 hora (de 60 € a 73 €). Totes les tarifes, també les trimestrals, són a [preus](/preus/), i els grups i dies, a [horaris](/horaris/).
 
 ## En resum
 
@@ -62,7 +62,7 @@ Sí, per aprendre i gaudir-ne. Amb dos dies el progrés és més ràpid i visibl
 
 ### Quant costa afegir un segon dia de classe?
 
-A l'escola, el segon dia costa 18 € més al mes en les classes de 45 minuts (de 50 € a 68 €) i 13 € més en les d'1 hora (de 60 € a 73 €).
+A l'escola, el segon dia costa 12 € més al mes en les classes de 45 minuts (de 56 € a 68 €) i 13 € més en les d'1 hora (de 60 € a 73 €).
 
 ### És millor fer dos dies del mateix estil o de dos estils diferents?
 

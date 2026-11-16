@@ -23,7 +23,7 @@ energia, ritme i coreografies que enganxen. el jazz és la porta d'entrada perfe
 
 ## preus
 
-la quota la marca la durada de les classes: des de 50 €/mes (classes de 45 min) i 60 €/mes (classes d'1 hora). Totes les tarifes: https://escoladansa.com/preus/
+la quota la marca la durada de les classes: des de 56 €/mes (classes de 45 min) i 60 €/mes (classes d'1 hora). Totes les tarifes: https://escoladansa.com/preus/
 
 ## preguntes freqüents
 

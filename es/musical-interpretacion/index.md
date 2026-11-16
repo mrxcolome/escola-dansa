@@ -14,7 +14,7 @@ grupos infantiles para niños y niñas con vena artística que quieren hacerlo t
 
 ## precios
 
-la cuota la marca la duración de las clases: desde 50 €/mes (clases de 45 min) y 60 €/mes (clases de 1 hora). Todas las tarifas: https://escoladansa.com/es/precios/
+la cuota la marca la duración de las clases: desde 56 €/mes (clases de 45 min) y 60 €/mes (clases de 1 hora). Todas las tarifas: https://escoladansa.com/es/precios/
 
 ## preguntas frecuentes
 

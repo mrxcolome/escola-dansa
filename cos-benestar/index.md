@@ -26,7 +26,7 @@ per a adults de totes les edats i condicions físiques: el barre als matins (dil
 
 ## preus
 
-la quota la marca la durada de les classes: des de 50 €/mes (classes de 45 min) i 60 €/mes (classes d'1 hora). Totes les tarifes: https://escoladansa.com/preus/
+la quota la marca la durada de les classes: des de 56 €/mes (classes de 45 min) i 60 €/mes (classes d'1 hora). Totes les tarifes: https://escoladansa.com/preus/
 
 ## preguntes freqüents
 

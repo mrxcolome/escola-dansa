@@ -15,7 +15,7 @@ de la iniciació a la dansa per als més petits fins als grups juvenils, tots el
 
 ## preus
 
-la quota la marca la durada de les classes: des de 50 €/mes (classes de 45 min) i 60 €/mes (classes d'1 hora). Totes les tarifes: https://escoladansa.com/preus/
+la quota la marca la durada de les classes: des de 56 €/mes (classes de 45 min) i 60 €/mes (classes d'1 hora). Totes les tarifes: https://escoladansa.com/preus/
 
 ## preguntes freqüents
 
@@ -25,7 +25,7 @@ des dels 3 anys, amb els grups d'iniciació a la dansa. a la classe de prova gra
 
 ### quant costa l'extraescolar de dansa?
 
-la quota va per la durada de les classes: des de 50 €/mes (1 dia per setmana, classes de 45 min) o 60 €/mes (classes d'1 hora), amb opció trimestral. la primera classe de prova és gratuïta.
+la quota va per la durada de les classes: des de 56 €/mes (1 dia per setmana, classes de 45 min) o 60 €/mes (classes d'1 hora), amb opció trimestral. la primera classe de prova és gratuïta.
 
 ### com sabré si li agrada abans d'apuntar-lo?
 
