@@ -10,6 +10,7 @@ Marques (en qualsevol text dels generadors: pàgines, FAQ, posts, markdown):
   ⟦mmes60.4⟧   mensual, classes de més d'1 hora, 4 activitats         → 104
   ⟦dm45.1-2⟧   diferència mensual entre 1 i 2 activitats (45 min)     → 12
   ⟦renovacio⟧  matrícula alumnes antics · ⟦nova⟧ nous alumnes · ⟦salo⟧ balls de saló
+  ⟦num:m45.1⟧  el mateix amb punt decimal (57.5), per al JSON-LD
 La home CA (index.html) és feta a mà: les seves frases amb preus les reescriu
 actualitza_home() amb els patrons de FRASES_HOME.
 """
@@ -50,9 +51,17 @@ def valor(clau):
 MARCA = re.compile(r"⟦([^⟧]+)⟧")
 
 
+def _resol(clau):
+    # ⟦num:m45.1⟧ → «56» o «57.5»: format de màquina, per a les dades estructurades (JSON-LD)
+    if clau.startswith("num:"):
+        v = valor(clau[4:])
+        return str(int(v)) if float(v).is_integer() else str(v)
+    return fmt(valor(clau))
+
+
 def preus(text):
     """Resol totes les marques ⟦…⟧ d'un text."""
-    return MARCA.sub(lambda m: fmt(valor(m.group(1))), text)
+    return MARCA.sub(lambda m: _resol(m.group(1)), text)
 
 
 # files de /preus: (concepte, 1 dia, 2, 3, 4)

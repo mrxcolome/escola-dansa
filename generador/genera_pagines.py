@@ -820,7 +820,7 @@ def json_ld(p):
                 "@type": "Offer",
                 "category": "quota mensual",
                 "priceCurrency": "EUR",
-                "price": "⟦m45.1⟧",
+                "price": "⟦num:m45.1⟧",
                 "description": "quotes mensuals des de ⟦m45.1⟧ €. primera classe de prova gratuïta.",
             },
         },
