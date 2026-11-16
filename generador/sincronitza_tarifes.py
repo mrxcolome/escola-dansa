@@ -28,7 +28,8 @@ def llegeix_backstage():
 
 
 def valid(n):
-    return isinstance(n, (int, float)) and not isinstance(n, bool) and 0 < n < 10000
+    # cap quota ni matrícula de l'escola passa de 1.000 €: una xifra així és un error de picar (p. ex. «5600»)
+    return isinstance(n, (int, float)) and not isinstance(n, bool) and 0 < n < 1000
 
 
 def main():
