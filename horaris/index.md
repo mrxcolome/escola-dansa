@@ -65,7 +65,7 @@
 | 19.45 | clàssic | adults II | sala C |
 | 20.30 | Jazz ad |  | sala H |
 | 20.30 | Jazz ad |  | sala H |
-| 20.30 | dansa del ventre | adults III | sala H |
+| 20.30 | dansa del ventre | adults III | sala N |
 | 20.45 | ioga |  | sala C |
 
 ## divendres

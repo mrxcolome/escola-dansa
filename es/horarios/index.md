@@ -65,7 +65,7 @@
 | 19.45 | clásico | adultos II | sala C |
 | 20.30 | Jazz ad |  | sala H |
 | 20.30 | Jazz ad |  | sala H |
-| 20.30 | danza del vientre | adultos III | sala H |
+| 20.30 | danza del vientre | adultos III | sala N |
 | 20.45 | yoga |  | sala C |
 
 ## viernes
