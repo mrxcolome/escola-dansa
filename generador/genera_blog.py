@@ -33,7 +33,7 @@ BLOG_CSS = """
 .article li{font-size:var(--text);color:var(--gris);font-weight:400;margin:10px 0}
 .article p strong,.article li strong{color:var(--blanc);font-weight:600}
 .article a{color:var(--granat-viu);font-weight:600}
-.cat-chip{display:inline-block;background:var(--granat-viu);color:#f5f2ef;padding:5px 13px;border-radius:100px;font-size:var(--text-vermells);letter-spacing:.25em;text-transform:uppercase;font-weight:600}
+.cat-chip{display:inline-block;background:var(--granat-viu);color:#f5f2ef;padding:4px 11px;border-radius:100px;font-size:.78rem;letter-spacing:.2em;text-transform:uppercase;font-weight:600}
 .blog-flux{display:grid;grid-template-columns:repeat(6,1fr);gap:28px;margin-top:6px}
 .bf-card{position:relative;display:flex;flex-direction:column;background:var(--gris-fosc);border-radius:20px;overflow:hidden;box-shadow:0 8px 26px rgba(23,19,16,.07);transition:transform .35s cubic-bezier(.22,1,.36,1),box-shadow .35s}
 .bf-card:hover{transform:translateY(-5px);box-shadow:0 18px 44px rgba(23,19,16,.13)}
