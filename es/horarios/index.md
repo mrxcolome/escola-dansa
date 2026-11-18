@@ -55,12 +55,9 @@
 
 | hora | actividad | grupo | sala |
 |---|---|---|---|
-| 10.00 | cuerpo y movimiento | (próximamente) | sala C |
 | 17.30 | contemporáneo | juvenil A | sala H |
 | 17.30 | clàssic infantil C |  | sala N |
 | 17.30 | clàssic infantil C |  | sala N |
-| 17.30 | iniciación danza | I (próximamente) | sala N |
-| 17.30 | iniciació dansa A | (próximamente) | sala C |
 | 18.30 | clásico | juvenil III | sala H |
 | 18.30 | hip-hop | infantil I | sala N |
 | 18.45 | claqué | adultos II | sala C |
