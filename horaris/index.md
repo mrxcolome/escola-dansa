@@ -57,6 +57,8 @@
 |---|---|---|---|
 | 10.00 | cos i moviment |  | sala C |
 | 17.30 | contemporani | juvenil A | sala H |
+| 17.30 | clàssic infantil C |  | sala N |
+| 17.30 | clàssic infantil C |  | sala N |
 | 18.30 | clàssic | juvenil III | sala H |
 | 18.30 | hip-hop | infantil I | sala N |
 | 18.45 | claqué | adults II | sala C |
