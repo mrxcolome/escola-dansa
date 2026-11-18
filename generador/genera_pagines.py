@@ -465,6 +465,7 @@ h2{font-size:clamp(2rem,4.6vw,3.8rem);margin-bottom:22px}
 .fila-h:hover{padding-left:12px;background:rgba(149,0,0,.08)}
 .fila-h .hora{font-weight:800;color:var(--granat-viu)}
 .fila-h .nom{font-weight:600;text-transform:lowercase}
+.aviat{font-style:normal;font-size:.72em;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--gris);border:1px dashed var(--vora);border-radius:100px;padding:2px 9px;margin-left:8px;white-space:nowrap;vertical-align:middle}
 .fila-h .nom small{display:block;font-weight:400;color:var(--gris);font-size:var(--text);text-transform:none}
 .taula-preus{width:100%;border-collapse:collapse;margin:10px 0 40px}
 .taula-preus caption{text-align:left;font-weight:800;font-size:var(--text);padding-bottom:14px;text-transform:lowercase;color:var(--blanc)}
@@ -733,8 +734,18 @@ def bloc_posts(p, lang="ca"):
 # ─────────────────────────────────────────────────────────────────────────────
 # la graella ve del Backstage (backstage.escoladansa.com/graella-publica), que n'és l'única font:
 # sincronitza_graella.py la desa a graella.json i el workflow «graella» regenera i publica la web
+# Una fila amb 5è element «properament» és una classe inactiva al Backstage: surt als horaris
+# amb l'etiqueta «properament» (marca AVIAT al grup, que aviat() converteix en HTML o text).
+AVIAT = "⟨properament⟩"
 with open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "graella.json"), encoding="utf-8") as _f:
-    GRAELLA = {dia: [tuple(fila) for fila in files] for dia, files in json.load(_f).items()}
+    GRAELLA = {dia: [(f[0], f[1], f"{f[2]} {AVIAT}".strip() if len(f) > 4 else f[2], f[3]) for f in files]
+               for dia, files in json.load(_f).items()}
+
+
+def aviat(text, es=False, html=True):
+    """Converteix la marca AVIAT en l'etiqueta «properament» / «próximamente»."""
+    paraula = "próximamente" if es else "properament"
+    return text.replace(AVIAT, f'<em class="aviat">{paraula}</em>' if html else f"({paraula})")
 
 # Horaris de cada pàgina d'activitat: es deriven de la GRAELLA (font única), així no se'n separen mai.
 # slug → filtre (dia, hora, activitat, grup, sala)
@@ -1327,13 +1338,13 @@ def main():
         os.makedirs(carpeta, exist_ok=True)
         desti = os.path.join(carpeta, "index.html")
         with open(desti, "w", encoding="utf-8") as f:
-            f.write(preus(genera(p)))
+            f.write(preus(aviat(genera(p))))
         # versió en castellà
         if p["slug"] in TRADUCCIONS_ES:
             carpeta_es = os.path.join(ARREL, "es", SLUG_ES[p["slug"]])
             os.makedirs(carpeta_es, exist_ok=True)
             with open(os.path.join(carpeta_es, "index.html"), "w", encoding="utf-8") as f:
-                f.write(preus(genera_es(p)))
+                f.write(preus(aviat(genera_es(p), es=True)))
     n_es = len([p for p in PAGINES if p["slug"] in TRADUCCIONS_ES])
     print(f"{len(PAGINES)} pàgines CA + {n_es} pàgines ES generades a {ARREL}")
 

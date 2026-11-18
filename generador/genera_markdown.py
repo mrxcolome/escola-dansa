@@ -29,7 +29,8 @@ PEU_ES = (f"\n---\n\nescola de dansa cristina colomé · Carrer de Craywinckel, 
 def escriu(cami_rel, text):
     ruta = os.path.join(ARREL, cami_rel)
     os.makedirs(os.path.dirname(ruta), exist_ok=True)
-    io.open(ruta, 'w', encoding='utf-8', newline='\n').write(preus(text))
+    es = cami_rel.replace('\\', '/').startswith('es/')
+    io.open(ruta, 'w', encoding='utf-8', newline='\n').write(preus(gp.aviat(text, es=es, html=False)))
 
 
 def html_a_md(s):

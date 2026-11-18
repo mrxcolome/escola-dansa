@@ -37,7 +37,10 @@ def main():
         return
     nova = {}
     for c in classes:  # ja venen ordenades per dia, hora i sala
-        nova.setdefault(c["dia"], []).append([c["hora"], c["activitat"], c["grup"], c["sala"]])
+        fila = [c["hora"], c["activitat"], c["grup"], c["sala"]]
+        if c.get("actiu") is False:  # classe que encara no va: a la web surt com a «properament»
+            fila.append("properament")
+        nova.setdefault(c["dia"], []).append(fila)
     nova = {d: nova[d] for d in DIES if d in nova}
 
     with open(CAMI, encoding="utf-8") as f:
