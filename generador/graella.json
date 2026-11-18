@@ -4,7 +4,8 @@
    "10.00",
    "barre",
    "",
-   "sala C"
+   "sala C",
+   "properament"
   ],
   [
    "17.00",
@@ -58,7 +59,8 @@
    "19.30",
    "preparació de proves",
    "",
-   "sala C"
+   "sala C",
+   "properament"
   ],
   [
    "19.45",
@@ -102,7 +104,8 @@
    "18.30",
    "preparació de proves",
    "",
-   "sala N"
+   "sala N",
+   "properament"
   ],
   [
    "18.45",
@@ -138,7 +141,8 @@
    "20.45",
    "ioga",
    "",
-   "sala C"
+   "sala C",
+   "properament"
   ]
  ],
  "dimecres": [
@@ -146,7 +150,8 @@
    "10.00",
    "barre",
    "",
-   "sala C"
+   "sala C",
+   "properament"
   ],
   [
    "17.30",
@@ -212,13 +217,15 @@
    "20.30",
    "heels",
    "adults II",
-   "sala N"
+   "sala N",
+   "properament"
   ],
   [
    "20.30",
    "espanyol",
    "adults II",
-   "sala C"
+   "sala C",
+   "properament"
   ]
  ],
  "dijous": [
@@ -226,7 +233,8 @@
    "10.00",
    "cos i moviment",
    "",
-   "sala C"
+   "sala C",
+   "properament"
   ],
   [
    "17.30",
@@ -245,6 +253,20 @@
    "clàssic infantil C",
    "",
    "sala N"
+  ],
+  [
+   "17.30",
+   "iniciació dansa",
+   "I",
+   "sala N",
+   "properament"
+  ],
+  [
+   "17.30",
+   "iniciació dansa A",
+   "",
+   "sala C",
+   "properament"
   ],
   [
    "18.30",
@@ -274,7 +296,8 @@
    "19.30",
    "zumba",
    "",
-   "sala N"
+   "sala N",
+   "properament"
   ],
   [
    "19.45",
@@ -286,13 +309,8 @@
    "20.30",
    "Jazz ad",
    "",
-   "sala H"
-  ],
-  [
-   "20.30",
-   "Jazz ad",
-   "",
-   "sala H"
+   "sala H",
+   "properament"
   ],
   [
    "20.30",
@@ -304,7 +322,8 @@
    "20.45",
    "ioga",
    "",
-   "sala C"
+   "sala C",
+   "properament"
   ]
  ],
  "divendres": [
@@ -330,7 +349,8 @@
    "17.45",
    "jazz juvenil B",
    "",
-   "sala N"
+   "sala N",
+   "properament"
   ],
   [
    "18.15",

@@ -16,13 +16,13 @@ para adultos de todas las edades y condiciones físicas: el barre por las mañan
 
 | día | hora | grupo | sala |
 |---|---|---|---|
-| lunes | 10.00 | barre | sala C |
-| martes | 20.45 | yoga | sala C |
-| miércoles | 10.00 | barre | sala C |
+| lunes | 10.00 | barre (próximamente) | sala C |
+| martes | 20.45 | yoga (próximamente) | sala C |
+| miércoles | 10.00 | barre (próximamente) | sala C |
 | miércoles | 19.30 | zumba | sala N |
-| jueves | 10.00 | cuerpo y movimiento | sala C |
-| jueves | 19.30 | zumba | sala N |
-| jueves | 20.45 | yoga | sala C |
+| jueves | 10.00 | cuerpo y movimiento (próximamente) | sala C |
+| jueves | 19.30 | zumba (próximamente) | sala N |
+| jueves | 20.45 | yoga (próximamente) | sala C |
 
 ## precios
 

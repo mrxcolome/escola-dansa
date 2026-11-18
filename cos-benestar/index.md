@@ -16,13 +16,13 @@ per a adults de totes les edats i condicions físiques: el barre als matins (dil
 
 | dia | hora | grup | sala |
 |---|---|---|---|
-| dilluns | 10.00 | barre | sala C |
-| dimarts | 20.45 | ioga | sala C |
-| dimecres | 10.00 | barre | sala C |
+| dilluns | 10.00 | barre (properament) | sala C |
+| dimarts | 20.45 | ioga (properament) | sala C |
+| dimecres | 10.00 | barre (properament) | sala C |
 | dimecres | 19.30 | zumba | sala N |
-| dijous | 10.00 | cos i moviment | sala C |
-| dijous | 19.30 | zumba | sala N |
-| dijous | 20.45 | ioga | sala C |
+| dijous | 10.00 | cos i moviment (properament) | sala C |
+| dijous | 19.30 | zumba (properament) | sala N |
+| dijous | 20.45 | ioga (properament) | sala C |
 
 ## preus
 
