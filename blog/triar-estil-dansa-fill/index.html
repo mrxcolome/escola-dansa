@@ -205,6 +205,21 @@ html[data-tema="clar"] .nb-estat.ok{color:#3d6b4f}
   .accio:last-child:nth-child(odd){grid-column:1/-1}
   .accio{padding:20px 16px}
 }
+/* menú hamburguesa del mòbil: botó a la pastilla de dalt i menú a pantalla sencera */
+.menu-boto,.menu-mobil{display:none}
+@media (max-width:700px){
+  .menu-boto{display:inline-flex;flex-direction:column;justify-content:center;gap:4px;order:10;width:30px;height:26px;margin:0 -6px 0 6px;padding:0 4px;background:none;border:0;border-left:1px solid var(--vora);padding-left:10px;box-sizing:content-box;cursor:pointer;color:var(--blanc)}
+  .menu-boto span{display:block;width:18px;height:2px;border-radius:2px;background:currentColor}
+  .menu-mobil{display:flex;flex-direction:column;position:fixed;inset:0;z-index:130;padding:76px 28px calc(28px + env(safe-area-inset-bottom));background:rgba(10,10,10,.94);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);opacity:0;visibility:hidden;transition:opacity .25s,visibility .25s;overflow-y:auto}
+  html[data-tema="clar"] .menu-mobil{background:rgba(247,244,240,.97)}
+  .menu-mobil.obert{opacity:1;visibility:visible}
+  .menu-tanca{position:absolute;top:12px;right:12px;width:44px;height:44px;border-radius:100px;border:1px solid var(--vora);background:transparent;color:var(--blanc);font-size:1.6rem;line-height:1;cursor:pointer}
+  .menu-mobil-links a{display:block;padding:12px 0;border-bottom:1px solid var(--vora);font-size:1.9rem;font-weight:800;text-transform:lowercase;letter-spacing:-.01em;color:var(--blanc)}
+  .menu-mobil-links a.actual{color:var(--granat-viu)}
+  .menu-mobil-accions{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:auto;padding-top:28px}
+  .menu-mobil-accions .boto{justify-content:center;padding:15px 12px}
+  html.menu-obert,html.menu-obert body{overflow:hidden}
+}
 @media (prefers-reduced-motion:reduce){*{transition-duration:.01ms!important}.reveal{opacity:1;transform:none}}
 
 .post-card:hover{background:rgba(149,0,0,.06)}
@@ -371,7 +386,24 @@ h1,h2,h3{text-transform:none}
 </nav>
 
 <div class="idioma-mobil" aria-label="Idioma">
-  <button class="tema-boto" type="button" aria-label="mode clar / fosc"><svg class="ico-sol" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.5"/><path d="M12 2v2.5M12 19.5V22M2 12h2.5M19.5 12H22M4.9 4.9l1.8 1.8M17.3 17.3l1.8 1.8M4.9 19.1l1.8-1.8M17.3 6.7l1.8-1.8"/></svg><svg class="ico-lluna" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5z"/></svg></button><a href="https://escoladansa.com/blog/triar-estil-dansa-fill/" class="actiu">cat</a><span>/</span><a href="https://escoladansa.com/es/blog/elegir-estilo-danza-hijo/">es</a>
+  <button class="tema-boto" type="button" aria-label="mode clar / fosc"><svg class="ico-sol" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.5"/><path d="M12 2v2.5M12 19.5V22M2 12h2.5M19.5 12H22M4.9 4.9l1.8 1.8M17.3 17.3l1.8 1.8M4.9 19.1l1.8-1.8M17.3 6.7l1.8-1.8"/></svg><svg class="ico-lluna" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5z"/></svg></button><a href="https://escoladansa.com/blog/triar-estil-dansa-fill/" class="actiu">cat</a><span>/</span><a href="https://escoladansa.com/es/blog/elegir-estilo-danza-hijo/">es</a><button class="menu-boto" type="button" aria-label="menú" aria-expanded="false" aria-controls="menuMobil"><span></span><span></span><span></span></button>
+</div>
+
+<div class="menu-mobil" id="menuMobil" role="dialog" aria-modal="true" aria-label="menú">
+  <button class="menu-tanca" type="button" aria-label="tanca el menú">×</button>
+  <div class="menu-mobil-links" role="navigation" aria-label="menú">
+    <a href="/#escola">l'escola</a>
+    <a href="/#activitats">activitats</a>
+    <a href="/horaris/">horaris</a>
+    <a href="/preus/">preus</a>
+    <a href="/blog/">blog</a>
+    <a href="/#newsletter">newsletter</a>
+    <a href="/#contacte">contacte</a>
+  </div>
+  <div class="menu-mobil-accions">
+    <a class="boto boto-ple" href="tel:+34934179886">truca'ns</a>
+    <a class="boto boto-buit" href="https://wa.me/34934179886" target="_blank" rel="noopener">WhatsApp</a>
+  </div>
 </div>
 
 <div class="avis-galetes" id="avisGaletes">
@@ -514,6 +546,20 @@ document.querySelectorAll('.tema-boto').forEach(b=>b.addEventListener('click',()
   colorBarra();
 }));
 addEventListener('scroll',()=>nav.classList.toggle('solida',scrollY>40),{passive:true});
+// menú del mòbil: s'obre amb l'hamburguesa i es tanca amb la X, amb Esc, en tocar un enllaç o amb el botó enrere
+(function(){
+  var m=document.getElementById('menuMobil'),b=document.querySelector('.menu-boto');if(!m||!b)return;
+  var aqui=location.pathname+location.hash;
+  m.querySelectorAll('.menu-mobil-links a').forEach(function(a){var h=a.getAttribute('href');if(h===location.pathname&&h!=='/'&&h!=='/es/')a.classList.add('actual')});
+  function obre(){m.classList.add('obert');document.documentElement.classList.add('menu-obert');b.setAttribute('aria-expanded','true');try{history.pushState({menu:1},'')}catch(e){}setTimeout(function(){var t=m.querySelector('.menu-tanca');if(t)t.focus()},50)}
+  function tanca(){m.classList.remove('obert');document.documentElement.classList.remove('menu-obert');b.setAttribute('aria-expanded','false')}
+  function tancaIRecula(){if(history.state&&history.state.menu)history.back();else tanca()}
+  b.addEventListener('click',obre);
+  m.querySelector('.menu-tanca').addEventListener('click',function(){tancaIRecula();b.focus()});
+  m.querySelectorAll('a').forEach(function(a){a.addEventListener('click',tanca)});
+  addEventListener('popstate',tanca);
+  addEventListener('keydown',function(e){if(e.key==='Escape'&&m.classList.contains('obert'))tancaIRecula()});
+})();
 const obs=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('vist');obs.unobserve(e.target)}}),{threshold:.12,rootMargin:'0px 0px -6% 0px'});
 document.querySelectorAll('.reveal').forEach(el=>obs.observe(el));
 // GA4 nomes amb consentiment (RGPD): res no es carrega fins que l'usuari accepta

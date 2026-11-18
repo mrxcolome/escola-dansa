@@ -74,6 +74,8 @@ PARELLES = [
     ('<a href="/preus/">preus</a>', '<a href="/es/precios/">precios</a>'),
     ('<a href="/blog/">blog</a>', '<a href="/es/blog/">blog</a>'),
     ('>contacte</a>', '>contacto</a>'),
+    ('aria-label="tanca el menú"', 'aria-label="cerrar el menú"'),
+    (">truca'ns</a>", '>llámanos</a>'),
 
     # ── hero ──
     ('aria-hidden="true">dansa</span>', 'aria-hidden="true">danza</span>'),
