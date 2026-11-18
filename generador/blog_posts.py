@@ -2886,6 +2886,97 @@ POSTS = [
              "Sí. Se puede entrar en cualquier momento del curso, sin permanencia, y antes se puede hacer una clase de prueba gratuita."),
         ],
     },
+
+    {
+        "slug": "regalar-dansa-per-nadal",
+        "slug_es": "regalar-danza-por-navidad",
+        "categoria": "famílies",
+        "categoria_es": "familias",
+        "data": "2026-11-19",
+        "data_ca": "19 de novembre de 2026",
+        "data_es": "19 de noviembre de 2026",
+        "minuts": 4,
+        "nom_wa": "dansa",
+        "nom_wa_es": "danza",
+        "og": "blog-regalar-dansa-nadal.jpg",
+        "img": "blog-regalar-dansa-nadal.jpg",
+        "img_alt": "Unes sabatilles de puntes rosades al costat d'una capsa de regal amb llaç vermell i una targeta que diu «Bon Nadal!», sobre el banc de fusta del vestidor d'una escola de dansa, amb llumetes de Nadal al fons",
+        "img_alt_es": "Unas zapatillas de puntas rosadas junto a una caja de regalo con lazo rojo y una tarjeta que dice «Bon Nadal!», sobre el banco de madera del vestuario de una escuela de danza, con lucecitas de Navidad al fondo",
+        "related_pagines": ["dansa-infantil", "dansa-adults", "preus"],
+        "related_posts": ["classe-de-prova-gratuita", "apuntar-se-amb-el-curs-comencat", "comencar-dansa-adults"],
+        "title": "regalar dansa per Nadal: idees per regalar classes de dansa a Barcelona · escola de dansa cristina colomé",
+        "desc": "Vols regalar dansa aquest Nadal? Com regalar classes de dansa a un fill, a una filla o a un adult: la primera classe de prova gratuïta, el primer mes de quota o una classe particular. Escola Cristina Colomé, Barcelona.",
+        "h1": "regalar dansa per Nadal",
+        "excerpt": "Un regal que no ocupa lloc a l'armari: com regalar classes de dansa a un fill, a una filla o a un adult, i començar al gener.",
+        "intro": "Si aquest Nadal busques un regal diferent, que no acabi oblidat en un calaix, la dansa és una bona idea. Serveix per a un nen de 3 anys, per a una adolescent i per a una persona adulta que sempre ho ha volgut provar. T'expliquem com regalar-la.",
+        "cos": """
+<p>El millor dels regals que es viuen és que duren. Una classe de dansa a la setmana vol dir música, moviment, amistats noves i una estona que és només seva. I ballar no té edat: a l'escola hi ha grups des dels 3 anys fins a adults.</p>
+
+<h2>el primer regal: venir a provar-ho</h2>
+<p>A l'escola, <strong>la primera classe és gratuïta</strong> i sense compromís. Per això, el regal pot començar amb una invitació: «el gener anem a provar dansa». Tria l'estil i el grup que li va bé, truca'ns i reservem la classe de prova per a després de festes. Si no saps quin estil triar, et pot ajudar la guia per <a href="/blog/triar-estil-dansa-fill/">triar l'estil de dansa del teu fill</a>, o la de <a href="/blog/comencar-dansa-adults/">començar a ballar de gran</a>.</p>
+
+<h2>regalar el primer mes de classes</h2>
+<p>Si després de la prova li agrada, el regal pot ser <strong>el primer mes de quota</strong>: el pagues tu i comença al gener amb el seu grup. La tarifa la marca la durada de la classe: aquest curs, un dia a la setmana costa <strong>⟦m45.1⟧ €/mes</strong> en les classes de 45 minuts i <strong>⟦m60.1⟧ €/mes</strong> en les d'1 hora. Els alumnes nous paguen també una matrícula de ⟦nova⟧ €, un sol cop. Tens totes les tarifes a la pàgina de <a href="/preus/">preus</a>.</p>
+<p>No hi ha permanència, i es pot començar en qualsevol moment del curs: ho expliquem a <a href="/blog/apuntar-se-amb-el-curs-comencat/">apuntar-se a dansa amb el curs començat</a>.</p>
+
+<h2>una classe particular</h2>
+<p>Per a qui vol preparar una coreografia, posar-se al dia o simplement ballar amb tota l'atenció de la professora, també es pot regalar una <strong>classe particular</strong>. I si el regal és per a una celebració (un casament, un aniversari, un comiat), fem classes especials per preparar-la. Pregunta'ns-en el preu i els horaris.</p>
+
+<h2>com ho fem</h2>
+<ul>
+<li><strong>Truca'ns o escriu-nos</strong> per WhatsApp i explica'ns per a qui és el regal: edat, estil i quins dies li anirien bé.</li>
+<li>Et proposem <strong>el grup i l'horari</strong> i reservem la classe de prova per al gener.</li>
+<li>El dia de Nadal, només cal donar-li la notícia. La resta, la fem a l'escola.</li>
+</ul>
+<p>Som al carrer de Craywinckel, a Sant Gervasi, a dos minuts de l'FGC Av. Tibidabo. Pots veure tots els grups a la pàgina d'<a href="/horaris/">horaris</a>.</p>
+""",
+        "faqs": [
+            ("es poden regalar classes de dansa per Nadal?",
+             "Sí. Pots regalar el primer mes de quota perquè comenci al gener, o una classe particular. I abans, la primera classe de prova és gratuïta."),
+            ("quant costa regalar un mes de dansa?",
+             "Aquest curs, un dia a la setmana costa ⟦m45.1⟧ €/mes en les classes de 45 minuts i ⟦m60.1⟧ €/mes en les d'1 hora. Els alumnes nous paguen també una matrícula de ⟦nova⟧ €."),
+            ("i si no sé quin estil li agradarà?",
+             "Per això la primera classe és gratuïta: la persona que rep el regal pot provar l'estil abans de començar, i si no li encaixa, en pot provar un altre."),
+            ("a partir de quina edat es pot regalar dansa?",
+             "Des dels 3 anys, amb els grups d'iniciació a la dansa, i fins a adults de qualsevol edat."),
+        ],
+        "title_es": "regalar danza por Navidad: ideas para regalar clases de danza en Barcelona · escola de dansa cristina colomé",
+        "desc_es": "¿Quieres regalar danza esta Navidad? Cómo regalar clases de danza a un hijo, a una hija o a un adulto: la primera clase de prueba gratuita, el primer mes de cuota o una clase particular. Escuela Cristina Colomé, Barcelona.",
+        "h1_es": "regalar danza por Navidad",
+        "excerpt_es": "Un regalo que no ocupa sitio en el armario: cómo regalar clases de danza a un hijo, a una hija o a un adulto, y empezar en enero.",
+        "intro_es": "Si esta Navidad buscas un regalo diferente, que no acabe olvidado en un cajón, la danza es una buena idea. Sirve para un niño de 3 años, para una adolescente y para una persona adulta que siempre lo ha querido probar. Te contamos cómo regalarla.",
+        "cos_es": """
+<p>Lo mejor de los regalos que se viven es que duran. Una clase de danza a la semana es música, movimiento, amistades nuevas y un rato que es solo suyo. Y bailar no tiene edad: en la escuela hay grupos desde los 3 años hasta adultos.</p>
+
+<h2>el primer regalo: venir a probarlo</h2>
+<p>En la escuela, <strong>la primera clase es gratuita</strong> y sin compromiso. Por eso, el regalo puede empezar con una invitación: «en enero vamos a probar danza». Elige el estilo y el grupo que le va bien, llámanos y reservamos la clase de prueba para después de fiestas. Si no sabes qué estilo elegir, te puede ayudar la guía para <a href="/es/blog/elegir-estilo-danza-hijo/">elegir el estilo de danza de tu hijo</a>, o la de <a href="/es/blog/empezar-danza-adultos/">empezar a bailar de mayor</a>.</p>
+
+<h2>regalar el primer mes de clases</h2>
+<p>Si después de la prueba le gusta, el regalo puede ser <strong>el primer mes de cuota</strong>: lo pagas tú y empieza en enero con su grupo. La tarifa la marca la duración de la clase: este curso, un día a la semana cuesta <strong>⟦m45.1⟧ €/mes</strong> en las clases de 45 minutos y <strong>⟦m60.1⟧ €/mes</strong> en las de 1 hora. Los alumnos nuevos pagan también una matrícula de ⟦nova⟧ €, una sola vez. Tienes todas las tarifas en la página de <a href="/es/precios/">precios</a>.</p>
+<p>No hay permanencia, y se puede empezar en cualquier momento del curso: lo explicamos en <a href="/es/blog/apuntarse-con-el-curso-empezado/">apuntarse a danza con el curso empezado</a>.</p>
+
+<h2>una clase particular</h2>
+<p>Para quien quiere preparar una coreografía, ponerse al día o simplemente bailar con toda la atención de la profesora, también se puede regalar una <strong>clase particular</strong>. Y si el regalo es para una celebración (una boda, un cumpleaños, una despedida), hacemos clases especiales para prepararla. Pregúntanos el precio y los horarios.</p>
+
+<h2>cómo lo hacemos</h2>
+<ul>
+<li><strong>Llámanos o escríbenos</strong> por WhatsApp y cuéntanos para quién es el regalo: edad, estilo y qué días le irían bien.</li>
+<li>Te proponemos <strong>el grupo y el horario</strong> y reservamos la clase de prueba para enero.</li>
+<li>El día de Navidad, solo hay que darle la noticia. El resto, lo hacemos en la escuela.</li>
+</ul>
+<p>Estamos en la calle Craywinckel, en Sant Gervasi, a dos minutos del FGC Av. Tibidabo. Puedes ver todos los grupos en la página de <a href="/es/horarios/">horarios</a>.</p>
+""",
+        "faqs_es": [
+            ("¿se pueden regalar clases de danza por Navidad?",
+             "Sí. Puedes regalar el primer mes de cuota para que empiece en enero, o una clase particular. Y antes, la primera clase de prueba es gratuita."),
+            ("¿cuánto cuesta regalar un mes de danza?",
+             "Este curso, un día a la semana cuesta ⟦m45.1⟧ €/mes en las clases de 45 minutos y ⟦m60.1⟧ €/mes en las de 1 hora. Los alumnos nuevos pagan también una matrícula de ⟦nova⟧ €."),
+            ("¿y si no sé qué estilo le gustará?",
+             "Para eso la primera clase es gratuita: la persona que recibe el regalo puede probar el estilo antes de empezar, y si no le encaja, puede probar otro."),
+            ("¿a partir de qué edad se puede regalar danza?",
+             "Desde los 3 años, con los grupos de iniciación a la danza, y hasta adultos de cualquier edad."),
+        ],
+    },
 ]
 
 

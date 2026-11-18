@@ -6,7 +6,15 @@
     <atom:link href="https://escoladansa.com/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Consells de dansa per a famílies i adults, i vida d&#x27;escola, des de Sant Gervasi (Barcelona).</description>
     <language>ca</language>
-    <lastBuildDate>Mon, 09 Nov 2026 08:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 08:00:00 +0200</lastBuildDate>
+    <item>
+      <title>Regalar dansa per Nadal</title>
+      <link>https://escoladansa.com/blog/regalar-dansa-per-nadal/</link>
+      <guid isPermaLink="true">https://escoladansa.com/blog/regalar-dansa-per-nadal/</guid>
+      <pubDate>Thu, 19 Nov 2026 08:00:00 +0200</pubDate>
+      <description>Vols regalar dansa aquest Nadal? Com regalar classes de dansa a un fill, a una filla o a un adult: la primera classe de prova gratuïta, el primer mes de quota o una classe particular. Escola Cristina Colomé, Barcelona.</description>
+      <enclosure url="https://escoladansa.com/assets/blog-regalar-dansa-nadal.jpg" type="image/jpeg" length="150000"/>
+    </item>
     <item>
       <title>Extraescolar de dansa: guia per a famílies</title>
       <link>https://escoladansa.com/blog/extraescolar-de-dansa/</link>

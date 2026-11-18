@@ -1,5 +1,6 @@
 # blog · consejos de danza y vida de escuela
 
+- [Regalar danza por Navidad](https://escoladansa.com/es/blog/regalar-danza-por-navidad/) — Un regalo que no ocupa sitio en el armario: cómo regalar clases de danza a un hijo, a una hija o a un adulto, y empezar en enero.
 - [Extraescolar de danza: guía para familias](https://escoladansa.com/es/blog/extraescolar-de-danza/) — Desde qué edad, en el colegio o en una escuela de danza, cuántos días a la semana, horarios, precios y cómo empezar, incluso con el curso empezado.
 - [Mi hijo quiere dejar la danza: ¿qué hacemos?](https://escoladansa.com/es/blog/mi-hijo-quiere-dejar-la-danza/) — «No quiero ir más a danza.» Por qué pasa, cómo hablarlo sin presionar, qué se puede probar antes de dejarlo y cuándo es mejor aceptarlo.
 - [¿a qué edad se empieza con puntas en ballet?](https://escoladansa.com/es/blog/a-que-edad-puntas-ballet/) — ¿Cuándo se puede empezar a bailar con puntas? La edad orientativa, las señales de que el pie está preparado, por qué no hay que adelantarlas y cómo deben ser las primeras puntas.
