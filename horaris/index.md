@@ -4,7 +4,7 @@
 
 | hora | activitat | grup | sala |
 |---|---|---|---|
-| 10.00 | barre | (properament) | sala C |
+| 10.00 | barre |  | sala C |
 | 17.00 | jazz | infantil II | sala C |
 | 17.30 | hip-hop | infantil II | sala H |
 | 17.30 | contemporani | infantil II | sala N |
@@ -13,7 +13,7 @@
 | 18.30 | jazz | infantil III | sala N |
 | 18.30 | clàssic | adults I | sala C |
 | 19.30 | fit dance |  | sala N |
-| 19.30 | preparació de proves | (properament) | sala C |
+| 19.30 | preparació de proves |  | sala C |
 | 19.45 | contemporani | adults I | sala H |
 | 20.30 | heels | adults II | sala N |
 
@@ -25,19 +25,19 @@
 | 17.30 | jazz | infantil I | sala N |
 | 17.30 | iniciació dansa A |  | sala C |
 | 18.30 | hip-hop | juvenil I | sala H |
-| 18.30 | preparació de proves | (properament) | sala N |
+| 18.30 | preparació de proves |  | sala N |
 | 18.45 | claqué | adults II | sala C |
 | 19.30 | hip-hop | adults intermedi | sala H |
 | 19.45 | clàssic | adults II | sala C |
 | 20.30 | heels | adults III | sala H |
 | 20.30 | dansa del ventre | adults II | sala N |
-| 20.45 | ioga | (properament) | sala C |
+| 20.45 | ioga |  | sala C |
 
 ## dimecres
 
 | hora | activitat | grup | sala |
 |---|---|---|---|
-| 10.00 | barre | (properament) | sala C |
+| 10.00 | barre |  | sala C |
 | 17.30 | clàssic | juvenil II | sala H |
 | 17.30 | clàssic | infantil I | sala C |
 | 17.45 | jazz | infantil II | sala N |
@@ -48,8 +48,8 @@
 | 19.30 | zumba |  | sala N |
 | 19.30 | espanyol | juvenil II | sala C |
 | 20.30 | contemporani | adults III | sala H |
-| 20.30 | heels | adults II (properament) | sala N |
-| 20.30 | espanyol | adults II (properament) | sala C |
+| 20.30 | heels | adults II | sala N |
+| 20.30 | espanyol | adults II | sala C |
 
 ## dijous
 
@@ -62,11 +62,11 @@
 | 18.30 | hip-hop | infantil I | sala N |
 | 18.45 | claqué | adults II | sala C |
 | 19.30 | contemporani | adults II | sala H |
-| 19.30 | zumba | (properament) | sala N |
+| 19.30 | zumba |  | sala N |
 | 19.45 | clàssic | adults II | sala C |
-| 20.30 | Jazz ad | (properament) | sala H |
+| 20.30 | Jazz ad |  | sala H |
 | 20.30 | dansa del ventre | adults III | sala N |
-| 20.45 | ioga | (properament) | sala C |
+| 20.45 | ioga |  | sala C |
 
 ## divendres
 
@@ -75,7 +75,7 @@
 | 17.00 | dansa del ventre | juvenil II | sala H |
 | 17.30 | contemporani | infantil I | sala C |
 | 17.45 | jazz juvenil C |  | sala H |
-| 17.45 | jazz juvenil B | (properament) | sala N |
+| 17.45 | jazz juvenil B |  | sala N |
 | 18.15 | k-pop | infantil | sala C |
 | 18.45 | contemporani juvenil B |  | sala H |
 | 18.45 | contemporani juvenil C |  | sala N |

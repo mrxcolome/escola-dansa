@@ -17,7 +17,7 @@ grupos juveniles y de adultos de nivel intermedio. si te atrae nuestra tradició
 | día | hora | grupo | sala |
 |---|---|---|---|
 | miércoles | 19.30 | español juvenil II | sala C |
-| miércoles | 20.30 | español adultos II (próximamente) | sala C |
+| miércoles | 20.30 | español adultos II | sala C |
 
 ## precios
 

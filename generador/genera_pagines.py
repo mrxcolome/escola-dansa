@@ -738,7 +738,9 @@ def bloc_posts(p, lang="ca"):
 # amb l'etiqueta «properament» (marca AVIAT al grup, que aviat() converteix en HTML o text).
 AVIAT = "⟨properament⟩"
 with open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "graella.json"), encoding="utf-8") as _f:
-    GRAELLA = {dia: [(f[0], f[1], f"{f[2]} {AVIAT}".strip() if len(f) > 4 else f[2], f[3]) for f in files]
+    # decisió del Xavi (18-nov): a la web les inactives surten com la resta, sense etiqueta.
+    # Per tornar a marcar-les: f"{f[2]} {AVIAT}".strip() if len(f) > 4 else f[2]
+    GRAELLA = {dia: [(f[0], f[1], f[2], f[3]) for f in files]
                for dia, files in json.load(_f).items()}
 
 
