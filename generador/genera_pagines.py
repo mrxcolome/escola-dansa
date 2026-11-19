@@ -739,7 +739,15 @@ def bloc_relacionats(p):
 
 
 def bloc_posts(p, lang="ca"):
-    """Enllaços de tornada cap als posts del blog (els posts ja enllacen les pàgines de servei)."""
+    """Enllaços de tornada cap als posts del blog (els posts ja enllacen les pàgines de servei).
+    Si la pàgina no en tria a mà («posts»), hi surten els 3 posts més recents que la tenen
+    a «related_pagines» (ho exigeix comprova_qualitat.py)."""
+    if not p.get("posts") and p.get("slug"):
+        cands = {p.get("slug_ca", p["slug"])}
+        auto = [x["slug"] for x in sorted(POSTS, key=lambda x: x["data"], reverse=True)
+                if cands & set(x.get("related_pagines", []))][:3]
+        if auto:
+            p = {**p, "posts": auto}
     if not p.get("posts"):
         return ""
     per_slug = {x["slug"]: x for x in POSTS}

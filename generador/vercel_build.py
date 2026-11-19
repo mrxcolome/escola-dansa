@@ -24,6 +24,9 @@ env = dict(os.environ, PYTHONIOENCODING="utf-8")
 r = subprocess.run([sys.executable, os.path.join(ARREL, "generador", "comprova_enllacos.py")], cwd=ARREL, env=env)
 if r.returncode != 0:
     sys.exit("enllaços trencats: no es publica")
+r = subprocess.run([sys.executable, os.path.join(ARREL, "generador", "comprova_qualitat.py")], cwd=ARREL, env=env)
+if r.returncode != 0:
+    sys.exit("problemes de qualitat: no es publica")
 
 shutil.rmtree(SORTIDA, ignore_errors=True)
 os.makedirs(SORTIDA)

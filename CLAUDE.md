@@ -25,6 +25,10 @@ python3 genera_markdown.py  # un index.md al costat de cada index.html
 
 Després de regenerar: `python3 generador/comprova_enllacos.py` revisa tots els enllaços interns. El build de Vercel l'executa abans de publicar i, si troba un enllaç trencat, falla i la versió anterior continua en línia. Als posts, els enllaços a altres posts van amb `/blog/<slug>/` (CA) o `/es/blog/<slug_es>/` (ES).
 
+Després, `python3 generador/comprova_qualitat.py` mira el que no són enllaços trencats: pàgines en castellà que enllacen a la versió catalana (i al revés, menys el selector d'idioma), xifres animades (`data-compta`) que surten a 0 a l'HTML, noms retallats a les targetes d'activitat de la portada, pàgines amb posts relacionats sense el bloc «per saber-ne més» (`bloc_posts()` l'omple sol amb els posts que la tenen a `related_pagines`) i restes de plantilla (`⟦…⟧`, «undefined», «NaN»). El build de Vercel també l'executa: si falla, no es publica.
+
+L'agent `supervisor-web` (a `Web2026/.claude/agents/`) fa cada dilluns una revisió de la web com un visitant i en deixa l'informe a `G:\Mi unidad\001_EscolaDansa\SUPERVISIO\`; no canvia res sense el sí del Xavi.
+
 Comprovació bàsica: regenerar sense haver tocat res no ha de produir cap diff (`git status`). `genera_home_es.py` avisa si alguna cadena de la taula `PARELLES` ja no es troba.
 
 Com encaixa:
