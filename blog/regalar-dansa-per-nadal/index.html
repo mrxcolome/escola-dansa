@@ -274,6 +274,21 @@ html[data-tema="clar"] .nb-estat.ok{color:#3d6b4f}
 .bf-cos .peu-card{color:rgba(245,242,239,.7)}
 .pista-desliza{display:block;text-align:center;font-size:var(--text);color:var(--gris);font-style:italic;margin-top:2px}
 }
+/* targetons de regal (post de Nadal): bàner amb la imatge, tres passos i botó gran */
+.article a.targeto-banner{display:block;position:relative;border-radius:20px;overflow:hidden;margin:4px 0 34px;color:inherit;box-shadow:0 14px 40px rgba(149,0,0,.22)}
+.targeto-banner img{width:100%;height:auto;display:block;transition:transform .6s cubic-bezier(.22,1,.36,1)}
+.targeto-banner:hover img{transform:scale(1.03)}
+.tb-text{position:absolute;left:0;right:0;bottom:0;padding:80px 28px 24px;background:linear-gradient(180deg,rgba(60,0,0,0),rgba(60,0,0,.88));display:flex;flex-direction:column;gap:8px;align-items:flex-start}
+.tb-eti{background:#f5f2ef;color:#950000;font-size:.66rem;letter-spacing:.18em;text-transform:uppercase;font-weight:700;padding:3px 10px;border-radius:100px}
+.tb-tit{color:#fff;font-weight:800;font-size:clamp(1.15rem,2.6vw,1.8rem);line-height:1.2;text-shadow:0 2px 14px rgba(0,0,0,.35)}
+.tb-boto{margin-top:4px;background:#fff;color:#950000;font-weight:700;padding:11px 22px;border-radius:100px;text-transform:lowercase}
+.targeto-passos{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:0 0 28px}
+.targeto-passos div{background:rgba(149,0,0,.06);border-radius:16px;padding:18px 18px 20px}
+.targeto-passos b{display:block;font-size:1.7rem;color:var(--granat-viu);font-weight:800;line-height:1}
+.targeto-passos span{display:block;margin-top:10px;color:var(--gris);font-size:var(--text);line-height:1.5}
+.targeto-boto{text-align:center;margin:0 0 34px}
+.article .targeto-boto a{color:#f5f2ef;font-size:1.05rem;padding:18px 36px;box-shadow:0 10px 26px rgba(149,0,0,.25)}
+@media (max-width:700px){.targeto-passos{grid-template-columns:1fr}.tb-text{padding:50px 18px 18px}.tb-boto{padding:9px 16px}}
 /* el blog es l'unic espai amb majuscules: fora el lowercase de marca als titols */
 h1,h2,h3{text-transform:none}
 </style>
@@ -431,6 +446,7 @@ h1,h2,h3{text-transform:none}
     <img class="post-img" fetchpriority="high" src="/assets/blog-regalar-dansa-nadal.jpg" alt="Unes sabatilles de puntes rosades al costat d&#x27;una capsa de regal amb llaç vermell i una targeta que diu «Bon Nadal!», sobre el banc de fusta del vestidor d&#x27;una escola de dansa, amb llumetes de Nadal al fons" width="1600" height="900">
     <p class="meta-post">19 de novembre de 2026 · 4 min de lectura</p>
 <p>El millor dels regals que es viuen és que duren. Una classe de dansa a la setmana vol dir música, moviment, amistats noves i una estona que és només seva. I ballar no té edat: a l'escola hi ha grups des dels 3 anys fins a adults.</p>
+<a class="targeto-banner" href="/targeto-regal/"><img src="/assets/blog-targetons-regal.jpg" alt="Cinc targetons de regal de Nadal de l'escola de dansa en ventall sobre un fons vermell amb estrelles: un ren, icones de Nadal, muntanyes nevades, una corona i un arc amb boles, tots amb el text «Et regalo dansa!»" width="1600" height="900" loading="lazy"><span class="tb-text"><span class="tb-eti">gratis · per imprimir</span><span class="tb-tit">Sis targetons de regal per posar sota l'arbre</span><span class="tb-boto">tria el teu targetó →</span></span></a>
 
 <h2>El primer regal: venir a provar-ho</h2>
 <p>A l'escola, <strong>la primera classe és gratuïta</strong> i sense compromís. Per això, el regal pot començar amb una invitació: «el gener anem a provar dansa». Tria l'estil i el grup que li va bé, truca'ns i reservem la classe de prova per a després de festes. Si no saps quin estil triar, et pot ajudar la guia per <a href="/blog/triar-estil-dansa-fill/">triar l'estil de dansa del teu fill</a>, o la de <a href="/blog/comencar-dansa-adults/">començar a ballar de gran</a>.</p>
@@ -449,7 +465,15 @@ h1,h2,h3{text-transform:none}
 <li>El dia de Nadal, només cal donar-li la notícia. La resta, la fem a l'escola.</li>
 </ul>
 <h2>El targetó de regal</h2>
-<p>Perquè el regal tingui alguna cosa per obrir, t'hem preparat un <strong>targetó de regal</strong> per imprimir: el retalles, hi escrius per a qui és i de part de qui, marques el regal i el poses sota l'arbre. <a href="/targeto-regal/">Descarrega i imprimeix el targetó de regal</a>.</p>
+<p>Perquè el regal tingui alguna cosa per obrir, t'hem preparat <strong>sis targetons de regal</strong> per imprimir a casa, gratis. Tria el que més t'agradi:</p>
+<a class="targeto-banner" href="/targeto-regal/"><img src="/assets/blog-targetons-regal.jpg" alt="Els targetons de regal de l'escola en ventall: un ren, icones de Nadal, muntanyes nevades, una corona i un arc amb boles" width="1600" height="900" loading="lazy"><span class="tb-text"><span class="tb-eti">dos per full A4</span><span class="tb-tit">Et regalo dansa!</span><span class="tb-boto">veure'ls tots →</span></span></a>
+<div class="targeto-passos">
+<div><b>1</b><span><strong>Imprimeix-lo</strong> a casa, en un full A4: n'hi caben dos.</span></div>
+<div><b>2</b><span><strong>Retalla'l</strong> per la línia de punts i, si vols, doblega'l per la meitat.</span></div>
+<div><b>3</b><span><strong>Escriu-hi</strong> per a qui és, de part de qui i quin regal li fas, i posa'l sota l'arbre.</span></div>
+</div>
+<p class="targeto-boto"><a class="boto boto-ple" href="/targeto-regal/">descarrega i imprimeix els targetons</a></p>
+<p>Després, truca'ns i us reservem la classe per al gener.</p>
 <p>Som al carrer de Craywinckel, a Sant Gervasi, a dos minuts de l'FGC Av. Tibidabo. Pots veure tots els grups a la pàgina d'<a href="/horaris/">horaris</a>.</p>
 
   </section>

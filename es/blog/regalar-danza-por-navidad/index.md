@@ -6,6 +6,8 @@ Si esta Navidad buscas un regalo diferente, que no acabe olvidado en un cajón, 
 
 Lo mejor de los regalos que se viven es que duran. Una clase de danza a la semana es música, movimiento, amistades nuevas y un rato que es solo suyo. Y bailar no tiene edad: en la escuela hay grupos desde los 3 años hasta adultos.
 
+[gratis · para imprimirSeis tarjetas regalo para poner bajo el árbolelige tu tarjeta →](/es/tarjeta-regalo/)
+
 ## El primer regalo: venir a probarlo
 
 En la escuela, **la primera clase es gratuita** y sin compromiso. Por eso, el regalo puede empezar con una invitación: «en enero vamos a probar danza». Elige el estilo y el grupo que le va bien, llámanos y reservamos la clase de prueba para después de fiestas. Si no sabes qué estilo elegir, te puede ayudar la guía para [elegir el estilo de danza de tu hijo](/es/blog/elegir-estilo-danza-hijo/), o la de [empezar a bailar de mayor](/es/blog/empezar-danza-adultos/).
@@ -30,7 +32,17 @@ Para quien quiere preparar una coreografía, ponerse al día o simplemente baila
 
 ## La tarjeta regalo
 
-Para que el regalo tenga algo que abrir, te hemos preparado una **tarjeta regalo** para imprimir: la recortas, escribes para quién es y de parte de quién, marcas el regalo y la pones bajo el árbol. [Descarga e imprime la tarjeta regalo](/es/tarjeta-regalo/).
+Para que el regalo tenga algo que abrir, te hemos preparado **seis tarjetas regalo** para imprimir en casa, gratis. Elige la que más te guste:
+
+[dos por hoja A4Te regalo ¡danza!verlas todas →](/es/tarjeta-regalo/)
+
+**1****Imprímela** en casa, en una hoja A4: caben dos.
+**2****Recórtala** por la línea de puntos y, si quieres, dóblala por la mitad.
+**3****Escribe** para quién es, de parte de quién y qué regalo le haces, y ponla bajo el árbol.
+
+[descarga e imprime las tarjetas](/es/tarjeta-regalo/)
+
+Después, llámanos y os reservamos la clase para enero.
 
 Estamos en la calle Craywinckel, en Sant Gervasi, a dos minutos del FGC Av. Tibidabo. Puedes ver todos los grupos en la página de [horarios](/es/horarios/).
 

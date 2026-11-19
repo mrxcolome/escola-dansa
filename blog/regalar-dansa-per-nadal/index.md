@@ -6,6 +6,8 @@ Si aquest Nadal busques un regal diferent, que no acabi oblidat en un calaix, la
 
 El millor dels regals que es viuen és que duren. Una classe de dansa a la setmana vol dir música, moviment, amistats noves i una estona que és només seva. I ballar no té edat: a l'escola hi ha grups des dels 3 anys fins a adults.
 
+[gratis · per imprimirSis targetons de regal per posar sota l'arbretria el teu targetó →](/targeto-regal/)
+
 ## El primer regal: venir a provar-ho
 
 A l'escola, **la primera classe és gratuïta** i sense compromís. Per això, el regal pot començar amb una invitació: «el gener anem a provar dansa». Tria l'estil i el grup que li va bé, truca'ns i reservem la classe de prova per a després de festes. Si no saps quin estil triar, et pot ajudar la guia per [triar l'estil de dansa del teu fill](/blog/triar-estil-dansa-fill/), o la de [començar a ballar de gran](/blog/comencar-dansa-adults/).
@@ -30,7 +32,17 @@ Per a qui vol preparar una coreografia, posar-se al dia o simplement ballar amb 
 
 ## El targetó de regal
 
-Perquè el regal tingui alguna cosa per obrir, t'hem preparat un **targetó de regal** per imprimir: el retalles, hi escrius per a qui és i de part de qui, marques el regal i el poses sota l'arbre. [Descarrega i imprimeix el targetó de regal](/targeto-regal/).
+Perquè el regal tingui alguna cosa per obrir, t'hem preparat **sis targetons de regal** per imprimir a casa, gratis. Tria el que més t'agradi:
+
+[dos per full A4Et regalo dansa!veure'ls tots →](/targeto-regal/)
+
+**1****Imprimeix-lo** a casa, en un full A4: n'hi caben dos.
+**2****Retalla'l** per la línia de punts i, si vols, doblega'l per la meitat.
+**3****Escriu-hi** per a qui és, de part de qui i quin regal li fas, i posa'l sota l'arbre.
+
+[descarrega i imprimeix els targetons](/targeto-regal/)
+
+Després, truca'ns i us reservem la classe per al gener.
 
 Som al carrer de Craywinckel, a Sant Gervasi, a dos minuts de l'FGC Av. Tibidabo. Pots veure tots els grups a la pàgina d'[horaris](/horaris/).
 

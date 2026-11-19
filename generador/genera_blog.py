@@ -75,6 +75,21 @@ BLOG_CSS = """
 .bf-cos .peu-card{color:rgba(245,242,239,.7)}
 .pista-desliza{display:block;text-align:center;font-size:var(--text);color:var(--gris);font-style:italic;margin-top:2px}
 }
+/* targetons de regal (post de Nadal): bàner amb la imatge, tres passos i botó gran */
+.article a.targeto-banner{display:block;position:relative;border-radius:20px;overflow:hidden;margin:4px 0 34px;color:inherit;box-shadow:0 14px 40px rgba(149,0,0,.22)}
+.targeto-banner img{width:100%;height:auto;display:block;transition:transform .6s cubic-bezier(.22,1,.36,1)}
+.targeto-banner:hover img{transform:scale(1.03)}
+.tb-text{position:absolute;left:0;right:0;bottom:0;padding:80px 28px 24px;background:linear-gradient(180deg,rgba(60,0,0,0),rgba(60,0,0,.88));display:flex;flex-direction:column;gap:8px;align-items:flex-start}
+.tb-eti{background:#f5f2ef;color:#950000;font-size:.66rem;letter-spacing:.18em;text-transform:uppercase;font-weight:700;padding:3px 10px;border-radius:100px}
+.tb-tit{color:#fff;font-weight:800;font-size:clamp(1.15rem,2.6vw,1.8rem);line-height:1.2;text-shadow:0 2px 14px rgba(0,0,0,.35)}
+.tb-boto{margin-top:4px;background:#fff;color:#950000;font-weight:700;padding:11px 22px;border-radius:100px;text-transform:lowercase}
+.targeto-passos{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:0 0 28px}
+.targeto-passos div{background:rgba(149,0,0,.06);border-radius:16px;padding:18px 18px 20px}
+.targeto-passos b{display:block;font-size:1.7rem;color:var(--granat-viu);font-weight:800;line-height:1}
+.targeto-passos span{display:block;margin-top:10px;color:var(--gris);font-size:var(--text);line-height:1.5}
+.targeto-boto{text-align:center;margin:0 0 34px}
+.article .targeto-boto a{color:#f5f2ef;font-size:1.05rem;padding:18px 36px;box-shadow:0 10px 26px rgba(149,0,0,.25)}
+@media (max-width:700px){.targeto-passos{grid-template-columns:1fr}.tb-text{padding:50px 18px 18px}.tb-boto{padding:9px 16px}}
 /* el blog es l'unic espai amb majuscules: fora el lowercase de marca als titols */
 h1,h2,h3{text-transform:none}
 """

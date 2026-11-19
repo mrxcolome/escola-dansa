@@ -2911,6 +2911,7 @@ POSTS = [
         "intro": "Si aquest Nadal busques un regal diferent, que no acabi oblidat en un calaix, la dansa és una bona idea. Serveix per a un nen de 3 anys, per a una adolescent i per a una persona adulta que sempre ho ha volgut provar. T'expliquem com regalar-la.",
         "cos": """
 <p>El millor dels regals que es viuen és que duren. Una classe de dansa a la setmana vol dir música, moviment, amistats noves i una estona que és només seva. I ballar no té edat: a l'escola hi ha grups des dels 3 anys fins a adults.</p>
+<a class="targeto-banner" href="/targeto-regal/"><img src="/assets/blog-targetons-regal.jpg" alt="Cinc targetons de regal de Nadal de l'escola de dansa en ventall sobre un fons vermell amb estrelles: un ren, icones de Nadal, muntanyes nevades, una corona i un arc amb boles, tots amb el text «Et regalo dansa!»" width="1600" height="900" loading="lazy"><span class="tb-text"><span class="tb-eti">gratis · per imprimir</span><span class="tb-tit">Sis targetons de regal per posar sota l'arbre</span><span class="tb-boto">tria el teu targetó →</span></span></a>
 
 <h2>el primer regal: venir a provar-ho</h2>
 <p>A l'escola, <strong>la primera classe és gratuïta</strong> i sense compromís. Per això, el regal pot començar amb una invitació: «el gener anem a provar dansa». Tria l'estil i el grup que li va bé, truca'ns i reservem la classe de prova per a després de festes. Si no saps quin estil triar, et pot ajudar la guia per <a href="/blog/triar-estil-dansa-fill/">triar l'estil de dansa del teu fill</a>, o la de <a href="/blog/comencar-dansa-adults/">començar a ballar de gran</a>.</p>
@@ -2929,7 +2930,15 @@ POSTS = [
 <li>El dia de Nadal, només cal donar-li la notícia. La resta, la fem a l'escola.</li>
 </ul>
 <h2>el targetó de regal</h2>
-<p>Perquè el regal tingui alguna cosa per obrir, t'hem preparat un <strong>targetó de regal</strong> per imprimir: el retalles, hi escrius per a qui és i de part de qui, marques el regal i el poses sota l'arbre. <a href="/targeto-regal/">Descarrega i imprimeix el targetó de regal</a>.</p>
+<p>Perquè el regal tingui alguna cosa per obrir, t'hem preparat <strong>sis targetons de regal</strong> per imprimir a casa, gratis. Tria el que més t'agradi:</p>
+<a class="targeto-banner" href="/targeto-regal/"><img src="/assets/blog-targetons-regal.jpg" alt="Els targetons de regal de l'escola en ventall: un ren, icones de Nadal, muntanyes nevades, una corona i un arc amb boles" width="1600" height="900" loading="lazy"><span class="tb-text"><span class="tb-eti">dos per full A4</span><span class="tb-tit">Et regalo dansa!</span><span class="tb-boto">veure'ls tots →</span></span></a>
+<div class="targeto-passos">
+<div><b>1</b><span><strong>Imprimeix-lo</strong> a casa, en un full A4: n'hi caben dos.</span></div>
+<div><b>2</b><span><strong>Retalla'l</strong> per la línia de punts i, si vols, doblega'l per la meitat.</span></div>
+<div><b>3</b><span><strong>Escriu-hi</strong> per a qui és, de part de qui i quin regal li fas, i posa'l sota l'arbre.</span></div>
+</div>
+<p class="targeto-boto"><a class="boto boto-ple" href="/targeto-regal/">descarrega i imprimeix els targetons</a></p>
+<p>Després, truca'ns i us reservem la classe per al gener.</p>
 <p>Som al carrer de Craywinckel, a Sant Gervasi, a dos minuts de l'FGC Av. Tibidabo. Pots veure tots els grups a la pàgina d'<a href="/horaris/">horaris</a>.</p>
 """,
         "faqs": [
@@ -2949,6 +2958,7 @@ POSTS = [
         "intro_es": "Si esta Navidad buscas un regalo diferente, que no acabe olvidado en un cajón, la danza es una buena idea. Sirve para un niño de 3 años, para una adolescente y para una persona adulta que siempre lo ha querido probar. Te contamos cómo regalarla.",
         "cos_es": """
 <p>Lo mejor de los regalos que se viven es que duran. Una clase de danza a la semana es música, movimiento, amistades nuevas y un rato que es solo suyo. Y bailar no tiene edad: en la escuela hay grupos desde los 3 años hasta adultos.</p>
+<a class="targeto-banner" href="/es/tarjeta-regalo/"><img src="/assets/blog-tarjetas-regalo.jpg" alt="Cinco tarjetas regalo de Navidad de la escuela de danza en abanico sobre un fondo rojo con estrellas: un reno, iconos de Navidad, montañas nevadas, una corona y un arco con bolas, todas con el texto «Te regalo ¡danza!»" width="1600" height="900" loading="lazy"><span class="tb-text"><span class="tb-eti">gratis · para imprimir</span><span class="tb-tit">Seis tarjetas regalo para poner bajo el árbol</span><span class="tb-boto">elige tu tarjeta →</span></span></a>
 
 <h2>el primer regalo: venir a probarlo</h2>
 <p>En la escuela, <strong>la primera clase es gratuita</strong> y sin compromiso. Por eso, el regalo puede empezar con una invitación: «en enero vamos a probar danza». Elige el estilo y el grupo que le va bien, llámanos y reservamos la clase de prueba para después de fiestas. Si no sabes qué estilo elegir, te puede ayudar la guía para <a href="/es/blog/elegir-estilo-danza-hijo/">elegir el estilo de danza de tu hijo</a>, o la de <a href="/es/blog/empezar-danza-adultos/">empezar a bailar de mayor</a>.</p>
@@ -2967,7 +2977,15 @@ POSTS = [
 <li>El día de Navidad, solo hay que darle la noticia. El resto, lo hacemos en la escuela.</li>
 </ul>
 <h2>la tarjeta regalo</h2>
-<p>Para que el regalo tenga algo que abrir, te hemos preparado una <strong>tarjeta regalo</strong> para imprimir: la recortas, escribes para quién es y de parte de quién, marcas el regalo y la pones bajo el árbol. <a href="/es/tarjeta-regalo/">Descarga e imprime la tarjeta regalo</a>.</p>
+<p>Para que el regalo tenga algo que abrir, te hemos preparado <strong>seis tarjetas regalo</strong> para imprimir en casa, gratis. Elige la que más te guste:</p>
+<a class="targeto-banner" href="/es/tarjeta-regalo/"><img src="/assets/blog-tarjetas-regalo.jpg" alt="Las tarjetas regalo de la escuela en abanico: un reno, iconos de Navidad, montañas nevadas, una corona y un arco con bolas" width="1600" height="900" loading="lazy"><span class="tb-text"><span class="tb-eti">dos por hoja A4</span><span class="tb-tit">Te regalo ¡danza!</span><span class="tb-boto">verlas todas →</span></span></a>
+<div class="targeto-passos">
+<div><b>1</b><span><strong>Imprímela</strong> en casa, en una hoja A4: caben dos.</span></div>
+<div><b>2</b><span><strong>Recórtala</strong> por la línea de puntos y, si quieres, dóblala por la mitad.</span></div>
+<div><b>3</b><span><strong>Escribe</strong> para quién es, de parte de quién y qué regalo le haces, y ponla bajo el árbol.</span></div>
+</div>
+<p class="targeto-boto"><a class="boto boto-ple" href="/es/tarjeta-regalo/">descarga e imprime las tarjetas</a></p>
+<p>Después, llámanos y os reservamos la clase para enero.</p>
 <p>Estamos en la calle Craywinckel, en Sant Gervasi, a dos minutos del FGC Av. Tibidabo. Puedes ver todos los grupos en la página de <a href="/es/horarios/">horarios</a>.</p>
 """,
         "faqs_es": [
