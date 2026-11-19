@@ -2928,6 +2928,8 @@ POSTS = [
 <li>Et proposem <strong>el grup i l'horari</strong> i reservem la classe de prova per al gener.</li>
 <li>El dia de Nadal, només cal donar-li la notícia. La resta, la fem a l'escola.</li>
 </ul>
+<h2>el targetó de regal</h2>
+<p>Perquè el regal tingui alguna cosa per obrir, t'hem preparat un <strong>targetó de regal</strong> per imprimir: el retalles, hi escrius per a qui és i de part de qui, marques el regal i el poses sota l'arbre. <a href="/targeto-regal/">Descarrega i imprimeix el targetó de regal</a>.</p>
 <p>Som al carrer de Craywinckel, a Sant Gervasi, a dos minuts de l'FGC Av. Tibidabo. Pots veure tots els grups a la pàgina d'<a href="/horaris/">horaris</a>.</p>
 """,
         "faqs": [
@@ -2964,6 +2966,8 @@ POSTS = [
 <li>Te proponemos <strong>el grupo y el horario</strong> y reservamos la clase de prueba para enero.</li>
 <li>El día de Navidad, solo hay que darle la noticia. El resto, lo hacemos en la escuela.</li>
 </ul>
+<h2>la tarjeta regalo</h2>
+<p>Para que el regalo tenga algo que abrir, te hemos preparado una <strong>tarjeta regalo</strong> para imprimir: la recortas, escribes para quién es y de parte de quién, marcas el regalo y la pones bajo el árbol. <a href="/es/tarjeta-regalo/">Descarga e imprime la tarjeta regalo</a>.</p>
 <p>Estamos en la calle Craywinckel, en Sant Gervasi, a dos minutos del FGC Av. Tibidabo. Puedes ver todos los grupos en la página de <a href="/es/horarios/">horarios</a>.</p>
 """,
         "faqs_es": [

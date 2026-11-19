@@ -28,6 +28,10 @@ Para quien quiere preparar una coreografía, ponerse al día o simplemente baila
 
 - El día de Navidad, solo hay que darle la noticia. El resto, lo hacemos en la escuela.
 
+## La tarjeta regalo
+
+Para que el regalo tenga algo que abrir, te hemos preparado una **tarjeta regalo** para imprimir: la recortas, escribes para quién es y de parte de quién, marcas el regalo y la pones bajo el árbol. [Descarga e imprime la tarjeta regalo](/es/tarjeta-regalo/).
+
 Estamos en la calle Craywinckel, en Sant Gervasi, a dos minutos del FGC Av. Tibidabo. Puedes ver todos los grupos en la página de [horarios](/es/horarios/).
 
 ## Preguntas frecuentes

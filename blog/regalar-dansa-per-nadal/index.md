@@ -28,6 +28,10 @@ Per a qui vol preparar una coreografia, posar-se al dia o simplement ballar amb 
 
 - El dia de Nadal, només cal donar-li la notícia. La resta, la fem a l'escola.
 
+## El targetó de regal
+
+Perquè el regal tingui alguna cosa per obrir, t'hem preparat un **targetó de regal** per imprimir: el retalles, hi escrius per a qui és i de part de qui, marques el regal i el poses sota l'arbre. [Descarrega i imprimeix el targetó de regal](/targeto-regal/).
+
 Som al carrer de Craywinckel, a Sant Gervasi, a dos minuts de l'FGC Av. Tibidabo. Pots veure tots els grups a la pàgina d'[horaris](/horaris/).
 
 ## Preguntes freqüents
