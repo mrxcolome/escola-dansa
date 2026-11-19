@@ -950,8 +950,7 @@ def taula(caption, capcalera, files):
 def cos_preus():
     capc = ["", "1 dia", "2 dies", "3 dies", "4 dies"]
     return f'''
-  <section class="reveal">
-    <p class="text-gran">la quota la marca la <strong>durada de les classes</strong>, no l'edat: si alguna de les classes que fas passa de la franja, s'aplica la tarifa de la més llarga.</p>
+  <section class="reveal" style="padding-top:0">
 {taula("quota mensual", capc, TARIFA_MENSUAL)}
 {taula("quota trimestral", capc, TARIFA_TRIMESTRAL)}
 {taula("matrícula i altres", None, TARIFA_ALTRES)}
@@ -1261,8 +1260,7 @@ def cos_preus_es():
            ("matrícula nuevos alumnos", TARIFA_ALTRES[1][1]),
            ("bailes de salón (10 sesiones)", TARIFA_ALTRES[2][1])]
     return f'''
-  <section class="reveal">
-    <p class="text-gran">la cuota la marca la <strong>duración de las clases</strong>, no la edad: si alguna de las clases que haces pasa de la franja, se aplica la tarifa de la más larga.</p>
+  <section class="reveal" style="padding-top:0">
 {taula("cuota mensual", capc, men)}
 {taula("cuota trimestral", capc, tri)}
 {taula("matrícula y otros", None, alt)}
