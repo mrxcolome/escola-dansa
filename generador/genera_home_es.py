@@ -124,6 +124,21 @@ PARELLES = [
     ("<small>anys d'història</small>", '<small>años de historia</small>'),
     ('<small>sales insonoritzades</small>', '<small>salas insonorizadas</small>'),
     ('<small>disciplines</small>', '<small>disciplinas</small>'),
+
+    # ── targetes d'activitats: «+ info» cap a la pàgina ES ──
+    ('<h3>contemporani</h3>', '<h3>contemporáneo</h3>'),
+    ('class="mes-info" href="/ballet-classic/"', 'class="mes-info" href="/es/ballet-clasico/"'),
+    ('class="mes-info" href="/dansa-contemporania/"', 'class="mes-info" href="/es/danza-contemporanea/"'),
+    ('class="mes-info" href="/jazz/"', 'class="mes-info" href="/es/jazz/"'),
+    ('class="mes-info" href="/hip-hop/"', 'class="mes-info" href="/es/hip-hop/"'),
+    ('class="mes-info" href="/claque/"', 'class="mes-info" href="/es/claque/"'),
+    ('class="mes-info" href="/ball-espanyol/"', 'class="mes-info" href="/es/baile-espanol/"'),
+    ('class="mes-info" href="/dansa-oriental/"', 'class="mes-info" href="/es/danza-oriental/"'),
+    ('class="mes-info" href="/k-pop-heels/"', 'class="mes-info" href="/es/k-pop-heels/"'),
+    ('class="mes-info" href="/musical-interpretacio/"', 'class="mes-info" href="/es/musical-interpretacion/"'),
+    ('class="mes-info" href="/formacio-escenica/"', 'class="mes-info" href="/es/formacion-escenica/"'),
+    ('class="mes-info" href="/cos-benestar/"', 'class="mes-info" href="/es/cuerpo-bienestar/"'),
+    ('class="mes-info" href="/fit-dance/"', 'class="mes-info" href="/es/fit-dance/"'),
     ('<small>totes les edats</small>', '<small>todas las edades</small>'),
 
     # ── activitats ──
