@@ -87,6 +87,9 @@ config = {
         {"source": "/(.*)", "headers": [{"key": "Link", "value": LINK}]},
         {"source": "/(robots|llms)\\.txt", "headers": [{"key": "Cache-Control", "value": "public, max-age=3600"}]},
         {"source": "/(.*)\\.md", "headers": [{"key": "Content-Type", "value": "text/markdown; charset=utf-8"}]},
+        # fitxa interna de la competència: fora dels cercadors
+        {"source": "/competencia/(.*)", "headers": [{"key": "X-Robots-Tag", "value": "noindex, nofollow"}]},
+        {"source": "/competencia", "headers": [{"key": "X-Robots-Tag", "value": "noindex, nofollow"}]},
         # la còpia de *.vercel.app no s'ha d'indexar (contingut duplicat)
         {"source": "/(.*)", "has": [{"type": "host", "value": ".*\\.vercel\\.app"}],
          "headers": [{"key": "X-Robots-Tag", "value": "noindex"}]},

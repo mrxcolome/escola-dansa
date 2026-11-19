@@ -11,7 +11,7 @@ import re
 import sys
 
 ARREL = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-INTERNES = ("seo/", "dossier/", "memoria/", "google/", "backstage/", "generador/")
+INTERNES = ("seo/", "competencia/", "dossier/", "memoria/", "google/", "backstage/", "generador/")
 
 
 def existeix(href):
