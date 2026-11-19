@@ -1371,7 +1371,7 @@ def fixos_es():
     for slug, t in TRADUCCIONS_ES.items():
         nom_ca = next((x["nom"] for x in PAGINES if x["slug"] == slug), None)
         if nom_ca and t.get("nom") and nom_ca != t["nom"]:
-            parelles.append((f'/">{nom_ca}</a>', f'/">{t["nom"]}</a>'))
+            parelles.append((f'/">{esc(nom_ca)}</a>', f'/">{esc(t["nom"])}</a>'))
     _FIXOS_ES = parelles
     return parelles
 

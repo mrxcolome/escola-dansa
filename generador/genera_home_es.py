@@ -18,6 +18,11 @@ DESTI = os.path.join(ARREL, "es", "index.html")
 q = urllib.parse.quote
 
 PARELLES = [
+    # etiquetes per als lectors de pantalla (no es veuen)
+    ('aria-label="Tancar"', 'aria-label="Cerrar"'),
+    ('aria-label="escriu-nos"', 'aria-label="escríbenos"'),
+    ('aria-label="inici"', 'aria-label="inicio"'),
+    ('aria-label="política de privacitat"', 'aria-label="política de privacidad"'),
     # ── head ──
     ('<html lang="ca" data-tema="clar">', '<html lang="es" data-tema="clar">'),
     # el títol comença pel que la gent busca, no per la marca (set 2026: sortíem

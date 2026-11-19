@@ -132,6 +132,14 @@ def main():
             if g in html and 'class="posts-blog"' not in html[g]:
                 avisa("posts", g, "té posts del blog relacionats però no hi ha el bloc «per saber-ne més»")
 
+    # 6. etiquetes per als lectors de pantalla en català dins de /es/ (aria-label que surten tal qual a la portada catalana)
+    iguals = {"menú", "idioma"}
+    etiq_ca = set(re.findall(r'aria-label="([^"]+)"', html.get("index.html", ""))) - iguals
+    for f, h in html.items():
+        if f.startswith("es/"):
+            for v in sorted(set(re.findall(r'aria-label="([^"]+)"', h)) & etiq_ca):
+                avisa("idioma", f, f'aria-label="{v}" és en català')
+
     # 5. restes de plantilla
     for f, h in html.items():
         visible = re.sub(r"<(script|style)\b.*?</\1>", " ", h, flags=re.S)

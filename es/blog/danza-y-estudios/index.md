@@ -46,7 +46,7 @@ Normalmente no. La clase es un rato de desconexión que ayuda a descargar el est
 
 ### ¿a qué hora tienen clase los grupos juveniles?
 
-Entre las 17.00 y las 20.30, de lunes a viernes, según el estilo y el grupo. Todos los horarios están en la web.
+Entre las 17.00 y las 20.45, de lunes a viernes, según el estilo y el grupo. Todos los horarios están en la web.
 
 ### ¿se puede reducir de dos días a uno durante el curso?
 

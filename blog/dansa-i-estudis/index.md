@@ -46,7 +46,7 @@ Normalment no. La classe és una estona de desconnexió que ajuda a descarregar 
 
 ### A quina hora fan classe els grups juvenils?
 
-Entre les 17.00 i les 20.30, de dilluns a divendres, segons l'estil i el grup. Tots els horaris són a la graella de la web.
+Entre les 17.00 i les 20.45, de dilluns a divendres, segons l'estil i el grup. Tots els horaris són a la graella de la web.
 
 ### Es pot reduir de dos dies a un durant el curs?
 
