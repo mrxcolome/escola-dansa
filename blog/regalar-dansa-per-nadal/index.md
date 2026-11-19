@@ -6,7 +6,7 @@ Si aquest Nadal busques un regal diferent, que no acabi oblidat en un calaix, la
 
 El millor dels regals que es viuen és que duren. Una classe de dansa a la setmana vol dir música, moviment, amistats noves i una estona que és només seva. I ballar no té edat: a l'escola hi ha grups des dels 3 anys fins a adults.
 
-[gratis · per imprimirSis targetons de regal per posar sota l'arbretria el teu targetó →](/targeto-regal/)
+[per imprimirSis targetons de regal per posar sota l'arbretria el teu targetó →](/targeto-regal/)
 
 ## El primer regal: venir a provar-ho
 
@@ -32,7 +32,7 @@ Per a qui vol preparar una coreografia, posar-se al dia o simplement ballar amb 
 
 ## El targetó de regal
 
-Perquè el regal tingui alguna cosa per obrir, t'hem preparat **sis targetons de regal** per imprimir a casa, gratis. Tria el que més t'agradi:
+Perquè el regal tingui alguna cosa per obrir, t'hem preparat **sis targetons de regal** per imprimir a casa. Tria el que més t'agradi:
 
 [dos per full A4Et regalo dansa!veure'ls tots →](/targeto-regal/)
 

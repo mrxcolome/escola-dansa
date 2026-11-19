@@ -6,7 +6,7 @@ Si esta Navidad buscas un regalo diferente, que no acabe olvidado en un cajón, 
 
 Lo mejor de los regalos que se viven es que duran. Una clase de danza a la semana es música, movimiento, amistades nuevas y un rato que es solo suyo. Y bailar no tiene edad: en la escuela hay grupos desde los 3 años hasta adultos.
 
-[gratis · para imprimirSeis tarjetas regalo para poner bajo el árbolelige tu tarjeta →](/es/tarjeta-regalo/)
+[para imprimirSeis tarjetas regalo para poner bajo el árbolelige tu tarjeta →](/es/tarjeta-regalo/)
 
 ## El primer regalo: venir a probarlo
 
@@ -32,7 +32,7 @@ Para quien quiere preparar una coreografía, ponerse al día o simplemente baila
 
 ## La tarjeta regalo
 
-Para que el regalo tenga algo que abrir, te hemos preparado **seis tarjetas regalo** para imprimir en casa, gratis. Elige la que más te guste:
+Para que el regalo tenga algo que abrir, te hemos preparado **seis tarjetas regalo** para imprimir en casa. Elige la que más te guste:
 
 [dos por hoja A4Te regalo ¡danza!verlas todas →](/es/tarjeta-regalo/)
 

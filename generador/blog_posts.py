@@ -2898,10 +2898,10 @@ POSTS = [
         "minuts": 4,
         "nom_wa": "dansa",
         "nom_wa_es": "danza",
-        "og": "blog-regalar-dansa-nadal.jpg",
-        "img": "blog-regalar-dansa-nadal.jpg",
-        "img_alt": "Unes sabatilles de puntes rosades al costat d'una capsa de regal amb llaç vermell i una targeta que diu «Bon Nadal!», sobre el banc de fusta del vestidor d'una escola de dansa, amb llumetes de Nadal al fons",
-        "img_alt_es": "Unas zapatillas de puntas rosadas junto a una caja de regalo con lazo rojo y una tarjeta que dice «Bon Nadal!», sobre el banco de madera del vestuario de una escuela de danza, con lucecitas de Navidad al fondo",
+        "og": "blog-regalar-dansa-nadal-2.jpg",
+        "img": "blog-regalar-dansa-nadal-2.jpg",
+        "img_alt": "Unes sabatilles de puntes rosades al costat d'una capsa de regal amb llaç vermell i un targetó de regal de l'escola que diu «Et regalo dansa!», sobre el banc de fusta del vestidor d'una escola de dansa, amb llumetes de Nadal al fons",
+        "img_alt_es": "Unas zapatillas de puntas rosadas junto a una caja de regalo con lazo rojo y una tarjeta regalo de la escuela que dice «Et regalo dansa!», sobre el banco de madera del vestuario de una escuela de danza, con lucecitas de Navidad al fondo",
         "related_pagines": ["dansa-infantil", "dansa-adults", "preus"],
         "related_posts": ["classe-de-prova-gratuita", "apuntar-se-amb-el-curs-comencat", "comencar-dansa-adults"],
         "title": "regalar dansa per Nadal: idees per regalar classes de dansa a Barcelona · escola de dansa cristina colomé",
@@ -2911,7 +2911,7 @@ POSTS = [
         "intro": "Si aquest Nadal busques un regal diferent, que no acabi oblidat en un calaix, la dansa és una bona idea. Serveix per a un nen de 3 anys, per a una adolescent i per a una persona adulta que sempre ho ha volgut provar. T'expliquem com regalar-la.",
         "cos": """
 <p>El millor dels regals que es viuen és que duren. Una classe de dansa a la setmana vol dir música, moviment, amistats noves i una estona que és només seva. I ballar no té edat: a l'escola hi ha grups des dels 3 anys fins a adults.</p>
-<a class="targeto-banner" href="/targeto-regal/"><img src="/assets/blog-targetons-regal.jpg" alt="Cinc targetons de regal de Nadal de l'escola de dansa en ventall sobre un fons vermell amb estrelles: un ren, icones de Nadal, muntanyes nevades, una corona i un arc amb boles, tots amb el text «Et regalo dansa!»" width="1600" height="900" loading="lazy"><span class="tb-text"><span class="tb-eti">gratis · per imprimir</span><span class="tb-tit">Sis targetons de regal per posar sota l'arbre</span><span class="tb-boto">tria el teu targetó →</span></span></a>
+<a class="targeto-banner" href="/targeto-regal/"><img src="/assets/blog-targetons-regal.jpg" alt="Cinc targetons de regal de Nadal de l'escola de dansa en ventall sobre un fons vermell amb estrelles: un ren, icones de Nadal, muntanyes nevades, una corona i un arc amb boles, tots amb el text «Et regalo dansa!»" width="1600" height="900" loading="lazy"><span class="tb-text"><span class="tb-eti">per imprimir</span><span class="tb-tit">Sis targetons de regal per posar sota l'arbre</span><span class="tb-boto">tria el teu targetó →</span></span></a>
 
 <h2>el primer regal: venir a provar-ho</h2>
 <p>A l'escola, <strong>la primera classe és gratuïta</strong> i sense compromís. Per això, el regal pot començar amb una invitació: «el gener anem a provar dansa». Tria l'estil i el grup que li va bé, truca'ns i reservem la classe de prova per a després de festes. Si no saps quin estil triar, et pot ajudar la guia per <a href="/blog/triar-estil-dansa-fill/">triar l'estil de dansa del teu fill</a>, o la de <a href="/blog/comencar-dansa-adults/">començar a ballar de gran</a>.</p>
@@ -2930,7 +2930,7 @@ POSTS = [
 <li>El dia de Nadal, només cal donar-li la notícia. La resta, la fem a l'escola.</li>
 </ul>
 <h2>el targetó de regal</h2>
-<p>Perquè el regal tingui alguna cosa per obrir, t'hem preparat <strong>sis targetons de regal</strong> per imprimir a casa, gratis. Tria el que més t'agradi:</p>
+<p>Perquè el regal tingui alguna cosa per obrir, t'hem preparat <strong>sis targetons de regal</strong> per imprimir a casa. Tria el que més t'agradi:</p>
 <a class="targeto-banner" href="/targeto-regal/"><img src="/assets/blog-targetons-regal.jpg" alt="Els targetons de regal de l'escola en ventall: un ren, icones de Nadal, muntanyes nevades, una corona i un arc amb boles" width="1600" height="900" loading="lazy"><span class="tb-text"><span class="tb-eti">dos per full A4</span><span class="tb-tit">Et regalo dansa!</span><span class="tb-boto">veure'ls tots →</span></span></a>
 <div class="targeto-passos">
 <div><b>1</b><span><strong>Imprimeix-lo</strong> a casa, en un full A4: n'hi caben dos.</span></div>
@@ -2958,7 +2958,7 @@ POSTS = [
         "intro_es": "Si esta Navidad buscas un regalo diferente, que no acabe olvidado en un cajón, la danza es una buena idea. Sirve para un niño de 3 años, para una adolescente y para una persona adulta que siempre lo ha querido probar. Te contamos cómo regalarla.",
         "cos_es": """
 <p>Lo mejor de los regalos que se viven es que duran. Una clase de danza a la semana es música, movimiento, amistades nuevas y un rato que es solo suyo. Y bailar no tiene edad: en la escuela hay grupos desde los 3 años hasta adultos.</p>
-<a class="targeto-banner" href="/es/tarjeta-regalo/"><img src="/assets/blog-tarjetas-regalo.jpg" alt="Cinco tarjetas regalo de Navidad de la escuela de danza en abanico sobre un fondo rojo con estrellas: un reno, iconos de Navidad, montañas nevadas, una corona y un arco con bolas, todas con el texto «Te regalo ¡danza!»" width="1600" height="900" loading="lazy"><span class="tb-text"><span class="tb-eti">gratis · para imprimir</span><span class="tb-tit">Seis tarjetas regalo para poner bajo el árbol</span><span class="tb-boto">elige tu tarjeta →</span></span></a>
+<a class="targeto-banner" href="/es/tarjeta-regalo/"><img src="/assets/blog-tarjetas-regalo.jpg" alt="Cinco tarjetas regalo de Navidad de la escuela de danza en abanico sobre un fondo rojo con estrellas: un reno, iconos de Navidad, montañas nevadas, una corona y un arco con bolas, todas con el texto «Te regalo ¡danza!»" width="1600" height="900" loading="lazy"><span class="tb-text"><span class="tb-eti">para imprimir</span><span class="tb-tit">Seis tarjetas regalo para poner bajo el árbol</span><span class="tb-boto">elige tu tarjeta →</span></span></a>
 
 <h2>el primer regalo: venir a probarlo</h2>
 <p>En la escuela, <strong>la primera clase es gratuita</strong> y sin compromiso. Por eso, el regalo puede empezar con una invitación: «en enero vamos a probar danza». Elige el estilo y el grupo que le va bien, llámanos y reservamos la clase de prueba para después de fiestas. Si no sabes qué estilo elegir, te puede ayudar la guía para <a href="/es/blog/elegir-estilo-danza-hijo/">elegir el estilo de danza de tu hijo</a>, o la de <a href="/es/blog/empezar-danza-adultos/">empezar a bailar de mayor</a>.</p>
@@ -2977,7 +2977,7 @@ POSTS = [
 <li>El día de Navidad, solo hay que darle la noticia. El resto, lo hacemos en la escuela.</li>
 </ul>
 <h2>la tarjeta regalo</h2>
-<p>Para que el regalo tenga algo que abrir, te hemos preparado <strong>seis tarjetas regalo</strong> para imprimir en casa, gratis. Elige la que más te guste:</p>
+<p>Para que el regalo tenga algo que abrir, te hemos preparado <strong>seis tarjetas regalo</strong> para imprimir en casa. Elige la que más te guste:</p>
 <a class="targeto-banner" href="/es/tarjeta-regalo/"><img src="/assets/blog-tarjetas-regalo.jpg" alt="Las tarjetas regalo de la escuela en abanico: un reno, iconos de Navidad, montañas nevadas, una corona y un arco con bolas" width="1600" height="900" loading="lazy"><span class="tb-text"><span class="tb-eti">dos por hoja A4</span><span class="tb-tit">Te regalo ¡danza!</span><span class="tb-boto">verlas todas →</span></span></a>
 <div class="targeto-passos">
 <div><b>1</b><span><strong>Imprímela</strong> en casa, en una hoja A4: caben dos.</span></div>
