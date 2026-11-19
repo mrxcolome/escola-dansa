@@ -25,6 +25,9 @@ ARREL, DOMINI = gp.ARREL, gp.DOMINI
 BLOG_CSS = """
 .post-card:hover{background:rgba(149,0,0,.06)}
 .capsal .entradeta{max-width:none}
+/* menys aire entre l'entradeta i la foto (abans 60+60 px) */
+.capsal{padding-bottom:20px}
+.capsal + section{padding-top:24px}
 .post-img{width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;display:block;border-radius:20px;margin:0 0 26px}
 .article .meta-post{font-size:var(--text);color:var(--gris);font-weight:400;font-style:italic;margin-bottom:38px}
 .article p{font-size:var(--text);color:var(--gris);font-weight:400;margin:0 0 22px}
