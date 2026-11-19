@@ -1113,10 +1113,10 @@ def genera(p):
 <meta property="og:title" content="{esc(p["title"])}">
 <meta property="og:description" content="{esc(p["desc"])}">
 <meta property="og:url" content="{url}">
-<meta property="og:image" content="{p.get("og", DOMINI + "/assets/og-escola.jpg")}">
+<meta property="og:image" content="{p.get("og", DOMINI + "/assets/og-escola-2.jpg")}">
 <meta property="og:locale" content="{'es_ES' if lang == 'es' else 'ca_ES'}">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="{p.get("og", DOMINI + "/assets/og-escola.jpg")}">
+<meta name="twitter:image" content="{p.get("og", DOMINI + "/assets/og-escola-2.jpg")}">
 <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png">
 <link rel="icon" type="image/png" sizes="512x512" href="/assets/favicon-512.png">
 <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
