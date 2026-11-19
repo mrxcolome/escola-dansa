@@ -71,6 +71,7 @@ PAGINES = [
              "per a la classe de prova, roba còmoda i ajustada n'hi ha prou. un cop t'hi apuntis, t'orientarem sobre mitges, maillot i sabatilles."),
         ],
         "related": ["dansa-contemporania", "jazz", "dansa-infantil", "dansa-adults"],
+        "posts": ["examens-rad-ballet", "a-quina-edat-puntes-ballet", "classic-o-contemporani"],
     },
     {
         "slug": "dansa-contemporania",
