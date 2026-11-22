@@ -1688,9 +1688,13 @@ formCtc.addEventListener('submit', async e => {
   ctcBoto.disabled = true;
   ctcEstat.textContent = 'enviant…';
   try{
-    const resp = await fetch('/contacte.php', {method: 'POST', body: new FormData(formCtc)});
+    const fd = new FormData(formCtc);
+    const ent = window.dadesEntrada ? dadesEntrada() : {entrada: location.pathname, origen: ''};
+    fd.append('entrada', ent.entrada); fd.append('origen', ent.origen); fd.append('pagina', location.pathname);
+    const resp = await fetch('/contacte.php', {method: 'POST', body: fd});
     const dades = await resp.json();
     if (!dades.ok) throw new Error('rebutjat');
+    if (window.contacteFet) contacteFet('formulari');
     ctcEstat.textContent = 'rebut! et respondrem molt aviat 💌';
     ctcEstat.className = 'news-estat ok';
     formCtc.reset();
@@ -1887,6 +1891,27 @@ window.__reprenBucle = () => { window.__pausaBucle = false; requestAnimationFram
     document.getElementById('galetesSi').addEventListener('click', function(){ try{ localStorage.setItem('galetes','si'); }catch(e){} engega(); b.remove(); });
     document.getElementById('galetesNo').addEventListener('click', function(){ try{ localStorage.setItem('galetes','no'); }catch(e){} b.remove(); });
   }
+})();
+// MESURA DE CONTACTES: per saber quines pàgines i articles porten alumnes.
+// Es guarda només la pàgina per on s'ha entrat a la web i d'on venia (sense cap identificador,
+// i s'esborra en tancar la pestanya). A Analytics només s'envia si s'han acceptat les galetes.
+(function(){
+  try{
+    if(!sessionStorage.getItem('entrada')){
+      sessionStorage.setItem('entrada', location.pathname);
+      var r=''; try{ r=document.referrer?new URL(document.referrer).hostname.replace(/^www\./,''):''; }catch(e){}
+      sessionStorage.setItem('origen', r && r!==location.hostname ? r : (r?'':'directe'));
+    }
+  }catch(e){}
+  window.dadesEntrada=function(){ var e={entrada:location.pathname,origen:''}; try{ e.entrada=sessionStorage.getItem('entrada')||e.entrada; e.origen=sessionStorage.getItem('origen')||''; }catch(x){} return e; };
+  window.contacteFet=function(via){ if(window.gtag){ var e=dadesEntrada(); gtag('event','contacte',{via:via,pagina:location.pathname,entrada:e.entrada,origen:e.origen}); } };
+  document.addEventListener('click',function(ev){
+    var a=ev.target.closest&&ev.target.closest('a[href]'); if(!a) return;
+    var h=a.getAttribute('href')||'';
+    if(/^tel:/.test(h)) contacteFet('telefon');
+    else if(/wa\.me\/34934179886/.test(h)) contacteFet('whatsapp');
+    else if(/^mailto:info@escoladansa\.com/.test(h)) contacteFet('correu');
+  });
 })();
 </script>
 </body>

@@ -37,6 +37,19 @@ export async function POST(request) {
 
   const esEmail = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(contacte)
 
+  // per on va entrar a la web (la posa la pàgina): per saber quins articles porten alumnes
+  const cami = (v) => (/^\/[\w\-./]*$/.test(neteja(v)) ? neteja(v).slice(0, 200) : '')
+  const entrada = cami(form.get('entrada'))
+  const pagina = cami(form.get('pagina'))
+  const origen = neteja(form.get('origen')).replace(/[^\w.\-]/g, '').slice(0, 80)
+  const peu =
+    entrada || origen
+      ? `\n—\nVa entrar a la web per: https://escoladansa.com${entrada || '/'}` +
+        (origen ? ` (venia de: ${origen})` : '') +
+        (pagina && pagina !== entrada ? `\nVa enviar el formulari des de: ${pagina}` : '') +
+        '\n'
+      : ''
+
   try {
     const resposta = await fetch('https://api.resend.com/emails', {
       method: 'POST',
@@ -52,7 +65,8 @@ export async function POST(request) {
         subject: `Consulta web: ${nom}`,
         text:
           "Nou missatge del formulari de contacte d'escoladansa.com\n\n" +
-          `Nom: ${nom}\nContacte: ${contacte}\n\nMissatge:\n${missatge}\n`,
+          `Nom: ${nom}\nContacte: ${contacte}\n\nMissatge:\n${missatge}\n` +
+          peu,
       }),
     })
     if (!resposta.ok) {

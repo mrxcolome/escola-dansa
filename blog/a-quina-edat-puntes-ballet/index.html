@@ -629,6 +629,27 @@ document.querySelectorAll('.reveal').forEach(el=>obs.observe(el));
     document.getElementById('galetesNo').addEventListener('click',function(){try{localStorage.setItem('galetes','no');}catch(e){}b.remove();});
   }
 })();
+// MESURA DE CONTACTES: per saber quines pàgines i articles porten alumnes.
+// Es guarda només la pàgina per on s'ha entrat a la web i d'on venia (sense cap identificador,
+// i s'esborra en tancar la pestanya). A Analytics només s'envia si s'han acceptat les galetes.
+(function(){
+  try{
+    if(!sessionStorage.getItem('entrada')){
+      sessionStorage.setItem('entrada', location.pathname);
+      var r=''; try{ r=document.referrer?new URL(document.referrer).hostname.replace(/^www\./,''):''; }catch(e){}
+      sessionStorage.setItem('origen', r && r!==location.hostname ? r : (r?'':'directe'));
+    }
+  }catch(e){}
+  window.dadesEntrada=function(){ var e={entrada:location.pathname,origen:''}; try{ e.entrada=sessionStorage.getItem('entrada')||e.entrada; e.origen=sessionStorage.getItem('origen')||''; }catch(x){} return e; };
+  window.contacteFet=function(via){ if(window.gtag){ var e=dadesEntrada(); gtag('event','contacte',{via:via,pagina:location.pathname,entrada:e.entrada,origen:e.origen}); } };
+  document.addEventListener('click',function(ev){
+    var a=ev.target.closest&&ev.target.closest('a[href]'); if(!a) return;
+    var h=a.getAttribute('href')||'';
+    if(/^tel:/.test(h)) contacteFet('telefon');
+    else if(/wa\.me\/34934179886/.test(h)) contacteFet('whatsapp');
+    else if(/^mailto:info@escoladansa\.com/.test(h)) contacteFet('correu');
+  });
+})();
 </script>
 </body>
 </html>
