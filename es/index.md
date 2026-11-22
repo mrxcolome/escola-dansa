@@ -16,8 +16,8 @@ Escuela de danza en Barcelona con más de 25 años de historia: clásico, contem
 - [formación escénica](https://escoladansa.com/es/formacion-escenica/)
 - [cuerpo & bienestar](https://escoladansa.com/es/cuerpo-bienestar/)
 - [fit dance & femme empower](https://escoladansa.com/es/fit-dance/)
-- [danza para niños y niñas](https://escoladansa.com/es/danza-infantil/)
-- [danza para adultos](https://escoladansa.com/es/danza-adultos/)
+- [baile y danza para niños y niñas](https://escoladansa.com/es/danza-infantil/)
+- [baile y danza para adultos](https://escoladansa.com/es/danza-adultos/)
 
 ## información práctica
 

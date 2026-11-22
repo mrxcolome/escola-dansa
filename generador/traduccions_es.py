@@ -251,10 +251,10 @@ TRADUCCIONS_ES = {
     "dansa-infantil": {
         "nom": "danza para niños y niñas",
         "nom_wa": "danza para niños",
-        "title": "clases de danza para niños en Barcelona · escola de dansa cristina colomé",
-        "desc": "extraescolar de danza para niños y niñas en Sant Gervasi (Barcelona): iniciación, clásico, jazz, hip-hop y más, por edades y niveles. 1ª clase gratuita.",
-        "h1": "danza para niños y niñas",
-        "intro": "la extraescolar que no parece una extraescolar: más de 25 años ayudando a niños y niñas a crecer bailando, desde los 3 años, a dos minutos del FGC Av. Tibidabo.",
+        "title": "clases de baile y danza para niños en Barcelona · escola de dansa cristina colomé",
+        "desc": "extraescolar de baile y danza para niños y niñas en Sant Gervasi (Barcelona): iniciación, ballet, jazz, hip-hop y más, por edades. 1ª clase gratuita.",
+        "h1": "baile y danza para niños y niñas",
+        "intro": "la extraescolar de baile que no parece una extraescolar: más de 25 años ayudando a niños y niñas a crecer bailando, desde los 3 años, a dos minutos del FGC Av. Tibidabo.",
         "per_a_qui": "desde la iniciación a la danza para los más pequeños hasta los grupos juveniles, todos los grupos se organizan por edades y niveles y tienen continuidad curso tras curso. las clases son por la tarde, pensadas para encajar con el horario escolar de las familias de Sant Gervasi, la Bonanova y el Putxet.",
         "beneficis": [
             ("psicomotricidad y postura", "la danza desarrolla coordinación, equilibrio y conciencia corporal en la edad de oro para hacerlo."),
@@ -286,10 +286,10 @@ TRADUCCIONS_ES = {
     "dansa-adults": {
         "nom": "danza para adultos",
         "nom_wa": "danza para adultos",
-        "title": "clases de danza para adultos en Barcelona · escola de dansa cristina colomé",
-        "desc": "clases de danza para adultos en Sant Gervasi (Barcelona): clásico, contemporáneo, jazz, hip-hop, claqué y más, de iniciación a avanzado. 1ª clase gratuita.",
-        "h1": "danza para adultos",
-        "intro": "nunca es tarde para empezar a bailar — ni para volver. grupos de adultos de todos los niveles, por las noches y por las mañanas, sin presión y con muy buen ambiente.",
+        "title": "clases de baile para adultos en Barcelona · escola de dansa cristina colomé",
+        "desc": "clases de baile y danza para adultos en Sant Gervasi (Barcelona): ballet, jazz, hip-hop, claqué, barre y más, de iniciación a avanzado. 1ª clase gratuita.",
+        "h1": "baile y danza para adultos",
+        "intro": "nunca es tarde para empezar a bailar — ni para volver. clases de baile para adultos de todos los niveles, por las noches y por las mañanas, sin presión y con muy buen ambiente.",
         "per_a_qui": "tanto si no has bailado nunca como si lo dejaste hace años, tenemos un grupo para ti: por las noches (de 18.30 a 21.45) hay clásico, contemporáneo, jazz, hip-hop, claqué, español, danza oriental y heels por niveles — y por las mañanas, barre para empezar el día con energía. sin exámenes ni presión: bailar para disfrutar.",
         "beneficis": [
             ("desconectar de verdad", "una hora de danza es una hora sin móvil, sin trabajo y sin pantallas."),

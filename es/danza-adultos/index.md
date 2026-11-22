@@ -1,6 +1,6 @@
-# danza para adultos
+# baile y danza para adultos
 
-nunca es tarde para empezar a bailar — ni para volver. grupos de adultos de todos los niveles, por las noches y por las mañanas, sin presión y con muy buen ambiente.
+nunca es tarde para empezar a bailar — ni para volver. clases de baile para adultos de todos los niveles, por las noches y por las mañanas, sin presión y con muy buen ambiente.
 
 ## para quién
 

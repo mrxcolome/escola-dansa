@@ -11,12 +11,16 @@
       "que": "Corregir l'horari i els estils a la Guia BCN (Ajuntament) i a GoAndance: la IA ens descriu amb aquestes fitxes"
     },
     {
-      "qui": "Claude",
-      "que": "Pujar en castellà les cerques amb més gent: «clases de baile barcelona», «escuelas / academia de baile barcelona» (100-1.000 al mes, ara a la 3a pàgina) i «clases de danza para niños barcelona» (cal el teu sí)"
+      "qui": "Xavi",
+      "que": "Search Console → Inspección de URLs → «Solicitar indexación» per a /es/, /es/danza-adultos/ i /es/danza-infantil/ (textos nous amb «baile», 23-nov)"
     },
     {
       "qui": "Xavi",
       "que": "Search Console → 404 → «Ver detalles» → «Iniciar nueva validación»"
+    },
+    {
+      "qui": "Claude",
+      "que": "Mesurar d'aquí a 3-4 setmanes si pugen «clases de baile barcelona», «escuelas / academia de baile barcelona» i «clases de baile para adultos barcelona»"
     }
   ],
   "google": [

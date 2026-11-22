@@ -1,6 +1,6 @@
-# danza para niños y niñas
+# baile y danza para niños y niñas
 
-la extraescolar que no parece una extraescolar: más de 25 años ayudando a niños y niñas a crecer bailando, desde los 3 años, a dos minutos del FGC Av. Tibidabo.
+la extraescolar de baile que no parece una extraescolar: más de 25 años ayudando a niños y niñas a crecer bailando, desde los 3 años, a dos minutos del FGC Av. Tibidabo.
 
 ## para quién
 
