@@ -1,0 +1,79 @@
+# Vigilància: cada 30 minuts comprova que la web i el Backstage responen.
+# Si alguna pàgina falla dues vegades seguides, obre un issue «Web caiguda» (GitHub
+# n'envia un correu); quan tot torna a respondre, el tanca sol.
+# Va en aquest repo perquè és públic (minuts d'Actions il·limitats i sense cost).
+# Les dues adreces del Backstage surten d'una còpia d'una hora: la vigilància no
+# desperta la base de dades de Neon a cada passada.
+name: vigilància
+
+on:
+  schedule:
+    - cron: '7,37 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: vigilancia
+  cancel-in-progress: false
+
+jobs:
+  comprova:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      GH_TOKEN: ${{ github.token }}
+      GH_REPO: ${{ github.repository }}
+      TITOL: Web caiguda
+    steps:
+      - name: comprova les pàgines
+        run: |
+          # adreça | text que hi ha de sortir (buit = n'hi ha prou amb el codi)
+          PAGINES=(
+            "https://escoladansa.com/|escola de dansa"
+            "https://escoladansa.com/horaris/|horaris"
+            "https://escoladansa.com/preus/|preus"
+            "https://backstage.escoladansa.com/robots.txt|User-agent"
+            "https://backstage.escoladansa.com/graella-publica|\"classes\""
+            "https://backstage.escoladansa.com/tarifes-publica|\"taules\""
+          )
+          prova() {
+            local url="$1" text="$2" cos codi
+            cos=$(mktemp)
+            codi=$(curl -sL -o "$cos" -w '%{http_code}' --max-time 25 -A 'vigilancia-escoladansa' "$url" || echo 000)
+            if [[ "$codi" =~ ^2 ]] && { [ -z "$text" ] || grep -qi -- "$text" "$cos"; }; then
+              rm -f "$cos"; return 0
+            fi
+            echo "  $url → $codi"; rm -f "$cos"; return 1
+          }
+          caigudes=()
+          for p in "${PAGINES[@]}"; do
+            url="${p%%|*}"; text="${p#*|}"
+            if prova "$url" "$text"; then echo "ok  $url"; continue; fi
+            sleep 30   # segona prova abans de donar-la per caiguda
+            if prova "$url" "$text"; then echo "ok  $url (a la segona)"; continue; fi
+            caigudes+=("$url")
+          done
+          : > caigudes.txt   # buit si tot respon
+          if [ ${#caigudes[@]} -gt 0 ]; then printf '%s\n' "${caigudes[@]}" > caigudes.txt; fi
+          echo "caigudes: ${#caigudes[@]}"
+
+      - name: obre o tanca l'issue
+        run: |
+          obert=$(gh issue list --state open --search "in:title \"$TITOL\"" --json number,title \
+                  --jq "[.[] | select(.title == \"$TITOL\")][0].number // empty")
+          if [ -s caigudes.txt ]; then
+            cos="Aquestes pàgines no responen (dues proves seguides, $(date -u '+%d/%m %H:%M') UTC):"$'\n\n'
+            while read -r u; do cos+="- $u"$'\n'; done < caigudes.txt
+            cos+=$'\n'"Si és el Backstage, mira primer l'ús de Neon (console.neon.tech) i els desplegaments de Vercel. L'issue es tanca sol quan tot torna a respondre."
+            if [ -z "$obert" ]; then
+              gh issue create --title "$TITOL" --body "$cos"
+            else
+              echo "ja hi ha l'issue #$obert obert"
+            fi
+            exit 1
+          elif [ -n "$obert" ]; then
+            gh issue close "$obert" --comment "Tot torna a respondre ($(date -u '+%d/%m %H:%M') UTC)."
+          fi
