@@ -12,7 +12,7 @@
     },
     {
       "qui": "Claude",
-      "que": "Reforçar la portada i /es/danza-infantil/ per a «clases de danza para niños barcelona» i «escuela de danza barcelona»"
+      "que": "Pujar en castellà les cerques amb més gent: «clases de baile barcelona», «escuelas / academia de baile barcelona» (100-1.000 al mes, ara a la 3a pàgina) i «clases de danza para niños barcelona» (cal el teu sí)"
     },
     {
       "qui": "Xavi",
@@ -970,7 +970,7 @@
       ],
       "millorar": [
         "De les cerques de famílies amb nens, només «hip hop para niños» és a la 1a pàgina (8). «clases de danza para niños en barcelona» és a la 27: és la prioritat per a la portada en castellà i /es/danza-infantil/.",
-        "Falta saber quantes persones fan cada cerca al mes (volum), per triar on posar l'esforç."
+        "Les cerques amb més gent a Barcelona (100-1.000 al mes) són «escuelas de baile barcelona», «academia de baile barcelona», «clases de baile barcelona» i «extraescolares barcelona», i en totes som a la 3a pàgina o més avall. En castellà la gent diu «baile» més que «danza»."
       ]
     },
     "ia": {
@@ -1011,5 +1011,151 @@
         "Validar a Search Console les 16 adreces 404 (ja redirigeixen)."
       ]
     }
+  },
+  "volums": {
+    "academia de baile barcelona": "100 - 1 mil",
+    "academia de danza barcelona": "10 - 100",
+    "ballet adultos barcelona": "10 - 100",
+    "ballet barcelona": "100 - 1 mil",
+    "claqué baile": "10 - 100",
+    "claqué": "100 - 1 mil",
+    "clases de baile adultos barcelona": "—",
+    "clases de baile barcelona": "100 - 1 mil",
+    "clases de baile para adultos barcelona": "100 - 1 mil",
+    "clases de baile para mayores de 60": "10 - 100",
+    "clases de ballet barcelona": "10 - 100",
+    "clases de barre barcelona": "10 - 100",
+    "clases de claqué barcelona": "10 - 100",
+    "clases de claqué": "10 - 100",
+    "clases de danza barcelona": "10 - 100",
+    "clases de danza contemporanea barcelona": "10 - 100",
+    "clases de danza para niños en barcelona": "—",
+    "clases de danza para niños barcelona": "—",
+    "clases de hip hop barcelona": "10 - 100",
+    "clases de jazz barcelona": "10 - 100",
+    "clases de teatro para niños en barcelona": "—",
+    "dansa barcelona": "10 - 100",
+    "danza barcelona": "10 - 100",
+    "danza barre": "10 - 100",
+    "danza contemporánea barcelona": "10 - 100",
+    "danza del vientre barcelona": "10 - 100",
+    "danza oriental barcelona": "10 - 100",
+    "danza oriental": "10 - 100",
+    "escola dansa barcelona": "10 - 100",
+    "escola de ball barcelona": "10 - 100",
+    "escola de dansa barcelona": "10 - 100",
+    "escola de dansa sant gervasi": "—",
+    "escola de dansa": "100 - 1 mil",
+    "escoles de dansa barcelona": "10 - 100",
+    "escuela de baile para niños barcelona": "—",
+    "escuela de danza barcelona": "—",
+    "escuelas de baile barcelona": "100 - 1 mil",
+    "examen rad": "10 - 100",
+    "exercicis de dansa": "10 - 100",
+    "extraescolar de dansa": "—",
+    "extraescolares baile barcelona": "—",
+    "extraescolares barcelona": "100 - 1 mil",
+    "extraescolars de dansa barcelona": "—",
+    "hip hop para niños": "—",
+    "jazz dance barcelona": "10 - 100",
+    "clases de k-pop barcelona": "—"
+  },
+  "volums_info": {
+    "data": "2026-11-23",
+    "zona": "Barcelona ciutat",
+    "font": "Planificador de paraules clau de Google Ads (franges: sense campanya activa Google no dona la xifra exacta)"
+  },
+  "oportunitats": {
+    "data": "2026-11-23",
+    "barcelona": [
+      {
+        "q": "escuelas de baile barcelona",
+        "vol": "100 - 1 mil",
+        "pos": 35.1
+      },
+      {
+        "q": "academia de baile barcelona",
+        "vol": "100 - 1 mil",
+        "pos": 37.0,
+        "nota": "Search Console: «academia baile barcelona»"
+      },
+      {
+        "q": "clases de baile barcelona",
+        "vol": "100 - 1 mil",
+        "pos": 26.4
+      },
+      {
+        "q": "extraescolares barcelona",
+        "vol": "100 - 1 mil",
+        "pos": null
+      },
+      {
+        "q": "ballet barcelona",
+        "vol": "100 - 1 mil",
+        "pos": 3.3,
+        "nota": "només 3 cops vista: hi sortim poc"
+      },
+      {
+        "q": "clases de baile para adultos barcelona",
+        "vol": "100 - 1 mil",
+        "pos": 9.4
+      },
+      {
+        "q": "escola de dansa",
+        "vol": "100 - 1 mil",
+        "pos": 4.8
+      },
+      {
+        "q": "claqué",
+        "vol": "100 - 1 mil",
+        "pos": 9.1
+      }
+    ],
+    "espanya": [
+      [
+        "clases de baile",
+        "1 mil - 10 mil"
+      ],
+      [
+        "academia de baile",
+        "1 mil - 10 mil"
+      ],
+      [
+        "clases de baile cerca de mi",
+        "1 mil - 10 mil"
+      ],
+      [
+        "academia de baile cerca de mi",
+        "1 mil - 10 mil"
+      ],
+      [
+        "clase de baile cerca de mi",
+        "1 mil - 10 mil"
+      ],
+      [
+        "actividad extraescolar",
+        "1 mil - 10 mil"
+      ],
+      [
+        "clases de baile para adultos",
+        "100 - 1 mil"
+      ],
+      [
+        "ballet para adultos",
+        "100 - 1 mil"
+      ],
+      [
+        "clases de ballet para niñas",
+        "100 - 1 mil"
+      ],
+      [
+        "escuelas de ballet",
+        "100 - 1 mil"
+      ],
+      [
+        "academia de danza cerca de mi",
+        "100 - 1 mil"
+      ]
+    ]
   }
 }

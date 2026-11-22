@@ -204,7 +204,7 @@ def posicions(d):
             files.append(
                 f'<tr class="{cls}"><td class="pos">{num(p) if p is not None else "–"}</td>'
                 f'<td class="cerca"><strong>{esc(c)}</strong><span class="niv">{txt}</span></td>'
-                f'<td class="vol">{num(vm, 0) if vm else "<span class=pend>pendent</span>"}</td>'
+                f'<td class="vol">{("<span class=pend>molt poques</span>" if vm == "—" else esc(vm)) if vm else "<span class=pend>–</span>"}</td>'
                 f'<td class="vist">{vist}</td>'
                 f'<td class="hist">{hist}{fl}</td></tr>')
         grups.append(f'<tr class="gr"><td colspan="5">{esc(g["nom"])}</td></tr>' + "".join(files))
@@ -217,9 +217,30 @@ def posicions(d):
 <div class="barra">{barra}</div>
 <div class="llegenda"><span><i class="top"></i>top 3</span><span><i class="pag1"></i>1a pàgina</span><span><i class="pag2"></i>2a pàgina</span><span><i class="lluny"></i>més avall</span></div>
 <details class="plega" open><summary>veure les {len(totes)} cerques, amb les posicions anteriors</summary>
-<div class="taula-scroll"><table class="pt"><thead><tr><th>posició</th><th>cerca</th><th>cerques/mes</th><th>a Google (28 dies)</th><th>abans</th></tr></thead><tbody>{"".join(grups)}</tbody></table></div>
+<div class="taula-scroll"><table class="pt"><thead><tr><th>posició</th><th>cerca</th><th>cerques/mes a Barcelona</th><th>a Google (28 dies)</th><th>abans</th></tr></thead><tbody>{"".join(grups)}</tbody></table></div>
 </details>
-<p class="nota"><strong>Per què aquestes cerques:</strong> de les {d.get("total_consultes", 485)} cerques per les quals Google ens ha ensenyat en els últims 28 dies, són les que faria una família o un alumne que busca escola o classes (s'han tret les del nom de l'escola i les que no hi tenen a veure). «Cops vista»: quantes vegades hem sortit en aquesta cerca. La posició és la mitjana de Search Console; a «abans» hi ha les posicions anteriors amb la data del dia que es van mirar. <strong>Cerques/mes</strong>: quanta gent la busca cada mes (Planificador de paraules clau de Google Ads), pendent de connectar.</p>"""
+<p class="nota"><strong>Per què aquestes cerques:</strong> de les {d.get("total_consultes", 485)} cerques per les quals Google ens ha ensenyat en els últims 28 dies, són les que faria una família o un alumne que busca escola o classes (s'han tret les del nom de l'escola i les que no hi tenen a veure). «Cops vista»: quantes vegades hem sortit en aquesta cerca. La posició és la mitjana de Search Console; a «abans» hi ha les posicions anteriors amb la data del dia que es van mirar. <strong>Cerques/mes a Barcelona</strong>: quanta gent de Barcelona ciutat la busca cada mes (Planificador de paraules clau de Google Ads, {dia(d["volums_info"]["data"])}). Google només dona franges («10 - 100») si no hi ha cap anunci actiu.</p>
+{oportunitats(d)}"""
+
+
+def oportunitats(d):
+    o = d.get("oportunitats")
+    if not o:
+        return ""
+    def estat(p):
+        if p is None:
+            return '<span class="op-no">no hi sortim</span>'
+        if p <= 10.5:
+            return f'<span class="op-si">posició {num(p)} ✓</span>'
+        return f'<span class="op-no">posició {num(p)}</span>'
+    files = "".join(f'<tr><td><strong>{esc(x["q"])}</strong>' + (f'<small>{esc(x["nota"])}</small>' if x.get("nota") else "") +
+                    f'</td><td class="vol">{esc(x["vol"])}</td><td>{estat(x["pos"])}</td></tr>' for x in o["barcelona"])
+    esp = "".join(f'<span class="chip">{esc(q)} <b>{esc(v)}</b></span>' for q, v in o["espanya"])
+    return f"""
+<h3>les cerques amb més gent (100 a 1.000 al mes a Barcelona)</h3>
+<table class="pt op"><thead><tr><th>cerca</th><th>cerques/mes</th><th>on sortim</th></tr></thead><tbody>{files}</tbody></table>
+<p class="nota">A tota Espanya, les cerques generals més fetes són aquestes (cerques/mes). Les «cerca de mi» («a prop meu») es resolen amb el mapa: per sortir-hi, la clau és la fitxa de Google.</p>
+<div class="chips">{esp}</div>"""
 
 
 def ia(d):
@@ -395,6 +416,7 @@ table{width:100%;border-collapse:separate;border-spacing:0;background:var(--pape
 .pt .pos{font-size:1.15rem;font-weight:800;text-align:center;width:64px;border-left:5px solid var(--c);color:var(--c)}
 .cerca strong{display:block;font-weight:600}.niv{font-size:.64rem;font-weight:800;color:var(--c);text-transform:uppercase;letter-spacing:.08em}
 .vol,.vist{color:var(--gris);white-space:nowrap}.pend{font-size:.7rem;color:#b9ad9e}
+.op td{padding:9px 12px}.op small{display:block;color:var(--gris);font-size:.7rem}.op-si{color:var(--top);font-weight:800}.op-no{color:var(--lluny);font-weight:800}.chip b{color:var(--granat)}
 .hist{white-space:nowrap}.hp{display:inline-block;font-size:.7rem;color:var(--gris);background:#0000000a;border-radius:6px;padding:1px 6px;margin-right:4px}
 .hp b{color:var(--tinta)}.fl{font-weight:800;font-size:.74rem;margin-left:4px}.puja{color:var(--top)}.baixa{color:var(--lluny)}.igual{color:var(--gris)}
 .hb{display:grid;grid-template-columns:1fr 90px 30px;gap:8px;align-items:center;font-size:.78rem;margin:6px 0}
