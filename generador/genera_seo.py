@@ -298,10 +298,10 @@ def blog(d):
 {top}
 <div class="k-expl" style="margin-top:10px">{len(sense)} articles surten a Google però encara no hi ha clicat ningú.</div></div>
 <div class="carta"><div class="k-nom">i d'aquestes visites, quantes acaben en alumne?</div>
-<div class="k-val dolent">no ho sabem</div>
-<div class="k-expl">Ara la web compta visites, però <b>no</b> compta qui fa clic al WhatsApp, al telèfon, al formulari o a «classe de prova». Per tant, no podem dir quin article porta alumnes.</div>
-<ul class="passos"><li><b>1</b>Comptar cada clic a WhatsApp, telèfon i formulari, i de quina pàgina ve.</li><li><b>2</b>Que el formulari de contacte digui per quina pàgina va entrar la persona.</li><li><b>3</b>Afegir aquí, per a cada article: visites → contactes.</li></ul>
-<div class="k-expl">Ho puc preparar jo (cal el teu sí).</div></div>
+<div class="k-val">aviat ho sabrem</div>
+<div class="k-expl">Des del 23 de novembre la web compta cada clic al WhatsApp, al telèfon, al correu i al formulari, i per quina pàgina havia entrat la persona.</div>
+<ul class="passos"><li><b>✓</b>Comptar els clics a WhatsApp, telèfon, correu i formulari (fet).</li><li><b>✓</b>El correu del formulari diu per quina pàgina va entrar la persona (fet).</li><li><b>3</b>Quan hi hagi dades: aquí, per a cada article, visites → contactes.</li></ul>
+<div class="k-expl">A Analytics només compten els que accepten les galetes; el correu del formulari ho diu sempre.</div></div>
 </div>"""
 
 

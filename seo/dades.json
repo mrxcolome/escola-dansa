@@ -4,7 +4,7 @@
   "toca_ara": [
     {
       "qui": "Claude",
-      "que": "Mesurar els clics a WhatsApp, telèfon i formulari per saber quins articles i pàgines porten alumnes (cal el teu sí)"
+      "que": "Quan Analytics rebi el primer «contacte» (1-2 dies), marcar-lo com a esdeveniment clau i afegir aquí els contactes per article"
     },
     {
       "qui": "Xavi",
@@ -999,7 +999,7 @@
       ],
       "millorar": [
         "La majoria d'articles surten a Google però gairebé ningú hi clica: cal revisar-ne el títol i la descripció.",
-        "No sabem si algun article porta alumnes: la web no mesura els clics al WhatsApp, al telèfon ni al formulari. És el primer que cal arreglar."
+        "Des del 23-nov la web ja compta els clics a WhatsApp, telèfon, correu i formulari, amb la pàgina d'entrada. Les primeres dades arribaran en uns dies."
       ]
     },
     "tecnic": {
