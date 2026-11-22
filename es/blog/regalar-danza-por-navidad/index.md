@@ -6,8 +6,6 @@ Si esta Navidad buscas un regalo diferente, que no acabe olvidado en un cajón, 
 
 Lo mejor de los regalos que se viven es que duran. Una clase de danza a la semana es música, movimiento, amistades nuevas y un rato que es solo suyo. Y bailar no tiene edad: en la escuela hay grupos desde los 3 años hasta adultos.
 
-[para imprimirSeis tarjetas regalo para poner bajo el árbolelige tu tarjeta →](/es/tarjeta-regalo/)
-
 ## El primer regalo: venir a probarlo
 
 En la escuela, **la primera clase es gratuita** y sin compromiso. Por eso, el regalo puede empezar con una invitación: «en enero vamos a probar danza». Elige el estilo y el grupo que le va bien, llámanos y reservamos la clase de prueba para después de fiestas. Si no sabes qué estilo elegir, te puede ayudar la guía para [elegir el estilo de danza de tu hijo](/es/blog/elegir-estilo-danza-hijo/), o la de [empezar a bailar de mayor](/es/blog/empezar-danza-adultos/).

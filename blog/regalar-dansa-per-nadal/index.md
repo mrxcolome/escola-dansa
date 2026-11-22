@@ -6,8 +6,6 @@ Si aquest Nadal busques un regal diferent, que no acabi oblidat en un calaix, la
 
 El millor dels regals que es viuen és que duren. Una classe de dansa a la setmana vol dir música, moviment, amistats noves i una estona que és només seva. I ballar no té edat: a l'escola hi ha grups des dels 3 anys fins a adults.
 
-[per imprimirSis targetons de regal per posar sota l'arbretria el teu targetó →](/targeto-regal/)
-
 ## El primer regal: venir a provar-ho
 
 A l'escola, **la primera classe és gratuïta** i sense compromís. Per això, el regal pot començar amb una invitació: «el gener anem a provar dansa». Tria l'estil i el grup que li va bé, truca'ns i reservem la classe de prova per a després de festes. Si no saps quin estil triar, et pot ajudar la guia per [triar l'estil de dansa del teu fill](/blog/triar-estil-dansa-fill/), o la de [començar a ballar de gran](/blog/comencar-dansa-adults/).

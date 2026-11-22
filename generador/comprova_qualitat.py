@@ -14,6 +14,8 @@ Què mira (les seccions internes no es revisen):
   4. «per saber-ne més»: si algun post del blog es relaciona amb una pàgina d'activitat,
      la pàgina té el bloc de posts.
   5. restes de plantilla: marques de preu sense resoldre (⟦…⟧), «undefined», «NaN».
+  6. aria-label en català dins de /es/.
+  7. títols de més de 60 caràcters i descripcions de més de 160 (Google els talla).
 """
 import glob
 import html as htmllib
@@ -139,6 +141,18 @@ def main():
         if f.startswith("es/"):
             for v in sorted(set(re.findall(r'aria-label="([^"]+)"', h)) & etiq_ca):
                 avisa("idioma", f, f'aria-label="{v}" és en català')
+
+    # 7. títols i descripcions que Google tallaria (genera_pagines.titol_seo/desc_seo els escurça sols;
+    #    si salta, és un títol o una descripció escrits a mà, o un titular de post massa llarg)
+    for f, h in html.items():
+        t = re.search(r"<title>(.*?)</title>", h, flags=re.S)
+        d = re.search(r'<meta name="description" content="([^"]*)"', h)
+        t = htmllib.unescape(t.group(1)).strip() if t else ""
+        d = htmllib.unescape(d.group(1)).strip() if d else ""
+        if len(t) > 60:
+            avisa("títol", f, f"el <title> fa {len(t)} caràcters (màx. 60): «{t}»")
+        if len(d) > 160:
+            avisa("descripció", f, f"la descripció fa {len(d)} caràcters (màx. 160)")
 
     # 5. restes de plantilla
     for f, h in html.items():

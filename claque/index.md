@@ -4,7 +4,7 @@ el ritme als peus. el claqué converteix el ballarí en músic: cada pas és per
 
 ## per a qui
 
-grups d'adults (dimarts i dijous a les 18.45). és una disciplina única: treballa el ritme com cap altra i engancha des del primer dia. si t'agrada la música tant com ballar, el claqué et farà feliç.
+grups d'adults (dimarts i dijous a les 18.45). és una disciplina única: treballa el ritme com cap altra i enganxa des del primer dia. si t'agrada la música tant com ballar, el claqué et farà feliç.
 
 ## beneficis
 

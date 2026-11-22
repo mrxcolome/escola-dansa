@@ -228,7 +228,7 @@ POSTS = [
         "related_pagines": ["ballet-classic", "jazz", "hip-hop", "musical-interpretacio"],
         "related_posts": ["a-quina-edat-comencar-dansa", "primer-dia-classe-dansa"],
 
-        "title": "ballet, jazz o hip-hop? com triar l'estil de dansa del teu fill · escola de dansa cristina colomé",
+        "title": "ballet, jazz o hip-hop? com triar l'estil del teu fill · escola de dansa cristina colomé",
         "desc": "Guia pràctica per triar l'estil de dansa d'un nen o nena segons el seu caràcter: ballet clàssic, jazz, hip-hop, contemporani o musical. I el mètode que mai falla: la classe de prova.",
         "h1": "ballet, jazz o hip-hop? com triar l'estil del teu fill",
         "intro": "No hi ha estils bons i dolents: hi ha estils que encaixen amb cada criatura. Una guia ràpida pel caràcter del teu fill — i el mètode infal·lible per encertar-la.",
@@ -260,7 +260,7 @@ POSTS = [
              "No i no. Tenim nens a clàssic i nenes a hip-hop, i tant de bo cada cop més: els estils no tenen gènere, tenen música."),
         ],
 
-        "title_es": "¿ballet, jazz o hip-hop? cómo elegir el estilo de danza de tu hijo · escola de dansa cristina colomé",
+        "title_es": "¿ballet, jazz o hip-hop? cómo elegir el estilo de tu hijo · escola de dansa cristina colomé",
         "desc_es": "Guía práctica para elegir el estilo de danza de un niño o niña según su carácter: ballet clásico, jazz, hip-hop, contemporáneo o musical. Y el método que nunca falla: la clase de prueba.",
         "h1_es": "¿ballet, jazz o hip-hop? cómo elegir el estilo de tu hijo",
         "intro_es": "No hay estilos buenos y malos: hay estilos que encajan con cada criatura. Una guía rápida según el carácter de tu hijo — y el método infalible para acertar.",
@@ -396,7 +396,7 @@ POSTS = [
         "related_pagines": ["dansa-infantil", "ballet-classic", "musical-interpretacio"],
         "related_posts": ["a-quina-edat-comencar-dansa", "dansa-i-timidesa"],
 
-        "title": "els beneficis de la dansa per a nens i nenes, segons la ciència · escola de dansa cristina colomé",
+        "title": "beneficis de la dansa per a nens, segons la ciència · escola de dansa cristina colomé",
         "desc": "Què diu la recerca sobre la dansa en la infància: desenvolupament motor, memòria i funcions executives, gestió emocional, confiança i vincle social. I com ho veiem cada dia a la sala.",
         "h1": "els beneficis de la dansa per a nens, segons la ciència",
         "intro": "Fa més de 25 anys que veiem què fa la dansa a les criatures. Ara la recerca hi posa noms: motricitat, memòria, emocions, confiança. T'ho expliquem sense bata blanca.",
@@ -428,7 +428,7 @@ POSTS = [
              "Perfecte — aquest és exactament el pla. Tots els beneficis d'aquest article arriben sols, de propina, mentre es diverteixen. La dansa no cal que porti enlloc: ja és el lloc."),
         ],
 
-        "title_es": "los beneficios de la danza para niños y niñas, según la ciencia · escola de dansa cristina colomé",
+        "title_es": "beneficios de la danza para niños, según la ciencia · escola de dansa cristina colomé",
         "desc_es": "Qué dice la investigación sobre la danza en la infancia: desarrollo motor, memoria y funciones ejecutivas, gestión emocional, confianza y vínculo social. Y cómo lo vemos cada día en la sala.",
         "h1_es": "los beneficios de la danza para niños, según la ciencia",
         "intro_es": "Llevamos más de 25 años viendo qué hace la danza en las criaturas. Ahora la investigación le pone nombres: motricidad, memoria, emociones, confianza. Te lo contamos sin bata blanca.",
@@ -564,7 +564,7 @@ POSTS = [
         "related_pagines": ["dansa-infantil", "musical-interpretacio", "formacio-escenica"],
         "related_posts": ["beneficis-dansa-nens", "a-quina-edat-comencar-dansa"],
 
-        "title": "dansa i timidesa: què passa quan un nen vergonyós puja a l'escenari · escola de dansa cristina colomé",
+        "title": "dansa i timidesa: un nen vergonyós dalt de l'escenari · escola de dansa cristina colomé",
         "desc": "Per què la dansa és una de les millors eines per a nens tímids: grup estable, llenguatge sense paraules, reptes petits i l'experiència transformadora de l'escenari. Explicat des de la sala.",
         "h1": "dansa i timidesa: quan un nen vergonyós puja a l'escenari",
         "intro": "«És que la meva filla és molt tímida...» — ens ho diuen com un dubte, i és el millor motiu per venir. El que hem après en 25 anys de veure nens vergonyosos trobar el seu lloc.",
@@ -596,7 +596,7 @@ POSTS = [
              "Cada nen té el seu ritme: n'hi ha que a la tercera classe ja canten, d'altres que necessiten un trimestre. La clau és no tenir pressa — la constància setmanal fa la feina sola."),
         ],
 
-        "title_es": "danza y timidez: qué pasa cuando un niño vergonzoso sube al escenario · escola de dansa cristina colomé",
+        "title_es": "danza y timidez: un niño vergonzoso sobre el escenario · escola de dansa cristina colomé",
         "desc_es": "Por qué la danza es una de las mejores herramientas para niños tímidos: grupo estable, lenguaje sin palabras, retos pequeños y la experiencia transformadora del escenario. Contado desde la sala.",
         "h1_es": "danza y timidez: cuando un niño vergonzoso sube al escenario",
         "intro_es": "«Es que mi hija es muy tímida...» — nos lo dicen como una duda, y es el mejor motivo para venir. Lo que hemos aprendido en 25 años viendo a niños vergonzosos encontrar su lugar.",
@@ -693,7 +693,7 @@ POSTS = [
              "Els de base del ballet, amb una cadira com a barra: pliés, relevés, tendus, passé amb equilibri i un estirament de braços per acabar. Deu minuts, a poc a poc i amb l'esquena llarga. A classe la professora et corregeix la col·locació, i és on fan de debò l'efecte."),
         ],
 
-        "title_es": "barre: ejercicios de danza para tonificar (y 5 para hacer en casa) · escola de dansa cristina colomé",
+        "title_es": "barre: ejercicios de danza para tonificar (y 5 para casa) · escola de dansa cristina colomé",
         "desc_es": "Ejercicios de danza para tonificar y mejorar la postura sin impacto: qué es el barre, 5 ejercicios para hacer en casa con una silla y las clases de mañana en nuestra escuela de Barcelona.",
         "h1_es": "barre: ejercicios de danza para tonificar (y 5 para hacer en casa)",
         "intro_es": "Tonifica como el gimnasio, alarga como el yoga y se entrena con música junto a una barra de ballet. El barre es el entrenamiento de moda en medio mundo — y tenemos las mañanas reservadas para él.",
@@ -873,7 +873,7 @@ POSTS = [
              "Sí: les 3 sales, condicionades i insonoritzades, es lloguen per a assajos i activitats — i també fem celebracions especials, dels aniversaris als balls de núvis."),
         ],
 
-        "title_es": "más de 25 años moviendo Sant Gervasi: la historia de la escuela · escola de dansa cristina colomé",
+        "title_es": "más de 25 años en Sant Gervasi: la historia de la escuela · escola de dansa cristina colomé",
         "desc_es": "La historia de la Escola de Dansa Cristina Colomé, en la calle Craywinckel de Sant Gervasi (Barcelona): más de 25 años, generaciones de alumnos, 3 salas y una manera propia de enseñar a bailar.",
         "h1_es": "más de 25 años moviendo Sant Gervasi",
         "intro_es": "Hay alumnas que vinieron de pequeñas y ahora traen a sus hijas. Esta es la historia — y la manera de hacer — de una escuela de barrio que lleva más de un cuarto de siglo bailando.",
@@ -921,7 +921,7 @@ POSTS = [
         "related_pagines": ["dansa-infantil", "ballet-classic", "hip-hop", "preus"],
         "related_posts": ["primer-dia-classe-dansa"],
 
-        "title": "què ha de portar a la bossa de dansa? la guia per disciplines · escola de dansa cristina colomé",
+        "title": "què cal portar a la bossa de dansa? guia per disciplines · escola de dansa cristina colomé",
         "desc": "Sabatilles, mitges, roba còmoda... què cal per a cada disciplina de dansa i què no cal comprar el primer dia. La guia pràctica que donem a totes les famílies noves de l'escola.",
         "h1": "què ha de portar a la bossa de dansa? la guia per disciplines",
         "intro": "El primer dubte pràctic de tota família nova: què comprem? La resposta que donem sempre: de moment, gairebé res. Aquí tens la guia sencera, disciplina per disciplina.",
@@ -957,7 +957,7 @@ POSTS = [
              "Millor que no: demanem esportives netes d'ús exclusiu per a la sala. El parquet es conserva millor i l'adherència és la correcta per ballar."),
         ],
 
-        "title_es": "¿qué tiene que llevar en la bolsa de danza? la guía por disciplinas · escola de dansa cristina colomé",
+        "title_es": "¿qué llevar en la bolsa de danza? guía por disciplinas · escola de dansa cristina colomé",
         "desc_es": "Zapatillas, medias, ropa cómoda... qué hace falta para cada disciplina de danza y qué no hay que comprar el primer día. La guía práctica que damos a todas las familias nuevas de la escuela.",
         "h1_es": "¿qué tiene que llevar en la bolsa de danza? la guía por disciplinas",
         "intro_es": "La primera duda práctica de toda familia nueva: ¿qué compramos? La respuesta que damos siempre: de momento, casi nada. Aquí tienes la guía entera, disciplina por disciplina.",
@@ -1095,7 +1095,7 @@ POSTS = [
         "cos": """
 <p><strong>El claqué (en anglès, <em>tap dance</em>) és un ball de percussió en què els peus fan música.</strong> Es balla amb unes sabates que porten plaques metàl·liques a la punta i al taló: cada cop a terra és un so, i combinant cops, silencis i ritmes es construeixen coreografies que s'escolten tant com es veuen. Va néixer als Estats Units i es va fer famós amb els musicals de Hollywood.</p>
 
-<p>El primer dia de claqué passa sempre el mateix: algú fa el primer «tap» amb la placa metàl·lica i se li escapa el somriure. És un so que engancha. Perquè el <a href="/claque/">claqué</a> té una cosa que cap altra disciplina de l'escola té: <strong>quan balles, sones</strong>.</p>
+<p>El primer dia de claqué passa sempre el mateix: algú fa el primer «tap» amb la placa metàl·lica i se li escapa el somriure. És un so que enganxa. Perquè el <a href="/claque/">claqué</a> té una cosa que cap altra disciplina de l'escola té: <strong>quan balles, sones</strong>.</p>
 
 <h2>ballarins que són músics</h2>
 <p>Al claqué cada pas és una nota: el taló i la punta fan sons diferents, els silencis compten tant com els cops i una coreografia és, literalment, una partitura. Per això treballa una musicalitat finíssima: qui fa claqué aprèn a escoltar el ritme per dins, i això després es nota en qualsevol altre ball — i en qualsevol instrument.</p>
@@ -1322,7 +1322,7 @@ POSTS = [
         "related_pagines": ["ballet-classic", "hip-hop", "dansa-contemporania", "horaris"],
         "related_posts": ["dansa-i-timidesa"],
 
-        "title": "la música de les classes: com la triem i per què importa tant · escola de dansa cristina colomé",
+        "title": "la música de les classes: com la triem i per què importa · escola de dansa cristina colomé",
         "desc": "Del piano del clàssic a les llistes que demanen els adolescents de hip-hop: com es tria la música de cada classe de dansa, i per què és la meitat invisible de l'aprenentatge.",
         "h1": "la música de les classes: com la triem i per què importa tant",
         "intro": "Si preguntes a una alumna què recorda de fa tres cursos, potser no recordarà la coreografia — però taral·lejarà la cançó. La música és la meitat invisible de cada classe, i triar-la és un ofici.",
@@ -1351,7 +1351,7 @@ POSTS = [
              "Moltíssim: ritme, compàs, fraseig, estils... Ballar és escoltar amb tot el cos, i aquesta escolta es queda per sempre."),
         ],
 
-        "title_es": "la música de las clases: cómo la elegimos y por qué importa tanto · escola de dansa cristina colomé",
+        "title_es": "la música de las clases: cómo la elegimos y por qué importa · escola de dansa cristina colomé",
         "desc_es": "Del piano del clásico a las listas que piden los adolescentes de hip-hop: cómo se elige la música de cada clase de danza, y por qué es la mitad invisible del aprendizaje.",
         "h1_es": "la música de las clases: cómo la elegimos y por qué importa tanto",
         "intro_es": "Si preguntas a una alumna qué recuerda de hace tres cursos, quizá no recuerde la coreografía — pero tarareará la canción. La música es la mitad invisible de cada clase, y elegirla es un oficio.",
@@ -1408,7 +1408,7 @@ POSTS = [
 <p>Poques disciplines arrosseguen tants malentesos com la <a href="/dansa-oriental/">dansa oriental</a>. I poques sorprenen tant quan es prova: darrere de l'estètica hi ha una tècnica mil·lenària, un treball físic profund i — potser el més valuós — una manera nova de mirar-se el propi cos.</p>
 
 <h2>una tècnica de precisió</h2>
-<p>La dansa oriental es construeix sobre els <strong>aïllaments</strong>: moure el maluc sense moure les espatlles, dibuixar un vuit amb la cintura mentre els braços fan una altra frase. És feina de precisió quirúrgica que demana anys — i que engancha precisament per això: sempre hi ha una capa més per polir. Els shimmies, els cercles, les ondulacions... cada element té la seva escola i la seva història.</p>
+<p>La dansa oriental es construeix sobre els <strong>aïllaments</strong>: moure el maluc sense moure les espatlles, dibuixar un vuit amb la cintura mentre els braços fan una altra frase. És feina de precisió quirúrgica que demana anys — i que enganxa precisament per això: sempre hi ha una capa més per polir. Els shimmies, els cercles, les ondulacions... cada element té la seva escola i la seva història.</p>
 
 <h2>el centre del cos, despert</h2>
 <p>Físicament és un entrenament esplèndid del <strong>core</strong>: tota la musculatura profunda de l'abdomen, l'esquena i el sòl pelvià treballa sense parar, però sense impacte. Per això és una disciplina tan agraïda a totes les edats adultes: enforteix allà on més ho necessitem, millora la postura i desperta zones del cos que la vida de cadira adorm.</p>
@@ -1504,7 +1504,7 @@ POSTS = [
              "És clar: el festival es fa en un teatre amb entrades per a les famílies. És el dia que l'escola surt de Craywinckel i es planta davant del seu públic."),
         ],
 
-        "title_es": "por qué el festival de fin de curso es el corazón de la escuela · escola de dansa cristina colomé",
+        "title_es": "el festival de fin de curso, el corazón de la escuela · escola de dansa cristina colomé",
         "desc_es": "El festival de fin de curso no es una exhibición: es el momento donde todo el aprendizaje del año cobra sentido. Nervios, telón, familias y el crecimiento que solo da un escenario de verdad.",
         "h1_es": "por qué el festival de fin de curso es el corazón de la escuela",
         "intro_es": "Cada junio, cuando se apagan las luces del teatro y se abre el telón, pasa lo más importante del curso. Y no es la coreografía: es lo que el escenario hace con cada alumna.",
@@ -1552,7 +1552,7 @@ POSTS = [
         "related_pagines": ["dansa-adults", "cos-benestar", "ball-espanyol", "horaris"],
         "related_posts": ["comencar-dansa-adults", "barre-entrenament-ballet"],
 
-        "title": "classes de dansa per a més grans de 50 i 60 anys: el cos ho agraeix · escola de dansa cristina colomé",
+        "title": "classes de dansa per a més grans de 50 i 60 anys · escola de dansa cristina colomé",
         "desc": "Classes de dansa per a més grans de 50 i 60 anys a Sant Gervasi (Barcelona): barre els matins, clàssic, espanyol i més, amb grups d'iniciació. Per què mai no és tard i per on començar.",
         "h1": "ballar als 50, als 60 i més enllà: el cos ho agraeix",
         "intro": "Hi ha una idea que voldríem esborrar per sempre: que la dansa és cosa de joves. A les nostres sales hi ha alumnes que van començar amb els cabells ja blancs — i són de les més constants de l'escola.",
@@ -1591,7 +1591,7 @@ POSTS = [
              "Sí: el barre, els dilluns i els dimecres a les 10 del matí. És una classe a la barra, amb suport, pensada per treballar força, equilibri i postura, i és de les preferides de qui comença passats els 60."),
         ],
 
-        "title_es": "clases de baile para mayores de 50 y 60: el cuerpo lo agradece · escola de dansa cristina colomé",
+        "title_es": "clases de baile para mayores de 50 y 60 años · escola de dansa cristina colomé",
         "desc_es": "Clases de baile para mayores de 50 y de 60 en Sant Gervasi (Barcelona): barre por la mañana, clásico, español y más, con grupos de iniciación. Por qué nunca es tarde y por dónde empezar.",
         "h1_es": "bailar a los 50, a los 60 y más allá: el cuerpo lo agradece",
         "intro_es": "Hay una idea que querríamos borrar para siempre: que la danza es cosa de jóvenes. En nuestras salas hay alumnas que empezaron con el pelo ya blanco — y son de las más constantes de la escuela.",
@@ -1677,7 +1677,7 @@ POSTS = [
              "Sí: aprenem les coreografies reals dels grups del moment, adaptant la dificultat al nivell del grup. La satisfacció de clavar el point dance de la teva cançó no té preu."),
         ],
 
-        "title_es": "k-pop y heels: las clases que hacen venir corriendo a los jóvenes · escola de dansa cristina colomé",
+        "title_es": "k-pop y heels: las clases que más gustan a los jóvenes · escola de dansa cristina colomé",
         "desc_es": "El k-pop y las heels son las disciplinas que más crecen entre adolescentes y jóvenes adultos: coreografías virales, point dance, empoderamiento y mucha más técnica de la que parece.",
         "h1_es": "k-pop y heels: las clases que hacen venir corriendo a los jóvenes",
         "intro_es": "Hay dos palabras que hacen brillar los ojos de media adolescencia: k-pop y heels. Y detrás del fenómeno viral está lo que más nos gusta: técnica, trabajo y una confianza que se ve crecer semana a semana.",
@@ -1724,7 +1724,7 @@ POSTS = [
         "related_pagines": ["dansa-infantil", "horaris", "hip-hop"],
         "related_posts": ["triar-estil-dansa-fill", "dansa-i-timidesa"],
 
-        "title": "les primeres setmanes de curs: com saber si la classe li encaixa · escola de dansa cristina colomé",
+        "title": "primeres setmanes de curs: com saber si la classe li encaixa · escola de dansa cristina colomé",
         "desc": "El setembre enganya: l'adaptació a una extraescolar nova dura entre dues i quatre setmanes. Els senyals que la classe de dansa encaixa, els que demanen un ajust, i com ho resolem a l'escola sense drames.",
         "h1": "les primeres setmanes de curs: com saber si la classe li encaixa",
         "excerpt": "El setembre enganya: l'adaptació dura entre dues i quatre setmanes. Els senyals que la classe encaixa, els que demanen un ajust, i com ho resolem sense drames.",
@@ -1766,7 +1766,7 @@ POSTS = [
              "No passa res: millor descobrir-ho havent-ho provat de veritat. Es pot donar de baixa sense penalització, i la porta queda oberta per tornar-ho a provar més endavant — passa més sovint del que et penses."),
         ],
 
-        "title_es": "las primeras semanas de curso: cómo saber si la clase le encaja · escola de dansa cristina colomé",
+        "title_es": "primeras semanas de curso: cómo saber si la clase le encaja · escola de dansa cristina colomé",
         "desc_es": "Septiembre engaña: la adaptación a una extraescolar nueva dura entre dos y cuatro semanas. Las señales de que la clase de danza encaja, las que piden un ajuste, y cómo lo resolvemos en la escuela sin dramas.",
         "h1_es": "las primeras semanas de curso: cómo saber si la clase le encaja",
         "excerpt_es": "Septiembre engaña: la adaptación dura entre dos y cuatro semanas. Las señales de que la clase encaja, las que piden un ajuste, y cómo lo resolvemos sin dramas.",
@@ -1826,7 +1826,7 @@ POSTS = [
         "related_pagines": ["dansa-infantil", "dansa-adults", "horaris", "preus"],
         "related_posts": ["classe-de-prova-gratuita", "a-quina-edat-comencar-dansa", "examens-rad-ballet"],
 
-        "title": "com triar escola de dansa a Barcelona: les preguntes que cal fer · escola de dansa cristina colomé",
+        "title": "com triar escola de dansa a Barcelona: preguntes clau · escola de dansa cristina colomé",
         "desc": "Les preguntes que val la pena fer quan visites una escola de dansa a Barcelona: qui entrarà a la sala, quants alumnes hi ha dins, com és el terra, què passa durant el curs i què hi ha darrere del preu. Amb les nostres respostes, perquè les comparis.",
         "h1": "com triar escola de dansa a Barcelona: les preguntes que cal fer",
         "excerpt": "Qui entrarà a la sala, quants alumnes hi ha dins, com és el terra i què hi ha darrere del preu. Les preguntes que val la pena fer abans d'apuntar-hi ningú, i les nostres respostes.",
@@ -1889,7 +1889,7 @@ POSTS = [
              "Varia molt d'una escola a l'altra i convé preguntar-ho abans d'apuntar-s'hi. A la nostra no hi ha permanència: es pot donar de baixa sense penalització i es pot canviar de grup o d'estil durant el curs."),
         ],
 
-        "title_es": "cómo elegir escuela de danza en Barcelona: las preguntas que hay que hacer · escola de dansa cristina colomé",
+        "title_es": "cómo elegir escuela de danza en Barcelona: preguntas clave · escola de dansa cristina colomé",
         "desc_es": "Las preguntas que vale la pena hacer cuando visitas una escuela de danza en Barcelona: quién entrará en la sala, cuántos alumnos hay dentro, cómo es el suelo, qué pasa durante el curso y qué hay detrás del precio. Con nuestras respuestas, para que las compares.",
         "h1_es": "cómo elegir escuela de danza en Barcelona: las preguntas que hay que hacer",
         "excerpt_es": "Quién entrará en la sala, cuántos alumnos hay dentro, cómo es el suelo y qué hay detrás del precio. Las preguntas que vale la pena hacer antes de apuntar a nadie, y nuestras respuestas.",
@@ -1970,7 +1970,7 @@ POSTS = [
         "related_pagines": ["horaris", "preus", "dansa-infantil", "dansa-adults"],
         "related_posts": ["classe-de-prova-gratuita", "primeres-setmanes-de-curs", "comencar-dansa-adults"],
 
-        "title": "encara hi ets a temps: apuntar-se a dansa amb el curs començat · escola de dansa cristina colomé",
+        "title": "encara hi ets a temps: apuntar-se amb el curs començat · escola de dansa cristina colomé",
         "desc": "El curs va començar al setembre, però l'octubre segueix sent un bon moment per començar a ballar: els grups encara s'estan fent, la classe de prova és gratuïta i del primer mes només es paguen els dies que queden.",
         "h1": "encara hi ets a temps: apuntar-se a dansa amb el curs començat",
         "excerpt": "El setembre s'ha escapat i encara no l'has apuntat? No passa res: a l'octubre els grups encara s'estan fent, la prova és gratuïta i del primer mes només es paguen els dies que queden.",
@@ -2070,7 +2070,7 @@ POSTS = [
         "related_pagines": ["claque", "dansa-adults", "horaris", "preus"],
         "related_posts": ["claque-el-ball-que-sona", "comencar-dansa-adults", "classe-de-prova-gratuita"],
 
-        "title": "claqué per a adults: el que cal saber abans de la primera classe · escola de dansa cristina colomé",
+        "title": "claqué per a adults: què cal saber abans de la 1a classe · escola de dansa cristina colomé",
         "desc": "Vols començar claqué d'adult? Si cal tenir oïda, quines sabates calen i quan comprar-les, com és una classe i quant es triga a sonar bé. Classe de prova gratuïta a Sant Gervasi.",
         "h1": "claqué d'adult: el que cal saber abans de la primera classe",
         "excerpt": "Si cal tenir oïda, quines sabates calen i quan comprar-les, com és una classe i quant es triga a sonar bé: els dubtes de qui vol començar claqué d'adult.",
@@ -2127,7 +2127,7 @@ POSTS = [
              "Els dimarts i els dijous a les 18.45. Tens tots els horaris a la graella de la web."),
         ],
 
-        "title_es": "claqué para adultos: lo que hay que saber antes de la primera clase · escola de dansa cristina colomé",
+        "title_es": "claqué para adultos: qué saber antes de la primera clase · escola de dansa cristina colomé",
         "desc_es": "¿Quieres empezar claqué de adulto? Si hace falta tener oído, qué zapatos necesitas y cuándo comprarlos, cómo es una clase y cuánto se tarda en sonar bien. Clase de prueba gratuita en Sant Gervasi.",
         "h1_es": "claqué de adulto: lo que hay que saber antes de la primera clase",
         "excerpt_es": "Si hace falta tener oído, qué zapatos necesitas y cuándo comprarlos, cómo es una clase y cuánto se tarda en sonar bien: las dudas de quien quiere empezar claqué de adulto.",
@@ -2202,7 +2202,7 @@ POSTS = [
         "related_pagines": ["hip-hop", "k-pop-heels", "dansa-contemporania", "horaris"],
         "related_posts": ["hip-hop-nens-adolescents", "kpop-heels-joves", "dansa-i-timidesa"],
 
-        "title": "dansa i estudis: com aguantar el ritme quan arriben els exàmens · escola de dansa cristina colomé",
+        "title": "dansa i estudis: com aguantar el ritme en època d'exàmens · escola de dansa cristina colomé",
         "desc": "Arriben els primers exàmens d'ESO i batxillerat i apareix la temptació de deixar la dansa. Per què sovint és mala idea i com organitzar-se perquè hi càpiga tot: consells per a famílies amb adolescents.",
         "h1": "dansa i estudis: com aguantar el ritme quan arriben els exàmens",
         "excerpt": "Arriben els primers exàmens i la dansa sembla el primer que sobra. Per què sovint és al revés, i com organitzar la setmana perquè hi càpiga tot.",
@@ -2245,7 +2245,7 @@ POSTS = [
              "Depèn de cadascú, però el hip-hop, el k-pop i el contemporani són dels que més enganxen a aquesta edat. La primera classe de prova és gratuïta, així que es pot provar sense compromís."),
         ],
 
-        "title_es": "danza y estudios: cómo mantener el ritmo cuando llegan los exámenes · escola de dansa cristina colomé",
+        "title_es": "danza y estudios: mantener el ritmo en época de exámenes · escola de dansa cristina colomé",
         "desc_es": "Llegan los primeros exámenes de ESO y bachillerato y aparece la tentación de dejar la danza. Por qué a menudo es mala idea y cómo organizarse para que quepa todo: consejos para familias con adolescentes.",
         "h1_es": "danza y estudios: cómo mantener el ritmo cuando llegan los exámenes",
         "excerpt_es": "Llegan los primeros exámenes y la danza parece lo primero que sobra. Por qué a menudo es al revés, y cómo organizar la semana para que quepa todo.",
@@ -2347,7 +2347,7 @@ POSTS = [
              "Cap en concret: al barre del matí hi ha alumnes de totes les edats, també de més de 60 anys. És de baix impacte i cada exercici té versions per a cada nivell."),
         ],
 
-        "title_es": "clases de baile por la mañana en Barcelona: el barre de las 10 · escola de dansa cristina colomé",
+        "title_es": "clases de baile por la mañana en Barcelona: barre a las 10 · escola de dansa cristina colomé",
         "desc_es": "Clases de baile por la mañana en Sant Gervasi (Barcelona): barre los lunes y miércoles a las 10, para adultos de todas las edades y sin experiencia. Para quién es, cómo es la clase y cómo probarlo gratis.",
         "h1_es": "clases de baile por la mañana en Barcelona: el barre de las 10",
         "excerpt_es": "¿Tienes las mañanas libres y las tardes llenas? Los lunes y miércoles a las 10 hay barre: danza, fuerza y postura para empezar el día, sin haber bailado nunca.",
@@ -2904,14 +2904,13 @@ POSTS = [
         "img_alt_es": "Unas zapatillas de puntas rosadas junto a una caja de regalo con lazo rojo y una tarjeta regalo de la escuela que dice «Et regalo dansa!», sobre el banco de madera del vestuario de una escuela de danza, con lucecitas de Navidad al fondo",
         "related_pagines": ["dansa-infantil", "dansa-adults", "preus"],
         "related_posts": ["classe-de-prova-gratuita", "apuntar-se-amb-el-curs-comencat", "comencar-dansa-adults"],
-        "title": "regalar dansa per Nadal: idees per regalar classes de dansa a Barcelona · escola de dansa cristina colomé",
+        "title": "regalar dansa per Nadal: classes de dansa a Barcelona · escola de dansa cristina colomé",
         "desc": "Vols regalar dansa aquest Nadal? Com regalar classes de dansa a un fill, a una filla o a un adult: la primera classe de prova gratuïta, el primer mes de quota o una classe particular. Escola Cristina Colomé, Barcelona.",
         "h1": "regalar dansa per Nadal",
         "excerpt": "Un regal que no ocupa lloc a l'armari: com regalar classes de dansa a un fill, a una filla o a un adult, i començar al gener.",
         "intro": "Si aquest Nadal busques un regal diferent, que no acabi oblidat en un calaix, la dansa és una bona idea. Serveix per a un nen de 3 anys, per a una adolescent i per a una persona adulta que sempre ho ha volgut provar. T'expliquem com regalar-la.",
         "cos": """
 <p>El millor dels regals que es viuen és que duren. Una classe de dansa a la setmana vol dir música, moviment, amistats noves i una estona que és només seva. I ballar no té edat: a l'escola hi ha grups des dels 3 anys fins a adults.</p>
-<a class="targeto-banner" href="/targeto-regal/"><img src="/assets/blog-targetons-regal.jpg" alt="Cinc targetons de regal de Nadal de l'escola de dansa en ventall sobre un fons vermell amb estrelles: un ren, icones de Nadal, muntanyes nevades, una corona i un arc amb boles, tots amb el text «Et regalo dansa!»" width="1600" height="900" loading="lazy"><span class="tb-text"><span class="tb-eti">per imprimir</span><span class="tb-tit">Sis targetons de regal per posar sota l'arbre</span><span class="tb-boto">tria el teu targetó →</span></span></a>
 
 <h2>el primer regal: venir a provar-ho</h2>
 <p>A l'escola, <strong>la primera classe és gratuïta</strong> i sense compromís. Per això, el regal pot començar amb una invitació: «el gener anem a provar dansa». Tria l'estil i el grup que li va bé, truca'ns i reservem la classe de prova per a després de festes. Si no saps quin estil triar, et pot ajudar la guia per <a href="/blog/triar-estil-dansa-fill/">triar l'estil de dansa del teu fill</a>, o la de <a href="/blog/comencar-dansa-adults/">començar a ballar de gran</a>.</p>
@@ -2951,14 +2950,13 @@ POSTS = [
             ("a partir de quina edat es pot regalar dansa?",
              "Des dels 3 anys, amb els grups d'iniciació a la dansa, i fins a adults de qualsevol edat."),
         ],
-        "title_es": "regalar danza por Navidad: ideas para regalar clases de danza en Barcelona · escola de dansa cristina colomé",
+        "title_es": "regalar danza por Navidad: clases de danza en Barcelona · escola de dansa cristina colomé",
         "desc_es": "¿Quieres regalar danza esta Navidad? Cómo regalar clases de danza a un hijo, a una hija o a un adulto: la primera clase de prueba gratuita, el primer mes de cuota o una clase particular. Escuela Cristina Colomé, Barcelona.",
         "h1_es": "regalar danza por Navidad",
         "excerpt_es": "Un regalo que no ocupa sitio en el armario: cómo regalar clases de danza a un hijo, a una hija o a un adulto, y empezar en enero.",
         "intro_es": "Si esta Navidad buscas un regalo diferente, que no acabe olvidado en un cajón, la danza es una buena idea. Sirve para un niño de 3 años, para una adolescente y para una persona adulta que siempre lo ha querido probar. Te contamos cómo regalarla.",
         "cos_es": """
 <p>Lo mejor de los regalos que se viven es que duran. Una clase de danza a la semana es música, movimiento, amistades nuevas y un rato que es solo suyo. Y bailar no tiene edad: en la escuela hay grupos desde los 3 años hasta adultos.</p>
-<a class="targeto-banner" href="/es/tarjeta-regalo/"><img src="/assets/blog-tarjetas-regalo.jpg" alt="Cinco tarjetas regalo de Navidad de la escuela de danza en abanico sobre un fondo rojo con estrellas: un reno, iconos de Navidad, montañas nevadas, una corona y un arco con bolas, todas con el texto «Te regalo ¡danza!»" width="1600" height="900" loading="lazy"><span class="tb-text"><span class="tb-eti">para imprimir</span><span class="tb-tit">Seis tarjetas regalo para poner bajo el árbol</span><span class="tb-boto">elige tu tarjeta →</span></span></a>
 
 <h2>el primer regalo: venir a probarlo</h2>
 <p>En la escuela, <strong>la primera clase es gratuita</strong> y sin compromiso. Por eso, el regalo puede empezar con una invitación: «en enero vamos a probar danza». Elige el estilo y el grupo que le va bien, llámanos y reservamos la clase de prueba para después de fiestas. Si no sabes qué estilo elegir, te puede ayudar la guía para <a href="/es/blog/elegir-estilo-danza-hijo/">elegir el estilo de danza de tu hijo</a>, o la de <a href="/es/blog/empezar-danza-adultos/">empezar a bailar de mayor</a>.</p>

@@ -147,11 +147,11 @@ PAGINES = [
         "nom": "claqué",
         # set 2026: «claqué» 320 impressions/setmana a pos 9-10 amb 0 clics. el títol diu
         # per a qui és i la descripció respon els dubtes (dies, sabates, prova gratis)
-        "title": "claqué a Barcelona: classes per a joves i adults · cristina colomé",
-        "desc": "classes de claqué (tap dance) a Sant Gervasi, Barcelona: el ritme als peus per a joves i adults, dimarts i dijous. la classe de prova és gratuïta i no cal portar sabates de claqué.",
+        "title": "classes de claqué per a adults a Barcelona · cristina colomé",
+        "desc": "claqué (tap dance) per a adults a Sant Gervasi, Barcelona: el ritme als peus, dimarts i dijous a les 18.45. la classe de prova és gratuïta i no calen sabates.",
         "h1": "claqué",
         "intro": "el ritme als peus. el claqué converteix el ballarí en músic: cada pas és percussió, i cada coreografia, una cançó.",
-        "per_a_qui": "grups d'adults (dimarts i dijous a les 18.45). és una disciplina única: treballa el ritme com cap altra i engancha des del primer dia. si t'agrada la música tant com ballar, el claqué et farà feliç.",
+        "per_a_qui": "grups d'adults (dimarts i dijous a les 18.45). és una disciplina única: treballa el ritme com cap altra i enganxa des del primer dia. si t'agrada la música tant com ballar, el claqué et farà feliç.",
         "beneficis": [
             ("oïda i ritme musical", "fer música amb els peus desenvolupa una musicalitat finíssima."),
             ("coordinació i agilitat", "peus ràpids, ment desperta: el claqué és gimnàstica per al cervell."),
@@ -1086,7 +1086,41 @@ def formulari_news(lang):
     </script>"""
 
 
+MAX_TITOL = 60   # el que Google ensenya sense tallar (aprox.); comprova_qualitat.py ho vigila
+MAX_DESC = 160
+MARCA_LLARGA = " · escola de dansa cristina colomé"
+MARCA_CURTA = " · cristina colomé"
+
+
+def titol_seo(t):
+    """títol per al <title>: la marca llarga s'escurça (o es treu) si no hi cap"""
+    t = t.strip()
+    if len(t) > MAX_TITOL and t.endswith(MARCA_LLARGA):
+        t = t[: -len(MARCA_LLARGA)] + MARCA_CURTA
+    if len(t) > MAX_TITOL and t.endswith(MARCA_CURTA):
+        t = t[: -len(MARCA_CURTA)]
+    return t
+
+
+def desc_seo(d):
+    """descripció de com a molt MAX_DESC: es talla per la frase (mai dins d'una marca de preu ⟦…⟧)"""
+    d = " ".join(d.split())
+    if len(d) <= MAX_DESC:
+        return d
+    tros = d[:MAX_DESC]
+    for sep in (". ", "? ", "! "):
+        i = tros.rfind(sep)
+        if i >= 80:
+            return tros[: i + 1]
+    i = tros[: MAX_DESC - 1].rfind(" ")
+    tros = tros[:i].rstrip(" ,;:·—-")
+    if tros.count("⟦") > tros.count("⟧"):
+        tros = tros[: tros.rfind("⟦")].rstrip(" ,;:·—-")
+    return tros + "…"
+
+
 def genera(p):
+    p = {**p, "title": titol_seo(p["title"]), "desc": desc_seo(p["desc"])}
     url = f"{DOMINI}/{p['slug']}/"
     lang = p.get("lang", "ca")
     if lang == "ca":

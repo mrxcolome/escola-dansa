@@ -8,7 +8,7 @@ Poques disciplines arrosseguen tants malentesos com la [dansa oriental](/dansa-o
 
 ## Una tècnica de precisió
 
-La dansa oriental es construeix sobre els **aïllaments**: moure el maluc sense moure les espatlles, dibuixar un vuit amb la cintura mentre els braços fan una altra frase. És feina de precisió quirúrgica que demana anys — i que engancha precisament per això: sempre hi ha una capa més per polir. Els shimmies, els cercles, les ondulacions... cada element té la seva escola i la seva història.
+La dansa oriental es construeix sobre els **aïllaments**: moure el maluc sense moure les espatlles, dibuixar un vuit amb la cintura mentre els braços fan una altra frase. És feina de precisió quirúrgica que demana anys — i que enganxa precisament per això: sempre hi ha una capa més per polir. Els shimmies, els cercles, les ondulacions... cada element té la seva escola i la seva història.
 
 ## El centre del cos, despert
 

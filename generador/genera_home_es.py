@@ -28,9 +28,9 @@ PARELLES = [
     # el títol comença pel que la gent busca, no per la marca (set 2026: sortíem
     # a la 1a pàgina per «escola de dansa» amb 0 clics)
     ('<title>escola de dansa a Barcelona (Sant Gervasi) · cristina colomé</title>',
-     '<title>escuela de danza en Barcelona (Sant Gervasi) · cristina colomé</title>'),
-    ('<meta name="description" content="escola de dansa a Barcelona (Sant Gervasi) amb més de 25 anys: classes de dansa i extraescolars per a nens des dels 3 anys, joves i adults. clàssic, contemporani, jazz, hip-hop, claqué i més. 1a classe gratuïta.">',
-     '<meta name="description" content="escuela de danza en Barcelona (Sant Gervasi) con más de 25 años: clases de danza para niños desde 3 años, jóvenes y adultos. clásico, contemporáneo, jazz, hip-hop, claqué y más. 1ª clase gratuita.">'),
+     '<title>escuela de danza Barcelona (Sant Gervasi) · cristina colomé</title>'),
+    ('<meta name="description" content="escola de dansa a Sant Gervasi (Barcelona), més de 25 anys: dansa per a nens des dels 3 anys, joves i adults. clàssic, jazz, hip-hop, claqué i més.">',
+     '<meta name="description" content="escuela de danza en Sant Gervasi (Barcelona), más de 25 años: danza para niños desde 3 años, jóvenes y adultos. clásico, jazz, hip-hop, claqué y más.">'),
     ('<link rel="canonical" href="https://escoladansa.com/">',
      '<link rel="canonical" href="https://escoladansa.com/es/">'),  # els hreflang ja venen de la home CA
     ('<meta property="og:title" content="escola de dansa cristina colomé · Sant Gervasi, Barcelona">',

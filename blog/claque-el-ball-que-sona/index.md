@@ -6,7 +6,7 @@ Hi ha una disciplina a l'escola on no només balles la música: la fas. Benvingu
 
 **El claqué (en anglès, *tap dance*) és un ball de percussió en què els peus fan música.** Es balla amb unes sabates que porten plaques metàl·liques a la punta i al taló: cada cop a terra és un so, i combinant cops, silencis i ritmes es construeixen coreografies que s'escolten tant com es veuen. Va néixer als Estats Units i es va fer famós amb els musicals de Hollywood.
 
-El primer dia de claqué passa sempre el mateix: algú fa el primer «tap» amb la placa metàl·lica i se li escapa el somriure. És un so que engancha. Perquè el [claqué](/claque/) té una cosa que cap altra disciplina de l'escola té: **quan balles, sones**.
+El primer dia de claqué passa sempre el mateix: algú fa el primer «tap» amb la placa metàl·lica i se li escapa el somriure. És un so que enganxa. Perquè el [claqué](/claque/) té una cosa que cap altra disciplina de l'escola té: **quan balles, sones**.
 
 ## Ballarins que són músics
 
