@@ -50,6 +50,7 @@ Com encaixa:
 
 ## Seccions internes (noindex, bloquejades a `robots.txt`)
 
-- `seo/index.html`: dashboard i pla SEO, editat a mà. Les xifres de Google Search Console i Bing les aporta el Xavi (l'agent no hi té accés). Quan es fa una tasca del pla, es marca la `<li>` com a `class="fet"`.
+- `seo/index.html`: tauler visual de visibilitat (Google, cerques, IA, fitxa, blog, salut tècnica). **Es genera** amb `python3 generador/genera_seo.py` a partir de `seo/dades.json`: a cada revisió s'hi afegeix la mesura nova (data → valors) i es regenera. Les posicions de les cerques són `[posició, impressions, clics]` de Search Console (28 dies). Les xifres de Search Console i Bing les aporta el Xavi o es llegeixen al navegador amb la seva sessió.
+- `seo/diari/index.html`: diari detallat de la feina SEO (abans era `seo/index.html`), editat a mà. Quan es fa una tasca del pla, es marca la `<li>` com a `class="fet"`.
 - `dossier/`, `backstage/`, `google/`: documents interns.
 - `memoria/`: àrea privada amb un arxiu xifrat (`memoria-claude.zip.aes`).
