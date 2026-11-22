@@ -51,6 +51,10 @@ REDIRECCIONS = [
     (r"es/escuela/?", "/es/#escola"),
     (r"blog/author/.+", "/blog/"),
     (r"blog/beneficis-de-la-dansa-per-a-la-salut-fisica-i-mental/.+", "/dansa-adults/"),
+    # 5a tanda (22 nov 2026): els 404 que quedaven a Search Console
+    (r"blog/iniciacio-a-la-dansa-per-a-nens-i-nenes-[^/]*(?:/.*)?", "/dansa-infantil/"),
+    (r"blog/dansa-lirica-o-neoclassica-[^/]*(?:/.*)?", "/dansa-contemporania/"),
+    (r"blog/page/[0-9]+/?", "/blog/"),
     # portades velles del lloc estàtic
     (r"(?:default\.htm|index\.html)/?", "/"),
     # document intern reanomenat (Tramoia -> Backstage)

@@ -183,6 +183,21 @@
       "statusCode": 301
     },
     {
+      "source": "/:cami(blog/iniciacio-a-la-dansa-per-a-nens-i-nenes-[^/]*(?:/.*)?)",
+      "destination": "/dansa-infantil/",
+      "statusCode": 301
+    },
+    {
+      "source": "/:cami(blog/dansa-lirica-o-neoclassica-[^/]*(?:/.*)?)",
+      "destination": "/dansa-contemporania/",
+      "statusCode": 301
+    },
+    {
+      "source": "/:cami(blog/page/[0-9]+/?)",
+      "destination": "/blog/",
+      "statusCode": 301
+    },
+    {
       "source": "/:cami((?:default\\.htm|index\\.html)/?)",
       "destination": "/",
       "statusCode": 301
