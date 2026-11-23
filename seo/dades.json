@@ -1,1161 +1,1161 @@
 {
-  "_nota": "Dades del tauler /seo/ (el genera generador/genera_seo.py). Cada revisió afegeix una mesura amb la seva data. Les xifres de Search Console, Bing i la fitxa les aporta el Xavi (captures) o l'agent seo-escola.",
-  "actualitzat": "2026-11-23",
-  "toca_ara": [
-    {
-      "qui": "Claude",
-      "que": "Quan Analytics rebi el primer «contacte» (1-2 dies), marcar-lo com a esdeveniment clau i afegir aquí els contactes per article"
-    },
-    {
-      "qui": "Xavi",
-      "que": "Corregir l'horari i els estils a la Guia BCN (Ajuntament) i a GoAndance: la IA ens descriu amb aquestes fitxes"
-    },
-    {
-      "qui": "Xavi",
-      "que": "Search Console → 404 → «Ver detalles» → «Iniciar nueva validación»"
-    },
-    {
-      "qui": "Claude",
-      "que": "Mesurar d'aquí a 3-4 setmanes si pugen «clases de baile barcelona», «escuelas / academia de baile barcelona» i «clases de baile para adultos barcelona»"
-    }
+ "_nota": "Dades del tauler /seo/ (el genera generador/genera_seo.py). Cada revisió afegeix una mesura amb la seva data. Les xifres de Search Console, Bing i la fitxa les aporta el Xavi (captures) o l'agent seo-escola.",
+ "actualitzat": "2026-11-23",
+ "toca_ara": [
+  {
+   "qui": "Claude",
+   "que": "Quan Analytics rebi el primer «contacte» (1-2 dies), marcar-lo com a esdeveniment clau i afegir aquí els contactes per article"
+  },
+  {
+   "qui": "Claude",
+   "que": "A mitjan desembre, comprovar si la Guia BCN (petició BBR1659) i GoAndance ja tenen l'horari i els estils corregits (enviat el 23-nov) i si la IA ja ho diu bé"
+  },
+  {
+   "qui": "Xavi",
+   "que": "Search Console → 404 → «Ver detalles» → «Iniciar nueva validación»"
+  },
+  {
+   "qui": "Claude",
+   "que": "Mesurar d'aquí a 3-4 setmanes si pugen «clases de baile barcelona», «escuelas / academia de baile barcelona» i «clases de baile para adultos barcelona»"
+  }
+ ],
+ "google": [
+  {
+   "data": "2026-09-04",
+   "clics": 13,
+   "impressions": 637,
+   "posicio": 28.7,
+   "indexades": 111
+  },
+  {
+   "data": "2026-09-19",
+   "clics": 153,
+   "impressions": 5280,
+   "posicio": 15.6,
+   "indexades": 143
+  },
+  {
+   "data": "2026-09-27",
+   "clics": 231,
+   "impressions": 7790,
+   "posicio": 13.4,
+   "indexades": 164
+  },
+  {
+   "data": "2026-10-04",
+   "clics": 243,
+   "impressions": 8880,
+   "posicio": 11.5,
+   "indexades": 164
+  },
+  {
+   "data": "2026-10-16",
+   "indexades": 157
+  },
+  {
+   "data": "2026-10-23",
+   "indexades": 154
+  },
+  {
+   "data": "2026-11-22",
+   "clics": 208,
+   "impressions": 11900,
+   "posicio": 10.2,
+   "indexades": 133
+  }
+ ],
+ "indexacio": {
+  "data": "2026-11-16",
+  "indexades": 133,
+  "motius": [
+   [
+    "redireccions (adreces velles: normal)",
+    46
+   ],
+   [
+    "no trobades (404), ja redirigides",
+    16
+   ],
+   [
+    "descobertes, sense indexar",
+    7
+   ],
+   [
+    "rastrejades, sense indexar",
+    4
+   ],
+   [
+    "altres",
+    3
+   ]
+  ]
+ },
+ "tecnic": {
+  "data": "2026-11-22",
+  "checks": [
+   [
+    "les 98 pàgines responen",
+    true
+   ],
+   [
+    "sitemap",
+    true
+   ],
+   [
+    "robots.txt",
+    true
+   ],
+   [
+    "llms.txt per a la IA",
+    true
+   ],
+   [
+    "versió per a agents (Markdown)",
+    true
+   ],
+   [
+    "català / castellà (hreflang)",
+    true
+   ],
+   [
+    "dades estructurades (JSON-LD)",
+    true
+   ],
+   [
+    "títols i descripcions a mida",
+    true
+   ],
+   [
+    "redireccions de la web antiga",
+    true
+   ],
+   [
+    "avís a Bing (IndexNow)",
+    true
+   ]
+  ]
+ },
+ "grups": [
+  {
+   "nom": "l'escola · en català",
+   "cerques": [
+    "escola de dansa",
+    "escola de dansa barcelona",
+    "escoles de dansa barcelona",
+    "escola dansa barcelona",
+    "dansa barcelona"
+   ]
+  },
+  {
+   "nom": "l'escola · en castellà",
+   "cerques": [
+    "escuela de danza barcelona",
+    "academia de danza barcelona",
+    "clases de danza barcelona",
+    "danza barcelona",
+    "clases de baile barcelona",
+    "escuelas de baile barcelona"
+   ]
+  },
+  {
+   "nom": "famílies amb nens",
+   "cerques": [
+    "clases de danza para niños en barcelona",
+    "escuela de baile para niños barcelona",
+    "extraescolar de dansa",
+    "extraescolares baile barcelona",
+    "hip hop para niños",
+    "clases de teatro para niños en barcelona"
+   ]
+  },
+  {
+   "nom": "adults",
+   "cerques": [
+    "clases de baile para adultos barcelona",
+    "clases de baile adultos barcelona",
+    "ballet adultos barcelona",
+    "clases de baile para mayores de 60",
+    "danza barre",
+    "exercicis de dansa"
+   ]
+  },
+  {
+   "nom": "estils",
+   "cerques": [
+    "claqué",
+    "claque",
+    "claqué baile",
+    "clases de claqué",
+    "danza oriental",
+    "danza oriental barcelona",
+    "danza del vientre barcelona",
+    "jazz dance barcelona",
+    "clases de k-pop barcelona",
+    "clases de ballet barcelona",
+    "danza contemporánea barcelona",
+    "examen rad"
+   ]
+  }
+ ],
+ "posicions": {
+  "2026-09-19": {
+   "escola de dansa": 5.9
+  },
+  "2026-09-27": {
+   "escola de dansa": 4.0,
+   "claqué": 8.9,
+   "claque": 10.6
+  },
+  "2026-10-04": {
+   "clases de baile para mayores de 60": 10.5
+  },
+  "2026-10-11": {
+   "claqué": 8.7,
+   "claque": 10.6,
+   "claqué baile": 9.0,
+   "exercicis de dansa": 9.8
+  },
+  "2026-10-24": {
+   "escoles de dansa barcelona": 4.1,
+   "escuela de danza barcelona": 39.7,
+   "danza barcelona": 43.4,
+   "clases de danza barcelona": 52.8,
+   "academia de danza barcelona": 54.0,
+   "claqué": 9.2,
+   "claque": 10.7,
+   "claqué baile": 8.8
+  },
+  "2026-11-07": {
+   "escola de dansa": 7.0,
+   "escoles de dansa barcelona": 7.5,
+   "escuela de danza barcelona": 16.2,
+   "danza barcelona": 16.6,
+   "academia de danza barcelona": 21.0,
+   "clases de danza barcelona": 22.2,
+   "claqué": 9.5,
+   "claque": 10.4,
+   "claqué baile": 9.4
+  },
+  "2026-11-09": {
+   "dansa barcelona": 20.3,
+   "extraescolar de dansa": 22.7
+  },
+  "2026-11-22": {
+   "escola de dansa": [
+    4.8,
+    83,
+    0
+   ],
+   "escola de dansa barcelona": [
+    3.6,
+    16,
+    2
+   ],
+   "escoles de dansa barcelona": [
+    6.3,
+    36,
+    2
+   ],
+   "escola dansa barcelona": [
+    13.6,
+    16,
+    0
+   ],
+   "dansa barcelona": [
+    26.4,
+    77,
+    0
+   ],
+   "escuela de danza barcelona": [
+    18.0,
+    55,
+    0
+   ],
+   "academia de danza barcelona": [
+    21.5,
+    26,
+    0
+   ],
+   "clases de danza barcelona": [
+    22.8,
+    33,
+    0
+   ],
+   "danza barcelona": [
+    25.8,
+    87,
+    0
+   ],
+   "clases de baile barcelona": [
+    26.4,
+    32,
+    1
+   ],
+   "escuelas de baile barcelona": [
+    35.1,
+    28,
+    0
+   ],
+   "clases de danza para niños en barcelona": [
+    27.2,
+    38,
+    0
+   ],
+   "escuela de baile para niños barcelona": [
+    15.4,
+    19,
+    0
+   ],
+   "extraescolar de dansa": [
+    16.5,
+    10,
+    0
+   ],
+   "extraescolares baile barcelona": [
+    20.4,
+    12,
+    0
+   ],
+   "hip hop para niños": [
+    8.0,
+    21,
+    0
+   ],
+   "clases de teatro para niños en barcelona": [
+    13.9,
+    22,
+    0
+   ],
+   "clases de baile para adultos barcelona": [
+    9.4,
+    9,
+    0
+   ],
+   "clases de baile adultos barcelona": [
+    25.7,
+    6,
+    0
+   ],
+   "ballet adultos barcelona": [
+    14.2,
+    5,
+    1
+   ],
+   "clases de baile para mayores de 60": [
+    11.5,
+    4,
+    0
+   ],
+   "danza barre": [
+    11.0,
+    77,
+    0
+   ],
+   "exercicis de dansa": [
+    5.3,
+    6,
+    0
+   ],
+   "claqué": [
+    9.1,
+    763,
+    14
+   ],
+   "claque": [
+    10.4,
+    1106,
+    9
+   ],
+   "claqué baile": [
+    9.5,
+    151,
+    0
+   ],
+   "clases de claqué": [
+    13.0,
+    40,
+    0
+   ],
+   "danza oriental": [
+    10.3,
+    128,
+    1
+   ],
+   "danza oriental barcelona": [
+    6.8,
+    21,
+    0
+   ],
+   "danza del vientre barcelona": [
+    9.1,
+    30,
+    1
+   ],
+   "jazz dance barcelona": [
+    11.5,
+    66,
+    0
+   ],
+   "clases de k-pop barcelona": [
+    10.6,
+    15,
+    0
+   ],
+   "clases de ballet barcelona": [
+    30.4,
+    10,
+    0
+   ],
+   "danza contemporánea barcelona": [
+    32.2,
+    28,
+    0
+   ],
+   "examen rad": [
+    7.7,
+    19,
+    0
+   ]
+  }
+ },
+ "ia": {
+  "citacions_bing": [
+   [
+    "2026-09-29",
+    15
+   ],
+   [
+    "2026-10-04",
+    25
+   ],
+   [
+    "2026-10-11",
+    27
+   ],
+   [
+    "2026-10-24",
+    61
+   ],
+   [
+    "2026-11-07",
+    135
+   ]
   ],
-  "google": [
-    {
-      "data": "2026-09-04",
-      "clics": 13,
-      "impressions": 637,
-      "posicio": 28.7,
-      "indexades": 111
-    },
-    {
-      "data": "2026-09-19",
-      "clics": 153,
-      "impressions": 5280,
-      "posicio": 15.6,
-      "indexades": 143
-    },
-    {
-      "data": "2026-09-27",
-      "clics": 231,
-      "impressions": 7790,
-      "posicio": 13.4,
-      "indexades": 164
-    },
-    {
-      "data": "2026-10-04",
-      "clics": 243,
-      "impressions": 8880,
-      "posicio": 11.5,
-      "indexades": 164
-    },
-    {
-      "data": "2026-10-16",
-      "indexades": 157
-    },
-    {
-      "data": "2026-10-23",
-      "indexades": 154
-    },
-    {
-      "data": "2026-11-22",
-      "clics": 208,
-      "impressions": 11900,
-      "posicio": 10.2,
-      "indexades": 133
-    }
+  "pagines_citades": [
+   [
+    "beneficis de la dansa per a nens (ES)",
+    43
+   ],
+   [
+    "què és el claqué",
+    30
+   ],
+   [
+    "a quina edat les puntes (ES)",
+    12
+   ],
+   [
+    "clàssic o contemporani",
+    8
+   ],
+   [
+    "a quina edat les puntes (CA)",
+    8
+   ]
   ],
-  "indexacio": {
-    "data": "2026-11-16",
-    "indexades": 133,
-    "motius": [
-      [
-        "redireccions (adreces velles: normal)",
-        46
-      ],
-      [
-        "no trobades (404), ja redirigides",
-        16
-      ],
-      [
-        "descobertes, sense indexar",
-        7
-      ],
-      [
-        "rastrejades, sense indexar",
-        4
-      ],
-      [
-        "altres",
-        3
-      ]
+  "que_diu": {
+   "data": "2026-11-22",
+   "fets": [
+    [
+     "ens troba per «escola de dansa Sant Gervasi»",
+     true
+    ],
+    [
+     "sap l'adreça (Craywinckel, 25)",
+     true
+    ],
+    [
+     "horari correcte",
+     false,
+     "diu 17-21 h (Guia BCN) o 17-22 h (GoAndance) · correcció enviada el 23-nov"
+    ],
+    [
+     "estils correctes",
+     false,
+     "GoAndance hi posa flamenc i Pilates · correcció enviada el 23-nov"
+    ],
+    [
+     "escola privada (no «centre municipal»)",
+     false,
+     "una resposta ens diu «centre municipal» per la Guia BCN · correcció enviada el 23-nov"
+    ],
+    [
+     "surt per «claqué Barcelona»",
+     false,
+     ""
+    ],
+    [
+     "surt per «dansa per a nens des de 3 anys»",
+     false,
+     ""
     ]
-  },
-  "tecnic": {
-    "data": "2026-11-22",
-    "checks": [
-      [
-        "les 98 pàgines responen",
-        true
-      ],
-      [
-        "sitemap",
-        true
-      ],
-      [
-        "robots.txt",
-        true
-      ],
-      [
-        "llms.txt per a la IA",
-        true
-      ],
-      [
-        "versió per a agents (Markdown)",
-        true
-      ],
-      [
-        "català / castellà (hreflang)",
-        true
-      ],
-      [
-        "dades estructurades (JSON-LD)",
-        true
-      ],
-      [
-        "títols i descripcions a mida",
-        true
-      ],
-      [
-        "redireccions de la web antiga",
-        true
-      ],
-      [
-        "avís a Bing (IndexNow)",
-        true
-      ]
-    ]
-  },
-  "grups": [
-    {
-      "nom": "l'escola · en català",
-      "cerques": [
-        "escola de dansa",
-        "escola de dansa barcelona",
-        "escoles de dansa barcelona",
-        "escola dansa barcelona",
-        "dansa barcelona"
-      ]
-    },
-    {
-      "nom": "l'escola · en castellà",
-      "cerques": [
-        "escuela de danza barcelona",
-        "academia de danza barcelona",
-        "clases de danza barcelona",
-        "danza barcelona",
-        "clases de baile barcelona",
-        "escuelas de baile barcelona"
-      ]
-    },
-    {
-      "nom": "famílies amb nens",
-      "cerques": [
-        "clases de danza para niños en barcelona",
-        "escuela de baile para niños barcelona",
-        "extraescolar de dansa",
-        "extraescolares baile barcelona",
-        "hip hop para niños",
-        "clases de teatro para niños en barcelona"
-      ]
-    },
-    {
-      "nom": "adults",
-      "cerques": [
-        "clases de baile para adultos barcelona",
-        "clases de baile adultos barcelona",
-        "ballet adultos barcelona",
-        "clases de baile para mayores de 60",
-        "danza barre",
-        "exercicis de dansa"
-      ]
-    },
-    {
-      "nom": "estils",
-      "cerques": [
-        "claqué",
-        "claque",
-        "claqué baile",
-        "clases de claqué",
-        "danza oriental",
-        "danza oriental barcelona",
-        "danza del vientre barcelona",
-        "jazz dance barcelona",
-        "clases de k-pop barcelona",
-        "clases de ballet barcelona",
-        "danza contemporánea barcelona",
-        "examen rad"
-      ]
-    }
+   ]
+  }
+ },
+ "fitxa": {
+  "ressenyes": [
+   [
+    "2026-09-21",
+    22,
+    4.8
+   ],
+   [
+    "2026-10-04",
+    32,
+    4.9
+   ],
+   [
+    "2026-11-04",
+    39,
+    4.9
+   ],
+   [
+    "2026-11-07",
+    44,
+    4.8
+   ],
+   [
+    "2026-11-22",
+    45,
+    4.8
+   ]
   ],
-  "posicions": {
-    "2026-09-19": {
-      "escola de dansa": 5.9
-    },
-    "2026-09-27": {
-      "escola de dansa": 4.0,
-      "claqué": 8.9,
-      "claque": 10.6
-    },
-    "2026-10-04": {
-      "clases de baile para mayores de 60": 10.5
-    },
-    "2026-10-11": {
-      "claqué": 8.7,
-      "claque": 10.6,
-      "claqué baile": 9.0,
-      "exercicis de dansa": 9.8
-    },
-    "2026-10-24": {
-      "escoles de dansa barcelona": 4.1,
-      "escuela de danza barcelona": 39.7,
-      "danza barcelona": 43.4,
-      "clases de danza barcelona": 52.8,
-      "academia de danza barcelona": 54.0,
-      "claqué": 9.2,
-      "claque": 10.7,
-      "claqué baile": 8.8
-    },
-    "2026-11-07": {
-      "escola de dansa": 7.0,
-      "escoles de dansa barcelona": 7.5,
-      "escuela de danza barcelona": 16.2,
-      "danza barcelona": 16.6,
-      "academia de danza barcelona": 21.0,
-      "clases de danza barcelona": 22.2,
-      "claqué": 9.5,
-      "claque": 10.4,
-      "claqué baile": 9.4
-    },
-    "2026-11-09": {
-      "dansa barcelona": 20.3,
-      "extraescolar de dansa": 22.7
-    },
-    "2026-11-22": {
-      "escola de dansa": [
-        4.8,
-        83,
-        0
-      ],
-      "escola de dansa barcelona": [
-        3.6,
-        16,
-        2
-      ],
-      "escoles de dansa barcelona": [
-        6.3,
-        36,
-        2
-      ],
-      "escola dansa barcelona": [
-        13.6,
-        16,
-        0
-      ],
-      "dansa barcelona": [
-        26.4,
-        77,
-        0
-      ],
-      "escuela de danza barcelona": [
-        18.0,
-        55,
-        0
-      ],
-      "academia de danza barcelona": [
-        21.5,
-        26,
-        0
-      ],
-      "clases de danza barcelona": [
-        22.8,
-        33,
-        0
-      ],
-      "danza barcelona": [
-        25.8,
-        87,
-        0
-      ],
-      "clases de baile barcelona": [
-        26.4,
-        32,
-        1
-      ],
-      "escuelas de baile barcelona": [
-        35.1,
-        28,
-        0
-      ],
-      "clases de danza para niños en barcelona": [
-        27.2,
-        38,
-        0
-      ],
-      "escuela de baile para niños barcelona": [
-        15.4,
-        19,
-        0
-      ],
-      "extraescolar de dansa": [
-        16.5,
-        10,
-        0
-      ],
-      "extraescolares baile barcelona": [
-        20.4,
-        12,
-        0
-      ],
-      "hip hop para niños": [
-        8.0,
-        21,
-        0
-      ],
-      "clases de teatro para niños en barcelona": [
-        13.9,
-        22,
-        0
-      ],
-      "clases de baile para adultos barcelona": [
-        9.4,
-        9,
-        0
-      ],
-      "clases de baile adultos barcelona": [
-        25.7,
-        6,
-        0
-      ],
-      "ballet adultos barcelona": [
-        14.2,
-        5,
-        1
-      ],
-      "clases de baile para mayores de 60": [
-        11.5,
-        4,
-        0
-      ],
-      "danza barre": [
-        11.0,
-        77,
-        0
-      ],
-      "exercicis de dansa": [
-        5.3,
-        6,
-        0
-      ],
-      "claqué": [
-        9.1,
-        763,
-        14
-      ],
-      "claque": [
-        10.4,
-        1106,
-        9
-      ],
-      "claqué baile": [
-        9.5,
-        151,
-        0
-      ],
-      "clases de claqué": [
-        13.0,
-        40,
-        0
-      ],
-      "danza oriental": [
-        10.3,
-        128,
-        1
-      ],
-      "danza oriental barcelona": [
-        6.8,
-        21,
-        0
-      ],
-      "danza del vientre barcelona": [
-        9.1,
-        30,
-        1
-      ],
-      "jazz dance barcelona": [
-        11.5,
-        66,
-        0
-      ],
-      "clases de k-pop barcelona": [
-        10.6,
-        15,
-        0
-      ],
-      "clases de ballet barcelona": [
-        30.4,
-        10,
-        0
-      ],
-      "danza contemporánea barcelona": [
-        32.2,
-        28,
-        0
-      ],
-      "examen rad": [
-        7.7,
-        19,
-        0
-      ]
-    }
+  "interaccions": {
+   "periode": "agost",
+   "vistes": 389,
+   "web": 80,
+   "com_arribar": 68,
+   "trucades": 11
   },
-  "ia": {
-    "citacions_bing": [
-      [
-        "2026-09-29",
-        15
-      ],
-      [
-        "2026-10-04",
-        25
-      ],
-      [
-        "2026-10-11",
-        27
-      ],
-      [
-        "2026-10-24",
-        61
-      ],
-      [
-        "2026-11-07",
-        135
-      ]
-    ],
-    "pagines_citades": [
-      [
-        "beneficis de la dansa per a nens (ES)",
-        43
-      ],
-      [
-        "què és el claqué",
-        30
-      ],
-      [
-        "a quina edat les puntes (ES)",
-        12
-      ],
-      [
-        "clàssic o contemporani",
-        8
-      ],
-      [
-        "a quina edat les puntes (CA)",
-        8
-      ]
-    ],
-    "que_diu": {
-      "data": "2026-11-22",
-      "fets": [
-        [
-          "ens troba per «escola de dansa Sant Gervasi»",
-          true
-        ],
-        [
-          "sap l'adreça (Craywinckel, 25)",
-          true
-        ],
-        [
-          "horari correcte",
-          false,
-          "diu 17-21 h (Guia BCN) o 17-22 h (GoAndance)"
-        ],
-        [
-          "estils correctes",
-          false,
-          "GoAndance hi posa flamenc i Pilates"
-        ],
-        [
-          "escola privada (no «centre municipal»)",
-          false,
-          "una resposta ens diu «centre municipal» per la Guia BCN"
-        ],
-        [
-          "surt per «claqué Barcelona»",
-          false,
-          ""
-        ],
-        [
-          "surt per «dansa per a nens des de 3 anys»",
-          false,
-          ""
-        ]
-      ]
-    }
-  },
-  "fitxa": {
-    "ressenyes": [
-      [
-        "2026-09-21",
-        22,
-        4.8
-      ],
-      [
-        "2026-10-04",
-        32,
-        4.9
-      ],
-      [
-        "2026-11-04",
-        39,
-        4.9
-      ],
-      [
-        "2026-11-07",
-        44,
-        4.8
-      ],
-      [
-        "2026-11-22",
-        45,
-        4.8
-      ]
-    ],
-    "interaccions": {
-      "periode": "agost",
-      "vistes": 389,
-      "web": 80,
-      "com_arribar": 68,
-      "trucades": 11
-    },
-    "posts_publicats": 31
+  "posts_publicats": 31
+ },
+ "zones": {
+  "data": "2026-11-23",
+  "on": "Google amb la ubicació «Barcelona» (sense compte personalitzat)",
+  "cerques": [
+   {
+    "q": "escola de dansa",
+    "mapa": 3,
+    "ia": null,
+    "org": 1,
+    "altres": "mapa: Dansa Ramon Solé, Area Espai de Dansa",
+    "nota": "el Xavi, en incògnit des de casa (22-nov): mapa no, IA sí (2n), resultats 1r"
+   },
+   {
+    "q": "escola de dansa barcelona",
+    "mapa": 0,
+    "ia": 1,
+    "org": 2,
+    "altres": "mapa: Ramon Solé, Anna Maleras, Area"
+   },
+   {
+    "q": "escola de dansa sant gervasi",
+    "mapa": 1,
+    "ia": null,
+    "org": 1,
+    "altres": ""
+   },
+   {
+    "q": "extraescolars de dansa barcelona",
+    "mapa": null,
+    "ia": null,
+    "org": 2,
+    "altres": "1r: cet10.com"
+   },
+   {
+    "q": "escuela de danza barcelona",
+    "mapa": 0,
+    "ia": 0,
+    "org": 0,
+    "altres": "Dance Emotion, Slam Dancing, Time Out"
+   },
+   {
+    "q": "academia de danza barcelona",
+    "mapa": 0,
+    "ia": 0,
+    "org": 0,
+    "altres": "Dance Emotion, Slam Dancing, BCN Dance Center"
+   },
+   {
+    "q": "clases de danza para niños barcelona",
+    "mapa": null,
+    "ia": 0,
+    "org": 0,
+    "altres": "Dance Emotion, Slam Dancing, Som-hi Dansa"
+   },
+   {
+    "q": "clases de baile barcelona",
+    "mapa": 0,
+    "ia": 0,
+    "org": 0,
+    "altres": "Time Out, Dance Emotion, La Casa del Ritmo"
+   },
+   {
+    "q": "clases de claqué barcelona",
+    "mapa": 0,
+    "ia": 0,
+    "org": 3,
+    "altres": "Luthier Dansa, Swing Maniacs; mapa: Ramon Solé"
+   },
+   {
+    "q": "ballet adultos barcelona",
+    "mapa": 0,
+    "ia": 0,
+    "org": 0,
+    "altres": "Ballet Center Barcelona, Body Ballet"
+   }
+  ]
+ },
+ "blog_transit": {
+  "data": "2026-11-23",
+  "dies": 90,
+  "pagines": [
+   [
+    "/es/blog/claque-el-baile-que-suena/",
+    26,
+    5787,
+    9.5
+   ],
+   [
+    "/blog/barre-entrenament-ballet/",
+    17,
+    400,
+    8.3
+   ],
+   [
+    "/es/blog/examenes-rad-ballet/",
+    15,
+    2203,
+    7
+   ],
+   [
+    "/es/blog/barre-entrenamiento-ballet/",
+    9,
+    1863,
+    7.9
+   ],
+   [
+    "/es/blog/beneficios-danza-ninos/",
+    9,
+    276,
+    6.5
+   ],
+   [
+    "/es/blog/a-que-edad-empezar-danza/",
+    8,
+    1645,
+    6.2
+   ],
+   [
+    "/blog/examens-rad-ballet/",
+    5,
+    179,
+    8.3
+   ],
+   [
+    "/es/blog/hip-hop-ninos-adolescentes/",
+    4,
+    433,
+    7.3
+   ],
+   [
+    "/es/blog/primer-dia-clase-danza/",
+    4,
+    176,
+    5.2
+   ],
+   [
+    "/es/blog/clasico-o-contemporaneo/",
+    3,
+    344,
+    6.1
+   ],
+   [
+    "/es/blog/danza-y-timidez/",
+    3,
+    138,
+    5.6
+   ],
+   [
+    "/blog/a-quina-edat-comencar-dansa/",
+    3,
+    46,
+    6.8
+   ],
+   [
+    "/es/blog/claque-adultos-primera-clase/",
+    2,
+    266,
+    7.8
+   ],
+   [
+    "/es/blog/empezar-danza-adultos/",
+    2,
+    257,
+    11.3
+   ],
+   [
+    "/es/blog/clases-baile-manana-barcelona/",
+    2,
+    61,
+    7.2
+   ],
+   [
+    "/blog/beneficis-dansa-nens/",
+    2,
+    47,
+    4.3
+   ],
+   [
+    "/blog/ballar-als-50-i-mes/",
+    2,
+    23,
+    4
+   ],
+   [
+    "/blog/ballar-en-familia/",
+    2,
+    21,
+    6.7
+   ],
+   [
+    "/es/blog/danza-oriental-fuerza-elegancia/",
+    1,
+    361,
+    10
+   ],
+   [
+    "/es/blog/a-que-edad-puntas-ballet/",
+    1,
+    327,
+    4.4
+   ],
+   [
+    "/es/blog/elegir-estilo-danza-hijo/",
+    1,
+    94,
+    6.6
+   ],
+   [
+    "/es/blog/bailar-a-los-50-y-mas/",
+    1,
+    86,
+    7.4
+   ],
+   [
+    "/es/blog/ropa-danza-que-llevar/",
+    1,
+    81,
+    7.1
+   ],
+   [
+    "/blog/classic-o-contemporani/",
+    1,
+    24,
+    5.4
+   ],
+   [
+    "/es/blog/historia-escuela-25-anos/",
+    0,
+    98,
+    4.8
+   ],
+   [
+    "/blog/claque-el-ball-que-sona/",
+    0,
+    83,
+    5.3
+   ],
+   [
+    "/es/blog/musica-en-las-clases/",
+    0,
+    77,
+    6.9
+   ],
+   [
+    "/es/blog/como-elegir-escuela-danza-barcelona/",
+    0,
+    49,
+    11.8
+   ],
+   [
+    "/es/blog/bailar-en-familia/",
+    0,
+    46,
+    7
+   ],
+   [
+    "/blog/triar-estil-dansa-fill/",
+    0,
+    31,
+    9.6
+   ],
+   [
+    "/es/blog/clase-de-prueba-gratuita/",
+    0,
+    29,
+    5.8
+   ],
+   [
+    "/blog/apuntar-se-amb-el-curs-comencat/",
+    0,
+    29,
+    8.6
+   ],
+   [
+    "/blog/hip-hop-nens-adolescents/",
+    0,
+    28,
+    5.1
+   ],
+   [
+    "/es/blog/primeras-semanas-de-curso/",
+    0,
+    27,
+    4.6
+   ],
+   [
+    "/blog/historia-escola-25-anys/",
+    0,
+    23,
+    9.3
+   ],
+   [
+    "/blog/roba-dansa-que-portar/",
+    0,
+    22,
+    4.4
+   ],
+   [
+    "/blog/classe-de-prova-gratuita/",
+    0,
+    18,
+    6.1
+   ],
+   [
+    "/blog/a-quina-edat-puntes-ballet/",
+    0,
+    18,
+    6.3
+   ],
+   [
+    "/blog/primeres-setmanes-de-curs/",
+    0,
+    18,
+    6.7
+   ],
+   [
+    "/es/blog/kpop-heels-jovenes/",
+    0,
+    17,
+    7.4
+   ],
+   [
+    "/blog/dansa-i-estudis/",
+    0,
+    16,
+    7.1
+   ],
+   [
+    "/blog/comencar-dansa-adults/",
+    0,
+    16,
+    8.8
+   ],
+   [
+    "/blog/kpop-heels-joves/",
+    0,
+    15,
+    8.1
+   ],
+   [
+    "/blog/dansa-oriental-forca-elegancia/",
+    0,
+    14,
+    8.9
+   ],
+   [
+    "/blog/musica-a-les-classes/",
+    0,
+    14,
+    11.5
+   ],
+   [
+    "/blog/com-triar-escola-dansa-barcelona/",
+    0,
+    11,
+    8
+   ],
+   [
+    "/es/blog/danza-y-estudios/",
+    0,
+    10,
+    4.9
+   ],
+   [
+    "/blog/primer-dia-classe-dansa/",
+    0,
+    10,
+    8.6
+   ],
+   [
+    "/blog/claque-adults-primera-classe/",
+    0,
+    8,
+    6.6
+   ],
+   [
+    "/es/blog/apuntarse-con-el-curso-empezado/",
+    0,
+    7,
+    8.9
+   ],
+   [
+    "/blog/dansa-i-timidesa/",
+    0,
+    6,
+    3.8
+   ],
+   [
+    "/es/blog/festival-fin-de-curso/",
+    0,
+    4,
+    6.2
+   ],
+   [
+    "/blog/extraescolar-de-dansa/",
+    0,
+    1,
+    8
+   ]
+  ],
+  "web_clics_90d": null
+ },
+ "valoracio": {
+  "google": {
+   "be": [
+    "Google ens ensenya un 34 % més que a l'octubre (11,9 mil cops en 28 dies).",
+    "La posició mitjana millora: de 11,5 a 10,2."
+   ],
+   "millorar": [
+    "Els clics baixen (243 → 208): sortim més, però a la gent no li ve de gust clicar. Cal que els títols i les descripcions convidin a entrar (fet el 22-nov; es veurà en 2-3 setmanes).",
+    "Les pàgines indexades baixen perquè Google ha descartat adreces velles que ja redirigeixen: és normal. Cal mirar les 7 «descobertes sense indexar»."
+   ]
   },
   "zones": {
-    "data": "2026-11-23",
-    "on": "Google amb la ubicació «Barcelona» (sense compte personalitzat)",
-    "cerques": [
-      {
-        "q": "escola de dansa",
-        "mapa": 3,
-        "ia": null,
-        "org": 1,
-        "altres": "mapa: Dansa Ramon Solé, Area Espai de Dansa",
-        "nota": "el Xavi, en incògnit des de casa (22-nov): mapa no, IA sí (2n), resultats 1r"
-      },
-      {
-        "q": "escola de dansa barcelona",
-        "mapa": 0,
-        "ia": 1,
-        "org": 2,
-        "altres": "mapa: Ramon Solé, Anna Maleras, Area"
-      },
-      {
-        "q": "escola de dansa sant gervasi",
-        "mapa": 1,
-        "ia": null,
-        "org": 1,
-        "altres": ""
-      },
-      {
-        "q": "extraescolars de dansa barcelona",
-        "mapa": null,
-        "ia": null,
-        "org": 2,
-        "altres": "1r: cet10.com"
-      },
-      {
-        "q": "escuela de danza barcelona",
-        "mapa": 0,
-        "ia": 0,
-        "org": 0,
-        "altres": "Dance Emotion, Slam Dancing, Time Out"
-      },
-      {
-        "q": "academia de danza barcelona",
-        "mapa": 0,
-        "ia": 0,
-        "org": 0,
-        "altres": "Dance Emotion, Slam Dancing, BCN Dance Center"
-      },
-      {
-        "q": "clases de danza para niños barcelona",
-        "mapa": null,
-        "ia": 0,
-        "org": 0,
-        "altres": "Dance Emotion, Slam Dancing, Som-hi Dansa"
-      },
-      {
-        "q": "clases de baile barcelona",
-        "mapa": 0,
-        "ia": 0,
-        "org": 0,
-        "altres": "Time Out, Dance Emotion, La Casa del Ritmo"
-      },
-      {
-        "q": "clases de claqué barcelona",
-        "mapa": 0,
-        "ia": 0,
-        "org": 3,
-        "altres": "Luthier Dansa, Swing Maniacs; mapa: Ramon Solé"
-      },
-      {
-        "q": "ballet adultos barcelona",
-        "mapa": 0,
-        "ia": 0,
-        "org": 0,
-        "altres": "Ballet Center Barcelona, Body Ballet"
-      }
-    ]
+   "be": [
+    "En català, quan ens busquen com a escola («escola de dansa», «… sant gervasi», «extraescolars de dansa barcelona») sortim 1rs o 2ns als resultats normals.",
+    "Al mapa sortim 1rs per «escola de dansa sant gervasi» i 3rs per «escola de dansa» (des del centre de Barcelona)."
+   ],
+   "millorar": [
+    "En castellà no sortim a la 1a pàgina per a cap cerca general («escuela de danza barcelona», «clases de baile barcelona», «academia de danza»…), i la competència (Dance Emotion, Slam Dancing) sí. Cal reforçar la portada i les pàgines en castellà.",
+    "La IA de Google respon a 8 de 10 cerques i només ens cita en 1. Necessitem que les fitxes externes (Guia BCN, GoAndance, Time Out…) diguin bé qui som.",
+    "Al mapa no sortim per a cerques generals: més ressenyes recents, fotos i posts a la fitxa."
+   ]
   },
-  "blog_transit": {
-    "data": "2026-11-23",
-    "dies": 90,
-    "pagines": [
-      [
-        "/es/blog/claque-el-baile-que-suena/",
-        26,
-        5787,
-        9.5
-      ],
-      [
-        "/blog/barre-entrenament-ballet/",
-        17,
-        400,
-        8.3
-      ],
-      [
-        "/es/blog/examenes-rad-ballet/",
-        15,
-        2203,
-        7
-      ],
-      [
-        "/es/blog/barre-entrenamiento-ballet/",
-        9,
-        1863,
-        7.9
-      ],
-      [
-        "/es/blog/beneficios-danza-ninos/",
-        9,
-        276,
-        6.5
-      ],
-      [
-        "/es/blog/a-que-edad-empezar-danza/",
-        8,
-        1645,
-        6.2
-      ],
-      [
-        "/blog/examens-rad-ballet/",
-        5,
-        179,
-        8.3
-      ],
-      [
-        "/es/blog/hip-hop-ninos-adolescentes/",
-        4,
-        433,
-        7.3
-      ],
-      [
-        "/es/blog/primer-dia-clase-danza/",
-        4,
-        176,
-        5.2
-      ],
-      [
-        "/es/blog/clasico-o-contemporaneo/",
-        3,
-        344,
-        6.1
-      ],
-      [
-        "/es/blog/danza-y-timidez/",
-        3,
-        138,
-        5.6
-      ],
-      [
-        "/blog/a-quina-edat-comencar-dansa/",
-        3,
-        46,
-        6.8
-      ],
-      [
-        "/es/blog/claque-adultos-primera-clase/",
-        2,
-        266,
-        7.8
-      ],
-      [
-        "/es/blog/empezar-danza-adultos/",
-        2,
-        257,
-        11.3
-      ],
-      [
-        "/es/blog/clases-baile-manana-barcelona/",
-        2,
-        61,
-        7.2
-      ],
-      [
-        "/blog/beneficis-dansa-nens/",
-        2,
-        47,
-        4.3
-      ],
-      [
-        "/blog/ballar-als-50-i-mes/",
-        2,
-        23,
-        4
-      ],
-      [
-        "/blog/ballar-en-familia/",
-        2,
-        21,
-        6.7
-      ],
-      [
-        "/es/blog/danza-oriental-fuerza-elegancia/",
-        1,
-        361,
-        10
-      ],
-      [
-        "/es/blog/a-que-edad-puntas-ballet/",
-        1,
-        327,
-        4.4
-      ],
-      [
-        "/es/blog/elegir-estilo-danza-hijo/",
-        1,
-        94,
-        6.6
-      ],
-      [
-        "/es/blog/bailar-a-los-50-y-mas/",
-        1,
-        86,
-        7.4
-      ],
-      [
-        "/es/blog/ropa-danza-que-llevar/",
-        1,
-        81,
-        7.1
-      ],
-      [
-        "/blog/classic-o-contemporani/",
-        1,
-        24,
-        5.4
-      ],
-      [
-        "/es/blog/historia-escuela-25-anos/",
-        0,
-        98,
-        4.8
-      ],
-      [
-        "/blog/claque-el-ball-que-sona/",
-        0,
-        83,
-        5.3
-      ],
-      [
-        "/es/blog/musica-en-las-clases/",
-        0,
-        77,
-        6.9
-      ],
-      [
-        "/es/blog/como-elegir-escuela-danza-barcelona/",
-        0,
-        49,
-        11.8
-      ],
-      [
-        "/es/blog/bailar-en-familia/",
-        0,
-        46,
-        7
-      ],
-      [
-        "/blog/triar-estil-dansa-fill/",
-        0,
-        31,
-        9.6
-      ],
-      [
-        "/es/blog/clase-de-prueba-gratuita/",
-        0,
-        29,
-        5.8
-      ],
-      [
-        "/blog/apuntar-se-amb-el-curs-comencat/",
-        0,
-        29,
-        8.6
-      ],
-      [
-        "/blog/hip-hop-nens-adolescents/",
-        0,
-        28,
-        5.1
-      ],
-      [
-        "/es/blog/primeras-semanas-de-curso/",
-        0,
-        27,
-        4.6
-      ],
-      [
-        "/blog/historia-escola-25-anys/",
-        0,
-        23,
-        9.3
-      ],
-      [
-        "/blog/roba-dansa-que-portar/",
-        0,
-        22,
-        4.4
-      ],
-      [
-        "/blog/classe-de-prova-gratuita/",
-        0,
-        18,
-        6.1
-      ],
-      [
-        "/blog/a-quina-edat-puntes-ballet/",
-        0,
-        18,
-        6.3
-      ],
-      [
-        "/blog/primeres-setmanes-de-curs/",
-        0,
-        18,
-        6.7
-      ],
-      [
-        "/es/blog/kpop-heels-jovenes/",
-        0,
-        17,
-        7.4
-      ],
-      [
-        "/blog/dansa-i-estudis/",
-        0,
-        16,
-        7.1
-      ],
-      [
-        "/blog/comencar-dansa-adults/",
-        0,
-        16,
-        8.8
-      ],
-      [
-        "/blog/kpop-heels-joves/",
-        0,
-        15,
-        8.1
-      ],
-      [
-        "/blog/dansa-oriental-forca-elegancia/",
-        0,
-        14,
-        8.9
-      ],
-      [
-        "/blog/musica-a-les-classes/",
-        0,
-        14,
-        11.5
-      ],
-      [
-        "/blog/com-triar-escola-dansa-barcelona/",
-        0,
-        11,
-        8
-      ],
-      [
-        "/es/blog/danza-y-estudios/",
-        0,
-        10,
-        4.9
-      ],
-      [
-        "/blog/primer-dia-classe-dansa/",
-        0,
-        10,
-        8.6
-      ],
-      [
-        "/blog/claque-adults-primera-classe/",
-        0,
-        8,
-        6.6
-      ],
-      [
-        "/es/blog/apuntarse-con-el-curso-empezado/",
-        0,
-        7,
-        8.9
-      ],
-      [
-        "/blog/dansa-i-timidesa/",
-        0,
-        6,
-        3.8
-      ],
-      [
-        "/es/blog/festival-fin-de-curso/",
-        0,
-        4,
-        6.2
-      ],
-      [
-        "/blog/extraescolar-de-dansa/",
-        0,
-        1,
-        8
-      ]
-    ],
-    "web_clics_90d": null
+  "cerques": {
+   "be": [
+    "13 de 35 cerques ja són a la 1a pàgina, sobretot les del claqué, la dansa oriental i les de l'escola en català.",
+    "El castellà general ha pujat molt des de l'octubre (de la posició 40-54 a la 18-27)."
+   ],
+   "millorar": [
+    "De les cerques de famílies amb nens, només «hip hop para niños» és a la 1a pàgina (8). «clases de danza para niños en barcelona» és a la 27: és la prioritat per a la portada en castellà i /es/danza-infantil/.",
+    "Les cerques amb més gent a Barcelona (100-1.000 al mes) són «escuelas de baile barcelona», «academia de baile barcelona», «clases de baile barcelona» i «extraescolares barcelona», i en totes som a la 3a pàgina o més avall. En castellà la gent diu «baile» més que «danza»."
+   ]
   },
-  "valoracio": {
-    "google": {
-      "be": [
-        "Google ens ensenya un 34 % més que a l'octubre (11,9 mil cops en 28 dies).",
-        "La posició mitjana millora: de 11,5 a 10,2."
-      ],
-      "millorar": [
-        "Els clics baixen (243 → 208): sortim més, però a la gent no li ve de gust clicar. Cal que els títols i les descripcions convidin a entrar (fet el 22-nov; es veurà en 2-3 setmanes).",
-        "Les pàgines indexades baixen perquè Google ha descartat adreces velles que ja redirigeixen: és normal. Cal mirar les 7 «descobertes sense indexar»."
-      ]
-    },
-    "zones": {
-      "be": [
-        "En català, quan ens busquen com a escola («escola de dansa», «… sant gervasi», «extraescolars de dansa barcelona») sortim 1rs o 2ns als resultats normals.",
-        "Al mapa sortim 1rs per «escola de dansa sant gervasi» i 3rs per «escola de dansa» (des del centre de Barcelona)."
-      ],
-      "millorar": [
-        "En castellà no sortim a la 1a pàgina per a cap cerca general («escuela de danza barcelona», «clases de baile barcelona», «academia de danza»…), i la competència (Dance Emotion, Slam Dancing) sí. Cal reforçar la portada i les pàgines en castellà.",
-        "La IA de Google respon a 8 de 10 cerques i només ens cita en 1. Necessitem que les fitxes externes (Guia BCN, GoAndance, Time Out…) diguin bé qui som.",
-        "Al mapa no sortim per a cerques generals: més ressenyes recents, fotos i posts a la fitxa."
-      ]
-    },
-    "cerques": {
-      "be": [
-        "13 de 35 cerques ja són a la 1a pàgina, sobretot les del claqué, la dansa oriental i les de l'escola en català.",
-        "El castellà general ha pujat molt des de l'octubre (de la posició 40-54 a la 18-27)."
-      ],
-      "millorar": [
-        "De les cerques de famílies amb nens, només «hip hop para niños» és a la 1a pàgina (8). «clases de danza para niños en barcelona» és a la 27: és la prioritat per a la portada en castellà i /es/danza-infantil/.",
-        "Les cerques amb més gent a Barcelona (100-1.000 al mes) són «escuelas de baile barcelona», «academia de baile barcelona», «clases de baile barcelona» i «extraescolares barcelona», i en totes som a la 3a pàgina o més avall. En castellà la gent diu «baile» més que «danza»."
-      ]
-    },
-    "ia": {
-      "be": [
-        "Copilot (Bing) ens cita cada cop més: 135 cops en 3 mesos, sobretot els articles del blog en castellà."
-      ],
-      "millorar": [
-        "La IA dona l'horari i els estils malament perquè llegeix fitxes antigues d'altres webs (Guia BCN de l'Ajuntament, GoAndance). Corregir-les és el que més ajudarà.",
-        "Una resposta ens diu «centre municipal»: ho treu de la Guia BCN."
-      ]
-    },
-    "fitxa": {
-      "be": [
-        "La nota és molt bona (4,8) i ja tenim 45 opinions (eren 22 al setembre).",
-        "Cada post del blog es publica sol a la fitxa."
-      ],
-      "millorar": [
-        "Al mapa només sortim quan la cerca és a prop de l'escola o diu «Sant Gervasi». Per sortir més: demanar ressenyes recents (amb paraules com «ballet», «claqué», «extraescolar»), pujar fotos noves cada mes i posar l'horari de Nadal.",
-        "Les dades de què fa la gent a la fitxa són de l'agost: cal tornar-les a mirar."
-      ]
-    },
-    "blog": {
-      "be": [
-        "Alguns articles porten gent de manera constant: el del claqué (26 visites, 5.800 cops vist), el barre (26 entre català i castellà) i els exàmens RAD (20).",
-        "Els articles en castellà són els que més surten i els que més cita la IA."
-      ],
-      "millorar": [
-        "La majoria d'articles surten a Google però gairebé ningú hi clica: cal revisar-ne el títol i la descripció.",
-        "Des del 23-nov la web ja compta els clics a WhatsApp, telèfon, correu i formulari, amb la pàgina d'entrada. Les primeres dades arribaran en uns dies."
-      ]
-    },
-    "tecnic": {
-      "be": [
-        "Tot verd: Google i la IA poden llegir bé tota la web.",
-        "Els títols i les descripcions ja tenen la mida bona, i si algun dia no la té, la web no es publica."
-      ],
-      "millorar": [
-        "Validar a Search Console les 16 adreces 404 (ja redirigeixen)."
-      ]
-    }
+  "ia": {
+   "be": [
+    "Copilot (Bing) ens cita cada cop més: 135 cops en 3 mesos, sobretot els articles del blog en castellà."
+   ],
+   "millorar": [
+    "La IA dona l'horari i els estils malament perquè llegeix fitxes antigues d'altres webs (Guia BCN de l'Ajuntament, GoAndance). Corregir-les és el que més ajudarà.",
+    "Una resposta ens diu «centre municipal»: ho treu de la Guia BCN."
+   ]
   },
-  "volums": {
-    "academia de baile barcelona": "100 - 1 mil",
-    "academia de danza barcelona": "10 - 100",
-    "ballet adultos barcelona": "10 - 100",
-    "ballet barcelona": "100 - 1 mil",
-    "claqué baile": "10 - 100",
-    "claqué": "100 - 1 mil",
-    "clases de baile adultos barcelona": "—",
-    "clases de baile barcelona": "100 - 1 mil",
-    "clases de baile para adultos barcelona": "100 - 1 mil",
-    "clases de baile para mayores de 60": "10 - 100",
-    "clases de ballet barcelona": "10 - 100",
-    "clases de barre barcelona": "10 - 100",
-    "clases de claqué barcelona": "10 - 100",
-    "clases de claqué": "10 - 100",
-    "clases de danza barcelona": "10 - 100",
-    "clases de danza contemporanea barcelona": "10 - 100",
-    "clases de danza para niños en barcelona": "—",
-    "clases de danza para niños barcelona": "—",
-    "clases de hip hop barcelona": "10 - 100",
-    "clases de jazz barcelona": "10 - 100",
-    "clases de teatro para niños en barcelona": "—",
-    "dansa barcelona": "10 - 100",
-    "danza barcelona": "10 - 100",
-    "danza barre": "10 - 100",
-    "danza contemporánea barcelona": "10 - 100",
-    "danza del vientre barcelona": "10 - 100",
-    "danza oriental barcelona": "10 - 100",
-    "danza oriental": "10 - 100",
-    "escola dansa barcelona": "10 - 100",
-    "escola de ball barcelona": "10 - 100",
-    "escola de dansa barcelona": "10 - 100",
-    "escola de dansa sant gervasi": "—",
-    "escola de dansa": "100 - 1 mil",
-    "escoles de dansa barcelona": "10 - 100",
-    "escuela de baile para niños barcelona": "—",
-    "escuela de danza barcelona": "—",
-    "escuelas de baile barcelona": "100 - 1 mil",
-    "examen rad": "10 - 100",
-    "exercicis de dansa": "10 - 100",
-    "extraescolar de dansa": "—",
-    "extraescolares baile barcelona": "—",
-    "extraescolares barcelona": "100 - 1 mil",
-    "extraescolars de dansa barcelona": "—",
-    "hip hop para niños": "—",
-    "jazz dance barcelona": "10 - 100",
-    "clases de k-pop barcelona": "—"
+  "fitxa": {
+   "be": [
+    "La nota és molt bona (4,8) i ja tenim 45 opinions (eren 22 al setembre).",
+    "Cada post del blog es publica sol a la fitxa."
+   ],
+   "millorar": [
+    "Al mapa només sortim quan la cerca és a prop de l'escola o diu «Sant Gervasi». Per sortir més: demanar ressenyes recents (amb paraules com «ballet», «claqué», «extraescolar»), pujar fotos noves cada mes i posar l'horari de Nadal.",
+    "Les dades de què fa la gent a la fitxa són de l'agost: cal tornar-les a mirar."
+   ]
   },
-  "volums_info": {
-    "data": "2026-11-23",
-    "zona": "Barcelona ciutat",
-    "font": "Planificador de paraules clau de Google Ads (franges: sense campanya activa Google no dona la xifra exacta)"
+  "blog": {
+   "be": [
+    "Alguns articles porten gent de manera constant: el del claqué (26 visites, 5.800 cops vist), el barre (26 entre català i castellà) i els exàmens RAD (20).",
+    "Els articles en castellà són els que més surten i els que més cita la IA."
+   ],
+   "millorar": [
+    "La majoria d'articles surten a Google però gairebé ningú hi clica: cal revisar-ne el títol i la descripció.",
+    "Des del 23-nov la web ja compta els clics a WhatsApp, telèfon, correu i formulari, amb la pàgina d'entrada. Les primeres dades arribaran en uns dies."
+   ]
   },
-  "oportunitats": {
-    "data": "2026-11-23",
-    "barcelona": [
-      {
-        "q": "escuelas de baile barcelona",
-        "vol": "100 - 1 mil",
-        "pos": 35.1
-      },
-      {
-        "q": "academia de baile barcelona",
-        "vol": "100 - 1 mil",
-        "pos": 37.0,
-        "nota": "Search Console: «academia baile barcelona»"
-      },
-      {
-        "q": "clases de baile barcelona",
-        "vol": "100 - 1 mil",
-        "pos": 26.4
-      },
-      {
-        "q": "extraescolares barcelona",
-        "vol": "100 - 1 mil",
-        "pos": null
-      },
-      {
-        "q": "ballet barcelona",
-        "vol": "100 - 1 mil",
-        "pos": 3.3,
-        "nota": "només 3 cops vista: hi sortim poc"
-      },
-      {
-        "q": "clases de baile para adultos barcelona",
-        "vol": "100 - 1 mil",
-        "pos": 9.4
-      },
-      {
-        "q": "escola de dansa",
-        "vol": "100 - 1 mil",
-        "pos": 4.8
-      },
-      {
-        "q": "claqué",
-        "vol": "100 - 1 mil",
-        "pos": 9.1
-      }
-    ],
-    "espanya": [
-      [
-        "clases de baile",
-        "1 mil - 10 mil"
-      ],
-      [
-        "academia de baile",
-        "1 mil - 10 mil"
-      ],
-      [
-        "clases de baile cerca de mi",
-        "1 mil - 10 mil"
-      ],
-      [
-        "academia de baile cerca de mi",
-        "1 mil - 10 mil"
-      ],
-      [
-        "clase de baile cerca de mi",
-        "1 mil - 10 mil"
-      ],
-      [
-        "actividad extraescolar",
-        "1 mil - 10 mil"
-      ],
-      [
-        "clases de baile para adultos",
-        "100 - 1 mil"
-      ],
-      [
-        "ballet para adultos",
-        "100 - 1 mil"
-      ],
-      [
-        "clases de ballet para niñas",
-        "100 - 1 mil"
-      ],
-      [
-        "escuelas de ballet",
-        "100 - 1 mil"
-      ],
-      [
-        "academia de danza cerca de mi",
-        "100 - 1 mil"
-      ]
-    ]
+  "tecnic": {
+   "be": [
+    "Tot verd: Google i la IA poden llegir bé tota la web.",
+    "Els títols i les descripcions ja tenen la mida bona, i si algun dia no la té, la web no es publica."
+   ],
+   "millorar": [
+    "Validar a Search Console les 16 adreces 404 (ja redirigeixen)."
+   ]
   }
+ },
+ "volums": {
+  "academia de baile barcelona": "100 - 1 mil",
+  "academia de danza barcelona": "10 - 100",
+  "ballet adultos barcelona": "10 - 100",
+  "ballet barcelona": "100 - 1 mil",
+  "claqué baile": "10 - 100",
+  "claqué": "100 - 1 mil",
+  "clases de baile adultos barcelona": "—",
+  "clases de baile barcelona": "100 - 1 mil",
+  "clases de baile para adultos barcelona": "100 - 1 mil",
+  "clases de baile para mayores de 60": "10 - 100",
+  "clases de ballet barcelona": "10 - 100",
+  "clases de barre barcelona": "10 - 100",
+  "clases de claqué barcelona": "10 - 100",
+  "clases de claqué": "10 - 100",
+  "clases de danza barcelona": "10 - 100",
+  "clases de danza contemporanea barcelona": "10 - 100",
+  "clases de danza para niños en barcelona": "—",
+  "clases de danza para niños barcelona": "—",
+  "clases de hip hop barcelona": "10 - 100",
+  "clases de jazz barcelona": "10 - 100",
+  "clases de teatro para niños en barcelona": "—",
+  "dansa barcelona": "10 - 100",
+  "danza barcelona": "10 - 100",
+  "danza barre": "10 - 100",
+  "danza contemporánea barcelona": "10 - 100",
+  "danza del vientre barcelona": "10 - 100",
+  "danza oriental barcelona": "10 - 100",
+  "danza oriental": "10 - 100",
+  "escola dansa barcelona": "10 - 100",
+  "escola de ball barcelona": "10 - 100",
+  "escola de dansa barcelona": "10 - 100",
+  "escola de dansa sant gervasi": "—",
+  "escola de dansa": "100 - 1 mil",
+  "escoles de dansa barcelona": "10 - 100",
+  "escuela de baile para niños barcelona": "—",
+  "escuela de danza barcelona": "—",
+  "escuelas de baile barcelona": "100 - 1 mil",
+  "examen rad": "10 - 100",
+  "exercicis de dansa": "10 - 100",
+  "extraescolar de dansa": "—",
+  "extraescolares baile barcelona": "—",
+  "extraescolares barcelona": "100 - 1 mil",
+  "extraescolars de dansa barcelona": "—",
+  "hip hop para niños": "—",
+  "jazz dance barcelona": "10 - 100",
+  "clases de k-pop barcelona": "—"
+ },
+ "volums_info": {
+  "data": "2026-11-23",
+  "zona": "Barcelona ciutat",
+  "font": "Planificador de paraules clau de Google Ads (franges: sense campanya activa Google no dona la xifra exacta)"
+ },
+ "oportunitats": {
+  "data": "2026-11-23",
+  "barcelona": [
+   {
+    "q": "escuelas de baile barcelona",
+    "vol": "100 - 1 mil",
+    "pos": 35.1
+   },
+   {
+    "q": "academia de baile barcelona",
+    "vol": "100 - 1 mil",
+    "pos": 37.0,
+    "nota": "Search Console: «academia baile barcelona»"
+   },
+   {
+    "q": "clases de baile barcelona",
+    "vol": "100 - 1 mil",
+    "pos": 26.4
+   },
+   {
+    "q": "extraescolares barcelona",
+    "vol": "100 - 1 mil",
+    "pos": null
+   },
+   {
+    "q": "ballet barcelona",
+    "vol": "100 - 1 mil",
+    "pos": 3.3,
+    "nota": "només 3 cops vista: hi sortim poc"
+   },
+   {
+    "q": "clases de baile para adultos barcelona",
+    "vol": "100 - 1 mil",
+    "pos": 9.4
+   },
+   {
+    "q": "escola de dansa",
+    "vol": "100 - 1 mil",
+    "pos": 4.8
+   },
+   {
+    "q": "claqué",
+    "vol": "100 - 1 mil",
+    "pos": 9.1
+   }
+  ],
+  "espanya": [
+   [
+    "clases de baile",
+    "1 mil - 10 mil"
+   ],
+   [
+    "academia de baile",
+    "1 mil - 10 mil"
+   ],
+   [
+    "clases de baile cerca de mi",
+    "1 mil - 10 mil"
+   ],
+   [
+    "academia de baile cerca de mi",
+    "1 mil - 10 mil"
+   ],
+   [
+    "clase de baile cerca de mi",
+    "1 mil - 10 mil"
+   ],
+   [
+    "actividad extraescolar",
+    "1 mil - 10 mil"
+   ],
+   [
+    "clases de baile para adultos",
+    "100 - 1 mil"
+   ],
+   [
+    "ballet para adultos",
+    "100 - 1 mil"
+   ],
+   [
+    "clases de ballet para niñas",
+    "100 - 1 mil"
+   ],
+   [
+    "escuelas de ballet",
+    "100 - 1 mil"
+   ],
+   [
+    "academia de danza cerca de mi",
+    "100 - 1 mil"
+   ]
+  ]
+ }
 }
