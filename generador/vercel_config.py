@@ -67,6 +67,8 @@ LINK = ('<https://escoladansa.com/llms.txt>; rel="describedby llms-txt", '
 
 ES_MARKDOWN = [{"type": "header", "key": "accept", "value": ".*text/markdown.*"}]
 
+RESSENYA = "https://www.google.com/maps/place//data=!4m3!3m2!1s0x12a498058ae5143b:0x3e4c73a94bf156d!12e1"
+
 config = {
     "$schema": "https://openapi.vercel.sh/vercel.json",
     "framework": None,
@@ -78,6 +80,11 @@ config = {
         # www → arrel, en un sol salt (com feia el .htaccess de Webempresa)
         {"source": "/:cami*", "has": [{"type": "host", "value": "www.escoladansa.com"}],
          "destination": "https://escoladansa.com/:cami*", "statusCode": 301},
+        # enllaç curt per demanar ressenyes (WhatsApp, QR): obre «escriure una ressenya» a la
+        # fitxa de Google. 302 perquè, si Google canvia l'enllaç, el puguem canviar aquí.
+    ] + [
+        {"source": f"/{nom}{barra}", "destination": RESSENYA, "statusCode": 302}
+        for nom in ("ressenya", "resena") for barra in ("", "/")
     ] + [
         {"source": f"/:cami({regex})", "destination": desti, "statusCode": 301}
         for regex, desti in REDIRECCIONS

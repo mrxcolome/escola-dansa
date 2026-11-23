@@ -18,6 +18,26 @@
       "statusCode": 301
     },
     {
+      "source": "/ressenya",
+      "destination": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x12a498058ae5143b:0x3e4c73a94bf156d!12e1",
+      "statusCode": 302
+    },
+    {
+      "source": "/ressenya/",
+      "destination": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x12a498058ae5143b:0x3e4c73a94bf156d!12e1",
+      "statusCode": 302
+    },
+    {
+      "source": "/resena",
+      "destination": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x12a498058ae5143b:0x3e4c73a94bf156d!12e1",
+      "statusCode": 302
+    },
+    {
+      "source": "/resena/",
+      "destination": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x12a498058ae5143b:0x3e4c73a94bf156d!12e1",
+      "statusCode": 302
+    },
+    {
       "source": "/:cami(inici/?)",
       "destination": "/",
       "statusCode": 301
