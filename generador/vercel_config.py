@@ -67,7 +67,7 @@ LINK = ('<https://escoladansa.com/llms.txt>; rel="describedby llms-txt", '
 
 ES_MARKDOWN = [{"type": "header", "key": "accept", "value": ".*text/markdown.*"}]
 
-RESSENYA = "https://www.google.com/maps/place//data=!4m3!3m2!1s0x12a498058ae5143b:0x3e4c73a94bf156d!12e1"
+RESSENYA = "https://www.google.com/maps/place//data=!4m3!3m2!1s0x12a498058ae5143b%3A0x3e4c73a94bf156d!12e1"  # els «:» van com a %3A: Vercel els llegiria com un paràmetre
 
 config = {
     "$schema": "https://openapi.vercel.sh/vercel.json",
