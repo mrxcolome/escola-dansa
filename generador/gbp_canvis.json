@@ -1,1 +1,90 @@
-{}
+{
+ "regularHours": {
+  "periods": [
+   {
+    "openDay": "MONDAY",
+    "openTime": {
+     "hours": 10,
+     "minutes": 0
+    },
+    "closeDay": "MONDAY",
+    "closeTime": {
+     "hours": 11,
+     "minutes": 0
+    }
+   },
+   {
+    "openDay": "WEDNESDAY",
+    "openTime": {
+     "hours": 10,
+     "minutes": 0
+    },
+    "closeDay": "WEDNESDAY",
+    "closeTime": {
+     "hours": 11,
+     "minutes": 0
+    }
+   },
+   {
+    "openDay": "MONDAY",
+    "openTime": {
+     "hours": 17,
+     "minutes": 0
+    },
+    "closeDay": "MONDAY",
+    "closeTime": {
+     "hours": 21,
+     "minutes": 45
+    }
+   },
+   {
+    "openDay": "TUESDAY",
+    "openTime": {
+     "hours": 17,
+     "minutes": 0
+    },
+    "closeDay": "TUESDAY",
+    "closeTime": {
+     "hours": 21,
+     "minutes": 45
+    }
+   },
+   {
+    "openDay": "WEDNESDAY",
+    "openTime": {
+     "hours": 17,
+     "minutes": 0
+    },
+    "closeDay": "WEDNESDAY",
+    "closeTime": {
+     "hours": 21,
+     "minutes": 45
+    }
+   },
+   {
+    "openDay": "THURSDAY",
+    "openTime": {
+     "hours": 17,
+     "minutes": 0
+    },
+    "closeDay": "THURSDAY",
+    "closeTime": {
+     "hours": 21,
+     "minutes": 45
+    }
+   },
+   {
+    "openDay": "FRIDAY",
+    "openTime": {
+     "hours": 17,
+     "minutes": 0
+    },
+    "closeDay": "FRIDAY",
+    "closeTime": {
+     "hours": 20,
+     "minutes": 45
+    }
+   }
+  ]
+ }
+}
